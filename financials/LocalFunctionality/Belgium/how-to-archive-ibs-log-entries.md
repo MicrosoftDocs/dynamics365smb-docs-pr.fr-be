@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="archive-ibs-log-entries"></a>Archiver les entrées de journal IBS
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Les lignes de journal IBS ayant le statut de processus **Traité** peuvent être archivées. Les journaux IBS contiennent des informations sur les fichiers de banque électronique créés au cours des transferts par banque électronique via Isabel.  
 

@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="download-coda-files-from-an-isabel-server"></a>Télécharger des fichiers CODA à partir d'un serveur Isabel
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Les fichiers CODA peuvent être téléchargés manuellement ou en mode assisté.  
 

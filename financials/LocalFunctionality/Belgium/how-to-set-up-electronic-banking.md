@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="set-up-electronic-banking"></a>Configurer des opérations bancaires électroniques
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Avec la banque électronique, vous pouvez effectuer des paiements électroniques aux fournisseurs et clients nationaux, internationaux, SEPA et SEPA non-euro.  
 

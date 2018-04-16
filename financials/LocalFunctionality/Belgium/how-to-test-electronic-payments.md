@@ -21,7 +21,7 @@ ms.lasthandoff: 03/22/2018
 ---
 # <a name="test-electronic-payments"></a>Tester les paiements électroniques
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 Après avoir créé des transactions bancaires électroniques et des propositions de paiement générées, vous pouvez tester les lignes feuille paiement pour les erreurs avant de les valider.  
 
