@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 56ec2a1113da913d21c7e9e2f2c3495d4d1f2ba7
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: e2971c2c0258d4bae4e8b0ffd0ac3330cec98643
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="upload-payment-files-to-an-isabel-server"></a><span data-ttu-id="fb646-104">Télécharger des fichiers de paiement sur un serveur Isabel</span><span class="sxs-lookup"><span data-stu-id="fb646-104">Upload Payment Files to an Isabel Server</span></span>
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 <span data-ttu-id="fb646-105">Les fichiers de paiement peuvent être téléchargés à l'aide de la fenêtre **Journaux IBS**.</span><span class="sxs-lookup"><span data-stu-id="fb646-105">Payment files can be uploaded using the **IBS Logs** window.</span></span> <span data-ttu-id="fb646-106">Les champs **Mode d'intégration du téléchargement (amont)** et **Mode d'intégration du téléchargement (aval)** dans la fenêtre **Configuration de la banque électronique** doivent être définis sur **Interactif** pour charger des fichiers paiement.</span><span class="sxs-lookup"><span data-stu-id="fb646-106">The **Upload Integration Mode** and **Download Integration Mode** fields in the **Electronic Banking Setup** window must be set to **Attended** to upload payment files.</span></span>  
 

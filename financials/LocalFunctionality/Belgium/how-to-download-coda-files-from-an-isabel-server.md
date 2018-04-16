@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: df740364646240f1b3512b7adb975b73106721ab
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0886c16130d4cc67c8838248c8f9ec6537488307
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="download-coda-files-from-an-isabel-server"></a><span data-ttu-id="043a7-103">Télécharger des fichiers CODA à partir d'un serveur Isabel</span><span class="sxs-lookup"><span data-stu-id="043a7-103">Download CODA Files from an Isabel Server</span></span>
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 <span data-ttu-id="043a7-104">Les fichiers CODA peuvent être téléchargés manuellement ou en mode assisté.</span><span class="sxs-lookup"><span data-stu-id="043a7-104">CODA files can be downloaded manually or in attended mode.</span></span>  
 

@@ -13,15 +13,15 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: cad8f8a66646abce97d73e76b34ea8886603d905
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3b506400edac4a5aecc69e41cbe09d260f3d5011
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="export-and-post-domiciliations"></a><span data-ttu-id="ef9a0-104">Exporter et valider les domiciliations</span><span class="sxs-lookup"><span data-stu-id="ef9a0-104">Export and Post Domiciliations</span></span>
 > [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
+> [!INCLUDE [onprem_only](../../includes/onprem_only_md.md)]
 
 <span data-ttu-id="ef9a0-105">Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="ef9a0-105">You can submit domiciliations to your bank by exporting the data to a file.</span></span> <span data-ttu-id="ef9a0-106">Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes en comptabilité.</span><span class="sxs-lookup"><span data-stu-id="ef9a0-106">When you export to a file, you can choose to automatically post the lines to the general ledger.</span></span>  
 

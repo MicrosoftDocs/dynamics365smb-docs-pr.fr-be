@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: ccd55fda375ee7df5fa4ed6e5b0353cde0211df2
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b4fd03cc99583534a604d257d4a64afeb5c1566f
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a><span data-ttu-id="9de5d-104">Lettrer et délettrer des écritures comptables</span><span class="sxs-lookup"><span data-stu-id="9de5d-104">Apply and Unapply General Ledger Entries</span></span>
@@ -28,9 +28,9 @@ ms.lasthandoff: 03/22/2018
 - <span data-ttu-id="9de5d-109">Les transferts de transactions financières d'un système à l'autre, dans lesquels une partie des informations est temporairement hébergée dans le système d'origine.</span><span class="sxs-lookup"><span data-stu-id="9de5d-109">Financial transaction transfers from one system to another in which part of the information temporarily resides on the original system.</span></span>  
 - <span data-ttu-id="9de5d-110">Les transactions pour lesquelles vous avez émis une facture vente à un client, mais n'avez pas encore reçu la facture achat correspondante du fournisseur.</span><span class="sxs-lookup"><span data-stu-id="9de5d-110">Transactions for which you have issued a sales invoice to a customer but have not yet received the corresponding purchase invoice from the vendor.</span></span>  
 
- <span data-ttu-id="9de5d-111">Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la fonction de lettrage des écritures pour mettre à jour les écritures comptables validées et le type de compte de validation.</span><span class="sxs-lookup"><span data-stu-id="9de5d-111">When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.</span></span>  
+  <span data-ttu-id="9de5d-111">Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la fonction de lettrage des écritures pour mettre à jour les écritures comptables validées et le type de compte de validation.</span><span class="sxs-lookup"><span data-stu-id="9de5d-111">When the ledger entries have been processed, you can use the apply entries function to update the posted ledger entries and the posting account type.</span></span>  
 
- <span data-ttu-id="9de5d-112">Vous pouvez délettrer les écritures comptables lettrées, puis ouvrir les écritures clôturées pour effectuer les modifications.</span><span class="sxs-lookup"><span data-stu-id="9de5d-112">You can unapply the applied general ledger entries and then open the closed entries to make changes.</span></span>  
+  <span data-ttu-id="9de5d-112">Vous pouvez délettrer les écritures comptables lettrées, puis ouvrir les écritures clôturées pour effectuer les modifications.</span><span class="sxs-lookup"><span data-stu-id="9de5d-112">You can unapply the applied general ledger entries and then open the closed entries to make changes.</span></span>  
 
 ## <a name="to-apply-general-ledger-entries"></a><span data-ttu-id="9de5d-113">Pour lettrer des écritures comptables</span><span class="sxs-lookup"><span data-stu-id="9de5d-113">To apply general ledger entries</span></span>  
 
