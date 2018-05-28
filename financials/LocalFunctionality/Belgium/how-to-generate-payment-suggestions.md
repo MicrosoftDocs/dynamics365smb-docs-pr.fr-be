@@ -1,6 +1,7 @@
 ---
 title: "Comment générer des propositions de paiement"
 description: "Après avoir créé des transactions bancaires électroniques, vous pouvez commencer à générer des propositions de paiement. Pour cela, utilisez une feuille paiement."
+redirect_url: belgian-electronic-payments
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +14,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 1c7a748f48cb36b30851795119a072ab6d77c961
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: adb693695327f0aeae89f56d659b7d4ae4cad90a
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="generate-payment-suggestions"></a><span data-ttu-id="f964d-104">Générer des propositions de paiement</span><span class="sxs-lookup"><span data-stu-id="f964d-104">Generate Payment Suggestions</span></span>
