@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 22f67c0aeaf821a5d9db03d3ca5cb57226149ae9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0da7a0a08aeeebe5316c089538482780d82cb5d3
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="apply-coda-statements"></a><span data-ttu-id="d3eb7-104">Lettrer des relevés CODA</span><span class="sxs-lookup"><span data-stu-id="d3eb7-104">Apply CODA Statements</span></span>
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/22/2018
     |<span data-ttu-id="d3eb7-116">Champ</span><span class="sxs-lookup"><span data-stu-id="d3eb7-116">Field</span></span>|<span data-ttu-id="d3eb7-117">Description</span><span class="sxs-lookup"><span data-stu-id="d3eb7-117">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
     |<span data-ttu-id="d3eb7-118">**N° compte**</span><span class="sxs-lookup"><span data-stu-id="d3eb7-118">**Account No.**</span></span>|<span data-ttu-id="d3eb7-119">Entrez le numéro du compte général, la banque, le client, le fournisseur ou l'immobilisation auquel la ligne relevé compte bancaire est liée.</span><span class="sxs-lookup"><span data-stu-id="d3eb7-119">Enter the number of the general ledger account, bank, customer, vendor, or fixed asset, which the bank account statement line is linked to.</span></span>|  
-    |<span data-ttu-id="d3eb7-120">**Description**</span><span class="sxs-lookup"><span data-stu-id="d3eb7-120">**Description**</span></span>|[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="d3eb7-121"> récupère automatiquement la description à partir du fichier CODA importé, mais vous pouvez modifier le contenu de ce champ.</span><span class="sxs-lookup"><span data-stu-id="d3eb7-121"> automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.</span></span>|  
+    |<span data-ttu-id="d3eb7-120">**Description**</span><span class="sxs-lookup"><span data-stu-id="d3eb7-120">**Description**</span></span>|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="d3eb7-121">récupère automatiquement la description à partir du fichier CODA importé, mais vous pouvez modifier le contenu de ce champ.</span><span class="sxs-lookup"><span data-stu-id="d3eb7-121"> automatically retrieves the description from the imported CODA file, but you can modify the contents of this field.</span></span>|  
 
 5.  <span data-ttu-id="d3eb7-122">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="d3eb7-122">Choose the **OK** button.</span></span>  
 

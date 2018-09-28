@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ceff51934c1c3604328a139b8a4a4aefac6e91fd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b35ff920bc306cfd49fb7dce959a69b582042eb
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="coda-bank-statements"></a><span data-ttu-id="fc041-103">Relevés bancaires CODA</span><span class="sxs-lookup"><span data-stu-id="fc041-103">CODA Bank Statements</span></span>
 <span data-ttu-id="fc041-104">Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.</span><span class="sxs-lookup"><span data-stu-id="fc041-104">The Coded Statement of Account (CODA) is a national banking standard, designed by the Belgian Banker's Association, which allows you to automatically process electronic bank statements.</span></span>  
 
-<span data-ttu-id="fc041-105">Chaque type de transaction d'un relevé CODA se voit attribuer un code unique.</span><span class="sxs-lookup"><span data-stu-id="fc041-105">Each type of transaction in a CODA statement is assigned a unique code.</span></span> [!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="fc041-106"> utilise ce code pour interpréter les transactions et les lettrer aux écritures comptables correspondantes.</span><span class="sxs-lookup"><span data-stu-id="fc041-106"> uses this code to interpret transactions and apply them to the corresponding ledger entries.</span></span>  
+<span data-ttu-id="fc041-105">Chaque type de transaction d'un relevé CODA se voit attribuer un code unique.</span><span class="sxs-lookup"><span data-stu-id="fc041-105">Each type of transaction in a CODA statement is assigned a unique code.</span></span> [!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="fc041-106">utilise ce code pour interpréter les transactions et les lettrer aux écritures comptables correspondantes.</span><span class="sxs-lookup"><span data-stu-id="fc041-106"> uses this code to interpret transactions and apply them to the corresponding ledger entries.</span></span>  
 
 ## <a name="applying-statement-lines"></a><span data-ttu-id="fc041-107">Lettrage des lignes relevé</span><span class="sxs-lookup"><span data-stu-id="fc041-107">Applying Statement Lines</span></span>  
 <span data-ttu-id="fc041-108">Lorsque vous avez importé un relevé CODA, vous pouvez lettrer les lignes relevé à des écritures comptables existantes selon les informations reprises dans la table **Encodage CODA**.</span><span class="sxs-lookup"><span data-stu-id="fc041-108">When you have imported a CODA statement, you can apply the statement lines to existing ledger entries, based on the information in the **Transaction Coding** table.</span></span>  

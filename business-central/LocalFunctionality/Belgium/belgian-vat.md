@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/31/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 243c13d8f0dccaf8fb3e26dc0ab97ea6975cd0af
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6091e33600641d1d5fa6624c0dce48bd663ddb48
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="belgian-vat"></a><span data-ttu-id="5062e-103">TVA belge</span><span class="sxs-lookup"><span data-stu-id="5062e-103">Belgian VAT</span></span>
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]<span data-ttu-id="5062e-104"> comprend des améliorations de la Belgique à la fonction de report de TVA qui vous permet d'imprimer les détails de transaction TVA.</span><span class="sxs-lookup"><span data-stu-id="5062e-104"> includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details.</span></span> <span data-ttu-id="5062e-105">Vous devez envoyer les états suivants aux autorités fiscales belges :</span><span class="sxs-lookup"><span data-stu-id="5062e-105">You must send the following reports to the Belgian tax authorities:</span></span>  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)] <span data-ttu-id="5062e-104">comprend des améliorations de la Belgique à la fonction de report de TVA qui vous permet d'imprimer les détails de transaction TVA.</span><span class="sxs-lookup"><span data-stu-id="5062e-104"> includes Belgium enhancements to VAT reporting feature that enables you to print VAT transaction details.</span></span> <span data-ttu-id="5062e-105">Vous devez envoyer les états suivants aux autorités fiscales belges :</span><span class="sxs-lookup"><span data-stu-id="5062e-105">You must send the following reports to the Belgian tax authorities:</span></span>  
 
 -   <span data-ttu-id="5062e-106">Déclaration mensuelle/trimestrielle - Cet état permet de créer des déclarations de TVA mensuelles ou trimestrielles, en fonction des revenus de votre société.</span><span class="sxs-lookup"><span data-stu-id="5062e-106">Monthly/Quarterly declaration - This report is used to create monthly or quarterly VAT declarations, depending on your company revenue.</span></span>  
 
