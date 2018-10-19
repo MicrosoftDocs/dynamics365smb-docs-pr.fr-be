@@ -10,28 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16865ddb74c2d7c6bbdf84033daba816ba0405de
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 28891eb7cef2faba6004cbf97480c438c58df892
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="e1891-103">Enregistrement automatique des interactions avec les contacts</span><span class="sxs-lookup"><span data-stu-id="e1891-103">Recording Interactions with Contacts Automatically</span></span>
-<span data-ttu-id="e1891-104">Vous pouvez configurer l'application de sorte à enregistrer automatiquement les interactions pour les documents vente, achat et service, les bordereaux d'envoi, les emails, les appels téléphoniques, et notamment :</span><span class="sxs-lookup"><span data-stu-id="e1891-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="d23a5-103">Enregistrement automatique des interactions avec les contacts</span><span class="sxs-lookup"><span data-stu-id="d23a5-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="d23a5-104">Vous pouvez configurer l'application de sorte à enregistrer automatiquement les interactions pour les documents vente, achat et service, les bordereaux d'envoi, les emails, les appels téléphoniques, et notamment :</span><span class="sxs-lookup"><span data-stu-id="d23a5-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* <span data-ttu-id="e1891-105">Imprimer les devis ou les demandes de prix, les commandes, les factures, les avoirs, les bordereaux d'envoi.</span><span class="sxs-lookup"><span data-stu-id="e1891-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
-* <span data-ttu-id="e1891-106">Créer des commandes pour le service des ventes.</span><span class="sxs-lookup"><span data-stu-id="e1891-106">Create sales service orders.</span></span>
-* <span data-ttu-id="e1891-107">Valider des commandes pour le service des ventes.</span><span class="sxs-lookup"><span data-stu-id="e1891-107">Post sales service orders.</span></span>
-* <span data-ttu-id="e1891-108">Envoyer des e-mails à vos contacts.</span><span class="sxs-lookup"><span data-stu-id="e1891-108">Send e-mails to your contacts.</span></span>
-* <span data-ttu-id="e1891-109">Appeler vos contacts (si vous disposez d'un téléphone TAPI et de l'installation adéquate)</span><span class="sxs-lookup"><span data-stu-id="e1891-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
+* <span data-ttu-id="d23a5-105">Imprimer les devis ou les demandes de prix, les commandes, les factures, les avoirs, les bordereaux d'envoi.</span><span class="sxs-lookup"><span data-stu-id="d23a5-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="d23a5-106">Créer des commandes pour le service des ventes.</span><span class="sxs-lookup"><span data-stu-id="d23a5-106">Create sales service orders.</span></span>
+* <span data-ttu-id="d23a5-107">Valider des commandes pour le service des ventes.</span><span class="sxs-lookup"><span data-stu-id="d23a5-107">Post sales service orders.</span></span>
+* <span data-ttu-id="d23a5-108">Envoyer des e-mails à vos contacts.</span><span class="sxs-lookup"><span data-stu-id="d23a5-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="d23a5-109">Appeler vos contacts (si vous disposez d'un téléphone TAPI et de l'installation adéquate)</span><span class="sxs-lookup"><span data-stu-id="d23a5-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-<span data-ttu-id="e1891-110">Pour configurer l'enregistrement automatique de ces interactions, vous spécifiez des modèles interaction pour ces documents et ces actions via la fenêtre **Paramètres modèles interaction**.</span><span class="sxs-lookup"><span data-stu-id="e1891-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
-<span data-ttu-id="e1891-111">Pour ouvrir la fenêtre **Paramètres modèles interaction**, choisissez l'icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Paramètres modèles interaction**, puis le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="e1891-111">To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
+<span data-ttu-id="d23a5-110">Pour configurer l'enregistrement automatique de ces interactions, vous spécifiez des modèles interaction pour ces documents et ces actions via la fenêtre **Paramètres modèles interaction**.</span><span class="sxs-lookup"><span data-stu-id="d23a5-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
+<span data-ttu-id="d23a5-111">Pour ouvrir la fenêtre **Paramètres modèles interaction**, choisissez l'icône de ![l'ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres modèles interaction**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="d23a5-111">To open the **Interaction Template Setup** window, choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e1891-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e1891-112">See Also</span></span>
-[<span data-ttu-id="e1891-113">Enregistrement des interactions avec les contacts</span><span class="sxs-lookup"><span data-stu-id="e1891-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
-<span data-ttu-id="e1891-114">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e1891-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+## <a name="see-also"></a><span data-ttu-id="d23a5-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d23a5-112">See Also</span></span>
+[<span data-ttu-id="d23a5-113">Enregistrement des interactions avec les contacts</span><span class="sxs-lookup"><span data-stu-id="d23a5-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="d23a5-114">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d23a5-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

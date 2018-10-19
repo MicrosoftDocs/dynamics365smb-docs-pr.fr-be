@@ -1,6 +1,6 @@
 ---
-title: "Comment configurer des types de déclaration"
-description: "Dans Business Central, il existe deux types de déclarations."
+title: "Procédure pour définir des types de déclarations"
+description: "Dans Business Central, il existe deux types de déclarations."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,35 +10,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12e62f47ee6ac0db6d2dab4daea271456804609b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cbaa41df97a119d79290d234817137cb42e50db6
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="set-up-declaration-types"></a><span data-ttu-id="4a44b-103">Configurer des types de déclaration</span><span class="sxs-lookup"><span data-stu-id="4a44b-103">Set Up Declaration Types</span></span>
-<span data-ttu-id="4a44b-104">Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il existe deux types de déclaration :</span><span class="sxs-lookup"><span data-stu-id="4a44b-104">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:</span></span>  
+# <a name="set-up-declaration-types"></a><span data-ttu-id="6eff0-103">Paramétrer des types de déclarations</span><span class="sxs-lookup"><span data-stu-id="6eff0-103">Set Up Declaration Types</span></span>
+<span data-ttu-id="6eff0-104">Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il existe deux types de déclarations :</span><span class="sxs-lookup"><span data-stu-id="6eff0-104">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], there are two types of declaration:</span></span>  
 
-- <span data-ttu-id="4a44b-105">Déclaration simplifiée</span><span class="sxs-lookup"><span data-stu-id="4a44b-105">Simplified declaration</span></span>  
-- <span data-ttu-id="4a44b-106">Déclaration étendue</span><span class="sxs-lookup"><span data-stu-id="4a44b-106">Extended declaration</span></span>  
+- <span data-ttu-id="6eff0-105">Déclaration simplifiée</span><span class="sxs-lookup"><span data-stu-id="6eff0-105">Simplified declaration</span></span>  
+- <span data-ttu-id="6eff0-106">Déclaration étendue</span><span class="sxs-lookup"><span data-stu-id="6eff0-106">Extended declaration</span></span>  
 
-<span data-ttu-id="4a44b-107">Le type de déclaration dépend du montant des marchandises expédiées ou reçues.</span><span class="sxs-lookup"><span data-stu-id="4a44b-107">The type of declaration depends on the amount of shipped or received goods.</span></span> <span data-ttu-id="4a44b-108">Pour déterminer le type de déclaration à utiliser, visitez le site web [Banque nationale de Belgique](http://go.microsoft.com/fwlink/?LinkId=163064).</span><span class="sxs-lookup"><span data-stu-id="4a44b-108">To determine the type of declaration that you should use, see the [National Bank of Belgium](http://go.microsoft.com/fwlink/?LinkId=163064) web site.</span></span>  
+<span data-ttu-id="6eff0-107">Le type de déclaration dépend de la quantité de biens expédiés ou reçus.</span><span class="sxs-lookup"><span data-stu-id="6eff0-107">The type of declaration depends on the amount of shipped or received goods.</span></span> <span data-ttu-id="6eff0-108">Pour déterminer le type de déclaration à utiliser, visitez le site Web de la [Banque Nationale de Belgique](https://aka.ms/BelgianNationalBank).</span><span class="sxs-lookup"><span data-stu-id="6eff0-108">To determine the type of declaration that you should use, visit the [National Bank of Belgium](https://aka.ms/BelgianNationalBank) web site.</span></span>  
 
-<span data-ttu-id="4a44b-109">Si vous utilisez la déclaration étendue, vous devez également paramétrer un Incoterm dans la déclaration intracommunautaire pour chaque méthode de livraison.</span><span class="sxs-lookup"><span data-stu-id="4a44b-109">When using the extended declaration, you will also need to set up an Incoterm in Intrastat Declaration for each shipping method.</span></span> <span data-ttu-id="4a44b-110">Si vous ne voyez pas **Incoterme dans la déclaration intracommunautaire** dans la page **Conditions de livraison**, vous devrez peut-être personnaliser la page et ajouter le champ.</span><span class="sxs-lookup"><span data-stu-id="4a44b-110">If you do not see the **Incoterm in Intrastat Decl.** on the **Shipment Method** page, you may need to customize the page and add the field.</span></span> 
+<span data-ttu-id="6eff0-109">Lorsque vous utilisez la déclaration étendue, vous devez également configurer un Incoterm dans la déclaration intracommunautaire pour chaque méthode de livraison.</span><span class="sxs-lookup"><span data-stu-id="6eff0-109">When using the extended declaration, you will also need to set up an Incoterm in Intrastat Declaration for each shipping method.</span></span> <span data-ttu-id="6eff0-110">Si vous ne voyez pas l'**Incoterm dans la déclaration D.E.B.** de la fenêtre **Conditions de livraison**, vous devrez peut-être personnaliser la page et ajouter le champ.</span><span class="sxs-lookup"><span data-stu-id="6eff0-110">If you do not see the **Incoterm in Intrastat Decl.** in the **Shipment Method** window, you may need to customize the page and add the field.</span></span>
 
-## <a name="to-set-up-declaration-types"></a><span data-ttu-id="4a44b-111">Pour configurer des types de déclaration</span><span class="sxs-lookup"><span data-stu-id="4a44b-111">To set up declaration types</span></span>  
+## <a name="to-set-up-declaration-types"></a><span data-ttu-id="6eff0-111">Pour paramétrer des types de déclarations</span><span class="sxs-lookup"><span data-stu-id="6eff0-111">To set up declaration types</span></span>  
 
-1.  <span data-ttu-id="4a44b-112">Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="4a44b-112">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="4a44b-113">Sur le raccourci **Général**, sélectionnez la case à cocher **D.E.B. simplifiée** pour configurer un type de déclaration simplifiée.</span><span class="sxs-lookup"><span data-stu-id="4a44b-113">On the **General** FastTab, select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type.</span></span> <span data-ttu-id="4a44b-114">Effacez ce champ pour utiliser la déclaration étendue.</span><span class="sxs-lookup"><span data-stu-id="4a44b-114">Clear this field to use extended declaration.</span></span>  
-3.  <span data-ttu-id="4a44b-115">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="4a44b-115">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="6eff0-112">Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="6eff0-112">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="6eff0-113">Sur l'organisateur **Général**, activez la case à cocher **Déclaration D.E.B. simplifiée** pour configurer un type de déclaration simplifiée.</span><span class="sxs-lookup"><span data-stu-id="6eff0-113">On the **General** FastTab, select the **Simplified Intrastat Decl.** check box to set up a simplified declaration type.</span></span> <span data-ttu-id="6eff0-114">Effacez ce champ pour utiliser la déclaration étendue.</span><span class="sxs-lookup"><span data-stu-id="6eff0-114">Clear this field to use extended declaration.</span></span>  
+3.  <span data-ttu-id="6eff0-115">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="6eff0-115">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="4a44b-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4a44b-116">See Also</span></span>  
- <span data-ttu-id="4a44b-117">[État intracommunautaire belge](belgian-intrastat-reporting.md) </span><span class="sxs-lookup"><span data-stu-id="4a44b-117">[Belgian Intrastat Reporting](belgian-intrastat-reporting.md) </span></span>  
- <span data-ttu-id="4a44b-118">[Configurer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="4a44b-118">[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md) </span></span>  
- <span data-ttu-id="4a44b-119">[Configurer les numéros d'établissement intracomm.](how-to-set-up-intrastat-establishment-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="4a44b-119">[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md) </span></span>  
- <span data-ttu-id="4a44b-120">[Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md) </span><span class="sxs-lookup"><span data-stu-id="4a44b-120">[Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md) </span></span>  
- [<span data-ttu-id="4a44b-121">Imprimer le rapport de formulaire intracomm.</span><span class="sxs-lookup"><span data-stu-id="4a44b-121">Print the Intrastat Form Report</span></span>](how-to-print-the-intrastat-form-report.md)
+## <a name="see-also"></a><span data-ttu-id="6eff0-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6eff0-116">See Also</span></span>  
+ <span data-ttu-id="6eff0-117">[États intracommunautaires belges](belgian-intrastat-reporting.md) </span><span class="sxs-lookup"><span data-stu-id="6eff0-117">[Belgian Intrastat Reporting](belgian-intrastat-reporting.md) </span></span>  
+ <span data-ttu-id="6eff0-118">[Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="6eff0-118">[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md) </span></span>  
+ <span data-ttu-id="6eff0-119">[Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="6eff0-119">[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md) </span></span>  
+ <span data-ttu-id="6eff0-120">[Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md) </span><span class="sxs-lookup"><span data-stu-id="6eff0-120">[Export Intrastat Third-Party Declararations](how-to-export-intrastat-third-party-declararations.md) </span></span>  
+ [<span data-ttu-id="6eff0-121">Imprimer l'état du formulaire de D.E.B.</span><span class="sxs-lookup"><span data-stu-id="6eff0-121">Print the Intrastat Form Report</span></span>](how-to-print-the-intrastat-form-report.md)
 

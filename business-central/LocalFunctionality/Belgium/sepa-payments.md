@@ -1,6 +1,6 @@
 ---
 title: Paiements SEPA
-description: "Le format SEPA (Single Euro Payments Area) unifie les modes de paiement des pays/régions européens participants. Cela rend les paiements internationaux aussi faciles à traiter que les paiements nationaux. Quel que soit leur emplacement, les citoyens et les sociétés européens peuvent effectuer et recevoir des paiements en euros, dans ou au-delà des frontières nationales, avec les mêmes conditions, droits et obligations de base."
+description: "Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des pays européens participants. Cela rend les paiements internationaux aussi facile à traiter que les paiements nationaux. Quel que soit leur emplacement, les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales, avec les mêmes conditions, droits, et obligations de base."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5b71334b2692999c673feeb5537dc80f3193db7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab2fc35c33882fb260eac40da343c3b09781bcf3
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="sepa-payments"></a><span data-ttu-id="eb1ba-105">Paiements SEPA</span><span class="sxs-lookup"><span data-stu-id="eb1ba-105">SEPA Payments</span></span>
-<span data-ttu-id="eb1ba-106">Le format SEPA (Single Euro Payments Area) unifie les modes de paiement des pays/régions européens participants.</span><span class="sxs-lookup"><span data-stu-id="eb1ba-106">The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries.</span></span> <span data-ttu-id="eb1ba-107">Cela rend les paiements internationaux aussi faciles à traiter que les paiements nationaux.</span><span class="sxs-lookup"><span data-stu-id="eb1ba-107">This makes international payments as easy to process as domestic payments.</span></span> <span data-ttu-id="eb1ba-108">Quel que soit leur emplacement, les citoyens et les entreprises européens peuvent effectuer et recevoir des paiements en euros, à l'intérieur ou au-delà des frontières nationales, avec les mêmes conditions, droits et obligations de base.</span><span class="sxs-lookup"><span data-stu-id="eb1ba-108">Regardless of location, European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations.</span></span>  
+# <a name="sepa-payments"></a><span data-ttu-id="b79ec-105">Paiements SEPA</span><span class="sxs-lookup"><span data-stu-id="b79ec-105">SEPA Payments</span></span>
+<span data-ttu-id="b79ec-106">Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des pays européens participants.</span><span class="sxs-lookup"><span data-stu-id="b79ec-106">The Single Euro Payments Area (SEPA) unifies payment methods in participating European countries.</span></span> <span data-ttu-id="b79ec-107">Cela rend les paiements internationaux aussi facile à traiter que les paiements nationaux.</span><span class="sxs-lookup"><span data-stu-id="b79ec-107">This makes international payments as easy to process as domestic payments.</span></span> <span data-ttu-id="b79ec-108">Quel que soit leur emplacement, les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales, avec les mêmes conditions, droits, et obligations de base.</span><span class="sxs-lookup"><span data-stu-id="b79ec-108">Regardless of location, European citizens and companies can make and receive payments in euros, whether within or across national borders, with the same basic conditions, rights, and obligations.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="eb1ba-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="eb1ba-109">See Also</span></span>  
- <span data-ttu-id="eb1ba-110">[Site Web Febelfin](http://go.microsoft.com/fwlink/?LinkId=275119) </span><span class="sxs-lookup"><span data-stu-id="eb1ba-110">[Febelfin website](http://go.microsoft.com/fwlink/?LinkId=275119) </span></span>  
- <span data-ttu-id="eb1ba-111">[Site Web ISO 20022](http://go.microsoft.com/fwlink/?LinkId=275120) </span><span class="sxs-lookup"><span data-stu-id="eb1ba-111">[ISO 20022 website](http://go.microsoft.com/fwlink/?LinkId=275120) </span></span>  
- <span data-ttu-id="eb1ba-112">[Activer des paiements SEPA](how-to-activate-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="eb1ba-112">[Activate SEPA Payments](how-to-activate-sepa-payments.md) </span></span>  
- <span data-ttu-id="eb1ba-113">[Classer les paiements SEPA](how-to-file-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="eb1ba-113">[File SEPA Payments](how-to-file-sepa-payments.md) </span></span>  
- [<span data-ttu-id="eb1ba-114">Classer les paiements SEPA hors Euro</span><span class="sxs-lookup"><span data-stu-id="eb1ba-114">File Non-Euro SEPA Payments</span></span>](how-to-file-non-euro-sepa-payments.md)
+## <a name="see-also"></a><span data-ttu-id="b79ec-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b79ec-109">See Also</span></span>  
+ <span data-ttu-id="b79ec-110">[Site Web Febelfin](https://go.microsoft.com/fwlink/?LinkId=275119) </span><span class="sxs-lookup"><span data-stu-id="b79ec-110">[Febelfin website](https://go.microsoft.com/fwlink/?LinkId=275119) </span></span>  
+ <span data-ttu-id="b79ec-111">[Site Web ISO 20022](https://go.microsoft.com/fwlink/?LinkId=275120) </span><span class="sxs-lookup"><span data-stu-id="b79ec-111">[ISO 20022 website](https://go.microsoft.com/fwlink/?LinkId=275120) </span></span>  
+ <span data-ttu-id="b79ec-112">[Activer les règlements SEPA](how-to-activate-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="b79ec-112">[Activate SEPA Payments](how-to-activate-sepa-payments.md) </span></span>  
+ <span data-ttu-id="b79ec-113">[Remplir les paiements SEPA](how-to-file-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="b79ec-113">[File SEPA Payments](how-to-file-sepa-payments.md) </span></span>  
+ [<span data-ttu-id="b79ec-114">Remplir les paiements SEPA non euros</span><span class="sxs-lookup"><span data-stu-id="b79ec-114">File Non-Euro SEPA Payments</span></span>](how-to-file-non-euro-sepa-payments.md)
 
