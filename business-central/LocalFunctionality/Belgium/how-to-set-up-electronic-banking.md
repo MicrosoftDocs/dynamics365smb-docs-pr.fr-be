@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 77ee1787038f251568276ec70b9b7bc1a7b4ba4a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f4694c4a260e54761ed015a25bb1bb795e36eee1
 ms.contentlocale: fr-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-banking"></a>Paramétrer des opérations bancaires électroniques
@@ -39,7 +39,7 @@ Avant de pouvoir les opérations bancaires électroniques, vous devez définir l
 ## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques  
 
 1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramétrage des opérations bancaires électroniques**, puis sélectionnez le lien connexe.  
-2.  Dans la fenêtre **Paramétrage des opérations bancaires électroniques**, sur le raccourci **Général**, renseignez les champs comme indiqué dans le tableau ci-dessous.   
+2.  Dans la page **Paramétrage des opérations bancaires électroniques**, dans le raccourci **Général**, renseignez les champs comme indiqué dans le tableau ci-dessous.   
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -81,7 +81,7 @@ Avant de pouvoir les opérations bancaires électroniques, vous devez définir l
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
- [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
+ [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
  [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md) [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md)

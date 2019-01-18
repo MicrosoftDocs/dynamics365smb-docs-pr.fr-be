@@ -1,54 +1,49 @@
 ---
-title: "Comment générer des propositions de domiciliation"
-description: "Après avoir créé des domiciliations, vous pouvez commencer à générer des propositions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous ne pouvez créer que des suggestions de domiciliation pour les clients nationaux."
-services: project-madeira
-documentationcenter: 
+title: "Génération des suggestions de domiciliation"
+description: "Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf633fb5a142a59ea54e5cac0552cabecb015e9d
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 646e318742a303b8586f61578efeaae2f92aa6a2
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
-# <a name="generate-domiciliation-suggestions"></a>Générer les propositions de domiciliation
-Après avoir créé des domiciliations, vous pouvez commencer à générer des propositions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez uniquement créer des propositions de domiciliation pour des clients nationaux.  
+# <a name="generate-domiciliation-suggestions"></a>Générer des suggestions de domiciliation
+Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.  
 
-## <a name="to-generate-domiciliation-suggestions"></a>Pour générer des propositions de domiciliation  
+## <a name="to-generate-domiciliation-suggestions"></a>Pour générer des suggestions de domiciliation  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuille saisie domiciliation**, puis sélectionnez le lien correspondant.  
-2.  Dans le champ **Nom feuille**, sélectionnez la feuille concernée, puis choisissez l'action **Proposer domiciliations**.  
-3.  Dans le raccourci **Options**, remplissez les champs comme indiqué dans le tableau suivant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis sélectionnez le lien connexe.  
+2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Suggérer des domiciliations**.  
+3.  Dans le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Date besoin**|Entrez la date d'échéance à inclure dans le traitement par lots. Seules les écritures ayant une date d'échéance antérieure ou identique à cette date seront incluses.|  
-    |**Obtenir escomptes**|Sélectionnez si vous souhaitez que le traitement par lots comprenne les écritures comptables client pour lesquelles vous pouvez obtenir un escompte.|  
-    |**Date d'escompte**|Entrez la date qui sera utilisée pour calculer l'escompte.|  
-    |**Inclure remboursements poss.**|Sélectionnez si vous souhaitez que le traitement par lots inclue les remboursements.|  
-    |**Date comptabilisation**|Entrez la date qui apparaîtra comme date de validation sur les lignes que le traitement par lots insère dans la feuille domiciliation.|  
+    |**Date d'échéance**|Entrez la date d'échéance à inclure dans le traitement par lots. Seules les écritures dont la date d'échéance est antérieure ou identique à cette date sont incluses.|  
+    |**Accepter les escomptes**|Sélectionnez ce champ si vous souhaitez inclure dans le traitement par lots les écritures comptables client pour lesquelles vous pouvez obtenir un escompte.|  
+    |**Date d'escompte**|Entrez la date qui est utilisée pour calculer l'escompte.|  
+    |**Sélectionner les remboursements possibles**|Sélectionnez ce champ si vous souhaitez inclure dans le traitement par lots les remboursements.|  
+    |**Date de validation**|Entrez la date qui s'affiche comme date de validation sur les lignes que le traitement par lots insère dans la feuille domiciliation.|  
 
-4.  Dans le raccourci **Client**, entrez les éventuels critères de filtre supplémentaires.  
-5.  Cliquez sur le bouton **OK**.  
+4.  Dans le raccourci **Client**, entrez les critères de filtre supplémentaires.  
+5.  Choisissez le bouton **OK**.  
 
-Lorsque le traitement par lots est terminé, la feuille domiciliation contient toutes les écritures comptables client ouvertes qui correspondent aux filtres.  
+Lorsque le traitement par lots est terminé, la feuille domiciliation contient toutes les écritures comptables client ouvertes correspondant aux filtres.  
 
 > [!NOTE]  
->  Les suggestions de domiciliation ne concernent que les clients disposant d'un numéro de domiciliation. Pour plus d'informations, reportez-vous à [Paramétrer les domiciliations](how-to-set-up-domiciliations.md).  
+>  Les suggestions de domiciliation n'incluent que les clients pour lesquels un numéro de domiciliation est configuré. Pour plus d'informations, voir [Paramétrer les domiciliations](how-to-set-up-domiciliations.md).  
 
 ## <a name="see-also"></a>Voir aussi  
- [Banque électronique belge](belgian-electronic-banking.md)   
- [Prélèvements bancaires avec domiciliation](direct-debit-using-domiciliation.md)   
+ [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
+ [Prélévement à l'aide de la domiciliation](direct-debit-using-domiciliation.md)   
  [Paramétrer les domiciliations](how-to-set-up-domiciliations.md)   
  [Tester les domiciliations](how-to-test-domiciliations.md)   
- [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
 

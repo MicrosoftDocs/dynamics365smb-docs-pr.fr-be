@@ -1,6 +1,6 @@
 ---
-title: "Comment imprimer des déclarations de TVA périodiques"
-description: "La fonction de déclaration de TVA vous permet d'imprimer des détails sur les transactions TVA. Vous devez envoyer les déclarations TVA suivantes aux autorités fiscales belges :"
+title: "Impression des déclarations de TVA périodiques"
+description: "La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer les déclarations de TVA suivantes aux autorités fiscales belges."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,59 +13,59 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f42d02f1d1e394dbac0c71975cd16cc8f803de6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9587dd8b3832da7fb95a5e8055730c3bd7787461
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="print-periodic-vat-reports"></a>Imprimer des états TVA périodiques
-La fonction de déclaration de TVA vous permet d'imprimer des détails sur les transactions TVA. Vous devez envoyer les déclarations TVA suivantes aux autorités fiscales belges :  
+# <a name="print-periodic-vat-reports"></a>Imprimer les déclarations de TVA périodiques
+La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer les déclarations de TVA suivantes aux autorités fiscales belges :  
 
 - Déclaration mensuelle/trimestrielle  
-- Listing TVA annuel (sur papier/disquette)  
-- Listing TVA-VIES (sur papier/disquette)  
+- Liste annuelle de TVA (sur papier/disque)  
+- TVA - Liste déclaration intracommunautaire (sur papier/disque)  
 
 ## <a name="to-print-the-monthlyquarterly-declaration"></a>Pour imprimer la déclaration mensuelle/trimestrielle  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Décl. TVA - Formulaire/Intervat**, puis sélectionnez le lien correspondant.  
-2.  Dans la fenêtre **TVA - Formulaire**, renseignez les champs.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Formulaire/Déclaration Intervat**, puis sélectionnez le lien connexe.  
+2.  Dans la page **TVA – Formulaire**, renseignez les champs.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |------------------------------------|---------------------------------------|  
-    |**N° de société incorrect**|Spécifie si vous souhaitez imprimer l'état qui contient des numéros d'entreprise erronés.|  
-    |**Listing TVA annuel**|Spécifie si vous souhaitez imprimer l'état **Listing TVA annuel**.|  
-    |**Année**|Entrez l'année de la période pour laquelle vous souhaitez imprimer l'état. Vous devez entrer l'année sous la forme d'un code à 4 chiffres. Par exemple, pour imprimer une déclaration pour 2013, entrez « 2013 » (et non « 13 »).|  
-    |**Montant minimum**|Entrez le solde annuel minimal du client à inclure dans l'état. Si le solde annuel du client est inférieur au montant minimum, le client ne sera pas inclus dans la déclaration.|  
-    |**Inclure clients de**|Sélectionnez cette option pour inclure dans l'état les clients de tous les pays/toutes les régions ou d'un pays/d'une région spécifique.|  
+    |**N° entreprise incorrect**|Spécifie si vous souhaitez imprimer l'état contenant des numéros d'entreprise incorrects.|  
+    |**Liste annuelle de TVA**|Spécifie si vous souhaitez imprimer l'état **Liste annuelle de TVA**.|  
+    |**Année**|Entrez l'année de la période pour laquelle vous souhaitez imprimer l'état. Vous devez entrer l'année sous la forme d'un code à 4 chiffres. Par exemple, pour imprimer une déclaration pour 2013, vous devez entrer « 2013 » (au lieu de « 13 »).|  
+    |**Montant minimum**|Entrez le solde annuel minimal du client à inclure dans l'état. Si le solde annuel du client est inférieur au montant minimal, le client n'est pas inclus dans la déclaration.|  
+    |**Inclure les clients de**|Sélectionnez ce champ pour inclure les clients de tous les pays/régions ou d'un pays/d'une région spécifique dans l'état.|  
     |**Pays/région**|Sélectionnez le pays/la région à inclure dans l'état.|  
 
-3.  Cliquez sur le bouton **Imprimer** pour imprimer l'état ou cliquez sur le bouton **Aperçu** pour le consulter à l'écran. Cliquez sur le bouton **Annuler** pour enregistrer les informations sans imprimer l'état.  
+3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état ou le bouton **Aperçu** pour l'afficher à l'écran. Cliquez sur le bouton **Annuler** pour enregistrer les informations sans imprimer l'état.  
 
-## <a name="to-print-the-vat-annual-listing-on-disk"></a>Pour imprimer le listing TVA annuel sur disquette  
+## <a name="to-print-the-vat-annual-listing-on-disk"></a>Pour imprimer la liste annuelle de TVA sur disque  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Listing annuel - Disquette**, puis sélectionnez le lien correspondant.  
-2.  Dans la fenêtre **Listing TVA annuel - Disquette**, remplissez les champs comme décrit dans le tableau suivant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Liste annuelle - Disque**, puis sélectionnez le lien connexe.  
+2.  Dans la page **Liste annuelle de TVA - Disque**, renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Année**|Entrez l'année de la déclaration TVA. Vous devez entrer l'année sous la forme d'un code à quatre chiffres. Par exemple, pour imprimer une déclaration pour 2013, entrez « 2013 » (et non « 13 »).|  
-    |**Minimale**|Entrez le solde annuel minimal du client à inclure dans l'état.<br /><br /> Si le solde annuel du client est inférieur au montant minimum, le client ne sera pas inclus dans la déclaration.|  
-    |**Déclaration test**|Spécifie si vous souhaitez créer une déclaration test.<br /><br /> Si vous sélectionnez cette option, un attribut test utilisant la valeur 1 est écrit dans le fichier pour indiquer qu'il s'agit d'un fichier test. Si vous souhaitez tester le fichier XML avant de l'envoyer, vous pouvez télécharger ce fichier sur le site Intervat. Le fichier est alors validé sans être enregistré sur le serveur et vous recevez une notification si le fichier est valide. Par ailleurs, le numéro de séquence unique dans le fichier XML n'est pas incrémenté lorsqu'une déclaration test est créée, ce qui signifie que vous pouvez créer autant de déclarations test internes que vous le souhaitez.|  
-    |**Ajouter représentant**|Spécifie si vous souhaitez inclure le représentant de la déclaration de TVA.<br /><br /> Un représentant est une personne ou une agence qui est habilitée à faire une déclaration de TVA pour votre société.|  
-    |**ID**|Entrez l'ID du représentant qui est responsable de la rédaction de la déclaration de TVA.|  
-    |**Nom du fichier**|Entrez le chemin et le nom du fichier dans lequel vous souhaitez créer la déclaration.|  
+    |**Année**|Entrez l'année de la déclaration de TVA. Vous devez entrer l'année sous la forme d'un code à quatre chiffres. Par exemple, pour imprimer une déclaration pour 2013, vous devez entrer « 2013 » (au lieu de « 13 »).|  
+    |**Minimale**|Entrez le solde annuel minimal du client à inclure dans l'état.<br /><br /> Si le solde annuel du client est inférieur au montant minimal, le client n'est pas inclus dans la déclaration.|  
+    |**Déclaration test**|Spécifie si vous souhaitez créer une déclaration test.<br /><br /> Si ce champ est sélectionné, un test d'attribut est écrit dans le fichier qui utilise la valeur 1, indiquant qu'il s'agit d'un fichier test. Si vous souhaitez tester le fichier XML avant de l'envoyer, vous pouvez télécharger ce fichier sur le site Intervat. Le fichier est ensuite validé sans être stocké sur le serveur et vous recevez une notification si le fichier est valide. De plus, le numéro de séquence unique du fichier XML n'est pas augmenté lorsqu'une déclaration de test est créée, ce qui signifie que vous pouvez créer autant de déclarations de test internes que vous le souhaitez.|  
+    |**Ajouter un représentant**|Spécifie si vous souhaitez inclure le représentant de la déclaration de TVA.<br /><br /> Un représentant est une personne ou une agence qui a une licence pour créer une déclaration de TVA pour votre société.|  
+    |**ID**|Entrez l'ID du représentant chargé de créer la déclaration de TVA.|  
+    |**Emplacement**|Entrez le chemin d'accès et le nom du fichier dans lequel vous souhaitez créer la déclaration.|  
 
-3.  Cliquez sur le bouton **Imprimer** pour imprimer l'état ou cliquez sur le bouton **Aperçu** pour le consulter à l'écran. Cliquez sur le bouton **Annuler** pour enregistrer les informations sans imprimer l'état.  
+3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état ou le bouton **Aperçu** pour l'afficher à l'écran. Cliquez sur le bouton **Annuler** pour enregistrer les informations sans imprimer l'état.  
 
-## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Pour imprimer la déclaration TVA-VIES sur disquette  
+## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Pour imprimer l'état TVA - Déclaration intracommunautaire sur disque  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **TVA - VIES : Déclaration (disquette)**, puis sélectionnez le lien correspondant.  
-2.  Entrez les informations requises, puis cliquez sur le bouton **OK** pour lancer le traitement par lots qui créera un fichier XML. Pour plus d'informations, voir TVA - VIES : Déclaration (disquette).  
-3.  Si vous devez apporter une correction, choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Correction TVA-VIES**, puis sélectionnez le lien correspondant.  
-4.  Choisissez l'action **Modifier la liste**, puis entrez les informations qui doivent être adaptées. Cliquez sur le bouton **OK**.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **TVA - Déclaration intracommunautaire sur disque**, puis sélectionnez le lien connexe.  
+2.  Entrez les informations nécessaires, puis cliquez sur le bouton **OK** pour lancer le traitement par lots, qui crée un fichier XML. Pour plus d'informations, voir TVA - Déclaration intracommunautaire sur disque.  
+3.  Si vous devez effectuer une correction, sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **TVA - Correction déclaration intracommunautaire**, puis sélectionnez le lien connexe.  
+4.  Choisissez l'action **Modifier la liste**, puis entrez les informations qui doivent être modifiées. Choisissez le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
  [TVA belge](belgian-vat.md)   
- [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+ [Paramétrer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
 

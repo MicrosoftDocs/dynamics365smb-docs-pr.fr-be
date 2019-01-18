@@ -1,6 +1,6 @@
 ---
-title: "Comment lettrer et délettrer des écritures comptables"
-description: "Le lettrage d'écritures comptables permet aux sociétés de travailler avec des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et les comptes de transfert sont utilisés pour stocker les écritures comptables temporaires en attente d'un traitement ultérieur dans le grand livre."
+title: "Lettrage et délettrage des écritures comptables"
+description: "Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,78 +13,78 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 220bc78e7dda958a931bb8c8c4ef904a687d905e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 205043ca3c22c3bd9b41f6e238813052c7d33c93
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="apply-and-unapply-general-ledger-entries"></a>Lettrer et délettrer des écritures comptables
-Le lettrage d'écritures comptables temporaires permet aux entreprises de travailler avec des comptes temporaires et des comptes de transfert dans le grand livre. Les comptes temporaires et de transfert sont utilisés pour répertorier les écritures comptables en attente de traitement dans la comptabilité.  
+# <a name="apply-and-unapply-general-ledger-entries"></a>Lettrer et délettrer les écritures comptables
+Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
 
  Vous pouvez utiliser les comptes temporaires pour :  
 
-- Les transferts d'argent d'un compte bancaire à l'autre.  
-- Les transferts de transactions financières d'un système à l'autre, dans lesquels une partie des informations est temporairement hébergée dans le système d'origine.  
-- Les transactions pour lesquelles vous avez émis une facture vente à un client, mais n'avez pas encore reçu la facture achat correspondante du fournisseur.  
+- Les transferts d'argent d'un compte bancaire à un autre.  
+- Les transferts de transaction financière d'un système à un autre où une partie des informations réside temporairement dans le système d'origine.  
+- Les transactions pour lesquelles vous avez émis une facture vente à un client mais vous n'avez pas encore reçu la facture achat correspondante du fournisseur.  
 
- Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la fonction de lettrage des écritures pour mettre à jour les écritures comptables validées et le type de compte de validation.  
+ Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la fonction Lettrer écritures pour mettre à jour les écritures comptables validées et le type de compte de validation.  
 
- Vous pouvez délettrer les écritures comptables lettrées, puis ouvrir les écritures clôturées pour effectuer les modifications.  
+ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écritures clôturées pour apporter des modifications.  
 
 ## <a name="to-apply-general-ledger-entries"></a>Pour lettrer des écritures comptables  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Historiques des transactions comptabilité**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Hist. trans. comptabilité**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
-3.  Dans la fenêtre **Écritures comptables**, choisissez l'action **Lettrer écritures**.  
+3.  Dans la page **Écritures comptables**, choisissez l'action **Lettrer écritures**.  
 
-    Toutes les écritures comptables ouvertes pour le compte général s'affichent dans la fenêtre **Lettrer écritures comptables**.  
-
-    > [!NOTE]  
-    >  Par défaut, le champ **Inclure écritures** est défini sur **Ouvertes**. Vous pouvez modifier la valeur du champ **Inclure écritures** et la définir sur **Toutes** ou **Clôturées**. Vous pouvez uniquement lettrer les écritures comptables qui sont **Ouvertes**.  
-
-4.  Sélectionnez l'écriture comptable concernée, puis, dans l'onglet **Naviguer**, dans le groupe **Lettrage**, sélectionnez **Définir ID lettrage**.  
-
-    Le champ **Définir ID lettrage** est mis à jour avec le code utilisateur. Le montant restant s'affiche dans le champ **Solde** dans la fenêtre **Lettrer écritures comptables**.  
-
-5.  Choisissez **Valider le lettrage**.  
-
-    Vous pouvez valider le lettrage même si le solde est nul. Après la validation, le champ **Montant restant** est affecté comme suit :  
-
-    - Si le **Solde** est nul, le champ **Montant restant** de toutes les écritures comptables est défini sur 0.  
-
-    - Si le **Solde** n'est pas nul, le montant figurant dans le champ **Solde** est transféré au champ **Montant restant** pour l'écriture comptable qui était sélectionnée lorsque vous avez validé le lettrage.  
-
-    - Pour toutes les autres écritures comptables, le champ **Montant restant** est nul, et les champs **Ouvertes**, **N° séquence lettrage final**, **Montant lettrage final** et **Date de clôture** sont mis à jour.  
+    Toutes les écritures comptables ouvertes pour le compte général sont affichées sur la page **Lettrer écritures comptables**.  
 
     > [!NOTE]  
-    >  Lors de la validation, les écritures comptables qui mettent à jour le champ **ID lettrage** sont supprimées.  
+    >  Par défaut, le champ **Inclure écritures** est défini sur **Ouvert**. Vous pouvez modifier la valeur du champ **Inclure écritures** sur **Tous** ou **Clôturé**. Vous pouvez lettrer uniquement les écritures comptables qui ont le statut **Ouvert**.  
 
-6.  Cliquez sur le bouton **OK**.  
+4.  Sélectionnez l'écriture comptable appropriée, puis, sous l'onglet **Naviguer**, dans le groupe **Lettrage**, choisissez **Lettrer**.  
+
+    Le champ **ID lettrage** est mis à jour avec l'ID utilisateur. Le montant restant est affiché dans le champ **Solde** de la page **Lettrer écritures comptables**.  
+
+5.  Sélectionnez **Valider le lettrage**.  
+
+    Vous pouvez valider le lettrage même si le solde est égal à 0. Une fois validé, le champ **Montant restant** est affecté comme suit :  
+
+    - Si le **Solde** est égal à 0, le champ **Montant restant** de toutes les écritures comptables est défini sur 0.  
+
+    - Si le **Solde** n'est pas égal à 0, le montant du champ **Solde** est transféré vers le champ **Montant restant** pour l'écriture comptable qui a été sélectionnée lors de la validation du lettrage.  
+
+    - Pour toutes les autres écritures comptables, le champ **Montant restant** est défini sur 0 et les champs **Ouvert**, **N° séquence lettrage final**, **Montant lettrage final** et **Date de clôture** sont mis à jour.  
+
+    > [!NOTE]  
+    >  Une fois validées, les écritures comptables qui mettent à jour le champ **ID lettrage** sont supprimées.  
+
+6.  Choisissez le bouton **OK**.  
 
 ## <a name="to-view-the-applied-general-ledger-entries"></a>Pour afficher les écritures comptables lettrées  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Historiques des transactions comptabilité**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Hist. trans. comptabilité**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
-3.  Sélectionnez l'écriture comptabilité pertinente, puis choisissez l'action **Écritures lettrées**.  
+3.  Sélectionnez l'écriture comptable appropriée, puis choisissez l'action **Écritures lettrées**.  
 
     Vous pouvez afficher toutes les écritures comptables lettrées.  
 
-4.  Cliquez sur le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
 
 ## <a name="to-unapply-general-ledger-entries"></a>Pour délettrer des écritures comptables  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Historiques des transactions comptabilité**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Hist. trans. comptabilité**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3.  Sélectionnez l'écriture comptable que vous souhaitez délettrer, puis choisissez l'action **Annuler le lettrage**.  
 
-    Les écritures comptables lettrées sont délettrées.  
+    Les écritures comptables lettrées sont delettrées.  
 
     > [!NOTE]  
-    >  Si une écriture est lettrée à une ou plusieurs écritures de lettrage, vous devez délettrer la dernière écriture de lettrage en premier. Par défaut, la dernière écriture s'affiche.  
+    >  Si une écriture est lettrée par plusieurs écritures lettrage, vous devez commencer par délettrer la dernière écriture lettrage. Par défaut, la dernière écriture s'affiche.  
 
-4.  Cliquez sur le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
+[Fonctionnalité locale, Belgique](belgium-local-functionality.md)
 

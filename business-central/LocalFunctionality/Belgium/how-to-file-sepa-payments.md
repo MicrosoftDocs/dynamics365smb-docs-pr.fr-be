@@ -1,54 +1,49 @@
 ---
-title: Comment classer les paiements SEPA
-description: Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser les virements de type SEPA (Single Euro Payments Area) pour classer les paiements SEPA avec la banque.
-services: project-madeira
-documentationcenter: 
+title: Effectuer des paiements SEPA
+description: "Dans Business Central, vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: effecef4471b12032fb4e3d2ab3b198fd0e1a249
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b645ebee368c9b43961d9fec65e0e82956d10e9c
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="file-sepa-payments"></a>Classer les paiements SEPA
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez classer des paiements SEPA autres qu'en euro auprès de la banque.  
+# <a name="file-sepa-payments"></a>Effectuer des paiements SEPA
+Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque.  
 
-Le format SEPA unifie les modes de paiement des pays/régions européens participants, ce qui rend les paiements internationaux aussi faciles à traiter que les paiements nationaux. Les citoyens et les sociétés européens peuvent effectuer et recevoir des paiements en euros, dans ou au-delà des frontières nationales, avec les mêmes conditions, droits et obligations de base, quel que soit l'emplacement.  
+SEPA unifie les modes de paiement dans les pays/régions européens participants, ce qui rend les paiements internationaux aussi faciles à traiter que les paiements nationaux. Les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales, avec les mêmes conditions, droits, et obligations de base, quel que soit leur emplacement.  
 
-Avant de classer un paiement, vous devez remplir les tâches administratives suivantes :  
+Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'administration suivantes :  
 
-- Configurer un nouveau protocole d'exportation. Pour plus d'informations, voir Protocole d'exportation.  
-- Dans la table **Pays/Région**, sélectionnez le champ **SEPA autorisé** pour chaque pays appartenant à la zone EEA.  
-- Vérifiez que le champ **Devise Euro** de la table **Paramètres comptabilité** correspond à la devise sur les lignes paiement.  
-- Vérifiez que le champ **Compte bancaire préféré** du fournisseur dans la table **Fournisseur** contient les codes IBAN et SWIFT.  
+- Paramétrez un nouveau protocole d'exportation. Pour plus d'informations, voir Protocole d'exportation.  
+- Dans la table **Pays/région**, sélectionnez le champ **SEPA autorisé** pour chaque pays appartenant à la zone AEE.  
+- Vérifiez que le champ **Devise euro** dans la table **Paramètres comptabilité** correspond à la devise dans les lignes paiement.  
+- Vérifiez que le champ **Compte bancaire préféré** du fournisseur dans la table **Fournisseur** contient l'IBAN et le code SWIFT.  
 
-## <a name="to-file-a-sepa-payment"></a>Pour classer un paiement SEPA  
+## <a name="to-file-a-sepa-payment"></a>Pour effectuer un paiement SEPA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Classer les paiements SEPA**, puis sélectionnez le lien correspondant.  
-2.  Remplissez les champs comme indiqué dans le tableau suivant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Effectuer des paiements SEPA**, puis sélectionnez le lien connexe.  
+2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Nom modèle feuille**|Spécifiez le modèle feuille comptabilité pour l'état de paiement SEPA.|  
-    |**Feuille**|Spécifiez le nom feuille comptabilité pour l'état de paiement SEPA.|  
-    |**Valider lignes FS**|Spécifiez si vous souhaitez transférer les lignes de paiement dans la comptabilité.|  
-    |**Inclure axes**|Entrez les axes analytiques que vous souhaitez inclure dans l'état de paiement SEPA. Cette option est uniquement disponible si le champ **Résumer lignes FS** de la fenêtre **Configuration de la banque électronique** est sélectionné.|  
-    |**Date d'exécution**|Entrez une date d'exécution si vous souhaitez que la date d'exécution soit différente de la date de validation sur les lignes paiement.|  
-    |**Nom du fichier**|Saisissez le nom du fichier, y compris le lecteur et le fichier, relatifs à l'impression de l'état.|  
+    |**Feuille**|Spécifiez la feuille comptabilité pour l'état de paiement SEPA.|  
+    |**Valider les lignes feuille comptabilité**|Spécifiez si vous souhaitez transférer les lignes paiement vers la comptabilité.|  
+    |**Inclure axes**|Saisissez les axes analytiques que vous souhaitez inclure dans l'état de paiement SEPA. L'option n'est disponible que si le champ **Totaliser lignes feuille compta.** dans la page **Paramétrage des opérations bancaires électroniques** est sélectionné.|  
+    |**Date d'exécution**|Entrez une date d'exécution si vous souhaitez que la date d'exécution soit différente de la date comptabilisation sur les lignes paiement.|  
+    |**Emplacement**|Entrez le nom du fichier, y compris le lecteur et le dossier, dans lequel vous souhaitez imprimer l'état.|  
 
-3.  Cliquez sur le bouton **OK**.  
+3.  Choisissez le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Configurer les protocoles d'exportation](how-to-set-up-export-protocols.md)   
- [Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md)   
- [Activer des paiements SEPA](how-to-activate-sepa-payments.md)
+ [Paramétrer les protocoles d'exportation](how-to-set-up-export-protocols.md)   
+ [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md)   
+ [Activer les règlements SEPA](how-to-activate-sepa-payments.md)
 

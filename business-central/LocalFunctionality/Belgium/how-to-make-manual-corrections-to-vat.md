@@ -1,6 +1,6 @@
 ---
-title: "Comment apporter des corrections manuelles à la TVA"
-description: "Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou les écritures comptables. Cette option est utile si vous devez apporter une modification aux montants totaux TVA vente ou achat sans modifier la base TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui a mal calculé la TVA."
+title: Corrections manuelles de la TVA
+description: "Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,40 +13,40 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3feba6afb6327cd274adb43e83ab91a9af864eea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d724a30fbb2b8dedfe6b643738847826d3943047
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="make-manual-corrections-to-vat"></a>Effectuer des corrections de TVA manuellement
-Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou les écritures comptables. Cette option est utile si vous devez apporter une modification aux montants totaux TVA vente ou achat sans modifier la base TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui a mal calculé la TVA.  
+# <a name="make-manual-corrections-to-vat"></a>Corrections manuelles de la TVA
+Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA.  
 
 ## <a name="to-make-manual-corrections-to-vat"></a>Pour apporter des corrections manuelles à la TVA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Aperçu déclaration TVA**, puis sélectionnez le lien correspondant.  
-2.  Sélectionnez la ligne qui doit être corrigée. Vous pouvez apporter la correction TVA sur le **Type** de ligne **Total de lignes** et **TVA**.  
-3.  Pour apporter la correction, sélectionnez le champ **Montant correction**. La fenêtre **Liste corrections TVA manuelles** s'ouvre.  
-4.  Choisissez l'action **Modifier la liste**. Dans la fenêtre **Liste corrections TVA manuelles**, remplissez les champs comme indiqué dans le tableau suivant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Aperçu déclaration TVA**, puis sélectionnez le lien connexe.  
+2.  Sélectionnez la ligne qui doit être corrigée. Vous pouvez corriger la TVA pour le **Type** de ligne **Lignes** et **TVA**.  
+3.  Pour effectuer la correction, sélectionnez le champ **Montant de la correction**. La page **Liste des corrections TVA manuelles** s'ouvre.  
+4.  Choisissez l'action **Modifier la liste**. Dans la page **Liste des corrections TVA manuelles**, renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Date comptabilisation**|Entrez la date de validation de la correction TVA.|  
-    |**Montant**|Entrez le montant de la correction TVA. Vous devez entrer le montant de la correction, pas le nouveau montant. Par exemple, si le montant est de 1000,00 et doit être de 1200,00, entrez 200,00.|  
-    |**Montant DR**|Ce champ affiche le montant de la correction TVA dans la devise report.<br /><br /> Le champ est calculé automatiquement en fonction du contenu du champ **Montant** et du taux de change actuel.|  
+    |**Date de validation**|Entrez la date de validation de la correction TVA.|  
+    |**Montant**|Entrez le montant de la correction TVA. Vous devez entrer le montant de la correction, et non le nouveau montant. Par exemple, si le montant est 1 000 et devrait être 1 200, entrez 200.|  
+    |**Montant DR**|Ce champ affiche le montant de la correction TVA en devise report.<br /><br /> Le champ est automatiquement calculé, selon le contenu du champ **Montant** et le taux de change actuel.|  
 
-5.  Cliquez sur le bouton **OK**.  
-6.  Actualisez la fenêtre **Aperçu déclaration TVA** pour voir vos corrections.  
-7.  Pour afficher un état lié à l'aperçu des informations sur la TVA, choisissez l'une des actions suivantes :  
+5.  Choisissez le bouton **OK**.  
+6.  Actualisez la page **Aperçu déclaration TVA** pour visualiser vos corrections.  
+7.  Pour afficher un état associé à l'aperçu des informations TVA, choisissez l'une des actions suivantes :  
 
-    |Action|Description|  
+    |Action|Désignation|  
     |------------|---------------------------------------|  
     |**État détaillé**|Ouvre l'état **Déclaration TVA**. Pour plus d'informations, voir Déclaration TVA.|  
-    |**Décl. TVA - Formulaire/Intervat**|Ouvre l'état **TVA - Formulaire**. Pour plus d'informations, voir TVA - Formulaire.<br /><br /> L'état **Décl. TVA - Formulaire/Intervat** est basé sur le modèle Déclaration TVA défini dans les paramètres comptabilité. C'est pourquoi il peut exporter des données qui ne sont pas identiques à celles qui s'affichent dans la fenêtre **Aperçu déclaration TVA** window.|  
-    |**Décl. TVA - Sommaire : État**|Ouvre l'état **Déclaration TVA - Sommaire**. Pour plus d'informations, voir Déclaration TVA - Sommaire.|  
+    |**Formulaire/Déclaration Intervat**|Ouvre l'état **TVA - Formulaire**. Pour plus d'informations, voir TVA - Formulaire.<br /><br /> L'état **Formulaire/Déclaration Intervat** est basé sur le modèle déclaration TVA défini dans les paramètres comptabilité. Par conséquent, il peut exporter des données différentes de celles affichées dans la page **Aperçu déclaration TVA**.|  
+    |**État Résumé déclaration**|Ouvre l'état **Résumé déclaration de TVA**. Pour plus d'informations, voir Résumé déclaration de TVA.|  
 
 ## <a name="see-also"></a>Voir aussi  
  [TVA belge](belgian-vat.md)   
- [Imprimer des états TVA périodiques](how-to-print-periodic-vat-reports.md)   
- [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+ [Imprimer les déclarations de TVA périodiques](how-to-print-periodic-vat-reports.md)   
+ [Paramétrer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
 

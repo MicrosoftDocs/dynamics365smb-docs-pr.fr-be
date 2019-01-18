@@ -1,6 +1,6 @@
 ---
-title: "Comment lettrer les relevés CODA"
-description: "Après l'importation d'un relevé CODA, vous pouvez accéder aux lignes relevé à partir de la fenêtre **Fiche compte bancaire**. Le statut lettrage de chaque ligne sera vide, car les montants du relevé n'ont pas été lettrés à des écritures comptables en attente."
+title: "Lettrage des relevés CODA"
+description: "Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,57 +13,57 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 22f67c0aeaf821a5d9db03d3ca5cb57226149ae9
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9ea4b0000ec1b96933da5f7ab0e49553e10a7365
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
-# <a name="apply-coda-statements"></a>Lettrer des relevés CODA
-Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la fenêtre **Fiche compte bancaire**. Le statut lettrage de chaque ligne sera vide, car les montants du relevé n'ont pas été lettrés à des écritures comptables en attente.  
+# <a name="apply-coda-statements"></a>Lettrer les relevés CODA
+Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.  
 
-Les montants du relevé peuvent être lettrés à des écritures comptables en attente des manières suivantes :  
+Les montants du relevé peuvent être lettrés aux écritures comptables ouvertes comme suit :  
 
--   Lettrage manuel des lignes relevé CODA.  
--   Lettrage automatique des montants du relevé CODA aux écritures comptables et comptes adéquats. Le traitement automatique des lignes relevé CODA est recommandé.  
+-   En lettrant manuellement les lignes relevé CODA.  
+-   En lettrant automatiquement les montants du relevé CODA aux écritures comptables et aux comptes appropriés. Le traitement automatique des lignes relevé CODA est recommandé.  
 
 ## <a name="to-manually-apply-the-coda-statement-lines"></a>Pour lettrer manuellement les lignes relevé CODA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.  
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
 3.  Sélectionnez le relevé CODA, puis choisissez l'action **Modifier**.  
-4.  Dans le raccourci **Lignes relevé CODA**, pour chaque ligne relevé, remplissez les champs comme indiqué dans le tableau suivant.  
+4.  Dans le raccourci **Lignes relevé CODA**, pour chaque ligne relevé, renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**N° compte**|Entrez le numéro du compte général, la banque, le client, le fournisseur ou l'immobilisation auquel la ligne relevé compte bancaire est liée.|  
+    |**N° compte**|Entrez le numéro du compte général, de la banque, du client, du fournisseur ou de l'immobilisation, auquel la ligne relevé du compte bancaire est associée.|  
     |**Description**|[!INCLUDE[d365fin](../../includes/d365fin_md.md)] récupère automatiquement la description à partir du fichier CODA importé, mais vous pouvez modifier le contenu de ce champ.|  
 
-5.  Cliquez sur le bouton **OK**.  
+5.  Choisissez le bouton **OK**.  
 
 ## <a name="to-automatically-apply-the-coda-statement-lines"></a>Pour lettrer automatiquement les lignes relevé CODA  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.  
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
 3.  Sélectionnez le relevé CODA, puis choisissez l'action **Modifier**.  
-4.  Choisissez l'action **Valider lignes relevé CODA**.  
-5.  Remplissez les champs comme indiqué dans le tableau suivant.  
+4.  Choisissez l'action **Traiter les lignes relevé CODA**.  
+5.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Validation par défaut**|Définissez si vous souhaitez que le traitement par lots valide les montants du relevé qui ne peuvent pas être liés à des écritures comptables existantes. Pour plus d'informations, voir Encodage CODA.|  
-    |**Imprimer liste**|Sélectionnez l'option d'impression d'une liste des montants du relevé qui ne peuvent pas être liés automatiquement.|  
+    |**Comptabilisation par défaut**|Sélectionnez ce champ si vous souhaitez que le traitement par lots valide les montants du relevé qui ne peuvent pas être associés aux écritures comptables existantes. Pour plus d'informations, voir Codage des transactions.|  
+    |**Imprimer liste**|Sélectionnez ce champ pour imprimer la liste des montants du relevé qui ne peuvent pas être associés automatiquement.|  
 
-6.  Cliquez sur le bouton **OK**.  
+6.  Choisissez le bouton **OK**.  
 
-    Lorsque vous commencez le traitements par lots, les montants du relevé seront lettrés à des écritures comptables existantes selon les codes transaction. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  
+    Lorsque vous démarrez le traitement par lots, les montants du relevé sont lettrés aux écritures comptables existantes en fonction des codes transaction. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Relevés bancaires CODA](coda-bank-statements.md)   
- [Configurer des comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)   
- [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [Importer des relevés CODA](how-to-import-coda-statements.md)   
- [Créer des feuilles financières](how-to-create-financial-journals.md)   
- [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
- [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
+ [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)   
+ [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Importer les relevés CODA](how-to-import-coda-statements.md)   
+ [Créer des journaux financiers](how-to-create-financial-journals.md)   
+ [Transférer et valider automatiquement les relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
+ [Transférer et valider manuellement les relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Procédure : Imprimer le rapport de formulaire intracomm."
-description: "Le rapport **Feuille intracomm.** est utilisée pour les déclarations D.E.B.. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales."
+title: "Impression de l'état Formulaire de D.E.B."
+description: "L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,40 +13,40 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b5fec58c33c2cbdff549f2634652faa5f856f92
+ms.sourcegitcommit: b8a5f4dcfa9a4e3f728c8de3786e7d5716ac82c7
+ms.openlocfilehash: 12b7342fca98b756ab901e3be1abaa3437e872cc
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 10/04/2018
 
 ---
-# <a name="print-the-intrastat-form-report"></a>Imprimer le rapport de formulaire intracomm.
-Le rapport **Feuille intracomm.** est utilisée pour les déclarations D.E.B.. En Belgique, vous devez rendre compte de tout transfert de marchandises aux autorités douanières chaque mois. Cet état doit être envoyé aux administrations fiscales.  
+# <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
+L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  
 
-Avant d'imprimer l'état **D.E.B. : Formulaire**, vous pouvez aussi imprimer l'état **D.E.B. : Liste de contrôle** pour vérifier le contenu de l'état.  
+Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprimer l'état **D.E.B. - Liste de contrôle** pour vérifier le contenu de l'état.  
 
-## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état D.E.B. : Formulaire  
+## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état Formulaire de D.E.B.  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **D.E.B. : Formulaire**, puis sélectionnez le lien correspondant.  
-2.  Dans le raccourci **Options**, remplissez les champs comme indiqué dans le tableau suivant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **D.E.B. – Formulaire**, puis sélectionnez le lien connexe.  
+2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Nom**|Entrez le nom de la société.|  
     |**Adresse**|Entrez l'adresse.|  
-    |**Code postal + Ville**|Entrez le code postal et la ville.|  
+    |**CP + Ville**|Entrez le code postal et la ville.|  
     |**Contact**|Entrez le nom de la personne à contacter.|  
     |**Téléphone**|Entrez le numéro de téléphone de la personne à contacter.|  
     |**Télécopie**|Entrez le numéro de télécopie.|  
-    |**N° TVA international**|Entrez le numéro d'identification intracommunautaire international.|  
-    |**Déclaration néant**|Sélectionnez si vous n'avez pas de transactions commerciales avec des pays de l'UE et que vous souhaitez envoyer une déclaration vierge. Lorsque cette option est sélectionnée, le message « NÉANT » s'affiche dans le champ **Message**.|  
-    |**Message**|Entrez un message à imprimer sur la déclaration intracommunautaire, par exemple « déclaration normale » ou « déclaration de remplacement ».|  
+    |**Numéro de TVA international**|Entrez le numéro d'enregistrement de TVA international.|  
+    |**Déclaration Nihil**|Sélectionnez ce champ si vous n'avez aucune transaction commerciale avec des pays de l'UE et vous souhaitez envoyer une déclaration vide. Lorque ce champ est sélectionné, le message « NIHIL » s'affiche dans le champ **Message**.|  
+    |**Message**|Entrez un message à imprimer sur la D.E.B., par exemple « déclaration normale » ou « déclaration de remplacement ».|  
 
 3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état ou le bouton **Aperçu** pour l'afficher à l'écran.  
-  
+
 ## <a name="see-also"></a>Voir aussi  
- [État intracommunautaire belge](belgian-intrastat-reporting.md)   
- [Configurer des types de déclaration](how-to-set-up-declaration-types.md)   
- [Configurer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
- [Configurer les numéros d'établissement intracomm.](how-to-set-up-intrastat-establishment-numbers.md)   
- [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)
+ [États intracommunautaires belges](belgian-intrastat-reporting.md)   
+ [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
+ [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
+ [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
+ [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)
 

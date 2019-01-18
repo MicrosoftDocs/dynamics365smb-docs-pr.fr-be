@@ -1,72 +1,67 @@
 ---
-title: "Résumer les lignes de paiement et feuille comptabilité"
-description: "Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gère plusieurs types de transactions de la même manière."
-services: project-madeira
-documentationcenter: 
+title: "Résumé des lignes règlement et des lignes feuille comptabilité"
+description: "Business Central totalise les lignes règlement et les lignes feuille."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0e94b66ce548e2ba2ad5217b0ca04a0da6d08948
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c60298731fc841ef071c7dbd392da748eb92539
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumer les lignes de paiement et feuille comptabilité
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] traite les différents types de transactions de la même manière :  
+# <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumé des lignes règlement et des lignes feuille comptabilité
+Business Central totalise les lignes règlement et les lignes feuille pour les types de paiements suivants :  
 
-- Paiements intérieurs  
-- Paiements étrangers  
+- Paiements nationaux  
+- Paiements internationaux  
 - Paiements SEPA  
-- Paiements SEPA non libellés en Euro  
+- Paiements SEPA hors euro  
 
-## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Comment les lignes feuille paiement sont transférées dans la feuille comptabilité  
-Lorsque vous exportez les lignes feuille paiement dans un fichier, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] transfère les lignes feuille paiement dans la feuille comptabilité spécifiée. Par défaut, une ligne feuille comptabilité est créée pour chaque ligne feuille paiement.  
+## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Transfert des lignes feuille paiement vers la feuille comptabilité  
+Lorsque vous exportez les lignes feuille paiement vers un fichier, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] transfère les lignes feuille paiement vers la feuille comptabilité spécifiée. Par défaut, une ligne feuille comptabilité est créée pour chaque ligne feuille paiement.  
 
-Les deux champs suivants dans la fenêtre **Configuration de la banque électronique** affectent la manière dont sont résumées les lignes paiement.  
+Les deux champs suivants de la page **Paramétrage des opérations bancaires électroniques** affectent la manière dont les lignes paiement sont totalisées :  
 
-- **Résumer lignes FS**  
-- **Couper comm. de paiement**  
+- **Totaliser lignes feuille compta.**  
+- **Limiter les textes du message de paiement**  
 
-Si vous avez sélectionné la case à cocher **Résumer lignes FS** dans la fenêtre **Configuration de la banque électronique**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] résume toutes les lignes feuille paiement pour un fournisseur spécifique sur une ligne feuille comptabilité. La description générale « Paiement %1 », où %1 est le numéro du fournisseur, est utilisée pour la description de la ligne feuille résumée. Une ligne paiement et une ligne feuille comptabilité distinctes sont créées pour traiter :  
+Si vous avez activé la case à cocher **Totaliser lignes feuille compta.** dans la page **Paramétrage des opérations bancaires électroniques**, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] totalise toutes les lignes feuille paiement d'un fournisseur spécifique en une ligne feuille comptabilité. La description générale « Paiement %1 », où %1 correspond au numéro de fournisseur, est utilisée pour la description de la ligne feuille totalisée. Une ligne paiement distincte et une ligne feuille comptabilité distincte sont créées pour gérer :  
 
-- Les lignes feuille paiement qui contiennent des paiements partiels, avec les champs **Paiement partiel** et **Ligne individuelle** sélectionnés.  
+- Les lignes feuille paiement contenant des paiements partiels, avec les champs **Paiement partiel** et **Ligne distincte** sélectionnés.  
 
-- Les lignes feuille paiement qui contiennent une communication structurée (a réussi le test MOD97), qui définit **Communication structurée** sur True dans la feuille bancaire électronique.  
+- Les lignes feuille paiement contenant un message au format standard (c'est-à-dire, qui a réussi le test MOD97), qui définit le champ **Message au format standard** sur Vrai dans la feuille opérations bancaires électroniques.  
 
 ## <a name="example-1"></a>Exemple 1  
-Dans cet exemple, vous exportez les lignes paiement et la case à cocher **Résumer lignes FS** est sélectionnée. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
+Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
 
-- Une ligne paiement combinée dans un fichier XML qui contient une communication concaténée. Un espace blanc est le délimiteur.  
-- Une ligne paiement dans la feuille comptabilité avec une description générique qui inclut le nom du fournisseur.  
+- Une ligne paiement combinée dans un fichier XML qui contient un message de paiement concaténé. L'espace blanc est le séparateur.  
+- Une ligne paiement dans la feuille comptabilité avec une description générique ../../contenant le nom du fournisseur.  
 
 ## <a name="example-2"></a>Exemple 2  
-Dans cet exemple, vous exportez les lignes paiement et la case à cocher **Résumer lignes FS** est sélectionnée. La case à cocher **Couper comm. de paiement** est désélectionnée, et les lignes paiement SEPA et SEPA non libellées en Euro combinées dépassent 140 caractères dans la communication. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
+Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est désactivée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
 
-- Deux lignes paiement combinées dans un fichier XML. La première ligne paiement contient les premières communications concaténées. La deuxième ligne paiement contient la communication de la troisième ligne.  
+- Deux lignes paiement combinées dans un fichier XML. La première ligne paiement contient les premiers messages de paiement concaténés. La deuxième ligne paiement contient le message de paiement de la troisième ligne.  
 
-- Une ligne paiement dans la feuille comptabilité avec une description générique qui inclut le nom du fournisseur.  
+- Une ligne paiement dans la feuille comptabilité avec une description générique ../../contenant le nom du fournisseur.  
 
 ## <a name="example-3"></a>Exemple 3  
-Dans cet exemple, vous exportez les lignes paiement et la case à cocher **Résumer lignes FS** est sélectionnée. La case à cocher **Couper comm. de paiement** est également sélectionnée, et les lignes paiement SEPA et SEPA non libellées en Euro combinées dépassent 140 caractères dans la communication. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
+Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est également activée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
 
-- Une ligne paiement combinée dans un fichier XML qui contient deux communications concaténées. Des points de suspension (...) sont utilisés pour indiquer que le message est tronqué.  
+- Une ligne paiement combinée dans un fichier XML qui contient deux messages de paiement concaténés. Les points de suspension (…) sont utilisés pour indiquer que le message est tronqué.  
 
-- Une ligne paiement dans la feuille comptabilité avec une description générique qui inclut le nom du fournisseur.  
+- Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
-Basés sur la structure XML, les paiements sont résumés par numéro de compte, numéro compte bancaire bénéficiaire et numéro compte bancaire. Le filtre compte bancaire peut être vide.  
+Selon la structure XML, les paiements sont totalisés par numéro de compte, numéro de compte bancaire du bénéficiaire et numéro de compte bancaire. Le filtre de compte bancaire peut être vide.  
 
-Le message EndToEndId du message SEPA est extrait du message de paiement et peut être tronqué à la longueur maximale de 45 caractères.  
+La valeur EndToEndId dans le message SEPA est extraite du message de paiement et peut être tronquée à la longueur maximale de 45 caractères.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
- [Paramétrage de Finance](../../finance-setup-finance.md)  
- [Enregistrer des achats](../../purchasing-how-record-purchases.md) 
+ [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
+ [Configuration de Finance](../../finance-setup-finance.md)  
+ [Enregistrer des achats](../../purchasing-how-record-purchases.md)
 

@@ -1,5 +1,5 @@
 ---
-title: "Procédure : Télécharger des fichiers CODA à partir d'un serveur Isabel"
+title: "Téléchargement des fichiers CODA à partir d'un serveur Isabel"
 description: "Les fichiers CODA peuvent être téléchargés manuellement ou en mode assisté."
 services: project-madeira
 documentationcenter: 
@@ -13,40 +13,40 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3391529dd136311adce3cdca49dcf9917d060e7c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7b81574cefed5da4b6520733365f689f0aec933
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="download-coda-files-from-an-isabel-server"></a>Télécharger des fichiers CODA à partir d'un serveur Isabel
+# <a name="download-coda-files-from-an-isabel-server"></a>Télécharger les fichiers CODA à partir d'un serveur Isabel
 > [!Note]
 > [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
 
 Les fichiers CODA peuvent être téléchargés manuellement ou en mode assisté.  
 
-Pour télécharger manuellement des fichiers CODA, connectez-vous au serveur Isabel et sélectionnez les fichiers que vous souhaitez télécharger. Les fichiers téléchargés peuvent être importés à partir du tableau **Compte bancaire**. Pour plus d'informations, reportez-vous à [Importer des relevés CODA](how-to-import-coda-statements.md).  
+Pour télécharger manuellement les fichiers CODA, connectez-vous au serveur Isabel et sélectionnez les fichiers que vous souhaitez télécharger. Les fichiers téléchargés peuvent ensuite être importés à partir de la table **Compte bancaire**. Pour plus d'informations, voir [Importer les relevés CODA](how-to-import-coda-statements.md).  
 
 ## <a name="to-download-coda-files-in-attended-mode"></a>Pour télécharger les fichiers CODA en mode assisté  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Journaux IBS**, puis sélectionnez le lien correspondant.  
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuilles IBS**, puis sélectionnez le lien connexe.  
 2.  Choisissez l'action **Télécharger**.  
-3.  Dans la fenêtre **Options de demande de téléchargement IBS**, remplissez les champs comme indiqué dans le tableau suivant.  
+3.  Dans la page **Options de demande de téléchargement IBS**, renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
     |**Date début**|Spécifiez la date de début du téléchargement.|  
     |**Historique cumulé**|Spécifiez la date de fin du téléchargement.|  
     |**Format de fichier**|Sélectionnez **Coda** comme format de fichier.|  
-    |**Statut du fichier**|Sélectionnez le statut du fichier du téléchargement. Les statuts du fichier incluent **Non téléchargé**, **Téléchargé** et **Tout**. Généralement, vous devez sélectionner **Non téléchargé**, car vous téléchargez les fichiers CODA qui n'ont pas été téléchargés dans votre système.|  
+    |**Statut du fichier**|Sélectionnez le statut du fichier du téléchargement. Les statuts du fichier sont : **Non téléchargé**, **Téléchargé** et **Tous**. Généralement, vous sélectionnez **Non téléchargé**, car vous téléchargez les fichiers CODA qui n'ont pas été téléchargés dans votre système.|  
 
-4.  Cliquez sur le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
 
     > [!NOTE]  
-    >  Vous ne pouvez supprimer aucune fichier du serveur Isabel via la fenêtre **Options de demande de téléchargement IBS**. Vous devez supprimer manuellement les fichiers en vous connectant au serveur Isabel.  
+    >  Vous ne pouvez pas supprimer des fichiers du serveur Isabel à l'aide de la page **Options de demande de téléchargement IBS**. Vous devez supprimer manuellement les fichiers en vous connectant au serveur Isabel.  
 
-     Après le téléchargement des fichiers CODA, le champ **Statut processus** sera défini sur **Créé** dans la fenêtre **Journaux IBS**. Vous pouvez vous connecter au serveur Isabel pour récupérer manuellement les fichiers. Pour plus d'informations, reportez-vous à [Importer des relevés CODA](how-to-import-coda-statements.md).  
+     Une fois que les fichiers CODA ont été téléchargés, le champ **Statut du processus** indique **Créé** dans la page **Feuilles IBS**. Vous pouvez vous connecter au serveur Isabel pour récupérer manuellement les fichiers. Pour plus d'informations, voir [Importer les relevés CODA](how-to-import-coda-statements.md).  
 
 ## <a name="see-also"></a>Voir aussi  
-[Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
+[Fonctionnalité locale, Belgique](belgium-local-functionality.md)
 

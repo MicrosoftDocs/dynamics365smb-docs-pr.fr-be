@@ -1,6 +1,6 @@
 ---
-title: "Procédure : Configurer les fournisseurs pour les propositions de paiement automatique"
-description: "Vous pouvez configurer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les propositions de paiement."
+title: "Paramétrage des fournisseurs pour des suggestions de règlement automatique"
+description: "Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,33 +13,33 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 84933111ee87468f5d018b6399b4bb80359ac5fc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Configurer des fournisseurs pour les propositions de paiement automatique
-Vous pouvez configurer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les propositions de paiement. Pour chaque vendeur, vous devez déterminer si vous souhaitez générer automatiquement des propositions de paiement. Si vous ne souhaitez pas générer des propositions de paiement pour un fournisseur, ne cochez pas la case **Proposer paiements**. Les écritures comptables ouvertes pour ce fournisseur ne seront alors pas incluses dans les propositions de paiement.  
+# <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Paramétrer les fournisseurs pour des suggestions de règlement automatique
+Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement. Pour chaque fournisseur, vous devez décider si vous souhaitez générer automatiquement des suggestions de paiement. Si vous ne souhaitez pas générer des suggestions de paiement pour un fournisseur, vous ne devez pas activer la case à cocher **Proposer paiements**. Ainsi, les écritures comptables en attente pour le fournisseur ne seront pas incluses dans les suggestions de paiement.  
 
-## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a>Pour configurer un fournisseur pour qu'il soit inclus dans le lot de propositions de paiement  
+## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a>Pour paramétrer un fournisseur pour l'inclure dans le traitement par lots de suggestion de paiement  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Fournisseurs**, puis sélectionnez le lien correspondant.  
-2.  Dans la fenêtre **Fournisseurs**, sélectionnez un fournisseur pertinent, puis choisissez l'action **Modifier**.  
-3.  Dans le raccourci **Paiements**, cochez la case **Proposer paiements**.  
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
+2.  Dans la page **Fournisseurs**, sélectionnez un fournisseur approprié, puis choisissez l'action **Modifier**.  
+3.  Dans le raccourci **Paiements**, activez la case à cocher **Proposer paiements**.  
 
-    Si ce champ n'est pas sélectionné, aucune proposition de paiement ne sera générée pour ce fournisseur.  
+    Si ce champ n'est pas sélectionné, aucune suggestion de paiement n'est générée pour le fournisseur.  
 
-4.  Cliquez sur le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
   
 ## <a name="see-also"></a>Voir aussi  
- [Banque électronique belge](belgian-electronic-banking.md)   
- [Paiements électroniques belges](belgian-electronic-payments.md)   
- [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
- [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [Générer des propositions de paiement](how-to-generate-payment-suggestions.md)   
- [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
+ [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
+ [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
+ [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
+ [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
+ [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
- [Gérer les lignes paiement électronique](how-to-manage-electronic-payment-lines.md)   
- [Imprimer des fichiers de paiement](how-to-print-payment-files.md)
+ [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
+ [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
 
