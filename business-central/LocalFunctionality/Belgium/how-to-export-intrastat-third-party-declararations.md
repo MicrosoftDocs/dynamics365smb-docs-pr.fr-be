@@ -1,47 +1,48 @@
 ---
-title: "Procédure : Exporter les déclarations de tiers intracomm."
-description: "En Belgique, vous devez demander à un déclarant tiers de remplir la déclaration intracommunautaire. Le déclarant tiers doit être une personne ou une société externe."
+title: "Procédure d'exportation des déclarations tierces intracommunautaires"
+description: "En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
-ms.author: sgroespe
+ms.date: 11/30/2018
+ms.author: soalex
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 74de4512b918dd56e91cba42c2aac2b80703ab03
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: acb6c589ad748d7e98e71acef9cc0d6e62fc53d3
 ms.contentlocale: fr-be
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="export-intrastat-third-party-declarations"></a><span data-ttu-id="2b75c-104">Exporter les déclarations de tiers intracomm.</span><span class="sxs-lookup"><span data-stu-id="2b75c-104">Export Intrastat Third-Party Declarations</span></span>
-<span data-ttu-id="2b75c-105">En Belgique, un tiers déclarant doit remplir la déclaration intracommunautaire.</span><span class="sxs-lookup"><span data-stu-id="2b75c-105">In Belgium, you must have a third-party declarant fill out the Intrastat declaration.</span></span> <span data-ttu-id="2b75c-106">Le tiers déclarant doit être une personne ou une société externe.</span><span class="sxs-lookup"><span data-stu-id="2b75c-106">The third-party declarant must be an external person or company.</span></span> 
+# <a name="export-intrastat-third-party-declarations"></a><span data-ttu-id="f75e4-104">Exporter les déclarations tierces intracommunautaires</span><span class="sxs-lookup"><span data-stu-id="f75e4-104">Export Intrastat Third-Party Declarations</span></span>
+<span data-ttu-id="f75e4-105">En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat).</span><span class="sxs-lookup"><span data-stu-id="f75e4-105">In Belgium, you must have a third-party declarant fill out the Intrastat declaration.</span></span> <span data-ttu-id="f75e4-106">Le déclarant tiers doit être une personne ou une société externe.</span><span class="sxs-lookup"><span data-stu-id="f75e4-106">The third-party declarant must be an external person or company.</span></span> 
 
-## <a name="to-export-the-third-party-declaration"></a><span data-ttu-id="2b75c-107">Pour exporter la déclaration de tiers</span><span class="sxs-lookup"><span data-stu-id="2b75c-107">To export the third-party declaration</span></span>  
-<span data-ttu-id="2b75c-108">Avant d'exporter le fichier, il est conseillé de prévisualiser l'état.</span><span class="sxs-lookup"><span data-stu-id="2b75c-108">Before you export the file, it's a good idea to preview the report.</span></span> <span data-ttu-id="2b75c-109">Pour plus d'informations, voir [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md).</span><span class="sxs-lookup"><span data-stu-id="2b75c-109">For more information, see [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md).</span></span>  
+## <a name="to-export-the-third-party-declaration"></a><span data-ttu-id="f75e4-107">Pour exporter la déclaration tierce</span><span class="sxs-lookup"><span data-stu-id="f75e4-107">To export the third-party declaration</span></span>  
+<span data-ttu-id="f75e4-108">Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état.</span><span class="sxs-lookup"><span data-stu-id="f75e4-108">Before you export the file, it's a good idea to preview the report.</span></span> <span data-ttu-id="f75e4-109">Pour plus d'informations, voir [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md).</span><span class="sxs-lookup"><span data-stu-id="f75e4-109">For more information, see [Print the Intrastat Form Report](how-to-print-the-intrastat-form-report.md).</span></span>  
 
-1.  <span data-ttu-id="2b75c-110">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuilles intracomm.**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="2b75c-110">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="2b75c-111">Choisissez l'action **Créer fichier**.</span><span class="sxs-lookup"><span data-stu-id="2b75c-111">Choose the **Create File** action.</span></span>  
-3.  <span data-ttu-id="2b75c-112">Remplissez les champs comme décrit dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="2b75c-112">Fill in the fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="f75e4-110">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="f75e4-110">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Intrastat Journals**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="f75e4-111">Choisissez l'action **Créer fichier**.</span><span class="sxs-lookup"><span data-stu-id="f75e4-111">Choose the **Create File** action.</span></span>  
+3.  <span data-ttu-id="f75e4-112">Renseignez les champs comme indiqué dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="f75e4-112">Fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="2b75c-113">Champ</span><span class="sxs-lookup"><span data-stu-id="2b75c-113">Field</span></span>|<span data-ttu-id="2b75c-114">Description</span><span class="sxs-lookup"><span data-stu-id="2b75c-114">Description</span></span>|  
+    |<span data-ttu-id="f75e4-113">Champ</span><span class="sxs-lookup"><span data-stu-id="f75e4-113">Field</span></span>|<span data-ttu-id="f75e4-114">Désignation</span><span class="sxs-lookup"><span data-stu-id="f75e4-114">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="2b75c-115">**Déclaration néant**</span><span class="sxs-lookup"><span data-stu-id="2b75c-115">**Nihil declaration**</span></span>|<span data-ttu-id="2b75c-116">Sélectionnez si vous n'avez pas de transactions commerciales avec des pays ou régions de l'Union européenne (UE) et que vous souhaitez envoyer une déclaration vierge.</span><span class="sxs-lookup"><span data-stu-id="2b75c-116">Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.</span></span>|  
-    |<span data-ttu-id="2b75c-117">**N° de société/N° enreg. TVA.**</span><span class="sxs-lookup"><span data-stu-id="2b75c-117">**Enterprise No./VAT Reg. No.**</span></span>|<span data-ttu-id="2b75c-118">Entrez le numéro d'entreprise ou le numéro d'identification intracommunautaire.</span><span class="sxs-lookup"><span data-stu-id="2b75c-118">Enter the enterprise or VAT registration number.</span></span>|  
+    |<span data-ttu-id="f75e4-115">**Déclaration Nihil**</span><span class="sxs-lookup"><span data-stu-id="f75e4-115">**Nihil declaration**</span></span>|<span data-ttu-id="f75e4-116">Sélectionnez ce champ si vous n'avez aucune transaction commerciale avec des pays/régions de l'Union européenne (UE) et que vous souhaitez envoyer une déclaration vide.</span><span class="sxs-lookup"><span data-stu-id="f75e4-116">Select if you do not have any trade transactions with European Union (EU) countries/regions and want to send an empty declaration.</span></span>|  
+    |<span data-ttu-id="f75e4-117">**Informations de contrepartie**</span><span class="sxs-lookup"><span data-stu-id="f75e4-117">**Counter party info**</span></span>|<span data-ttu-id="f75e4-118">Activez ce champ pour inclure des informations de contrepartie dans le fichier de déclaration d'échanges de biens intracommunautaires (nouvelle exigence à partir de 2019).</span><span class="sxs-lookup"><span data-stu-id="f75e4-118">Check this field to include counter party information in the Intrastat file (new requirement from 2019).</span></span> <span data-ttu-id="f75e4-119">La déclaration de contrepartie ajoutée au fichier est issue du **Code pays/région origine** et de l'**ID partenaire** de la Feuille intracomm.</span><span class="sxs-lookup"><span data-stu-id="f75e4-119">The counter party information added to the file is taken from the **Country/Region of Origin Code** and **Partner ID** from the Intrastat Journal.</span></span>|  
+    |<span data-ttu-id="f75e4-120">**N° entreprise/N° id. intracomm.**</span><span class="sxs-lookup"><span data-stu-id="f75e4-120">**Enterprise No./VAT Reg. No.**</span></span>|<span data-ttu-id="f75e4-121">Entrez le numéro d'entreprise ou d'enregistrement de TVA.</span><span class="sxs-lookup"><span data-stu-id="f75e4-121">Enter the enterprise or VAT registration number.</span></span>|  
     
-4.  <span data-ttu-id="2b75c-119">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="2b75c-119">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="f75e4-122">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="f75e4-122">Choose the **OK** button.</span></span>  
 
-<span data-ttu-id="2b75c-120">Ensuite, envoyez la déclaration au portail OneGate.</span><span class="sxs-lookup"><span data-stu-id="2b75c-120">Next, submit the declaration to the OneGate portal.</span></span>  
+<span data-ttu-id="f75e4-123">Ensuite, envoyez la déclaration au portail OneGate.</span><span class="sxs-lookup"><span data-stu-id="f75e4-123">Next, submit the declaration to the OneGate portal.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="2b75c-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2b75c-121">See Also</span></span>  
- <span data-ttu-id="2b75c-122">[État intracommunautaire belge](belgian-intrastat-reporting.md) </span><span class="sxs-lookup"><span data-stu-id="2b75c-122">[Belgian Intrastat Reporting](belgian-intrastat-reporting.md) </span></span>  
- <span data-ttu-id="2b75c-123">[Configurer des types de déclaration](how-to-set-up-declaration-types.md) </span><span class="sxs-lookup"><span data-stu-id="2b75c-123">[Set Up Declaration Types](how-to-set-up-declaration-types.md) </span></span>  
- <span data-ttu-id="2b75c-124">[Configurer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="2b75c-124">[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md) </span></span>  
- <span data-ttu-id="2b75c-125">[Configurer les numéros d'établissement intracomm.](how-to-set-up-intrastat-establishment-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="2b75c-125">[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md) </span></span>  
- [<span data-ttu-id="2b75c-126">Imprimer le rapport de formulaire intracomm.</span><span class="sxs-lookup"><span data-stu-id="2b75c-126">Print the Intrastat Form Report</span></span>](how-to-print-the-intrastat-form-report.md)
+## <a name="see-also"></a><span data-ttu-id="f75e4-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f75e4-124">See Also</span></span>  
+ <span data-ttu-id="f75e4-125">[États intracommunautaires belges](belgian-intrastat-reporting.md) </span><span class="sxs-lookup"><span data-stu-id="f75e4-125">[Belgian Intrastat Reporting](belgian-intrastat-reporting.md) </span></span>  
+ <span data-ttu-id="f75e4-126">[Paramétrer des types de déclarations](how-to-set-up-declaration-types.md) </span><span class="sxs-lookup"><span data-stu-id="f75e4-126">[Set Up Declaration Types](how-to-set-up-declaration-types.md) </span></span>  
+ <span data-ttu-id="f75e4-127">[Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="f75e4-127">[Set Up Belgian Tariff Numbers](how-to-set-up-belgian-tariff-numbers.md) </span></span>  
+ <span data-ttu-id="f75e4-128">[Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md) </span><span class="sxs-lookup"><span data-stu-id="f75e4-128">[Set Up Intrastat Establishment Numbers](how-to-set-up-intrastat-establishment-numbers.md) </span></span>  
+ [<span data-ttu-id="f75e4-129">Imprimer l'état du formulaire de D.E.B.</span><span class="sxs-lookup"><span data-stu-id="f75e4-129">Print the Intrastat Form Report</span></span>](how-to-print-the-intrastat-form-report.md)
 
