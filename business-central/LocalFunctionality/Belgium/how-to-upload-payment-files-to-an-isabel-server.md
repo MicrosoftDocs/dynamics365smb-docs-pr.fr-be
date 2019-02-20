@@ -1,6 +1,6 @@
 ---
 title: "Téléchargement des fichiers de paiement vers un serveur Isabel"
-description: "Les fichiers de paiement peuvent être téléchargés à l'aide de la page **Feuilles IBS**. Les champs **Mode d'intégration du chargement** et **Mode d'intégration du téléchargement** dans la page **Paramétrage des opérations bancaires électroniques** doivent être définis sur **Assisté** pour télécharger les fichiers de paiement."
+description: "Les fichiers de paiement peuvent être téléchargés à l'aide de la page Feuilles IBS. Les champs Mode d'intégration du chargement et Mode d'intégration du téléchargement dans la page Paramétrage des opérations bancaires électroniques doivent être définis sur Assisté pour télécharger les fichiers de paiement."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2621f8f73cd00baecbb47c799e9e2adbc0d93bd6
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 34ca4afa9714336652ed654194f02e5493a750ee
 ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="upload-payment-files-to-an-isabel-server"></a>Télécharger les fichiers de paiement vers un serveur Isabel

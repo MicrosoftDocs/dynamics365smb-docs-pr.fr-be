@@ -1,47 +1,48 @@
 ---
-title: "Procédure : Exporter les déclarations de tiers intracomm."
-description: "En Belgique, vous devez demander à un déclarant tiers de remplir la déclaration intracommunautaire. Le déclarant tiers doit être une personne ou une société externe."
+title: "Procédure d'exportation des déclarations tierces intracommunautaires"
+description: "En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
-ms.author: sgroespe
+ms.date: 11/30/2018
+ms.author: soalex
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2a888b95bd0572d23ee3c331b501ec246685213
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: acb6c589ad748d7e98e71acef9cc0d6e62fc53d3
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations de tiers intracomm.
-En Belgique, un tiers déclarant doit remplir la déclaration intracommunautaire. Le tiers déclarant doit être une personne ou une société externe. 
+# <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations tierces intracommunautaires
+En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe. 
 
-## <a name="to-export-the-third-party-declaration"></a>Pour exporter la déclaration de tiers  
-Avant d'exporter le fichier, il est conseillé de prévisualiser l'état. Pour plus d'informations, voir [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md).  
+## <a name="to-export-the-third-party-declaration"></a>Pour exporter la déclaration tierce  
+Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état. Pour plus d'informations, voir [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md).  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuilles intracomm.**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
 2.  Choisissez l'action **Créer fichier**.  
-3.  Remplissez les champs comme décrit dans le tableau suivant.  
+3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
-    |Champ|Description|  
+    |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
-    |**Déclaration néant**|Sélectionnez si vous n'avez pas de transactions commerciales avec des pays ou régions de l'Union européenne (UE) et que vous souhaitez envoyer une déclaration vierge.|  
-    |**N° de société/N° enreg. TVA.**|Entrez le numéro d'entreprise ou le numéro d'identification intracommunautaire.|  
+    |**Déclaration Nihil**|Sélectionnez ce champ si vous n'avez aucune transaction commerciale avec des pays/régions de l'Union européenne (UE) et que vous souhaitez envoyer une déclaration vide.|  
+    |**Informations de contrepartie**|Activez ce champ pour inclure des informations de contrepartie dans le fichier de déclaration d'échanges de biens intracommunautaires (nouvelle exigence à partir de 2019). La déclaration de contrepartie ajoutée au fichier est issue du **Code pays/région origine** et de l'**ID partenaire** de la Feuille intracomm.|  
+    |**N° entreprise/N° id. intracomm.**|Entrez le numéro d'entreprise ou d'enregistrement de TVA.|  
     
-4.  Cliquez sur le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
 
 Ensuite, envoyez la déclaration au portail OneGate.  
 
 ## <a name="see-also"></a>Voir aussi  
- [État intracommunautaire belge](belgian-intrastat-reporting.md)   
- [Configurer des types de déclaration](how-to-set-up-declaration-types.md)   
- [Configurer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
- [Configurer les numéros d'établissement intracomm.](how-to-set-up-intrastat-establishment-numbers.md)   
- [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md)
+ [États intracommunautaires belges](belgian-intrastat-reporting.md)   
+ [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
+ [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
+ [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
+ [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
 

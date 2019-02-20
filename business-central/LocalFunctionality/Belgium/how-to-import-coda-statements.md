@@ -1,6 +1,6 @@
 ---
-title: "Comment importer les relevés CODA"
-description: "Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]."
+title: "Procédure d'importation des relevés CODA"
+description: "Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,29 +13,29 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c56a8a7e36c01e7794dfb677e2e485eefe393d8
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 9e1fdb44770746f7c655194f13e6092f8fa6c385
 ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
-# <a name="import-coda-statements"></a>Importer des relevés CODA
-Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Pour plus d'informations, reportez vous à [Configuration de comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  
+# <a name="import-coda-statements"></a>Importer les relevés CODA
+Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## <a name="to-import-a-coda-statement"></a>Pour importer un relevé CODA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.  
-2.  Sélectionnez le compte bancaire, puis choisissez l'action **Importer fichier CODA**.  
-3.  Entrez le nom du fichier à importer, puis cliquez sur le bouton **OK**.  
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
+2.  Sélectionnez le compte bancaire, puis choisissez l'action **Importer le fichier CODA**.  
+3.  Entrez le nom du fichier à importer, puis choisissez le bouton **OK**.  
 
-L'importation du relevé CODA démarre. Ensuite, vous devez traiter les lignes relevé CODA. Pour plus d'informations, [Lettrer des relevés CODA](how-to-apply-coda-statements.md).  
+Cette opération importe le relevé CODA. Ensuite, vous devez traiter les lignes du relevé CODA. Pour plus d'informations, voir [Lettrer des relevés CODA](how-to-apply-coda-statements.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Relevés bancaires CODA](coda-bank-statements.md)   
- [Configurer des comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)   
- [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [Lettrer des relevés CODA](how-to-apply-coda-statements.md)   
- [Créer des feuilles financières](how-to-create-financial-journals.md)   
- [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
- [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
+ [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)   
+ [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
+ [Lettrer les relevés CODA](how-to-apply-coda-statements.md)   
+ [Créer des journaux financiers](how-to-create-financial-journals.md)   
+ [Transférer et valider automatiquement les relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
+ [Transférer et valider manuellement les relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
 

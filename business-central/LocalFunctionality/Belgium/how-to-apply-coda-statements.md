@@ -1,6 +1,6 @@
 ---
 title: "Lettrage des relevés CODA"
-description: "Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes."
+description: "Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9ea4b0000ec1b96933da5f7ab0e49553e10a7365
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 450623e790f814b5a00dd2db7753c109a61deecb
 ms.contentlocale: fr-be
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="apply-coda-statements"></a>Lettrer les relevés CODA
