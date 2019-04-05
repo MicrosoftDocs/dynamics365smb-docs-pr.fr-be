@@ -1,1 +1,1 @@
-<span data-ttu-id="153f2-101">Les fonctions Isabel sont disponibles uniquement pour les déploiements sur site.</span><span class="sxs-lookup"><span data-stu-id="153f2-101">The Isabel features are available only for on-premises deployments.</span></span>
+<span data-ttu-id="8f49e-101">Les fonctions Isabel sont disponibles uniquement pour les déploiements sur site.</span><span class="sxs-lookup"><span data-stu-id="8f49e-101">The Isabel features are available only for on-premises deployments.</span></span>

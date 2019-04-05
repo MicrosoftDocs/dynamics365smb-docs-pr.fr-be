@@ -1,45 +1,44 @@
 ---
-title: "Paramétrage des fournisseurs pour des suggestions de règlement automatique"
-description: "Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement."
+title: Paramétrage des fournisseurs pour des suggestions de règlement automatique
+description: Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826446"
 ---
-# <a name="set-up-vendors-for-automatic-payment-suggestions"></a><span data-ttu-id="094a4-103">Paramétrer les fournisseurs pour des suggestions de règlement automatique</span><span class="sxs-lookup"><span data-stu-id="094a4-103">Set Up Vendors for Automatic Payment Suggestions</span></span>
-<span data-ttu-id="094a4-104">Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement.</span><span class="sxs-lookup"><span data-stu-id="094a4-104">You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions.</span></span> <span data-ttu-id="094a4-105">Pour chaque fournisseur, vous devez décider si vous souhaitez générer automatiquement des suggestions de paiement.</span><span class="sxs-lookup"><span data-stu-id="094a4-105">For each vendor, you must decide whether you want to automatically generate payment suggestions.</span></span> <span data-ttu-id="094a4-106">Si vous ne souhaitez pas générer des suggestions de paiement pour un fournisseur, vous ne devez pas activer la case à cocher **Proposer paiements**.</span><span class="sxs-lookup"><span data-stu-id="094a4-106">If you do not want to generate payment suggestions for a vendor, you should not select the **Suggest Payments** check box.</span></span> <span data-ttu-id="094a4-107">Ainsi, les écritures comptables en attente pour le fournisseur ne seront pas incluses dans les suggestions de paiement.</span><span class="sxs-lookup"><span data-stu-id="094a4-107">This way the outstanding ledger entries for the vendor will not be included in payment suggestions.</span></span>  
+# <a name="set-up-vendors-for-automatic-payment-suggestions"></a><span data-ttu-id="526a8-103">Paramétrer les fournisseurs pour des suggestions de règlement automatique</span><span class="sxs-lookup"><span data-stu-id="526a8-103">Set Up Vendors for Automatic Payment Suggestions</span></span>
+<span data-ttu-id="526a8-104">Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement.</span><span class="sxs-lookup"><span data-stu-id="526a8-104">You can set up each vendor so that unpaid invoices from that vendor are automatically included in payment suggestions.</span></span> <span data-ttu-id="526a8-105">Pour chaque fournisseur, vous devez décider si vous souhaitez générer automatiquement des suggestions de paiement.</span><span class="sxs-lookup"><span data-stu-id="526a8-105">For each vendor, you must decide whether you want to automatically generate payment suggestions.</span></span> <span data-ttu-id="526a8-106">Si vous ne souhaitez pas générer des suggestions de paiement pour un fournisseur, vous ne devez pas activer la case à cocher **Proposer paiements**.</span><span class="sxs-lookup"><span data-stu-id="526a8-106">If you do not want to generate payment suggestions for a vendor, you should not select the **Suggest Payments** check box.</span></span> <span data-ttu-id="526a8-107">Ainsi, les écritures comptables en attente pour le fournisseur ne seront pas incluses dans les suggestions de paiement.</span><span class="sxs-lookup"><span data-stu-id="526a8-107">This way the outstanding ledger entries for the vendor will not be included in payment suggestions.</span></span>  
 
-## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a><span data-ttu-id="094a4-108">Pour paramétrer un fournisseur pour l'inclure dans le traitement par lots de suggestion de paiement</span><span class="sxs-lookup"><span data-stu-id="094a4-108">To set up a vendor to be included in the payment suggestion batch</span></span>  
+## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a><span data-ttu-id="526a8-108">Pour paramétrer un fournisseur pour l'inclure dans le traitement par lots de suggestion de paiement</span><span class="sxs-lookup"><span data-stu-id="526a8-108">To set up a vendor to be included in the payment suggestion batch</span></span>  
 
-1.  <span data-ttu-id="094a4-109">Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="094a4-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="094a4-110">Dans la page **Fournisseurs**, sélectionnez un fournisseur approprié, puis choisissez l'action **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="094a4-110">On the **Vendors** page, select a relevant vendor, and then choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="094a4-111">Dans le raccourci **Paiements**, activez la case à cocher **Proposer paiements**.</span><span class="sxs-lookup"><span data-stu-id="094a4-111">On the **Payments** FastTab, select the **Suggest Payments** check box.</span></span>  
+1.  <span data-ttu-id="526a8-109">Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="526a8-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="526a8-110">Dans la page **Fournisseurs**, sélectionnez un fournisseur approprié, puis choisissez l'action **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="526a8-110">On the **Vendors** page, select a relevant vendor, and then choose the **Edit** action.</span></span>  
+3.  <span data-ttu-id="526a8-111">Dans le raccourci **Paiements**, activez la case à cocher **Proposer paiements**.</span><span class="sxs-lookup"><span data-stu-id="526a8-111">On the **Payments** FastTab, select the **Suggest Payments** check box.</span></span>  
 
-    <span data-ttu-id="094a4-112">Si ce champ n'est pas sélectionné, aucune suggestion de paiement n'est générée pour le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="094a4-112">If this field is not selected, no payment suggestions will be generated for the vendor.</span></span>  
+    <span data-ttu-id="526a8-112">Si ce champ n'est pas sélectionné, aucune suggestion de paiement n'est générée pour le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="526a8-112">If this field is not selected, no payment suggestions will be generated for the vendor.</span></span>  
 
-4.  <span data-ttu-id="094a4-113">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="094a4-113">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="526a8-113">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="526a8-113">Choose the **OK** button.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="094a4-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="094a4-114">See Also</span></span>  
- <span data-ttu-id="094a4-115">[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-115">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
- <span data-ttu-id="094a4-116">[Paiements électroniques, Belgique](belgian-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-116">[Belgian Electronic Payments](belgian-electronic-payments.md) </span></span>  
- <span data-ttu-id="094a4-117">[Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-117">[Set Up Electronic Banking](how-to-set-up-electronic-banking.md) </span></span>  
- <span data-ttu-id="094a4-118">[Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-118">[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) </span></span>  
- <span data-ttu-id="094a4-119">[Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-119">[Generate Payment Suggestions](how-to-generate-payment-suggestions.md) </span></span>  
- <span data-ttu-id="094a4-120">[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-120">[Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md) </span></span>  
- <span data-ttu-id="094a4-121">[Tester les paiements électroniques](how-to-test-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-121">[Test Electronic Payments](how-to-test-electronic-payments.md) </span></span>  
- <span data-ttu-id="094a4-122">[Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md) </span><span class="sxs-lookup"><span data-stu-id="094a4-122">[Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md) </span></span>  
- [<span data-ttu-id="094a4-123">Imprimer les fichiers de paiement</span><span class="sxs-lookup"><span data-stu-id="094a4-123">Print Payment Files</span></span>](how-to-print-payment-files.md)
-
+## <a name="see-also"></a><span data-ttu-id="526a8-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="526a8-114">See Also</span></span>  
+ <span data-ttu-id="526a8-115">[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-115">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
+ <span data-ttu-id="526a8-116">[Paiements électroniques, Belgique](belgian-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-116">[Belgian Electronic Payments](belgian-electronic-payments.md) </span></span>  
+ <span data-ttu-id="526a8-117">[Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-117">[Set Up Electronic Banking](how-to-set-up-electronic-banking.md) </span></span>  
+ <span data-ttu-id="526a8-118">[Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-118">[Set Up IBLC-BLWI Transaction Codes](how-to-set-up-iblc-blwi-transaction-codes.md) </span></span>  
+ <span data-ttu-id="526a8-119">[Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-119">[Generate Payment Suggestions](how-to-generate-payment-suggestions.md) </span></span>  
+ <span data-ttu-id="526a8-120">[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-120">[Create Payment Journal Templates and Batches](how-to-create-payment-journal-templates-and-batches.md) </span></span>  
+ <span data-ttu-id="526a8-121">[Tester les paiements électroniques](how-to-test-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-121">[Test Electronic Payments](how-to-test-electronic-payments.md) </span></span>  
+ <span data-ttu-id="526a8-122">[Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md) </span><span class="sxs-lookup"><span data-stu-id="526a8-122">[Manage Electronic Payment Lines](how-to-manage-electronic-payment-lines.md) </span></span>  
+ [<span data-ttu-id="526a8-123">Imprimer les fichiers de paiement</span><span class="sxs-lookup"><span data-stu-id="526a8-123">Print Payment Files</span></span>](how-to-print-payment-files.md)
