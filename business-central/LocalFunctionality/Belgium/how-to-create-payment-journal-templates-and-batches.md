@@ -1,18 +1,18 @@
 ---
-title: "Création de modèles et de lots de feuilles paiement"
-description: "Dans la version belge de Business Central, les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille."
+title: Création de modèles et de lots de feuilles paiement
+description: Dans la version belge de Business Central, les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7b37a8fd5dffdde7beb20ac441f070d61f45401b
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826471"
 ---
 # <a name="create-payment-journal-templates-and-batches"></a>Créer des modèles et des lots de feuilles paiement
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille. Toutefois, la feuille paiement contient des champs qui sont propres au traitement des paiements. Avant de commencer à générer des suggestions de paiement, vous devez paramétrer un modèle feuille paiement et une feuille paiement.  
@@ -54,4 +54,3 @@ Si vous affectez un compte bancaire au modèle feuille paiement, le compte banca
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)
-

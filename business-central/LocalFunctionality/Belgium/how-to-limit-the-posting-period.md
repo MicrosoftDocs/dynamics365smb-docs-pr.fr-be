@@ -1,23 +1,23 @@
 ---
-title: "Limitation de la période de validation"
-description: "Vous pouvez limiter la période de validation autorisée selon trois niveaux différents : par société, par utilisateur et par modèle."
+title: Limitation de la période de validation
+description: 'Vous pouvez limiter la période de validation autorisée selon trois niveaux différents : par société, par utilisateur et par modèle.'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: bdf0db732eade193fbc1b7fc4d176cbfe1a519a5
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826527"
 ---
 # <a name="limit-the-posting-period"></a>Limiter la période de validation
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez limiter la période de validation autorisée selon trois niveaux différents : **par société**, **par utilisateur** et **par modèle**.  
@@ -47,4 +47,3 @@ Lorsque vous validez des écritures dans la page **Modèles feuille comptabilit�
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Belgique](belgium-local-functionality.md)   
  [Définir des périodes de validation](../../finance-how-specify-posting-periods.md)
-

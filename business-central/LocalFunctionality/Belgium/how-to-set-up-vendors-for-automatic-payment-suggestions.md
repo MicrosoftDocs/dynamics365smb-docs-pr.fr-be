@@ -1,23 +1,23 @@
 ---
-title: "Paramétrage des fournisseurs pour des suggestions de règlement automatique"
-description: "Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement."
+title: Paramétrage des fournisseurs pour des suggestions de règlement automatique
+description: Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826446"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Paramétrer les fournisseurs pour des suggestions de règlement automatique
 Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement. Pour chaque fournisseur, vous devez décider si vous souhaitez générer automatiquement des suggestions de paiement. Si vous ne souhaitez pas générer des suggestions de paiement pour un fournisseur, vous ne devez pas activer la case à cocher **Proposer paiements**. Ainsi, les écritures comptables en attente pour le fournisseur ne seront pas incluses dans les suggestions de paiement.  
@@ -42,4 +42,3 @@ Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
  [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
-

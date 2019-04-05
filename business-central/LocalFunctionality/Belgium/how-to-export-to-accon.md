@@ -1,23 +1,23 @@
 ---
 title: Comment exporter vers Accon
-description: "Le rapport Lien vers Accon vous permet de créer un fichier qui peut être importé dans ACCON Plus pour générer un compte de résultat annuel."
+description: Le rapport Lien vers Accon vous permet de créer un fichier qui peut être importé dans ACCON Plus pour générer un compte de résultat annuel.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: e4a2f6c34a565c3547ad126e12bb24e39931dd44
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c546b05239204f73d170bb454dc728f9d9d4ead
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826481"
 ---
 # <a name="export-to-accon"></a>Exporter vers Accon
 L'état **Lien avec Accon** vous permet de créer un fichier qui peut être importé dans ACCON Plus pour générer un compte de résultats annuel. L'état exporte les soldes finaux des comptes généraux pour une période spécifique.  
@@ -30,4 +30,3 @@ L'état **Lien avec Accon** vous permet de créer un fichier qui peut être impo
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
-

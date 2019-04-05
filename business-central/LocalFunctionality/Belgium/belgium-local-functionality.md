@@ -1,18 +1,18 @@
 ---
-title: "Fonctionnalité locale, Belgique"
-description: "Les rubriques suivantes décrivent la fonctionnalité locale de la version belge de Business Central."
+title: Fonctionnalité locale, Belgique
+description: Les rubriques suivantes décrivent la fonctionnalité locale de la version belge de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/11/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 471a4ea8267e790148c44efc618418229b246d91
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826517"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -71,4 +71,3 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 [Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-

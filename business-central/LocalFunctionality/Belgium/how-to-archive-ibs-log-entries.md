@@ -1,23 +1,23 @@
 ---
-title: "Procédure pour archiver les écritures journal IBS"
-description: "Les lignes du journal IBS dont le statut de traitement de Traité peuvent être archivées. Les journaux IBS contiennent des informations sur les fichiers bancaires électroniques créés lors des transferts bancaires électroniques Isabel."
+title: Procédure pour archiver les écritures journal IBS
+description: Les lignes du journal IBS dont le statut de traitement de Traité peuvent être archivées. Les journaux IBS contiennent des informations sur les fichiers bancaires électroniques créés lors des transferts bancaires électroniques Isabel.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: a13bcc556a4d83576ec58a961f10d430f1b1f39f
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826519"
 ---
 # <a name="archive-ibs-log-entries"></a>Archiver les écritures journal IBS
 > [!Note]
@@ -39,4 +39,3 @@ Isabel est un programme logiciel tiers utilisé fréquemment en Belgique pour g�
 
 ## <a name="see-also"></a>Voir aussi  
 [Fonctionnalité locale, Belgique](belgium-local-functionality.md)
-

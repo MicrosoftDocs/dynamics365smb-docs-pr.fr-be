@@ -1,23 +1,23 @@
 ---
-title: "Domiciliation européenne"
-description: "Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client via un compte bancaire préféré. Les domiciliations peuvent uniquement être traitées pour les clients nationaux qui ont des comptes bancaires nationaux."
+title: Domiciliation européenne
+description: Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client via un compte bancaire préféré. Les domiciliations peuvent uniquement être traitées pour les clients nationaux qui ont des comptes bancaires nationaux.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3ce907b08f925c28e682b0fcd07df72677e0a379
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b4a4d0f44a35289baa99655c5b8ad2311fac2d5
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826529"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Domiciliation européenne
 Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client via un compte bancaire préféré. Les domiciliations peuvent uniquement être traitées pour les clients nationaux qui ont des comptes bancaires nationaux. Les domiciliations dans des devises étrangères ou concernant des banques étrangères ne sont pas prises en charge.  
@@ -37,4 +37,3 @@ Avant de pouvoir commencer à utiliser la banque électronique pour les domicili
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
-

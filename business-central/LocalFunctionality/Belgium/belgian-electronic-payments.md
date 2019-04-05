@@ -1,18 +1,18 @@
 ---
-title: "Paiements électroniques, Belgique"
-description: "Dans le module bancaire électronique de la version belge de Business Central, vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro."
+title: Paiements électroniques, Belgique
+description: Dans le module bancaire électronique de la version belge de Business Central, vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: f08b0cee879c38041a3a2bdc6523f9c518a1939e
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826435"
 ---
 # <a name="belgian-electronic-payments"></a>Paiements électroniques, Belgique
 Dans le module bancaire électronique de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro.  
@@ -49,8 +49,7 @@ Pour plus d'informations, voir [Gérer les lignes de paiement électronique](how
 [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
 [Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
 [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
-[Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
+[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
 [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
 [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
 [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
-

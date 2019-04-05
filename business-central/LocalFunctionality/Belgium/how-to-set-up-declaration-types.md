@@ -1,23 +1,23 @@
 ---
-title: "Procédure pour définir des types de déclarations"
-description: "Dans Business Central, il existe deux types de déclarations."
+title: Procédure pour définir des types de déclarations
+description: Dans Business Central, il existe deux types de déclarations.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cfa87016ab369a3472c06d3a20f2fdea85657633
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826530"
 ---
 # <a name="set-up-declaration-types"></a>Paramétrer des types de déclarations
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il existe deux types de déclarations :  
@@ -41,4 +41,3 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)   
  [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
-

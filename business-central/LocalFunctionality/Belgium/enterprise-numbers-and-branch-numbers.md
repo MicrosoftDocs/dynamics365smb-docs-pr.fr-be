@@ -1,23 +1,23 @@
 ---
-title: "Numéros d'entreprise et numéros d'établissement"
-description: "Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges."
+title: Numéros d'entreprise et numéros d'établissement
+description: Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 3cc4818f47eb04206ade0a2df4cdc6e85ecb2ae1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 36dc7a5d3c5b4410e69c304f41f4af6e5be1da09
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826463"
 ---
 # <a name="enterprise-numbers-and-branch-numbers"></a>Numéros d'entreprise et numéros d'établissement
 Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges.  
@@ -51,4 +51,3 @@ Le numéro d'entreprise est configuré aux emplacements suivants :
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
-

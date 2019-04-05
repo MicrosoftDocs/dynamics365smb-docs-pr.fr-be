@@ -1,23 +1,23 @@
 ---
 title: Comment tester les domiciliations
-description: "Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état Feuille domiciliation - Test. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects."
+description: Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état Feuille domiciliation - Test. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 2bffdd7f75bff6aee00c072572f4a55bddc364d1
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826476"
 ---
 # <a name="test-domiciliations"></a>Tester les domiciliations
 Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feuille domiciliation - Test**. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects. Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
@@ -36,4 +36,3 @@ Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feu
  [Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
  [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
-

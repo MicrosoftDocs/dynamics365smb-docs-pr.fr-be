@@ -1,18 +1,18 @@
 ---
-title: "Isabel 6"
-description: "L'organisation Isabel a développé une plateforme CIS (Client Isabel Synchronizer) afin que Business Central puisse s'intégrer en toute sécurité à Isabel. CIS gère l'échange de documents depuis ou vers le serveur Isabel."
+title: Isabel 6
+description: L'organisation Isabel a développé une plateforme CIS (Client Isabel Synchronizer) afin que Business Central puisse s'intégrer en toute sécurité à Isabel. CIS gère l'échange de documents depuis ou vers le serveur Isabel.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 0d58e55c5c22c42b892b1f6a26915d93447b20f9
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826479"
 ---
 # <a name="isabel-6"></a>Isabel 6
 L'organisation Isabel a développé une plateforme CIS (Client Isabel Synchronizer) qui permet à [!INCLUDE[d365fin](../../includes/d365fin_md.md)] de s'intégrer en toute sécurité à Isabel. CIS gère l'échange de documents depuis ou vers le serveur Isabel.  
@@ -31,4 +31,3 @@ Pour configurer votre système pour utiliser Isabel, procédez comme suit :
  [Site Web Isabel](https://go.microsoft.com/fwlink/?LinkId=210323)   
  [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
  [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)
-

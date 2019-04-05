@@ -1,23 +1,23 @@
 ---
 title: Comment configurer des domiciliations
-description: "Avant de pouvoir utiliser les services bancaires électroniques pour les domiciliations, vous devez saisir le numéro de domiciliation et le compte bancaire préféré du client."
+description: Avant de pouvoir utiliser la banque électronique pour les domiciliations, vous devez entrer le compte bancaire préféré et le numéro de domiciliation du client.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: ac286d488f64a4cb7cdb2ad3de42b19ab9136981
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f4b41079807dfef2335717024f6f5d2bfc263890
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826511"
 ---
 # <a name="set-up-domiciliations"></a>Paramétrer les domiciliations
 Avant de pouvoir utiliser les services bancaires électroniques pour les domiciliations, vous devez saisir le numéro de domiciliation et le compte bancaire préféré du client.  
@@ -44,4 +44,3 @@ Avant de pouvoir utiliser les services bancaires électroniques pour les domicil
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
-

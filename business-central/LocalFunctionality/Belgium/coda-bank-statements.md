@@ -1,23 +1,23 @@
 ---
-title: "Relevés bancaires CODA"
-description: "Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques."
+title: Relevés bancaires CODA
+description: Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2b35ff920bc306cfd49fb7dce959a69b582042eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ceff51934c1c3604328a139b8a4a4aefac6e91fd
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826436"
 ---
 # <a name="coda-bank-statements"></a>Relevés bancaires CODA
 Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.  
@@ -55,5 +55,4 @@ Lorsque vous avez lettré toutes les lignes relevé à un compte général ou à
  [Lettrer des relevés CODA](how-to-apply-coda-statements.md)   
  [Créer des feuilles financières](how-to-create-financial-journals.md)   
  [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
- [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
-
+ [Transférer et valider manuellement les relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)

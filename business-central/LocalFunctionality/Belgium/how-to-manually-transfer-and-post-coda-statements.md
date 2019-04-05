@@ -1,23 +1,23 @@
 ---
-title: "Comment transférer et valider manuellement les relevés CODA"
-description: "Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer manuellement les lignes relevé CODA vers une feuille financière."
+title: Comment transférer et valider manuellement les relevés CODA
+description: Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer manuellement les lignes relevé CODA vers une feuille financière.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6a17e57bc9b19aeb46eb0dc2fefcdf2c382ec90b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d0e67ea1506dffea5d49f3d8055fdb29c89d59eb
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826445"
 ---
 # <a name="manually-transfer-and-post-coda-statements"></a>Transférer et publier manuellement des relevés CODA
 Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer manuellement les lignes de relevés CODA vers une feuille financière. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes. La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.  
@@ -39,4 +39,3 @@ Pour plus d'informations sur la manière de transférer automatiquement les rele
  [Lettrer des relevés CODA](how-to-apply-coda-statements.md)   
  [Créer des feuilles financières](how-to-create-financial-journals.md)   
  [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)
-

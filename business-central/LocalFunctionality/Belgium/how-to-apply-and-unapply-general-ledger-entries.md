@@ -1,23 +1,23 @@
 ---
-title: "Lettrage et délettrage des écritures comptables"
-description: "Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité."
+title: Lettrage et délettrage des écritures comptables
+description: Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 205043ca3c22c3bd9b41f6e238813052c7d33c93
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826461"
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a>Lettrer et délettrer les écritures comptables
 Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
@@ -87,4 +87,3 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
 
 ## <a name="see-also"></a>Voir aussi  
 [Fonctionnalité locale, Belgique](belgium-local-functionality.md)
-

@@ -1,18 +1,18 @@
 ---
 title: Effectuer des paiements SEPA
-description: "Dans Business Central, vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque."
+description: Dans Business Central, vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b645ebee368c9b43961d9fec65e0e82956d10e9c
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826482"
 ---
 # <a name="file-sepa-payments"></a>Effectuer des paiements SEPA
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque.  
@@ -46,4 +46,3 @@ Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'
  [Paramétrer les protocoles d'exportation](how-to-set-up-export-protocols.md)   
  [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md)   
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)
-

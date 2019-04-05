@@ -1,18 +1,18 @@
 ---
-title: "Résumé des lignes règlement et des lignes feuille comptabilité"
-description: "Business Central totalise les lignes règlement et les lignes feuille."
+title: Résumé des lignes règlement et des lignes feuille comptabilité
+description: Business Central totalise les lignes règlement et les lignes feuille.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c60298731fc841ef071c7dbd392da748eb92539
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826496"
 ---
 # <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumé des lignes règlement et des lignes feuille comptabilité
 Business Central totalise les lignes règlement et les lignes feuille pour les types de paiements suivants :  
@@ -64,4 +64,3 @@ La valeur EndToEndId dans le message SEPA est extraite du message de paiement et
  [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Configuration de Finance](../../finance-setup-finance.md)  
  [Enregistrer des achats](../../purchasing-how-record-purchases.md)
-

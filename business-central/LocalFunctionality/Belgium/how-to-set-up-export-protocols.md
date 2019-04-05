@@ -1,23 +1,23 @@
 ---
-title: "Paramétrage des protocoles d'exportation"
-description: "Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro."
+title: Paramétrage des protocoles d'exportation
+description: Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 29768f7f411833ff6fbf3444fc9fc63d2fa8b418
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826453"
 ---
 # <a name="set-up-export-protocols"></a>Paramétrer les protocoles d'exportation
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  
@@ -49,7 +49,7 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
     |**Vérifier le nom de l'objet**|Spécifiez le nom du processus de vérification utilisé pour vérifier l'objet avant l'exportation du fichier de paiement. Après avoir sélectionné **Vérifier l'ID objet**, ce champ indique **Vérifier le nom de l'objet**.|  
     |**Exporter le type d'objet**|Spécifiez le type de l'objet qui définit le format d'exportation de l'export du fichier de paiement. Après avoir sélectionné **Exporter l'ID objet**, ce champ indique **Exporter le type d'objet**.<br /><br /> **REMARQUE :** pour paramétrer le protocole d'exportation pour SEPA pain.001.001.03, sélectionnez **XMLPort**.|  
     |**Exporter l'ID objet**|Spécifiez le numéro d'identification de l'objet qui définit le format d'exportation de l'export du fichier de paiement. Par exemple, si vous sélectionnez **2000002**, le format d'exportation du fichier de paiement est **Remplir les paiements internationaux**.<br /><br /> **REMARQUE :** pour paramétrer le protocole d'exportation pour SEPA pain.001.001.03, sélectionnez XMLport **1000**.|  
-    |**Exporter la souche de numéros**|Spécifiez la souche de numéros qui est utilisée pour affecter des numéros d'identification à l'export du fichier de paiement.|  
+    |**Souche de n° d'exportation**|Spécifiez la souche de numéros qui est utilisée pour affecter des numéros d'identification à l'export du fichier de paiement.|  
 
 4.  Choisissez le bouton **OK**.  
 
@@ -57,4 +57,3 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)
-

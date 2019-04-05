@@ -1,23 +1,23 @@
 ---
 title: Comment activer les paiements SEPA
-description: "Pour soumettre les paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA."
+description: Pour soumettre les paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: f76be219d64d6add0387aaec3c93f94db4b751e1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9d87cea4036d86ca418bc3e9ac0c042cee3eca74
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826490"
 ---
 # <a name="activate-sepa-payments"></a>Activer des paiements SEPA
 Pour envoyer les paiements des fournisseurs par voie électronique au format de paiement ISO 20022 de l'Espace unique de paiement en euros (SEPA), vous devez définir les prérequis pour l'activation des paiements SEPA.  
@@ -57,4 +57,3 @@ Les procédures suivantes sont consacrées à l'activation d'un paiement SEPA et
  [Classer les paiements SEPA](how-to-file-sepa-payments.md)   
  [Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md)   
  [Configurer les protocoles d'exportation](how-to-set-up-export-protocols.md)
-

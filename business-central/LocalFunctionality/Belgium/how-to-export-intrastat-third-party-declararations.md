@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'exportation des déclarations tierces intracommunautaires"
-description: "En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe."
+title: Procédure d'exportation des déclarations tierces intracommunautaires
+description: En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/30/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: acb6c589ad748d7e98e71acef9cc0d6e62fc53d3
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826499"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations tierces intracommunautaires
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe. 
@@ -45,4 +45,3 @@ Ensuite, envoyez la déclaration au portail OneGate.
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
-

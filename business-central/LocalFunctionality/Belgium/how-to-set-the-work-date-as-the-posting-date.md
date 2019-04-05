@@ -1,23 +1,23 @@
 ---
-title: "Procédure : Comment définir la date de travail comme date de validation"
-description: "Vous pouvez configurer les écritures comptables pour utiliser la date de travail comme date de comptabilisation des écritures ouvertes du client ou du fournisseur sur une facture, un paiement ou un avoir."
+title: Comment définir la date de travail comme date de validation
+description: Vous pouvez régler les paramètres de comptabilité pour que la date de travail soit utilisée comme date de validation pour les écritures client ou fournisseur ouvertes sur une facture, un paiement ou un avoir.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2415a1d996b72eaf88a2b4e97485b7f77d8c005a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fdeb69fff3aff58f13f09d8c91bdfc202d3bdde
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826521"
 ---
 # <a name="set-the-work-date-as-the-posting-date"></a>Définir la date de travail comme date de validation
 Vous pouvez configurer les écritures comptables pour utiliser la date de travail comme date de comptabilisation des écritures ouvertes du client ou du fournisseur sur une facture, un paiement ou un avoir.  
@@ -31,4 +31,3 @@ Vous pouvez configurer les écritures comptables pour utiliser la date de travai
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)   
  [Lettrer et délettrer des écritures comptables](how-to-apply-and-unapply-general-ledger-entries.md)
-

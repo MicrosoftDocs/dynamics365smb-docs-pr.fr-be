@@ -1,23 +1,23 @@
 ---
-title: "Lettrage des relevés CODA"
-description: "Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes."
+title: Lettrage des relevés CODA
+description: Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 450623e790f814b5a00dd2db7753c109a61deecb
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826509"
 ---
 # <a name="apply-coda-statements"></a>Lettrer les relevés CODA
 Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.  
@@ -66,4 +66,3 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
  [Créer des journaux financiers](how-to-create-financial-journals.md)   
  [Transférer et valider automatiquement les relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
  [Transférer et valider manuellement les relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
-

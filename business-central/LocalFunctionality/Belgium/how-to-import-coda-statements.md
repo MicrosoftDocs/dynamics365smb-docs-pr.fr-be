@@ -1,23 +1,23 @@
 ---
-title: "Procédure d'importation des relevés CODA"
-description: "Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans Business Central."
+title: Procédure d'importation des relevés CODA
+description: Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 9e1fdb44770746f7c655194f13e6092f8fa6c385
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826465"
 ---
 # <a name="import-coda-statements"></a>Importer les relevés CODA
 Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  
@@ -38,4 +38,3 @@ Cette opération importe le relevé CODA. Ensuite, vous devez traiter les lignes
  [Créer des journaux financiers](how-to-create-financial-journals.md)   
  [Transférer et valider automatiquement les relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
  [Transférer et valider manuellement les relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
-

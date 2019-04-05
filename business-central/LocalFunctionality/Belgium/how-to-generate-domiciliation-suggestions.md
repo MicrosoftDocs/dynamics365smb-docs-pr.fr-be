@@ -1,18 +1,18 @@
 ---
-title: "Génération des suggestions de domiciliation"
-description: "Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux."
+title: Génération des suggestions de domiciliation
+description: Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: 646e318742a303b8586f61578efeaae2f92aa6a2
-ms.contentlocale: fr-be
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826489"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Générer des suggestions de domiciliation
 Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.  
@@ -46,4 +46,3 @@ Lorsque le traitement par lots est terminé, la feuille domiciliation contient t
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
-

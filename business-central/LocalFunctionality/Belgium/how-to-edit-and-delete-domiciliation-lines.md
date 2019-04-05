@@ -1,23 +1,23 @@
 ---
 title: Comment modifier et supprimer des lignes domiciliation
-description: "Après avoir généré des propositions de domiciliation, vous devrez peut-être modifier les lignes domiciliation. Par exemple, vous devrez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique."
+description: Après avoir généré des propositions de domiciliation, vous devrez peut-être modifier les lignes domiciliation. Par exemple, vous devrez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: d686633d74d1a494d71f300d57af928ab826a036
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4aa1af479ed945cb2a99e7dbca196919221820f6
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826466"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Modifier et supprimer des lignes de domiciliation
 Après avoir généré des propositions de domiciliation, vous devrez peut-être modifier les lignes domiciliation. Par exemple, vous devrez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.  
@@ -45,4 +45,3 @@ Le traitement par lots **Proposer domiciliations** crée des propositions de dom
  [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
-

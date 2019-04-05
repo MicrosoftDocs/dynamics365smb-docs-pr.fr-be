@@ -1,23 +1,23 @@
 ---
 title: TVA belge
-description: "Les améliorations belges apportées à la fonction de report de TVA vous permettent d'imprimer les détails de transaction TVA."
+description: Les améliorations belges de la fonction de déclaration de TVA vous permettent d'imprimer des détails sur les transactions TVA.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6091e33600641d1d5fa6624c0dce48bd663ddb48
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 243c13d8f0dccaf8fb3e26dc0ab97ea6975cd0af
-ms.contentlocale: fr-be
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826501"
 ---
 # <a name="belgian-vat"></a>TVA belge
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] comprend des améliorations de la Belgique à la fonction de report de TVA qui vous permet d'imprimer les détails de transaction TVA. Vous devez envoyer les états suivants aux autorités fiscales belges :  
@@ -35,10 +35,9 @@ Vous êtes également tenu de fournir un relevé imprimé détaillant les transa
 
  Pour les immobilisations, la TVA non déductible est amortie simplement comme le coût d'acquisition de base de l'immobilisation. Vous devez paramétrer des groupes comptabilisation immobilisation distincts pour chaque pourcentage de TVA non déductible, étant donné que chaque groupe comptabilisation immobilisation est validé sur un compte général où le champ Pourcentage TVA non déductible spécifie quel pourcentage de TVA doit être validé sur le même compte que l'immobilisation.  
 
- Si vous sélectionnez le champ TVA non déductible comprise dans une ligne déclaration TVA, la TVA non déductible est incluse dans le montant TVA. Le rapport **Calculer et valider décl. TVA** ajoute la partie non déductible de ce montant aux champs **Montant TVA non déductible** et **Montant TVA devise origine non déductible** dans les écritures de résultat.  
+ Si vous sélectionnez le champ TVA non déductible comprise dans une ligne déclaration TVA, la TVA non déductible est incluse dans le montant TVA. L'état **Calculer et valider décl. TVA** ajoute la partie non déductible de ce montant aux champs **Montant TVA non déductible** et **Montant TVA devise origine non déductible** dans les écritures TVA résultantes.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)   
  [Imprimer des états TVA périodiques](how-to-print-periodic-vat-reports.md)   
  [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
-

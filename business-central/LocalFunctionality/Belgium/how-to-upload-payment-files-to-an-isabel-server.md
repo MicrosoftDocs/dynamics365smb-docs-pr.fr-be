@@ -1,23 +1,23 @@
 ---
-title: "Téléchargement des fichiers de paiement vers un serveur Isabel"
-description: "Les fichiers de paiement peuvent être téléchargés à l'aide de la page Feuilles IBS. Les champs Mode d'intégration du chargement et Mode d'intégration du téléchargement dans la page Paramétrage des opérations bancaires électroniques doivent être définis sur Assisté pour télécharger les fichiers de paiement."
+title: Téléchargement des fichiers de paiement vers un serveur Isabel
+description: Les fichiers de paiement peuvent être téléchargés à l'aide de la page Feuilles IBS. Les champs Mode d'intégration du chargement et Mode d'intégration du téléchargement dans la page Paramétrage des opérations bancaires électroniques doivent être définis sur Assisté pour télécharger les fichiers de paiement.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 34ca4afa9714336652ed654194f02e5493a750ee
-ms.contentlocale: fr-be
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: fr-BE
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826443"
 ---
 # <a name="upload-payment-files-to-an-isabel-server"></a>Télécharger les fichiers de paiement vers un serveur Isabel
 > [!Note]
@@ -41,4 +41,3 @@ Les fichiers de paiement peuvent être téléchargés à l'aide de la page **Feu
 
 ## <a name="see-also"></a>Voir aussi  
  [Archiver les écritures journal IBS](how-to-archive-ibs-log-entries.md)
-
