@@ -10,29 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c6beb7dec4b5b2594ee3232ea6c28dffa4a501a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4afcb91bbdc3f05fb42b86d4160276cd69ed09c7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826507"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913773"
 ---
-# <a name="belgian-electronic-banking"></a><span data-ttu-id="4c96b-105">Banque électronique belge</span><span class="sxs-lookup"><span data-stu-id="4c96b-105">Belgian Electronic Banking</span></span>
+# <a name="belgian-electronic-banking"></a><span data-ttu-id="0e402-105">Banque électronique belge</span><span class="sxs-lookup"><span data-stu-id="0e402-105">Belgian Electronic Banking</span></span>
 > [!Note]
 > [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
 
-<span data-ttu-id="4c96b-106">La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel).</span><span class="sxs-lookup"><span data-stu-id="4c96b-106">Electronic banking allows you to electronically exchange data with Belgian financial institutions, either on disk or via Interbanks Standards Association Belgium (Isabel).</span></span> <span data-ttu-id="4c96b-107">Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.</span><span class="sxs-lookup"><span data-stu-id="4c96b-107">This speeds up processing time and helps avoid errors caused by manual data entry or processing.</span></span>  
+<span data-ttu-id="0e402-106">La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel).</span><span class="sxs-lookup"><span data-stu-id="0e402-106">Electronic banking allows you to electronically exchange data with Belgian financial institutions, either on disk or via Interbanks Standards Association Belgium (Isabel).</span></span> <span data-ttu-id="0e402-107">Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.</span><span class="sxs-lookup"><span data-stu-id="0e402-107">This speeds up processing time and helps avoid errors caused by manual data entry or processing.</span></span>  
 
-<span data-ttu-id="4c96b-108">Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="4c96b-108">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:</span></span>  
+<span data-ttu-id="0e402-108">Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :</span><span class="sxs-lookup"><span data-stu-id="0e402-108">In [!INCLUDE[d365fin](../../includes/d365fin_md.md)], you can use electronic banking to perform the following functions:</span></span>  
 
-- <span data-ttu-id="4c96b-109">Envoyer des paiements électroniques</span><span class="sxs-lookup"><span data-stu-id="4c96b-109">Send electronic payments</span></span>  
-- <span data-ttu-id="4c96b-110">Traiter des relevés bancaires avec CODA</span><span class="sxs-lookup"><span data-stu-id="4c96b-110">Process bank statements with CODA</span></span>  
-- <span data-ttu-id="4c96b-111">Traiter des domiciliations européennes</span><span class="sxs-lookup"><span data-stu-id="4c96b-111">Process direct debits with domiciliations</span></span>  
+- <span data-ttu-id="0e402-109">Envoyer des paiements électroniques</span><span class="sxs-lookup"><span data-stu-id="0e402-109">Send electronic payments</span></span>  
+- <span data-ttu-id="0e402-110">Traiter des relevés bancaires avec CODA</span><span class="sxs-lookup"><span data-stu-id="0e402-110">Process bank statements with CODA</span></span>  
+- <span data-ttu-id="0e402-111">Traiter des domiciliations européennes</span><span class="sxs-lookup"><span data-stu-id="0e402-111">Process direct debits with domiciliations</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="4c96b-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4c96b-112">See Also</span></span>  
-[<span data-ttu-id="4c96b-113">Fonctionnalité locale pour la Belgique</span><span class="sxs-lookup"><span data-stu-id="4c96b-113">Belgium Local Functionality</span></span>](belgium-local-functionality.md)  
-[<span data-ttu-id="4c96b-114">Paiements électroniques belges</span><span class="sxs-lookup"><span data-stu-id="4c96b-114">Belgian Electronic Payments</span></span>](belgian-electronic-payments.md)  
-[<span data-ttu-id="4c96b-115">Relevés bancaires CODA</span><span class="sxs-lookup"><span data-stu-id="4c96b-115">CODA Bank Statements</span></span>](coda-bank-statements.md)  
-[<span data-ttu-id="4c96b-116">Domiciliation européenne</span><span class="sxs-lookup"><span data-stu-id="4c96b-116">Direct Debit Using Domiciliation</span></span>](direct-debit-using-domiciliation.md)
+## <a name="see-also"></a><span data-ttu-id="0e402-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0e402-112">See Also</span></span>  
+[<span data-ttu-id="0e402-113">Fonctionnalité locale pour la Belgique</span><span class="sxs-lookup"><span data-stu-id="0e402-113">Belgium Local Functionality</span></span>](belgium-local-functionality.md)  
+[<span data-ttu-id="0e402-114">Paiements électroniques belges</span><span class="sxs-lookup"><span data-stu-id="0e402-114">Belgian Electronic Payments</span></span>](belgian-electronic-payments.md)  
+[<span data-ttu-id="0e402-115">Relevés bancaires CODA</span><span class="sxs-lookup"><span data-stu-id="0e402-115">CODA Bank Statements</span></span>](coda-bank-statements.md)  
+[<span data-ttu-id="0e402-116">Domiciliation européenne</span><span class="sxs-lookup"><span data-stu-id="0e402-116">Direct Debit Using Domiciliation</span></span>](direct-debit-using-domiciliation.md)
