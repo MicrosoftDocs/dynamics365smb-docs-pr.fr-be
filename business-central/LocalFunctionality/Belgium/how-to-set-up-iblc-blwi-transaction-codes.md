@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f6289c2bf0d4336f874cc6fc2209b7e70949b87a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 088935ddd090927424b7bb9ba4fbf62a2bc5007c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826495"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929690"
 ---
 # <a name="set-up-iblc-blwi-transaction-codes"></a>Configurer des codes transaction IBLC-BLWI
 Pour traiter les paiements électroniques, vous devez définir des codes de transaction en fonction des exigences de l'Institut d'échange belgo-luxembourgeois. Il s'agit de codes d'identification internationaux pour les différents types de transactions paiement. Les codes IBLC/BLWI sont uniquement utilisés pour les paiements internationaux.  

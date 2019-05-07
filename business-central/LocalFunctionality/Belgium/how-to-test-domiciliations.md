@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2bffdd7f75bff6aee00c072572f4a55bddc364d1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d6a165daa41805b30041e48613a6ceeb7866a8fa
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826476"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929428"
 ---
 # <a name="test-domiciliations"></a>Tester les domiciliations
 Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feuille domiciliation - Test**. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects. Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
