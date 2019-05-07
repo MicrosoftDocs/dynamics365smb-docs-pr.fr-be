@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2415a1d996b72eaf88a2b4e97485b7f77d8c005a
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b24aaa7613f3a8e71cc7c5b8f0351892d34c1b01
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826521"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914056"
 ---
 # <a name="set-the-work-date-as-the-posting-date"></a>Définir la date de travail comme date de validation
 Vous pouvez configurer les écritures comptables pour utiliser la date de travail comme date de comptabilisation des écritures ouvertes du client ou du fournisseur sur une facture, un paiement ou un avoir.  
