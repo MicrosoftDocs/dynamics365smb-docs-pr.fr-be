@@ -10,32 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a17e57bc9b19aeb46eb0dc2fefcdf2c382ec90b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 903dffb85e1ee3c9cc706b30d1d9c3260eabc46b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826445"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936063"
 ---
-# <a name="manually-transfer-and-post-coda-statements"></a><span data-ttu-id="8d3df-103">Transférer et publier manuellement des relevés CODA</span><span class="sxs-lookup"><span data-stu-id="8d3df-103">Manually Transfer and Post CODA Statements</span></span>
-<span data-ttu-id="8d3df-104">Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer manuellement les lignes de relevés CODA vers une feuille financière.</span><span class="sxs-lookup"><span data-stu-id="8d3df-104">After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal.</span></span> <span data-ttu-id="8d3df-105">La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes.</span><span class="sxs-lookup"><span data-stu-id="8d3df-105">The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference between the two balances.</span></span> <span data-ttu-id="8d3df-106">La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.</span><span class="sxs-lookup"><span data-stu-id="8d3df-106">Posting is not allowed if the statement line amounts do not balance with the statement ending balance.</span></span>  
+# <a name="manually-transfer-and-post-coda-statements"></a><span data-ttu-id="51005-103">Transférer et publier manuellement des relevés CODA</span><span class="sxs-lookup"><span data-stu-id="51005-103">Manually Transfer and Post CODA Statements</span></span>
+<span data-ttu-id="51005-104">Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer manuellement les lignes de relevés CODA vers une feuille financière.</span><span class="sxs-lookup"><span data-stu-id="51005-104">After you have applied and processed all CODA statement lines, you can manually transfer the CODA statement lines to a financial journal.</span></span> <span data-ttu-id="51005-105">La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes.</span><span class="sxs-lookup"><span data-stu-id="51005-105">The financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference between the two balances.</span></span> <span data-ttu-id="51005-106">La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.</span><span class="sxs-lookup"><span data-stu-id="51005-106">Posting is not allowed if the statement line amounts do not balance with the statement ending balance.</span></span>  
 
-<span data-ttu-id="8d3df-107">Pour plus d'informations sur la manière de transférer automatiquement les relevés, voir [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md).</span><span class="sxs-lookup"><span data-stu-id="8d3df-107">For information about how to automatically transfer statements, see [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md).</span></span>  
+<span data-ttu-id="51005-107">Pour plus d'informations sur la manière de transférer automatiquement les relevés, voir [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md).</span><span class="sxs-lookup"><span data-stu-id="51005-107">For information about how to automatically transfer statements, see [Automatically Transfer and Post CODA Statements](how-to-automatically-transfer-and-post-coda-statements.md).</span></span>  
 
-## <a name="to-manually-transfer-and-post-statement-lines"></a><span data-ttu-id="8d3df-108">Pour transférer et valider manuellement les lignes relevé</span><span class="sxs-lookup"><span data-stu-id="8d3df-108">To manually transfer and post statement lines</span></span>  
+## <a name="to-manually-transfer-and-post-statement-lines"></a><span data-ttu-id="51005-108">Pour transférer et valider manuellement les lignes relevé</span><span class="sxs-lookup"><span data-stu-id="51005-108">To manually transfer and post statement lines</span></span>  
 
-1.  <span data-ttu-id="8d3df-109">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuille comptabilité**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="8d3df-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="8d3df-110">Sélectionnez la feuille, puis cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="8d3df-110">Select the journal, and then choose the **OK** button.</span></span>  
-3.  <span data-ttu-id="8d3df-111">Remplissez le champ **Solde final du relevé**.</span><span class="sxs-lookup"><span data-stu-id="8d3df-111">Enter the **Statement Ending Balance** field.</span></span>  
-4.  <span data-ttu-id="8d3df-112">Entrez manuellement chaque ligne du relevé.</span><span class="sxs-lookup"><span data-stu-id="8d3df-112">Manually enter each line of the statement.</span></span>  
-5.  <span data-ttu-id="8d3df-113">Choisissez l'action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="8d3df-113">Choose the **Post** action.</span></span>  
+1.  <span data-ttu-id="51005-109">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuille comptabilité**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="51005-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="51005-110">Sélectionnez la feuille, puis cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="51005-110">Select the journal, and then choose the **OK** button.</span></span>  
+3.  <span data-ttu-id="51005-111">Remplissez le champ **Solde final du relevé**.</span><span class="sxs-lookup"><span data-stu-id="51005-111">Enter the **Statement Ending Balance** field.</span></span>  
+4.  <span data-ttu-id="51005-112">Entrez manuellement chaque ligne du relevé.</span><span class="sxs-lookup"><span data-stu-id="51005-112">Manually enter each line of the statement.</span></span>  
+5.  <span data-ttu-id="51005-113">Choisissez l'action **Valider**.</span><span class="sxs-lookup"><span data-stu-id="51005-113">Choose the **Post** action.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="8d3df-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8d3df-114">See Also</span></span>  
- <span data-ttu-id="8d3df-115">[Banque électronique belge](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="8d3df-115">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
- <span data-ttu-id="8d3df-116">[Relevés bancaires CODA](coda-bank-statements.md) </span><span class="sxs-lookup"><span data-stu-id="8d3df-116">[CODA Bank Statements](coda-bank-statements.md) </span></span>  
- <span data-ttu-id="8d3df-117">[Importer des relevés CODA](how-to-import-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="8d3df-117">[Import CODA Statements](how-to-import-coda-statements.md) </span></span>  
- <span data-ttu-id="8d3df-118">[Lettrer des relevés CODA](how-to-apply-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="8d3df-118">[Apply CODA Statements](how-to-apply-coda-statements.md) </span></span>  
- <span data-ttu-id="8d3df-119">[Créer des feuilles financières](how-to-create-financial-journals.md) </span><span class="sxs-lookup"><span data-stu-id="8d3df-119">[Create Financial Journals](how-to-create-financial-journals.md) </span></span>  
- [<span data-ttu-id="8d3df-120">Transférer et publier automatiquement des relevés CODA</span><span class="sxs-lookup"><span data-stu-id="8d3df-120">Automatically Transfer and Post CODA Statements</span></span>](how-to-automatically-transfer-and-post-coda-statements.md)
+## <a name="see-also"></a><span data-ttu-id="51005-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="51005-114">See Also</span></span>  
+ <span data-ttu-id="51005-115">[Banque électronique belge](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="51005-115">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
+ <span data-ttu-id="51005-116">[Relevés bancaires CODA](coda-bank-statements.md) </span><span class="sxs-lookup"><span data-stu-id="51005-116">[CODA Bank Statements](coda-bank-statements.md) </span></span>  
+ <span data-ttu-id="51005-117">[Importer des relevés CODA](how-to-import-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="51005-117">[Import CODA Statements](how-to-import-coda-statements.md) </span></span>  
+ <span data-ttu-id="51005-118">[Lettrer des relevés CODA](how-to-apply-coda-statements.md) </span><span class="sxs-lookup"><span data-stu-id="51005-118">[Apply CODA Statements](how-to-apply-coda-statements.md) </span></span>  
+ <span data-ttu-id="51005-119">[Créer des feuilles financières](how-to-create-financial-journals.md) </span><span class="sxs-lookup"><span data-stu-id="51005-119">[Create Financial Journals](how-to-create-financial-journals.md) </span></span>  
+ [<span data-ttu-id="51005-120">Transférer et publier automatiquement des relevés CODA</span><span class="sxs-lookup"><span data-stu-id="51005-120">Automatically Transfer and Post CODA Statements</span></span>](how-to-automatically-transfer-and-post-coda-statements.md)
