@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f76be219d64d6add0387aaec3c93f94db4b751e1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 070f9cf19a9e85d8da5b352d319b347b88ddd885
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826490"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931280"
 ---
 # <a name="activate-sepa-payments"></a>Activer des paiements SEPA
 Pour envoyer les paiements des fournisseurs par voie électronique au format de paiement ISO 20022 de l'Espace unique de paiement en euros (SEPA), vous devez définir les prérequis pour l'activation des paiements SEPA.  

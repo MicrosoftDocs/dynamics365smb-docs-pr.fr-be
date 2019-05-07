@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: afb055c585dc86111e699afdfbc6bd2d42be2f14
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4baec5644de8d60f4c6943bb1529d133f63cd104
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826446"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937406"
 ---
 # <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Paramétrer les fournisseurs pour des suggestions de règlement automatique
 Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement. Pour chaque fournisseur, vous devez décider si vous souhaitez générer automatiquement des suggestions de paiement. Si vous ne souhaitez pas générer des suggestions de paiement pour un fournisseur, vous ne devez pas activer la case à cocher **Proposer paiements**. Ainsi, les écritures comptables en attente pour le fournisseur ne seront pas incluses dans les suggestions de paiement.  

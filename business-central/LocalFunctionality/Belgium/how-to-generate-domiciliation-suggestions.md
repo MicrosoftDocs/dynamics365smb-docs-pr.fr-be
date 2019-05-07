@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 646e318742a303b8586f61578efeaae2f92aa6a2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9813ad254313444b8cfc25d70b518a341b497003
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826489"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "936384"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Générer des suggestions de domiciliation
 Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2b35ff920bc306cfd49fb7dce959a69b582042eb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: bd2a7465c9b7264c7084b2abf899caab55293e6c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826436"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931742"
 ---
 # <a name="coda-bank-statements"></a>Relevés bancaires CODA
 Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.  

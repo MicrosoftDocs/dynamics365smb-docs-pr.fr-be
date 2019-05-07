@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d724a30fbb2b8dedfe6b643738847826d3943047
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e1c2a5f9eec99f7185f7284be1f91ebd8608898b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826525"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "931310"
 ---
 # <a name="make-manual-corrections-to-vat"></a>Corrections manuelles de la TVA
 Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA.  
