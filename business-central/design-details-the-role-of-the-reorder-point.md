@@ -4,33 +4,32 @@ description: Cette rubrique met l'accent sur l'importance de définir un point d
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: desigh, reorder, demand, supply
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: design-details-handling-reordering-policies
 ms.openlocfilehash: 836da35166d947de8c37128d9ed8807914594c55
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924200"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246095"
 ---
-# <a name="design-details-the-role-of-the-reorder-point"></a><span data-ttu-id="369c9-103">Détails de conception : Le rôle du point de commande</span><span class="sxs-lookup"><span data-stu-id="369c9-103">Design Details: The Role of the Reorder Point</span></span>
-<span data-ttu-id="369c9-104">En plus de l'équilibrage général de la demande et de l'approvisionnement, le système de planification doit également contrôler les niveaux de stock des articles affectés pour respecter les méthodes de réapprovisionnement définies.</span><span class="sxs-lookup"><span data-stu-id="369c9-104">In addition to the general balancing of supply and demand, the planning system must also monitor inventory levels for the affected items to respect the defined reordering policies.</span></span>  
-
-<span data-ttu-id="369c9-105">Un point de commande représente la demande lors d'un délai.</span><span class="sxs-lookup"><span data-stu-id="369c9-105">A reorder point represents demand during lead time.</span></span> <span data-ttu-id="369c9-106">Lorsque le stock prévisionnel passe en dessous du niveau de stock défini par le point de commande, il est temps de commander une plus grande quantité.</span><span class="sxs-lookup"><span data-stu-id="369c9-106">When the projected inventory passes below the inventory level defined by the reorder point, it is time to order more quantity.</span></span> <span data-ttu-id="369c9-107">Par ailleurs, le stock doit diminuer progressivement et probablement atteindre zéro (ou le niveau de stock de sécurité), jusqu'à ce que le réapprovisionnement arrive.</span><span class="sxs-lookup"><span data-stu-id="369c9-107">Meanwhile, the inventory is expected to decrease gradually and possibly reach zero (or the safety stock level), until the replenishment arrives.</span></span>  
-
-<span data-ttu-id="369c9-108">Par conséquent, le système de planification suggère une commande approvisionnement planifiée en aval au moment où le stock projeté passe sous le point de commande.</span><span class="sxs-lookup"><span data-stu-id="369c9-108">Accordingly, the planning system will suggest a forward-scheduled supply order at the point when the projected inventory passes below the reorder point.</span></span>  
-
-<span data-ttu-id="369c9-109">Le point de commande indique un certain niveau de stock.</span><span class="sxs-lookup"><span data-stu-id="369c9-109">The reorder point reflects a certain inventory level.</span></span> <span data-ttu-id="369c9-110">Cependant, les niveaux de stock peuvent changer de façon significative au cours de l'intervalle de planification et, par conséquent, le système de planification doit constamment surveiller le stock disponible projeté.</span><span class="sxs-lookup"><span data-stu-id="369c9-110">However, inventory levels can move significantly during the time bucket and, therefore, the planning system must constantly monitor the projected available inventory.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="369c9-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="369c9-111">See Also</span></span>  
-<span data-ttu-id="369c9-112">[Détails de conception : méthodes de réapprovisionnement](design-details-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="369c9-112">[Design Details: Reordering Policies](design-details-reordering-policies.md) </span></span>  
-<span data-ttu-id="369c9-113">[Détails de conception : paramètres de planification](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="369c9-113">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
-<span data-ttu-id="369c9-114">[Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="369c9-114">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
-[<span data-ttu-id="369c9-115">Détails de conception : planification de l'approvisionnement</span><span class="sxs-lookup"><span data-stu-id="369c9-115">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
+# <a name="design-details-the-role-of-the-reorder-point"></a><span data-ttu-id="3f3ec-103">Détails de conception : Le rôle du point de commande</span><span class="sxs-lookup"><span data-stu-id="3f3ec-103">Design Details: The Role of the Reorder Point</span></span>
+<span data-ttu-id="3f3ec-104">En plus de l'équilibrage général de la demande et de l'approvisionnement, le système de planification doit également contrôler les niveaux de stock des articles affectés pour respecter les méthodes de réapprovisionnement définies.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-104">In addition to the general balancing of supply and demand, the planning system must also monitor inventory levels for the affected items to respect the defined reordering policies.</span></span>  
+  
+<span data-ttu-id="3f3ec-105">Un point de commande représente la demande lors d'un délai.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-105">A reorder point represents demand during lead time.</span></span> <span data-ttu-id="3f3ec-106">Lorsque le stock prévisionnel passe en dessous du niveau de stock défini par le point de commande, il est temps de commander une plus grande quantité.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-106">When the projected inventory passes below the inventory level defined by the reorder point, it is time to order more quantity.</span></span> <span data-ttu-id="3f3ec-107">Par ailleurs, le stock doit diminuer progressivement et probablement atteindre zéro (ou le niveau de stock de sécurité), jusqu'à ce que le réapprovisionnement arrive.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-107">Meanwhile, the inventory is expected to decrease gradually and possibly reach zero (or the safety stock level), until the replenishment arrives.</span></span>  
+  
+<span data-ttu-id="3f3ec-108">Par conséquent, le système de planification suggère une commande approvisionnement planifiée en aval au moment où le stock projeté passe sous le point de commande.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-108">Accordingly, the planning system will suggest a forward-scheduled supply order at the point when the projected inventory passes below the reorder point.</span></span>  
+  
+<span data-ttu-id="3f3ec-109">Le point de commande indique un certain niveau de stock.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-109">The reorder point reflects a certain inventory level.</span></span> <span data-ttu-id="3f3ec-110">Cependant, les niveaux de stock peuvent changer de façon significative au cours de l'intervalle de planification et, par conséquent, le système de planification doit constamment surveiller le stock disponible projeté.</span><span class="sxs-lookup"><span data-stu-id="3f3ec-110">However, inventory levels can move significantly during the time bucket and, therefore, the planning system must constantly monitor the projected available inventory.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="3f3ec-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3f3ec-111">See Also</span></span>  
+<span data-ttu-id="3f3ec-112">[Détails de conception : méthodes de réapprovisionnement](design-details-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="3f3ec-112">[Design Details: Reordering Policies](design-details-reordering-policies.md) </span></span>  
+<span data-ttu-id="3f3ec-113">[Détails de conception : paramètres de planification](design-details-planning-parameters.md) </span><span class="sxs-lookup"><span data-stu-id="3f3ec-113">[Design Details: Planning Parameters](design-details-planning-parameters.md) </span></span>  
+<span data-ttu-id="3f3ec-114">[Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md) </span><span class="sxs-lookup"><span data-stu-id="3f3ec-114">[Design Details: Handling Reordering Policies](design-details-handling-reordering-policies.md) </span></span>  
+[<span data-ttu-id="3f3ec-115">Détails de conception : planification de l'approvisionnement</span><span class="sxs-lookup"><span data-stu-id="3f3ec-115">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
