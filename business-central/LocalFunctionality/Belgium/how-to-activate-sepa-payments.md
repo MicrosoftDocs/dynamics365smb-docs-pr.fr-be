@@ -4,56 +4,56 @@ description: Pour soumettre les paiements fournisseur par voie électronique au 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 070f9cf19a9e85d8da5b352d319b347b88ddd885
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931280"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237713"
 ---
-# <a name="activate-sepa-payments"></a><span data-ttu-id="6658f-103">Activer des paiements SEPA</span><span class="sxs-lookup"><span data-stu-id="6658f-103">Activate SEPA Payments</span></span>
-<span data-ttu-id="6658f-104">Pour envoyer les paiements des fournisseurs par voie électronique au format de paiement ISO 20022 de l'Espace unique de paiement en euros (SEPA), vous devez définir les prérequis pour l'activation des paiements SEPA.</span><span class="sxs-lookup"><span data-stu-id="6658f-104">To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.</span></span>  
+# <a name="activate-sepa-payments"></a><span data-ttu-id="351fb-103">Activer des paiements SEPA</span><span class="sxs-lookup"><span data-stu-id="351fb-103">Activate SEPA Payments</span></span>
+<span data-ttu-id="351fb-104">Pour envoyer les paiements des fournisseurs par voie électronique au format de paiement ISO 20022 de l'Espace unique de paiement en euros (SEPA), vous devez définir les prérequis pour l'activation des paiements SEPA.</span><span class="sxs-lookup"><span data-stu-id="351fb-104">To submit vendor payments electronically in Single Euro Payments Area (SEPA) ISO 20022 payment format, you must set up prerequisites for enabling SEPA payments.</span></span>  
 
-<span data-ttu-id="6658f-105">Les procédures suivantes sont consacrées à l'activation d'un paiement SEPA et à la configuration de comptes bancaires fournisseur.</span><span class="sxs-lookup"><span data-stu-id="6658f-105">In the following procedures describe how to enable SEPA payment and set up vendor bank accounts.</span></span>  
+<span data-ttu-id="351fb-105">Les procédures suivantes sont consacrées à l'activation d'un paiement SEPA et à la configuration de comptes bancaires fournisseur.</span><span class="sxs-lookup"><span data-stu-id="351fb-105">In the following procedures describe how to enable SEPA payment and set up vendor bank accounts.</span></span>  
 
-## <a name="to-enable-countriesregions-for-sepa"></a><span data-ttu-id="6658f-106">Pour activer des pays/régions pour SEPA</span><span class="sxs-lookup"><span data-stu-id="6658f-106">To enable countries/regions for SEPA</span></span>  
+## <a name="to-enable-countriesregions-for-sepa"></a><span data-ttu-id="351fb-106">Pour activer des pays/régions pour SEPA</span><span class="sxs-lookup"><span data-stu-id="351fb-106">To enable countries/regions for SEPA</span></span>  
 
-1.  <span data-ttu-id="6658f-107">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Pays/Régions**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="6658f-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="6658f-108">Choisissez l'action **Modifier la liste**.</span><span class="sxs-lookup"><span data-stu-id="6658f-108">Choose the **Edit List** action.</span></span>  
-3.  <span data-ttu-id="6658f-109">Activez la case à cocher **SEPA autorisé** pour chaque pays ou région que vous souhaitez activer pour SEPA.</span><span class="sxs-lookup"><span data-stu-id="6658f-109">Select the **SEPA Allowed** check box for each country or region that you want to enable for SEPA.</span></span>  
-4.  <span data-ttu-id="6658f-110">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="6658f-110">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="351fb-107">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Pays/Régions**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="351fb-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Countries/Regions**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="351fb-108">Choisissez l'action **Modifier la liste**.</span><span class="sxs-lookup"><span data-stu-id="351fb-108">Choose the **Edit List** action.</span></span>  
+3.  <span data-ttu-id="351fb-109">Activez la case à cocher **SEPA autorisé** pour chaque pays ou région que vous souhaitez activer pour SEPA.</span><span class="sxs-lookup"><span data-stu-id="351fb-109">Select the **SEPA Allowed** check box for each country or region that you want to enable for SEPA.</span></span>  
+4.  <span data-ttu-id="351fb-110">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="351fb-110">Choose the **OK** button.</span></span>  
 
-## <a name="to-enable-bank-accounts-for-sepa"></a><span data-ttu-id="6658f-111">Pour activer des comptes bancaires pour SEPA</span><span class="sxs-lookup"><span data-stu-id="6658f-111">To enable bank accounts for SEPA</span></span>  
+## <a name="to-enable-bank-accounts-for-sepa"></a><span data-ttu-id="351fb-111">Pour activer des comptes bancaires pour SEPA</span><span class="sxs-lookup"><span data-stu-id="351fb-111">To enable bank accounts for SEPA</span></span>  
 
-1.  <span data-ttu-id="6658f-112">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="6658f-112">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="6658f-113">Sélectionnez le compte bancaire que vous souhaitez activer pour SEPA, puis choisissez l'action **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="6658f-113">Select the bank account that you want to enable for SEPA, and then choose the **Edit** action.</span></span>  
-3.  <span data-ttu-id="6658f-114">Dans le raccourci **Général**, dans le champ **Pays/Région**, sélectionnez le code adéquat.</span><span class="sxs-lookup"><span data-stu-id="6658f-114">On the **General** FastTab, in the **Country/Region Code** field, select the appropriate code.</span></span>  
+1.  <span data-ttu-id="351fb-112">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="351fb-112">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="351fb-113">Sélectionnez le compte bancaire que vous souhaitez activer pour SEPA, puis choisissez l'action **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="351fb-113">Select the bank account that you want to enable for SEPA, and then choose the **Edit** action.</span></span>  
+3.  <span data-ttu-id="351fb-114">Dans le raccourci **Général**, dans le champ **Pays/Région**, sélectionnez le code adéquat.</span><span class="sxs-lookup"><span data-stu-id="351fb-114">On the **General** FastTab, in the **Country/Region Code** field, select the appropriate code.</span></span>  
 
     > [!NOTE]  
-    >  <span data-ttu-id="6658f-115">Le code pays/région spécifié doit être activé pour SEPA, comme décrit dans la procédure précédente.</span><span class="sxs-lookup"><span data-stu-id="6658f-115">The specified country/region code must be enabled for SEPA as described in the previous procedure.</span></span>  
+    >  <span data-ttu-id="351fb-115">Le code pays/région spécifié doit être activé pour SEPA, comme décrit dans la procédure précédente.</span><span class="sxs-lookup"><span data-stu-id="351fb-115">The specified country/region code must be enabled for SEPA as described in the previous procedure.</span></span>  
 
-4.  <span data-ttu-id="6658f-116">Entrez une valeur dans le champ **Solde minimum**.</span><span class="sxs-lookup"><span data-stu-id="6658f-116">Enter a value in the **Min. Balance** field.</span></span>  
-5.  <span data-ttu-id="6658f-117">Dans le raccourci **Transfert**, dans le champs **Code SWIFT**, entrez un code.</span><span class="sxs-lookup"><span data-stu-id="6658f-117">On the **Transfer** FastTab, in the **SWIFT Code** field, enter a code.</span></span>  
-6.  <span data-ttu-id="6658f-118">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="6658f-118">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="351fb-116">Entrez une valeur dans le champ **Solde minimum**.</span><span class="sxs-lookup"><span data-stu-id="351fb-116">Enter a value in the **Min. Balance** field.</span></span>  
+5.  <span data-ttu-id="351fb-117">Dans le raccourci **Transfert**, dans le champs **Code SWIFT**, entrez un code.</span><span class="sxs-lookup"><span data-stu-id="351fb-117">On the **Transfer** FastTab, in the **SWIFT Code** field, enter a code.</span></span>  
+6.  <span data-ttu-id="351fb-118">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="351fb-118">Choose the **OK** button.</span></span>  
 
-## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a><span data-ttu-id="6658f-119">Pour configurer des comptes bancaires fournisseur pour SEPA</span><span class="sxs-lookup"><span data-stu-id="6658f-119">To set up vendor bank accounts for SEPA</span></span>  
+## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a><span data-ttu-id="351fb-119">Pour configurer des comptes bancaires fournisseur pour SEPA</span><span class="sxs-lookup"><span data-stu-id="351fb-119">To set up vendor bank accounts for SEPA</span></span>  
 
-1.  <span data-ttu-id="6658f-120">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Fournisseurs**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="6658f-120">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="6658f-121">Sélectionnez le fournisseur concerné, puis choisissez l'action **Comptes bancaires**.</span><span class="sxs-lookup"><span data-stu-id="6658f-121">Select the relevant vendor, and then choose the **Bank Accounts** action.</span></span>  
-3.  <span data-ttu-id="6658f-122">Sélectionnez le compte bancaire fournisseur à paramétrer pour SEPA, puis choisissez **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="6658f-122">Select the vendor bank account to set up for SEPA, and then choose the **Edit**.</span></span>  
-4.  <span data-ttu-id="6658f-123">Dans le raccourci **Transfert**, dans les champs **IBAN** et **Code SWIFT**, entrez le code international d'identification bancaire ou la banque auprès de laquelle le fournisseur a son compte.</span><span class="sxs-lookup"><span data-stu-id="6658f-123">On the **Transfer** FastTab, in the **IBAN** and **SWIFT Code** fields, enter the international bank identifier code of the bank where the vendor has the account.</span></span>  
-5.  <span data-ttu-id="6658f-124">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="6658f-124">Choose the **OK** button.</span></span>  
+1.  <span data-ttu-id="351fb-120">Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Fournisseurs**, puis sélectionnez le lien correspondant.</span><span class="sxs-lookup"><span data-stu-id="351fb-120">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="351fb-121">Sélectionnez le fournisseur concerné, puis choisissez l'action **Comptes bancaires**.</span><span class="sxs-lookup"><span data-stu-id="351fb-121">Select the relevant vendor, and then choose the **Bank Accounts** action.</span></span>  
+3.  <span data-ttu-id="351fb-122">Sélectionnez le compte bancaire fournisseur à paramétrer pour SEPA, puis choisissez **Modifier**.</span><span class="sxs-lookup"><span data-stu-id="351fb-122">Select the vendor bank account to set up for SEPA, and then choose the **Edit**.</span></span>  
+4.  <span data-ttu-id="351fb-123">Dans le raccourci **Transfert**, dans les champs **IBAN** et **Code SWIFT**, entrez le code international d'identification bancaire ou la banque auprès de laquelle le fournisseur a son compte.</span><span class="sxs-lookup"><span data-stu-id="351fb-123">On the **Transfer** FastTab, in the **IBAN** and **SWIFT Code** fields, enter the international bank identifier code of the bank where the vendor has the account.</span></span>  
+5.  <span data-ttu-id="351fb-124">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="351fb-124">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="6658f-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6658f-125">See Also</span></span>  
- <span data-ttu-id="6658f-126">[Paiements SEPA](sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="6658f-126">[SEPA Payments](sepa-payments.md) </span></span>  
- <span data-ttu-id="6658f-127">[Classer les paiements SEPA](how-to-file-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="6658f-127">[File SEPA Payments](how-to-file-sepa-payments.md) </span></span>  
- <span data-ttu-id="6658f-128">[Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="6658f-128">[File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md) </span></span>  
- [<span data-ttu-id="6658f-129">Configurer les protocoles d'exportation</span><span class="sxs-lookup"><span data-stu-id="6658f-129">Set Up Export Protocols</span></span>](how-to-set-up-export-protocols.md)
+## <a name="see-also"></a><span data-ttu-id="351fb-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="351fb-125">See Also</span></span>  
+ <span data-ttu-id="351fb-126">[Paiements SEPA](sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="351fb-126">[SEPA Payments](sepa-payments.md) </span></span>  
+ <span data-ttu-id="351fb-127">[Classer les paiements SEPA](how-to-file-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="351fb-127">[File SEPA Payments](how-to-file-sepa-payments.md) </span></span>  
+ <span data-ttu-id="351fb-128">[Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md) </span><span class="sxs-lookup"><span data-stu-id="351fb-128">[File Non-Euro SEPA Payments](how-to-file-non-euro-sepa-payments.md) </span></span>  
+ [<span data-ttu-id="351fb-129">Configurer les protocoles d'exportation</span><span class="sxs-lookup"><span data-stu-id="351fb-129">Set Up Export Protocols</span></span>](how-to-set-up-export-protocols.md)
