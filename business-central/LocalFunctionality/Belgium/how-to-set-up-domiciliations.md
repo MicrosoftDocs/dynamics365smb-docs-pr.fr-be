@@ -4,20 +4,20 @@ description: Avant de pouvoir utiliser la banque électronique pour les domicili
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: c88da9101f893e90e0e25c1ef40eebf1764ad3c8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935418"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237685"
 ---
 # <a name="set-up-domiciliations"></a>Paramétrer les domiciliations
 Avant de pouvoir utiliser les services bancaires électroniques pour les domiciliations, vous devez saisir le numéro de domiciliation et le compte bancaire préféré du client.  

@@ -4,20 +4,20 @@ description: Le numéro établissement intracommunautaire est un numéro d'ident
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
 ms.openlocfilehash: 691713084a068c261c207cd748f8bc4b36fb352e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934989"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237717"
 ---
 # <a name="set-up-intrastat-establishment-numbers"></a>Configurer les numéros d'établissement intracomm.
 Le numéro d'établissement intracommunautaire est un numéro d'identification de la société qui est imprimé sur la déclaration intracommunautaire.  

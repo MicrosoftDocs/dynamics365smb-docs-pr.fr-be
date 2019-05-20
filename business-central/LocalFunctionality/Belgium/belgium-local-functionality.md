@@ -8,11 +8,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 83832898f39c97feb956a652e8a8a18c135fac3f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913743"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237791"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

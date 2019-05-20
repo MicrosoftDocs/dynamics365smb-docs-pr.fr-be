@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: b3f2c309630589a377cd434afbba2ce6eb3e31a5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930232"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237517"
 ---
 # <a name="sepa-payments"></a>Paiements SEPA
 Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des pays européens participants. Cela rend les paiements internationaux aussi facile à traiter que les paiements nationaux. Quel que soit leur emplacement, les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales, avec les mêmes conditions, droits, et obligations de base.  
