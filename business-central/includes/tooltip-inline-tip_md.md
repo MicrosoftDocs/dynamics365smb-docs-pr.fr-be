@@ -1,1 +1,1 @@
-<span data-ttu-id="dbfac-101">Positionnez le curseur sur un champ pour lire une brève description.</span><span class="sxs-lookup"><span data-stu-id="dbfac-101">Hover over a field to read a short description.</span></span>
+<span data-ttu-id="04bc9-101">Positionnez le curseur sur un champ pour lire une brève description.</span><span class="sxs-lookup"><span data-stu-id="04bc9-101">Hover over a field to read a short description.</span></span>
