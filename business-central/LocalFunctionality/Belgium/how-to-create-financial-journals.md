@@ -1,26 +1,26 @@
 ---
 title: Comment créer des feuilles financières
-description: Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.
+description: Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57e4c822fe4120ff0db3aff0f83c4b1861c37981
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ccf893fb77bd657fa9812d9c6171850d40f7e08
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237711"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710937"
 ---
 # <a name="create-financial-journals"></a>Créer des feuilles financières
-Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  
+Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  
 
 ## <a name="to-create-a-financial-journal"></a>Pour créer une feuille financière  
 

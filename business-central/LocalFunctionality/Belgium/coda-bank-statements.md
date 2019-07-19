@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bd2a7465c9b7264c7084b2abf899caab55293e6c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 998f1a81391a09ddfdcbbc4ec56fb683daae0828
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237547"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710955"
 ---
 # <a name="coda-bank-statements"></a>Relevés bancaires CODA
 Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.  
@@ -35,7 +35,7 @@ Si l'encodage CODA de la ligne relevé est trouvé, les lignes relevé seront as
 
 - Client ou fournisseur : si le type de compte est client ou fournisseur, une écriture comptable client ou fournisseur correspondante est trouvée selon les critères suivants :  
 
-    - Si une écriture comptable est trouvée avec le format standard, l'écriture comptable sera associée à la ligne relevé et le statut lettrage sera défini sur **Lettrée**. Si l'écriture comptable n'est pas au format standard, le numéro de compte bancaire du client ou du fournisseur est utilisé pour retrouver le client ou le fournisseur.  
+    - Si une écriture comptable est trouvée avec le format standard, elle sera associée à la ligne relevé et le statut lettrage sera défini sur **Lettrée**. Si l'écriture comptable n'est pas au format standard, le numéro de compte bancaire du client ou du fournisseur est utilisé pour retrouver le client ou le fournisseur.  
 
     - Si aucune écriture comptable avec un montant restant correspondant n'est trouvée, le compte client ou fournisseur est utilisé et le statut lettrage sera défini sur **Lettrée en partie**.  
 

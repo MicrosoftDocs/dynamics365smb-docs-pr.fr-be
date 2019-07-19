@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fae1e4edb37f64983e76f0a5d7158000f057d161
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0e0df0dc2ed18ad9df732389e88aa8a98eda2f30
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237747"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710998"
 ---
 # <a name="test-electronic-payments"></a>Tester les paiements électroniques
 > [!Note]
@@ -27,11 +27,11 @@ Après avoir paramétré les opérations bancaires électroniques et généré d
 
 Certaines des informations validées sont les suivantes :  
 
-- Les numéros des comptes bancaires sont valides.  
-- Les lignes paiement positives sont présentes.  
+- Si les numéros des comptes bancaires sont valides.  
+- Si les lignes paiement positives sont présentes.  
 - Si les paiements nationaux et internationaux sont effectués à partir d'un seul compte bancaire.  
-- Si un seul compte bancaire peut être utilisé pour Isabel.  
-- Si les lignes paiement sont en euro pour SEPA.  
+- Si un seul compte bancaire peut être utilisé pour Isabel (Interbanks Standards Association Belgium).  
+- Si des lignes de paiement sont en euros pour SEPA (Espace unique de paiement en euros).  
 - Si une souche de numéros a été définie pour SEPA.  
 
 Vous pouvez afficher les erreurs sur la page **Exporter/Vérifier les journaux des erreurs**.  

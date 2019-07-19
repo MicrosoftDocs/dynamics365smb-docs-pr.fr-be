@@ -1,6 +1,6 @@
 ---
 title: Paramétrage des nomenclatures produits belges
-description: Les autorités douanières et fiscales belges ont établi un code article à 8 unités pour diverses nomenclatures produits.
+description: Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 62ffca9d0507e3cadaa79621d0d8a2c45a7af669
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6ecb6422217697b0e8c7787c5e89bef2806172a2
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237662"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711016"
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Paramétrer les nomenclatures produits belges
-Les autorités douanières et fiscales belges ont établi un code article à 8 unités pour diverses nomenclatures produits.  
+Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
 ### <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits  
 

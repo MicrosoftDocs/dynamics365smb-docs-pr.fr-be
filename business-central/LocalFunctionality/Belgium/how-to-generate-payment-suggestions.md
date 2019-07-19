@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f55d9381bb3f83c1ebfc5c203826d3c1789d0b6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4c869c7427232b60b05231e29155eb2179b694c7
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237671"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710951"
 ---
 # <a name="generate-payment-suggestions"></a>Générer des suggestions de règlement
 Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.  
@@ -26,7 +26,7 @@ Après avoir configuré les opérations bancaires électroniques, vous pouvez co
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuilles paiement**, puis sélectionnez le lien connexe.  
 2.  Sélectionnez la feuille appropriée, puis choisissez l'action **Proposer paiements fournisseur**.  
-3.  Dans la page **Proposer paiements fournisseur**, dans le raccourci **Options**, renseignez les champs comme indiqué dans le tableau suivant.  
+3.  Sur la page **Proposer paiements fournisseur**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -37,7 +37,7 @@ Après avoir configuré les opérations bancaires électroniques, vous pouvez co
     |**Montant disponible**|S'il y a un montant maximal disponible pour les paiements, vous pouvez le saisir ici. Le traitement par lots crée ensuite une suggestion de paiement sur la base de ce montant et de la priorité des fournisseurs.|  
     |**Date de validation**|Saisissez la date qui s'affiche comme date comptabilisation sur les lignes que le traitement par lots insère dans la feuille paiements.|  
 
-4.  Dans le raccourci **Fournisseur**, entrez les critères du filtre.  
+4.  Entrez les critères de filtre.  
 5.  Pour démarrer le traitement par lots, cliquez sur le bouton **OK**.  
 
 Lorsque le traitement par lots est terminé, la feuille paiement contient toutes les écritures comptables fournisseur correspondant aux filtres.  

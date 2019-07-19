@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 08b25897f22b126485e82c72e825505e697ddcfc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d31fac0bee141d580b1e3b5709efba59da8d6cec
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237709"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711018"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Configurer des comptes bancaires pour CODA
 Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer les codes suivants :  
@@ -28,9 +28,9 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
 
 ## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Pour configurer des numéros de protocole et des codes version  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.  
+1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis sélectionnez le lien connexe.  
 2.  Choisissez l'action **Modifier**.  
-3.  Dans le raccourci **Validation**, remplissez les champs comme décrit dans le tableau suivant.  
+3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Description|  
     |---------------------------------|---------------------------------------|  

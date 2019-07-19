@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9813ad254313444b8cfc25d70b518a341b497003
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 83158cc4a53bbd0f280ceebde5cb5b2e28ada124
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237655"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710933"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Générer des suggestions de domiciliation
 Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.  
@@ -21,7 +21,7 @@ Après avoir paramétré les domiciliations, vous pouvez commencer à générer 
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis sélectionnez le lien connexe.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Suggérer des domiciliations**.  
-3.  Dans le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -31,8 +31,8 @@ Après avoir paramétré les domiciliations, vous pouvez commencer à générer 
     |**Sélectionner les remboursements possibles**|Sélectionnez ce champ si vous souhaitez inclure dans le traitement par lots les remboursements.|  
     |**Date de validation**|Entrez la date qui s'affiche comme date de validation sur les lignes que le traitement par lots insère dans la feuille domiciliation.|  
 
-4.  Dans le raccourci **Client**, entrez les critères de filtre supplémentaires.  
-5.  Choisissez le bouton **OK**.  
+4.  Entrez les éventuels critères de filtre supplémentaires.  
+5.  Cliquez sur le bouton **OK**.  
 
 Lorsque le traitement par lots est terminé, la feuille domiciliation contient toutes les écritures comptables client ouvertes correspondant aux filtres.  
 

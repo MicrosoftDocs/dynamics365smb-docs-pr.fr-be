@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4828fd536891628b8e87e503306085483a731b3a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 57a99ce3f7de651065aad3ecfbe25b2157d0d6e1
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237810"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710939"
 ---
 # <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
 > [!Note]
@@ -34,7 +34,7 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis sélectionnez le lien connexe.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
-3.  Dans la page **Créer des lignes feuille comptabilité**, sélectionnez le raccourci **Options**, puis renseignez les champs comme indiqué dans le tableau suivant.  
+3.  Sur la page **Créer des lignes feuille comptabilité**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -55,7 +55,7 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis sélectionnez le lien connexe.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
-3.  Dans la page **Domiciliations de fichier**, sélectionnez le raccourci **Options**, puis renseignez les champs comme indiqué dans le tableau suivant.  
+3.  Dans la page **Domiciliations de fichier**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  

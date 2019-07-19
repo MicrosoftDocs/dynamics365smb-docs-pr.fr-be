@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e24b63e60bbaea99a8c093ac556288aef7ced9c8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c56190165ac8e2719f8c3e44046dcf4290e0a786
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237759"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710931"
 ---
 # <a name="file-sepa-payments"></a>Effectuer des paiements SEPA
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque.  
@@ -21,7 +21,7 @@ SEPA unifie les modes de paiement dans les pays/régions européens participants
 
 Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'administration suivantes :  
 
-- Paramétrez un nouveau protocole d'exportation. Pour plus d'informations, voir Protocole d'exportation.  
+- Paramétrez un nouveau protocole d'exportation.
 - Dans la table **Pays/région**, sélectionnez le champ **SEPA autorisé** pour chaque pays appartenant à la zone AEE.  
 - Vérifiez que le champ **Devise euro** dans la table **Paramètres comptabilité** correspond à la devise dans les lignes paiement.  
 - Vérifiez que le champ **Compte bancaire préféré** du fournisseur dans la table **Fournisseur** contient l'IBAN et le code SWIFT.  

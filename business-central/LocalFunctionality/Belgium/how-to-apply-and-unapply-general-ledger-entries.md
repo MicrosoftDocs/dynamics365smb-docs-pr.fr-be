@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f21b23039c57a29d06a260b0abe74d8b57d00f71
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9d3d5a39a5c1fa77ce34ee0029c4189f4c4d836b
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237728"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710945"
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a>Lettrer et délettrer les écritures comptables
 Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
@@ -28,7 +28,7 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
 - Les transferts de transaction financière d'un système à un autre où une partie des informations réside temporairement dans le système d'origine.  
 - Les transactions pour lesquelles vous avez émis une facture vente à un client mais vous n'avez pas encore reçu la facture achat correspondante du fournisseur.  
 
- Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la fonction Lettrer écritures pour mettre à jour les écritures comptables validées et le type de compte de validation.  
+ Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la fonction **Lettrer écritures** pour mettre à jour les écritures comptables validées et le type de compte de validation.  
 
  Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écritures clôturées pour apporter des modifications.  
 
@@ -43,11 +43,11 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
     > [!NOTE]  
     >  Par défaut, le champ **Inclure écritures** est défini sur **Ouvert**. Vous pouvez modifier la valeur du champ **Inclure écritures** sur **Tous** ou **Clôturé**. Vous pouvez lettrer uniquement les écritures comptables qui ont le statut **Ouvert**.  
 
-4.  Sélectionnez l'écriture comptable appropriée, puis, sous l'onglet **Naviguer**, dans le groupe **Lettrage**, choisissez **Lettrer**.  
+4.  Sélectionnez l'écriture comptable appropriée, puis choisissez l'action **Définir ID lettrage**.  
 
     Le champ **ID lettrage** est mis à jour avec l'ID utilisateur. Le montant restant est affiché dans le champ **Solde** de la page **Lettrer écritures comptables**.  
 
-5.  Sélectionnez **Valider le lettrage**.  
+5.  Sélectionnez l'action **Valider le lettrage**.  
 
     Vous pouvez valider le lettrage même si le solde est égal à 0. Une fois validé, le champ **Montant restant** est affecté comme suit :  
 
@@ -60,7 +60,7 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
     > [!NOTE]  
     >  Une fois validées, les écritures comptables qui mettent à jour le champ **ID lettrage** sont supprimées.  
 
-6.  Choisissez le bouton **OK**.  
+6.  Cliquez sur le bouton **OK**.  
 
 ## <a name="to-view-the-applied-general-ledger-entries"></a>Pour afficher les écritures comptables lettrées  
 

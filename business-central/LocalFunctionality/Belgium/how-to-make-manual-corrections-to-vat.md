@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1c2a5f9eec99f7185f7284be1f91ebd8608898b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: eb4e69e31fb0a8f34f76d967c5a9701034d1dedf
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237707"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711032"
 ---
 # <a name="make-manual-corrections-to-vat"></a>Corrections manuelles de la TVA
 Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA.  
@@ -42,10 +42,10 @@ Vous pouvez apporter des corrections à des écritures TVA validées sans valide
     |Action|Désignation|  
     |------------|---------------------------------------|  
     |**État détaillé**|Ouvre l'état **Déclaration TVA**. Pour plus d'informations, voir Déclaration TVA.|  
-    |**Formulaire/Déclaration Intervat**|Ouvre l'état **TVA - Formulaire**. Pour plus d'informations, voir TVA - Formulaire.<br /><br /> L'état **Formulaire/Déclaration Intervat** est basé sur le modèle déclaration TVA défini dans les paramètres comptabilité. Par conséquent, il peut exporter des données différentes de celles affichées dans la page **Aperçu déclaration TVA**.|  
-    |**État Résumé déclaration**|Ouvre l'état **Résumé déclaration de TVA**. Pour plus d'informations, voir Résumé déclaration de TVA.|  
+    |**Formulaire/Déclaration Intervat**|Ouvre l'état **TVA - Formulaire**.<br /><br /> L'état **Formulaire/Déclaration Intervat** est basé sur le modèle déclaration TVA défini dans les paramètres comptabilité. Par conséquent, il peut exporter des données différentes de celles affichées dans la page **Aperçu déclaration TVA**.|  
+    |**État Résumé déclaration**|Ouvre l'état **Résumé déclaration de TVA**.|  
 
 ## <a name="see-also"></a>Voir aussi  
  [TVA belge](belgian-vat.md)   
  [Imprimer les déclarations de TVA périodiques](how-to-print-periodic-vat-reports.md)   
- [Paramétrer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+ [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)

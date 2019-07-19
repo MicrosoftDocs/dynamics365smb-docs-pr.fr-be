@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9da5857c44690b9bee52d089f4237e6c0197089b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 13bf0975f6a551b3a0b818be3b86389c0cd86573
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237664"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711024"
 ---
 # <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  
@@ -27,7 +27,7 @@ Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprime
 ## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état Formulaire de D.E.B.  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **D.E.B. – Formulaire**, puis sélectionnez le lien connexe.  
-2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -41,7 +41,7 @@ Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprime
     |**Déclaration Nihil**|Sélectionnez ce champ si vous n'avez aucune transaction commerciale avec des pays de l'UE et vous souhaitez envoyer une déclaration vide. Lorque ce champ est sélectionné, le message « NIHIL » s'affiche dans le champ **Message**.|  
     |**Message**|Entrez un message à imprimer sur la D.E.B., par exemple « déclaration normale » ou « déclaration de remplacement ».|  
 
-3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état ou le bouton **Aperçu** pour l'afficher à l'écran.  
+3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
 
 ## <a name="see-also"></a>Voir aussi  
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   

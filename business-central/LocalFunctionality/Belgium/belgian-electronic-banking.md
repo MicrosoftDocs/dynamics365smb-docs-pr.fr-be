@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4afcb91bbdc3f05fb42b86d4160276cd69ed09c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7beb778bdef0f8a77dad4d7461c9a089541e1eb3
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237754"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710962"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
 > [!Note]
@@ -27,9 +27,9 @@ La banque électronique vous permet d'échanger électroniquement des données a
 
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
 
-- Envoyer des paiements électroniques  
-- Traiter des relevés bancaires avec CODA  
-- Traiter des domiciliations européennes  
+- Envoyer des paiements électroniques.  
+- Traiter des relevés bancaires avec CODA.  
+- Traiter des domiciliations européennes.  
 
 ## <a name="see-also"></a>Voir aussi  
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  

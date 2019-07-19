@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 482578e4b37921802e3d3295086b7d5dc9e794b4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab3c62c9040638c9373cbc975570e566dfaf4926
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237589"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710990"
 ---
 # <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumé des lignes règlement et des lignes feuille comptabilité
 Business Central totalise les lignes règlement et les lignes feuille pour les types de paiements suivants :  
@@ -34,23 +34,23 @@ Si vous avez activé la case à cocher **Totaliser lignes feuille compta.** dans
 
 - Les lignes feuille paiement contenant des paiements partiels, avec les champs **Paiement partiel** et **Ligne distincte** sélectionnés.  
 
-- Les lignes feuille paiement contenant un message au format standard (c'est-à-dire, qui a réussi le test MOD97), qui définit le champ **Message au format standard** sur Vrai dans la feuille opérations bancaires électroniques.  
+- Les lignes feuille paiement contenant un message au format standard (qui a réussi le test MOD97), qui définit le champ **Message au format standard** sur Vrai dans la feuille opérations bancaires électroniques.
 
 ## <a name="example-1"></a>Exemple 1  
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
 
 - Une ligne paiement combinée dans un fichier XML qui contient un message de paiement concaténé. L'espace blanc est le séparateur.  
-- Une ligne paiement dans la feuille comptabilité avec une description générique ../../contenant le nom du fournisseur.  
+- Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
 ## <a name="example-2"></a>Exemple 2  
-Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est désactivée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
+Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est désactivée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
 
 - Deux lignes paiement combinées dans un fichier XML. La première ligne paiement contient les premiers messages de paiement concaténés. La deuxième ligne paiement contient le message de paiement de la troisième ligne.  
 
-- Une ligne paiement dans la feuille comptabilité avec une description générique ../../contenant le nom du fournisseur.  
+- Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
 ## <a name="example-3"></a>Exemple 3  
-Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est également activée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
+Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est également activée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] crée :  
 
 - Une ligne paiement combinée dans un fichier XML qui contient deux messages de paiement concaténés. Les points de suspension (…) sont utilisés pour indiquer que le message est tronqué.  
 

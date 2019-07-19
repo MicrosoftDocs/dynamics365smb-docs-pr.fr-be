@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b93af32339383ad6f5f4ebd16c7eb0f729372b5f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 853daf678f818ee19d86b663ad2915c0090cd794
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237702"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711026"
 ---
 # <a name="print-payment-files"></a>Imprimer les fichiers de paiement
 Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez imprimer les lignes feuille paiement dans un fichier de paiement.  
@@ -29,7 +29,7 @@ Dans la feuille paiement, le champ **Statut** sur les lignes exportées est déf
 ## <a name="to-print-a-payment-file"></a>Pour imprimer un fichier de paiement  
 
 1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Feuille paiement**, puis sélectionnez le lien connexe.  
-2.  Sous le raccourci **Options**, renseignez les champs comme indiqué dans le tableau ci-dessous.  
+2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  

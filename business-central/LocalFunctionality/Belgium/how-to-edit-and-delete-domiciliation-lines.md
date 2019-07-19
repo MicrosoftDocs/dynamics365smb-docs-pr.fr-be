@@ -1,26 +1,26 @@
 ---
 title: Comment modifier et supprimer des lignes domiciliation
-description: Après avoir généré des propositions de domiciliation, vous devrez peut-être modifier les lignes domiciliation. Par exemple, vous devrez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.
+description: Après avoir généré des propositions de domiciliation, vous souhaiterez peut-être modifier les lignes domiciliation. Par exemple, vous souhaiterez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d9f415b2cb4813728ec1f225b4dea410748c7646
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: fa33e69c6c223d827a9295ef3d149191cadaf8e5
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237658"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1710941"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Modifier et supprimer des lignes de domiciliation
-Après avoir généré des propositions de domiciliation, vous devrez peut-être modifier les lignes domiciliation. Par exemple, vous devrez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.  
+Après avoir généré des propositions de domiciliation, vous souhaiterez peut-être modifier les lignes domiciliation. Par exemple, vous souhaiterez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.  
 
 Après avoir modifié les lignes feuille, imprimez l'état **FS domicil. - Impression test** pour tester toutes les lignes feuilles.  
 
