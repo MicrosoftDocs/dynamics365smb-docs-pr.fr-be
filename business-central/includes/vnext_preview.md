@@ -1,0 +1,1 @@
+<span data-ttu-id="0a6dc-101">Cette fonctionnalité, ou une partie de la fonctionnalité, est en aperçu et le contenu est en cours de traitement.</span><span class="sxs-lookup"><span data-stu-id="0a6dc-101">This feature, or part of the feature, is in preview and the content is work in progress.</span></span>
