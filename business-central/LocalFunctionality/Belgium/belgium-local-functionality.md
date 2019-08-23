@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 64d8988fc99756bf08371cf413398572288614f8
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: c47b49e939ae36e1ae10037566354b75aead7349
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594210"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755190"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
@@ -36,7 +36,6 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Lettrer des relevés CODA](how-to-apply-coda-statements.md) **Désormais disponible**
     * [Transférer et valider automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md) **Désormais disponible**
     * [Relevés bancaires CODA](coda-bank-statements.md) **Désormais disponible**
-    * [Télécharger des fichiers CODA à partir d'un serveur Isabel](how-to-download-coda-files-from-an-isabel-server.md) **Désormais disponible**
     * [Opérations bancaires électroniques belges](belgian-electronic-banking.md) **Désormais disponible**
     * [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md) **Désormais disponible**
     * [Paramétrer des protocoles d'exportation](how-to-set-up-export-protocols.md) **Désormais disponible**
@@ -46,8 +45,6 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Créer des modèles et lots de feuilles paiements](how-to-create-payment-journal-templates-and-batches.md) **Désormais disponible**
     * [Tester des paiements électroniques](how-to-test-electronic-payments.md) **Désormais disponible**
     * [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) **Désormais disponible**
-    * [Isabel 6](isabel-6.md) **Désormais disponible**
-    * [Télécharger des fichiers de paiement vers un serveur Isabel](how-to-upload-payment-files-to-an-isabel-server.md) **Désormais disponible**
     * [Importer des relevés CODA](how-to-import-coda-statements.md) **Désormais disponible**
     * [Gérer des lignes de paiement électronique](how-to-manage-electronic-payment-lines.md) **Désormais disponible**
     * [Transférer et valider manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md) **Désormais disponible**
@@ -63,9 +60,8 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Exporter et valider des domiciliations](how-to-export-and-post-domiciliations.md) **Désormais disponible**
     * [Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md) **Désormais disponible**
     * [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md) **Désormais disponible**
-    * [Archiver des écritures journal IBS](how-to-archive-ibs-log-entries.md) **Désormais disponible**
-
-* Opérations financières de base
+    
+* Finances principales
     * [Lettrer et délettrer des écritures comptables](how-to-apply-and-unapply-general-ledger-entries.md) **Désormais disponible**
     * [Créer des feuilles financières](how-to-create-financial-journals.md) **Désormais disponible**
     * [Exporter vers Accon](how-to-export-to-accon.md) **Désormais disponible**
