@@ -12,17 +12,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7beb778bdef0f8a77dad4d7461c9a089541e1eb3
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 275c9a5a23d483fc97b5fd6464f7724d1fcf10aa
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710962"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755186"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel). Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  
 
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  

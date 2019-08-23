@@ -12,17 +12,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a99ce3f7de651065aad3ecfbe25b2157d0d6e1
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 447fdffb6781f8fd08482091479cbde9a6001316
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1710939"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755188"
 ---
 # <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
-
 Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier. Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes dans la comptabilité.  
 
 Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page **Fiche compte bancaire**, l'action **Domiciliations de fichier** ouvre l'une des pages de demande suivantes :  
