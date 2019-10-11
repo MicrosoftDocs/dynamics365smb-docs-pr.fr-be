@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04d90c72a48ec7f9f63ddfa7bb944296560d11d8
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 5198f81794effec1b7cfb9fcf3d9cf00c34b7ecb
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711014"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300246"
 ---
 # <a name="set-up-domiciliations"></a>Paramétrer les domiciliations
 Avant de pouvoir utiliser les services bancaires électroniques pour les domiciliations, vous devez saisir le numéro de domiciliation et le compte bancaire préféré du client.  

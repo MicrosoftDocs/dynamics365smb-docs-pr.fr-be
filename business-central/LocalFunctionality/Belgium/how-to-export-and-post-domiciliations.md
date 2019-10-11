@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 447fdffb6781f8fd08482091479cbde9a6001316
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: 8887e55a9cc77acd4f09d6285622a51deebcafc4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755188"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301407"
 ---
 # <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
 Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier. Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes dans la comptabilité.  
