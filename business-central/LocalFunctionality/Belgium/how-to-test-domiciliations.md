@@ -10,29 +10,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3416efdde8b02607469d1a012e61637112a4642d
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 981c4df15e54228ea17f3e856fed32ee682f61a3
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711002"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301393"
 ---
-# <a name="test-domiciliations"></a><span data-ttu-id="e6460-104">Tester les domiciliations</span><span class="sxs-lookup"><span data-stu-id="e6460-104">Test Domiciliations</span></span>
-<span data-ttu-id="e6460-105">Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feuille domiciliation - Test**.</span><span class="sxs-lookup"><span data-stu-id="e6460-105">To test the domiciliation journal lines, you can use the **Domiciliation Journal - Test** report.</span></span> <span data-ttu-id="e6460-106">Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects.</span><span class="sxs-lookup"><span data-stu-id="e6460-106">This report prints an overview of all journal lines, along with any errors such as missing fields or incorrect bank accounts.</span></span> <span data-ttu-id="e6460-107">Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.</span><span class="sxs-lookup"><span data-stu-id="e6460-107">You have to correct all errors before you can post the lines.</span></span>  
+# <a name="test-domiciliations"></a><span data-ttu-id="061da-104">Tester les domiciliations</span><span class="sxs-lookup"><span data-stu-id="061da-104">Test Domiciliations</span></span>
+<span data-ttu-id="061da-105">Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feuille domiciliation - Test**.</span><span class="sxs-lookup"><span data-stu-id="061da-105">To test the domiciliation journal lines, you can use the **Domiciliation Journal - Test** report.</span></span> <span data-ttu-id="061da-106">Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects.</span><span class="sxs-lookup"><span data-stu-id="061da-106">This report prints an overview of all journal lines, along with any errors such as missing fields or incorrect bank accounts.</span></span> <span data-ttu-id="061da-107">Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.</span><span class="sxs-lookup"><span data-stu-id="061da-107">You have to correct all errors before you can post the lines.</span></span>  
 
-## <a name="to-print-a-domiciliation-test-report"></a><span data-ttu-id="e6460-108">Pour imprimer un état de test de domiciliation</span><span class="sxs-lookup"><span data-stu-id="e6460-108">To print a domiciliation test report</span></span>  
+## <a name="to-print-a-domiciliation-test-report"></a><span data-ttu-id="061da-108">Pour imprimer un état de test de domiciliation</span><span class="sxs-lookup"><span data-stu-id="061da-108">To print a domiciliation test report</span></span>  
 
-1.  <span data-ttu-id="e6460-109">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="e6460-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="e6460-110">Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.</span><span class="sxs-lookup"><span data-stu-id="e6460-110">In the **Batch Name** field, select the required journal batch.</span></span>  
-3.  <span data-ttu-id="e6460-111">Sélectionnez l'option **Impression test**.</span><span class="sxs-lookup"><span data-stu-id="e6460-111">Choose the **Test Report** action.</span></span>  
-4.  <span data-ttu-id="e6460-112">Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.</span><span class="sxs-lookup"><span data-stu-id="e6460-112">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span></span>  
+1.  <span data-ttu-id="061da-109">Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis sélectionnez le lien connexe.</span><span class="sxs-lookup"><span data-stu-id="061da-109">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Domiciliation Journal**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="061da-110">Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.</span><span class="sxs-lookup"><span data-stu-id="061da-110">In the **Batch Name** field, select the required journal batch.</span></span>  
+3.  <span data-ttu-id="061da-111">Sélectionnez l'option **Impression test**.</span><span class="sxs-lookup"><span data-stu-id="061da-111">Choose the **Test Report** action.</span></span>  
+4.  <span data-ttu-id="061da-112">Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.</span><span class="sxs-lookup"><span data-stu-id="061da-112">Choose the **Print** button to print the report, or choose the **Preview** button to view it on the screen.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="e6460-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e6460-113">See Also</span></span>  
- <span data-ttu-id="e6460-114">[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="e6460-114">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
- <span data-ttu-id="e6460-115">[Prélévement à l'aide de la domiciliation](direct-debit-using-domiciliation.md) </span><span class="sxs-lookup"><span data-stu-id="e6460-115">[Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) </span></span>  
- <span data-ttu-id="e6460-116">[Paramétrer les domiciliations](how-to-set-up-domiciliations.md) </span><span class="sxs-lookup"><span data-stu-id="e6460-116">[Set Up Domiciliations](how-to-set-up-domiciliations.md) </span></span>  
- <span data-ttu-id="e6460-117">[Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="e6460-117">[Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) </span></span>  
- <span data-ttu-id="e6460-118">[Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md) </span><span class="sxs-lookup"><span data-stu-id="e6460-118">[Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) </span></span>  
- [<span data-ttu-id="e6460-119">Exporter et valider les domiciliations</span><span class="sxs-lookup"><span data-stu-id="e6460-119">Export and Post Domiciliations</span></span>](how-to-export-and-post-domiciliations.md)
+## <a name="see-also"></a><span data-ttu-id="061da-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="061da-113">See Also</span></span>  
+ <span data-ttu-id="061da-114">[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md) </span><span class="sxs-lookup"><span data-stu-id="061da-114">[Belgian Electronic Banking](belgian-electronic-banking.md) </span></span>  
+ <span data-ttu-id="061da-115">[Prélévement à l'aide de la domiciliation](direct-debit-using-domiciliation.md) </span><span class="sxs-lookup"><span data-stu-id="061da-115">[Direct Debit Using Domiciliation](direct-debit-using-domiciliation.md) </span></span>  
+ <span data-ttu-id="061da-116">[Paramétrer les domiciliations](how-to-set-up-domiciliations.md) </span><span class="sxs-lookup"><span data-stu-id="061da-116">[Set Up Domiciliations](how-to-set-up-domiciliations.md) </span></span>  
+ <span data-ttu-id="061da-117">[Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="061da-117">[Generate Domiciliation Suggestions](how-to-generate-domiciliation-suggestions.md) </span></span>  
+ <span data-ttu-id="061da-118">[Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md) </span><span class="sxs-lookup"><span data-stu-id="061da-118">[Edit and Delete Domiciliation Lines](how-to-edit-and-delete-domiciliation-lines.md) </span></span>  
+ [<span data-ttu-id="061da-119">Exporter et valider les domiciliations</span><span class="sxs-lookup"><span data-stu-id="061da-119">Export and Post Domiciliations</span></span>](how-to-export-and-post-domiciliations.md)
