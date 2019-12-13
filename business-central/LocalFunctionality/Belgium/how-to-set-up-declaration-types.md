@@ -1,8 +1,6 @@
 ---
 title: Procédure pour définir des types de déclarations
 description: Dans Business Central, il existe deux types de déclarations.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d1a2c6926bc42fc62fb976e2316c84e187210548
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 490c87d7313dab26801b53d57173dc9a0b6cfdbe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301381"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879459"
 ---
 # <a name="set-up-declaration-types"></a>Paramétrer des types de déclarations
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il existe deux types de déclarations :  
@@ -31,7 +29,7 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
 
 ## <a name="to-set-up-declaration-types"></a>Pour paramétrer des types de déclarations  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2.  Activez la case à cocher **Déclaration D.E.B. simplifiée** pour configurer un type de déclaration simplifiée. Effacez ce champ pour utiliser la déclaration étendue.  
 3.  Choisissez le bouton **OK**.  
 
@@ -39,5 +37,5 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
- [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)   
- [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+ [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
+ [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md)

@@ -1,8 +1,6 @@
 ---
 title: Comment tester les domiciliations
 description: Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état Feuille domiciliation - Test. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 981c4df15e54228ea17f3e856fed32ee682f61a3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 74e9e9c83855ff91d61c6b17ba11fa934b4b88a0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301393"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879457"
 ---
 # <a name="test-domiciliations"></a>Tester les domiciliations
 Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feuille domiciliation - Test**. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects. Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
 
 ## <a name="to-print-a-domiciliation-test-report"></a>Pour imprimer un état de test de domiciliation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 3.  Sélectionnez l'option **Impression test**.  
 4.  Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
@@ -34,5 +32,5 @@ Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feu
  [Prélévement à l'aide de la domiciliation](direct-debit-using-domiciliation.md)   
  [Paramétrer les domiciliations](how-to-set-up-domiciliations.md)   
  [Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
- [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)

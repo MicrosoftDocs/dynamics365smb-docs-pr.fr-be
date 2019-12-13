@@ -1,8 +1,6 @@
 ---
 title: Paramétrage des opérations bancaires électroniques
 description: Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 387e497ae34e79e5e452657b7cf5a9a45793b966
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c4990e19709344693a277817eae10fb91b1bd1b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301391"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881367"
 ---
 # <a name="set-up-electronic-banking"></a>Paramétrer des opérations bancaires électroniques
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  
@@ -27,7 +25,7 @@ Avec les opérations bancaires électroniques, vous pouvez effectuer des paiemen
 
 ## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Paramétrage des opérations bancaires électroniques**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
 2.  Dans la page **Paramétrage des opérations bancaires électroniques**, renseignez les champs comme indiqué dans le tableau suivant.   
 
     |Champ|Désignation|  

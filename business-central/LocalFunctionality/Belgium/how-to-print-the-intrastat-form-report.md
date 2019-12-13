@@ -1,8 +1,6 @@
 ---
 title: Impression de l'état Formulaire de D.E.B.
 description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66443e7224447e1c0762f0d87c5f0ebd255d636d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11349e942c88d40b2797f568847a41b28b778206
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301387"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879455"
 ---
 # <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  
@@ -26,7 +24,7 @@ Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprime
 
 ## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état Formulaire de D.E.B.  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **D.E.B. – Formulaire**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **D.E.B. – Formulaire**, puis choisissez le lien associé.  
 2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
