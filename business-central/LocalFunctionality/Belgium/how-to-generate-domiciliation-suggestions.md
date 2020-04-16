@@ -5,21 +5,21 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 89ffe59d74528502bc6549b6b642164264ee62fb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9ca064bb7020189657b65e08d2af475e382f7e32
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300260"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180889"
 ---
 # <a name="generate-domiciliation-suggestions"></a>Générer des suggestions de domiciliation
 Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.  
 
 ## <a name="to-generate-domiciliation-suggestions"></a>Pour générer des suggestions de domiciliation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuille domiciliation**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Suggérer des domiciliations**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -44,5 +44,5 @@ Lorsque le traitement par lots est terminé, la feuille domiciliation contient t
  [Prélévement à l'aide de la domiciliation](direct-debit-using-domiciliation.md)   
  [Paramétrer les domiciliations](how-to-set-up-domiciliations.md)   
  [Tester les domiciliations](how-to-test-domiciliations.md)   
- [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)

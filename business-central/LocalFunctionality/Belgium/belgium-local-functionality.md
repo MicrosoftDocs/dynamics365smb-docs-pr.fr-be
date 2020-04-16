@@ -5,14 +5,14 @@ author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 8fd92bdb281613e11ca562ea3e4acbb55b9e352b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d3c92b341939cb2f48f6b15a37f0c39fa144419b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300274"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180921"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

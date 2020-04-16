@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 75e62a7ef7faebcd98dc13af568fcc05e6d39e54
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 66c074d5aa66db28a67016b90e98096576a67b45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301404"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180911"
 ---
 # <a name="automatically-transfer-and-post-coda-statements"></a>Transférer et publier automatiquement des relevés CODA
 Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer les lignes de relevés CODA vers une feuille financière.  
@@ -28,7 +28,7 @@ Vous pouvez aussi transférer et valider manuellement les relevés CODA. Pour pl
 
 ## <a name="to-automatically-transfer-statement-lines"></a>Pour transférer automatiquement les lignes relevé  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
 3.  Sélectionnez le relevé CODA, puis choisissez l'action **Modifier**.  
 4.  Choisissez l'action **Transférer à FS**.  

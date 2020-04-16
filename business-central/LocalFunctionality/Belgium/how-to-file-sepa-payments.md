@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0125b55f418180e6662e2d4ee6e254f46b39a4af
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f740f082f6ac6aa7157f0ef491937c35eeffee6b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301400"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180893"
 ---
 # <a name="file-sepa-payments"></a>Effectuer des paiements SEPA
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque.  
@@ -28,7 +28,7 @@ Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'
 
 ## <a name="to-file-a-sepa-payment"></a>Pour effectuer un paiement SEPA  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Effectuer des paiements SEPA**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Classer les paiements SEPA**, puis choisissez le lien associé.  
 2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -44,5 +44,5 @@ Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'
 
 ## <a name="see-also"></a>Voir aussi  
  [Paramétrer les protocoles d'exportation](how-to-set-up-export-protocols.md)   
- [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md)   
+ [Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md)   
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)

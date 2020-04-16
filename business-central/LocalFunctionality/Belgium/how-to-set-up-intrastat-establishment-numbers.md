@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 30d47690343b5bc96c0bf5774222c38706781f17
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6e1b5ac5184e11120850b992eba5e469c5d013ea
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300242"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180855"
 ---
 # <a name="set-up-intrastat-establishment-numbers"></a>Configurer les numéros d'établissement intracomm.
 Le numéro d'établissement intracommunautaire est un numéro d'identification de la société qui est imprimé sur la déclaration intracommunautaire.  
 
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Pour configurer un numéro établissement intracommunautaire  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Informations société**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Informations société**, puis choisissez le lien associé.  
 2.  Entrez le numéro établissement intracommunautaire dans le champ **N° établissement intracommunautaire**. .  
 3.  Cliquez sur le bouton **OK**.  
   

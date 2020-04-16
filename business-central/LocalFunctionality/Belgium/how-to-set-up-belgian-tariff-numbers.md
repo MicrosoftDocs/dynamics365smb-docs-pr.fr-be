@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7e98e7bba75999b297117e21cf68cce684ceb026
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7cb2e5219cd0c1e93b00ed9a068b55876d91d605
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300248"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180867"
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Paramétrer les nomenclatures produits belges
 Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
 ### <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits  
 
-1.  Choisissez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Nomenclatures produits**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Nomenclatures produits**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Nomenclatures produits**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -40,5 +40,5 @@ Les autorités douanières et fiscales belges ont établi un code article à 8 
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   
  [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
- [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)   
- [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+ [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
+ [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md)

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8887e55a9cc77acd4f09d6285622a51deebcafc4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3a6d17a1f9de219529af9e9cdb0debed9f01ea28
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301407"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180901"
 ---
 # <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
 Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier. Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes dans la comptabilité.  
@@ -29,7 +29,7 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 
 ## <a name="to-export-and-post-domiciliations-in-sepa-format"></a>Pour exporter et valider les domiciliations au format SEPA  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
 3.  Sur la page **Créer des lignes feuille comptabilité**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -50,7 +50,7 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 
 ## <a name="to-export-and-post-domiciliations-in-isabel-format"></a>Pour exporter et valider les domiciliations au format Isabel  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
 3.  Dans la page **Domiciliations de fichier**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -75,6 +75,6 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 ## <a name="see-also"></a>Voir aussi  
  [Prélévement à l'aide de la domiciliation](direct-debit-using-domiciliation.md)   
  [Paramétrer les domiciliations](how-to-set-up-domiciliations.md)   
- [Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
+ [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)

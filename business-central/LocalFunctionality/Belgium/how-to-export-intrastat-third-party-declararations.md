@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: de87b86145da8421d76955250dcf88861654b213
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 921e60496ad85c62f92677187f633d3c69ad260e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300264"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180896"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations tierces intracommunautaires
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe. 
@@ -25,7 +25,7 @@ En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrasta
 ## <a name="to-export-the-third-party-declaration"></a>Pour exporter la déclaration tierce  
 Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état. Pour plus d'informations, voir [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md).  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Feuille intracomm.**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles intracomm.**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Créer fichier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -44,4 +44,4 @@ Ensuite, envoyez la déclaration au portail OneGate.
  [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
- [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+ [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)

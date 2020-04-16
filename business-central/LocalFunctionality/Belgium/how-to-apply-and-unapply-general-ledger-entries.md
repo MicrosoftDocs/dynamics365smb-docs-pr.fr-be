@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1279b9808cb345e8a7529fcc1fa3aff166d1e03f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ccd48062aee0a315c2b77829716862a78631b983
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301403"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180915"
 ---
 # <a name="apply-and-unapply-general-ledger-entries"></a>Lettrer et délettrer les écritures comptables
 Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
@@ -34,7 +34,7 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
 
 ## <a name="to-apply-general-ledger-entries"></a>Pour lettrer des écritures comptables  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Hist. trans. comptabilité**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2.  Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3.  Dans la page **Écritures comptables**, choisissez l'action **Lettrer écritures**.  
 
@@ -64,7 +64,7 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
 
 ## <a name="to-view-the-applied-general-ledger-entries"></a>Pour afficher les écritures comptables lettrées  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Hist. trans. comptabilité**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2.  Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3.  Sélectionnez l'écriture comptable appropriée, puis choisissez l'action **Écritures lettrées**.  
 
@@ -74,7 +74,7 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
 
 ## <a name="to-unapply-general-ledger-entries"></a>Pour délettrer des écritures comptables  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Hist. trans. comptabilité**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2.  Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3.  Sélectionnez l'écriture comptable que vous souhaitez délettrer, puis choisissez l'action **Annuler le lettrage**.  
 
@@ -83,7 +83,7 @@ Le lettrage des écritures comptables temporaires permet aux sociétés d'utilis
     > [!NOTE]  
     >  Si une écriture est lettrée par plusieurs écritures lettrage, vous devez commencer par délettrer la dernière écriture lettrage. Par défaut, la dernière écriture s'affiche.  
 
-4.  Choisissez le bouton **OK**.  
+4.  Cliquez sur le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
-[Fonctionnalité locale, Belgique](belgium-local-functionality.md)
+[Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)

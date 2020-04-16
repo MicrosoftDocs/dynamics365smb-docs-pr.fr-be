@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2dfd5a28404c6c346daa8f11694a781303aa2b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0611d7ad09c18c95df560244f1df4f97a7ce1d2e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300262"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180897"
 ---
 # <a name="file-non-euro-sepa-payments"></a>Effectuer des paiements SEPA hors euro
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez effectuer des paiements SEPA hors euro auprès de la banque. Cela est utile lorsque vous effectuez des paiements vers d'autres pays qui n'utilisent pas SEPA et pour les devises autres que l'euro.  
@@ -26,7 +26,7 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
 
 ## <a name="to-file-a-non-euro-sepa-payment"></a>Pour effectuer un paiement SEPA hors euro  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Effectuer des paiements SEPA hors euro**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Classer les paiements SEPA hors Euro**, puis choisissez le lien associé.  
 2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -41,6 +41,6 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
 3.  Choisissez le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Remplir les paiements SEPA](how-to-file-sepa-payments.md)   
+ [Classer les paiements SEPA](how-to-file-sepa-payments.md)   
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)   
  [Paiements SEPA](sepa-payments.md)

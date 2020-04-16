@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3f345ac545c6e3aac99551829f6d781836d3091e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b1c1e3260231357381480786a75303a594ab13f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300278"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180903"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Modifier et supprimer des lignes de domiciliation
 Après avoir généré des propositions de domiciliation, vous souhaiterez peut-être modifier les lignes domiciliation. Par exemple, vous souhaiterez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.  
@@ -28,13 +28,13 @@ Le traitement par lots **Proposer domiciliations** crée des propositions de dom
 
 ## <a name="to-edit-a-journal-line"></a>Pour modifier une ligne feuille  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuilles saisie domiciliation**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille concernée.  
 3.  Sélectionnez la ligne feuille, puis modifiez les champs.  
 
 ## <a name="to-delete-a-journal-line"></a>Pour supprimer une ligne feuille  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Feuilles saisie domiciliation**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille concernée.  
 3.  Sélectionnez la ligne feuille, puis choisissez l'action **Supprimer**.  
 4.  Cliquez sur le bouton **Oui**.  

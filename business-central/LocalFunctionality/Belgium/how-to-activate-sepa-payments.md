@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e7e1219c644e7115047af14c6550d41f7d613566
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e41a24e81e377c7a2cbe6d6cafe2830d82c650cb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300276"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180913"
 ---
 # <a name="activate-sepa-payments"></a>Activer des paiements SEPA
 Pour soumettre les paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA.  
@@ -26,14 +26,14 @@ Les procédures suivantes sont consacrées à l'activation d'un paiement SEPA et
 
 ## <a name="to-enable-countriesregions-for-sepa"></a>Pour activer des pays/régions pour SEPA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Pays/Régions**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Pays/Régions**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Modifier la liste**.  
 3.  Activez la case à cocher **SEPA autorisé** pour chaque pays ou région que vous souhaitez activer pour SEPA.  
 4.  Cliquez sur le bouton **OK**.  
 
 ## <a name="to-enable-bank-accounts-for-sepa"></a>Pour activer des comptes bancaires pour SEPA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Comptes bancaires**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire que vous souhaitez activer pour SEPA, puis choisissez l'action **Modifier**.  
 3.  Dans le champ **Code pays/région**, sélectionnez le code approprié.  
 
@@ -46,7 +46,7 @@ Les procédures suivantes sont consacrées à l'activation d'un paiement SEPA et
 
 ## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a>Pour configurer des comptes bancaires fournisseur pour SEPA  
 
-1.  Sélectionnez l'icône ![Rechercher une page ou un état](../../media/ui-search/search_small.png "icône Rechercher une page ou un état"), entrez **Fournisseurs**, puis sélectionnez le lien correspondant.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Fournisseurs**, puis choisissez le lien associé.  
 2.  Sélectionnez le fournisseur concerné, puis choisissez l'action **Comptes bancaires**.  
 3.  Sélectionnez le compte bancaire fournisseur à paramétrer pour SEPA, puis choisissez l'action **Modifier**.  
 4.  Dans les champs **IBAN** et **Code SWIFT**, entrez le code international d'identification bancaire de la banque auprès de laquelle le fournisseur a son compte.  

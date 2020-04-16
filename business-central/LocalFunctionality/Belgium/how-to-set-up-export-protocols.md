@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 76d2e58cce46c007b3d9ca3cce803ea9eb15a363
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5567de656b8df85d61d041005ac385cf21a82230
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300244"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180859"
 ---
 # <a name="set-up-export-protocols"></a>Paramétrer les protocoles d'exportation
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  
@@ -36,7 +36,7 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
 ## <a name="to-set-up-an-export-protocol"></a>Pour paramétrer un protocole d'exportation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Protocoles d'exportation**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Protocoles d'exportation**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
 3.  Dans la page **Protocoles d'exportation**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -55,5 +55,5 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
- [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
+ [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)

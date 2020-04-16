@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc936de1d5b7e8126144776ebdc1044f91cf9af4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9afa545cf50c00ad6689349e939f0251d8060c22
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301398"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180899"
 ---
 # <a name="create-payment-journal-templates-and-batches"></a>Créer des modèles et des lots de feuilles paiement
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille. Toutefois, la feuille paiement contient des champs qui sont propres au traitement des paiements. Avant de commencer à générer des suggestions de paiement, vous devez paramétrer un modèle feuille paiement et une feuille paiement.  
@@ -21,7 +21,7 @@ Si vous affectez un compte bancaire au modèle feuille paiement, le compte banca
 
 ## <a name="to-create-a-payment-journal-template"></a>Pour créer un modèle feuille paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "icône Page ou état pour la recherche"), entrez **Modèles feuille paiement**, puis sélectionnez le lien connexe.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles FS paiements**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Modèles feuille paiement EB**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -52,5 +52,5 @@ Si vous affectez un compte bancaire au modèle feuille paiement, le compte banca
 
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
- [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
+ [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)
