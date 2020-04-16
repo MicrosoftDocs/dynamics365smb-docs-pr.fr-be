@@ -9,28 +9,28 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: ab2bcb78479e91c111868c21bd3019c7971d9ffb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e91332cd90ded6560f34bc2378eaf6e286b2eb43
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310889"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195520"
 ---
-# <a name="view-test-reports-before-posting"></a><span data-ttu-id="0df09-103">Afficher des états de test avant la validation</span><span class="sxs-lookup"><span data-stu-id="0df09-103">View Test Reports Before Posting</span></span>
-<span data-ttu-id="0df09-104">Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par exemple), vous pouvez vérifier le document pour vous assurer qu'aucun problème ne risque de bloquer la validation.</span><span class="sxs-lookup"><span data-stu-id="0df09-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
+# <a name="view-test-reports-before-posting"></a><span data-ttu-id="41308-103">Afficher des états de test avant la validation</span><span class="sxs-lookup"><span data-stu-id="41308-103">View Test Reports Before Posting</span></span>
+<span data-ttu-id="41308-104">Lorsque vous êtes prêt à valider un document (commande, facture ou avoir, par exemple), vous pouvez vérifier le document pour vous assurer qu'aucun problème ne risque de bloquer la validation.</span><span class="sxs-lookup"><span data-stu-id="41308-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="0df09-105">La procédure suivante permet de tester un document achat avant validation.</span><span class="sxs-lookup"><span data-stu-id="0df09-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="0df09-106">Il s'agit de la même fonctionnalité pour les documents vente.</span><span class="sxs-lookup"><span data-stu-id="0df09-106">The functionality works in the same way for sales documents.</span></span>
+>   <span data-ttu-id="41308-105">La procédure suivante permet de tester un document achat avant validation.</span><span class="sxs-lookup"><span data-stu-id="41308-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="41308-106">Il s'agit de la même fonctionnalité pour les documents vente.</span><span class="sxs-lookup"><span data-stu-id="41308-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="0df09-107">Pour réaliser une impression test avant de valider une facture achat</span><span class="sxs-lookup"><span data-stu-id="0df09-107">To print a test report before posting a purchase invoice</span></span>
-1. <span data-ttu-id="0df09-108">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="0df09-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
-2. <span data-ttu-id="0df09-109">Ouvrez la facture achat à tester.</span><span class="sxs-lookup"><span data-stu-id="0df09-109">Open the purchase invoice that you want to test.</span></span>
-3. <span data-ttu-id="0df09-110">Sélectionnez l'option **Impression test**.</span><span class="sxs-lookup"><span data-stu-id="0df09-110">Choose the **Test Report** action.</span></span>  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="41308-107">Pour réaliser une impression test avant de valider une facture achat</span><span class="sxs-lookup"><span data-stu-id="41308-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="41308-108">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Factures achat**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="41308-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
+2. <span data-ttu-id="41308-109">Ouvrez la facture achat à tester.</span><span class="sxs-lookup"><span data-stu-id="41308-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="41308-110">Sélectionnez l'option **Impression test**.</span><span class="sxs-lookup"><span data-stu-id="41308-110">Choose the **Test Report** action.</span></span>  
 
-<span data-ttu-id="0df09-111">Tous les éléments de la facture achat sont vérifiés et le résultat est présenté dans un état.</span><span class="sxs-lookup"><span data-stu-id="0df09-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="0df09-112">Si l'état signale des erreurs ou des informations manquantes, vous devez corriger le problème avant de valider la facture achat.</span><span class="sxs-lookup"><span data-stu-id="0df09-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
+<span data-ttu-id="41308-111">Tous les éléments de la facture achat sont vérifiés et le résultat est présenté dans un état.</span><span class="sxs-lookup"><span data-stu-id="41308-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="41308-112">Si l'état signale des erreurs ou des informations manquantes, vous devez corriger le problème avant de valider la facture achat.</span><span class="sxs-lookup"><span data-stu-id="41308-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0df09-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0df09-113">See Also</span></span>
-[<span data-ttu-id="0df09-114">Validation des documents et des feuilles</span><span class="sxs-lookup"><span data-stu-id="0df09-114">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="0df09-115">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0df09-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="41308-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="41308-113">See Also</span></span>
+[<span data-ttu-id="41308-114">Validation des documents et des feuilles</span><span class="sxs-lookup"><span data-stu-id="41308-114">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="41308-115">[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="41308-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
