@@ -5,16 +5,17 @@ author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: d3c92b341939cb2f48f6b15a37f0c39fa144419b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 80494c1db48f3ed390ed6906f030b016a4a1e501
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180921"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454316"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
+
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctions
@@ -72,6 +73,8 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Définir la date de travail comme date de validation](how-to-set-the-work-date-as-the-posting-date.md) **Désormais disponible**
 
 ## <a name="see-also"></a>Voir aussi
-[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+
+[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
