@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f740f082f6ac6aa7157f0ef491937c35eeffee6b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aacb7668739e5c97492b128d3c6800e9bd60b47c
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180893"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677172"
 ---
 # <a name="file-sepa-payments"></a>Effectuer des paiements SEPA
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser les virements SEPA pour effectuer des paiements SEPA auprès de la banque.  
@@ -28,7 +28,7 @@ Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'
 
 ## <a name="to-file-a-sepa-payment"></a>Pour effectuer un paiement SEPA  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Classer les paiements SEPA**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Effectuer des paiements SEPA**, puis sélectionnez le lien associé.  
 2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -44,5 +44,5 @@ Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'
 
 ## <a name="see-also"></a>Voir aussi  
  [Paramétrer les protocoles d'exportation](how-to-set-up-export-protocols.md)   
- [Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md)   
+ [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md)   
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)

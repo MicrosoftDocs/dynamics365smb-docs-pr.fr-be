@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1e79f6667cbb5ac3511b4303cb8827730cba14ad
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e2b585670d46b75d818a7679abe671bdebc54533
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180861"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676784"
 ---
 # <a name="set-up-electronic-banking"></a>Paramétrer des opérations bancaires électroniques
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  
 
 - Paramétrage des opérations bancaires électroniques.  
-- Codes IBLC/BLWI - Pour plus d'informations, voir [Paramétrer les codes de transaction IBLC/BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
+- Codes IBLC/BLWI - Pour plus d'informations, voir [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
 ## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage des opérations bancaires électroniques**, puis sélectionnez le lien associé.  
 2.  Dans la page **Paramétrage des opérations bancaires électroniques**, renseignez les champs comme indiqué dans le tableau suivant.   
 
     |Champ|Désignation|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 90cf62f876895e30115bad78b37b55910e0ab7cc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2bd2928e7efd21dd0198e89d2cb99ccedd490d62
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180875"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677148"
 ---
 # <a name="manually-transfer-and-post-coda-statements"></a>Transférer et publier manuellement des relevés CODA
 Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer manuellement les lignes de relevés CODA vers une feuille financière. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes. La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.  
@@ -26,7 +26,7 @@ Pour plus d'informations sur la manière de transférer automatiquement les rele
 
 ## <a name="to-manually-transfer-and-post-statement-lines"></a>Pour transférer et valider manuellement les lignes relevé  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Ligne feuille comptabilité**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille comptabilité**, puis sélectionnez le lien associé.  
 2.  Sélectionnez la feuille, puis cliquez sur le bouton **OK**.  
 3.  Remplissez le champ **Solde final du relevé**.  
 4.  Entrez manuellement chaque ligne du relevé.  

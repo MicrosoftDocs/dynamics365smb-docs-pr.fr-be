@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3a6d17a1f9de219529af9e9cdb0debed9f01ea28
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 399d5db67304aabc49f31fd4fdd6e6cd870913b5
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180901"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676846"
 ---
 # <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
 Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier. Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes dans la comptabilité.  
@@ -29,7 +29,7 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 
 ## <a name="to-export-and-post-domiciliations-in-sepa-format"></a>Pour exporter et valider les domiciliations au format SEPA  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles domiciliation**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
 3.  Sur la page **Créer des lignes feuille comptabilité**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -50,7 +50,7 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
 
 ## <a name="to-export-and-post-domiciliations-in-isabel-format"></a>Pour exporter et valider les domiciliations au format Isabel  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles domiciliation**, puis sélectionnez le lien associé.  
 2.  Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
 3.  Dans la page **Domiciliations de fichier**, renseignez les champs comme indiqué dans le tableau suivant.  
 

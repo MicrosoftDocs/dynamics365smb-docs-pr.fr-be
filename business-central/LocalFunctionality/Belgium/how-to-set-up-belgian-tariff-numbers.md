@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7cb2e5219cd0c1e93b00ed9a068b55876d91d605
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 20ae6812eb33b5e085151d07fecd9fe32bc04abd
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180867"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676949"
 ---
 # <a name="set-up-belgian-tariff-numbers"></a>Paramétrer les nomenclatures produits belges
 Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
 ### <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Nomenclatures produits**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Nomenclatures produits**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Nomenclatures produits**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -41,4 +41,4 @@ Les autorités douanières et fiscales belges ont établi un code article à 8 
  [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
- [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md)
+ [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)

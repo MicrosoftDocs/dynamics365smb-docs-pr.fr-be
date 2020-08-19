@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0431919b0fac0f93d4a0bac88cc5ead30ab87b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 01bacadf610956275625471c079c7490f6ee93c0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180877"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677183"
 ---
 # <a name="print-periodic-vat-reports"></a>Imprimer les déclarations de TVA périodiques
 La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer les déclarations de TVA suivantes aux autorités fiscales belges :  
@@ -28,7 +28,7 @@ La fonction de déclaration de TVA permet d'imprimer les détails des transactio
 
 ## <a name="to-print-the-monthlyquarterly-declaration"></a>Pour imprimer la déclaration mensuelle/trimestrielle  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Formulaire/Déclaration Intervat**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Formulaire/Déclaration Intervat**, puis sélectionnez le lien associé.  
 2.  Dans la page **TVA – Formulaire**, renseignez les champs.  
 
     |Champ|Désignation|  
@@ -44,7 +44,7 @@ La fonction de déclaration de TVA permet d'imprimer les détails des transactio
 
 ## <a name="to-print-the-vat-annual-listing-on-disk"></a>Pour imprimer la liste annuelle de TVA sur disque  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Liste annuelle de TVA - Disque**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste annuelle - Disque**, puis sélectionnez le lien associé.  
 2.  Dans la page **Liste annuelle de TVA - Disque**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -60,9 +60,9 @@ La fonction de déclaration de TVA permet d'imprimer les détails des transactio
 
 ## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Pour imprimer l'état TVA - Déclaration intracommunautaire sur disque  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **TVA - Déclaration intracommunautaire sur disque**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **TVA - Déclaration intracommunautaire sur disque**, puis sélectionnez le lien associé.  
 2.  Entrez les informations nécessaires, puis cliquez sur le bouton **OK** pour lancer le traitement par lots, qui crée un fichier .XML. Pour plus d'informations, voir TVA - Déclaration intracommunautaire sur disque.  
-3.  Si vous devez effectuer une correction, sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **TVA - Correction déclaration intracommunautaire**, puis sélectionnez le lien associé.  
+3.  Si vous devez apporter une correction, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **TVA - Correction déclaration intracommunautaire**, puis sélectionnez le lien associé.  
 4.  Choisissez l'action **Modifier la liste**, puis entrez les informations qui doivent être modifiées. Cliquez sur le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c47f579ad2d3b6a1597ea6f6a64af0e4bbae5acc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 301a399021b686b0a612cc85faabcdac459fd1b0
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180869"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676679"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Configurer des comptes bancaires pour CODA
 Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer les codes suivants :  
@@ -28,7 +28,7 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
 
 ## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Pour configurer des numéros de protocole et des codes version  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Modifier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 

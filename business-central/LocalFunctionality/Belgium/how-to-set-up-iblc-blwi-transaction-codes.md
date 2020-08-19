@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5c6ad8200a73d3bc27935042b214c3fd3cc9aa7d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2908f8186cd09c9e8a4b31ae76238e91c3dcefb4
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180857"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676719"
 ---
 # <a name="set-up-iblc-blwi-transaction-codes"></a>Configurer des codes transaction IBLC-BLWI
 Pour traiter les paiements électroniques, vous devez définir des codes de transaction en fonction des exigences de l'Institut d'échange belgo-luxembourgeois. Il s'agit de codes d'identification internationaux pour les différents types de transactions paiement. Les codes IBLC/BLWI sont uniquement utilisés pour les paiements internationaux.  
 
 ## <a name="to-set-up-iblcblwi-transaction-codes"></a>Pour configurer les codes transaction IBLC/BLWI  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramétrer les codes transaction IBLC-BLW**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Codes transaction IBLC/BLWI**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
 3.  Entrez le **Code transaction** et la **Description**.  
 4.  Cliquez sur le bouton **OK**.  

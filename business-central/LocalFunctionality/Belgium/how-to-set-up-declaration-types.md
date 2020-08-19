@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61fdccfc6bcb82519e2022e9d05b5814b7b31bf5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 01487411d58c323b163924e4d59f06585d6010d9
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180865"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677186"
 ---
 # <a name="set-up-declaration-types"></a>Paramétrer des types de déclarations
 Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il existe deux types de déclarations :  
@@ -29,7 +29,7 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
 
 ## <a name="to-set-up-declaration-types"></a>Pour paramétrer des types de déclarations  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
 2.  Activez la case à cocher **Déclaration D.E.B. simplifiée** pour configurer un type de déclaration simplifiée. Effacez ce champ pour utiliser la déclaration étendue.  
 3.  Choisissez le bouton **OK**.  
 
@@ -38,4 +38,4 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
- [Imprimer le rapport de formulaire intracomm.](how-to-print-the-intrastat-form-report.md)
+ [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)

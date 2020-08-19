@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 921e60496ad85c62f92677187f633d3c69ad260e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c8aec54c4e878a29c97727d5194f522d07fc4f2b
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180896"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677094"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations tierces intracommunautaires
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe. 
@@ -25,7 +25,7 @@ En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrasta
 ## <a name="to-export-the-third-party-declaration"></a>Pour exporter la déclaration tierce  
 Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état. Pour plus d'informations, voir [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md).  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles intracomm.**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Créer fichier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 

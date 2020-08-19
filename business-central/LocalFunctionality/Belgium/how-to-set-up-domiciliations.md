@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8071bbbc4b4bc285f6a0eafa6cfed30ec28af88e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 19a98cf0e725270aac2465577a858f6ffe2f05b3
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180863"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676711"
 ---
 # <a name="set-up-domiciliations"></a>Paramétrer les domiciliations
 Avant de pouvoir utiliser les services bancaires électroniques pour les domiciliations, vous devez saisir le numéro de domiciliation et le compte bancaire préféré du client.  
@@ -27,7 +27,7 @@ Avant de pouvoir utiliser les services bancaires électroniques pour les domicil
 
 ## <a name="to-set-up-domiciliation"></a>Pour configurer une domiciliation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Clients**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Clients**, puis sélectionnez le lien associé.  
 2.  Sélectionnez le client, puis choisissez l'action **Modifier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
