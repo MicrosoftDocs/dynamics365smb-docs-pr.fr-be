@@ -1,59 +1,29 @@
 ---
-title: Comment activer les paiements SEPA
+title: Activer des paiements SEPA dans la version belge
 description: Pour soumettre les paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 47d255e1217eca08d073400ea92adaf012d76c71
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.date: 08/25/2020
+ms.author: edupont
+ms.openlocfilehash: 6dc9df94a823d62ca6ff79f65c1212d6ad5ca778
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676600"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731124"
 ---
-# <a name="activate-sepa-payments"></a>Activer des paiements SEPA
-Pour soumettre les paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA.  
+# <a name="activate-sepa-payments-in-the-belgian-version"></a>Activer des paiements SEPA dans la version belge
 
-Les procédures suivantes sont consacrées à l'activation d'un paiement SEPA et à la configuration de comptes bancaires fournisseur.  
-
-## <a name="to-enable-countriesregions-for-sepa"></a>Pour activer des pays/régions pour SEPA  
-
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Pays/Régions**, puis sélectionnez le lien associé.  
-2.  Choisissez l'action **Modifier la liste**.  
-3.  Activez la case à cocher **SEPA autorisé** pour chaque pays ou région que vous souhaitez activer pour SEPA.  
-4.  Cliquez sur le bouton **OK**.  
-
-## <a name="to-enable-bank-accounts-for-sepa"></a>Pour activer des comptes bancaires pour SEPA  
-
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
-2.  Sélectionnez le compte bancaire que vous souhaitez activer pour SEPA, puis choisissez l'action **Modifier**.  
-3.  Dans le champ **Code pays/région**, sélectionnez le code approprié.  
-
-    > [!NOTE]  
-    >  Le code pays/région spécifié doit être activé pour SEPA, comme décrit dans la procédure précédente.  
-
-4.  Entrez une valeur dans le champ **Solde minimum**.  
-5.  Dans le champ **Code SWIFT**, entrez un code.  
-6.  Cliquez sur le bouton **OK**.  
-
-## <a name="to-set-up-vendor-bank-accounts-for-sepa"></a>Pour configurer des comptes bancaires fournisseur pour SEPA  
-
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.  
-2.  Sélectionnez le fournisseur concerné, puis choisissez l'action **Comptes bancaires**.  
-3.  Sélectionnez le compte bancaire fournisseur à paramétrer pour SEPA, puis choisissez l'action **Modifier**.  
-4.  Dans les champs **IBAN** et **Code SWIFT**, entrez le code international d'identification bancaire de la banque auprès de laquelle le fournisseur a son compte.  
-5.  Cliquez sur le bouton **OK**.  
+[!INCLUDE [activate-sepa-payments](../includes/BENL/activate-sepa-payments.md)]
 
 ## <a name="see-also"></a>Voir aussi  
- [Paiements SEPA](sepa-payments.md)   
- [Classer les paiements SEPA](how-to-file-sepa-payments.md)   
- [Classer les paiements SEPA hors Euro](how-to-file-non-euro-sepa-payments.md)   
- [Configurer les protocoles d'exportation](how-to-set-up-export-protocols.md)
+
+[Paiements SEPA](sepa-payments.md)  
+[Effectuer des paiements SEPA](how-to-file-sepa-payments.md)  
+[Remplir les paiements SEPA non euros](how-to-file-non-euro-sepa-payments.md)  
+[Configurer les protocoles d'exportation](how-to-set-up-export-protocols.md)  

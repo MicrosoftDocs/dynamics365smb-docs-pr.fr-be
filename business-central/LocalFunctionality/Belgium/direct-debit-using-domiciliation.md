@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 64f3b771e6e878385edb77b97b46faf4a1395c1d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 542541f77e9ab82976ee43cae695ab4ae5819ac6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180919"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778991"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Domiciliation européenne
 Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client via un compte bancaire préféré. Les domiciliations peuvent uniquement être traitées pour les clients nationaux qui ont des comptes bancaires nationaux. Les domiciliations dans des devises étrangères ou concernant des banques étrangères ne sont pas prises en charge.  

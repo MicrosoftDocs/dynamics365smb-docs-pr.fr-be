@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f493be9d409777e36b1d007751facc11fe77a64a
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: efd63d8a5a6aa9029665d9eedd72767f9b52ba7b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677141"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778477"
 ---
 # <a name="export-to-accon"></a>Exporter vers Accon
 L'état **Lien avec Accon** vous permet de créer un fichier qui peut être importé dans ACCON Plus pour générer un compte de résultats annuel. L'état exporte les soldes finaux des comptes généraux pour une période spécifique.  
