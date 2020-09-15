@@ -11,30 +11,30 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d9a1edc79ae4ab52733b6dfaf593177c38f626fb
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 79abfd022b27c507f86d8f05e57a8b6a756f116c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677018"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778982"
 ---
-# <a name="create-financial-journals"></a><span data-ttu-id="1d3ce-104">Créer des feuilles financières</span><span class="sxs-lookup"><span data-stu-id="1d3ce-104">Create Financial Journals</span></span>
-<span data-ttu-id="1d3ce-105">Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-105">Financial journals are used to register bank account transactions.</span></span> <span data-ttu-id="1d3ce-106">Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-106">A financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.</span></span>  
+# <a name="create-financial-journals"></a><span data-ttu-id="3a8b9-104">Créer des feuilles financières</span><span class="sxs-lookup"><span data-stu-id="3a8b9-104">Create Financial Journals</span></span>
+<span data-ttu-id="3a8b9-105">Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-105">Financial journals are used to register bank account transactions.</span></span> <span data-ttu-id="3a8b9-106">Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-106">A financial journal lets you enter a starting balance and an ending balance and automatically calculate the difference so that you can verify that all of the transactions have been registered.</span></span>  
 
-## <a name="to-create-a-financial-journal"></a><span data-ttu-id="1d3ce-107">Pour créer une feuille financière</span><span class="sxs-lookup"><span data-stu-id="1d3ce-107">To create a financial journal</span></span>  
+## <a name="to-create-a-financial-journal"></a><span data-ttu-id="3a8b9-107">Pour créer une feuille financière</span><span class="sxs-lookup"><span data-stu-id="3a8b9-107">To create a financial journal</span></span>  
 
-1.  <span data-ttu-id="1d3ce-108">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-108">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Journal Templates**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="1d3ce-109">Choisissez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-109">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="1d3ce-110">Remplissez les champs comme décrit dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-110">Fill in the fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="3a8b9-108">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Modèles feuille**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-108">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Journal Templates**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="3a8b9-109">Choisissez l'action **Nouveau**.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-109">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="3a8b9-110">Remplissez les champs comme décrit dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-110">Fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="1d3ce-111">Champ</span><span class="sxs-lookup"><span data-stu-id="1d3ce-111">Field</span></span>|<span data-ttu-id="1d3ce-112">Description</span><span class="sxs-lookup"><span data-stu-id="1d3ce-112">Description</span></span>|  
+    |<span data-ttu-id="3a8b9-111">Champ</span><span class="sxs-lookup"><span data-stu-id="3a8b9-111">Field</span></span>|<span data-ttu-id="3a8b9-112">Description</span><span class="sxs-lookup"><span data-stu-id="3a8b9-112">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="1d3ce-113">**Type**</span><span class="sxs-lookup"><span data-stu-id="1d3ce-113">**Type**</span></span>|<span data-ttu-id="1d3ce-114">Sélectionnez **Financière** pour le type de feuille.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-114">Select **Financial** for the type of journal.</span></span>|  
-    |<span data-ttu-id="1d3ce-115">**Type compte contrepartie**</span><span class="sxs-lookup"><span data-stu-id="1d3ce-115">**Bal. Account Type**</span></span>|<span data-ttu-id="1d3ce-116">Sélectionnez **Compte bancaire** pour le type de compte contrepartie.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-116">Select **Bank Account** for the type of balancing account.</span></span>|  
-    |<span data-ttu-id="1d3ce-117">**N° compte contrepartie**</span><span class="sxs-lookup"><span data-stu-id="1d3ce-117">**Bal. Account No.**</span></span>|<span data-ttu-id="1d3ce-118">Sélectionnez le numéro du compte contrepartie.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-118">Select the number of the balancing account.</span></span>|  
+    |<span data-ttu-id="3a8b9-113">**Type**</span><span class="sxs-lookup"><span data-stu-id="3a8b9-113">**Type**</span></span>|<span data-ttu-id="3a8b9-114">Sélectionnez **Financière** pour le type de feuille.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-114">Select **Financial** for the type of journal.</span></span>|  
+    |<span data-ttu-id="3a8b9-115">**Type compte contrepartie**</span><span class="sxs-lookup"><span data-stu-id="3a8b9-115">**Bal. Account Type**</span></span>|<span data-ttu-id="3a8b9-116">Sélectionnez **Compte bancaire** pour le type de compte contrepartie.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-116">Select **Bank Account** for the type of balancing account.</span></span>|  
+    |<span data-ttu-id="3a8b9-117">**N° compte contrepartie**</span><span class="sxs-lookup"><span data-stu-id="3a8b9-117">**Bal. Account No.**</span></span>|<span data-ttu-id="3a8b9-118">Sélectionnez le numéro du compte contrepartie.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-118">Select the number of the balancing account.</span></span>|  
 
-4.  <span data-ttu-id="1d3ce-119">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="1d3ce-119">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="3a8b9-119">Cliquez sur le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="3a8b9-119">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="1d3ce-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1d3ce-120">See Also</span></span>  
- [<span data-ttu-id="1d3ce-121">Fonctionnalité locale pour la Belgique</span><span class="sxs-lookup"><span data-stu-id="1d3ce-121">Belgium Local Functionality</span></span>](belgium-local-functionality.md)
+## <a name="see-also"></a><span data-ttu-id="3a8b9-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3a8b9-120">See Also</span></span>  
+ [<span data-ttu-id="3a8b9-121">Fonctionnalité locale pour la Belgique</span><span class="sxs-lookup"><span data-stu-id="3a8b9-121">Belgium Local Functionality</span></span>](belgium-local-functionality.md)

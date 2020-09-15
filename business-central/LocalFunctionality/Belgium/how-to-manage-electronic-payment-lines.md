@@ -9,30 +9,30 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b3a15fe04e3e6f55384e55af3655f64adf22b449
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 428ada76cd78ddb24f49f24c4ad4047a7d0b78a3
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677150"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778964"
 ---
-# <a name="manage-electronic-payment-lines"></a><span data-ttu-id="45740-104">Gérer les lignes de paiement électronique</span><span class="sxs-lookup"><span data-stu-id="45740-104">Manage Electronic Payment Lines</span></span>
-<span data-ttu-id="45740-105">Vous pouvez paramétrer [!INCLUDE[d365fin](../../includes/d365fin_md.md)] pour qu'il suggère des paiements automatiquement et vous pouvez ajouter d'autres paiements manuellement.</span><span class="sxs-lookup"><span data-stu-id="45740-105">You can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] suggest payments automatically and then you can add more payments manually.</span></span> <span data-ttu-id="45740-106">Vous pouvez également modifier ou supprimer des paiements suggérés.</span><span class="sxs-lookup"><span data-stu-id="45740-106">You can also edit or delete suggested payments.</span></span> <span data-ttu-id="45740-107">Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="45740-107">You must correct all errors before you can post the electronic payment lines.</span></span> <span data-ttu-id="45740-108">La procédure suivante décrit comment ajouter ou modifier manuellement des lignes feuille paiement, mais vous pouvez également supprimer des lignes feuille paiement dans la page **Feuille paiement**.</span><span class="sxs-lookup"><span data-stu-id="45740-108">The following procedure describes how to manually add or edit payment journal lines, but you can also delete payment journal lines on the **Payment Journal** page.</span></span>  
+# <a name="manage-electronic-payment-lines"></a><span data-ttu-id="34dd4-104">Gérer les lignes de paiement électronique</span><span class="sxs-lookup"><span data-stu-id="34dd4-104">Manage Electronic Payment Lines</span></span>
+<span data-ttu-id="34dd4-105">Vous pouvez paramétrer [!INCLUDE[d365fin](../../includes/d365fin_md.md)] pour qu'il suggère des paiements automatiquement et vous pouvez ajouter d'autres paiements manuellement.</span><span class="sxs-lookup"><span data-stu-id="34dd4-105">You can have [!INCLUDE[d365fin](../../includes/d365fin_md.md)] suggest payments automatically and then you can add more payments manually.</span></span> <span data-ttu-id="34dd4-106">Vous pouvez également modifier ou supprimer des paiements suggérés.</span><span class="sxs-lookup"><span data-stu-id="34dd4-106">You can also edit or delete suggested payments.</span></span> <span data-ttu-id="34dd4-107">Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de paiement électronique.</span><span class="sxs-lookup"><span data-stu-id="34dd4-107">You must correct all errors before you can post the electronic payment lines.</span></span> <span data-ttu-id="34dd4-108">La procédure suivante décrit comment ajouter ou modifier manuellement des lignes feuille paiement, mais vous pouvez également supprimer des lignes feuille paiement dans la page **Feuille paiement**.</span><span class="sxs-lookup"><span data-stu-id="34dd4-108">The following procedure describes how to manually add or edit payment journal lines, but you can also delete payment journal lines on the **Payment Journal** page.</span></span>  
 
-## <a name="to-manage-a-payment-journal-line"></a><span data-ttu-id="45740-109">Pour gérer une ligne feuille paiement</span><span class="sxs-lookup"><span data-stu-id="45740-109">To manage a payment journal line</span></span>  
+## <a name="to-manage-a-payment-journal-line"></a><span data-ttu-id="34dd4-109">Pour gérer une ligne feuille paiement</span><span class="sxs-lookup"><span data-stu-id="34dd4-109">To manage a payment journal line</span></span>  
 
-1.  <span data-ttu-id="45740-110">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="45740-110">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="45740-111">Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.</span><span class="sxs-lookup"><span data-stu-id="45740-111">In the **Batch Name** field, select the required journal batch.</span></span>  
-3.  <span data-ttu-id="45740-112">Sélectionnez une ligne feuille et entrez les informations selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="45740-112">Select a journal line and enter the information as needed.</span></span>  
+1.  <span data-ttu-id="34dd4-110">Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="34dd4-110">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="34dd4-111">Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.</span><span class="sxs-lookup"><span data-stu-id="34dd4-111">In the **Batch Name** field, select the required journal batch.</span></span>  
+3.  <span data-ttu-id="34dd4-112">Sélectionnez une ligne feuille et entrez les informations selon vos besoins.</span><span class="sxs-lookup"><span data-stu-id="34dd4-112">Select a journal line and enter the information as needed.</span></span>  
 
-     - <span data-ttu-id="45740-113">ou -</span><span class="sxs-lookup"><span data-stu-id="45740-113">or -</span></span>  
+     - <span data-ttu-id="34dd4-113">ou -</span><span class="sxs-lookup"><span data-stu-id="34dd4-113">or -</span></span>  
 
-    <span data-ttu-id="45740-114">Pour supprimer la ligne sélectionnée, choisissez l'action **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="45740-114">To delete the selected line, choose the **Delete** action.</span></span>  
+    <span data-ttu-id="34dd4-114">Pour supprimer la ligne sélectionnée, choisissez l'action **Supprimer**.</span><span class="sxs-lookup"><span data-stu-id="34dd4-114">To delete the selected line, choose the **Delete** action.</span></span>  
 
-4.  <span data-ttu-id="45740-115">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="45740-115">Choose the **OK** button.</span></span>  
+4.  <span data-ttu-id="34dd4-115">Choisissez le bouton **OK**.</span><span class="sxs-lookup"><span data-stu-id="34dd4-115">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="45740-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="45740-116">See Also</span></span>  
- <span data-ttu-id="45740-117">[Paiements électroniques, Belgique](belgian-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="45740-117">[Belgian Electronic Payments](belgian-electronic-payments.md) </span></span>  
- <span data-ttu-id="45740-118">[Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="45740-118">[Generate Payment Suggestions](how-to-generate-payment-suggestions.md) </span></span>  
- [<span data-ttu-id="45740-119">Tester les paiements électroniques</span><span class="sxs-lookup"><span data-stu-id="45740-119">Test Electronic Payments</span></span>](how-to-test-electronic-payments.md)
+## <a name="see-also"></a><span data-ttu-id="34dd4-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="34dd4-116">See Also</span></span>  
+ <span data-ttu-id="34dd4-117">[Paiements électroniques, Belgique](belgian-electronic-payments.md) </span><span class="sxs-lookup"><span data-stu-id="34dd4-117">[Belgian Electronic Payments](belgian-electronic-payments.md) </span></span>  
+ <span data-ttu-id="34dd4-118">[Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) </span><span class="sxs-lookup"><span data-stu-id="34dd4-118">[Generate Payment Suggestions](how-to-generate-payment-suggestions.md) </span></span>  
+ [<span data-ttu-id="34dd4-119">Tester les paiements électroniques</span><span class="sxs-lookup"><span data-stu-id="34dd4-119">Test Electronic Payments</span></span>](how-to-test-electronic-payments.md)
