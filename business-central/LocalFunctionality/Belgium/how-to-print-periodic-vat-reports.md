@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 914d73be1606111794ce928d6258e66cb5daf2a2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 8800879ee31754d04de04f2277d6d8781239a18f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778456"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913982"
 ---
 # <a name="print-periodic-vat-reports"></a>Imprimer les déclarations de TVA périodiques
 La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer les déclarations de TVA suivantes aux autorités fiscales belges :  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31ab180ce77d34d29e9759790cb172c2e5aa3c53
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aa0a08527415a2c9771a7754a697f114ab1976c2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778465"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913991"
 ---
 # <a name="generate-payment-suggestions"></a>Générer des suggestions de règlement
 Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.  

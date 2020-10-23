@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66255add1efcf68f4b73dc95f2f531e3abf98732
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ace203258867d7b11b516f5fafa3fd55bb9122c2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778979"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914009"
 ---
 # <a name="automatically-transfer-and-post-coda-statements"></a>Transférer et publier automatiquement des relevés CODA
 Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer les lignes de relevés CODA vers une feuille financière.  

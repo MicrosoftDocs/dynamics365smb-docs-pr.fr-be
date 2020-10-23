@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0288606dc9ce3c584a4bb057f9bda379061bec43
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dde0138b2acf043a90d637f24fbf43b10420ca11
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778429"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916486"
 ---
 # <a name="set-up-export-protocols"></a>Paramétrer les protocoles d'exportation
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  

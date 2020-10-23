@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c0e296fe4629016bede2d6f799425b2673984df2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c8a5646cf09a3b2bcf0408ab6421ea941af7bba6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916532"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
 La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel). Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  

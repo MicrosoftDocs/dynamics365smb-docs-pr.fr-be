@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 08/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93d76a02edbf05f022275850a3a0377071ab9cdb
-ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
+ms.openlocfilehash: aa5d34b3a5f48442e6f2d15733e9225aae0b2958
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3731361"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914016"
 ---
 En lettrant des écritures comptables temporaires, les sociétés peuvent utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
 
@@ -64,7 +64,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 ## <a name="to-unapply-general-ledger-entries"></a>Pour délettrer des écritures comptables  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Historiques des transactions comptabilité**, puis sélectionnez le lien associé.  
+1. Sélectionnez l'icône :::image type="icon" source="../../../media/ui-search/search_small.png" border="false":::, entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3. Sélectionnez l'écriture comptable que vous souhaitez délettrer, puis choisissez l'action **Annuler le lettrage**.  
 

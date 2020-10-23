@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: c8aec54c4e878a29c97727d5194f522d07fc4f2b
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: 0d6ca22a5d06a5a273e7c5e9d70272620a86f7d4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677094"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916507"
 ---
 # <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations tierces intracommunautaires
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe. 

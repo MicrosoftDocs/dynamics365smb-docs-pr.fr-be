@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15261570629ff3c29a5bf13e5ca0ed2028c3646c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6c81708646591959ce0241faf8b2c8c2e6f4c5cb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778408"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916465"
 ---
 # <a name="sepa-payments"></a>Paiements SEPA
 Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des pays européens participants. Cela rend les paiements internationaux aussi facile à traiter que les paiements nationaux. Quel que soit leur emplacement, les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales, avec les mêmes conditions, droits, et obligations de base.  

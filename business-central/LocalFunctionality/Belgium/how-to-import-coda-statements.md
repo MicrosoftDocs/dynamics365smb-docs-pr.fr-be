@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cad3a728698ec7b1300cf46f45cf7685310dc852
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c0ca67dc6af3bd20f92bee9436e4c8d0fe04cf00
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778462"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916495"
 ---
 # <a name="import-coda-statements"></a>Importer les relevés CODA
 Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  

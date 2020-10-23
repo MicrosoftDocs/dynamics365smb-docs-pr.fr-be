@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: db9efbec9fc2d077baf7c25ce36964f7afe0ccc7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4c7abf8c8e104841389b208fc6843e5c1b7bb777
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778988"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914019"
 ---
 # <a name="enterprise-numbers-and-branch-numbers"></a>Numéros d'entreprise et numéros d'établissement
 Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges.  

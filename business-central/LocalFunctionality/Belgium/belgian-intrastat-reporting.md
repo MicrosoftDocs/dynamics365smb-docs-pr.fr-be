@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76ba6a4be4c5fdb27a37d50489f22354a59886cd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16df7ea3d04323ea12d5e2937bbfbfa7b5a3f977
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778691"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916529"
 ---
 # <a name="belgian-intrastat-reporting"></a>États intracommunautaires belges
 Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges avec les autres pays de l'UE. Ce processus de déclaration s'effectue via un état D.E.B ou une déclaration intracommunautaire (système d'échange d'informations sur la TVA). Il existe deux types de déclarations intracommunautaires :  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 428ada76cd78ddb24f49f24c4ad4047a7d0b78a3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9454f7238e442debccd641e2ef108d078e4c0581
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778964"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913988"
 ---
 # <a name="manage-electronic-payment-lines"></a>Gérer les lignes de paiement électronique
 Vous pouvez paramétrer [!INCLUDE[d365fin](../../includes/d365fin_md.md)] pour qu'il suggère des paiements automatiquement et vous pouvez ajouter d'autres paiements manuellement. Vous pouvez également modifier ou supprimer des paiements suggérés. Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de paiement électronique. La procédure suivante décrit comment ajouter ou modifier manuellement des lignes feuille paiement, mais vous pouvez également supprimer des lignes feuille paiement dans la page **Feuille paiement**.  

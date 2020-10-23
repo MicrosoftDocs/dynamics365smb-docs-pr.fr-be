@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 237a1cc6e7ce07e9e096a23cd58bbba0170b6167
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cd24f4e8d689f07f815ae3c91f4f73fec10d3b3b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778447"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913979"
 ---
 # <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  

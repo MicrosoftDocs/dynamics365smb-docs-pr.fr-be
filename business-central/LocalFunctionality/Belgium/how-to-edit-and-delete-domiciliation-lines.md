@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e0ac934cf1a1b165d8575d5c0ce1ccd7ee9646fb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f28c476d79bc52f879c6b4e0e81cf5c83cc6448f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778973"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916504"
 ---
 # <a name="edit-and-delete-domiciliation-lines"></a>Modifier et supprimer des lignes de domiciliation
 Après avoir généré des propositions de domiciliation, vous souhaiterez peut-être modifier les lignes domiciliation. Par exemple, vous souhaiterez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.  
