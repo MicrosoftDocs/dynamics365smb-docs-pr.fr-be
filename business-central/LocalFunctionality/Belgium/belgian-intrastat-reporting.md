@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16df7ea3d04323ea12d5e2937bbfbfa7b5a3f977
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cd78cbe83bc1ab0bdea4144086cdf8a3a733c711
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916529"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747523"
 ---
 # <a name="belgian-intrastat-reporting"></a>États intracommunautaires belges
 Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges avec les autres pays de l'UE. Ce processus de déclaration s'effectue via un état D.E.B ou une déclaration intracommunautaire (système d'échange d'informations sur la TVA). Il existe deux types de déclarations intracommunautaires :  
@@ -26,7 +26,7 @@ Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges ave
 Pour déterminer le type de déclaration à utiliser, visitez le site Web de la [Banque Nationale de Belgique](https://aka.ms/BelgianNationalBank).  
 
 ## <a name="submitting-the-intrastat-report"></a>Soumission de la déclaration intracommunautaire  
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez exporter les déclarations intracommunautaires dans un fichier que vous pouvez ensuite envoyer au portail OneGate. Pour plus d'informations, voir [Exporter des déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md).  
+Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez exporter les déclarations intracommunautaires dans un fichier que vous pouvez ensuite envoyer au portail OneGate. Pour plus d'informations, voir [Exporter des déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md).  
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Belgique](belgium-local-functionality.md)   

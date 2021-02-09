@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c8a5646cf09a3b2bcf0408ab6421ea941af7bba6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f8c4cc3c960264cfc3a08c339cdcef93d8c9a29c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916532"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747529"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
 La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel). Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  
 
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
+Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
 
 - Envoyer des paiements électroniques.  
 - Traiter des relevés bancaires avec CODA.  

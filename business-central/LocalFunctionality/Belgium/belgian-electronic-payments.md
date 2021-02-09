@@ -7,29 +7,29 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2274fcc59c291a6888f748f1ae85706885dd076e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 764ee7123d981d59077f9b3ca2083320d68c9509
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914028"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747526"
 ---
 # <a name="belgian-electronic-payments"></a>Paiements électroniques, Belgique
-Dans le module bancaire électronique de [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro.  
+Dans le module bancaire électronique de [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro.  
 
 |Paiement électronique|Désignation|  
 |------------------------|---------------------------------------|  
-|National|Ces paiements sont en devise société (DS) et sont traités par une institution financière locale pour les bénéficiaires qui ont des comptes auprès d'une institution financière locale. La validité des numéros de compte bancaire est vérifiée par [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-|International|Ces paiements sont en devises étrangères ou en devise société (DS) et sont traités par une institution financière locale pour les bénéficiaires qui ont des comptes auprès d'institutions financières étrangères. La validité des numéros de compte bancaire n'est pas vérifiée par [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-|SEPA|Ces paiements sont en euros et sont traités dans les pays/régions qui acceptent les paiements SEPA. La validité des numéros de compte bancaire est vérifiée par [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
-|SEPA hors euro|Ces paiements sont dans une devise autre que l'euro et sont traités dans les pays/régions en dehors de l'Association économique européenne (AEE). La validité des numéros de compte bancaire est vérifiée par [!INCLUDE[d365fin](../../includes/d365fin_md.md)].|  
+|National|Ces paiements sont en devise société (DS) et sont traités par une institution financière locale pour les bénéficiaires qui ont des comptes auprès d'une institution financière locale. La validité des numéros de compte bancaire est vérifiée par [!INCLUDE[prod_short](../../includes/prod_short.md)].|  
+|International|Ces paiements sont en devises étrangères ou en devise société (DS) et sont traités par une institution financière locale pour les bénéficiaires qui ont des comptes auprès d'institutions financières étrangères. La validité des numéros de compte bancaire n'est pas vérifiée par [!INCLUDE[prod_short](../../includes/prod_short.md)].|  
+|SEPA|Ces paiements sont en euros et sont traités dans les pays/régions qui acceptent les paiements SEPA. La validité des numéros de compte bancaire est vérifiée par [!INCLUDE[prod_short](../../includes/prod_short.md)].|  
+|SEPA hors euro|Ces paiements sont dans une devise autre que l'euro et sont traités dans les pays/régions en dehors de l'Association économique européenne (AEE). La validité des numéros de compte bancaire est vérifiée par [!INCLUDE[prod_short](../../includes/prod_short.md)].|  
 
- Dans le système bancaire électronique, étant donné que la norme pour les paiements électroniques diffère selon les pays/régions, les paiements électroniques créés dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ne peuvent être traités que par des institutions financières en Belgique. Pour les paiements internationaux, les institutions financières locales devront ensuite traiter le paiement auprès des institutions étrangères.  
+ Dans le système bancaire électronique, étant donné que la norme pour les paiements électroniques diffère selon les pays/régions, les paiements électroniques créés dans [!INCLUDE[prod_short](../../includes/prod_short.md)] ne peuvent être traités que par des institutions financières en Belgique. Pour les paiements internationaux, les institutions financières locales devront ensuite traiter le paiement auprès des institutions étrangères.  
 
 > [!NOTE]  
 >  Les avoirs ne peuvent pas être traités séparément, car les paiements ne doivent pas avoir un solde négatif. Pour traiter un avoir, celui-ci doit être ajouté à une ou plusieurs factures en totalisant les paiements.  
 
-Avant de pouvoir effectuer des paiements électroniques, vous devez paramétrer le système bancaire électronique dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Avant de pouvoir effectuer des paiements électroniques, vous devez paramétrer le système bancaire électronique dans [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="correcting-payment-lines"></a>Correction des lignes de paiement  
 Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de paiement électronique. Vous pouvez corriger les lignes de paiement comme suit :  

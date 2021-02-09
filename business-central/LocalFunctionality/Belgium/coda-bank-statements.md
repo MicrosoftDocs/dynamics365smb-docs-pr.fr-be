@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc419ed95115c164c495d97ba27d036fde6f2bb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d34efc6b544fe5fe7d8a2caba8e03f49320e8bfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914022"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749736"
 ---
 # <a name="coda-bank-statements"></a>Relevés bancaires CODA
 Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.  
 
-Chaque type de transaction d'un relevé CODA se voit attribuer un code unique. [!INCLUDE[d365fin](../../includes/d365fin_md.md)] utilise ce code pour interpréter les transactions et les lettrer aux écritures comptables correspondantes.  
+Chaque type de transaction d'un relevé CODA se voit attribuer un code unique. [!INCLUDE[prod_short](../../includes/prod_short.md)] utilise ce code pour interpréter les transactions et les lettrer aux écritures comptables correspondantes.  
 
 ## <a name="applying-statement-lines"></a>Lettrage des lignes relevé  
 Lorsque vous avez importé un relevé CODA, vous pouvez lettrer les lignes relevé à des écritures comptables existantes selon les informations reprises dans la table **Encodage CODA**.  
 
-Si l'encodage CODA de la ligne relevé est introuvable, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] interrompra le traitement et poursuivra avec la ligne relevé suivante. Si vous sélectionnez le champ **Validation par défaut**, la ligne relevé sera utilisée comme validation par défaut.  
+Si l'encodage CODA de la ligne relevé est introuvable, [!INCLUDE[prod_short](../../includes/prod_short.md)] interrompra le traitement et poursuivra avec la ligne relevé suivante. Si vous sélectionnez le champ **Validation par défaut**, la ligne relevé sera utilisée comme validation par défaut.  
 
 Si l'encodage CODA de la ligne relevé est trouvé, les lignes relevé seront associées aux types de comptes et aux numéros de comptes correspondants suivants :  
 
@@ -41,7 +41,7 @@ Si l'encodage CODA de la ligne relevé est trouvé, les lignes relevé seront as
 
     - Si le numéro de compte bancaire est utilisé pour trouver le client ou le fournisseur, une écriture comptable correspondant est trouvée en fonction du montant de la ligne relevé. Si le montant est trouvé, la ligne relevé est associée à l'écriture comptable correspondante et le statut lettrage sera défini sur **Lettrée**.  
 
-    - Si le numéro de compte bancaire ne peut pas être utilisé pour trouver le client ou le fournisseur, [!INCLUDE[d365fin](../../includes/d365fin_md.md)] interrompra le traitement de la ligne actuelle ou utilisera la ligne comme validation par défaut, avant de poursuivre avec la ligne relevé suivante.  
+    - Si le numéro de compte bancaire ne peut pas être utilisé pour trouver le client ou le fournisseur, [!INCLUDE[prod_short](../../includes/prod_short.md)] interrompra le traitement de la ligne actuelle ou utilisera la ligne comme validation par défaut, avant de poursuivre avec la ligne relevé suivante.  
 
 Vous pouvez exécuter le traitement autant de fois que vous le souhaitez. Seules les lignes relevé dont le statut lettrage est vide seront lettrées.  
 
