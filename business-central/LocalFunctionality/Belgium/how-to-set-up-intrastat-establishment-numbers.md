@@ -34,3 +34,6 @@ Le numéro établissement intracommunautaire est un numéro d'identification de 
  [Configurer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
  [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

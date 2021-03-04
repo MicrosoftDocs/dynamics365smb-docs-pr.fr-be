@@ -33,3 +33,6 @@ Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez utiliser 
 [Paiements électroniques belges](belgian-electronic-payments.md)  
 [Relevés bancaires CODA](coda-bank-statements.md)  
 [Domiciliation européenne](direct-debit-using-domiciliation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

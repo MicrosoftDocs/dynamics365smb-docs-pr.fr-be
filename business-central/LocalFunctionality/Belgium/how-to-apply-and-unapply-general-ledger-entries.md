@@ -25,3 +25,6 @@ ms.locfileid: "3914012"
 
 [Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

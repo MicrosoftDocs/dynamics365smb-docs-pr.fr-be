@@ -64,3 +64,6 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
  [Créer des journaux financiers](how-to-create-financial-journals.md)   
  [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
  [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

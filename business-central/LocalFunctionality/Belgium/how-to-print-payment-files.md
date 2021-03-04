@@ -57,3 +57,6 @@ Dans la feuille paiement, le champ **Statut** sur les lignes exportées est déf
  [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
  [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

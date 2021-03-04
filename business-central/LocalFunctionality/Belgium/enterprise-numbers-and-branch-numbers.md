@@ -51,3 +51,6 @@ Le numéro d'entreprise est configuré aux emplacements suivants :
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

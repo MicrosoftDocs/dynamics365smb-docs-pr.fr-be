@@ -36,3 +36,6 @@ Vous pouvez paramétrer [!INCLUDE[prod_short](../../includes/prod_short.md)] pou
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

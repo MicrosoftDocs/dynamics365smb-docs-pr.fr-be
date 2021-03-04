@@ -78,3 +78,6 @@ Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page *
  [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Modifier et supprimer les lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ La fonction de déclaration de TVA permet d'imprimer les détails des transactio
 ## <a name="see-also"></a>Voir aussi  
  [TVA belge](belgian-vat.md)   
  [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

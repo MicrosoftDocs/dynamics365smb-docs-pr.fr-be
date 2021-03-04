@@ -45,3 +45,6 @@ Le traitement par lots **Proposer domiciliations** crée des propositions de dom
  [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

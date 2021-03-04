@@ -36,3 +36,6 @@ Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez exporter 
  [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)   
  [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)   
  [Paramétrer les états intracommunautaires](../../finance-how-setup-report-intrastat.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

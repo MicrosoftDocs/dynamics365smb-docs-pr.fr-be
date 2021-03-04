@@ -54,3 +54,6 @@ Si vous affectez un compte bancaire au modèle feuille paiement, le compte banca
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

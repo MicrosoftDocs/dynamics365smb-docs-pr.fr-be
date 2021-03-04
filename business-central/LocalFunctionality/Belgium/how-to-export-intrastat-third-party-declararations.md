@@ -45,3 +45,6 @@ Ensuite, envoyez la déclaration au portail OneGate.
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

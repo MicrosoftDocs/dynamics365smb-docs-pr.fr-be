@@ -47,3 +47,6 @@ Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprime
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

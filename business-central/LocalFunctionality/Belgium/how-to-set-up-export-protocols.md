@@ -57,3 +57,6 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

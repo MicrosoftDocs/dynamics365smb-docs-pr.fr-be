@@ -28,3 +28,6 @@ Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des 
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)   
  [Remplir les paiements SEPA](how-to-file-sepa-payments.md)   
  [Remplir les paiements SEPA non euros](how-to-file-non-euro-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

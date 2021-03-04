@@ -45,3 +45,6 @@ Lorsque vous validez des écritures dans la page **Modèles feuille comptabilit�
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Belgique](belgium-local-functionality.md)   
  [Définir des périodes de validation](../../finance-how-specify-posting-periods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

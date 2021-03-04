@@ -46,3 +46,6 @@ Lorsque le traitement par lots est terminé, la feuille domiciliation contient t
  [Tester les domiciliations](how-to-test-domiciliations.md)   
  [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

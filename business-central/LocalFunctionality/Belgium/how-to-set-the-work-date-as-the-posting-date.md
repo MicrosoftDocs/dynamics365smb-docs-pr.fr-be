@@ -31,3 +31,6 @@ Vous pouvez régler les paramètres de comptabilité pour que la date de travail
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Belgique](belgium-local-functionality.md)   
  [Lettrer et délettrer des écritures comptables](how-to-apply-and-unapply-general-ledger-entries.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

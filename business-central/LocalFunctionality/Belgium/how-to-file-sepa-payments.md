@@ -46,3 +46,6 @@ Avant de pouvoir effectuer un paiement SEPA, vous devez effectuer les tâches d'
  [Paramétrer les protocoles d'exportation](how-to-set-up-export-protocols.md)   
  [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md)   
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feu
  [Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
  [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
  [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

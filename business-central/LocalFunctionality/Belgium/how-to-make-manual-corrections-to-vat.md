@@ -47,3 +47,6 @@ Vous pouvez apporter des corrections à des écritures TVA validées sans valide
  [TVA belge](belgian-vat.md)   
  [Imprimer les déclarations de TVA périodiques](how-to-print-periodic-vat-reports.md)   
  [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

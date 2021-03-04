@@ -43,3 +43,6 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
  [Relevés bancaires CODA](coda-bank-statements.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Importer des relevés CODA](how-to-import-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Après avoir transféré les lignes relevé vers la feuille, vous pouvez valider
  [Lettrer des relevés CODA](how-to-apply-coda-statements.md)   
  [Créer des feuilles financières](how-to-create-financial-journals.md)   
  [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

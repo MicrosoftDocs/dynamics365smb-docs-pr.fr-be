@@ -56,3 +56,6 @@ Lorsque vous avez lettré toutes les lignes relevé à un compte général ou à
  [Créer des feuilles financières](how-to-create-financial-journals.md)   
  [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md)   
  [Transférer et valider manuellement les relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

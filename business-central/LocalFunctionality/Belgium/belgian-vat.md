@@ -41,3 +41,6 @@ Vous êtes également tenu de fournir un relevé imprimé détaillant les transa
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)   
  [Imprimer des états TVA périodiques](how-to-print-periodic-vat-reports.md)   
  [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

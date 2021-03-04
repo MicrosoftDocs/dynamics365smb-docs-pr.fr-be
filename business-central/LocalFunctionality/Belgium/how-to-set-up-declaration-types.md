@@ -39,3 +39,6 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
  [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

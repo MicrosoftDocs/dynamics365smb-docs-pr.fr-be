@@ -44,3 +44,6 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
  [Classer les paiements SEPA](how-to-file-sepa-payments.md)   
  [Activer les règlements SEPA](how-to-activate-sepa-payments.md)   
  [Paiements SEPA](sepa-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

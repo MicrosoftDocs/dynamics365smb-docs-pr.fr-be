@@ -49,3 +49,6 @@ Lorsque le traitement par lots est terminé, la feuille paiement contient toutes
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
  [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

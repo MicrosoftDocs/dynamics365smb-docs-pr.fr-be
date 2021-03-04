@@ -38,3 +38,6 @@ Les feuilles financières sont utilisées pour enregistrer des transactions de c
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

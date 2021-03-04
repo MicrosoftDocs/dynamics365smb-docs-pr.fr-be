@@ -46,3 +46,6 @@ Vous pouvez afficher les erreurs sur la page **Exporter/Vérifier les journaux d
  [Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

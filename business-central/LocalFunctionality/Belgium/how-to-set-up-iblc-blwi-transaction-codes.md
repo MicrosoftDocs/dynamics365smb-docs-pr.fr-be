@@ -33,3 +33,6 @@ Pour traiter les paiements électroniques, vous devez définir des codes de tran
  [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
  [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Configurer des comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

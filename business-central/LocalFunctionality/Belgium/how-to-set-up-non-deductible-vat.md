@@ -33,3 +33,6 @@ Vous pouvez calculer les montants de TVA pour des types spécifiques de dépense
 ## <a name="see-also"></a>Voir aussi  
  [TVA belge](belgian-vat.md)   
  [Imprimer les déclarations de TVA périodiques](how-to-print-periodic-vat-reports.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

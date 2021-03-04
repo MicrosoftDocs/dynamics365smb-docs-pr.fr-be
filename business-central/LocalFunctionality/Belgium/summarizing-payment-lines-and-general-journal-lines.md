@@ -64,3 +64,6 @@ La valeur EndToEndId dans le message SEPA est extraite du message de paiement et
  [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Configuration de Finance](../../finance-setup-finance.md)  
  [Enregistrer des achats](../../purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
