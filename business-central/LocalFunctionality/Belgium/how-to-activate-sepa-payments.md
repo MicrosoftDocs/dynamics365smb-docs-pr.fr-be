@@ -3,19 +3,19 @@ title: Activer des paiements SEPA dans la version belge
 description: Pour soumettre les paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: add8694f343e2d9fcf1256aeb004766b54b41667
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a6e5dd21a43bc40af000462bd347e8ca71cd912a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379584"
 ---
 # <a name="activate-sepa-payments-in-the-belgian-version"></a>Activer des paiements SEPA dans la version belge
 

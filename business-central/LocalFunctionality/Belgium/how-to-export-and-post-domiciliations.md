@@ -5,27 +5,27 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 935e7d2c7a244703e3aa75ac789bd3ec5ab661b6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e8f61320be95fd6787251a79384f1492686a3e63
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914003"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379563"
 ---
 # <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
 Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier. Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes dans la comptabilité.  
 
 Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page **Fiche compte bancaire**, l'action **Domiciliations de fichier** ouvre l'une des pages de demande suivantes :  
 
-- Page**Créer des lignes feuille comptabilité** – pour le format de prélèvement SEPA.  
-- Page**Domiciliations de fichier** – pour les formats nationaux.  
+- Page **Créer des lignes feuille comptabilité** – pour le format de prélèvement SEPA.  
+- Page **Domiciliations de fichier** – pour les formats nationaux.  
 
 ## <a name="to-export-and-post-domiciliations-in-sepa-format"></a>Pour exporter et valider les domiciliations au format SEPA  
 

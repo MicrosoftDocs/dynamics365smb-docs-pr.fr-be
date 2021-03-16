@@ -3,19 +3,19 @@ title: Paramétrage des opérations bancaires électroniques
 description: Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 312b636ca70cf7bd34e2587982d1d4c0fa6e98e3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 428bd68b2554afaf7fbc5e6d425fcb8fbca02868
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913962"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379506"
 ---
 # <a name="set-up-electronic-banking"></a>Paramétrer des opérations bancaires électroniques
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8800879ee31754d04de04f2277d6d8781239a18f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 241ec2eb943199d3bd95786ef9b9abf05d23b470
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913982"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379527"
 ---
 # <a name="print-periodic-vat-reports"></a>Imprimer les déclarations de TVA périodiques
 La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer les déclarations de TVA suivantes aux autorités fiscales belges :  

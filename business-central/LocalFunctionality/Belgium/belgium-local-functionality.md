@@ -3,16 +3,16 @@ title: Fonctionnalité locale, Belgique
 description: Les rubriques suivantes décrivent la fonctionnalité locale de la version belge de Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: dfc9f03bf2e546ab34c72b62fe41b4c2db66bae4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 034fc5690abf416a7bf30e047aa7f2009ea54acb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749733"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379599"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 

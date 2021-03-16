@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3da28e67332cb99d53502ee14743ddfdef133873
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df86a728ab85a57b973fc40d56aeb60c59e7c57b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916513"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379572"
 ---
 # <a name="create-financial-journals"></a>Créer des feuilles financières
 Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  

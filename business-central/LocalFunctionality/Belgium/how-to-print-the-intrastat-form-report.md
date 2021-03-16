@@ -3,19 +3,19 @@ title: Impression de l'état Formulaire de D.E.B.
 description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd24f4e8d689f07f815ae3c91f4f73fec10d3b3b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3e93585e39bf04085c15d5638378d6b4163e5882
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913979"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379521"
 ---
 # <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  

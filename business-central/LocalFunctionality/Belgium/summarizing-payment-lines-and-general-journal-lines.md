@@ -3,16 +3,16 @@ title: Résumé des lignes règlement et des lignes feuille comptabilité
 description: Business Central totalise les lignes règlement et les lignes feuille.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d272ae25eb43533ce7285c29473ffcaac6e8464c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fd9c8f21ebb67118cda2c047d8b12cff7ea1a8c7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749715"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379758"
 ---
 # <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumé des lignes règlement et des lignes feuille comptabilité
 Business Central totalise les lignes règlement et les lignes feuille pour les types de paiements suivants :  

@@ -3,19 +3,19 @@ title: États intracommunautaires belges
 description: Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges avec les autres pays de l'UE. Ce processus de déclaration s'effectue via un état D.E.B ou une déclaration intracommunautaire (système d'échange d'informations sur la TVA).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd78cbe83bc1ab0bdea4144086cdf8a3a733c711
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f430941d12a425fbd4137d7133a215ec547688cd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747523"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379596"
 ---
 # <a name="belgian-intrastat-reporting"></a>États intracommunautaires belges
 Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges avec les autres pays de l'UE. Ce processus de déclaration s'effectue via un état D.E.B ou une déclaration intracommunautaire (système d'échange d'informations sur la TVA). Il existe deux types de déclarations intracommunautaires :  

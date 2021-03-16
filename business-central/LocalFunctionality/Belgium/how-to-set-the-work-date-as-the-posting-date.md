@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c9ece2fa73f5360b3d33bca970c59ac9d33d0a54
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ff5384a403dcb71c67244ee1355e568ee7e7939e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913976"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379770"
 ---
 # <a name="set-the-work-date-as-the-posting-date"></a>Définir la date de travail comme date de validation
 Vous pouvez régler les paramètres de comptabilité pour que la date de travail soit utilisée comme date de validation pour les écritures client ou fournisseur ouvertes sur une facture, un paiement ou un avoir.  
