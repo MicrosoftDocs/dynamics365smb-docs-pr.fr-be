@@ -1,25 +1,21 @@
 ---
-title: Impression des fichiers de paiement
-description: Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez imprimer les lignes feuille paiement dans un fichier de paiement.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Imprimer les fichiers de paiement dans la version belge
+description: Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez imprimer les lignes feuille paiement dans un fichier de paiement dans la version belge de Business Central.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd2fae2a6d03755bb4c7f54dc9bd72cb247bd758
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a2536af3bc33354a782a840c4320cc61a217af7a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379524"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779222"
 ---
 # <a name="print-payment-files"></a>Imprimer les fichiers de paiement
+
 Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez imprimer les lignes feuille paiement dans un fichier de paiement.  
 
 Un fichier de paiement contient les paiements nationaux, internationaux, SEPA ou SEPA hors euro. Ce fichier peut être envoyé à une banque sur disque, par modem ou via le serveur Isabel (Interbanks Standards Association Belgium). Vous ne pouvez créer qu'un seul fichier pour chaque date comptabilisation et chaque code devise. Lorsque vous exportez les paiements dans un fichier, une note associée est imprimée, qui peut également être envoyée à la banque.  
@@ -28,35 +24,29 @@ Dans la feuille paiement, le champ **Statut** sur les lignes exportées est déf
 
 ## <a name="to-print-a-payment-file"></a>Pour imprimer un fichier de paiement  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille paiement**, puis sélectionnez le lien associé.  
-2.  Renseignez les champs comme indiqué dans le tableau suivant.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille paiement**, puis sélectionnez le lien pour ouvrir la page **Feuille paiement EB**.  
+2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
+3. Dans le champ **Protocole d'exportation**, sélectionnez le protocole d'exportation.  
 
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Nom de la feuille**|Spécifiez le nom de la feuille paiement.|  
-    |**Compte bancaire**|Spécifiez le compte bancaire de la feuille paiement.|  
-    |**Protocole d'exportation**|Spécifiez le code du protocole d'exportation de la ligne feuille paiement. Les protocoles d'exportation contrôlent le fichier de paiement généré dans la feuille paiement.<br /><br /> Vous pouvez combiner plusieurs formats d'exportation dans un même traitement par lots, par exemple national, international, SEPA ou une combinaison de ceux-ci. Toutefois, lorsque vous exportez les lignes paiement dans un fichier, vous ne pouvez utiliser qu'un seul format d'exportation ou protocole d'exportation. **Remarque :** en définissant le protocole d'exportation, vous définissez également le type de validation qui est exécuté dans la feuille paiement.|  
+    Les protocoles d'exportation contrôlent le fichier de paiement généré dans la feuille paiement. Vous pouvez combiner plusieurs formats d'exportation dans un même traitement par lots, par exemple national, international, SEPA ou une combinaison de ceux-ci. Toutefois, lorsque vous exportez les lignes paiement dans un fichier, vous ne pouvez utiliser qu'un seul format d'exportation ou protocole d'exportation.  
 
-3.  Choisissez l'action **Vérifier lignes paiement**.
+    > [!NOTE]
+    > En définissant le protocole d'exportation, vous définissez également le type de validation qui est exécuté dans la feuille paiement.
+4. Entrez les informations ligne feuille paiement, puis choisissez l'action **Vérifier lignes paiement**.
 
     La page **Exporter/Vérifier les journaux des erreurs** affiche les erreurs éventuelles. S'il existe des erreurs, vous devez les corriger avant de continuer.
 
-4. S'il n'existe aucune erreur, choisissez l'action **Exporter lignes paiement**.  
+5. S'il n'existe aucune erreur, choisissez l'action **Exporter lignes paiement**.  
 
     L'état que vous avez spécifié dans le champ **ID impression test** de la page **Modèles feuille paiement EB** s'ouvre.  
 
-5.  Cliquez sur le bouton **Imprimer**.  
+6. Cliquez sur le bouton **Imprimer**.  
 
-## <a name="see-also"></a>Voir aussi  
- [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
- [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
- [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
- [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
- [Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
- [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
- [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
- [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)
+## <a name="see-also"></a>Voir aussi
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)  
+[Paiements électroniques belges](belgian-electronic-payments.md)  
+[Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
+[Proposer paiements fournisseur](../../payables-how-suggest-vendor-payments.md)  
+[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)  
+[Tester les paiements électroniques](how-to-test-electronic-payments.md)  

@@ -5,14 +5,14 @@ author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 034fc5690abf416a7bf30e047aa7f2009ea54acb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: eab5fe3dcfbb53c246ea6495883b1f556f5f9754
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379599"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889117"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 
@@ -47,13 +47,10 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Tester des paiements électroniques](how-to-test-electronic-payments.md) **Désormais disponible**
     * [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) **Désormais disponible**
     * [Importer des relevés CODA](how-to-import-coda-statements.md) **Désormais disponible**
-    * [Gérer des lignes de paiement électronique](how-to-manage-electronic-payment-lines.md) **Désormais disponible**
     * [Transférer et valider manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md) **Désormais disponible**
     * [Imprimer des fichiers de paiement](how-to-print-payment-files.md) **Désormais disponible**
-    * [Paiements SEPA](sepa-payments.md) **Désormais disponible**
     * [Activer les paiements SEPA](how-to-activate-sepa-payments.md) **Désormais disponible**
     * [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md) **Désormais disponible**
-    * [Effectuer des paiements SEPA](how-to-file-sepa-payments.md) **Désormais disponible**
     * [Domiciliation européenne](direct-debit-using-domiciliation.md) **Désormais disponible**
     * [Paramétrer les domiciliations](how-to-set-up-domiciliations.md) **Désormais disponible**
     * [Modifier et supprimer des lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md) **Désormais disponible**

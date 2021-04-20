@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fa451db70948479f335231238bce546fba7ab6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ab249e7001c791d6e942dc0d3b73d12a27052f23
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379530"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779225"
 ---
 # <a name="manually-transfer-and-post-coda-statements"></a>Transférer et publier manuellement des relevés CODA
 Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer manuellement les lignes de relevés CODA vers une feuille financière. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes. La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.  

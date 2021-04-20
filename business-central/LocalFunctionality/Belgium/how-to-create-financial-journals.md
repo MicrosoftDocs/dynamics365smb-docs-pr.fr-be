@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: df86a728ab85a57b973fc40d56aeb60c59e7c57b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c0139c83cabe47d85590be44197484aea3b0b29e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379572"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773283"
 ---
 # <a name="create-financial-journals"></a>Créer des feuilles financières
 Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  

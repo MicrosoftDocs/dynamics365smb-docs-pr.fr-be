@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ff5384a403dcb71c67244ee1355e568ee7e7939e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3c932b74b327950858e88a5176e596021a06d032
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379770"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779219"
 ---
 # <a name="set-the-work-date-as-the-posting-date"></a>Définir la date de travail comme date de validation
 Vous pouvez régler les paramètres de comptabilité pour que la date de travail soit utilisée comme date de validation pour les écritures client ou fournisseur ouvertes sur une facture, un paiement ou un avoir.  

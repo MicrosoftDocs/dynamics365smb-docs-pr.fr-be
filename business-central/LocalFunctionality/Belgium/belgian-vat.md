@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7ddfac275c08853375b4db096583e69e928fdf58
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 32bbc821fb3b8182b6999f5c65188ee4cfb3acb0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379602"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771504"
 ---
 # <a name="belgian-vat"></a>TVA belge
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend des améliorations belges à la fonction de déclaration de TVA qui vous permet d'imprimer les détails de transaction TVA. Vous devez envoyer les états suivants aux autorités fiscales belges :  

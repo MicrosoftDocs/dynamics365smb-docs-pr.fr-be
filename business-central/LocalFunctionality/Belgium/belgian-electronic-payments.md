@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 016587045885ab8da18caa0bf740e3b6cdc5a8b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 061b62e50a327edc31f93672837c167927770236
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379605"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773300"
 ---
 # <a name="belgian-electronic-payments"></a>Paiements électroniques, Belgique
 Dans le module bancaire électronique de [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro.  
@@ -42,17 +42,12 @@ Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de pa
 
 Pour plus d'informations, voir [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md).  
 
-## <a name="see-also"></a>Voir aussi  
-[Fonctionnalité locale, Belgique](belgium-local-functionality.md)  
-[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
-[Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
-[Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
-[Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
-[Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
-[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
-[Tester les paiements électroniques](how-to-test-electronic-payments.md)   
-[Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
-[Imprimer les fichiers de paiement](how-to-print-payment-files.md)
+## <a name="see-also"></a>Voir aussi
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
+[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)  
+[Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
+[Proposer paiements fournisseur](../../payables-how-suggest-vendor-payments.md)  
+[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)  
+[Tester les paiements électroniques](how-to-test-electronic-payments.md)  
+[Imprimer les fichiers de paiement](how-to-print-payment-files.md)  

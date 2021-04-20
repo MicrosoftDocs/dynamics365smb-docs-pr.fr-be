@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90c1e00584ae633b0feafd5a0420f7565db8d9c2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b7b8724155fa56fe8194f55f742ee6a87f36c725
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379554"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889173"
 ---
 # <a name="file-non-euro-sepa-payments"></a>Effectuer des paiements SEPA hors euro
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez effectuer des paiements SEPA hors euro auprès de la banque. Cela est utile lorsque vous effectuez des paiements vers d'autres pays qui n'utilisent pas SEPA et pour les devises autres que l'euro.  
@@ -38,12 +38,9 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
     |**Date d'exécution**|Entrez une date d'exécution si vous souhaitez que la date d'exécution soit différente de la date comptabilisation sur les lignes paiement.|  
     |**Emplacement**|Entrez le nom du fichier, y compris le lecteur et le dossier, dans lequel vous souhaitez imprimer l'état.|  
 
-3.  Choisissez le bouton **OK**.  
+3.  Cliquez sur le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi  
- [Classer les paiements SEPA](how-to-file-sepa-payments.md)   
- [Activer les règlements SEPA](how-to-activate-sepa-payments.md)   
- [Paiements SEPA](sepa-payments.md)
+## <a name="see-also"></a>Voir aussi
 
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Activer les règlements SEPA](how-to-activate-sepa-payments.md)  
+[Exécuter des paiements avec l'extension AMC Banking 365 Fundamentals ou des virements SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  

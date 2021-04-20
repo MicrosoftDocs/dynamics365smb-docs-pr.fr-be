@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 121dfb8b7588d092cfca0ddae045ef0c82012995
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 82b940917d48176cb9bfa96913d084069660c785
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379518"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779213"
 ---
 # <a name="set-up-bank-accounts-for-coda"></a>Configurer des comptes bancaires pour CODA
 Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer les codes suivants :  
