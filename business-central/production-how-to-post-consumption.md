@@ -1,5 +1,5 @@
 ---
-title: Procédure de validation par lots de la consommation | Microsoft Docs
+title: Valider par lots la consommation
 description: Si le champ Méthode consommation indique **Manuelle**, vous devez valider les composants manuellement à l’aide d’une feuille consommation.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,34 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0bf0a92d05b6c9ecb3d5a5ba054b4675680ad43c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 66a19b624c74ec844806c27c490c300746b46704
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391812"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787915"
 ---
-# <a name="batch-post-production-consumption"></a><span data-ttu-id="151f1-103">Valider par lots la consommation de la production</span><span class="sxs-lookup"><span data-stu-id="151f1-103">Batch Post Production Consumption</span></span>
-<span data-ttu-id="151f1-104">Si le champ Méthode consommation indique **Manuelle**, vous devez valider les composants manuellement à l’aide d’une feuille consommation.</span><span class="sxs-lookup"><span data-stu-id="151f1-104">If the flushing method is **Manual**, you must post the components manually, using a consumption journal.</span></span>
+# <a name="batch-post-production-consumption"></a><span data-ttu-id="828d4-103">Valider par lots la consommation de la production</span><span class="sxs-lookup"><span data-stu-id="828d4-103">Batch Post Production Consumption</span></span>
 
-<span data-ttu-id="151f1-105">Vous pouvez également configurer le système pour valider automatiquement (*consommer*) les composants lorsque vous lancez ou terminez des ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="151f1-105">You can also set the system up to automatically post (*flush*) components when you start or finish production orders.</span></span> <span data-ttu-id="151f1-106">Pour plus d’informations, voir [Activer la consommation en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).</span><span class="sxs-lookup"><span data-stu-id="151f1-106">For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).</span></span>
+<span data-ttu-id="828d4-104">Si le champ Méthode consommation indique **Manuelle**, vous devez valider les composants manuellement à l’aide d’une feuille consommation.</span><span class="sxs-lookup"><span data-stu-id="828d4-104">If the flushing method is **Manual**, you must post the components manually, using a consumption journal.</span></span>  
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a><span data-ttu-id="151f1-107">Pour valider la consommation pour une ou plusieurs lignes ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="151f1-107">To post consumption for one or more production order lines</span></span>  
-1.  <span data-ttu-id="151f1-108">Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille consommation**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="151f1-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="151f1-109">Renseignez les champs en indiquant les données relatives à l’ordre de fabrication et à la consommation.</span><span class="sxs-lookup"><span data-stu-id="151f1-109">Fill in the fields with the production order data and the consumption data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+>[!NOTE]
+> <span data-ttu-id="828d4-105">Si vous avez activé le champ **Prélèvement requis** sur la fiche magasin pour indiquer que le magasin requiert un traitement de prélèvement stock, vous ne devez pas utiliser ce traitement par lots.</span><span class="sxs-lookup"><span data-stu-id="828d4-105">If you have placed a check mark in the **Require Pick** field on the location card to indicate that the location requires inventory pick processing, then you do not need to use this batch job.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="828d4-106">gérera la consommation lorsque vous enregistrerez le prélèvement stock.</span><span class="sxs-lookup"><span data-stu-id="828d4-106">will handle consumption when you post the inventory pick.</span></span> <span data-ttu-id="828d4-107">Pour plus d’informations, voir [Prélever pour la Production ou l’Assemblage](warehouse-how-to-pick-for-production.md#to-pick-components-in-basic-warehouse-configurations).</span><span class="sxs-lookup"><span data-stu-id="828d4-107">For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md#to-pick-components-in-basic-warehouse-configurations).</span></span> 
 
-    <span data-ttu-id="151f1-110">Si l’entrepôt dans lequel les composants sont stockés est configuré pour utiliser des emplacements mais pas le traitement de prélèvement, affectez un code emplacement à la ligne feuille pour indiquer d’où les articles doivent être prélevés dans l’entrepôt.</span><span class="sxs-lookup"><span data-stu-id="151f1-110">If the warehouse location where the components are stored is set up to use bins but does not require pick processing, assign a bin code to the journal line to indicate where the items should be taken from in the warehouse.</span></span> <span data-ttu-id="151f1-111">Pour plus d’informations, voir [Prélever pour la fabrication ou l’assemblage](warehouse-how-to-pick-for-production.md).</span><span class="sxs-lookup"><span data-stu-id="151f1-111">For more information, see [Pick for Production or Assembly](warehouse-how-to-pick-for-production.md).</span></span>  
-3.  <span data-ttu-id="151f1-112">Choisissez l’action **Valider** pour valider la consommation.</span><span class="sxs-lookup"><span data-stu-id="151f1-112">Choose the **Post** action to post the consumption.</span></span> <span data-ttu-id="151f1-113">Les écritures comptables article associées sont réduites.</span><span class="sxs-lookup"><span data-stu-id="151f1-113">The related item ledger entries are reduced.</span></span>
+<span data-ttu-id="828d4-108">Vous pouvez également configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour valider automatiquement (*consommer*) les composants lorsque vous lancez ou terminez des ordres de fabrication.</span><span class="sxs-lookup"><span data-stu-id="828d4-108">You can also set up [!INCLUDE[prod_short](includes/prod_short.md)] to automatically post (*flush*) components when you start or finish production orders.</span></span> <span data-ttu-id="828d4-109">Pour plus d’informations, voir [Activer la consommation en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).</span><span class="sxs-lookup"><span data-stu-id="828d4-109">For more information, see [Enable Flushing of Components According to Operation Output](production-how-to-flush-components-according-to-operation-output.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="151f1-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="151f1-114">See Also</span></span>  
-<span data-ttu-id="151f1-115">[Production](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="151f1-115">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
-[<span data-ttu-id="151f1-116">Paramétrage de la production</span><span class="sxs-lookup"><span data-stu-id="151f1-116">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-<span data-ttu-id="151f1-117">[Planifié](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="151f1-117">[Planning](production-planning.md)    </span></span>  
-[<span data-ttu-id="151f1-118">Stock</span><span class="sxs-lookup"><span data-stu-id="151f1-118">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="151f1-119">Achats</span><span class="sxs-lookup"><span data-stu-id="151f1-119">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="151f1-120">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="151f1-120">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a><span data-ttu-id="828d4-110">Pour valider la consommation pour une ou plusieurs lignes ordre de fabrication</span><span class="sxs-lookup"><span data-stu-id="828d4-110">To post consumption for one or more production order lines</span></span>
+
+1.  <span data-ttu-id="828d4-111">Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille consommation**, puis sélectionnez le lien associé.</span><span class="sxs-lookup"><span data-stu-id="828d4-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Consumption Journal**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="828d4-112">Renseignez les champs en indiquant les données relatives à l’ordre de fabrication et à la consommation.</span><span class="sxs-lookup"><span data-stu-id="828d4-112">Fill in the fields with the production order data and the consumption data.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+    <span data-ttu-id="828d4-113">Utilisez l'action **Calculer consommation** pour générer les lignes feuilles des ordres de fabrication basés sur la production réelle (quantité de produits finis figurant dans l'état) ou sur la production prévue (quantité de produits finis que vous prévoyez de fabriquer).</span><span class="sxs-lookup"><span data-stu-id="828d4-113">Use the **Calc. Consumption** action to generate journal lines from production orders based on the actual output (the quantity of finished goods that you have reported) or on the expected output (the quantity of finished goods that you expect to produce).</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="828d4-114">Si vous avez configuré la fiche magasin pour exiger le traitement des prélèvements en entrepôt, seules les quantités déjà prélevées via une activité entrepôt peuvent être saisies dans le champ **Quantité** de la page **Feuille consommation**, pas la quantité calculée.</span><span class="sxs-lookup"><span data-stu-id="828d4-114">If you configured the location card to require warehouse pick processing, then only quantities that are already picked through a warehouse activity can be entered in the **Quantity** field in the **Consumption Journal** page, not any calculated quantity.</span></span> <span data-ttu-id="828d4-115">Pour plus d’informations, consultez [Prélever pour la production ou l’assemblage dans les configurations de stockage avancées](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)</span><span class="sxs-lookup"><span data-stu-id="828d4-115">For more information, see [Pick for Production or Assembly in Advanced Warehouse Configurations](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)</span></span>
+
+3.  <span data-ttu-id="828d4-116">Choisissez l’action **Valider** pour valider la consommation.</span><span class="sxs-lookup"><span data-stu-id="828d4-116">Choose the **Post** action to post the consumption.</span></span> <span data-ttu-id="828d4-117">Les stocks associés sont réduits.</span><span class="sxs-lookup"><span data-stu-id="828d4-117">The related inventories are reduced.</span></span>
+
+
+
+## <a name="see-also"></a><span data-ttu-id="828d4-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="828d4-118">See Also</span></span>
+
+<span data-ttu-id="828d4-119">[Production](production-manage-manufacturing.md)  </span><span class="sxs-lookup"><span data-stu-id="828d4-119">[Manufacturing](production-manage-manufacturing.md)  </span></span>  
+[<span data-ttu-id="828d4-120">Paramétrage de la production</span><span class="sxs-lookup"><span data-stu-id="828d4-120">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+<span data-ttu-id="828d4-121">[Planifié](production-planning.md)    </span><span class="sxs-lookup"><span data-stu-id="828d4-121">[Planning](production-planning.md)    </span></span>  
+[<span data-ttu-id="828d4-122">Stock</span><span class="sxs-lookup"><span data-stu-id="828d4-122">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="828d4-123">Achats</span><span class="sxs-lookup"><span data-stu-id="828d4-123">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="828d4-124">[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="828d4-124">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
