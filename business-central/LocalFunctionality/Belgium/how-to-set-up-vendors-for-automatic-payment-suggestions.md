@@ -1,5 +1,5 @@
 ---
-title: Paramétrer les fournisseurs pour des suggestions de règlement automatique (BE)
+title: Paramétrer les fournisseurs pour des suggestions de règlement automatique [BE]
 description: Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 84778eba9db5e354dea35cb5bc1a167044a23b7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 029b4c6331aff5151a591d8dfd17329fbf77591d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775727"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437830"
 ---
-# <a name="set-up-vendors-for-automatic-payment-suggestions"></a>Paramétrer les fournisseurs pour des suggestions de règlement automatique
+# <a name="set-up-vendors-for-automatic-payment-suggestions-in-the-belgian-version"></a>Paramétrer les fournisseurs pour des suggestions de règlement automatique dans la version belge
 
 Vous pouvez paramétrer chaque fournisseur afin que les factures impayées de ce fournisseur soient automatiquement incluses dans les suggestions de paiement. Pour chaque fournisseur, vous devez décider si vous souhaitez générer automatiquement des suggestions de paiement. Si vous ne souhaitez pas générer des suggestions de paiement pour un fournisseur, vous ne devez pas activer la case à cocher **Proposer paiements**. Ainsi, les écritures comptables en attente pour le fournisseur ne seront pas incluses dans les suggestions de paiement.  
 
 ## <a name="to-set-up-a-vendor-to-be-included-in-the-payment-suggestion-batch"></a>Pour paramétrer un fournisseur pour l'inclure dans le traitement par lots de suggestion de paiement  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Fournisseurs**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Fournisseurs**, puis choisissez le lien associé.  
 2. Dans la page **Fournisseurs**, sélectionnez un fournisseur approprié, puis choisissez l'action **Modifier**.  
 3. Cochez la case **Proposer paiements**.  
 
