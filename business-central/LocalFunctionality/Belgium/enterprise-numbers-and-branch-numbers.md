@@ -1,6 +1,6 @@
 ---
-title: Numéros d'entreprise et numéros d'établissement
-description: Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges.
+title: Numéros d'entreprise et numéros d'établissement [BE]
+description: Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c66af78b776f86eaa8bc9a52b54aa50bdb146f6f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: db38fe32fb0156302723d04190e040a01bb7f5d7
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773292"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318890"
 ---
-# <a name="enterprise-numbers-and-branch-numbers"></a>Numéros d'entreprise et numéros d'établissement
+# <a name="enterprise-numbers-and-branch-numbers-in-the-belgian-version"></a>Numéros d'entreprise et numéros d'établissement dans la version belge
 Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la Banque-Carrefour des Entreprises belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges.  
 
 ## <a name="enterprise-numbers"></a>Numéros d'entreprise  

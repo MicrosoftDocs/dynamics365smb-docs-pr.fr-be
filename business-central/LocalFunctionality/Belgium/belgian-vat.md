@@ -1,6 +1,6 @@
 ---
 title: TVA belge
-description: Les améliorations belges de la fonction de déclaration de TVA vous permettent d'imprimer des détails sur les transactions TVA.
+description: Les améliorations belges de la fonction de déclaration de TVA vous permettent d'imprimer facilement des détails sur les transactions TVA.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 32bbc821fb3b8182b6999f5c65188ee4cfb3acb0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f6a0190405b0ba08155e30385fca009905ba4c89
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771504"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318905"
 ---
 # <a name="belgian-vat"></a>TVA belge
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend des améliorations belges à la fonction de déclaration de TVA qui vous permet d'imprimer les détails de transaction TVA. Vous devez envoyer les états suivants aux autorités fiscales belges :  

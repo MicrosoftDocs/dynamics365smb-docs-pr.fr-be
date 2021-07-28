@@ -1,6 +1,6 @@
 ---
-title: Lettrer et délettrer des écritures comptables dans la version belge
-description: Le lettrage des écritures comptables temporaires permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.
+title: Lettrer et délettrer les écritures comptables [BE]
+description: Le lettrage des écritures comptables temporaires en Belgique permet aux sociétés d'utiliser des comptes temporaires et de transfert dans la comptabilité.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f3c9399765e75e6145f8dd5d0884cdc4bd7fa540
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 154c2b2bfa6fa35490e4a300c865ead891c95269
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779246"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318887"
 ---
 # <a name="apply-and-unapply-general-ledger-entries-in-the-belgian-version"></a>Lettrer et délettrer des écritures comptables dans la version belge
 

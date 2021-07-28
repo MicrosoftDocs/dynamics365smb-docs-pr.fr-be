@@ -1,20 +1,20 @@
 ---
-title: Résumé des lignes règlement et des lignes feuille comptabilité
-description: Business Central totalise les lignes règlement et les lignes feuille.
+title: Lignes règlement et lignes feuille comptabilité [BE]
+description: Business Central totalise les lignes règlement et les lignes feuille pour paiements nationaux, internationaux, SEPA et hors euro.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f7cbf43e33a522a10b3d950f2db497efe9acaf34
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1a0d1b88236ffab75a286d7914f35fdaf8e83dba
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771028"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323501"
 ---
-# <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumé des lignes règlement et des lignes feuille comptabilité
+# <a name="summarizing-payment-lines-and-general-journal-lines-in-the-belgian-version"></a>Résumé des lignes règlement et des lignes feuille comptabilité dans la version belge
 Business Central totalise les lignes règlement et les lignes feuille pour les types de paiements suivants :  
 
 - Paiements nationaux  
