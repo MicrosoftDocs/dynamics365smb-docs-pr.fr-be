@@ -1,5 +1,5 @@
 ---
-title: Paramétrage des opérations bancaires électroniques
+title: Paramétrage des opérations bancaires électroniques [BE]
 description: Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f3848bc286c57568299cca89ba8bb8f369289c2b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c0fe47ac344b5faee3e727f31ae0612326f45ff2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779204"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438467"
 ---
-# <a name="set-up-electronic-banking"></a>Paramétrer des opérations bancaires électroniques
+# <a name="set-up-electronic-banking-in-the-belgian-version"></a>Paramétrer des opérations bancaires électroniques dans la version belge
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  
 
 - Paramétrage des opérations bancaires électroniques.  
@@ -25,7 +25,7 @@ Avec les opérations bancaires électroniques, vous pouvez effectuer des paiemen
 
 ## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramétrage des opérations bancaires électroniques**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
 2.  Dans la page **Paramétrage des opérations bancaires électroniques**, renseignez les champs comme indiqué dans le tableau suivant.   
 
     |Champ|Désignation|  

@@ -1,6 +1,6 @@
 ---
-title: Impression de l'état Formulaire de D.E.B.
-description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.
+title: Impression de l'état Formulaire de D.E.B. [BE]
+description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B afin de déclarer le mouvement de marchandises.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 0a7ade25be026ca8248606e463e6d4bf4312b5f2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5606dfd1b86235a0f00e1f4593411c7a23d33016
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779216"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438479"
 ---
-# <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
+# <a name="print-the-intrastat-form-report-in-the-belgian-version"></a>Imprimer l'état du formulaire de D.E.B. dans la version belge
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  
 
 Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprimer l'état **D.E.B. - Liste de contrôle** pour vérifier le contenu de l'état.  
 
 ## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état Formulaire de D.E.B.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **D.E.B. – Formulaire**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Formulaire de D.E.B**, puis choisissez le lien associé.  
 2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  

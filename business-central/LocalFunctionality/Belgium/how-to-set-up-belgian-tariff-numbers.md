@@ -1,5 +1,5 @@
 ---
-title: Paramétrage des nomenclatures produits belges
+title: Paramétrage des nomenclatures produits belges [BE]
 description: Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.
 services: project-madeira
 documentationcenter: ''
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: c80f78909526da1f204966815a086dc2fb33e06e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f5b12503247bec4ff41b8e0bc9fc924bc2eab451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779210"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438485"
 ---
-# <a name="set-up-belgian-tariff-numbers"></a>Paramétrer les nomenclatures produits belges
+# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Paramétrer les nomenclatures produits belges dans la version belge
 Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
 ### <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Nomenclatures produits**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Nomenclatures produits**, puis choisissez le lien associé.  
 2.  Sélectionnez l'action **Nouveau**.  
 3.  Dans la page **Nomenclatures produits**, renseignez les champs comme indiqué dans le tableau suivant.  
 

@@ -1,5 +1,5 @@
 ---
-title: Comment configurer les comptes bancaires pour CODA
+title: Comment configurer les comptes bancaires pour CODA [BE]
 description: Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer certains codes.
 services: project-madeira
 documentationcenter: ''
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 82b940917d48176cb9bfa96913d084069660c785
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4fb73a1ab3bb252067bbe7255887318d5b89205d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779213"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438473"
 ---
-# <a name="set-up-bank-accounts-for-coda"></a>Configurer des comptes bancaires pour CODA
+# <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Configurer des comptes bancaires pour CODA dans la version belge
 Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer les codes suivants :  
 
 - Numéro de protocole  
@@ -28,7 +28,7 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
 
 ## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Pour configurer des numéros de protocole et des codes version  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Modifier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 

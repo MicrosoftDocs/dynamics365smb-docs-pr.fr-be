@@ -1,5 +1,5 @@
 ---
-title: Comment configurer des numéros établissement intracommunautaire
+title: Comment configurer des numéros établissement intracommunautaire [BE]
 description: Le numéro établissement intracommunautaire est un numéro d'identification de société imprimé sur la déclaration intracommunautaire.
 services: project-madeira
 documentationcenter: ''
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 37bc7896141cbfe61e4a0d52baba65b83c919c51
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4a264d4c756c430b2d94ddd24436306f1df08cf3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775729"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438461"
 ---
-# <a name="set-up-intrastat-establishment-numbers"></a>Configurer les numéros d'établissement intracomm.
+# <a name="set-up-intrastat-establishment-numbers-in-the-belgian-version"></a>Configurer les numéros d'établissement intracomm. dans la version belge
 Le numéro établissement intracommunautaire est un numéro d'identification de société imprimé sur la déclaration intracommunautaire.  
 
 ## <a name="to-set-up-an-intrastat-establishment-number"></a>Pour configurer un numéro établissement intracommunautaire  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Informations société**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Informations société**, puis choisissez le lien associé.  
 2.  Entrez le numéro établissement intracommunautaire dans le champ **N° établissement intracommunautaire**. .  
 3.  Cliquez sur le bouton **OK**.  
   

@@ -1,5 +1,5 @@
 ---
-title: Procédure d'exportation des déclarations tierces intracommunautaires
+title: Procédure d'exportation des déclarations tierces intracommunautaires [BE]
 description: En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.
 services: project-madeira
 documentationcenter: ''
@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 0cd44ebf58ab72bfd4825473e38915a2b993684c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cea16902760c10e07c5da10852388dd8019860d9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775005"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438488"
 ---
-# <a name="export-intrastat-third-party-declarations"></a>Exporter les déclarations tierces intracommunautaires
+# <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Exporter des déclarations tierces intracommunautaires dans la version belge
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe. 
 
 ## <a name="to-export-the-third-party-declaration"></a>Pour exporter la déclaration tierce  
 Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état. Pour plus d'informations, voir [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md).  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles intracomm.**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles intracommunautaires**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Créer fichier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
