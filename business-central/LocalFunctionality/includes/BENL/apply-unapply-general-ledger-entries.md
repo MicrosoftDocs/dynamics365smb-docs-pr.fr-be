@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 26683f68ae60db3651d7caf3e1487a35ca867851
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c218991f26466c86ce961241e7edf653377c8f9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779350"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435870"
 ---
 En lettrant des écritures comptables temporaires, les sociétés peuvent utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
 
@@ -25,7 +25,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 ## <a name="to-apply-general-ledger-entries"></a>Pour lettrer des écritures comptables  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Historiques des transactions comptabilité**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3. Dans la page **Écritures comptables**, choisissez l'action **Lettrer écritures**.  
 
@@ -54,7 +54,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 ## <a name="to-view-the-applied-general-ledger-entries"></a>Pour afficher les écritures comptables lettrées  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Historiques des transactions comptabilité**, puis sélectionnez le lien associé.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
 3. Sélectionnez l'écriture comptable appropriée, puis choisissez l'action **Écritures lettrées**.  
 

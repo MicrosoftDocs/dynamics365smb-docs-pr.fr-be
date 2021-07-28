@@ -1,6 +1,6 @@
 ---
-title: Lettrage des relevés CODA
-description: Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.
+title: Lettrage des relevés CODA [BE]
+description: Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a78bf86e6a9f2dd169d01102e8a1da316ea77931
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b58f4ce41c71f79a9099bd1df3345d3d9cb0f670
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773289"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435900"
 ---
-# <a name="apply-coda-statements"></a>Lettrer les relevés CODA
+# <a name="apply-coda-statements-in-the-belgian-version"></a>Lettrer des relevés bancaires CODA dans la version belge
 Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.  
 
 Les montants du relevé peuvent être lettrés aux écritures comptables ouvertes comme suit :  
@@ -27,7 +27,7 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
 
 ## <a name="to-manually-apply-the-coda-statement-lines"></a>Pour lettrer manuellement les lignes relevé CODA  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
 3.  Sélectionnez le relevé CODA, puis choisissez l'action **Modifier**.  
 4.  Pour chaque ligne relevé, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -41,7 +41,7 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
 
 ## <a name="to-automatically-apply-the-coda-statement-lines"></a>Pour lettrer automatiquement les lignes relevé CODA  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
 3.  Sélectionnez le relevé CODA, puis choisissez l'action **Modifier**.  
 4.  Choisissez l'action **Traiter les lignes relevé CODA**.  

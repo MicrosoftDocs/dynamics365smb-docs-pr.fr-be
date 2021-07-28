@@ -1,5 +1,5 @@
 ---
-title: Imprimer les fichiers de paiement dans la version belge
+title: Exporter des fichiers de paiement dans la version belge
 description: Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez imprimer les lignes feuille paiement dans un fichier de paiement dans la version belge de Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,24 +7,24 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a2536af3bc33354a782a840c4320cc61a217af7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73c142f460f208a6350e48bba54535fd2d77c7d6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779222"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435206"
 ---
-# <a name="print-payment-files"></a>Imprimer les fichiers de paiement
+# <a name="export-payment-files-in-the-belgian-version"></a>Exporter des fichiers de paiement dans la version belge
 
-Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez imprimer les lignes feuille paiement dans un fichier de paiement.  
+Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez exporter les lignes feuille paiement dans un fichier de paiement.  
 
-Un fichier de paiement contient les paiements nationaux, internationaux, SEPA ou SEPA hors euro. Ce fichier peut être envoyé à une banque sur disque, par modem ou via le serveur Isabel (Interbanks Standards Association Belgium). Vous ne pouvez créer qu'un seul fichier pour chaque date comptabilisation et chaque code devise. Lorsque vous exportez les paiements dans un fichier, une note associée est imprimée, qui peut également être envoyée à la banque.  
+Un fichier de paiement contient les paiements nationaux, internationaux, SEPA ou SEPA hors euro. Le fichier peut être envoyé vers une banque par voie électronique. Vous ne pouvez créer qu'un seul fichier pour chaque date comptabilisation et chaque code devise. Lorsque vous exportez les paiements dans un fichier, une note associée est imprimée, qui peut également être envoyée à la banque.  
 
 Dans la feuille paiement, le champ **Statut** sur les lignes exportées est défini sur **Validé**.  
 
 ## <a name="to-print-a-payment-file"></a>Pour imprimer un fichier de paiement  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuille paiement**, puis sélectionnez le lien pour ouvrir la page **Feuille paiement EB**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuille paiement**, puis choisissez le lien permettant d'ouvrir la page **Modèles feuille paiement EB**.  
 2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 3. Dans le champ **Protocole d'exportation**, sélectionnez le protocole d'exportation.  
 
@@ -38,9 +38,7 @@ Dans la feuille paiement, le champ **Statut** sur les lignes exportées est déf
 
 5. S'il n'existe aucune erreur, choisissez l'action **Exporter lignes paiement**.  
 
-    L'état que vous avez spécifié dans le champ **ID impression test** de la page **Modèles feuille paiement EB** s'ouvre.  
-
-6. Cliquez sur le bouton **Imprimer**.  
+    L'état que vous avez spécifié dans le protocole d'exportation approprié traite les lignes paiement et génère le fichier.  
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Tester les paiements électroniques dans la version belge
+title: Tester les paiements électroniques [BE]
 description: Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'eventuelles erreurs avant de les valider.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: d978afd9acc11bd574af42bc93d265a509568334
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ce10537ce6723129328d6dc0c34868138a725908
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779192"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435203"
 ---
-# <a name="test-electronic-payments"></a>Tester les paiements électroniques
+# <a name="test-electronic-payments-in-the-belgian-version"></a>Tester les paiements électroniques dans la version belge
 
-Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'eventuelles erreurs avant de les valider.  
+Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'éventuelles erreurs avant de les valider.  
 
 Certaines des informations validées sont les suivantes :  
 
@@ -37,7 +37,7 @@ Vous pouvez afficher les erreurs sur la page **Exporter/Vérifier les journaux d
 
 ## <a name="to-test-payment-journal-lines"></a>Pour tester les lignes feuille paiement  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien pour ouvrir la page **Feuilles paiement EB**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles paiement**, puis choisissez le lien permettant d'ouvrir la page **Feuilles paiement EB**.  
 2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 3. Dans le champ **Protocole d'exportation**, sélectionnez le protocole d'exportation.  
 4. Entrez les informations sur les lignes feuille paiement, puis choisissez l'action **Vérifier lignes paiement** pour valider les lignes feuille paiement. La validation réalisée sur les lignes feuille dépend du type de vérification spécifié dans la page **Protocoles d'exportation**.  
