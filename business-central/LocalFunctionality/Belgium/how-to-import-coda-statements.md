@@ -1,6 +1,6 @@
 ---
-title: Procédure d'importation des relevés CODA
-description: Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans Business Central.
+title: Procédure d'importation des relevés CODA [BE]
+description: Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans Business Central avec Importer fichier CODA.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: f53d14d8b5ed0595ab83a76b6cb91229b2b3223e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1b9329b974f04d6564d67109c1706bd510357d9f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779234"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442922"
 ---
-# <a name="import-coda-statements"></a>Importer les relevés CODA
+# <a name="import-coda-statements-in-the-belgian-version"></a>Importer des relevés bancaires CODA dans la version belge
 Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[prod_short](../../includes/prod_short.md)]. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  
 
 ## <a name="to-import-a-coda-statement"></a>Pour importer un relevé CODA  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Importer le fichier CODA**.  
 3.  Entrez le nom du fichier à importer, puis choisissez le bouton **OK**.  
 

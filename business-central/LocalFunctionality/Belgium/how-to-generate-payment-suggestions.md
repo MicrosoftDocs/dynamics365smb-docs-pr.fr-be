@@ -1,5 +1,5 @@
 ---
-title: Génération des suggestions de règlement
+title: Génération des suggestions de règlement [BE]
 description: Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.
 services: project-madeira
 documentationcenter: ''
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: d53eecc5ab5dcdd27bef8bbddc05be09e5b3aad7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9053f43eda9c6d2551964f5681e6027a82c5e226
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442668"
 ---
-# <a name="generate-payment-suggestions"></a>Générer des suggestions de règlement
+# <a name="generate-payment-suggestions-in-the-belgian-version"></a>Générer des suggestions de règlement dans la version belge
 Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.  
 
 ## <a name="to-generate-payment-suggestions"></a>Pour générer des suggestions de règlement  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Feuilles paiement**, puis sélectionnez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2.  Sélectionnez la feuille appropriée, puis choisissez l'action **Proposer paiements fournisseur**.  
 3.  Sur la page **Proposer paiements fournisseur**, renseignez les champs comme indiqué dans le tableau suivant.  
 
