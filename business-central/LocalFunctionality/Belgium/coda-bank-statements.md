@@ -1,8 +1,6 @@
 ---
 title: Relevés bancaires CODA belges [BE]
 description: Le Coded Statement of Account est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse pour traiter automatiquement des relevés bancaires électroniques.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 2000040, 2000041, 2000042, 2000043, 2000045
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 50e2690f6534e11be8cfb96c2f016ab4c63332e5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: dbf7c8471daaa6ad406228a683f087928c392be0
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318893"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947076"
 ---
 # <a name="belgian-coda-bank-statements-in-the-belgian-version"></a>Relevés bancaires CODA belges dans la version belge
 Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.  

@@ -1,8 +1,6 @@
 ---
-title: Comment créer des feuilles financières [BE]
+title: Créer des feuilles financières [BE]
 description: Cette rubrique vous explique l'utilisation des modèles feuille pour créer des feuilles financières dans la version belge de Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11300
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9c65605ba12809e494216145b238f901c31be31e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 56218dba3d7b3b3a77cec7164f1df89863e971b3
+ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437198"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "7947160"
 ---
 # <a name="create-financial-journals-in-the-belgian-version"></a>Créer des feuilles financières dans la version belge
 Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  
