@@ -1,8 +1,6 @@
 ---
-title: Comment exporter vers Accon [BE]
+title: Exporter vers Accon [BE]
 description: Le rapport Lien vers Accon vous permet de créer un fichier qui peut être importé dans ACCON Plus pour générer un compte de résultat annuel.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,14 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 01d6033ab61797c6081c7f4d3021e1a461f4ef0c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: be4c0cd68dad1ef9d5ceb3cbb2370611744ea73a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440071"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973144"
 ---
 # <a name="export-to-accon-in-the-belgian-version"></a>Exporter vers Accon dans la version belge
+
 L'état **Lien avec Accon** vous permet de créer un fichier qui peut être importé dans ACCON Plus pour générer un compte de résultats annuel. L'état exporte les soldes finaux des comptes généraux pour une période spécifique.  
 
 ## <a name="to-export-the-link-to-accon-report"></a>Pour exporter l'état Lien avec Accon  

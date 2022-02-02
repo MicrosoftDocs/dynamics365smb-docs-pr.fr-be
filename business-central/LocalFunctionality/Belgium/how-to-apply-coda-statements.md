@@ -1,5 +1,5 @@
 ---
-title: Lettrage des relevés CODA [BE]
+title: Lettrer les relevés CODA [BE]
 description: Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 2000040
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b58f4ce41c71f79a9099bd1df3345d3d9cb0f670
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c66b692778422ea90f1e3ad9539a9e740f7f23a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435900"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973724"
 ---
 # <a name="apply-coda-statements-in-the-belgian-version"></a>Lettrer des relevés bancaires CODA dans la version belge
+
 Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.  
 
 Les montants du relevé peuvent être lettrés aux écritures comptables ouvertes comme suit :  

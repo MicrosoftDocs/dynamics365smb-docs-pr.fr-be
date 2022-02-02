@@ -1,8 +1,6 @@
 ---
-title: Comment transférer et valider manuellement les relevés CODA [BE]
+title: Transférer et publier manuellement des relevés CODA [BE]
 description: Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer manuellement les lignes relevé CODA vers une feuille financière.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 20d2f023d2077293e66278da278fbf7ef6135e29
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328595f8eecce75e5ad12658346bf65cc56ba491
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435201"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971508"
 ---
 # <a name="manually-transfer-and-post-coda-statements-in-the-belgian-version"></a>Transférer et publier manuellement des relevés CODA dans la version belge
 Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer manuellement les lignes relevé CODA vers une feuille financière. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes. La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.  

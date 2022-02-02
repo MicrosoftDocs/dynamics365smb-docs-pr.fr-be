@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.search.form: 11308
+ms.date: 01/10/2022
 ms.author: edupont
-ms.openlocfilehash: 6918790addeb3a3d315e41d537a6d1eefb66f432
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ec28c51ba356c279d89a3283fb94dd19e4357d97
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322028"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970877"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
 
@@ -33,7 +33,7 @@ Avant de pouvoir traiter des relevés et des paiements électroniques, vous deve
 
 |Champ|Description |
 |-----|------------|
-|**Totaliser lignes feuille compta.**| Sélectionnez pour indiquer si vous souhaitez regrouper les lignes feuille paiement pour chaque fournisseur.  |
+|**Totaliser lignes feuille compta.**| Sélectionnez pour indiquer si vous souhaitez regrouper les lignes feuille paiement pour chaque fournisseur. Les paiements avec un message structuré ne seront pas regroupés. |
 |**Limiter les textes du message de paiement** |Sélectionnez pour indiquer si vous souhaitez tronquer les longs messages de paiement. Les messages seront tronqués si supérieurs à 106 caractères pour les paiements nationaux et inférieurs à 140 caractères pour les paiements internationaux. |
 
 Pour plus d'informations sur l'impact des deux champs sur le mode de transfert des lignes feuille paiement vers la feuille comptabilité, voir [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md).  
