@@ -4,15 +4,15 @@ description: Dans la version belge, les suggestions de paiement sont générées
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.form: 256
+ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e4cf17525a8b5fdc5d41c2934212b8a1379dca9b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a0657a571c231ae7162932aa39f011349a89f0ec
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973721"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100813"
 ---
 # <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Création de modèles et de lots de feuilles paiement dans la version belge
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille. Toutefois, la feuille paiement contient des champs qui sont propres au traitement des paiements. Avant de commencer à générer des suggestions de paiement, vous devez paramétrer un modèle feuille paiement et une feuille paiement.  

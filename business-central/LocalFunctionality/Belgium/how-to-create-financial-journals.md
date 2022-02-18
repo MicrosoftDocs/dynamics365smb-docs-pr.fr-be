@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11300
+ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 56218dba3d7b3b3a77cec7164f1df89863e971b3
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 0f629b050fc948ded09d685488f5beb6a3aba24c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947160"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101128"
 ---
 # <a name="create-financial-journals-in-the-belgian-version"></a>Créer des feuilles financières dans la version belge
 Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  
