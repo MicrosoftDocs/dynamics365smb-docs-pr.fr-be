@@ -1,30 +1,30 @@
 ---
-title: Impression de l'état Formulaire de D.E.B. [BE]
-description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B afin de déclarer le mouvement de marchandises.
+title: Impression de l'état Formulaire de D.E.B.
+description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: 5606dfd1b86235a0f00e1f4593411c7a23d33016
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 2c5a9b4a5c73cccd5eb380b6ece5569f8b1149d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438479"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180879"
 ---
-# <a name="print-the-intrastat-form-report-in-the-belgian-version"></a>Imprimer l'état du formulaire de D.E.B. dans la version belge
+# <a name="print-the-intrastat-form-report"></a>Imprimer l'état Formulaire de D.E.B.
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  
 
 Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprimer l'état **D.E.B. - Liste de contrôle** pour vérifier le contenu de l'état.  
 
 ## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état Formulaire de D.E.B.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Formulaire de D.E.B**, puis choisissez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **D.E.B. – Formulaire**, puis choisissez le lien associé.  
 2.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
@@ -47,6 +47,3 @@ Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprime
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

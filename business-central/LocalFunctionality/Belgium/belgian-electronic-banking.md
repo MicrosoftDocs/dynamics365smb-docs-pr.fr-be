@@ -1,49 +1,35 @@
 ---
 title: Banque électronique belge
-description: La banque électronique vous permet d'échanger des données par voie électronique avec des institutions financières belges. Cela garantit une plus grande vitesse de traitement et permet d'éviter les erreurs.
+description: La banque électronique vous permet d'échanger des données par voie électronique avec des institutions financières belges. Les données peuvent être échangées sur disquette, par un modem ou via Isabel (Interbanks Standards Association Belgium). Vous profitez ainsi d'un traitement plus rapide et évitez les erreurs causées par le traitement ou la saisie manuels des données.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 11308
-ms.date: 01/10/2022
-ms.author: edupont
-ms.openlocfilehash: ec28c51ba356c279d89a3283fb94dd19e4357d97
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: addba8462319df002cad50f5e12be3b90eedd66c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970877"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180931"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
+La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel). Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  
 
-Dans la version belge de [!INCLUDE [prod_short](../../includes/prod_short.md)], vous pouvez échanger des données avec des institutions financières belges par voie électronique. Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  
-
-Vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
+Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
 
 - Envoyer des paiements électroniques.  
 - Traiter des relevés bancaires avec CODA.  
 - Traiter des domiciliations européennes.  
 
-## <a name="setup"></a>Configuration
-
-Avant de pouvoir traiter des relevés et des paiements électroniques, vous devez configurer la banque électronique sur la page **Paramétrage des opérations bancaires électroniques** comme décrit dans le tableau suivant.
-
-|Champ|Description |
-|-----|------------|
-|**Totaliser lignes feuille compta.**| Sélectionnez pour indiquer si vous souhaitez regrouper les lignes feuille paiement pour chaque fournisseur. Les paiements avec un message structuré ne seront pas regroupés. |
-|**Limiter les textes du message de paiement** |Sélectionnez pour indiquer si vous souhaitez tronquer les longs messages de paiement. Les messages seront tronqués si supérieurs à 106 caractères pour les paiements nationaux et inférieurs à 140 caractères pour les paiements internationaux. |
-
-Pour plus d'informations sur l'impact des deux champs sur le mode de transfert des lignes feuille paiement vers la feuille comptabilité, voir [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md).  
-
-## <a name="see-also"></a>Voir aussi
-
+## <a name="see-also"></a>Voir aussi  
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
 [Paiements électroniques belges](belgian-electronic-payments.md)  
 [Relevés bancaires CODA](coda-bank-statements.md)  
 [Domiciliation européenne](direct-debit-using-domiciliation.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

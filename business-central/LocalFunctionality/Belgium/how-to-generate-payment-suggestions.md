@@ -1,28 +1,30 @@
 ---
-title: Générer des suggestions de règlement [BE]
+title: Génération des suggestions de règlement
 description: Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 256
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: fd80d53cd87397154ab43b5b33e0bea00ed4767d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 229bb14b2804188fb0c2063d45559a1367b48972
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971513"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180891"
 ---
-# <a name="generate-payment-suggestions-in-the-belgian-version"></a>Générer des suggestions de règlement dans la version belge
+# <a name="generate-payment-suggestions"></a>Générer des suggestions de règlement
 Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.  
 
 ## <a name="to-generate-payment-suggestions"></a>Pour générer des suggestions de règlement  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles paiement**, puis choisissez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles paiement**, puis choisissez le lien associé.  
 2.  Sélectionnez la feuille appropriée, puis choisissez l'action **Proposer paiements fournisseur**.  
 3.  Sur la page **Proposer paiements fournisseur**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -47,6 +49,3 @@ Lorsque le traitement par lots est terminé, la feuille paiement contient toutes
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
  [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

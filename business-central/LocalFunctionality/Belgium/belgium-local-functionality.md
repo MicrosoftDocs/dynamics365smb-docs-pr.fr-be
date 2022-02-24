@@ -1,22 +1,22 @@
 ---
 title: Fonctionnalité locale, Belgique
-description: Les rubriques suivantes décrivent les différentes fonctionnalités locales de la version belge de Business Central.
+description: Les rubriques suivantes décrivent la fonctionnalité locale de la version belge de Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.search.keywords: ''
-ms.date: 06/17/2021
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: 17ae6fbbf570ed8759c9b2a6e8fa7298b56461f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 80494c1db48f3ed390ed6906f030b016a4a1e501
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318899"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454316"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 
-Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Disponibilité des fonctions
 
@@ -47,10 +47,13 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Tester des paiements électroniques](how-to-test-electronic-payments.md) **Désormais disponible**
     * [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) **Désormais disponible**
     * [Importer des relevés CODA](how-to-import-coda-statements.md) **Désormais disponible**
+    * [Gérer des lignes de paiement électronique](how-to-manage-electronic-payment-lines.md) **Désormais disponible**
     * [Transférer et valider manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md) **Désormais disponible**
     * [Imprimer des fichiers de paiement](how-to-print-payment-files.md) **Désormais disponible**
+    * [Paiements SEPA](sepa-payments.md) **Désormais disponible**
     * [Activer les paiements SEPA](how-to-activate-sepa-payments.md) **Désormais disponible**
     * [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md) **Désormais disponible**
+    * [Effectuer des paiements SEPA](how-to-file-sepa-payments.md) **Désormais disponible**
     * [Domiciliation européenne](direct-debit-using-domiciliation.md) **Désormais disponible**
     * [Paramétrer les domiciliations](how-to-set-up-domiciliations.md) **Désormais disponible**
     * [Modifier et supprimer des lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md) **Désormais disponible**
@@ -71,10 +74,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Utilisation de [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

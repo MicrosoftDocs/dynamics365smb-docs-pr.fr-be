@@ -1,24 +1,24 @@
 ---
-title: Limitation de la période de validation [BE]
+title: Limitation de la période de validation
 description: 'Vous pouvez limiter la période de validation autorisée selon trois niveaux différents : par société, par utilisateur et par modèle.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: f63dd779c2850f8090f7de25f47b62a8a97626fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7a0d68e155061beadbc4dd7235df267c875d8e6d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435237"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180883"
 ---
-# <a name="limit-the-posting-period-in-the-belgian-version"></a>Limiter la période de validation dans la version belge
-Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez limiter la période de validation autorisée selon trois niveaux différents : **par société**, **par utilisateur** et **par modèle**.  
+# <a name="limit-the-posting-period"></a>Limiter la période de validation
+Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez limiter la période de validation autorisée selon trois niveaux différents : **par société**, **par utilisateur** et **par modèle**.  
 
 Limiter les périodes de validation peut être utile lorsqu'une société clôture sa feuille vente à la fin de chaque mois. Cela empêche les vendeurs d'enregistrer les documents vente du mois précédent. Par ailleurs, la feuille achat peut rester ouverte pour enregistrer les factures achat entrantes du mois précédent.  
 
@@ -26,25 +26,22 @@ Lorsque vous validez des écritures dans la page **Modèles feuille comptabilit�
 
 ## <a name="to-limit-the-posting-periods-by-company"></a>Pour limiter les périodes de validation par société  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2.  Pour spécifier le début de la période, sélectionnez le champ **Début période validation**, puis entrez la date la plus proche à laquelle la validation dans la société est activée.  
 3.  Pour spécifier la fin de la période, sélectionnez le champ **Fin période validation**, puis entrez la date limite à laquelle la validation dans la société est activée.  
 
 ## <a name="to-limit-the-posting-periods-by-user"></a>Pour limiter les périodes de validation par utilisateur  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres utilisateur**, puis choisissez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramètres utilisateur**, puis choisissez le lien associé.  
 2.  Pour spécifier le début de la période, sélectionnez le champ **Début période validation**, puis entrez la date la plus proche à laquelle l'utilisateur peut valider dans la société.  
 3.  Pour spécifier la fin de la période, sélectionnez le champ **Fin période validation**, puis entrez la date limite à laquelle l'utilisateur peut valider dans la société.  
 
 ## <a name="to-limit-the-posting-periods-by-template"></a>Pour limiter les périodes de validation par modèle  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Modèles feuille comptabilité**, puis choisissez le lien associé.  
+1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles feuille comptabilité**, puis choisissez le lien associé.  
 2.  Pour spécifier le début de la période, sélectionnez le champ **Début période validation**, puis entrez la date la plus proche à laquelle l'utilisateur peut valider dans la société.  
 3.  Pour spécifier la fin de la période, sélectionnez le champ **Fin période validation**, puis entrez la date limite à laquelle l'utilisateur peut valider dans la société.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale, Belgique](belgium-local-functionality.md)   
  [Définir des périodes de validation](../../finance-how-specify-posting-periods.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

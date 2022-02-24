@@ -1,25 +1,25 @@
 ---
-title: Domiciliation européenne belge [BE]
-description: Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client.
+title: Domiciliation européenne
+description: Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client via un compte bancaire préféré. Les domiciliations peuvent uniquement être traitées pour les clients nationaux qui ont des comptes bancaires nationaux.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: 6643d03b5ef5fc6934656288e8a81749fe8578a5
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 64f3b771e6e878385edb77b97b46faf4a1395c1d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101183"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180919"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Domiciliation européenne
-
 Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client via un compte bancaire préféré. Les domiciliations peuvent uniquement être traitées pour les clients nationaux qui ont des comptes bancaires nationaux. Les domiciliations dans des devises étrangères ou concernant des banques étrangères ne sont pas prises en charge.  
 
 La domiciliation est utile pour les sociétés qui comptent de nombreux clients ou abonnés, comme les sociétés de services publics ou d'édition.  
@@ -30,111 +30,10 @@ Avant de pouvoir commencer à utiliser la banque électronique pour les domicili
 
 - Compte bancaire préféré : le compte bancaire préféré sera proposé comme compte bancaire par défaut sur toutes les propositions de domiciliation pour ce client. Si nécessaire, vous pouvez modifier le compte bancaire avant de valider les propositions de domiciliation. Pour plus d'informations, voir [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md).  
 
-## <a name="set-up-domiciliations"></a>Paramétrer les domiciliations
-
-Avant de pouvoir utiliser la banque électronique pour les domiciliations, vous devez entrer le compte bancaire préféré et le numéro de domiciliation du client.  
-
-> [!NOTE]  
-> Vous devez utiliser un seul compte bancaire par client pour toutes les domiciliations.  
-
-### <a name="to-set-up-domiciliation"></a>Pour configurer une domiciliation  
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Clients**, puis choisissez le lien associé.  
-2. Sélectionnez le client, puis choisissez l'action **Modifier**.  
-3. Renseignez les champs comme indiqué dans le tableau suivant.  
-
-    |Champ|Description|  
-    |-----|-----------|  
-    |**Domiciliation**|Entrez le numéro de domiciliation du client. Ce numéro sera utilisé lorsque vous créerez des domiciliations pour ce client.|  
-    |**Compte bancaire préféré**|Entrez le compte bancaire préféré pour les transactions avec ce client. Ce compte sera utilisé lorsque vous créerez une proposition de paiement pour ce client.|  
-
-## <a name="generate-domiciliation-suggestions"></a>Générer des suggestions de domiciliation
-
-Après avoir paramétré les domiciliations, vous pouvez commencer à générer des suggestions de domiciliation. Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez uniquement créer des suggestions de domiciliation pour les clients nationaux.  
-
-### <a name="to-generate-domiciliation-suggestions"></a>Pour générer des suggestions de domiciliation  
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuille domiciliation**, puis choisissez le lien associé.  
-2. Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Suggérer des domiciliations**.  
-3. Renseignez les champs comme indiqué dans le tableau suivant.  
-
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Date d'échéance**|Entrez la date d'échéance à inclure dans le traitement par lots. Seules les écritures dont la date d'échéance est antérieure ou identique à cette date sont incluses.|  
-    |**Accepter les escomptes**|Sélectionnez ce champ si vous souhaitez inclure dans le traitement par lots les écritures comptables client pour lesquelles vous pouvez obtenir un escompte.|  
-    |**Date d'escompte**|Entrez la date qui est utilisée pour calculer l'escompte.|  
-    |**Sélectionner les remboursements possibles**|Sélectionnez ce champ si vous souhaitez inclure dans le traitement par lots les remboursements.|  
-    |**Date de validation**|Entrez la date qui s'affiche comme date de validation sur les lignes que le traitement par lots insère dans la feuille domiciliation.|  
-
-4. Entrez les éventuels critères de filtre supplémentaires.  
-5. Cliquez sur le bouton **OK**.  
-
-Lorsque le traitement par lots est terminé, la feuille domiciliation contient toutes les écritures comptables client ouvertes correspondant aux filtres.  
-
-> [!NOTE]  
-> Les suggestions de domiciliation n'incluent que les clients pour lesquels un numéro de domiciliation est configuré. Pour plus d'informations, voir la section [Paramétrer les domiciliations](#set-up-domiciliations).  
-
-## <a name="edit-and-delete-domiciliation-lines"></a>Modifier et supprimer des lignes de domiciliation
-
-Après avoir généré des propositions de domiciliation, vous souhaiterez peut-être modifier les lignes domiciliation. Par exemple, vous souhaiterez peut-être réaffecter un compte bancaire ou empêcher le paiement pour un client ou une écriture comptable client spécifique.  
-
-Après avoir modifié les lignes feuille, imprimez l'état **FS domicil. - Impression test** pour tester toutes les lignes feuilles.  
-
-Le traitement par lots **Proposer domiciliations** crée des propositions de domiciliation pour tous les clients qui correspondent aux critères spécifiés.  
-
-### <a name="to-edit-a-journal-line"></a>Pour modifier une ligne feuille  
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
-2. Dans le champ **Nom feuille**, sélectionnez la feuille concernée.  
-3. Sélectionnez la ligne feuille, puis modifiez les champs.  
-
-### <a name="to-delete-a-journal-line"></a>Pour supprimer une ligne feuille  
-
-1  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
-2. Dans le champ **Nom feuille**, sélectionnez la feuille concernée.  
-3. Sélectionnez la ligne feuille, puis choisissez l'action **Supprimer**.  
-4. Cliquez sur le bouton **Oui**.  
-
-## <a name="test-domiciliations"></a>Tester les domiciliations
-
-Pour tester les lignes feuille domiciliation, vous pouvez utiliser l'état **Feuille domiciliation - Test**. Cet état imprime un aperçu de toutes les lignes feuille, ainsi que toutes les erreurs, telles que des champs manquants ou des comptes bancaires incorrects. Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
-
-### <a name="to-print-a-domiciliation-test-report"></a>Pour imprimer un état de test de domiciliation  
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuille domiciliation**, puis choisissez le lien associé.  
-2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
-3. Sélectionnez l'option **Impression test**.  
-4. Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
-
-## <a name="export-and-post-domiciliations"></a>Exporter et valider les domiciliations
-
-Vous pouvez soumettre des domiciliations à votre banque en exportant les données dans un fichier. Lorsque vous exportez les données dans un fichier, vous pouvez choisir de valider automatiquement les lignes dans la comptabilité.  
-
-Selon le paramétrage du champ **Format exp. prélèvement SEPA** dans la page **Fiche compte bancaire**, l'action **Domiciliations de fichier** ouvre l'une des pages de demande suivantes :  
-
-- Page **Créer des lignes feuille comptabilité** – pour le format de prélèvement SEPA.  
-- Page **Domiciliations de fichier** – pour les formats nationaux.  
-
-### <a name="to-export-and-post-domiciliations"></a>Pour exporter et valider les domiciliations
-
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles domiciliation**, puis choisissez le lien associé.  
-2. Dans le champ **Nom feuille**, sélectionnez la feuille requise, puis choisissez l'action **Domiciliations de fichier**.  
-3. Sur la page **Créer lignes FS**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
-
-    Si votre société est paramétrée de façon à utiliser le format ISABEL, la page **Domiciliations de fichier** s'affiche à la place.
-4. Cliquez sur le bouton **OK** pour exporter le fichier.  
-5. Choisissez un emplacement approprié à partir duquel vous téléchargez le fichier vers votre banque, puis choisissez **Enregistrer**.  
-6. Cliquez sur le bouton **Oui** pour valider automatiquement les lignes feuille domiciliation.  
-
-    Si vous n'activez pas la case à cocher **Valider les lignes feuille comptabilité**, vous devrez valider les domiciliations manuellement dans la feuille comptabilité.  
-
-    > [!NOTE]  
-    >  Après avoir validé les domiciliations dans la feuille comptabilité, supprimez les domiciliations validées dans la page **Feuille domiciliation**. Pour ce faire, sélectionnez toutes les lignes avec le statut **Validé**, puis choisissez l'action **Supprimer**.  
-
-## <a name="see-also"></a>Voir aussi
-
-[Paiements électroniques belges](belgian-electronic-payments.md)  
-[Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## <a name="see-also"></a>Voir aussi  
+ [Banque électronique belge](belgian-electronic-banking.md)   
+ [Paramétrer les domiciliations](how-to-set-up-domiciliations.md)   
+ [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md)   
+ [Tester les domiciliations](how-to-test-domiciliations.md)   
+ [Modifier et supprimer des lignes de domiciliation](how-to-edit-and-delete-domiciliation-lines.md)   
+ [Exporter et valider les domiciliations](how-to-export-and-post-domiciliations.md)
