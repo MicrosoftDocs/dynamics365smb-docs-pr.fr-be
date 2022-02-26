@@ -1,25 +1,25 @@
 ---
-title: Paramétrage des protocoles d'exportation
-description: Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.
+title: Paramétrage des protocoles d'exportation [BE]
+description: Avant d'utiliser la banque électronique, vous devez paramétrer des protocoles d'exportation qui définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5567de656b8df85d61d041005ac385cf21a82230
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 74cb2cb9f27f4edddcd97ea96b4d902aa041ba8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438464"
 ---
-# <a name="set-up-export-protocols"></a>Paramétrer les protocoles d'exportation
+# <a name="set-up-export-protocols-in-the-belgian-version"></a>Paramétrer les protocoles d'exportation dans la version belge
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  
 
  Avec les protocoles d'exportation, vous pouvez affecter le codeunit qui définit la vérification à effectuer avant d'exporter les lignes paiement dans un fichier, et l'état qui définit le format de paiement. Par exemple, vous pouvez avoir un protocole d'exportation nommé **DOM1**. Ce protocole d'exportation contient le codeunit de vérification **Vérifier les paiements nationaux** et l'état **Effectuer des paiements nationaux**. Chaque protocole d'exportation a un codeunit de vérification et un état correspondant, comme indiqué dans le tableau suivant.  
@@ -36,7 +36,7 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
 ## <a name="to-set-up-an-export-protocol"></a>Pour paramétrer un protocole d'exportation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Protocoles d'exportation**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Protocoles d'exportation**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
 3.  Dans la page **Protocoles d'exportation**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -57,3 +57,6 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

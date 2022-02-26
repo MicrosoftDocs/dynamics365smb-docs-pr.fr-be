@@ -1,56 +1,59 @@
 ---
-title: Création de modèles et de lots de feuilles paiement
-description: Dans la version belge de Business Central, les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille.
+title: Modèles et lots de feuilles paiement [BE]
+description: Dans la version belge, les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9afa545cf50c00ad6689349e939f0251d8060c22
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.topic: conceptual
+ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: a0657a571c231ae7162932aa39f011349a89f0ec
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180899"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100813"
 ---
-# <a name="create-payment-journal-templates-and-batches"></a>Créer des modèles et des lots de feuilles paiement
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille. Toutefois, la feuille paiement contient des champs qui sont propres au traitement des paiements. Avant de commencer à générer des suggestions de paiement, vous devez paramétrer un modèle feuille paiement et une feuille paiement.  
+# <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Création de modèles et de lots de feuilles paiement dans la version belge
+Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille. Toutefois, la feuille paiement contient des champs qui sont propres au traitement des paiements. Avant de commencer à générer des suggestions de paiement, vous devez paramétrer un modèle feuille paiement et une feuille paiement.  
+
+Vous pouvez affecter une page spécifique et un état de test à chaque modèle feuille. De cette façon, vous pouvez gérer vos paiements nationaux et internationaux à partir de cette page ajustée. Le *code source* spécifié est copié dans toutes les lignes feuille créées sur la base du modèle feuille. Le code est également copié dans les écritures lors de leur validation. De cette façon, vous pouvez toujours connaître l'endroit où une écriture a été validée.
 
 Si vous affectez un compte bancaire au modèle feuille paiement, le compte bancaire est inséré sur toutes les feuilles paiement et lignes feuille paiement qui sont créées à l'aide de ce modèle. En spécifiant un compte bancaire pour le modèle feuille, vous pouvez réduire le temps nécessaire pour vérifier les suggestions de paiement.  
 
 ## <a name="to-create-a-payment-journal-template"></a>Pour créer un modèle feuille paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles FS paiements**, puis choisissez le lien associé.  
-2.  Sélectionnez l'action **Nouveau**.  
-3.  Dans la page **Modèles feuille paiement EB**, renseignez les champs comme indiqué dans le tableau suivant.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Modèles feuille paiement**, puis choisissez le lien associé.  
+2. Choisissez l'action **Nouveau**.  
+3. Sur la page **Modèles feuille paiement**, renseignez les champs.  
 
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Nom**|Entrez le nom unique du modèle feuille paiement que vous créez.|  
-    |**Description**|Entrez une description du modèle feuille paiement.|  
-    |**Compte bancaire**|Sélectionnez le compte bancaire qui est utilisé pour créer une suggestion de paiement.|  
-    |**Code motif**|Sélectionnez le code motif qui est utilisé sur toutes les feuilles et lignes feuille créées à l'aide du modèle feuille. Si vous souhaitez utiliser un code motif différent sur une ligne feuille, vous pouvez le modifier manuellement.|  
-    |**Code source**|Sélectionnez le code source qui est utilisé sur toutes les feuilles et lignes feuille créées à l'aide du modèle feuille.|  
+    [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-4.  Choisissez le bouton **OK**.  
+    > [!IMPORTANT]
+    > Si les champs **ID page** et **ID impression test** ne sont pas affichés, vous devez les ajouter via la personnalisation. Vous devez compléter les champs pour pouvoir continuer. Pour plus d'informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md).
+4. Répétez l'étape 2 pour chaque modèle supplémentaire.
+
+5. Cliquez sur le bouton **OK**.  
+
+Vous pouvez créer plusieurs lors de feuilles dans chaque modèle feuille. Plusieurs feuilles, chacune ayant son propre nom, peuvent afficher la même page. Par exemple, ceci peut être utile si chaque utilisateur doit avoir une feuille dédiée.
 
 ## <a name="to-add-payment-journal-batches-to-the-journal-template"></a>Pour ajouter des feuilles paiement au modèle feuille  
 
-1.  Dans la page **Modèles feuille paiement**, choisissez l'action **Feuilles**.  
-2.  Dans la page **Feuilles paiement**, renseignez les champs comme indiqué dans le tableau suivant.  
+1. Dans la page **Modèles feuille paiement**, choisissez l'action **Feuilles**.  
+2. Sur la page **Nom FS paiements**, renseignez les champs.  
 
-    |Champ|Désignation|  
-    |---------------------------------|---------------------------------------|  
-    |**Nom modèle feuille**|Spécifiez un nom de modèle feuille pour la feuille paiement.|  
-    |**Nom**|Entrez un nom unique pour la feuille.<br /><br /> **REMARQUE :** pour que le nom feuille soit mis à jour numériquement, ajoutez un nombre au nom feuille. Par exemple, le nom FEUILLE1 augmente d'un numéro à chaque validation, vous aurez donc FEUILLE2, FEUILLE3, etc.|  
-    |**Description**|Entrez une description pour la feuille.|  
-    |**Code motif**|Spécifie le code motif qui est associé à cette feuille.|  
-    |**Statut**|Spécifie le statut de la feuille.|  
+    [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]
 
-3.  Choisissez le bouton **OK**.  
+    > [!NOTE]
+    > Pour que le nom feuille soit mis à jour numériquement, ajoutez un nombre au nom feuille. Par exemple, le nom FEUILLE1 augmente d'un numéro à chaque validation, vous aurez donc FEUILLE2, FEUILLE3, etc.  
 
-## <a name="see-also"></a>Voir aussi  
- [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
- [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
- [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)
+    Vous pouvez ensuite tester la configuration. Pour plus d'informations, voir [Tester les paiements électroniques](how-to-test-electronic-payments.md).  
+
+## <a name="see-also"></a>Voir aussi
+
+[Paiements électroniques, Belgique](belgian-electronic-payments.md)   
+[Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
+[Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

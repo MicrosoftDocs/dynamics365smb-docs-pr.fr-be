@@ -1,30 +1,29 @@
 ---
-title: Comment créer des feuilles financières
-description: Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.
-services: project-madeira
-documentationcenter: ''
+title: Créer des feuilles financières [BE]
+description: Cette rubrique vous explique l'utilisation des modèles feuille pour créer des feuilles financières dans la version belge de Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7da2de460b9cbc65be7cf4bebc0561195aee42e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 0f629b050fc948ded09d685488f5beb6a3aba24c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180907"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101128"
 ---
-# <a name="create-financial-journals"></a>Créer des feuilles financières
+# <a name="create-financial-journals-in-the-belgian-version"></a>Créer des feuilles financières dans la version belge
 Les feuilles financières sont utilisées pour enregistrer des transactions de compte bancaire. Une feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence afin de vérifier que toutes les transactions ont été enregistrées.  
 
 ## <a name="to-create-a-financial-journal"></a>Pour créer une feuille financière  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles feuille**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Modèles feuille**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
 3.  Remplissez les champs comme décrit dans le tableau suivant.  
 
@@ -38,3 +37,6 @@ Les feuilles financières sont utilisées pour enregistrer des transactions de c
 
 ## <a name="see-also"></a>Voir aussi  
  [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

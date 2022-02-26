@@ -1,24 +1,25 @@
 ---
-title: Test des paiements électroniques
+title: Tester les paiements électroniques [BE]
 description: Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'eventuelles erreurs avant de les valider.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bbd2580befef83c403c8dba2bed5b4f264da42ac
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 2000001
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 7b8ed40fa13eb6446dc2bfac62e74c007629c498
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180847"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972978"
 ---
-# <a name="test-electronic-payments"></a>Tester les paiements électroniques
-Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'eventuelles erreurs avant de les valider.  
+# <a name="test-electronic-payments-in-the-belgian-version"></a>Tester les paiements électroniques dans la version belge
+
+Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'éventuelles erreurs avant de les valider.  
 
 Certaines des informations validées sont les suivantes :  
 
@@ -32,17 +33,21 @@ Certaines des informations validées sont les suivantes :
 Vous pouvez afficher les erreurs sur la page **Exporter/Vérifier les journaux des erreurs**.  
 
 > [!IMPORTANT]  
->  Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
+> Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
 
 ## <a name="to-test-payment-journal-lines"></a>Pour tester les lignes feuille paiement  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Feuilles paiement**, puis choisissez le lien associé.  
-2.  Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
-3.  Dans le champ **Protocole d'exportation**, sélectionnez le protocole d'exportation.  
-4.  Entrez les informations sur les lignes feuille paiement, puis choisissez l'action **Vérifier lignes paiement** pour valider les lignes feuille paiement. La validation réalisée sur les lignes feuille dépend du type de vérification spécifié dans la page **Protocoles d'exportation**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles paiement**, puis choisissez le lien permettant d'ouvrir la page **Feuilles paiement EB**.  
+2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
+3. Dans le champ **Protocole d'exportation**, sélectionnez le protocole d'exportation.  
+4. Entrez les informations sur les lignes feuille paiement, puis choisissez l'action **Vérifier lignes paiement** pour valider les lignes feuille paiement. La validation réalisée sur les lignes feuille dépend du type de vérification spécifié dans la page **Protocoles d'exportation**.  
 
 ## <a name="see-also"></a>Voir aussi  
- [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
- [Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
- [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
- [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
+
+[Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)  
+[Paiements électroniques belges](belgian-electronic-payments.md)  
+[Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)  
+[Proposer paiements fournisseur](../../payables-how-suggest-vendor-payments.md)  
+[Imprimer les fichiers de paiement](how-to-print-payment-files.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

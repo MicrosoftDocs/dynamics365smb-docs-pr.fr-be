@@ -1,28 +1,28 @@
 ---
-title: Corrections manuelles de la TVA
-description: Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA.
+title: Corrections manuelles de la TVA [BE]
+description: Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d0aa32c87a4d273a49796ef333bb0e63d5429de
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 2fedbc2cda35e8e8191625b9b2a3c02c75a4e727
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180885"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435209"
 ---
-# <a name="make-manual-corrections-to-vat"></a>Corrections manuelles de la TVA
+# <a name="make-manual-corrections-to-vat-in-the-belgian-version"></a>Corrections manuelles de la TVA dans la version belge
 Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA.  
 
 ## <a name="to-make-manual-corrections-to-vat"></a>Pour apporter des corrections manuelles à la TVA  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Aperçu déclaration TVA**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Aperçu déclaration TVA**, puis choisissez le lien associé.  
 2.  Sélectionnez la ligne qui doit être corrigée. Vous pouvez corriger la TVA pour le **Type** de ligne **Lignes** et **TVA**.  
 3.  Pour effectuer la correction, sélectionnez le champ **Montant de la correction**. La page **Liste des corrections TVA manuelles** s'ouvre.  
 4.  Choisissez l'action **Modifier la liste**. Dans la page **Liste des corrections TVA manuelles**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -47,3 +47,6 @@ Vous pouvez apporter des corrections à des écritures TVA validées sans valide
  [TVA belge](belgian-vat.md)   
  [Imprimer les déclarations de TVA périodiques](how-to-print-periodic-vat-reports.md)   
  [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
