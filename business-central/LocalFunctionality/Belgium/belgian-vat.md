@@ -2,7 +2,6 @@
 title: TVA belge
 description: Les améliorations belges de la fonction de déclaration de TVA vous permettent d'imprimer facilement des détails sur les transactions TVA.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11300, 11301,11303,11306,11307,11308
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 2cd486d2e053fea6359a442a79447548a53afb61
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: 8058bb825d85fb58d4e55bf46629c833e8079b55
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947117"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147398"
 ---
 # <a name="belgian-vat"></a>TVA belge
 

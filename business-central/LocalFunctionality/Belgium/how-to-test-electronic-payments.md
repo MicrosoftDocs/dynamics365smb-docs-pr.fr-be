@@ -2,7 +2,6 @@
 title: Tester les paiements électroniques [BE]
 description: Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'eventuelles erreurs avant de les valider.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 7b8ed40fa13eb6446dc2bfac62e74c007629c498
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 85004c75e177a8367680a976e15779a9ed193257
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972978"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146038"
 ---
 # <a name="test-electronic-payments-in-the-belgian-version"></a>Tester les paiements électroniques dans la version belge
 

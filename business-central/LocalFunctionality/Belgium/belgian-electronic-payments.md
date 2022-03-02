@@ -2,18 +2,17 @@
 title: Paiements électroniques, Belgique
 description: Dans le module bancaire électronique de la version belge de Business Central, vous pouvez effectuer des paiements électroniques nationaux, internationaux, SEPA et SEPA hors euro.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
 ms.search.form: 2000006
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a562c24ce6546648888dcff81c48b5670a26675
-ms.sourcegitcommit: f7e46d0f7b16d3b41e751aa9f337da18d37c11db
+ms.openlocfilehash: bebe5e164d3a52bee210e7678320ffdff50a682a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947074"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149311"
 ---
 # <a name="belgian-electronic-payments"></a>Paiements électroniques, Belgique
 

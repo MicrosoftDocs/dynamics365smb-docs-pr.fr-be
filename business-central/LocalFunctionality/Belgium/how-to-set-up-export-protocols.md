@@ -4,7 +4,6 @@ description: Avant d'utiliser la banque électronique, vous devez paramétrer de
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 74cb2cb9f27f4edddcd97ea96b4d902aa041ba8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: daa6a537b801c830ccf5098c602da6a841b6caee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438464"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140077"
 ---
 # <a name="set-up-export-protocols-in-the-belgian-version"></a>Paramétrer les protocoles d'exportation dans la version belge
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  

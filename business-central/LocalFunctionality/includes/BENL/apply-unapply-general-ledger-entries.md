@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c218991f26466c86ce961241e7edf653377c8f9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 525fefb060fa001004645ac5376ec3f5838450c4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435870"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133500"
 ---
 En lettrant des écritures comptables temporaires, les sociétés peuvent utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
 

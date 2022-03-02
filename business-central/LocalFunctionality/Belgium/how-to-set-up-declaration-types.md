@@ -2,7 +2,6 @@
 title: Paramétrer des types de déclarations [BE]
 description: Dans Business Central, il existe deux types de déclaration dans la version belge, la déclaration simplifiée et la déclaration étendue.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: ef5feeeef60146b608992cf700c3506a41adb475
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: bdc9190548f4144942d66a1f5ef1201a8dfdd9b0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971504"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145121"
 ---
 # <a name="set-up-declaration-types-in-the-belgian-version"></a>Paramétrer des types de déclarations dans la version belge
 

@@ -2,7 +2,6 @@
 title: Domiciliation européenne belge [BE]
 description: Une domiciliation est un accord financier entre vous et vos clients, qui vous permet de collecter automatiquement les paiements pour les factures du client.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 6643d03b5ef5fc6934656288e8a81749fe8578a5
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 84f19c1a7f1d554e3b9e9d2ba93cb140a81e2af3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101183"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134485"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Domiciliation européenne
 

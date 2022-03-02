@@ -2,7 +2,6 @@
 title: Procédure d'importation des relevés CODA [BE]
 description: Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans Business Central avec Importer fichier CODA.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1b9329b974f04d6564d67109c1706bd510357d9f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fbe3642c26a21d161eb8237afef4472e90ca9d52
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442922"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129385"
 ---
 # <a name="import-coda-statements-in-the-belgian-version"></a>Importer des relevés bancaires CODA dans la version belge
 Lorsque vous recevez un relevé CODA de votre banque, vous devez l'importer dans [!INCLUDE[prod_short](../../includes/prod_short.md)]. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).  

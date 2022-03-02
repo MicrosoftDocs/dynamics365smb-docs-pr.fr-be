@@ -2,7 +2,6 @@
 title: Transférer et publier automatiquement des relevés CODA [BE]
 description: Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer les lignes relevé CODA vers une feuille financière.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 2000040
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 05d8c1c08a229b4ddf75ef7d5823462b334397ab
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9dc014a2c2269d09ee3111beadd1033365a7a732
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971542"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136715"
 ---
 # <a name="automatically-transfer-and-post-coda-statements-in-the-belgian-version"></a>Transférer et publier automatiquement des relevés CODA dans la version belge
 

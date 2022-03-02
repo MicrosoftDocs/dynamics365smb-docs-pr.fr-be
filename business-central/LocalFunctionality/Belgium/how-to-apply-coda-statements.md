@@ -2,7 +2,6 @@
 title: Lettrer les relevés CODA [BE]
 description: Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 2000040
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9c66b692778422ea90f1e3ad9539a9e740f7f23a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 1d424f76f6eb539d97d687db859e416640e42ce9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973724"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136718"
 ---
 # <a name="apply-coda-statements-in-the-belgian-version"></a>Lettrer des relevés bancaires CODA dans la version belge
 

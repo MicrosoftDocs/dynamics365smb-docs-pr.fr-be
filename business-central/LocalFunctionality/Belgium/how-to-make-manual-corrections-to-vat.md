@@ -2,7 +2,6 @@
 title: Corrections manuelles de la TVA [BE]
 description: Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 2fedbc2cda35e8e8191625b9b2a3c02c75a4e727
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 251452e2934b5027fb85a6791b4ed444d2ac09e8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435209"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134479"
 ---
 # <a name="make-manual-corrections-to-vat-in-the-belgian-version"></a>Corrections manuelles de la TVA dans la version belge
 Vous pouvez apporter des corrections à des écritures TVA validées sans valider la correction dans les écritures TVA ou comptables. Cela est utile si vous devez modifier le total des montants TVA des lignes vente ou achat sans modifier la base de TVA. Par exemple, vous pouvez corriger manuellement la TVA si vous recevez une facture d'un fournisseur qui n'a pas calculé correctement la TVA.  

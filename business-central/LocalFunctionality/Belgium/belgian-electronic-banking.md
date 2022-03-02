@@ -2,7 +2,6 @@
 title: Banque électronique belge
 description: La banque électronique vous permet d'échanger des données par voie électronique avec des institutions financières belges. Cela garantit une plus grande vitesse de traitement et permet d'éviter les erreurs.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 11308
 ms.date: 01/10/2022
 ms.author: edupont
-ms.openlocfilehash: ec28c51ba356c279d89a3283fb94dd19e4357d97
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: eab0597a3fc77937a7be86a22268a5aef8646bd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970877"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129388"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
 
