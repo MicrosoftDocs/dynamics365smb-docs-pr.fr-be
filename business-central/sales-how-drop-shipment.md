@@ -2,6 +2,7 @@
 title: Lier une commande vente à une commande achat pour une livraison directe (contient une vidéo) | Microsoft Docs
 description: Décrit comment créer une commande vente liée à une commande achat pour permettre la livraison directe du fournisseur au client.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e4ce5185ba1a672784f2a1c893de82c3da69ee5
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144840"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939989"
 ---
 # <a name="make-drop-shipments"></a>Effectuer des livraisons directes
 

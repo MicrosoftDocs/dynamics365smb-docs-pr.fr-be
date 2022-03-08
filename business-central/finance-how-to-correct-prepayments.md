@@ -1,20 +1,21 @@
 ---
-title: Corriger des acomptes
-description: Vous pouvez apporter une correction à une commande après avoir validé une facture d’acompte pour la commande et ajouter de nouvelles lignes à une commande après avoir émis un acompte.
+title: 'Procédure : corriger des acomptes | Microsoft Docs'
+description: Vous pouvez apporter une correction à une commande après avoir validé une facture acompte pour la commande. Vous pouvez ajouter des lignes à une commande après avoir émis un acompte, puis vous pouvez valider une autre facture acompte, mais vous ne pouvez pas supprimer une ligne d’une commande après avoir facturé un acompte pour la ligne.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47ff4066e41cc225f7d02556b5e30f9f6d9eaa5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0ed9bed71ca73e25197869f1f670251ae523648c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138557"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783547"
 ---
 # <a name="correct-prepayments"></a>Corriger des acomptes
 
@@ -27,7 +28,7 @@ Vous pouvez apporter une correction à une commande après avoir validé une fac
 
 La procédure suivante explique comment émettre un avoir acompte pour annuler tous les acomptes facturés pour une commande vente.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez la commande vente appropriée.
 3. Choisissez l’action **Acompte**, puis l’action **Valider avoir acompte** ou **Valider et imprimer avoir acompte**.  
 4. Sur la page **Avoir vente**, continuez à corriger les écritures appropriées, comme pour toute avoir vente. Pour plus d’informations, reportez-vous à [Traiter les retours ou annulations de ventes](sales-how-process-sales-returns-cancellations.md).  

@@ -1,20 +1,21 @@
 ---
-title: Gestion des assemblages
-description: Soutenez les entreprises qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans avoir besoin de fonctionnalités de fabrication.
+title: Gestion des assemblages | Microsoft Docs
+description: 'Gérez les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, mais avec des fonctions permettant d’assembler les articles. Ces fonctions s’intègrent à celles existantes : ventes, planification, réservations et entreposage.'
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b734d867401697b1c554f321d5b153f093dd5cd8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130657"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753247"
 ---
 # <a name="assembly-management"></a>Gestion des assemblages
 Pour prendre en charge les sociétés qui fournissent des produits à leurs clients en combinant des composants dans des processus simples sans recourir aux fonctionnalités de fabrication, [!INCLUDE[prod_short](includes/prod_short.md)] inclut des fonctions permettant d’assembler les articles. Ces fonctions s’intègrent à celles existantes \(ventes, planification, réservations et entreposage\).  
@@ -53,11 +54,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Stock](inventory-manage-inventory.md)  
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
 [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)  
-<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
-<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
+[Procédure pas à pas : planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)  
+[Procédure pas-à-pas : vente, assemblage et expédition de kits](walkthrough-selling-assembling-and-shipping-kits.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

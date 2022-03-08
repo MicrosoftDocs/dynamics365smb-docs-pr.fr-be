@@ -1,20 +1,21 @@
 ---
-title: Créer des soldes ouverts feuille
+title: 'Procédure : créer des soldes ouverts feuille'
 description: Les traitements par lots qui sont livrés pour aider au transfert des soldes de compte hérité vers une société nouvellement configurée. Vous pouvez facilement transférer ces données avec des validations de feuille.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2022
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: de528dd08911b49f7bf09dc541615da93fd190cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145048"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319551"
 ---
 # <a name="create-journal-opening-balances"></a>Créer des soldes ouverts feuille
 
@@ -44,9 +45,6 @@ Avant de commencer, vérifiez que vous utilisez la page Tableau de bord Administ
 
 > [!TIP]
 > Vous pouvez utiliser les mêmes traitements par lots pour ajouter des soldes d’ouverture chaque fois que vous enregistrez un nouveau client ou fournisseur avec lequel vous avez déjà traité mais qui n’est pas enregistré dans [!INCLUDE [prod_short](includes/prod_short.md)]. Recherchez simplement la tâche appropriée, puis choisissez le lien approprié.
-
-> [!IMPORTANT]
-> Notamment pour les soldes d’ouverture des comptes bancaires, ne suivez pas les étapes de cet article pour valider directement sur les comptes généraux associés aux comptes bancaires concernés. Pour plus d’informations, reportez vous à [Configuration de comptes bancaires](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Voir aussi
 

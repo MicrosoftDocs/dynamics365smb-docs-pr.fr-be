@@ -1,20 +1,21 @@
 ---
-title: 'Procédure : assembler des articles'
-description: Si le champ Système réappro. de la fiche client contient Assemblage, la méthode par défaut d’approvisionnement de l’article consiste à l’assembler à partir des composants définis.
+title: 'Procédure : assembler des articles | Microsoft Docs'
+description: Si le champ **Système réappro.** de la fiche client contient **Assemblage**, la méthode par défaut d’approvisionnement de l’article consiste à l’assembler à partir des composants définis et potentiellement par une ressource définie.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04c8296089847b7ef1ab051158db578413212be9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: abf02afda9528d3dac3e59b2def34bd89090d9ae
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146978"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386737"
 ---
 # <a name="assemble-items"></a>Assembler des articles
 Si le champ **Système réappro.** de la fiche client contient **Assemblage**, la méthode par défaut d’approvisionnement de l’article consiste à l’assembler à partir des composants définis et potentiellement par une ressource définie.  
@@ -40,7 +41,7 @@ Ces options de configuration sont les paramètres par défaut qui gèrent le tra
 Dans cette procédure, vous allez créer et traiter un ordre d’assemblage pour des articles qui sont assemblés pour stock, autrement dit sans commande vente liée. Les étapes incluent le lancement de l’ordre d’assemblage, le traitement des éventuels problèmes de disponibilité des composants et la validation partielle du résultat d’assemblage.
 
 ## <a name="to-assemble-an-item"></a>Pour assembler un article  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**. La page **Nouvel ordre d’assemblage** s’ouvre.  
 3.  Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Dans le champ **N° article**, sélectionnez l’élément d’assemblage à traiter. Le champ est filtré pour n’afficher que les articles qui sont configurés pour assemblage, ce qui signifie qu’une nomenclature d’assemblage leur est affectée.  

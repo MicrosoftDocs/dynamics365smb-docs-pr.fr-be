@@ -3,18 +3,19 @@ title: 'Dépannage : accès à la caméra et à l’emplacement'
 description: Cet article décrit comment résoudre les problèmes d’accès à la caméra et aux informations de localisation dans Business Central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.service: dynamics365-business-central
+ms.openlocfilehash: 68ec41a42898688cbebea341782f0e0bc265341a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138219"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393787"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Dépannage : accès à la caméra et à l’emplacement
 

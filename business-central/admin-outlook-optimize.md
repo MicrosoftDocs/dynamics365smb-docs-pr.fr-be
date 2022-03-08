@@ -2,6 +2,7 @@
 title: Optimisation d’Outlook pour votre boîte de réception professionnelle
 description: Découvrez ce que vous pouvez faire pour améliorer l’expérience avec la boîte de réception professionnelle dans Microsoft Outlook.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143985"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6064869"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimisation d’Outlook pour votre boîte de réception professionnelle 
 
@@ -29,7 +30,7 @@ Effectuez une mise à jour vers Outlook version 2012 ou une version plus récent
 
 ### <a name="how-to-check-your-version-of-outlook"></a>Comment vérifier votre version d’Outlook
 
-Que vous utilisiez Office 2019 ou Microsoft 365, suivez ce guide de support Microsoft pour vérifier votre version d’Outlook :  
+Que vous utilisiez Office 2019 ou Microsoft 365, suivez ce guide de support Microsoft pour vérifier votre version d’Outlook :  
 
 [À propos d’Office : quelle version d’Office est-ce que j’utilise ?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
@@ -49,7 +50,7 @@ Pour vérifier si Microsoft Edge WebView2 est installé sur un ordinateur, proc�
 
 Depuis le menu Démarrer :
 
-1. Choisissez **Démarrer** ![Démarrage de Windows.](media/windows-start-icon.png "Icône de démarrage de Windows") > **Paramètres** ![Paramètres Windows](media/windows-settings-icon.png "Icône des paramètres Windows") > **Applications et fonctionnalités**.
+1. Choississez **Démarrer** ![Démarrage de Windows](media/windows-start-icon.png "Icône de démarrage de Windows") > **Paramètres** ![Paramètres Windows](media/windows-settings-icon.png "Icône des paramètres Windows") > **Applications et fonctionnalités**.
 2. Dans la zone de recherche, tapez **WebView2**. Si Microsoft Edge WebView2 est installé, vous verrez une entrée appelée **Microsoft Edge WebView2 Runtime**.
 
 Depuis le Panneau de configuration :
@@ -70,12 +71,12 @@ Depuis le Panneau de configuration :
 
 ## <a name="use-a-supported-browser"></a>Utiliser un navigateur compatible
 
-Envisagez d’utiliser Outlook sur le web dans l’un des navigateurs pris en charge par Business Central. Pour consulter la liste des navigateurs pris en charge, consultez [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md#browsers).
+Envisagez d’utiliser Outlook sur le web dans l’un des navigateurs pris en charge par Business Central. Pour consulter la liste des navigateurs pris en charge, consultez [Configuration minimale requise pour l’utilisation de Business Central](product-requirements.md#browsers).
 
 ## <a name="see-also"></a>Voir aussi
 
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
-[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
+[Obtention de Business Central sur mon périphérique mobile](install-mobile-app.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Finances](finance.md)  
 [Ventes](sales-manage-sales.md)  

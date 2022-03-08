@@ -1,24 +1,25 @@
 ---
-title: Comment configurer les comptes bancaires pour CODA [BE]
+title: Comment configurer les comptes bancaires pour CODA
 description: Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer certains codes.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/17/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7ed2c6b29ad7fda690822cbd600c541da3cfc6af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2e8202147270fee95e3e549d4504e9e74cfb4811
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129382"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778444"
 ---
-# <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Configurer des comptes bancaires pour CODA dans la version belge
+# <a name="set-up-bank-accounts-for-coda"></a>Configurer des comptes bancaires pour CODA
 Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer les codes suivants :  
 
 - Numéro de protocole  
@@ -27,7 +28,7 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
 
 ## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Pour configurer des numéros de protocole et des codes version  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Comptes bancaires**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Modifier**.  
 3.  Renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -42,6 +43,3 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
  [Relevés bancaires CODA](coda-bank-statements.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Importer des relevés CODA](how-to-import-coda-statements.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

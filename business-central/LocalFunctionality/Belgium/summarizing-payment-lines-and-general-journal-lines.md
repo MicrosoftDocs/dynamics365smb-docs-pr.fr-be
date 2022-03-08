@@ -1,20 +1,20 @@
 ---
-title: Lignes règlement et lignes feuille comptabilité [BE]
-description: Business Central totalise les lignes règlement et les lignes feuille pour paiements nationaux, internationaux, SEPA et hors euro.
+title: Résumé des lignes règlement et des lignes feuille comptabilité
+description: Business Central totalise les lignes règlement et les lignes feuille.
 author: SorenGP
-ms.topic: conceptual
-ms.search.form: 11308
-ms.date: 06/25/2021
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c3107ff689779de28d6b844dc5f229d4e58ae15d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d272ae25eb43533ce7285c29473ffcaac6e8464c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749715"
 ---
-# <a name="summarizing-payment-lines-and-general-journal-lines-in-the-belgian-version"></a>Résumé des lignes règlement et des lignes feuille comptabilité dans la version belge
-
+# <a name="summarizing-payment-lines-and-general-journal-lines"></a>Résumé des lignes règlement et des lignes feuille comptabilité
 Business Central totalise les lignes règlement et les lignes feuille pour les types de paiements suivants :  
 
 - Paiements nationaux  
@@ -22,8 +22,7 @@ Business Central totalise les lignes règlement et les lignes feuille pour les t
 - Paiements SEPA  
 - Paiements SEPA hors euro  
 
-## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Transfert des lignes feuille paiement vers la feuille comptabilité
-
+## <a name="how-payment-journal-lines-are-transferred-to-the-general-journal"></a>Transfert des lignes feuille paiement vers la feuille comptabilité  
 Lorsque vous exportez les lignes feuille paiement vers un fichier, [!INCLUDE[prod_short](../../includes/prod_short.md)] transfère les lignes feuille paiement vers la feuille comptabilité spécifiée. Par défaut, une ligne feuille comptabilité est créée pour chaque ligne feuille paiement.  
 
 Les deux champs suivants de la page **Paramétrage des opérations bancaires électroniques** affectent la manière dont les lignes paiement sont totalisées :  
@@ -37,23 +36,20 @@ Si vous avez activé la case à cocher **Totaliser lignes feuille compta.** dans
 
 - Les lignes feuille paiement contenant un message au format standard (qui a réussi le test MOD97), qui définit le champ **Message au format standard** sur Vrai dans la feuille opérations bancaires électroniques.
 
-## <a name="example-1"></a>Exemple 1
-
+## <a name="example-1"></a>Exemple 1  
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. [!INCLUDE[prod_short](../../includes/prod_short.md)] crée :  
 
 - Une ligne paiement combinée dans un fichier XML qui contient un message de paiement concaténé. L'espace blanc est le séparateur.  
 - Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
-## <a name="example-2"></a>Exemple 2
-
+## <a name="example-2"></a>Exemple 2  
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est désactivée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[prod_short](../../includes/prod_short.md)] crée :  
 
 - Deux lignes paiement combinées dans un fichier XML. La première ligne paiement contient les premiers messages de paiement concaténés. La deuxième ligne paiement contient le message de paiement de la troisième ligne.  
 
 - Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
-## <a name="example-3"></a>Exemple 3
-
+## <a name="example-3"></a>Exemple 3  
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est également activée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[prod_short](../../includes/prod_short.md)] crée :  
 
 - Une ligne paiement combinée dans un fichier XML qui contient deux messages de paiement concaténés. Les points de suspension (…) sont utilisés pour indiquer que le message est tronqué.  
@@ -64,11 +60,7 @@ Selon la structure XML, les paiements sont totalisés par numéro de compte, num
 
 La valeur EndToEndId dans le message SEPA est extraite du message de paiement et peut être tronquée à la longueur maximale de 45 caractères.  
 
-## <a name="see-also"></a>Voir aussi
-
+## <a name="see-also"></a>Voir aussi  
  [Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Configuration de Finance](../../finance-setup-finance.md)  
  [Enregistrer des achats](../../purchasing-how-record-purchases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

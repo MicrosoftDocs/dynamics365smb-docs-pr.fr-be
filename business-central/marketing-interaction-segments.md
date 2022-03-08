@@ -1,22 +1,23 @@
 ---
-title: Effectuer le suivi des segments et des interactions correspondantes
+title: Effectuer le suivi des segments et des interactions correspondantes| Microsoft Docs
 description: En savoir plus sur la création de segments pour définir des groupes de contacts et spécifier des interactions pour des segments.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5139,
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a363007ece179430949d0fc0c62cb9df3fc9dac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131418"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923658"
 ---
 # <a name="manage-interactions-for-segments"></a>Gérer les interactions pour les segments
 La page **Segment** est un type de feuille activité dans laquelle vous pouvez effectuer les opérations suivantes :
@@ -51,6 +52,3 @@ Sur la page **Segments journalisés**, vous pouvez choisir de créer un suivi se
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
 [Création et gestion des contacts](marketing-contacts.md)  
 [Utilisation de Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

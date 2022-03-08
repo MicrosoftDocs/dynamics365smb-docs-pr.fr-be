@@ -1,20 +1,21 @@
 ---
-title: 'Procédure : créer des commandes spéciales'
-description: Découvrez comment créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier.
+title: 'Procédure : créer des commandes spéciales | Microsoft Docs'
+description: Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l’article à votre entrepôt et vous pouvez ensuite l’expédier à votre client seul ou avec d’autres articles issus d’autres commandes.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f04ac444f807a778cbda03b7062a5c4e23ea8386
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778435"
 ---
 # <a name="create-special-orders"></a>Créer des commandes spéciales
 Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l’article à votre entrepôt et vous pouvez ensuite l’expédier à votre client seul ou avec d’autres articles issus d’autres commandes.  
@@ -24,12 +25,12 @@ Dans le cadre d’une commande spéciale, la commande achat et la commande vente
 Pour pouvoir utiliser cette fonction, vous devez d’abord configurer les fiches client, fournisseur, et article nécessaires à la commande.  
 
 ## <a name="to-create-a-special-order"></a>Pour créer une commande spéciale  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commande vente**, puis sélectionnez le lien associé.  
+1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commande vente**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. Créez et renseignez une commande vente pour l’article. Pour en savoir plus, voir [Vendre des produits](sales-how-sell-products.md).
 3.  Sous le raccourci **Lignes**, renseignez la ligne vente. Dans le champ **Procédure achat**, sélectionnez une procédure achat dont le champ **Commande spéciale** est sélectionné.
 
     Vous devez maintenant créer une commande achat à partir d’une demande achat.  
-4. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demande d’achat**, puis sélectionnez le lien associé.  
+4. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Demande achat**, puis sélectionnez le lien associé.  
 5. Choisissez l’action **Commande spéciale**, puis choisissez l’option **Extraire commandes vente**.  
 6.  Sur la page **Extraire commandes vente**, affichez les résultats dans lesquels le **N° document** correspond au numéro de commande vente. Cliquez sur le bouton **OK**. Une ligne demande achat est créée pour l’article.  
 7.  Dans la ligne demande achat, sélectionnez **Nouveau** dans le champ **Message d’action**.  

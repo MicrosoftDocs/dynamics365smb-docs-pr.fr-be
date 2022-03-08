@@ -1,28 +1,28 @@
 ---
-title: Création des budgets des coûts
-description: Cette rubrique décrit l’emplacement où créer et analyser les budgets des coûts. La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale.
+title: Création des budgets des coûts | Microsoft Docs
+description: Cette rubrique décrit l’emplacement où créer et analyser les budgets des coûts.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 64f5b4ced195c44b3caeb4127d89624df23a84e1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145693"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391337"
 ---
 # <a name="creating-cost-budgets"></a>Création des budgets des coûts
-
 La budgétisation en comptabilité analytique ressemble à la budgétisation en comptabilité générale. Un budget de coûts est créé en fonction des types de coûts, tel qu’un budget est créé pour les écritures comptables en fonction des comptes généraux.  
 
 Un budget de coûts est créé pour une certaine période, par exemple, un exercice comptable. Vous pouvez créer autant de budgets de coûts que vous le souhaitez. Vous pouvez créer un budget de coûts manuellement, en important un budget de coûts ou en copiant un budget de coûts existant comme base budgétaire. Pour plus d’informations, voir [Créer des budgets comptabilité](finance-how-create-budgets.md).
 
-Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") pour trouver une page, puis lisez l’info-bulle pour chacune.
+Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") pour rechercher une page et lire l’info-bulle de chacune.
 
 |À|Voir|  
 |--------|---------|  
@@ -32,8 +32,7 @@ Vous utilisez les pages suivantes pour créer et analyser les budgets de coûts.
 |Consultez les registres du budget des coûts et les écritures correspondantes.|Page **Registres du budget des coûts**|  
 |Imprimez les comparaisons budgétaires de coûts à l’aide de divers états.|État **Budget/Solde comptabilité analytique**<br /><br /> État **Budget/Relevé comptabilité analytique**<br /><br /> État **Budget des coûts par centre de coûts**<br /><br /> État **Budget des coûts par coûts associés**|  
 
-## <a name="see-also"></a>Voir aussi
-
+## <a name="see-also"></a>Voir aussi  
 [Comptabilité pour les coûts](finance-manage-cost-accounting.md)  
 [Créer des budgets comptabilité](finance-how-create-budgets.md)  
 [Terminologie en comptabilité analytique](finance-terminology-in-cost-accounting.md)   

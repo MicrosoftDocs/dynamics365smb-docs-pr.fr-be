@@ -1,28 +1,30 @@
 ---
-title: Configurer des codes transaction IBLC-BLWI [BE]
-description: Pour traiter les paiements électroniques, vous devez définir des codes de transaction en fonction des exigences de l'Institut d'échange belgo-luxembourgeois.
+title: Comment configurer les codes transaction IBLC/BLWI
+description: Pour pouvoir traiter les paiements électroniques, vous devez configurer des codes transaction en fonction des exigences du Belgian-Luxembourg Exchange Institute.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 2000002
-ms.date: 06/17/2021
-ms.author: edupont
-ms.openlocfilehash: a81ecd69565aa2c7a4e09ba17e599f9f7666d096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 2908f8186cd09c9e8a4b31ae76238e91c3dcefb4
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148003"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676719"
 ---
-# <a name="set-up-iblc-blwi-transaction-codes-in-the-belgian-version"></a>Configurer des codes transaction IBLC-BLWI dans la version belge
-Pour pouvoir traiter les paiements électroniques, vous devez configurer des codes transaction en fonction des exigences du Belgian-Luxembourg Exchange Institute. Il s'agit de codes d'identification internationaux pour les différents types de transactions paiement. Les codes IBLC/BLWI sont uniquement utilisés pour les paiements internationaux.  
+# <a name="set-up-iblc-blwi-transaction-codes"></a>Configurer des codes transaction IBLC-BLWI
+Pour traiter les paiements électroniques, vous devez définir des codes de transaction en fonction des exigences de l'Institut d'échange belgo-luxembourgeois. Il s'agit de codes d'identification internationaux pour les différents types de transactions paiement. Les codes IBLC/BLWI sont uniquement utilisés pour les paiements internationaux.  
 
 ## <a name="to-set-up-iblcblwi-transaction-codes"></a>Pour configurer les codes transaction IBLC/BLWI  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Codes transaction IBLC-BLWI**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Codes transaction IBLC/BLWI**, puis sélectionnez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
 3.  Entrez le **Code transaction** et la **Description**.  
 4.  Cliquez sur le bouton **OK**.  
@@ -31,6 +33,3 @@ Pour pouvoir traiter les paiements électroniques, vous devez configurer des cod
  [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
  [Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
  [Configurer des comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

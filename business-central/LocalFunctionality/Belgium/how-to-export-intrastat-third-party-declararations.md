@@ -2,6 +2,7 @@
 title: Exporter les déclarations de tiers intracomm. [BE]
 description: En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.
 author: sorenfriisalexandersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: e51d65b58c8e9a63f1c5aeacce0880c4906bf0b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5574ac24d0ad0006e3b95b0ef0bcfaa97a1524b6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148015"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973007"
 ---
 # <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Exporter des déclarations tierces intracommunautaires dans la version belge
 

@@ -1,73 +1,57 @@
 ---
-title: Utilisation des systèmes de saisie automatisée (ADCS)
-description: Vous pouvez utiliser votre système de saisie automatique des données (ADCS) pour enregistrer le mouvement des articles dans l’entrepôt et pour enregistrer certaines activités du journal.
+title: Utiliser des systèmes de saisie automatisée (ADCS) | Microsoft Docs
+description: Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 11/20/2019
+ms.author: sgroespe
+ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144268"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832348"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Utilisation des systèmes de saisie automatisée (ADCS)
 
 > [!NOTE]
-> La solution ADCS offre un moyen pour [!INCLUDE[prod_short](includes/prod_short.md)] de communiquer avec des appareils portables via des services Web. Vous devez travailler avec un partenaire Microsoft qui peut fournir le lien entre le service Web et l’appareil portable spécifique. 
+> Dans la version standard de [!INCLUDE[d365fin](includes/d365fin_md.md)], ADCS fonctionne uniquement dans les déploiements sur site. Toutefois, un partenaire Microsoft peut le faire fonctionner dans les déploiements en ligne à l'aide de Power Apps ou une application similaire.
 
-Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l’entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires. ADCS implique généralement la numérisation des codes à barres.
+Vous pouvez utiliser votre système de saisie automatisée pour enregistrer le mouvement des articles de l'entrepôt et certaines activités de la feuille, notamment les ajustements de quantité de la feuille article entrepôt et les inventaires. ADCS implique généralement la numérisation des codes à barres.
 
-Pour utiliser votre système de saisie automatisée, vous devez attribuer un identifiant article à chaque article de l’entrepôt. Vous devez également configurer les écrans, fonctions de portable, échanges de données, et spécifier des paramètres pour les champs contrôlant l’ADCS. Vous spécifiez s’il faut utiliser l’ADCS sur la fiche magasin d’un entrepôt.
+Pour utiliser votre système de saisie automatisée, vous devez attribuer un identifiant article à chaque article de l'entrepôt. Vous devez également configurer les écrans, fonctions de portable, échanges de données, et spécifier des paramètres pour les champs contrôlant l'ADCS. Vous spécifiez s'il faut utiliser l'ADCS sur la fiche magasin d'un entrepôt.
 
-En fonction des besoins de votre entrepôt, définissez la quantité d’informations affichées sur le terminal de saisie portable lors de la configuration des écrans pour un terminal de saisie portable donné. Voici des exemples d’informations que vous pouvez afficher :  
+En fonction des besoins de votre entrepôt, définissez la quantité d'informations affichées sur le terminal de saisie portable lors de la configuration des écrans pour un terminal de saisie portable donné. Voici des exemples d'informations que vous pouvez afficher :  
 
-- Données des tables dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple la liste des documents prélèvement à partir desquels l’utilisateur peut effectuer une sélection.  
+- Données des tables dans [!INCLUDE[d365fin](includes/d365fin_md.md)], par exemple la liste des documents prélèvement à partir desquels l'utilisateur peut effectuer une sélection.  
 - Trier les informations.  
-- Messages affichant les confirmations ou erreurs sur les activités effectuées et enregistrées par l’utilisateur de périphérique mobile.
+- Messages affichant les confirmations ou erreurs sur les activités effectuées et enregistrées par l'utilisateur de périphérique mobile.
 
-## <a name="to-enable-web-services-for-adcs"></a>Pour activer les services Web pour ADCS
-Pour utiliser Automated Data Capture System, vous devez activer le service Web ADCS.  
+Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](/dynamics-nav/Configuring-Automated-Data-Capture-System) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
 
-## <a name="to-enable-and-publish-the-adcs-web-service"></a>Pour activer et publier le service Web ADCS  
-
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Services Web**, puis choisissez le lien associé.
-2. Sélectionnez l’action **Nouveau**.  
-3. Sur la page **Services Web**, entrez les informations suivantes sur une nouvelle ligne :  
-
-    |Champ|Valeur|  
-    |---------------------------------|-----------|  
-    |**Type d’objet**|Codeunit|  
-    |**ID d’objet**|7714|  
-    |**Nom du service**|ADCS **Important :** Vous devez nommer le service **ADCS**.|  
-
-5. Cochez la case **Publié**.  
-6. Cliquez sur le bouton **OK**.  
-
-## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Pour configurer le module Gestion d’entrepôt  
+## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Pour configurer le module Gestion d'entrepôt  
 Pour utiliser le système de saisie automatisée, vous devez indiquer quels entrepôts utilisent cette technologie.  
 
 > [!NOTE]  
->  Il est recommandé de ne pas configurer un entrepôt pour qu’il utilise la saisie automatisée si cet entrepôt utilise également une stratégie de capacité d’emplacement.
+>  Il est recommandé de ne pas configurer un entrepôt pour qu'il utilise la saisie automatisée si cet entrepôt utilise également une stratégie de capacité d'emplacement.
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
-2.  Sélectionnez un entrepôt dans la liste pour laquelle vous souhaitez activer la saisie automatisée, puis sélectionnez l’action **Modifier**.
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasins**, puis sélectionnez le lien associé.
+2.  Sélectionnez un entrepôt dans la liste pour laquelle vous souhaitez activer la saisie automatisée, puis sélectionnez l'action **Modifier**.
 3. Sur la page **Fiche magasin**, cochez la case **Saisie automatisée**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Pour spécifier un article pour utiliser votre système de saisie automatisée  
-À chaque article entrepôt que vous souhaitez utiliser avec le système de saisie automatisée doit être affecté un code d’identification pour le lier à son numéro. Par exemple, vous pouvez utiliser le code barre de l’article comme code d’identification. Un article peut également avoir plusieurs codes d’identification. Cela peut s’avérer utile dans le cas où un article est disponible dans plusieurs unités de mesure (par exemple, des pièces et des palettes). Dans ce cas, il convient d’affecter un code à chaque identifiant.    
+À chaque article entrepôt que vous souhaitez utiliser avec le système de saisie automatisée doit être affecté un code d'identification pour le lier à son numéro. Par exemple, vous pouvez utiliser le code barre de l'article comme code d'identification. Un article peut également avoir plusieurs codes d'identification. Cela peut s'avérer utile dans le cas où un article est disponible dans plusieurs unités de mesure (par exemple, des pièces et des palettes). Dans ce cas, il convient d'affecter un code à chaque identifiant.    
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
-2.  Sélectionnez un élément dans la liste qui fait partie de votre solution ADCS, puis sélectionnez l’action **Modifier**.
-3. Sur la page **Fiche article**, sélectionnez l’action **Identificateurs**.
-4. Sur la page **Identifiants article**, sélectionnez l’action **Nouveau**.
-5. Dans le champ **Code**, spécifiez l’identifiant de l’article. Par exemple, il peut s’agir du numéro de code-barres de l’article.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis sélectionnez le lien associé.  
+2.  Sélectionnez un élément dans la liste qui fait partie de votre solution ADCS, puis sélectionnez l'action **Modifier**.
+3. Sur la page **Fiche article**, sélectionnez l'action **Identificateurs**.
+4. Sur la page **Identifiants article**, sélectionnez l'action **Nouveau**.
+5. Dans le champ **Code**, spécifiez l'identifiant de l'article. Par exemple, il peut s'agir du numéro de code-barres de l'article.  
 
     Vous pouvez également entrer un **code variante** et le code **unité de mesure**.  
 
@@ -76,52 +60,62 @@ Pour utiliser le système de saisie automatisée, vous devez indiquer quels entr
 8.  Pour consulter les informations, choisissez le champ **Code identifiant** pour ouvrir la page **Identifiants article**.
 
 ## <a name="to-add-an-adcs-user"></a>Pour ajouter un utilisateur ADCS  
-Vous pouvez ajouter n’importe quel utilisateur pour l’utilisation d’un système de saisie automatisé (ADCS). Dans ce cas, l’utilisateur doit également fournir un mot de passe. Éventuellement, vous pouvez également indiquer une connexion qui identifie l’utilisateur ADCS en tant que magasinier. Le mot de passe de l’utilisateur ADCS peut être différent du mot de passe d’ouverture de session Windows de l’utilisateur. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
+Vous pouvez ajouter n'importe quel utilisateur pour l'utilisation d'un système de saisie automatisé (ADCS). Dans ce cas, l'utilisateur doit également fournir un mot de passe. Éventuellement, vous pouvez également indiquer une connexion qui identifie l'utilisateur ADCS en tant que magasinier. Le mot de passe de l'utilisateur ADCS peut être différent du mot de passe d'ouverture de session Windows de l'utilisateur. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md).
 
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs ADCS**, puis choisissez le lien associé.  
-2. Sélectionnez l’action **Nouveau**.  
-3.  Dans le champ **Nom**, entrez un nom pour l’utilisateur. Le nom ne peut pas contenir plus de 20 caractères, espaces compris.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs ADCS**, puis sélectionnez le lien associé.  
+2. Sélectionnez l'action **Nouveau**.  
+3.  Dans le champ **Nom**, entrez un nom pour l'utilisateur. Le nom ne peut pas contenir plus de 20 caractères, espaces compris.  
 4.  Entrez un mot de passe dans le champ **Mot de passe**. Le mot de passe est masqué.  
 
-### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Pour spécifier qu’un magasinier est un utilisateur ADCS  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
-2.  Si nécessaire, ajoutez un nouveau magasinier. Pour plus d’informations, voir [Configurer des employés d’entrepôt](warehouse-how-to-set-up-warehouse-employees.md).  
-3.  Choisissez l’action **Modifier la liste**.  
-4.  Sélectionnez un magasinier dans la liste. Dans le champ **Utilisateur ADCS**, cliquez sur la flèche déroulante, puis sélectionnez le nom d’un utilisateur ADCS dans la liste.  
+### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Pour spécifier qu'un magasinier est un utilisateur ADCS  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Magasiniers**, puis sélectionnez le lien associé.  
+2.  Si nécessaire, ajoutez un nouveau magasinier. Pour plus d'informations, voir [Configurer des employés d'entrepôt](warehouse-how-to-set-up-warehouse-employees.md).  
+3.  Choisissez l'action **Modifier la liste**.  
+4.  Sélectionnez un magasinier dans la liste. Dans le champ **Utilisateur ADCS**, cliquez sur la flèche déroulante, puis sélectionnez le nom d'un utilisateur ADCS dans la liste.  
 
 > [!NOTE]  
->  L’entrepôt par défaut du salarié doit utiliser la saisie automatisée.
+>  L'entrepôt par défaut du salarié doit utiliser la saisie automatisée.
 
 ## <a name="to-create-and-customize-miniforms"></a>Pour créer et personnaliser les écrans
-Vous utilisez des écrans pour décrire les informations que vous souhaitez présenter sur un terminal de saisie portable. Par exemple, vous pouvez créer des écrans pour prendre en charge l’activité entrepôt de prélèvement des articles. Après avoir créé un écran, vous pouvez lui ajouter des fonctions pour les actions qu’un utilisateur effectue couramment avec des terminaux de saisie portables, par exemple, déplacer une ligne vers le haut ou vers le bas.  
+Vous utilisez des écrans pour décrire les informations que vous souhaitez présenter sur un terminal de saisie portable. Par exemple, vous pouvez créer des écrans pour prendre en charge l'activité entrepôt de prélèvement des articles. Après avoir créé un écran, vous pouvez lui ajouter des fonctions pour les actions qu'un utilisateur effectue couramment avec des terminaux de saisie portables, par exemple, déplacer une ligne vers le haut ou vers le bas.  
 
-> [!NOTE] 
-> Pour appliquer ou modifier la fonctionnalité d’une fonction d’écran, vous devez créer un codeunit pour le champ **Traité par Codeunit** pour exécuter l’action ou la réponse requise. Vous pouvez en savoir plus sur la fonctionnalité ADCS en examinant les unités de codage, telles que 7705, 7706, 7712 et 7713.  
+Pour appliquer ou modifier la fonctionnalité d'une fonction d'écran, vous devez créer un codeunit ou en modifier un existant pour exécuter l'action ou la réponse requise. Pour en savoir plus sur la fonctionnalité de saisie automatisée, examinez les codeunits tels que 7705, qui permet de gérer la fonctionnalité de connexion. Le codeunit 7705 indique la manière dont un écran de type fiche fonctionne.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Pour créer un écran de saisie automatisée  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écrans**, puis choisissez le lien associé.  
-2. Sélectionnez l’action **Nouveau**.  
-3.  Dans le champ **Code**, saisissez le code de l’écran. Entrez éventuellement des valeurs dans tous les autres champs.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écrans**, puis sélectionnez le lien associé.  
+2. Sélectionnez l'action **Nouveau**.  
+3.  Dans le champ **Code**, saisissez le code de l'écran. Entrez éventuellement des valeurs dans tous les autres champs.  
 
-    Sélectionnez le champ **Mettre à la volée l’écran** pour indiquer que l’écran est le premier formulaire que l’utilisateur voit à l’ouverture de session.  
+    Sélectionnez le champ **Mettre à la volée l'écran** pour indiquer que l'écran est le premier formulaire que l'utilisateur voit à l'ouverture de session.  
 
-4.  Sur le raccourci **Lignes**, définissez les champs figurant sur l’écran. L’ordre dans lequel vous saisissez les lignes est celui dans lequel les lignes apparaîtront sur le terminal de saisie portable.  
+4.  Sur le raccourci **Lignes**, définissez les champs figurant sur l'écran. L'ordre dans lequel vous saisissez les lignes est celui dans lequel les lignes apparaîtront sur le terminal de saisie portable.  
 
 Après avoir créé un écran, vous devez créer des fonctions et associer une fonctionnalité aux différentes entrées de clavier.  
 
-### <a name="to-customize-miniform-functions"></a>Pour personnaliser les fonctions d’écran  
-1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écrans**, puis choisissez le lien associé.  
-2.  Sélectionnez un écran dans la liste, puis sélectionnez l’action **Modifier**.  
-3.  Choisissez l’action **Fonctions**.  
-4.  Dans la liste déroulante **Code fonction**, sélectionnez le code pour représenter la fonction que vous souhaitez associer à l’écran. Par exemple, vous pouvez sélectionner ESC, qui associe une fonctionnalité à l’appui sur la touche Échap.  
+### <a name="to-add-support-for-a-function-key"></a>Pour ajouter la prise en charge d'une touche de fonction  
+1.  Ajoutez le code similaire à l'exemple suivant au fichier the.xsl du plug-in. Cela crée une fonction pour la touche **F6**. Les informations de séquence des touches peuvent être obtenues auprès du fabricant du périphérique.  
+    ```xml  
+    <xsl:template match="Function[.='F6']">  
+      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
+    </xsl:template>  
+    ```  
+2.  Dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)], ouvrez la table 7702 et ajoutez un code représentant la nouvelle touche. Dans cet exemple, créez une clé nommée **F6**.  
+3.  Ajoutez le code C/AL à la fonction appropriée du codeunit spécifique de l'écran afin de gérer la touche de fonction.  
+
+### <a name="to-customize-miniform-functions"></a>Pour personnaliser les fonctions d'écran  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Écrans**, puis sélectionnez le lien associé.  
+2.  Sélectionnez un écran dans la liste, puis sélectionnez l'action **Modifier**.  
+3.  Choisissez l'action **Fonctions**.  
+4.  Dans la liste déroulante **Code fonction**, sélectionnez le code pour représenter la fonction que vous souhaitez associer à l'écran. Par exemple, vous pouvez sélectionner ESC, qui associe une fonctionnalité à l'appui sur la touche Échap.  
+
+Dans l'environnement de développement [!INCLUDE[d365fin](includes/d365fin_md.md)], modifiez le code du champ **Traité par Codeunit** pour créer ou modifier le code visant à exécuter l'action ou la réponse requise.
+
+Pour plus d'informations, voir [Configuration d'un système de saisie automatisée](/dynamics-nav/Configuring-Automated-Data-Capture-System) dans l'Aide destinée aux développeurs et aux professionnels de l'informatique.
 
 ## <a name="see-also"></a>Voir aussi  
 [Gestion d’entrepôt](warehouse-manage-warehouse.md)  
-[Stock](inventory-manage-inventory.md)  
+[STOCKS ET EN-COURS](inventory-manage-inventory.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
-[Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Détails de conception : gestion d'entrepôt](design-details-warehouse-management.md)  
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

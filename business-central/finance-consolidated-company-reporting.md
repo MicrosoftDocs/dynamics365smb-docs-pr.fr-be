@@ -1,21 +1,21 @@
 ---
-title: Consolider les données de plusieurs sociétés
-description: Cette rubrique explique comment vous pouvez consolider les écritures comptables d’au moins deux sociétés séparées (filiales) dans une société consolidée.
+title: Consolider les données de plusieurs sociétés | Microsoft Docs
+description: Obtenez une vue récapitulative de la santé financière entre vos centres de profit.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136127"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747104"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Consolidation des données financières de plusieurs sociétés
 
@@ -55,7 +55,7 @@ Le processus de transfert des chiffres des centres de profit vers la société c
 Vous pouvez tester vos données avant de les transférer vers la société consolidée. [!INCLUDE[prod_short](includes/prod_short.md)] recherche des différences dans les informations des centres de profit et de la société consolidée. Par exemple, si les numéros de compte ou les codes axe sont différents. Vous devez corriger les erreurs avant d’exécuter l’état. Vous pouvez tester la base de données ou, si vous importez des données à partir d’un fichier XML, vous pouvez tester le fichier.  
 
 1. Ouvrez la société consolidée.  
-2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de profit**, puis choisissez le lien associé.  
+2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Centres de profit**, puis sélectionnez le lien associé.  
 3. Exécutez l’une des opérations suivantes :  
 
     * Pour tester un fichier, choisissez l’action **Tester fichier**, entrez le nom du fichier à tester, puis choisissez **Imprimer**.  
@@ -120,6 +120,3 @@ Les écritures exportées contiennent les champs suivants : **N° compte**, **D
 [Gestion des transactions intersociétés](intercompany-manage.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportation de vos données métier vers Excel](about-export-data.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

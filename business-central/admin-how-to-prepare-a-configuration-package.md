@@ -1,20 +1,21 @@
 ---
-title: Préparer un package configuration
-description: Apprenez maintenant à préparer un package configuration RapidStart qui peut aider à configurer de nouvelles sociétés sur la base des données existantes.
+title: Procédure de préparation d’un package de configuration | Microsoft Docs
+description: Apprenez maintenant à configurer un package configuration RapidStart qui peut aider à configurer de nouvelles sociétés sur la base des données existantes.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147099"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781299"
 ---
 # <a name="prepare-a-configuration-package"></a>Préparer un package configuration
 
@@ -55,7 +56,7 @@ Vous pouvez importer un package de configuration qui a été exporté d’une ba
 
 ## <a name="to-create-a-configuration-package"></a>Pour créer un package configuration
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Renseignez les champs du raccourci **Général**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Pour exclure les questionnaires de configuration, les modèles de configuration et les tables de feuille configuration du package, activez la case à cocher **Exclure les tables de configuration**. Sinon, ces tables sont automatiquement ajoutées à la liste de tables de package lorsque vous exportez le package.  
@@ -73,20 +74,8 @@ Spécifiez les champs qui sont inclus dans le package. Par défaut, tous les cha
     - Pour sélectionner uniquement les champs que vous souhaitez inclure, sélectionnez l’action **Effacer Inclus**. Pour ajouter tous les champs, choisissez l’action **Définir inclus**.  
     - Pour indiquer que les données de champ ne doivent pas être validées, désactivez la case à cocher **Champ Valider** pour le champ.  
 
-10. En option, pour appliquer des filtres de traitement aux données de la table ou pour ajouter un codeunit avec un code que vous souhaitez inclure dans le package, choisissez la ligne de la table appropriée, puis choisissez l’action **Règles de traitement**.
-
-    1. Dans la page **Config. règles de traitement des tables**, remplissez les champs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Pour appliquer des filtres aux données, spécifiez l’action appropriée dans le champ **Action**, choisissez l’action **Filtres de traitement**, puis remplissez les champs.  
-
-            Par exemple, les packages de configuration de Microsoft pour les sociétés d’évaluation définissent les filtres de traitement sur les tables **En-tête vente** et **En-tête achat**.
-        - Pour ajouter un codeunit de traitement, spécifiez-le dans le champ **ID codeunit de traitement personnalisé**.
-
-          > [!NOTE]
-          > Ce codeunit doit utiliser la table 8614 *Enregistrement package config* comme paramètre de la méthode `OnRun`.
-    2. Fermez la page.
-11. Déterminez si vous avez introduit des erreurs potentielles en choisissant l’action **Valider package**. Cela peut arriver lorsque vous n’incluez pas les tables sur lesquelles votre configuration se fonde.  
-12. Cliquez sur le bouton **OK**.  
+10. Déterminez si vous avez introduit des erreurs potentielles en choisissant l’action **Valider package**. Cela peut arriver lorsque vous n’incluez pas les tables sur lesquelles votre configuration se fonde.  
+11. Cliquez sur le bouton **OK**.  
 
 Une fois que vous avez redéfini la liste des champs à inclure à partir d’une table, vous pouvez vérifier les résultats sous Excel.  
 
@@ -118,7 +107,7 @@ Vous pouvez enregistrer le fichier avec un nom qui est a un sens pour vous, mais
 
 Après avoir créé un package qui répond à la plupart de vos besoins, vous pouvez l’utiliser comme base de création de packages similaires. Ceci peut accélérer la durée d’implémentation et améliorer l’aspect répétitif de RapidStart Services.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Packages de configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Packages configuration**, puis choisissez le lien associé.  
 2. Sélectionnez un package dans la liste, puis sélectionnez l’action **Copier package**.  
 3. Dans le champ **Nouveau code package**, entrez un code pour le nouveau package.  
 4. Cochez la case **Copier données** si vous souhaitez également copier les données de la base de données depuis le package existant.  
@@ -128,7 +117,7 @@ Après avoir créé un package qui répond à la plupart de vos besoins, vous po
 
 La feuille configuration permet de collecter et de définir les catégories des informations que vous souhaitez utiliser pour configurer une nouvelle société, et réorganiser les tables d’une manière logique. La mise en forme dans la feuille est basée sur une hiérarchie unique : des zones contiennent des groupes, qui contiennent des tables. Les zones et les groupes sont facultatifs, mais nécessaires si vous souhaitez afficher un aperçu du processus de configuration dans le tableau de bord RapidStart Services.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de configuration**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.  
 2. Dans le champ **Type ligne**, choisissez **Zone**. Saisissez un nom descriptif dans le champ **Nom**.  
 3. Dans le champ **Type ligne**, choisissez **Groupe**. Saisissez un nom descriptif dans le champ **Nom**.  
 4. Dans le champ **Type ligne**, choisissez **Table**. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la feuille.  
@@ -147,7 +136,7 @@ Après avoir défini les tables à traiter dans le cadre de votre configuration,
 > [!NOTE]  
 > Vous pouvez également créer un package directement, puis ajouter des tables au package. Pour plus d’informations, voir [Pour créer un package configuration](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de configuration**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
 2. Dans la feuille de configuration, sélectionnez une ligne ou un groupe de lignes que vous souhaitez affecter à un package configuration, puis sélectionnez l’action **Affecter package**.  
 3. Sélectionnez un package de la liste, ou choisissez l’action **Nouveau** pour créer un package, puis cliquez sur le bouton **OK**.  
 
@@ -158,7 +147,7 @@ Après avoir défini les tables à traiter dans le cadre de votre configuration,
 
 Lors de la création d’un package configuration pour une solution, vous pouvez consulter et personnaliser les données de base de données disponibles pour les adapter aux besoins de votre client. La table de base de données doit être associée à une page.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de configuration**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.
 2. Dans la feuille configuration, identifiez les tables dont vous souhaitez afficher ou personnaliser les données.  
 
     > [!NOTE]  
@@ -172,7 +161,7 @@ Lors de la création d’un package configuration pour une solution, vous pouvez
 Une fois que vous avez contrôlé et testé toutes vos informations de paramétrage, vous pouvez copier des données vers votre environnement de production. Vous créez une société dans la même base de données.
 
 1. Ouvrez et initialisez la nouvelle société.  
-2. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille de calcul de configuration**, puis sélectionnez le lien associé.  
+2. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille configuration**, puis choisissez le lien associé.  
 3. Sélectionnez l’action **Copier les données de la société**.  
 4. Sur la page **Copier les données de la société**, choisissez le champ **Copier de**. La page **Sociétés** s’ouvre.  
 5. Sélectionnez la société depuis laquelle copier des données, puis cliquez sur le bouton **OK**. Une liste de tables sélectionnées dans la feuille configuration s’ouvre. Seules les tables qui contiennent des enregistrements sont incluses dans cette liste.

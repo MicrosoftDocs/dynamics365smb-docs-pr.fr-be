@@ -1,94 +1,29 @@
 ---
 title: Référence rapide de raccourcis clavier PC
 description: Feuille de référence imprimable contenant les raccourcis clavier les plus populaires pour les utilisateurs de PC.
-author: bholtorf
-ms.topic: conceptual
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 0e605470c312b93d7ebe7afde1c673bd57fb3615
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/22/2019
+ms.author: sgroespe
+ms.openlocfilehash: f0ada187d21b5ed920fd9e969586f33ed0ffbe8b
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135251"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594231"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Référence rapide de raccourcis clavier - PC uniquement
 
-#### <a name="general"></a>Général
-
-|Appuyez sur les touches suivantes|Pour|  
-|-|-|
-|Alt+F2|Afficher et masquer le volet Récapitulatif|
-|Alt+N|Créer un enregistrement|
-|Alt+Maj+N|Fermer un enregistrement nouvellement créé et en créer un nouveau|
-|Alt+O|Ajouter une nouvelle note pour l’enregistrement sélectionné|
-|Alt+Q|Ouvrir **Dites-moi**|
-|Alt+Haut|Ouvrir une info-bulle ou une erreur de validation|
-|Alt+Flèche bas|Ouvrir un menu déroulant ou une recherche|
-|Alt+T|Ouvrir la page **Mes paramètres**|
-|Alt+Maj+W|Ouvrir la fiche ou le document en cours dans une nouvelle fenêtre|
-|Ctrl+Inser|Insérer une nouvelle ligne sur un document|
-|Ctrl+Suppr|Supprimer la ligne sur un document, un journal ou une feuille de calcul|
-|Ctrl+Maj+F12|Maximiser la partie des éléments de ligne sur une page de document|
-|Ctrl+F1|Ouvrir l’aide de la page<br />Naviguer lors de la personnalisation|
-|Ctrl+Clic|Naviguer lors de la personnalisation|
-|Shift+F12|Ouvrir l’explorateur de rôles, une vue d’ensemble des fonctionnalités|
-|F5/Ctrl+F5|Actualiser/recharger la page|
-|Tab/Maj+Tab|Déplacer le focus sur l’élément suivant/précédent|
-|F6/Maj+F6|Accéder au raccourci/à l’élément suivant|
-
-#### <a name="navigate--select-rows"></a>Naviguer et sélectionner des lignes
-
-|Appuyez sur les touches suivantes|Pour|
-|-|-|
-|Accueil/fin|Aller au premier/dernier champ|
-|Ctrl+Accueil/Fin |Aller à la première/dernière ligne|
-|Ctrl+Haut/Bas|Naviguer sans perdre la sélection|
-|Ctrl+A |Sélectionner tout|
-|Ctrl+Espace|Basculer la sélection de ligne|
-|Ctrl/Shift+Clic|Ajoutez la ou les lignes à la sélection|
-|Maj+Haut/Bas|Ajouter une ligne au-dessus/au dessous de la sélection|
-|Maj+Haut/Bas de page|Sélectionner les lignes visibles ci-dessus/ci-dessous|
-|Ctrl+Enter|Focus hors de la liste|
-
-#### <a name="copy--paste"></a>Copier et coller
-
-|Appuyez sur les touches suivantes|Pour|
-|-|-|
-|Ctrl+C/V|Copier/coller des lignes|
-|F8|Copier le champ au-dessus dans la ligne actuelle|
-
-#### <a name="search-filter--sort"></a>Rechercher, filtrer et trier
-
-|Appuyez sur les touches suivantes|Pour|
-|-|-|
-|Alt+F7|Trier la colonne dans l’ordre croissant ou décroissant|
-|F3|Basculer la recherche|
-|Maj+F3|Basculer le volet Filtre ; focus sur les filtres de champ|
-|Alt+F3|Filtrer la valeur sélectionnée de cellules|
-|Maj+Alt+F3|Ajouter un filtre au champ sélectionnée|
-|Ctrl+Alt+Maj+F3|Réinitialiser les filtres|
-
-#### <a name="quick-entry"></a>Entrée rapide
-
-|Appuyez sur les touches suivantes|Pour|
-|-|-|
-|Ctrl+Maj+Entrée|Accéder au champ suivant Saisie rapide en dehors d’une liste|
-|Entrée/Maj+Entrée|Accéder au champ Saisie rapide précédent/suivant|
-##### <a name="report-preview"></a>Aperçu de l’état
-
-|Appuyez sur les touches suivantes|Pour|
-|-|-|
-|Ctrl+Accueil/Fin|Aller à la première/dernière page|
-
-> [!TIP]
-> Pour une version graphique imprimable, sélectionnez l’image suivante et téléchargez le fichier PDF.
->
-> [![Icône qui ouvre un PDF.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+||||  
+|----------------|-----------|----------------|
+|**Général**|Alt+Q<br />Alt+Haut<br />Alt+Flèche bas<br />Alt+Flèche vers la droite<br />Ctrl+Alt+F1<br />Ctrl+F1<br />Echap<br />F5/Ctrl+F5<br />Tab/Maj+Tab<br />|Ouvrir **Dites-moi**<br />Ouvrir une info-bulle ou une erreur de validation<br />Ouvrir un menu déroulant ou une recherche<br />Voir les transactions pour la valeur calculée<br />Inspecter la page<br />Ouvrir l'aide de la page<br />Fermer la page actuelle ou la liste déroulante<br />Actualiser/recharger la page<br />Déplacer le focus sur l'élément suivant/précédent|
+|**Naviguer et <br />sélectionner des lignes**| Accueil/fin<br />Ctrl+Accueil/Fin <br />Ctrl+Haut/Bas<br />Ctrl+A <br />Ctrl+Espace<br />Ctrl/Shift+Clic<br />Maj+Haut/Bas<br />Maj+Haut/Bas de page<br />Ctrl+Enter| Aller au premier/dernier champ<br />Aller à la première/dernière ligne<br />Naviguer sans perdre la sélection<br />Sélectionner tout<br />Basculer la sélection de ligne<br /> Ajoutez la ou les lignes à la sélection<br />Ajouter une ligne au-dessus/au dessous de la sélection<br />Sélectionner les lignes visibles ci-dessus/ci-dessous <br />Focus hors de la liste|
+|**Copier et coller**|Ctrl+C<br />Ctrl+V<br />F8|Copier les lignes<br />Coller lignes<br />Copier le champ au-dessus dans la ligne actuelle|
+|**Rechercher, filtrer <br />et trier**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Maj+Alt+F3<br />Ctrl+Alt+Maj+F3|Basculer la recherche<br />Basculer le volet Filtre ; focus sur les filtres de champ<br />Basculer le volet Filtre ; focus sur les filtres de totaux<br />Filtrer la valeur sélectionnée de cellules<br />Ajouter un filtre au champ sélectionnée<br />Réinitialiser les filtres|
+|**Saisie rapide**|Ctrl+Maj+Entrée<br />Entrée/Maj+Entrée|Accéder au champ suivant Saisie rapide en dehors d'une liste<br />Accéder au champ Saisie rapide précédent/suivant|
+|**Aperçu d'état**|Haut/Bas<br />Droite/Gauche<br />Ctrl+Accueil/Fin<br />Haut/Bas de page|Faire défiler vers le haut et le bas de la page<br />Faire défiler vers la droite/la gauche <br />Aller à la première/dernière page<br />Aller à la page précédente/suivante|

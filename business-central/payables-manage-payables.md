@@ -1,21 +1,21 @@
 ---
-title: Aperçu des tâches permettant de gérer la comptabilité fournisseur
+title: Aperçu des tâches permettant de gérer la comptabilité fournisseur| Microsoft Docs
 description: Décrit les tâches permettant de gérer la comptabilité fournisseur, par exemple, le paiement des créditeurs ou le lettrage de paiements sortants dans la comptabilité pour clôturer des factures ou des avoirs.
 author: edupont04
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 161, 254, 256, 347, 574, 599, 9002
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9d7da8009b1bb7522bba0b6d59fa2bf3629abc28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137744"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916664"
 ---
 # <a name="managing-payables"></a>Gestion des comptes fournisseur
 
@@ -42,9 +42,6 @@ Le tableau suivant décrit une série de tâches associées aux comptes fourniss
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Utiliser des frais annexes pour comptabiliser les coûts commerciaux supplémentaires](payables-how-assign-item-charges.md)  
 [Fonctionnalités marché](ui-across-business-areas.md)  
-[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -2,19 +2,19 @@
 title: Utiliser les nomenclatures pour gérer les composants
 description: Vous créez une nomenclature d’assemblage ou une nomenclature de production pour spécifier les composants ou ressources nécessaires pour assembler l’article que la nomenclature représente.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acf67b3e75df35cf11f743c63fccd79310d9e0f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141034"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444933"
 ---
 # <a name="work-with-bills-of-material"></a>Utiliser les nomenclatures
 Les nomenclatures d’assemblage permettent de structurer les articles parents qui doivent être assemblés ou produits par des ressources ou des postes de charge à partir des composants. Une nomenclature d’assemblage peut également être utilisée pour vendre un article parent sous la forme d’un kit constitué de ses composants.
@@ -71,7 +71,7 @@ Sur la page **Nomenclature d’élément d’assemblage**, vous pouvez ouvrir un
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Pour remplacer l’article d’assemblage par ses composants dans les lignes document
 Dans n’importe quel document vente et achat qui contient un élément d’assemblage, vous pouvez utiliser une fonction spéciale pour remplacer la ligne de l’élément d’assemblage par de nouvelles lignes pour ses composants. Cette option est utile, par exemple, si vous souhaitez vendre des composants sous forme de kit représentant l’élément d’assemblage.
 
-L’action **Éclater nomenclature** est également disponible sur la page **Nomenclature d’élément d’assemblage** en tant que moyen d’afficher les éléments d’assemblage enfants sur une nomenclature d’élément d’assemblage.
+La fonction Éclater nomenclature est également disponible sur la page **Nomenclature d’élément d’assemblage** en tant que méthode pour afficher les éléments enfants de tous les sous-assemblages d’une nomenclature d’élément d’assemblage.
 
 > [!CAUTION]  
 >  Lorsque vous avez utilisé la fonction **Éclater nomenclature**, vous ne pouvez pas facilement l’annuler. Vous devez supprimer les lignes commande vente représentant les composants puis réentrer une ligne commande vente de l’élément d’assemblage.

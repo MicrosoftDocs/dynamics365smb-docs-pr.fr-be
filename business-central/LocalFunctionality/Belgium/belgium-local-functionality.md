@@ -1,17 +1,18 @@
 ---
 title: Fonctionnalité locale, Belgique
-description: Les rubriques suivantes décrivent les différentes fonctionnalités locales de la version belge de Business Central.
+description: Les rubriques suivantes décrivent la fonctionnalité locale de la version belge de Business Central.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.search.keywords: ''
-ms.date: 06/17/2021
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: fea89553b3b1779ac09272a5cf76a7d88b6e7ecc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dfc9f03bf2e546ab34c72b62fe41b4c2db66bae4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148950"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749733"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 
@@ -46,10 +47,13 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Tester des paiements électroniques](how-to-test-electronic-payments.md) **Désormais disponible**
     * [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) **Désormais disponible**
     * [Importer des relevés CODA](how-to-import-coda-statements.md) **Désormais disponible**
+    * [Gérer des lignes de paiement électronique](how-to-manage-electronic-payment-lines.md) **Désormais disponible**
     * [Transférer et valider manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md) **Désormais disponible**
     * [Imprimer des fichiers de paiement](how-to-print-payment-files.md) **Désormais disponible**
+    * [Paiements SEPA](sepa-payments.md) **Désormais disponible**
     * [Activer les paiements SEPA](how-to-activate-sepa-payments.md) **Désormais disponible**
     * [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md) **Désormais disponible**
+    * [Effectuer des paiements SEPA](how-to-file-sepa-payments.md) **Désormais disponible**
     * [Domiciliation européenne](direct-debit-using-domiciliation.md) **Désormais disponible**
     * [Paramétrer les domiciliations](how-to-set-up-domiciliations.md) **Désormais disponible**
     * [Modifier et supprimer des lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md) **Désormais disponible**
@@ -74,6 +78,3 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,30 +1,32 @@
 ---
-title: Paramétrer les nomenclatures produits belges [BE]
+title: Paramétrage des nomenclatures produits belges
 description: Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 310
-ms.date: 06/17/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82ed1f582ec7011a6e8c160289914a659f7e0c06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c80f78909526da1f204966815a086dc2fb33e06e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145124"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779210"
 ---
-# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Paramétrer les nomenclatures produits belges dans la version belge
-
+# <a name="set-up-belgian-tariff-numbers"></a>Paramétrer les nomenclatures produits belges
 Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
-## <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits
+### <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits  
 
-1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Nomenclatures produits**, puis choisissez le lien associé.  
-2. Sélectionnez l'action **Nouveau**.  
-3. Dans la page **Nomenclatures produits**, renseignez les champs comme indiqué dans le tableau suivant.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Nomenclatures produits**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l'action **Nouveau**.  
+3.  Dans la page **Nomenclatures produits**, renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -32,10 +34,9 @@ Les autorités douanières et fiscales belges ont établi un code article à 8 
     |**Unité**|Entrez l'unité de mesure pour la nomenclature produit. Le champ est disponible lorsque le champ **Unités supplémentaires** est sélectionné.|  
     |**Poids obligatoire**|Sélectionnez ce champ pour afficher le poids des articles.|  
 
-4. Choisissez le bouton **OK**.  
+4.  Choisissez le bouton **OK**.  
   
-## <a name="see-also"></a>Voir aussi
-
+## <a name="see-also"></a>Voir aussi  
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   
  [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
