@@ -1,23 +1,22 @@
 ---
-title: Gérer les interactions avec vos contacts| Microsoft Docs
+title: Gérer les interactions avec vos contacts
 description: Vous pouvez gérer tous les types de communication ou d’interactions entre votre société et vos contacts. Par exemple, une communication par lettre, par téléphone, lors de réunions, etc.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.search.forms: 5082,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e6a5280cbefaee32d313c638b1a2d691487e4341
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392212"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131392"
 ---
 # <a name="record-interactions-with-contacts"></a>Enregistrer les interactions avec les contacts
 La configuration de votre application pour enregistrer les interactions est constituée des tâches suivantes :
@@ -50,12 +49,12 @@ Vous pouvez effectuer les actions suivantes sur cette page :
 * Afficher le statut des interactions.
 * Marquer les interactions comme annulées.
 
-Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer des écritures journal interaction, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien associé et renseignez les informations.
+Vous pouvez supprimer les écritures journal interaction ayant été annulées. Pour supprimer les écritures journal interaction, sélectionnez l’icône ![Ampoule qui ouvre la fonction Fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Supprimer les écritures journal interaction annulées**, puis sélectionnez le lien associé et complétez les informations.
 
 ## <a name="see-also"></a>Voir aussi
 [Gestion de contacts](marketing-contacts.md)  
 [Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)  
-[Utilisation de Business Central](ui-work-product.md)  
+[Utilisation de Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

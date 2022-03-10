@@ -2,20 +2,19 @@
 title: Plusieurs contrats | Microsoft Docs
 description: Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c6410f1b96aa1c1f8251738184db07aba0d94c4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7cbff4ae7060a591cdba5ddf51f7a56dfb20aab7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915298"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142997"
 ---
 # <a name="multiple-contracts"></a>Plusieurs contrats
 Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.  
@@ -46,3 +45,6 @@ Vous pouvez manuellement créer une commande service pour un article de service 
 ## <a name="see-also"></a>Voir aussi  
 [Exécution des contrats de service](service-fulfill-service-contracts.md)  
 [Créer commande service](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

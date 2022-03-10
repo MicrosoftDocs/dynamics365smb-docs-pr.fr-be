@@ -1,21 +1,20 @@
 ---
-title: Importation et exportation d’une présentation de rapport et de document | Microsoft Docs
+title: Importer et exporter une disposition de rapport et de document
 description: Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784678"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148317"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importer et exporter des présentations de rapport personnalisées
 Vous pouvez importer et exporter une présentation de rapport personnalisée existante sous forme de fichier depuis ou vers un emplacement sur votre ordinateur et le réseau. Par exemple, vous pouvez exporter une présentation de rapport, puis envoyer le fichier à une autre personne pour modification. Cette personne peut ensuite apporter des modifications à la présentation et vous renvoyer le fichier pour que vous puissiez le réimporter.  
@@ -25,7 +24,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Pour exporter une présentation de rapport vers un fichier  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
 2.  Sélectionnez la ligne de l’état qui contient la disposition d’état personnalisée à exporter, puis sélectionnez l’action **Présentations personnalisées**.  
 
@@ -39,7 +38,7 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
      Un fichier de présentation de rapport Word doit avoir une extension de type .docx. Un fichier de présentation de rapport RDLC doit avoir une extension de type .rdlc ou .rdl.  
 
-2.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
+2.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Sélection présentation état**, puis sélectionnez le lien associé.  
 
 3.  Sélectionnez la ligne de l’état dans lequel vous souhaitez créer la présentation d’état, puis sélectionnez l’action **Présentations personnalisées**.  
 
@@ -51,10 +50,11 @@ Vous pouvez importer et exporter une présentation de rapport personnalisée exi
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Voir la formation associée sur [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Voir aussi  
- [Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
- [Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
- [Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    
+## <a name="see-also"></a>Voir aussi
+
+[Créer et modifier une présentation de rapport personnalisée](ui-how-create-custom-report-layout.md)   
+[Gestion des présentations d’état et de document](ui-manage-report-layouts.md)  
+[Utilisation des états, des traitements par lots et des XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

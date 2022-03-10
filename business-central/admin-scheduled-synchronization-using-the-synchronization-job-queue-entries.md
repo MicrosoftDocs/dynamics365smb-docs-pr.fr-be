@@ -1,24 +1,23 @@
 ---
-title: Synchronisation de Business Central et Dataverse | Microsoft Docs
-description: En savoir plus sur la synchronisation des données entre Business Central et Dataverse.
+title: Synchronisation de Business Central et de Dataverse
+description: En savoir plus sur la synchronisation des données entre Business Central et Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 94f969f4d96f31b3b6843614e1bd99790a22307d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755205"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130632"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planification d’une synchronisation entre Business Central et Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planification d’une synchronisation entre Business Central et Dataverse
+
 
 Vous pouvez synchroniser [!INCLUDE[prod_short](includes/prod_short.md)] avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)] à des intervalles planifiés en configurant des projets dans la file projets. Les projets de synchronisation permettent de synchroniser les données des enregistrements [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[cds_long_md](includes/cds_long_md.md)] qui ont été précédemment couplés ensemble. Ou bien, pour les enregistrements qui ne sont pas encore couplés, selon la direction et les règles de synchronisation, les projets de synchronisation peuvent créer des enregistrements et les coupler dans le système de destination. 
 
@@ -72,7 +71,7 @@ Certaines écritures de la file d’attente des travaux, comme celles qui planif
 
 Lorsque la valeur de ce champ n’est pas nulle et que la file d’attente des travaux n’a trouvé aucune modification lors de la dernière exécution, [!INCLUDE[prod_short](includes/prod_short.md)] met en attente l’écriture de la file d’attente des travaux. Lorsque cela se produit, le champ **Statut de la file d’attente des travaux** indique **En attente en raison d’une indisponibilité**, et [!INCLUDE[prod_short](includes/prod_short.md)] patiente jusqu’à la fin de la période spécifiée dans le champ **Délai d’inactivité** avant d’exécuter à nouveau l’écriture de la file d’attente des travaux.  
 
-Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRENCY, qui synchronise les devises dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] avec les taux de change dans [!INCLUDE[prod_short](includes/prod_short.md)], recherche des modifications des taux de change toutes les 30 minutes. Si aucune modification n’est trouvée, [!INCLUDE[prod_short](includes/prod_short.md)] met en attente l’écriture de la file d’attente des travaux CURRENCY pendant 720 minutes (six heures). Si un taux de change est modifié dans [!INCLUDE[prod_short](includes/prod_short.md)] pendant que l’écriture de la file d’attente des travaux est en attente, [!INCLUDE[prod_short](includes/prod_short.md)] réactive automatiquement l’écriture de la file d’attente des travaux et redémarre la file d’attente des travaux. 
+Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRENCY, qui synchronise les devises dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] avec les taux de change dans [!INCLUDE[prod_short](includes/prod_short.md)], recherche des modifications des taux de change toutes les 30 minutes. Si aucune modification n’est trouvée, [!INCLUDE[prod_short](includes/prod_short.md)] met en attente l’écriture de la file d’attente des travaux CURRENCY pendant 720 minutes (douze heures). Si un taux de change est modifié dans [!INCLUDE[prod_short](includes/prod_short.md)] pendant que l’écriture de la file d’attente des travaux est en attente, [!INCLUDE[prod_short](includes/prod_short.md)] réactive automatiquement l’écriture de la file d’attente des travaux et redémarre la file d’attente des travaux. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] active automatiquement les écritures de la file d’attente des travaux qui sont en attente uniquement lorsque des modifications sont apportées dans [!INCLUDE[prod_short](includes/prod_short.md)]. Les modifications dans [!INCLUDE[cds_long_md](includes/cds_long_md.md)] n’activent pas les écritures de la file d’attente des travaux.
@@ -96,7 +95,10 @@ Par exemple, par défaut, l’écriture de la file d’attente des travaux CURRE
 
 ## <a name="see-also"></a>Voir aussi
 
-[Synchronisation des données dans Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
+[Synchronisation des données dans Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Synchroniser manuellement les mappages de table](admin-manual-synchronization-of-table-mappings.md)  
-[Planification d’une synchronisation entre Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Planification d’une synchronisation entre Business Central et [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [À propos de l’intégration de Dynamics 365 Business Central avec [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

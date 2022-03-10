@@ -1,17 +1,16 @@
 ---
-title: Avertissements et messages d’erreur | Microsoft Docs
+title: Avertissements et messages d’erreur
 description: Découvrez comment vous pouvez résoudre et trouver des solutions aux messages d’erreur lorsque vous travaillez dans Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.date: 10/01/2020
+ms.topic: conceptual
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 13d5a8228c02a4655d49060d4b398bcacd4bb503
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840216"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137640"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Avertissements et messages d’erreur dans Dynamics 365 Business Central
 
@@ -19,7 +18,7 @@ Pendant votre journée de travail, vous pouvez voir des notifications dans [!INC
 
 ## <a name="in-product-user-assistance"></a>Assistance utilisateur intégrée au produit
 
-La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] comprend des descriptions de la plupart des champs, colonnes et actions auxquels vous pouvez accéder lorsque vous cliquez sur le nom. En combinaison avec des légendes descriptives et des instructions, ces info-bulles ou légendes sont notre implémentation actuelle de l’*assistance utilisateur intégrée*, qui est un principe important dans le monde actuel de la conception de logiciels.  
+La version par défaut de [!INCLUDE [prod_short](includes/prod_short.md)] comprend des descriptions de la plupart des champs, colonnes et actions auxquels vous pouvez accéder lorsque vous cliquez sur le nom. En combinaison avec des conseils d'apprentissage pour les pages importantes, des légendes descriptives et des instructions, ces info-bulles ou légendes sont notre implémentation actuelle de l’*assistance utilisateur intégrée*, qui est un principe important dans le monde actuel de la conception de logiciels.  
 
 Pour toute question concernant un champ ou un autre élément de l’interface utilisateur, cliquez sur le nom pour faire apparaître une brève description. Cliquez sur le lien *En savoir plus* si cela ne suffit pas.  
 
@@ -36,9 +35,12 @@ Si vous êtes un administrateur ou un superutilisateur, vous pouvez aider les au
 ## <a name="see-also"></a>Voir aussi
 
 [Ressources pour l’aide et l’assistance technique](product-help-and-support.md)  
-[Forum Aux Questions](across-faq.md)  
+[Forum Aux Questions](across-faq.yml)  
 [FAQ Tell Me](ui-search-faq.md)  
-[FAQ sur la recherche et le filtrage](ui-search-filter-faq.md)  
+[FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)  
 [FAQ sur l’opération Copier et coller](faq-copy-paste.yml)  
 [Modifier les paramètres de base](ui-change-basic-settings.md)  
-[Mise en route](product-get-started.md)  
+[Préparation aux activités commerciales](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

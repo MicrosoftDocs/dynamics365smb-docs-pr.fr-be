@@ -1,26 +1,26 @@
 ---
-title: Aperçu de la ligne validation de feuille comptabilité | Microsoft Docs
-description: Cette rubrique décrit les modifications du codeunit 12, **Groupe compta. - Ligne validation**, qui est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA et les écritures comptables client et fournisseur.
+title: Aperçu de la ligne validation de feuille comptabilité
+description: Cette rubrique présente les modifications apportées à Codeunit 12, Gen. Feuille article – Valider ligne, et est le seul endroit pour insérer les écritures du grand livre général, de la TVA et des clients et fournisseurs.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777861"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146709"
 ---
 # <a name="general-journal-post-line-overview"></a>Aperçu de la ligne validation de feuille comptabilité
+
 Codeunit 12, **Groupe compta.-Ligne validation**, est l’objet d’application majeur pour la validation de la comptabilité et est le seul emplacement pour insérer des écritures comptables, la TVA, et les écritures comptables client et fournisseur. Ce codeunit est également utilisé pour toutes les opérations Appliquer, Désappliquer et Inverser.  
   
-Alors que le codeunit a été amélioré dans chaque version au cours des dix dernières années, son architecture est, au fond, restée inchangée. Le codeunit est devenu très grand, avec approximativement 7 600 lignes de code. Avec cette version de [!INCLUDE[prod_short](includes/prod_short.md)], l’architecture est modifiée et le codeunit a été rendu plus simple et plus facile à modifier. Cette documentation présente les modifications et fournit les informations dont vous aurez besoin pour la mise à niveau.  
+Dans Microsoft Dynamics NAV 2013 R2, le codeunit a été repensé, car il était devenu très grand, avec environ 7 600 lignes de code. L’architecture a été modifiée et le codeunit a été rendu plus simple et plus facile à modifier. Cette documentation décrit les modifications et fournit les informations dont vous aurez besoin pour la mise à niveau.  
   
 ## <a name="old-architecture"></a>Ancienne architecture  
 L’ancienne architecture avait les fonctions suivantes :  
@@ -43,9 +43,11 @@ Dans [!INCLUDE[prod_short](includes/prod_short.md)], le codeunit 12 présente le
 * De nombreuses fonctions de participation ont été transférées vers les tableaux d’écritures comptables client et fournisseur correspondantes.  
 * L’utilisation des variables globales a été réduite, de façon à ce que chaque procédure utilise des paramètres et contienne sa propre logique d’application.  
   
-## <a name="see-also"></a>Voir aussi  
-[Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)   
-[Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Voir aussi
+
+[Détails de conception : Structure de l’interface de validation](design-details-posting-interface-structure.md)  
+[Détails de conception : Structure du moteur de validation](design-details-posting-engine-structure.md)  
+[Détails de conception : Ligne validation de feuille comptabilité (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

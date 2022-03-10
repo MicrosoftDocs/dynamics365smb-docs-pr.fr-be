@@ -1,24 +1,24 @@
 ---
-title: Procédure pour définir des types de déclarations
-description: Dans Business Central, il existe deux types de déclarations.
+title: Paramétrer des types de déclarations [BE]
+description: Dans Business Central, il existe deux types de déclaration dans la version belge, la déclaration simplifiée et la déclaration étendue.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: d6194ce55200aecfddcbde83194bcffc2b5a7001
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bdc9190548f4144942d66a1f5ef1201a8dfdd9b0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778438"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145121"
 ---
-# <a name="set-up-declaration-types"></a>Paramétrer des types de déclarations
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], il existe deux types de déclarations :  
+# <a name="set-up-declaration-types-in-the-belgian-version"></a>Paramétrer des types de déclarations dans la version belge
+
+Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], il existe deux types de déclarations :  
 
 - Déclaration simplifiée  
 - Déclaration étendue  
@@ -29,13 +29,17 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
 
 ## <a name="to-set-up-declaration-types"></a>Pour paramétrer des types de déclarations  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Paramètres comptabilité**, puis sélectionnez le lien associé.  
-2.  Activez la case à cocher **Déclaration D.E.B. simplifiée** pour configurer un type de déclaration simplifiée. Effacez ce champ pour utiliser la déclaration étendue.  
-3.  Choisissez le bouton **OK**.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
+2. Activez la case à cocher **Déclaration D.E.B. simplifiée** pour configurer un type de déclaration simplifiée. Effacez ce champ pour utiliser la déclaration étendue.  
+3. Choisissez le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="see-also"></a>Voir aussi
+
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   
  [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
  [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
  [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
  [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

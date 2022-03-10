@@ -2,17 +2,16 @@
 title: Établir rapidement des factures achat
 description: Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez effectuer toutes les opérations nécessaires lorsque vous validez la facture.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.topic: conceptual
+ms.search.form: 51, 9308
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746854"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141228"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Établir rapidement des factures achat
 
@@ -23,7 +22,7 @@ Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valide
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Pour établir rapidement des factures achat
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Pour payer en liquide ou par virement bancaire, saisissez le numéro du compte général règlement ou du compte bancaire dans le champ **N° compte contrepartie**.  
 
@@ -37,3 +36,6 @@ Si vous devez payer le fournisseur en liquide ou par chèque, vous pouvez valide
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,24 @@
 ---
-title: Paramétrage des protocoles d'exportation
-description: Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.
+title: Paramétrage des protocoles d'exportation [BE]
+description: Avant d'utiliser la banque électronique, vous devez paramétrer des protocoles d'exportation qui définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 40026c65fc412956cd1db0242f9c4788195ba014
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: daa6a537b801c830ccf5098c602da6a841b6caee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711008"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140077"
 ---
-# <a name="set-up-export-protocols"></a>Paramétrer les protocoles d'exportation
+# <a name="set-up-export-protocols-in-the-belgian-version"></a>Paramétrer les protocoles d'exportation dans la version belge
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  
 
  Avec les protocoles d'exportation, vous pouvez affecter le codeunit qui définit la vérification à effectuer avant d'exporter les lignes paiement dans un fichier, et l'état qui définit le format de paiement. Par exemple, vous pouvez avoir un protocole d'exportation nommé **DOM1**. Ce protocole d'exportation contient le codeunit de vérification **Vérifier les paiements nationaux** et l'état **Effectuer des paiements nationaux**. Chaque protocole d'exportation a un codeunit de vérification et un état correspondant, comme indiqué dans le tableau suivant.  
@@ -36,7 +35,7 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
 ## <a name="to-set-up-an-export-protocol"></a>Pour paramétrer un protocole d'exportation  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Page ou état pour la recherche"), entrez **Protocoles d'exportation**, puis sélectionnez le lien connexe.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Protocoles d'exportation**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
 3.  Dans la page **Protocoles d'exportation**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -55,5 +54,8 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
- [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
+ [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,25 +1,24 @@
 ---
-title: Méthodes TEC pour calculer et enregistrer la progression d’un projet| Microsoft Docs
+title: Méthodes TEC pour calculer et enregistrer la progression d’un projet
 description: Décrit les différentes méthodes de travaux en cours (TEC) qui peuvent être utilisées pour valider, surveiller et calculer les données financières des projets en cours.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f27d0629c475d52cb8f99bb13dd4021d96f3df68
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bfae06855a633642ebc8032578f4f4c1bf4e35d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780295"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131262"
 ---
-# <a name="understanding-wip-methods"></a>Comprendre les méthodes TEC
+# <a name="understanding-wip-methods-in-project-management"></a>Comprendre les méthodes TEC dans la gestion de projet
+
 Au fur et à mesure de la progression du projet, les matières, ressources et autres frais sont consommés et doivent être validés dans le projet. La fonctionnalité Travaux en cours (TEC) permet d’estimer la valeur financière des projets dans la comptabilité au cours des projets. Dans de nombreux cas, vous pouvez valider les frais pour un projet avant de le facturer. Lorsque seuls les frais sont validés, l’état financier est incorrect.
 
 Pour effectuer le suivi de la valeur dans la comptabilité, vous pouvez calculer les TEC et valider la valeur en comptabilité. Pour plus d’informations, voir [Surveiller la progression et les performances](projects-how-monitor-progress-performance.md).
@@ -35,10 +34,11 @@ Pour effectuer le suivi de la valeur dans la comptabilité, vous pouvez calculer
 | Contrat complété |Montant TEC = Montant coût TEC = Activité (coût total)<br /><br /> Montant vente TEC = Facturable (Prix facturé) |La méthode Fin de contrat ne réceptionne pas les revenus et les coûts avant la fin du projet. Cela peut être utile lorsque l’estimation des coûts et des revenus du projet est excessivement difficile.<br /><br /> L’ensemble de l’activité est validé dans le compte Coûts TEC (actif) et toutes les ventes facturées sont validées dans le compte Ventes facturées TEC (passif) jusqu’à la fin du projet. |
 
 ## <a name="see-also"></a>Voir aussi
+
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
-[Achats](purchasing-manage-purchasing.md)         
-[Ventes](sales-manage-sales.md)      
+[Achats](purchasing-manage-purchasing.md)  
+[Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

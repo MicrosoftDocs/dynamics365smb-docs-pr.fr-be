@@ -1,21 +1,21 @@
 ---
-title: Corriger ou annuler des factures achat impayées | Microsoft Docs
+title: Corriger ou annuler des factures achat impayées (contient une vidéo)
 description: Explique comment corriger ou annuler une facture achat validée et créer automatiquement un avoir achat.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2020
+ms.search.form: 138, 140, 146
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6568828a50e274de0ac6364a1df72cc48abd4956
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8689425ebb2bfb20791a731aa37892faa692c233
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748731"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143455"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Corriger ou annuler des factures achat impayées
 
@@ -28,7 +28,7 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Pour corriger une facture achat validée
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat enregistrées**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat validées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture achat validée à corriger.  
 
     > [!NOTE]  
@@ -41,7 +41,7 @@ Sur la page **Facture achat enregistrée**, vous pouvez cliquer sur le bouton **
 4. Sélectionnez **Afficher un avoir correctif** pour afficher l’avoir achat validé qui annule la facture achat validée initiale.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Pour annuler une facture achat validée
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat enregistrées**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat validées**, puis sélectionnez le lien associé.  
 2. Sélectionnez la facture achat validée à annuler.
 
     > [!NOTE]  
@@ -58,3 +58,6 @@ Si l’annulation est liée à une validation de facture partielle, la ligne de 
 [Achats](purchasing-manage-purchasing.md)  
 [Enregistrer des achats](purchasing-how-record-purchases.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

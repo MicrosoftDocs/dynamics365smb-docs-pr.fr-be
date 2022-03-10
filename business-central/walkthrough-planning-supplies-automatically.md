@@ -1,25 +1,24 @@
 ---
-title: 'Procédure pas à pas : planification automatique des approvisionnements | Microsoft Docs'
-description: Les expressions comme « exécution du planning » et « exécution MRP » se rapportent au calcul du programme directeur de production (PDP) et de la planification des besoins de matières (MRP) en fonction de la demande réelle et projetée.
+title: 'Procédure pas à pas : planification automatique des approvisionnements'
+description: Cette procédure pas à pas démontre comment utiliser le système de planification de l’approvisionnement pour planifier automatiquement tous les ordres de fabrication et toutes les commandes achat figurant sur différentes commandes vente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e7d15b47124248e27698136fab362e867e81ba47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a9bc9b245ec8bcb7146f688da7ad3c94a16c00ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782897"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140280"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Procédure pas à pas : planification automatique des approvisionnements
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Les expressions comme « exécution du planning » et « exécution MRP » se rapportent au calcul du programme directeur de production (PDP) et de la planification des besoins de matières (MRP) en fonction de la demande réelle et projetée.  
 
@@ -74,7 +73,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 ### <a name="to-change-selected-planning-parameters"></a>Pour modifier des paramètres de planification sélectionnés  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Points de stock**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de stock**, puis choisissez le lien associé.  
 2.  Ouvrez la fiche point de stock EAST de l’article 1100, Roue avant.  
 3.  Sur le raccourci **Planifié** renseignez les champs comme indiqué dans le tableau ci-dessous.  
 
@@ -91,7 +90,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 ### <a name="to-create-the-sales-order"></a>Pour créer la commande vente  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2.  Sélectionnez l’action **Nouveau**.  
 3.  Sur la page **Commande vente**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -103,7 +102,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Pour créer un planning régénératif afin de répondre à la demande du magasin EAST  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille planning**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille planning**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif**.  
 3.  Sur la page **Calc. planning - F. planning**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -126,7 +125,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Pour calculer MRP afin d’inclure les besoins en composants sous-jacents  
 
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille planning**, puis sélectionnez le lien associé.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille planning**, puis choisissez le lien associé.  
 2.  Choisissez l’action **Calculer planning régénératif**.  
 3.  Sur la page **Calc. planning - F. planning**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -220,7 +219,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 3.  Acceptez l’avertissement de disponibilité et cliquez sur le bouton **Oui** pour enregistrer la quantité demandée.  
 4.  Procédez à une replanification afin d’adapter le programme d’approvisionnement actif.  
-5.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille planning**, puis sélectionnez le lien associé.  
+5.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille planning**, puis choisissez le lien associé.  
 6.  Choisissez l’action **Calculer planning par écart**.  
 7.  Sur la page **Calc. planning - F. planning**, renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -265,7 +264,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 ## <a name="see-also"></a>Voir aussi  
  [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)   
- [Procédure pas à pas : planification manuelle des approvisionnements](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)
 
 

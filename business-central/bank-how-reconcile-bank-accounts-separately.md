@@ -1,21 +1,21 @@
 ---
-title: Rapprocher des comptes bancaires | Microsoft Docs
-description: Décrit la manière dont la valeur du stock fait l’objet d’un rapprochement avec la comptabilité.
-author: SorenGP
-ms.service: dynamics365-business-central
+title: Rapprochement des comptes bancaires
+description: Cette rubrique décrit comment rapprocher les transactions de vos comptes bancaires internes avec les transactions des relevés de votre banque.
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.search.form: 379, 388, 1290, 10124
+ms.date: 06/14/2021
+ms.author: bholtorf
+ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388712"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129012"
 ---
 # <a name="reconcile-bank-accounts"></a>Rapprochement des comptes bancaires
 
@@ -27,7 +27,7 @@ Les paragraphes qui suivent décrivent comment effectuer un rapprochement bancai
 > Vous pouvez également rapprocher des comptes bancaires sur la page **Feuille rapprochement bancaire** lorsque vous traitez les paiements. Toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées lorsque vous sélectionnez l’action **Valider les paiements et rapprocher les comptes bancaires**. Cela rapproche automatiquement le compte bancaire pour les paiements que vous validez avec le journal. Pour plus d’informations, reportez-vous à [Lettrage automatique des paiements et rapprochement des comptes bancaires](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
-> Dans les versions nord-américaines, vous pouvez également effectuer cette tâche sur la page **Feuille rapprochement bancaire**, qui est mieux adaptée pour les chèques et les acomptes, mais ne prend pas en charge l’importation de fichiers de relevé bancaire. Pour utiliser cette page à la place de la page **Rapprochement bancaire**, désélectionnez le champ **Rapprochement bancaire avec correspondance auto.** sur la page **Paramètres comptabilité**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sous Fonctionnalité locale, États-Unis.
+> Dans les versions nord-américaines, vous pouvez également effectuer cette tâche sur la page **Feuille rapprochement bancaire**, qui est mieux adaptée pour les chèques et les acomptes, mais ne prend pas en charge l’importation de fichiers de relevé bancaire. Pour utiliser cette page à la place de la page **Rapprochement bancaire**, effacez le champ **Rapprochement bancaire avec correspondance auto.** sur la page **Paramètres comptabilité**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sous Fonctionnalité locale, États-Unis.
 
 Les lignes de la page **Rapprochement bancaire** sont réparties sur deux volets. Le volet **Lignes relevé bancaire** indique le volet des transactions bancaires importées ou les écritures comptables comportant des arriérés de paiement. Le volet **Écritures comptables compte bancaire** affiche les écritures comptables dans le compte bancaire interne.
 
@@ -36,15 +36,15 @@ Le rapprochement des transactions bancaires avec les écritures bancaires intern
 > [!NOTE]  
 > Si les lignes relevé bancaire se rapportent à des écritures comptables chèque, vous ne pouvez pas utiliser les fonctions de correspondance. Au lieu de cela, vous devez sélectionner l’action **Lettrer écritures**, puis sélectionner l’écriture comptable chèque appropriée avec laquelle mettre en correspondance la ligne de relevé bancaire.
 
-Lorsque la valeur du champ **Solde final** du volet **Lignes relevé bancaire** est égale à celle du champ **Solde à simuler** du volet **Écritures comptables compte bancaire**, vous pouvez sélectionner l’action **Valider**. Toutes les écritures comptables de compte bancaire sans correspondance resteront sur la page, indiquant l’existence de différences que vous devez résoudre pour rapprocher le compte bancaire.
+Lorsque la valeur du champ **Solde final** du volet **Lignes relevé bancaire** est égale à la valeur du champ **Solde à simuler** du volet ainsi que le champ **Solde dernier relevé** du volet **Écritures comptables compte bancaire**, vous pouvez sélectionner l’action **Valider**. Toutes les écritures comptables de compte bancaire sans correspondance resteront sur la page, indiquant les différences que vous devez résoudre pour rapprocher le compte bancaire.
 
 Toutes les lignes qui ne peuvent pas être mises en correspondance, indiquées par une valeur dans le champ **Différence**, resteront sur la page **Rapprochement bancaire** après validation. Elles représentent une certaine forme de différence que vous devez résoudre avant de pouvoir effectuer le rapprochement des comptes bancaires. Situations commerciales typiques pouvant entraîner des différences :
 
-|Différence|Motif|Résolution|
-|-|-|
-|Une transaction dans le compte bancaire interne ne figure pas sur le relevé bancaire.|La transaction bancaire n’a pas eu lieu alors qu’une validation a été effectuée dans [!INCLUDE[prod_short](includes/prod_short.md)].|Effectuez la transaction d’argent qui n’a pas eu lieu (ou demandez à un débiteur de la faire), puis réimportez le fichier de relevé bancaire ou saisissez la transaction manuellement.|
-|Une transaction sur le relevé bancaire n’existe pas en tant que ligne feuille ou document dans [!INCLUDE[prod_short](includes/prod_short.md)].|Une transaction bancaire a été effectuée sans validation correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple la validation d’une ligne feuille pour une dépense.|Créez et validez l’écriture manquante. Pour plus d’informations sur un moyen rapide de lancer cette opération, voir [Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des transactions bancaires](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|Une transaction dans le compte bancaire interne correspond à une transaction bancaire, mais certaines informations sont trop différentes pour établir une correspondance.|Des informations, telles que le montant ou le nom du client, ont été saisies différemment concernant la transaction bancaire ou la validation interne.|Vérifiez les informations, puis faites les correspondre manuellement. Corrigez éventuellement la non-concordance des informations.||
+| Différence | Motif | Résolution |
+|------------|--------|------------|
+| Une transaction dans le compte bancaire interne ne figure pas sur le relevé bancaire. | La transaction bancaire n’a pas eu lieu alors qu’une validation a été effectuée dans [!INCLUDE[prod_short](includes/prod_short.md)]. | Effectuez la transaction d’argent qui n’a pas eu lieu (ou demandez à un débiteur de la faire), puis réimportez le fichier de relevé bancaire ou saisissez la transaction manuellement. |
+| Une transaction sur le relevé bancaire n’existe pas en tant que ligne feuille ou document dans [!INCLUDE[prod_short](includes/prod_short.md)]. | Une transaction bancaire a été effectuée sans validation correspondante dans [!INCLUDE[prod_short](includes/prod_short.md)], par exemple la validation d’une ligne feuille pour une dépense. | Créez et validez l’écriture manquante. Pour plus d’informations sur un moyen rapide de lancer cette opération, voir [Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des transactions bancaires](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| Une transaction dans le compte bancaire interne correspond à une transaction bancaire, mais certaines informations sont trop différentes pour établir une correspondance. | Des informations, telles que le montant ou le nom du client, ont été saisies différemment concernant la transaction bancaire ou la validation interne. | Vérifiez les informations, puis faites les correspondre manuellement. Corrigez éventuellement la non-concordance des informations. |
 
 Vous devez résoudre les différences, par exemple en créant des écritures manquantes et en corrigeant les informations qui ne correspondent pas, ou en effectuant les transactions d’argent qui n’ont pas eu lieu, jusqu’à ce que le rapprochement du compte bancaire soit terminé et validé.
 
@@ -57,9 +57,12 @@ Vous pouvez renseigner le volet **Lignes relevé bancaire** de la page **Rapproc
 
 Le volet **Lignes relevé bancaire** sera renseigné avec des transactions bancaires en fonction d’un flux ou d’un fichier importé fourni par la banque.
 
-Pour activer l’importation des relevés bancaires en tant que flux bancaires, vous devez d’abord configurer et activer le service Envestnet Yodlee Bank Feeds, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d’informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Pour activer l’importation des relevés bancaires en tant que flux bancaires, vous devez d’abord configurer et activer le service Envestnet Yodlee Bank Feeds, puis associer vos comptes bancaires aux comptes bancaires connexes en ligne. Pour plus d’informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Rapprochement bancaire**, puis sélectionnez le lien associé.
+> [!TIP]
+> Vous pouvez également importer des fichiers de relevés bancaires au format délimité par des virgules ou des points-virgules (.CSV). Utilisez la configuration assistée **Configurer un format de fichier de relevé bancaire** pour définir les formats d’importation des relevés bancaires et attacher le format à un compte bancaire. Vous pouvez ensuite utiliser ces formats lorsque vous importez des relevés bancaires dans la page **Rapprochement des comptes bancaires**.
+
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Dans le champ **N° compte bancaire**, sélectionnez le compte bancaire approprié. Les écritures comptables compte bancaire qui existent pour le compte bancaire s’affichent le volet **Écritures comptables compte bancaire**.
 4. Dans le champ **Date relevé**, saisissez la date du relevé de banque.
@@ -74,31 +77,44 @@ Le volet **Lignes relevé bancaire** sera renseigné en fonction des factures da
 1. Sur la page **Rapprochement bancaire**, sélectionnez l’action **Proposer lignes**.
 2. Dans le champ **Date de début**, saisissez la date de validation la plus précoce des écritures comptables à rapprocher.
 3. Dans le champ **Date de fin**, saisissez la date de validation la plus tardive des écritures comptables à rapprocher.
-4. Cochez la case **Inclure les chèques** pour les écritures comptables chèque proposées au lieu des écriture comptables compte bancaire correspondantes.
-5. Cliquez sur le bouton **OK**.
+
+> [!NOTE]
+> En règle générale, la date de fin correspond à la date spécifiée dans le champ **Date du relevé**. Cependant, si vous souhaitez rapprocher des transactions pour une partie seulement d’une période, vous pouvez saisir une date de fin différente. 
+
+1. Cochez la case **Inclure les chèques** pour les écritures comptables chèque proposées au lieu des écriture comptables compte bancaire correspondantes.
+1. Cliquez sur le bouton **OK**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Pour mettre en correspondance automatiquement des lignes de relevé bancaire avec des écritures comptables compte bancaire
 
 La page **Rapprochement bancaire** propose une fonctionnalité de correspondance automatique basée sur une correspondance entre le texte d’une ligne relevé bancaire (volet gauche) et celui d’une ou de plusieurs écritures comptables compte bancaire (volet droit). Notez que vous pouvez remplacer la correspondance automatique suggérée, et que vous pouvez choisir de ne pas utiliser du tout la correspondance automatique. Pour plus d’informations, voir [Pour faire correspondre manuellement des lignes relevé bancaire avec des écritures comptables compte bancaire](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
+La correspondance automatique fait correspondre les entrées en fonction d’un ensemble de règles d’application de paiement. Pour plus d’informations, voir [Définir des règles pour le lettrage automatique des paiements](receivables-how-set-up-payment-application-rules.md). Vous pouvez rechercher la base des correspondances en utilisant l’action **Détails de correspondance**. Par exemple, les détails incluront les noms des champs qui contenaient des valeurs correspondantes.  
+
 1. Sur la page **Rapprochement bancaire**, sélectionnez l’action **Faire correspondre automatiquement**. La page **Faire correspondre les écritures bancaires** s’ouvre.
 2. Dans le champ **Tolérance date transaction (jours)**, spécifiez le nombre de jours avant et après la date comptabilisation de l’écriture comptable compte bancaire pendant lesquels la fonction recherchera des dates transaction correspondantes dans le relevé bancaire.
 
-    Si vous saisissez 0 ou laissez le champ vide, la fonction **Faire correspondre automatiquement** recherchera uniquement les dates de transaction correspondantes sur la date comptabilisation de l’écriture comptable compte bancaire.
+    Si vous saisissez 0 ou laissez le champ vide, l’action **Faire correspondre automatiquement** recherchera uniquement les dates de transaction correspondantes sur la date comptabilisation de l’écriture comptable compte bancaire.
 3. Cliquez sur le bouton **OK**.
 
     Toutes les lignes de relevé bancaire et les écritures comptables compte bancaire qui peuvent être rapprochées deviennent vertes, et la case **Lettré** est cochée.
 4. Pour supprimer une correspondance, sélectionnez la ligne de relevé bancaire, et sélectionnez l’action **Supprimer correspondance**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Pour mettre en correspondance des lignes de relevé bancaire avec les écritures comptables compte bancaire manuellement
+> [!TIP]
+> Vous pouvez utiliser un mélange de correspondances manuelles et automatiques. Si vous avez mis en correspondance manuellement des écritures, la correspondance automatique n’écrasera pas vos sélections. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Pour mettre en correspondance des lignes de relevé bancaire avec les écritures comptables compte bancaire manuellement
 1. Sur la page **Rapprochement bancaire**, sélectionnez une ligne non lettrée dans le volet **Lignes relevé bancaire**.
-2. Dans le volet **Écritures comptables compte bancaire**, sélectionnez une ou plusieurs écritures comptables compte bancaire qui peuvent être mise en correspondance avec la ligne de relevé bancaire sélectionnée. Pour choisir plusieurs lignes, appuyez et maintenez la touche Ctrl enfoncée.
+2. Dans le volet **Écritures comptables compte bancaire**, sélectionnez une ou plusieurs écritures comptables compte bancaire qui peuvent être mise en correspondance avec la ligne de relevé bancaire sélectionnée. Pour choisir plusieurs lignes, appuyez et maintenez la touche CTRL enfoncée.
+
+   > [!TIP]
+   > Vous pouvez également faire correspondre manuellement plusieurs lignes de relevé bancaire avec une écriture comptable de compte bancaire. Par exemple, cela peut être utile si votre dépôt bancaire contient plusieurs modes de paiement, tels que des cartes de crédit de différents émetteurs, et que votre banque les répertorie sur des lignes distinctes. 
 3. Sélectionnez l’action **Faire correspondre manuellement**.
 
     La ligne de relevé bancaire sélectionnée et les écritures comptables compte bancaire sélectionnées deviennent vertes, et la case à cocher **Lettré** du volet de droite est activée.
 4. Répétez les étapes 1 à 3 pour toutes les lignes de relevé bancaire qui ne sont pas mises en correspondance.
-5. Pour supprimer une correspondance, sélectionnez la ligne de relevé bancaire, et sélectionnez l’action **Supprimer correspondance**.
+
+> [!TIP]
+> Pour supprimer une correspondance, sélectionnez la ligne de relevé bancaire, et sélectionnez l’action **Supprimer correspondance**. Si vous avez rapproché plusieurs lignes de relevé bancaire avec une écriture comptable et que vous devez supprimer une ou plusieurs des lignes correspondantes, toutes les correspondances manuelles sont supprimées pour l’écriture comptable lorsque vous choisissez **Supprimer la correspondance**. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Pour créer des écritures comptables manquantes avec lesquelles faire correspondre des lignes relevé bancaire
 

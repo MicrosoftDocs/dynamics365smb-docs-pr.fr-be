@@ -1,21 +1,20 @@
 ---
-title: Configuration de gestion de prix | Microsoft Docs
-description: Cette rubrique décrit comment appliquer le meilleur prix à des commandes service, configurer des accords prix service personnalisés pour des clients, améliorer le rendement des salariés de la maintenance et accélérer le processus de facturation.
+title: Configuration de gestion de prix
+description: La gestion des prix de service vous permet de configurer des groupes de prix de service, la tarification des services, l’ajustement des prix de service, etc.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6877f50094874ce6e54b3a524254dfcba0c43468
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: e6cfc801e40bfae60dd687ede073bd4367e69092
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476733"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142974"
 ---
 # <a name="service-price-management"></a>Configuration de gestion de prix
 La fonctionnalité de gestion de la tarification des services vous permet d’appliquer le meilleur prix à des commandes service, de configurer des accords prix service personnalisés pour des clients, d’améliorer le rendement des salariés de la maintenance et d’accélérer le processus de facturation.  
@@ -52,7 +51,7 @@ Paramétrez les types de tarification service (prix et type d’ajustement prix)
 Par exemple, vous pouvez paramétrer les types de tarifications service d’un groupe tarifs service radio. Dans le cas de clients qui ne sont associés à aucun groupe prix, vous pouvez décider d’appliquer une tarification service impliquant le prix maximum sur la main-d’œuvre, qui est le groupe ajustement prix main-d’œuvre. Dans le cas de clients associés à un groupe prix précis, vous pouvez décider d’appliquer une tarification service avec un prix fixe sur la main-d’œuvre, e même groupe ajustement prix main-d’œuvre.  
 
 #### <a name="current-experience"></a>[Expérience actuelle](#tab/current-experience)
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles de service**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles de service**, puis choisissez le lien associé.  
 2. Sélectionnez l’article de service, développez le raccourci **Prix et ventes**, choisissez l’action **Ressource**, **Article** ou **Compte général**.
 3. Sur la page **Prix ressource projet**, **Prix article projet** ou **Prix compte général projet**, remplissez les champs selon vos besoins.
 

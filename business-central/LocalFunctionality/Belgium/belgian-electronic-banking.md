@@ -1,38 +1,48 @@
 ---
 title: Banque électronique belge
-description: La banque électronique vous permet d'échanger des données par voie électronique avec des institutions financières belges. Les données peuvent être échangées sur disquette, par un modem ou via Isabel (Interbanks Standards Association Belgium). Vous profitez ainsi d'un traitement plus rapide et évitez les erreurs causées par le traitement ou la saisie manuels des données.
-services: project-madeira
-documentationcenter: ''
+description: La banque électronique vous permet d'échanger des données par voie électronique avec des institutions financières belges. Cela garantit une plus grande vitesse de traitement et permet d'éviter les erreurs.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4afcb91bbdc3f05fb42b86d4160276cd69ed09c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 11308
+ms.date: 01/10/2022
+ms.author: edupont
+ms.openlocfilehash: eab0597a3fc77937a7be86a22268a5aef8646bd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237754"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129388"
 ---
 # <a name="belgian-electronic-banking"></a>Banque électronique belge
-> [!Note]
-> [!INCLUDE[onprem_only](../../includes/onprem_only_md.md)]
 
-La banque électronique vous permet d'échanger électroniquement des données avec des institutions financières belges, soit sur disque, soit via Interbanks Standards Association Belgium (Isabel). Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  
+Dans la version belge de [!INCLUDE [prod_short](../../includes/prod_short.md)], vous pouvez échanger des données avec des institutions financières belges par voie électronique. Cela permet d'accélérer le temps de traitement et d'éviter les erreurs causées par la saisie ou le traitement manuel des données.  
 
-Dans [!INCLUDE[d365fin](../../includes/d365fin_md.md)], vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
+Vous pouvez utiliser la banque électronique pour effectuer les actions suivantes :  
 
-- Envoyer des paiements électroniques  
-- Traiter des relevés bancaires avec CODA  
-- Traiter des domiciliations européennes  
+- Envoyer des paiements électroniques.  
+- Traiter des relevés bancaires avec CODA.  
+- Traiter des domiciliations européennes.  
 
-## <a name="see-also"></a>Voir aussi  
+## <a name="setup"></a>Configuration
+
+Avant de pouvoir traiter des relevés et des paiements électroniques, vous devez configurer la banque électronique sur la page **Paramétrage des opérations bancaires électroniques** comme décrit dans le tableau suivant.
+
+|Champ|Description |
+|-----|------------|
+|**Totaliser lignes feuille compta.**| Sélectionnez pour indiquer si vous souhaitez regrouper les lignes feuille paiement pour chaque fournisseur. Les paiements avec un message structuré ne seront pas regroupés. |
+|**Limiter les textes du message de paiement** |Sélectionnez pour indiquer si vous souhaitez tronquer les longs messages de paiement. Les messages seront tronqués si supérieurs à 106 caractères pour les paiements nationaux et inférieurs à 140 caractères pour les paiements internationaux. |
+
+Pour plus d'informations sur l'impact des deux champs sur le mode de transfert des lignes feuille paiement vers la feuille comptabilité, voir [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md).  
+
+## <a name="see-also"></a>Voir aussi
+
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
 [Paiements électroniques belges](belgian-electronic-payments.md)  
 [Relevés bancaires CODA](coda-bank-statements.md)  
 [Domiciliation européenne](direct-debit-using-domiciliation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

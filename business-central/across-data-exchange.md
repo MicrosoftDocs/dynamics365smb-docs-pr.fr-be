@@ -1,28 +1,27 @@
 ---
-title: Documents électroniques dans Business Central | Microsoft Docs
-description: Présentation de l’envoi et de la réception de documents électroniques dans Business Central.
+title: Documents électroniques dans Business Central
+description: Il s’agit d’une vue d’ensemble de la manière d’utiliser l’infrastructure d’échange de données pour gérer les échanges des données dans des documents commerciaux tels que des fichiers bancaires et des taux de change devise.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: da4c3e6d1537a66c86c79ca4dd4065190c765922
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384937"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141736"
 ---
 # <a name="exchanging-data-electronically"></a>Échanger des données par voir électronique
 Vous pouvez utiliser l’infrastructure d’échange de données pour gérer les échanges des documents commerciaux, des fichiers bancaires, des taux de change devise et tous les autres fichiers de données avec vos partenaires commerciaux.
 
-Dans la version standard de [!INCLUDE[prod_short](includes/prod_short.md)], l’infrastructure d’échange de données est utilisée dans des fonctionnalités, telles que Documents électroniques, Importer/Exporter des fichiers bancaires et Mettre à jour des taux de change devise. Pour plus d’informations, voir [À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md).
+Dans la version standard de [!INCLUDE[prod_short](includes/prod_short.md)], l’infrastructure d’échange de données est utilisée dans des processus tels que l’échange de documents électroniques, l’importation/exportation de fichiers bancaires et la mise à jour des taux de change des devises. Pour plus d’informations, voir [À propos de l’infrastructure d’échange de données](across-about-the-data-exchange-framework.md).
 
-En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’infrastructure dans de nouvelles fonctionnalités d’intégration en configurant les données à échanger et comment les échanger. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).
+En tant qu’administrateur ou partenaire Microsoft, vous pouvez utiliser l’infrastructure dans de nouvelles fonctionnalités d’intégration en spécifiant les données à échanger et comment les échanger. Pour plus d’informations, voir [Configurer les définitions d’échange de données](across-how-to-set-up-data-exchange-definitions.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.  
 

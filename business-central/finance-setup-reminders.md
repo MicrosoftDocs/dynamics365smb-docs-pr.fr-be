@@ -2,20 +2,20 @@
 title: Configurer les conditions et niveaux de relance
 description: Découvrez comment configurer Business Central de telle sorte que vous puissiez envoyer une relance à un client sur un paiement dû et ajouter des frais, ou des commissions au paiement en raison de retard.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/21/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 2d8e233fb1796515314c954d883bda7302fdcd9b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377050"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132849"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Configurer les conditions et niveaux de relance
 
@@ -30,7 +30,7 @@ Si des clients ont des impayés, vous devez décider quand et comment leur envoy
 
 ### <a name="to-set-up-reminder-terms"></a>Pour configurer des conditions de relance
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de relance**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Pour utiliser plusieurs combinaisons de conditions de relance, créez un code pour chacun d’eux.
 
@@ -42,7 +42,7 @@ Si vous créez plus de relances qu’il n’y a de niveaux relance, les conditio
 
 ### <a name="to-set-up-reminder-levels"></a>Pour configurer des niveaux de relance
 
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Conditions de relance**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Sur la page **Conditions de relance**, cliquez sur la ligne comportant les conditions pour lesquelles configurer des niveaux, puis cliquez sur l’action **Niveaux**.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -101,6 +101,7 @@ Si vous avez configuré les conditions relance (avec des niveaux et du texte sup
 ## <a name="see-also"></a>Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
+[Envoyer des rappels de soldes impayés](receivables-send-reminders.md)  
 [Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)  
 [Configuration de Finance](finance-setup-finance.md)  
 

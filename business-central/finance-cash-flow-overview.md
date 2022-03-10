@@ -2,21 +2,20 @@
 title: Aperçu de trésorerie
 description: Aperçu des encaissements et des décaissements pour aider à prévoir les montants à recevoir et à payer.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
-ms.author: a-jillk
-ms.reviewer: edupont
-ms.openlocfilehash: ae259cdccb2dc29882f3aee1a9062cfe0a2f5e73
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.form: 841, 849, 1818
+ms.date: 12/20/2021
+ms.author: edupont
+ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444725"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149114"
 ---
 # <a name="cash-flow-overview"></a>Aperçu de trésorerie
 
@@ -26,7 +25,7 @@ La compréhension des encaissements et des décaissements est essentielle pour l
 
 Le terme *Trésorerie* désigne les encaissements moins les espèces sur une période donnée. Il s’agit d’une estimation de fonds à encaisser et décaisser au sein de votre société. Tous les produits et toutes les dépenses prévus en font partie.
 
-## <a name="cash-flow-overview"></a>Aperçu de trésorerie
+## <a name="work-with-cash-flow"></a>Utilisation de la trésorerie
 
 La figure ci-après décrit comment utiliser la trésorerie.
 
@@ -49,9 +48,9 @@ La figure ci-après décrit comment utiliser la trésorerie.
 
 En fonction des lignes de feuille d’activité enregistrées, vous pouvez effectuer périodiquement des prévisions de trésorerie. La présentation suivante est fréquemment utilisée pour des prévisions de trésorerie. La présentation est constituée de trois sections :
 
-  - Règlements  
-  - Décaissements  
-  - Trésorerie nette ou encaisse  
+- Règlements  
+- Décaissements  
+- Trésorerie nette ou encaisse  
 
 Les règlements fournissent des détails sur les produits reçus par la société.
 
@@ -74,7 +73,10 @@ La trésorerie nette ou l’encaisse est calculée comme suit : règlements tot
 La prévision peut ensuite être utilisée comme un outil interne de décision en gestion pour préparer l’avenir et prendre des décisions stratégiques importantes pour la société.
 
 ## <a name="see-also"></a>Voir aussi
+
 [Configuration d’une analyse de trésorerie](finance-setup-cash-flow-analyses.md)  
-[Analyser les flux de trésorerie](finance-analyze-cash-flow.md)
+[Analyser les flux de trésorerie](finance-analyze-cash-flow.md)  
+[Prévoyez votre trésorerie dans Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Configurer des prévisions de trésorerie à l’aide d’Azure AI dans Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

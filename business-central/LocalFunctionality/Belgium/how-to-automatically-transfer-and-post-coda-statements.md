@@ -1,26 +1,24 @@
 ---
-title: Comment transférer et valider automatiquement les relevés CODA
+title: Transférer et publier automatiquement des relevés CODA [BE]
 description: Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer les lignes relevé CODA vers une feuille financière.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 66c074d5aa66db28a67016b90e98096576a67b45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 2000040
+ms.date: 06/17/2021
+ms.author: edupont
+ms.openlocfilehash: 9dc014a2c2269d09ee3111beadd1033365a7a732
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180911"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136715"
 ---
-# <a name="automatically-transfer-and-post-coda-statements"></a>Transférer et publier automatiquement des relevés CODA
-Après avoir appliqué et traité toutes les lignes de relevés CODA, vous pouvez transférer les lignes de relevés CODA vers une feuille financière.  
+# <a name="automatically-transfer-and-post-coda-statements-in-the-belgian-version"></a>Transférer et publier automatiquement des relevés CODA dans la version belge
+
+Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer les lignes relevé CODA vers une feuille financière.  
 
 Après avoir transféré les lignes relevé, vous pouvez valider les lignes vers une feuille comptabilité correspondante. S'il n'existe aucune feuille comptabilité, vous ne pouvez pas transférer les lignes. Vous pouvez créer une feuille pour traiter les relevés CODA. Pour plus d'informations, voir [Créer des feuilles financières](how-to-create-financial-journals.md).  
 
@@ -28,7 +26,7 @@ Vous pouvez aussi transférer et valider manuellement les relevés CODA. Pour pl
 
 ## <a name="to-automatically-transfer-statement-lines"></a>Pour transférer automatiquement les lignes relevé  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Comptes bancaires**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
 3.  Sélectionnez le relevé CODA, puis choisissez l'action **Modifier**.  
 4.  Choisissez l'action **Transférer à FS**.  
@@ -44,3 +42,6 @@ Après avoir transféré les lignes relevé vers la feuille, vous pouvez valider
  [Lettrer des relevés CODA](how-to-apply-coda-statements.md)   
  [Créer des feuilles financières](how-to-create-financial-journals.md)   
  [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

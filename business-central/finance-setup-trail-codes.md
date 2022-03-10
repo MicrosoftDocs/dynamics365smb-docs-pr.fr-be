@@ -1,21 +1,21 @@
 ---
-title: Configurer des codes pistes d’audit | Microsoft Docs
+title: Configurer des codes pour les pistes d’audit
 description: Découvrez les tâches de configuration des codes source et des codes motif que vous pouvez utiliser pour suivre les pistes d’audit.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2020
+ms.search.form: 257, 259, 279
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d89c5795b9f4d0115469a505305bf3264eab613
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914227"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133771"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Configuration des codes source et des codes de motif pour les pistes d’audit
 
@@ -33,7 +33,7 @@ Lorsque vous validez ou exécutez un traitement par lots, le bon code journal es
 
 ### <a name="to-define-source-codes"></a>Pour définir des codes journaux
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Paramètres codes journaux**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") saisissez **Paramètres codes journaux**, puis choisissez le lien associé.  
 
 2. Dans la fenêtre **Paramètres codes journaux**, pour chaque type de validation et travail par lots, spécifiez le code source approprié.  
 
@@ -45,7 +45,7 @@ Vous pouvez modifier un code journal. Par exemple, vous pouvez remplacer le code
 
 ### <a name="to-change-source-codes"></a>Pour modifier des codes journaux
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes journaux**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Codes journal.**, puis choisissez le lien associé.
 
 2. Sur la ligne du code à modifier, sélectionnez le code dans le champ **Code**.
 
@@ -59,7 +59,7 @@ Les codes de motif complètent les codes source et sont utilisés pour indiquer 
 
 ### <a name="to-set-up-reason-codes"></a>Pour configurer des codes motif
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), saisissez **Codes motif**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche")  entrez **Codes de motif**, puis choisissez le lien associé.
 
 2. Dans la fenêtre **Codes motif**, saisissez le premier code dans le champ **Code**. Dans le champ **Désignation**, saisissez un texte explicatif.
 
@@ -69,7 +69,7 @@ La procédure suivante décrit comment ajouter un code motif à un modèle feuil
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Pour affecter des codes motif à des modèles feuille
 
-1. Sélectionnez l’icône ![Page ou état pour la recherche](media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Modèles feuille comptabilité**, puis sélectionnez le lien associé.
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche")  entrez **Modèles feuille comptabilité**, puis sélectionnez le lien associé.
 
 2. Sur la ligne du modèle feuille sélectionné, renseignez le champ **Code motif** avec le code souhaité.
 
@@ -94,6 +94,9 @@ Lors de la validation de la facture, le code motif est copié dans chaque écrit
 [Utilisation des axes analytiques](finance-dimensions.md)  
 [Importation des données métier à partir d’autres systèmes financiers](across-import-data-configuration-packages.md)  
 [Analyse de la trésorerie dans votre société](finance-analyze-cash-flow.md)  
-[Utilisation de [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

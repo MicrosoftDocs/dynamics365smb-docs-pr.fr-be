@@ -1,29 +1,26 @@
 ---
-title: Rechercher des documents sans pièces jointes| Microsoft Docs
-Description: Vous pouvez rechercher des écritures comptables pour des documents achat et vente validés qui n’ont pas de documents électroniques entrants, tels que les factures importées.
-services: project-madeira
-documentationcenter: ''
+title: Rechercher des enregistrements validés sans document entrant
+description: Vous pouvez rechercher des écritures comptables pour des documents achat et vente validés qui n’ont pas de documents électroniques entrants, tels que les factures importées.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e15284452bb80acc329e46df7361ee9dea556996
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c7e696eed559e6b0c5d7a9c9b9563efd8bdfbea0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754980"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130995"
 ---
 # <a name="find-posted-documents-without-incoming-document-records"></a>Rechercher des enregistrements validés sans enregistrements document entrant
 Depuis les pages **Plan comptable** et **Écritures comptables**, vous pouvez utiliser la fonction de recherche pour rechercher les écritures comptables pour des documents achat et vente validés qui n’ont pas d’enregistrement de document entrant, puis les lier de façon centralisée à des enregistrements existants ou en créer de nouveaux avec des fichiers joints.
 
 ## <a name="to-find-posted-documents-without-incoming-document-records"></a>Rechercher des enregistrements validés sans enregistrements document entrant
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.
 2. Sélectionnez une ligne pour un compte général pour les écritures comptables duquel vous souhaitez voir les documents ventes et achats validés sans enregistrement document entrant, puis sélectionnez l’action **Documents validés sans document entrant**.
 3. Sinon, sélectionnez l’action **Écritures comptables**.
 4. Sur la page **Écritures comptables**, sélectionnez l’action **Documents validés sans documents entrants**.
@@ -42,3 +39,6 @@ Si un enregistrement document entrant approprié n’existe pas sur la page **Do
 [Documents entrants](across-income-documents.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,31 +1,32 @@
 ---
-title: Paramétrage des opérations bancaires électroniques
+title: Paramétrer des opérations bancaires électroniques [BE]
 description: Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1e79f6667cbb5ac3511b4303cb8827730cba14ad
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 11308
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ebed17669c1898878d2ce66c96db11d61937421e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180861"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140074"
 ---
-# <a name="set-up-electronic-banking"></a>Paramétrer des opérations bancaires électroniques
+# <a name="set-up-electronic-banking-in-the-belgian-version"></a>Paramétrer des opérations bancaires électroniques dans la version belge
+
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  
 
 - Paramétrage des opérations bancaires électroniques.  
-- Codes IBLC/BLWI - Pour plus d'informations, voir [Paramétrer les codes de transaction IBLC/BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
+- Codes IBLC/BLWI - Pour plus d'informations, voir [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
 ## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques  
 
-1.  Sélectionnez l'icône ![Page ou état pour la recherche](../../media/ui-search/search_small.png "Icône Page ou état pour la recherche"), entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
+1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
 2.  Dans la page **Paramétrage des opérations bancaires électroniques**, renseignez les champs comme indiqué dans le tableau suivant.   
 
     |Champ|Désignation|  
@@ -46,3 +47,6 @@ Avec les opérations bancaires électroniques, vous pouvez effectuer des paiemen
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
  [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md) [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: Comment déplacer les composants vers une zone opérations dans les configurations de stockage de base | Microsoft Docs
-description: Si des opérations de traitement d’articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes, tels que la production, l’assemblage ou les commandes service dans le magasin.
+title: Déplacer les composants vers une zone opérations dans les configurations de stockage de base
+description: Si des opérations de traitement d’articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f628ceefb6894f8ca2f05e6345ac4f3b19f3235e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1059e6c5bf0a308382951fd19606dbaf0ef14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923282"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141964"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Déplacer les composants vers une zone opérations dans les configurations de stockage de base
 Si des opérations de traitement d’articles se produisent dans votre entrepôt, vous pouvez être amené à déplacer des articles entre différents emplacements internes pour satisfaire aux documents origine internes, tels que la production, l’assemblage ou les commandes service dans le magasin.  
@@ -47,7 +46,7 @@ Sinon, un magasinier peut le créer en pointant l’ordre d’assemblage lancé 
 Cette procédure explique comment créer un mouvement de stock à partir de la page **Mouvement de stock** en référençant un ordre d’assemblage lancé en tant que document origine. La procédure est la même lorsque vous déplacez les composants pour les ordres de fabrication et les commandes service.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Pour déplacer les composants vers une zone opérations dans les configurations de stockage de base  
-1.  Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Mouvement de stock**, puis sélectionnez le lien approprié.  
+1.  Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Mouvement de stock**, puis choisissez le lien pertinent.  
 2.  Sur le raccourci **Général**, renseignez le champ **N°**. . Vous pouvez appuyer sur la touche Entrée pour effectuer une sélection parmi la souche de numéros.  
 3.  Dans le champ **Code magasin** , entrez le magasin où le mouvement a lieu.  
 4.  Choisissez l’action **Extraire documents origine**. Sinon, renseignez le champ **Document origine** , et cliquez ensuite sur le bouton **AssistEdit** dans le champ **N° origine** .  
@@ -76,4 +75,7 @@ Cette procédure explique comment créer un mouvement de stock à partir de la p
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)     
 [Gestion des assemblages](assembly-assemble-items.md)    
 [Détails de conception : gestion d’entrepôt](design-details-warehouse-management.md)  
-[Utilisation de [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

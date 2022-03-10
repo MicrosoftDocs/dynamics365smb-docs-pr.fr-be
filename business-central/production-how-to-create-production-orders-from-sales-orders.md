@@ -2,20 +2,19 @@
 title: Créer des ordres de fabrication à partir de commandes achat
 description: Découvrez les différentes façons de créer des ordres de fabrication pour les articles produits directement à partir des commandes vente.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000883, 99000884
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3080556ad69882c533bec3768787784bfdac5c4f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438640"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145537"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Créer des ordres de fabrication à partir de commandes achat
 Vous pouvez créer des ordres de fabrication pour les articles produits directement à partir des commandes vente.  

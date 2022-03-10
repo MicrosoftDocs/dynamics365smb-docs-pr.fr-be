@@ -1,21 +1,21 @@
 ---
-title: Nettoyer les données avec des stratégies de rétention | Microsoft Docs
+title: Nettoyer les données avec des stratégies de rétention
 description: Vous pouvez spécifier la fréquence à laquelle vous souhaitez supprimer certains types de données.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
+ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780070"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132198"
 ---
 # <a name="define-retention-policies"></a>Définir des stratégies de rétention
 Les administrateurs peuvent définir des stratégies de rétention pour spécifier à quelle fréquence ils souhaitent que [!INCLUDE[prod_short](includes/prod_short.md)] supprime les données obsolètes dans les tables contenant des entrées de journal et des enregistrements archivés. Par exemple, le nettoyage des entrées de journal peut faciliter l’utilisation des données réellement pertinentes. Les stratégies peuvent inclure toutes les données des tables qui ont dépassé la date d’expiration, ou vous pouvez ajouter des critères de filtre qui n’incluront que certaines données expirées dans la stratégie. 
@@ -40,7 +40,7 @@ Les périodes de rétention peuvent être aussi longues ou aussi courtes que vou
 > Pour des raisons de conformité, nous avons défini une période de rétention minimale pour certaines tables. Si vous définissez une période de rétention plus courte que le minimum requis, un message affichera la période obligatoire.
 
 ### <a name="set-up-a-retention-policy"></a>Configurer une stratégie de rétention
-1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Stratégies de rétention**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Stratégies de rétention**, puis choisissez le lien associé.
 2. Dans le champ **ID table**, sélectionnez la table que vous souhaitez inclure dans la stratégie.
 3. Dans le champ **Durée de rétention**, spécifiez la durée pendant laquelle conserver les données dans la table.
 4. Facultatif : Pour appliquer la stratégie à des données spécifiques dans une table, désactivez le bouton Appliquer à tous les enregistrements. Le raccourci Stratégie de rétention des enregistrements s’affiche, dans lequel vous pouvez définir des filtres pour créer des sous-jeux de données pour chaque ligne. Pour plus d’informations, reportez-vous à la rubrique [Filtrage](ui-enter-criteria-filters.md#filtering).
@@ -67,7 +67,7 @@ Lorsqu’un développeur ajoute une table, il peut spécifier des filtres obliga
 
 Voici des exemples de la façon d’ajouter une table à la liste des tables autorisées avec et sans filtres obligatoires ou par défaut. Pour un exemple plus complexe, voir codeunit 3999 « Reten. Pol. Install – BaseApp ». 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Voici des exemples de la façon d’ajouter une table à la liste des tables aut
 
 L’exemple suivant inclut un filtre obligatoire.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,10 +98,13 @@ L’exemple suivant inclut un filtre obligatoire.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Une fois qu’un développeur a ajouté des tables à la liste, un administrateur peut les inclure dans une stratégie de rétention. 
 
 ## <a name="see-also"></a>Voir aussi
-[Audit des modifications dans Business Central](across-log-changes.md)  
+
+[Analyse de la télémétrie de suivi des stratégies de rétention](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
+[Audit des modifications dans Business Central](across-log-changes.md)  
 [Filtrage](ui-enter-criteria-filters.md#filtering)  
 [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

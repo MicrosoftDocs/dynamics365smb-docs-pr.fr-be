@@ -1,23 +1,22 @@
 ---
-title: Organisation des processus de services | Microsoft Docs
-description: Décrit les tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
+title: Planification des processus de service
+description: Cette rubrique décrit les différentes tâches permettant de configurer des règles et des valeurs pour définir vos stratégies de services et vos processus de vente.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757855"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134808"
 ---
 # <a name="planning-services"></a>Services de planification
 Grâce à [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez configurer les tâches standard qui permettent de répondre aux besoins du service clientèle. Pour cela, vous devez déterminer quels articles et offres de service sont pris en charge par votre organisation de prestation de services, et à quel prix.   
@@ -41,3 +40,6 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Configurer les articles de service et les composants article de service](service-how-setup-service-items.md)  
 [Paramétrer les statuts des commandes service et des réparations](service-order-repair-status.md)  
 [Paramétrage de la gestion des services](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
