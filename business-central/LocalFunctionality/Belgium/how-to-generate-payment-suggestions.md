@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 256
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: c7d29743bf1b1d304e266b3de348b65f77d1511b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea4d0844d4b915f5e97d3bb7da5fef67a3444e9d
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134482"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366309"
 ---
 # <a name="generate-payment-suggestions-in-the-belgian-version"></a>Générer des suggestions de règlement dans la version belge
 Après avoir configuré les opérations bancaires électroniques, vous pouvez commencer à générer des suggestions de règlement. Pour cela, utilisez la feuille paiement.  
@@ -44,7 +44,7 @@ Lorsque le traitement par lots est terminé, la feuille paiement contient toutes
  [Paramétrer les fournisseurs pour des suggestions de règlement automatique](how-to-set-up-vendors-for-automatic-payment-suggestions.md)   
  [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
- [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
+ [Gérer les lignes de paiement électronique](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md)
 
 

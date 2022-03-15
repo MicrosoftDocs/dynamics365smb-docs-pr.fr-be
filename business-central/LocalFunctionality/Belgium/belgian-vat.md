@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 11300, 11301,11303,11306,11307,11308
-ms.date: 06/17/2021
+ms.date: 03/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8058bb825d85fb58d4e55bf46629c833e8079b55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2a71ba8f7ecde2418826429f31c4e396268b7d7f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147398"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372036"
 ---
 # <a name="belgian-vat"></a>TVA belge
 
@@ -27,9 +27,9 @@ ms.locfileid: "8147398"
 
     Cet état permet de déclarer annuellement tous les montants facturés pour les biens et les services à toutes les sociétés belges avec un numéro de TVA enregistré.  
 
-- TVA - Liste déclaration intracommunautaire (sur papier/disque)
+- Liste des ventes UE
 
-    Cet état permet de déclarer les ventes de marchandises à d'autres pays.  
+    Cet état permet de déclarer les ventes de marchandises à d'autres pays dans l'Union européenne. Pour en savoir plus, reportez-vous à la rubrique [À propos de l'état Liste des ventes UE](../../finance-how-report-vat.md#ecsaleslist).  
 
 Vous êtes également tenu de fournir un relevé imprimé détaillant les transactions TVA aux autorités fiscales belges. Pour plus d'informations, voir Déclaration TVA.  
 

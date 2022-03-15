@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: fea89553b3b1779ac09272a5cf76a7d88b6e7ecc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2817600b10009ab8135f686ea53ecb91eb3c58bf
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148950"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366396"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 
@@ -48,14 +48,14 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Importer des relevés CODA](how-to-import-coda-statements.md) **Désormais disponible**
     * [Transférer et valider manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md) **Désormais disponible**
     * [Imprimer des fichiers de paiement](how-to-print-payment-files.md) **Désormais disponible**
-    * [Activer les paiements SEPA](how-to-activate-sepa-payments.md) **Désormais disponible**
-    * [Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md) **Désormais disponible**
+    * [Activer les paiements SEPA](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Désormais disponible**
+    * [Effectuer des paiements SEPA hors euro](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Désormais disponible**
     * [Domiciliation européenne](direct-debit-using-domiciliation.md) **Désormais disponible**
-    * [Paramétrer les domiciliations](how-to-set-up-domiciliations.md) **Désormais disponible**
-    * [Modifier et supprimer des lignes domiciliation](how-to-edit-and-delete-domiciliation-lines.md) **Désormais disponible**
-    * [Tester les domiciliations](how-to-test-domiciliations.md) **Désormais disponible**
-    * [Exporter et valider des domiciliations](how-to-export-and-post-domiciliations.md) **Désormais disponible**
-    * [Générer des suggestions de domiciliation](how-to-generate-domiciliation-suggestions.md) **Désormais disponible**
+    * [Paramétrer les domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
+    * [Modifier et supprimer des lignes domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
+    * [Tester les domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
+    * [Exporter et valider des domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
+    * [Générer des suggestions de domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
     * [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md) **Désormais disponible**
     
 * Finances principales

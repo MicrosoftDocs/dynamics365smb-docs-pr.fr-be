@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebed17669c1898878d2ce66c96db11d61937421e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 887cb532edeaf6d1ae59eab9c04a5175153c075a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140074"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367064"
 ---
 # <a name="set-up-electronic-banking-in-the-belgian-version"></a>Paramétrer des opérations bancaires électroniques dans la version belge
 
@@ -45,7 +45,7 @@ Avec les opérations bancaires électroniques, vous pouvez effectuer des paiemen
  [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md)   
  [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)   
- [Gérer les lignes de paiement électronique](how-to-manage-electronic-payment-lines.md)   
+ [Gérer les lignes de paiement électronique](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
  [Imprimer les fichiers de paiement](how-to-print-payment-files.md) [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md)
 
 

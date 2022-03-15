@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 4f9d588ea3613d39df1c0950bb9f928300dba7fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca250fc4b07531a2e75cf21b7250607528e51ab1
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136706"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367062"
 ---
 # <a name="sepa-payments-in-the-belgian-version"></a>Paiements SEPA dans la version belge
 
@@ -24,8 +24,8 @@ Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des 
 
 [Site Web Febelfin](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [Site Web ISO 20022](https://go.microsoft.com/fwlink/?LinkId=275120)   
-[Activer les règlements SEPA](how-to-activate-sepa-payments.md)   
-[Effectuer des paiements SEPA hors euro](how-to-file-non-euro-sepa-payments.md)
+[Activer les règlements SEPA](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)   
+[Effectuer des paiements SEPA hors euro](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments)
 [Exécuter des paiements avec l'extension AMC Banking 365 Fundamentals ou des virements SEPA](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

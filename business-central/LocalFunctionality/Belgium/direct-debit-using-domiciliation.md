@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 84f19c1a7f1d554e3b9e9d2ba93cb140a81e2af3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ef382dbf094a73af5e3522e03e5480439fe5a46
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134485"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366480"
 ---
 # <a name="direct-debit-using-domiciliation"></a>Domiciliation européenne
 
@@ -27,7 +27,7 @@ Avant de pouvoir commencer à utiliser la banque électronique pour les domicili
 
 - Numéro de domiciliation : il s'agit d'un code unique obtenu de la banque et qui identifie l'accord de domiciliation entre vous, votre client et la banque. Le contrat contient des informations sur la fréquence de paiement, les numéros de comptes bancaires et les montants. Lorsque vous envoyez vos paiements à la banque, celle-ci utilisera le numéro de domiciliation pour identifier toutes les parties concernées.  
 
-- Compte bancaire préféré : le compte bancaire préféré sera proposé comme compte bancaire par défaut sur toutes les propositions de domiciliation pour ce client. Si nécessaire, vous pouvez modifier le compte bancaire avant de valider les propositions de domiciliation. Pour plus d'informations, voir [Générer les propositions de domiciliation](how-to-generate-domiciliation-suggestions.md).  
+- Compte bancaire préféré : le compte bancaire préféré sera proposé comme compte bancaire par défaut sur toutes les propositions de domiciliation pour ce client. Si nécessaire, vous pouvez modifier le compte bancaire avant de valider les propositions de domiciliation. Pour plus d'informations, voir [Générer les propositions de domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation).  
 
 ## <a name="set-up-domiciliations"></a>Paramétrer les domiciliations
 
