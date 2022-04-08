@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 2817600b10009ab8135f686ea53ecb91eb3c58bf
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 5f1887a8825729ab3de1a642c21ce3651b97cefa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366396"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520515"
 ---
 # <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
 
@@ -30,8 +30,9 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md) **Désormais disponible**
     * [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md) **Désormais disponible**
     * [Exporter des déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md) **Désormais disponible**
+    * Déclarations F01DGS et F02CMS **2e vague de lancement 2022**
 
-* Opérations bancaires et paiements
+* Banque et paiements
     * [Configurer des comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md) **Désormais disponible**
     * [Lettrer des relevés CODA](how-to-apply-coda-statements.md) **Désormais disponible**
     * [Transférer et valider automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md) **Désormais disponible**
@@ -70,7 +71,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 ## <a name="see-also"></a>Voir aussi
 
-[Utilisation de [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
