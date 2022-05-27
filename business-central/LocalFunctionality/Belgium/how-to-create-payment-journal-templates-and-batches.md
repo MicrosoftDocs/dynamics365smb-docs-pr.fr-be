@@ -6,14 +6,15 @@ ms.topic: conceptual
 ms.search.form: 256, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 072018473e408e662628cb9c9b4efdf7ff4c5410
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 39825fea306b83a5b05a53df08210c8795e3303f
+ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149305"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786218"
 ---
 # <a name="create-payment-journal-templates-and-batches-in-the-belgian-version"></a>Création de modèles et de lots de feuilles paiement dans la version belge
+
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], les suggestions de paiement sont générées et validées dans les feuilles paiement. La structure de la feuille paiement est similaire à celle des autres types de feuille. Toutefois, la feuille paiement contient des champs qui sont propres au traitement des paiements. Avant de commencer à générer des suggestions de paiement, vous devez paramétrer un modèle feuille paiement et une feuille paiement.  
 
 Vous pouvez affecter une page spécifique et un état de test à chaque modèle feuille. De cette façon, vous pouvez gérer vos paiements nationaux et internationaux à partir de cette page ajustée. Le *code source* spécifié est copié dans toutes les lignes feuille créées sur la base du modèle feuille. Le code est également copié dans les écritures lors de leur validation. De cette façon, vous pouvez toujours connaître l'endroit où une écriture a été validée.
@@ -50,9 +51,9 @@ Vous pouvez créer plusieurs lors de feuilles dans chaque modèle feuille. Plusi
 
 ## <a name="see-also"></a>Voir aussi
 
-[Paiements électroniques, Belgique](belgian-electronic-payments.md)   
-[Configurer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)   
-[Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)
-
+[Paiements électroniques belges](belgian-electronic-payments.md)  
+[Paramétrer des opérations bancaires électroniques](how-to-set-up-electronic-banking.md)  
+[Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)  
+[Rendre les modèles feuille obligatoires](specify-journal-template-mandatory.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
