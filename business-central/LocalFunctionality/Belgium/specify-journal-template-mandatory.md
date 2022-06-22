@@ -5,14 +5,14 @@ author: altotovi
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 118
-ms.date: 05/19/2022
+ms.date: 05/24/2022
 ms.author: altotovi
-ms.openlocfilehash: fa65662d258c757c86138a81315fee5ceb096dd7
-ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
+ms.openlocfilehash: ce4d63d1d505f605574b0b49aab47f636964cbd9
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786249"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799870"
 ---
 # <a name="make-journal-templates-mandatory-in-the-belgian-version"></a>Rendre les modèles feuille obligatoires dans la version belge
 
@@ -21,10 +21,27 @@ Vous pouvez utiliser des feuilles pour valider des documents achat et vente et c
 ## <a name="to-make-journal-templates-required-in-a-company"></a>Pour rendre les modèles feuille obligatoires dans une société
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
-2. Dans le raccourci **Général**, sélectionnez le champ **Nom modèle feuille obligatoire**. Ce champ spécifie si les utilisateurs doivent spécifier un modèle et un lot feuille lors qu'ils valident des transactions comptables.  
+2. Dans le raccourci **Général**, sélectionnez le champ **Nom modèle feuille obligatoire**. Ce champ spécifie si les utilisateurs doivent spécifier un modèle feuille lors qu'ils valident des transactions comptables.  
 
 > [!NOTE]  
 > Si le champ **Nom modèle feuille obligatoire** n'est pas sélectionné, [!INCLUDE [prod_short](../../includes/prod_short.md)] n'utilisera pas des noms de modèle dans les écritures et documents validés.
+
+## <a name="use-journal-templates-in-sales-and-purchase-documents"></a>Utiliser des modèles feuille dans des documents achat et vente
+
+Si votre organisation décide d'activer le champ **Nom modèle feuille obligatoire**, vous devez configurer les modèles feuille qui seront utilisés par défaut dans les documents achat et vente.
+
+> [!TIP]  
+> Avant de valider une transaction, vous pouvez modifier le nom du modèle suggéré dans le champ **Nom modèle feuille**. De cette façon, les transactions se voient assigner un autre numéro de document, comme défini par le modèle.
+
+### <a name="to-use-journal-templates-in-sales-documents"></a>Pour utiliser des modèles feuille dans des documents vente
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres ventes**, puis choisissez le lien associé.  
+2. Sur le raccourci **Modèles feuille**, choisissez les modèles feuille que vous souhaitez utiliser par défaut pour tous les documents vente.  
+
+### <a name="to-use-journal-templates-in-purchase-documents"></a>Pour utiliser des modèles feuille dans des documents achat
+
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres achats**, puis choisissez le lien associé.  
+2. Sur le raccourci **Modèles feuille**, choisissez les modèles feuille que vous souhaitez utiliser par défaut pour tous les documents achat.  
 
 ## <a name="see-also"></a>Voir aussi
 
