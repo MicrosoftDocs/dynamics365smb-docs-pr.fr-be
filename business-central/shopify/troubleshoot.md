@@ -77,7 +77,7 @@ Les procédures suivantes décrivent comment faire tourner le jeton d’accès u
 ### <a name="in-shopify"></a>Dans Shopify
 
 1. Depuis votre **Administration Shopify**, accédez à [Applications](https://www.shopify.com/admin/apps).
-2. Dans la ligne avec l’application *Dynamics 365 Business Central**, sélectionnez **Effacer**.
+2. Dans la ligne avec l’application **Dynamics 365 Business Central**, sélectionnez **Effacer**.
 3. Dans le message qui s’affiche, sélectionnez **Supprimer**.
 
 ### <a name="in-prod_short"></a>Dans [!INCLUDE[prod_short](../includes/prod_short.md)]
