@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 525fefb060fa001004645ac5376ec3f5838450c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44d7ba224a0945acff4e352824922bc7c1a35bf
+ms.sourcegitcommit: d8a84a008c6bd3baf1ca7ade49310313cb4942f8
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133500"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201946"
 ---
 En lettrant des écritures comptables temporaires, les sociétés peuvent utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
 
@@ -36,6 +36,10 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 4. Sélectionnez l'écriture comptable appropriée, puis choisissez l'action **Définir ID lettrage**.  
 
     Le champ **ID lettrage** est mis à jour avec l'ID utilisateur. Le montant restant est affiché dans le champ **Solde** de la page **Lettrer écritures comptables**.  
+
+    > [!IMPORTANT]  
+    > Vous ne pouvez lettrer plusieurs écritures que si toutes les écritures lettrées peuvent être entièrement clôturées.  
+
 5. Sélectionnez l'action **Valider le lettrage**.  
 
     Vous pouvez valider le lettrage même si le solde est égal à 0. Une fois validé, le champ **Montant restant** est affecté comme suit :  
