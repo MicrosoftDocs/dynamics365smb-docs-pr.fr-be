@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: e51d65b58c8e9a63f1c5aeacce0880c4906bf0b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cfb412aaf7d488c921aa07f57ba5bb5c366e0062
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148015"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607164"
 ---
 # <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Exporter des déclarations tierces intracommunautaires dans la version belge
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.  
 
@@ -34,17 +36,17 @@ Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état.
     |**Informations de contrepartie**|Activez ce champ pour inclure des informations de contrepartie dans le fichier de déclaration d'échanges de biens intracommunautaires (nouvelle exigence à partir de 2019). La déclaration de contrepartie ajoutée au fichier est issue des champs **Code pays/région origine** et **ID partenaire** de la Feuille intracomm.|  
     |**N° entreprise/N° id. intracomm.**|Entrez le numéro d'entreprise ou d'enregistrement de TVA.|  
 
-4. Choisissez le bouton **OK**.  
+4. Cliquez sur le bouton **OK**.  
 
 Ensuite, envoyez la déclaration au portail OneGate.  
 
 ## <a name="see-also"></a>Voir aussi
 
- [États intracommunautaires belges](belgian-intrastat-reporting.md)   
- [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
- [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
- [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
- [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
-
+[États intracommunautaires belges](belgian-intrastat-reporting.md)  
+[Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)  
+[Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)  
+[Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)  
+[Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)  
+[Paramétrer les états intracommunautaires](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

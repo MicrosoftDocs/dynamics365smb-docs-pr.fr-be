@@ -9,22 +9,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: f912d61ea696d9e01d53caab6cce3147d7703875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56ef1f753117ef85396a94a26e9d1402aa0e7b21
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134473"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605676"
 ---
 # <a name="print-the-intrastat-form-report-in-the-belgian-version"></a>Imprimer l'état du formulaire de D.E.B. dans la version belge
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
+
 L'état **D.E.B. - Formulaire** doit être utilisé pour la D.E.B. En Belgique, vous devez déclarer les mouvements de marchandises aux autorités statistiques mensuellement et la déclaration doit être envoyée aux autorités fiscales.  
 
 Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprimer l'état **D.E.B. - Liste de contrôle** pour vérifier le contenu de l'état.  
 
 ## <a name="to-print-the-intrastat-form-report"></a>Pour imprimer l'état Formulaire de D.E.B.  
 
-1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Formulaire de D.E.B**, puis choisissez le lien associé.  
-2.  Renseignez les champs comme indiqué dans le tableau suivant.  
+1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Formulaire de D.E.B**, puis choisissez le lien associé.  
+2. Renseignez les champs comme indiqué dans le tableau suivant.  
 
     |Champ|Désignation|  
     |---------------------------------|---------------------------------------|  
@@ -38,14 +41,15 @@ Avant d'imprimer l'état **D.E.B. - Formulaire**, vous pouvez également imprime
     |**Déclaration Nihil**|Sélectionnez ce champ si vous n'avez aucune transaction commerciale avec des pays de l'UE et vous souhaitez envoyer une déclaration vide. Lorque ce champ est sélectionné, le message « NIHIL » s'affiche dans le champ **Message**.|  
     |**Message**|Entrez un message à imprimer sur la D.E.B., par exemple « déclaration normale » ou « déclaration de remplacement ».|  
 
-3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
+3. Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran.  
 
-## <a name="see-also"></a>Voir aussi  
- [États intracommunautaires belges](belgian-intrastat-reporting.md)   
- [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   
- [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
- [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
- [Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)
+## <a name="see-also"></a>Voir aussi
 
+[États intracommunautaires belges](belgian-intrastat-reporting.md)  
+[Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)  
+[Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)  
+[Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)  
+[Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)  
+[Paramétrer les états intracommunautaires](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

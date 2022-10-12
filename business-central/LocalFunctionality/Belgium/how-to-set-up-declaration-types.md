@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: bdc9190548f4144942d66a1f5ef1201a8dfdd9b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 135d2f09f480bbaa99b9443d94a72d6d33eea9fb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145121"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607158"
 ---
 # <a name="set-up-declaration-types-in-the-belgian-version"></a>Paramétrer des types de déclarations dans la version belge
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], il existe deux types de déclarations :  
 
@@ -31,15 +33,15 @@ Lorsque vous utilisez la déclaration étendue, vous devez également configurer
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Activez la case à cocher **Déclaration D.E.B. simplifiée** pour configurer un type de déclaration simplifiée. Effacez ce champ pour utiliser la déclaration étendue.  
-3. Choisissez le bouton **OK**.  
+3. Cliquez sur le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi
 
- [États intracommunautaires belges](belgian-intrastat-reporting.md)   
- [Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)   
- [Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)   
- [Exporter les déclarations de tiers intracomm.](how-to-export-intrastat-third-party-declararations.md)   
- [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)
-
+[États intracommunautaires belges](belgian-intrastat-reporting.md)  
+[Paramétrer les nomenclatures produits belges](how-to-set-up-belgian-tariff-numbers.md)  
+[Paramétrer les numéros d'établissement intracommunautaires](how-to-set-up-intrastat-establishment-numbers.md)  
+[Exporter les déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md)  
+[Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md)  
+[Paramétrer les états intracommunautaires](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
