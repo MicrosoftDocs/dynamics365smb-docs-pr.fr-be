@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 2000005
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: daa6a537b801c830ccf5098c602da6a841b6caee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f3c90c66706872b7af27682108f0a9dff2283c6f
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140077"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744726"
 ---
 # <a name="set-up-export-protocols-in-the-belgian-version"></a>Paramétrer les protocoles d'exportation dans la version belge
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  
@@ -49,8 +50,9 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
     |**Exporter le type d'objet**|Spécifiez le type de l'objet qui définit le format d'exportation de l'export du fichier de paiement. Après avoir sélectionné **Exporter l'ID objet**, ce champ indique **Exporter le type d'objet**.<br /><br /> **REMARQUE :** pour paramétrer le protocole d'exportation pour SEPA pain.001.001.03, sélectionnez **XMLPort**.|  
     |**Exporter l'ID objet**|Spécifiez le numéro d'identification de l'objet qui définit le format d'exportation de l'export du fichier de paiement. Par exemple, si vous sélectionnez **2000002**, le format d'exportation du fichier de paiement est **Remplir les paiements internationaux**.<br /><br /> **REMARQUE :** pour paramétrer le protocole d'exportation pour SEPA pain.001.001.03, sélectionnez XMLport **1000**.|  
     |**Souche de n° d'exportation**|Spécifiez la souche de numéros qui est utilisée pour affecter des numéros d'identification à l'export du fichier de paiement.|  
+    |**Paiement groupé**|Spécifie si ce protocole d’exportation est utilisé pour les paiements groupés.|  
 
-4.  Choisissez le bouton **OK**.  
+4.  Cliquez sur le bouton **OK**.  
 
 ## <a name="see-also"></a>Voir aussi  
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
