@@ -31,7 +31,7 @@ Cet article décrit les paramètres standard pour l’assemblage pour stock. Cep
 
 Suivez les étapes de cette procédure pour assembler un article à stocker. Pour en savoir plus sur l’assemblage sur commande, accédez à [Vendre des articles assemblés sur commande](assembly-how-to-sell-items-assembled-to-order.md).
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Ordres d’assemblage**, puis sélectionnez le lien associé.  
 2. Sélectionnez l’action **Nouveau**. La page **Nouvel ordre d’assemblage** s’ouvre.  
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Dans le champ **N° article**, sélectionnez l’élément à assembler. Vous pouvez sélectionner des articles configurés pour l’assemblage et dotés d’une nomenclature d’élément d’assemblage, ou des articles sans nomenclature d’élément d’assemblage. Ces derniers sont utiles pour les assemblages ou les scénarios non planifiés quand vous souhaitez utiliser la reclassification des articles et suivre les coûts.  

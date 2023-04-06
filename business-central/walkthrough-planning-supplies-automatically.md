@@ -142,7 +142,7 @@ Les expressions comme « exécution du planning » et « exécution MRP » s
 
 1.  Sélectionnez la ligne planning correspondant à l’article 1300, puis choisissez l’action **Chaînage**.  
 
-     Les deux lignes de la page **Chaînage** indiquent que cinq pièces sont suivies depuis la ligne planning (première ligne de chaînage) jusqu’à la commande vente 1001 (deuxième ligne de chaînage). Les cinq dernières pièces indiquées sur la ligne planning ne sont associées à aucune ligne de document, mais bien à un paramètre de planification, à une écriture prévision ou une écriture de commande cadre. Ces quantités non chaînées sont résumées dans le champ **Quantité non chaînée** dans l’en-tête de la page **Chaînage**.  
+     Les deux lignes de la page **Chaînage** indiquent que cinq pièces sont suivies depuis la ligne planning (première ligne de chaînage) jusqu’à la commande vente 1001 (deuxième ligne de chaînage). Les cinq dernières pièces indiquées sur la ligne planning ne sont associées à aucune ligne de document, mais bien à un paramètre de planification, à une écriture prévision ou une écriture de commande ouverte. Ces quantités non chaînées sont résumées dans le champ **Quantité non chaînée** dans l’en-tête de la page **Chaînage**.  
 
 2.  Choisissez le champ **Quantité non chaînée**.  
 

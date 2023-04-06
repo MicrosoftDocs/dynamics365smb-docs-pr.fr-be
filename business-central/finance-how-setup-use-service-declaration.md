@@ -19,7 +19,7 @@ Dans certains pays de l’UE, les autorités exigent que les entreprises déclar
 
 Après avoir installé l’extension dans votre environnement, vous devez l’activer.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Gestion des fonctionnalités** et sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Gestion des fonctionnalités** et sélectionnez le lien associé.
 2. Recherchez **Fonctionnalité : activer l’utilisation de la déclaration de service (déclaration d’échanges de biens pour les services)**, et dans le champ **Activé pour**, choisissez **Tous les utilisateurs**. Découvrez la gestion des fonctionnalités sur [Activer les fonctionnalités à venir à l’avance](/dynamics365/business-central/dev-itpro/administration/feature-management) dans le contenu de l’administration.
 3. Quand vous activez la fonctionnalité, vous devez suivre les étapes du processus de configuration via l’Assistant Configuration. La plupart des champs sont configurés par défaut.
 4. Ajoutez uniquement **Types de transactions de services** à la deuxième étape en choisissant l’option **Ouvrez la page des types de transactions de service pour indiquer la liste des codes**.
@@ -32,7 +32,7 @@ Vous pouvez configurer l’extension manuellement ou en utilisant un fichier de 
 
 ### Pour configurer de la déclaration de service manuellement
 
-1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramètres Déclaration de service**, puis choisissez le lien associé.
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Paramètres Déclaration de service**, puis choisissez le lien associé.
 2. Dans le raccourci **Général**, configurez les champs comme indiqué dans le tableau ci-dessous :
 
     |Champ  |Désignation  |
@@ -49,7 +49,7 @@ Vous pouvez configurer l’extension manuellement ou en utilisant un fichier de 
 
 ### Configurer un fichier de déclaration
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Définitions d’échange de données** et sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Définitions d’échange de données** et sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Sur le raccourci **Général**, décrivez la définition d’échange de données en spécifiant le type de fichier de données, le séparateur de colonnes, le codeunit associé, XMLport et en remplissant les autres champs.
 4. Sur le raccourci **Définitions de ligne**, décrivez le formatage des lignes du fichier de données en remplissant les champs en fonction du champ **Type de ligne**, et où vous devez définir le nombre de colonnes pour cette ligne.
@@ -60,7 +60,7 @@ Vous pouvez configurer l’extension manuellement ou en utilisant un fichier de 
    2. Sélectionnez le **Codeunit de mappage**.
 8. Sur le raccourci **Mappage des champs**, ajoutez les colonnes que vous avez précédemment configurées dans le raccourci **Définitions de colonne** et ajoutez ce qui suit :
    1. Spécifiez **l’ID de champ** pour chacune des colonnes.
-   2. Spécifiez la **Règle de transformation** pour chaque colonne au besoin. La règle transforme un texte importé en valeur prise en charge avant de pouvoir être mappé dans un champ spécifié dans [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous choisissez une valeur dans ce champ, la valeur exacte est saisie dans le champ **Règle de transformation** dans la table **Tampon correspondance champ échge données** et inversement.
+   2. Spécifiez la **Règle de transformation** pour chaque colonne au besoin. La règle transforme un texte importé en valeur prise en charge avant de pouvoir être mappé dans un champ spécifié dans [!INCLUDE[prod_short](includes/prod_short.md)]. Lorsque vous choisissez une valeur dans ce champ, la valeur exacte est saisie dans le champ **Règle de transformation** dans la table **Tampon correspondance champ échge données**  et inversement.
 9. Pour regrouper des entrées en fonction des colonnes, sur le raccourci **Groupement de champs**, choisissez les champs que vous souhaitez utiliser pour le regroupement.
 
 > [!NOTE]
@@ -85,7 +85,7 @@ Configurez les informations relatives à la déclaration de service sur les page
 
 Configurez les informations relatives à la déclaration de service sur les pages Fiche ressource :
 
-1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ressources** et choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Ressources** et choisissez le lien associé.
 2. Sélectionnez la ressource que vous souhaitez configurer.
 3. Développez le raccourci **Général** et configurez les champs suivants :
    1. Dans le champ **Code type de transaction de service**, spécifiez le code pour un **Type de transaction de service**.
@@ -95,14 +95,14 @@ Configurez les informations relatives à la déclaration de service sur les page
 
 Configurez les informations relatives à la déclaration de service pour les frais annexes :
 
-1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Frais annexes**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Frais annexes**, puis choisissez le lien associé.
 2. Sélectionnez les frais annexes que vous souhaitez configurer.
 3. Dans le champ **Code type de transaction de service**, spécifiez le code pour un **Type de transaction de service**.
 4. Si vous ne souhaitez pas inclure ces frais annexes dans les déclarations de service, choisissez le champ **Exclure de la déclaration de service**.
 
 ## Créer une déclaration de service
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déclarations de services**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Déclarations de services**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs suivant sur le raccourci **Général** :
     1. Dans le champ **Code config.**, spécifiez le code de configuration qui est utilisé pour suggérer des lignes et créer des fichiers. Vous devez en choisir un comme **Déclaration de service**.
@@ -128,7 +128,7 @@ Après avoir créé une déclaration de service, utilisez l’action **Aperçu**
 
 Vous pouvez soumettre la déclaration de service sous forme de fichier en fonction des exigences des différentes autorités locales. Pour créer un fichier :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Déclarations de services**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Déclarations de services**, puis sélectionnez le lien associé.
 2. Choisissez la déclaration de service que vous souhaitez déclarer sous forme de fichier.
 3. Si ce n’est déjà fait, renseignez la déclaration de service manuellement ou sélectionnez l’action **Proposer lignes**.
 4. Choisissez l’action **Créer fichier**.
