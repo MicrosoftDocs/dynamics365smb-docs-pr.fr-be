@@ -25,16 +25,16 @@ Learn more at [Flux d’enlogement](design-details-inbound-warehouse-flow.md).
 
 Cet article fait référence à la méthode B dans le tableau.
 
-Lorsque votre magasin est configuré pour exiger un traitement des rangements, mais qu’il ne l’est pas pour un traitement des réceptions, utilisez le document **Rangement stock** pour enregistrer et valider les informations de rangement et de réception pour vos documents origine. Les documents origine entrants peuvent être des commandes achat, des retours vente et des ordres d’enlogement.
+Lorsque votre magasin est configuré pour exiger un traitement des rangements, mais qu’il ne l’est pas pour un traitement des réceptions, utilisez un document **Rangement stock** pour enregistrer et valider les informations de rangement et de réception pour vos documents origine. Les documents origine entrants peuvent être des commandes achat, des retours vente et des ordres d’enlogement.
 
 > [!NOTE]
 > Les sorties de la production et de l’assemblage représentent également des documents origine entrants. Pour en savoir plus sur la gestion des sorties de la production et de l’assemblage pour les processus internes, consultez [Détails de conception : Flux d’entrepôt internes](design-details-internal-warehouse-flows.md).
 
 Vous pouvez créer un rangement stock de trois manières :  
 
-- Créez le rangement stock directement à partir du document origine proprement dit.  
-- Créez des rangements stock pour plusieurs documents origine simultanément en utilisant un traitement par lots.  
-- Créez le rangement en deux étapes en publiant d’abord le document origine pour rendre les articles disponibles pour le rangement. Vous pouvez créer le rangement stock sur la base du document origine en utilisant la page **Rangement stock**.  
+* Créez le rangement stock directement à partir du document origine proprement dit.  
+* Créez des rangements stock pour plusieurs documents origine simultanément en utilisant un traitement par lots.  
+* Créez le rangement en deux étapes en publiant d’abord le document origine pour rendre les articles disponibles pour le rangement. Vous pouvez créer le rangement stock sur la base du document origine en utilisant la page **Rangement stock**.  
 
 ## Pour créer un rangement stock à partir du document origine
 
@@ -80,6 +80,8 @@ Un magasinier peut créer un nouveau rangement stock basé sur le document origi
 
     * Valider la réception des lignes du document origine qui ont été rangées
     * Si le magasin utilise des emplacements, la validation crée également des écritures entrepôt pour valider les modifications apportées aux quantités emplacement.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
 

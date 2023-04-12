@@ -67,13 +67,14 @@ Avec la fonctionnalité activée, une transaction de retour peut être validée 
 | Créez des séquences de tâches pour connecter les processus exécutés par différents utilisateurs, tels que la demande et l’approbation des bons de commande. | [Configurer les flux de travail d’approbation achat](across-set-up-workflows.md) |
 | Gérez les interactions commerciales avec vos fournisseurs, importez les documents de facturation reçus et enregistrez de nouveaux fournisseurs à l’aide du client de messagerie Outlook. | [Configurer le complément Business Central pour Outlook](admin-outlook.md) |
 | Examinez les reçus de dépenses, convertissez les documents papier et électroniques en lignes de journal et numérisez les factures papier des fournisseurs. | [Configurer des documents entrants](across-how-setup-income-documents.md) |
-| Spécifiez les états par défaut à utiliser pour différents types de documents. |[Sélection des états dans Business Central](across-report-selections.md)|
+| Spécifier les états par défaut à utiliser pour différents types de documents. |[Sélection des états dans Business Central](across-report-selections.md)|
+|Spécifiez si les utilisateurs sont autorisés à valider des factures achat et s’ils doivent les valider avec une expédition. |[Définir une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)|
 
 ## Voir la formation associée sur [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## Voir aussi
 
-[Achats](purchasing-manage-purchasing.md)  
+[Procédure d’achat](purchasing-manage-purchasing.md)  
 [Présentation de la configuration](setup.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
