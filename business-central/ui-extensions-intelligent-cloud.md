@@ -2,7 +2,6 @@
 title: Extensions de base de migration vers le cloud
 description: Utilisez l’extension Base de migration vers le Cloud pour connecter votre solution sur site à Business Central Online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
