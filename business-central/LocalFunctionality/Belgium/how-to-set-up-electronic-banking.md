@@ -1,30 +1,24 @@
 ---
-title: Paramétrer des opérations bancaires électroniques [BE]
-description: Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.
+title: 'Paramétrer des opérations bancaires électroniques [BE]'
+description: 'Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 11308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 887cb532edeaf6d1ae59eab9c04a5175153c075a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367064"
 ---
-# <a name="set-up-electronic-banking-in-the-belgian-version"></a>Paramétrer des opérations bancaires électroniques dans la version belge
+# Paramétrer des opérations bancaires électroniques dans la version belge
 
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  
 
 - Paramétrage des opérations bancaires électroniques.  
 - Codes IBLC/BLWI - Pour plus d'informations, voir [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
-## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques  
+## Pour paramétrer les opérations bancaires électroniques  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
 2.  Dans la page **Paramétrage des opérations bancaires électroniques**, renseignez les champs comme indiqué dans le tableau suivant.   
@@ -36,7 +30,7 @@ Avec les opérations bancaires électroniques, vous pouvez effectuer des paiemen
  
 3.  Cliquez sur le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Site Web Isabel](https://go.microsoft.com/fwlink/?LinkId=210323)   
  [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   

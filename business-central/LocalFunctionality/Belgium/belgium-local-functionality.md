@@ -1,23 +1,17 @@
 ---
-title: Fonctionnalité locale, Belgique
+title: 'Fonctionnalité locale, Belgique'
 description: Les rubriques suivantes décrivent les différentes fonctionnalités locales de la version belge de Business Central.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: 61d7ca851561cd666b86457fce710903935d6b42
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799737"
 ---
-# <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
+# Fonctionnalité locale, Belgique
 
 Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilité des fonctions
+## Disponibilité des fonctions
 
 * TVA
     * [TVA belge](belgian-vat.md) **Désormais disponible**
@@ -30,7 +24,7 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Imprimer l'état Formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md) **Désormais disponible**
     * [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md) **Désormais disponible**
     * [Exporter des déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md) **Désormais disponible**
-    * Déclarations service F01DGS et F02CMS **2e vague de lancement 2022**
+    * [Déclarations service F01DGS](../../finance-how-setup-use-service-declaration.md) **Désormais disponible**
 
 * Banque et paiements
     * [Configurer des comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md) **Désormais disponible**
@@ -71,7 +65,11 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Définir la date de travail comme date de validation](how-to-set-the-work-date-as-the-posting-date.md) **Désormais disponible**
     * [Rendre les modèles feuille obligatoires](specify-journal-template-mandatory.md) **Désormais disponible**
 
-## <a name="see-also"></a>Voir aussi
+## Les futures exigences législatives en cours d’investigation
+
+Il n’y a actuellement aucune fonctionnalité ou exigence réglementaire imminente. Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

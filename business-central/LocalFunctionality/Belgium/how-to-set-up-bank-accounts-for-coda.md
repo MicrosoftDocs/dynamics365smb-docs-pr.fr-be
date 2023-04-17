@@ -1,6 +1,6 @@
 ---
-title: Comment configurer les comptes bancaires pour CODA [BE]
-description: Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer certains codes.
+title: 'Comment configurer les comptes bancaires pour CODA [BE]'
+description: 'Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer certains codes.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -8,24 +8,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 7ed2c6b29ad7fda690822cbd600c541da3cfc6af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129382"
 ---
-# <a name="set-up-bank-accounts-for-coda-in-the-belgian-version"></a>Configurer des comptes bancaires pour CODA dans la version belge
+# Configurer des comptes bancaires pour CODA dans la version belge
 Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les relevés CODA, vous devez configurer les codes suivants :  
 
 - Numéro de protocole  
 - Code version  
 - Les codes IBLC/BLWI - Pour plus d'informations, voir [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
-## <a name="to-set-up-protocol-numbers-and-version-codes"></a>Pour configurer des numéros de protocole et des codes version  
+## Pour configurer des numéros de protocole et des codes version  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Modifier**.  
@@ -38,7 +32,7 @@ Avant de pouvoir utiliser la fonctionnalité de banque électronique pour les re
 
 4.  Cliquez sur le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Relevés bancaires CODA](coda-bank-statements.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   
  [Importer des relevés CODA](how-to-import-coda-statements.md)

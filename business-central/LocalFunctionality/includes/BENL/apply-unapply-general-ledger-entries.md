@@ -1,15 +1,13 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e44d7ba224a0945acff4e352824922bc7c1a35bf
-ms.sourcegitcommit: d8a84a008c6bd3baf1ca7ade49310313cb4942f8
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9201946"
+ms.date: 03/06/2023
+ms.author: bholtorf
 ---
+
+> [!NOTE]
+> Les entreprises de tous les pays peuvent bénéficier de la possibilité d’examiner les écritures comptables avant de les valider. Dans une prochaine version, nous abandonnerons la fonctionnalité spécifique au pays et la remplacerons par une autre disponible dans toutes les versions de pays. Une fois la fonctionnalité abandonnée, vous pouvez l’utiliser pour accéder aux révisions précédentes, mais pas pour en créer. Nous allons archiver vos données conformément aux exigences locales. Pour en savoir plus sur l’abandon, accédez à [Fonctionnalités abandonnées dans l’application de base](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1). Pour en savoir plus sur la fonctionnalité de remplacement, accédez à [Revoir les montants dans les comptes généraux](../../../finance-review-accounts.md).
+
 En lettrant des écritures comptables temporaires, les sociétés peuvent utiliser des comptes temporaires et de transfert dans la comptabilité. Les comptes temporaires et de transfert sont utilisés pour stocker les écritures comptables temporaires qui sont en attente d'un traitement ultérieur dans la comptabilité.  
 
 Vous pouvez utiliser les comptes temporaires pour :  
@@ -22,7 +20,7 @@ Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la f
 
 Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écritures clôturées pour apporter des modifications.  
 
-## <a name="to-apply-general-ledger-entries"></a>Pour lettrer des écritures comptables  
+## Pour lettrer des écritures comptables  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
@@ -55,7 +53,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 6. Cliquez sur le bouton **OK**.  
 
-## <a name="to-view-the-applied-general-ledger-entries"></a>Pour afficher les écritures comptables lettrées  
+## Pour afficher les écritures comptables lettrées  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
@@ -65,7 +63,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 4. Cliquez sur le bouton **OK**.  
 
-## <a name="to-unapply-general-ledger-entries"></a>Pour délettrer des écritures comptables  
+## Pour délettrer des écritures comptables  
 
 1. Sélectionnez l'icône :::image type="icon" source="../../../media/ui-search/search_small.png" border="false":::, entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  

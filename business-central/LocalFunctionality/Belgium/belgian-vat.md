@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 11300, 11301,11303,11306,11307,11308
+ms.search.keywords: null
+ms.search.form: '11300, 11301,11303,11306,11307,11308'
 ms.date: 03/02/2022
 ms.author: edupont
-ms.openlocfilehash: 2a71ba8f7ecde2418826429f31c4e396268b7d7f
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372036"
 ---
-# <a name="belgian-vat"></a>TVA belge
+# TVA belge
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] comprend des extensions belges aux fonctionnalités de déclaration de TVA qui vous permettent d'imprimer les détails des transactions TVA. Vous devez envoyer les états suivants aux autorités fiscales belges :  
 
@@ -33,7 +27,7 @@ ms.locfileid: "8372036"
 
 Vous êtes également tenu de fournir un relevé imprimé détaillant les transactions TVA aux autorités fiscales belges. Pour plus d'informations, voir Déclaration TVA.  
 
-## <a name="non-deductible-vat"></a>TVA non déductible
+## TVA non déductible
 
 En Belgique, la TVA peut être entièrement ou partiellement déductible. Des dépenses comme les frais de représentation ou les achats de voitures ne sont que partiellement déductibles et la transaction doit spécifier quel pourcentage de la TVA est non déductible. Par exemple, vous créez un compte général pour les immobilisations comme les voitures, et un autre compte pour les frais de représentation. Pour chaque compte, vous spécifiez quel pourcentage de la TVA déclarée est non déductible en définissant le champ **Pourcentage TVA non déductible**. Ensuite, lorsque vous validez une transaction, la TVA déductible sera validée sur le compte TVA correspondant, et la TVA non déductible sera ajoutée au montant de base et validée sur le même compte que les immobilisations corporelles et incorporelles.  
 
@@ -41,7 +35,7 @@ Pour les immobilisations, la TVA non déductible est amortie simplement comme le
 
 Si vous sélectionnez le champ **TVA non déductible comprise** dans une ligne déclaration TVA, la TVA non déductible est incluse dans le montant TVA. L'état **Calculer et valider décl. TVA** ajoute la partie non déductible de ce montant aux champs **Montant TVA non déductible** et **Montant TVA devise origine non déductible** dans les écritures TVA résultantes.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
 [Imprimer les déclarations de TVA périodiques](how-to-print-periodic-vat-reports.md)  

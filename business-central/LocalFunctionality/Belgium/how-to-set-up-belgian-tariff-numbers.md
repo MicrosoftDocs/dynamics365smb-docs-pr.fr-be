@@ -1,6 +1,6 @@
 ---
-title: Paramétrer les nomenclatures produits belges [BE]
-description: Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.
+title: 'Paramétrer les nomenclatures produits belges [BE]'
+description: "Les autorités douanières et fiscales belges ont établi un code article à 8\_chiffres pour diverses nomenclatures produits."
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 310
 ms.date: 06/17/2021
 ms.author: edupont
-ms.openlocfilehash: 82ed1f582ec7011a6e8c160289914a659f7e0c06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145124"
 ---
-# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Paramétrer les nomenclatures produits belges dans la version belge
+# Paramétrer les nomenclatures produits belges dans la version belge
 
 Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
-## <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits
+## Pour paramétrer les nomenclatures produits
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Nomenclatures produits**, puis choisissez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
@@ -34,7 +28,7 @@ Les autorités douanières et fiscales belges ont établi un code article à 8 
 
 4. Choisissez le bouton **OK**.  
   
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   
  [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   

@@ -1,6 +1,6 @@
 ---
-title: Lettrer les relevés CODA [BE]
-description: Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire.
+title: 'Lettrer les relevés CODA [BE]'
+description: 'Une fois qu''un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page Fiche compte bancaire.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 2000040
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1d424f76f6eb539d97d687db859e416640e42ce9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136718"
 ---
-# <a name="apply-coda-statements-in-the-belgian-version"></a>Lettrer des relevés bancaires CODA dans la version belge
+# Lettrer des relevés bancaires CODA dans la version belge
 
 Une fois qu'un relevé CODA a été importé, les lignes relevé sont accessibles à partir de la page **Fiche compte bancaire**. Le statut de lettrage sur chaque ligne est vide, car les montants du relevé n'ont pas été lettrés aux écritures comptables ouvertes.  
 
@@ -25,7 +19,7 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
 -   En lettrant manuellement les lignes relevé CODA.  
 -   En lettrant automatiquement les montants du relevé CODA aux écritures comptables et aux comptes appropriés. Le traitement automatique des lignes relevé CODA est recommandé.  
 
-## <a name="to-manually-apply-the-coda-statement-lines"></a>Pour lettrer manuellement les lignes relevé CODA  
+## Pour lettrer manuellement les lignes relevé CODA  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
@@ -39,7 +33,7 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
 
 5.  Choisissez le bouton **OK**.  
 
-## <a name="to-automatically-apply-the-coda-statement-lines"></a>Pour lettrer automatiquement les lignes relevé CODA  
+## Pour lettrer automatiquement les lignes relevé CODA  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
@@ -56,7 +50,7 @@ Les montants du relevé peuvent être lettrés aux écritures comptables ouverte
 
     Lorsque vous démarrez le traitement par lots, les montants du relevé sont lettrés aux écritures comptables existantes en fonction des codes transaction. Pour plus d'informations, voir [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md).
 
-## <a name="see-also"></a>Voir aussi  
+## Voir aussi  
  [Relevés bancaires CODA](coda-bank-statements.md)   
  [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)   
  [Paramétrer les codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md)   

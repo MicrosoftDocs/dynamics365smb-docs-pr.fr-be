@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/13/2021
 ms.author: edupont
-ms.openlocfilehash: bffcdb6ca319678e23e14ee17b0766157988577f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132227"
 ---
 Pour soumettre des paiements fournisseur par voie électronique au format de paiement Single Euro Payments Area (SEPA) ISO 20022, vous devez configurer des conditions préalables pour l'activation des paiements SEPA dans votre société.  
 

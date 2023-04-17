@@ -1,28 +1,22 @@
 ---
-title: Exporter les déclarations de tiers intracomm. [BE]
-description: En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.
+title: 'Exporter les déclarations de tiers intracomm. [BE]'
+description: 'En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: soalex
-ms.openlocfilehash: cfb412aaf7d488c921aa07f57ba5bb5c366e0062
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fr-BE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607164"
 ---
-# <a name="export-intrastat-third-party-declarations-in-the-belgian-version"></a>Exporter des déclarations tierces intracommunautaires dans la version belge
+# Exporter des déclarations tierces intracommunautaires dans la version belge
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 En Belgique, un déclarant tiers doit renseigner la déclaration D.E.B (Intrastat). Le déclarant tiers doit être une personne ou une société externe.  
 
-## <a name="to-export-the-third-party-declaration"></a>Pour exporter la déclaration tierce
+## Pour exporter la déclaration tierce
 
 Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état. Pour plus d'informations, voir [Imprimer l'état du formulaire de D.E.B.](how-to-print-the-intrastat-form-report.md).  
 
@@ -40,7 +34,7 @@ Avant d'exporter le fichier, il est conseillé d'afficher un aperçu de l'état.
 
 Ensuite, envoyez la déclaration au portail OneGate.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [États intracommunautaires belges](belgian-intrastat-reporting.md)  
 [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)  
