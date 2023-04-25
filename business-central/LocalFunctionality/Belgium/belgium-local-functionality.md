@@ -64,10 +64,12 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Limiter la période de validation](how-to-limit-the-posting-period.md) **Désormais disponible**
     * [Définir la date de travail comme date de validation](how-to-set-the-work-date-as-the-posting-date.md) **Désormais disponible**
     * [Rendre les modèles feuille obligatoires](specify-journal-template-mandatory.md) **Désormais disponible**
+    * [Échelonnements dans les rapports Journal des ventes et Journal des achats](how-to-use-deferrals.md) **Désormais disponible**
 
 ## Les futures exigences législatives en cours d’investigation
 
 Il n’y a actuellement aucune fonctionnalité ou exigence réglementaire imminente. Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
 
 ## Voir aussi
 
