@@ -68,7 +68,9 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
 
 ## Les futures exigences législatives en cours d’investigation
 
-Il n’y a actuellement aucune fonctionnalité ou exigence réglementaire imminente. Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+* TVA non déductible repensée et mise à niveau **Juillet 2023**
+
+Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
 ## Voir aussi
