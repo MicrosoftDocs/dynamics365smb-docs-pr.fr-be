@@ -338,13 +338,15 @@ Contrairement à la plupart des ensemble approvisionnement-demande, les commande
 
 La méthode Lot pour Lot est la plus flexible car le système ne réagit qu’à la demande réelle. Il agit sur la demande anticipée à partir des prévisions et des commandes cadres, puis règle la quantité de la commande en fonction de la demande. La méthode cible les articles pour lesquels le stock peut être accepté, mais il convient de l’éviter.  
 
-À certains égards, la méthode Lot pour lot est similaire à la méthode Ordre, mais elle a une approche générique des articles. Elle peut accepter des quantités en stock et regroupe l’offre et la demande dans les intervalles de planification que vous définissez.  
+À certains égards, la méthode Lot pour lot est similaire à la méthode Ordre. Elle peut accepter des quantités en stock et regroupe l’offre et la demande dans les intervalles de planification que vous définissez.
 
 Vous spécifiez l’intervalle de planification dans le champ **Intervalle de planification** sur la page **Fiche article**. La taille minimale d’un intervalle de planification est d’un jour, car il s’agit de la plus petite unité de mesure de temps applicable aux événements d’offre et de demande dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 L’intervalle de planification fixe également des limites lorsque vous devez replanifier une commande approvisionnement pour répondre à une demande donnée. L’approvisionnement dans l’intervalle de planification est replanifié en entrée ou en sortie pour répondre à la demande. Un approvisionnement anticipé entraînera un excédent de stock et vous devez l’annuler. Pour un approvisionnement ultérieur, créez une nouvelle commande approvisionnement.  
 
-Avec cette stratégie, vous pouvez spécifier un stock de sécurité pour compenser les variations de l’offre ou pour répondre à une demande soudaine.  
+Avec cette stratégie, vous pouvez spécifier un stock de sécurité pour compenser les variations de l’offre ou pour répondre à une demande soudaine. La politique lot pour lot peut également inclure une période tampon et une quantité tampon pour réduire la planification des commandes.  
+
+Le champ **Période de replanification** contribue à la définition du cycle de réapprovisionnement, conjointement avec le champ **Période de groupement de lots**. À partir de la date de la première demande, toutes les demandes sont cumulées dans la période de groupement de lots suivant en une commande d’approvisionnement, effectuée lors de la date de la première demande. La demande effectuée en dehors de la période de groupement de lots n’est pas couverte par la commande d’approvisionnement.
 
 Étant donné que la quantité de la commande approvisionnement est basée sur la demande réelle, il peut être judicieux d’utiliser les modificateurs de commande :
 
