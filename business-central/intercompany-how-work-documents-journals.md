@@ -7,12 +7,14 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
 # Utiliser les documents et les feuilles intersociétés
 
-Utilisez les documents ou les feuilles intersociétés pour valider les transactions effectuées avec vos partenaires intersociétés. Lorsque vous validez un document ou une ligne feuille intersociétés dans votre société, le programme crée le document ou la ligne feuille correspondant dans votre boîte d’envoi intersociétés. Vous transférez la ligne de votre boîte d’envoi à votre partenaire. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
+Utilisez les documents ou les feuilles intersociétés pour valider les transactions effectuées avec vos partenaires intersociétés. Vous pouvez publier des transactions sur des comptes généraux et, si vous avez configuré des comptes bancaires intersociétés, vous pouvez également publier des transactions de banque à banque. Pour en savoir plus sur la configuration des comptes bancaires intersociétés, accédez à [Spécifier les comptes bancaires à utiliser pour les partenaires intersociétés](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+Lorsque vous validez un document ou une ligne feuille intersociétés dans votre société, le programme crée le document ou la ligne feuille correspondant dans votre boîte d’envoi intersociétés. Vous transférez la ligne de votre boîte d’envoi à votre partenaire. Celui-ci peut ensuite valider la transaction correspondante dans sa société sans avoir à réentrer les données.
 
 Pour les documents achat et vente, le code partenaire intersociétés du client ou du fournisseur concerné garantit que toutes les commandes et factures générées en relation avec les transactions entre les partenaires produisent des documents correspondants dans les sociétés partenaires. Les comptes de la société s’équilibrent correctement.
 
