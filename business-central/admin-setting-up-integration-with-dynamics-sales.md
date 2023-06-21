@@ -16,12 +16,12 @@ Cet article fournit un aperçu de la manière dont la configuration des comptes 
 
 ## Configuration du compte d’utilisateur administrateur
 
-Vous devez ajouter votre compte d’utilisateur administrateur pour [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’utilisateur dans [!INCLUDE[cds_long](includes/cds_long_md.md)]. Lorsque vous configurez la connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)], nous utilisons ce compte une seule fois pour installer et configurer certains composants requis.
+Pour configurer la connexion entre [!INCLUDE[prod_short](includes/prod_short.md)] et [!INCLUDE[prod_short](includes/cds_long_md.md)], vous devez vous connecter à [!INCLUDE[prod_short](includes/prod_short.md)] avec un compte d’utilisateur qui est attribué à la licence [!INCLUDE[prod_short](includes/prod_short.md)] Essential ou [!INCLUDE[prod_short](includes/prod_short.md)] Premium. Nous utiliserons ce compte une fois pour installer et configurer certains composants requis.
 
 > [!IMPORTANT]
-> Le compte d’utilisateur administrateur doit être un utilisateur sous licence possédant le rôle de sécurité **Administrateur système** dans l’environnement [!INCLUDE[prod_short](includes/cds_long_md.md)] et d’administrateur général sur le locataire auquel l’environnement appartient. Ce compte n’a pas besoin de licence pour [!INCLUDE[prod_short](includes/prod_short.md)], car il ne sera utilisé que pour provisionner le service dans le locataire [!INCLUDE[prod_short](includes/cds_long_md.md)] et pour effectuer des tâches de configuration.
+> Lors de la configuration, il vous sera demandé de fournir des informations d’identification pour l’environnement [!INCLUDE[prod_short](includes/cds_long_md.md)]. Indiquez les identifiants d’un compte qui est un utilisateur sous licence et attribué au rôle de sécurité **Administrateur système** dans l’environnement [!INCLUDE[prod_short](includes/cds_long_md.md)] et d’administrateur général sur le locataire auquel l’environnement appartient. Ce compte n’a pas besoin de licence pour [!INCLUDE[prod_short](includes/prod_short.md)], car il ne sera utilisé que pour faire les tâches de configuration dans l’environnement [!INCLUDE[prod_short](includes/cds_long_md.md)].
 >
-> Une fois la configuration de la connexion terminée, cet utilisateur [!INCLUDE[prod_short](includes/cds_long_md.md)] peut être supprimé. L’intégration continuera à utiliser le compte d’utilisateur qui est automatiquement créé spécialement pour l’intégration.
+> Une fois la configuration de la connexion terminée, vous pouvez supprimer cet utilisateur [!INCLUDE[prod_short](includes/cds_long_md.md)]. L’intégration continuera à utiliser le compte d’utilisateur qui est automatiquement créé spécialement pour l’intégration.
 
 ## Autorisations et rôles de sécurité pour les comptes d’utilisateur dans [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
