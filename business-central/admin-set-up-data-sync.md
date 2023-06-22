@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Se préparer à synchroniser les données de base
+# <a name="get-ready-to-synchronize-master-data" />Se préparer à synchroniser les données de base
 
 Lorsque vous avez deux sociétés ou plus qui utilisent au moins certaines des mêmes données de base, vous pouvez gagner du temps lors de la saisie des données en les synchronisant dans les sociétés. La synchronisation des données est particulièrement utile lorsque vous créez des filiales.
 
@@ -25,21 +25,21 @@ Les données de base incluent les paramètres et les informations non transactio
 
 Vous configurez la synchronisation dans les succursales. À l’aide d’un modèle d’extraction, les filiales extraient les données de l’entreprise source dont elles ont besoin pour faire affaire avec elles. Après avoir configuré la synchronisation et synchronisé les données pour la première fois, vous êtes prêt. Les enregistrements dans les tables sont couplés et les entrées de la file d’attente des tâches commencent immédiatement à mettre à jour les données dans les filiales lorsque quelqu’un apporte une modification à la société source.
 
-## Synchronisation unidirectionnelle uniquement
+## <a name="uni-directional-synchronization-only" />Synchronisation unidirectionnelle uniquement
 
 Vous pouvez synchroniser uniquement les données de la société source vers les filiales en mode pull. Les filiales ne peuvent pas envoyer de données à l’entreprise source.
 
 > [!NOTE]
 > Bien que cela soit possible, nous vous déconseillons de configurer la synchronisation bidirectionnelle. C’est-à-dire la synchronisation des données de la société source vers les filiales, et des filiales vers la société source. La synchronisation des données dans les deux sens peut entraîner des conflits ou des remplacements indésirables.
 
-## Avant de commencer
+## <a name="before-you-start" />Avant de commencer
 
 Ce sont les conditions requises pour configurer la synchronisation.
 
 * Toutes les entreprises doivent être dans le même environnement.
 * L’utilisateur qui configure la filiale doit disposer de l’ensemble d’autorisations **Master Data Mgt. - Afficher**. L’ensemble d’autorisations est disponible dans les licences Premium et Essential. La licence Team Member permet à quelqu’un d’accéder, mais pas de modifier les enregistrements, elle ne peut donc pas être utilisée pour configurer la synchronisation.
 
-## Spécifier la société source
+## <a name="specify-the-source-company" />Spécifier la société source
 
 Les premières étapes consistent à spécifier la société qui sera la source de données et à activer la synchronisation. Les filiales extraient les données de la société source.
 
@@ -50,7 +50,7 @@ Les premières étapes consistent à spécifier la société qui sera la source 
 
 L’étape suivante consiste à activer les tables et les champs pour la synchronisation.
 
-## Activer ou désactiver des tables et des champs
+## <a name="enable-or-disable-tables-and-fields" />Activer ou désactiver des tables et des champs
 
 Pour gagner du temps, [!INCLUDE [prod_short](includes/prod_short.md)] fournit une liste de tableaux que les entreprises synchronisent souvent. Par défaut, ces tables sont activées pour la synchronisation, mais vous pouvez les modifier, les désactiver ou les supprimer comme bon vous semble. Pour gagner du temps supplémentaire, certains champs des tables sont déjà désactivés, car ils ne sont probablement pas pertinents pour la filiale.
 
@@ -72,7 +72,7 @@ Pour gagner du temps, [!INCLUDE [prod_short](includes/prod_short.md)] fournit un
 > [!TIP]
 > Un moyen rapide d’activer ou de désactiver plusieurs champs en même temps consiste à les sélectionner dans la liste, puis à utiliser les actions **Activer** ou **Désactiver**.
 
-### Utiliser le couplage par correspondance
+### <a name="use-match-based-coupling" />Utiliser le couplage par correspondance
 
 Vous pouvez spécifier les données à synchroniser pour une table en faisant correspondre les enregistrements en fonction de critères. Sur la page **Configuration de la gestion des données principales**, choisissez l’action **Couplage par correspondance** pour ouvrir la page **Sélectionner les critères de couplage**. Vous pouvez définir les critères suivants pour votre correspondance :
 
@@ -81,7 +81,7 @@ Vous pouvez spécifier les données à synchroniser pour une table en faisant co
 * Les champs à utiliser pour faire correspondre les enregistrements et si la correspondance est sensible à la casse.
 * Hiérarchisez l’ordre de recherche des enregistrements en spécifiant une priorité de correspondance. [!INCLUDE [prod_short](includes/prod_short.md)] recherchera une correspondance dans l’ordre croissant en fonction de la priorité de correspondance. Une valeur vide est égale à la priorité 0, qui est la priorité la plus élevée. Les champs avec la priorité 0 sont pris en compte en premier.
 
-## Synchroniser pour la première fois
+## <a name="synchronize-for-the-first-time" />Synchroniser pour la première fois
 
 Lorsque vous êtes prêt, sur la page **Configuration de la gestion des données de référence**, choisissez l’action **Démarrer la synchronisation initiale**. Sur la page **Synchronisation initiale des données principale**, choisissez le type de synchronisation que vous souhaitez utiliser pour chaque table.
 
@@ -97,9 +97,9 @@ Pendant que la synchronisation est en cours, la colonne **Statut de la tâche** 
 
 Pour accéder aux détails, tels que le nombre d’enregistrements insérés ou modifiés, choisissez la valeur dans la colonne **Statut de la tâche** pour ouvrir la page **Vue - Tâches de synchronisation d’intégration**. Pour les enregistrements qui ont été insérés, vous pouvez choisir le numéro dans la colonne **Inséré** pour accéder à plus de détails sur les nouveaux enregistrements.
 
-## Ajouter ou supprimer des tables de la liste des tables de synchronisation
+## <a name="add-or-delete-tables-from-the-synchronization-tables-list" />Ajouter ou supprimer des tables de la liste des tables de synchronisation
 
-### Ajouter une table
+### <a name="add-a-table" />Ajouter une table
 
 > [!IMPORTANT]
 > Bien que les tables contenant des données transactionnelles soient disponibles dans la liste, telles que les tables contenant des entrées comptables, vous ne devez pas les sélectionner. La synchronisation fonctionne uniquement pour les tables contenant des données non transactionnelles.
@@ -108,7 +108,7 @@ Pour accéder aux détails, tels que le nombre d’enregistrements insérés ou 
 1. Sélectionnez **Nouveau**, puis choisissez la table à ajouter.
 1. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### Supprimer une table
+### <a name="delete-a-table" />Supprimer une table
 
 > [!NOTE]
 > Si vous supprimez un enregistrement dans la société source, il n’est pas également supprimé dans la filiale. Cela permet d’éviter la perte indésirable de données. La filiale peut décider de supprimer la table si elle le souhaite.
@@ -116,10 +116,10 @@ Pour accéder aux détails, tels que le nombre d’enregistrements insérés ou 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Tables de synchronisation**, puis choisissez le lien associé.
 1. Cliquez sur l’action **Supprimer**.
 
-## Utiliser l’exportation et l’importation pour partager une configuration de synchronisation
+## <a name="use-export-and-import-to-share-a-synchronization-setup" />Utiliser l’exportation et l’importation pour partager une configuration de synchronisation
 
 Si vous configurez plusieurs filiales qui utiliseront les mêmes paramètres de synchronisation ou des paramètres similaires, vous pouvez gagner du temps en configurant une filiale, puis en exportant sa configuration dans un fichier .xml. Le fichier contient l’intégralité de la configuration, y compris les mappages de tables et de champs et les critères de filtrage. Vous pouvez ensuite importer le fichier dans la filiale suivante. Pour importer ou exporter une configuration, sur la page **Configuration de la gestion des données de référence**, utilisez les actions **Importer** ou **Exporter**.
 
-## Voir aussi
+## <a name="see-also" />Voir aussi
 
 [Gérer la synchronisation des données principales](admin-sync-master-data.md)
