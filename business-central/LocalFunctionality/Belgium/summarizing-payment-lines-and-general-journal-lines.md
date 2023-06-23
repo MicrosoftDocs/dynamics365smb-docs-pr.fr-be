@@ -31,14 +31,14 @@ Si vous avez activé la case à cocher **Totaliser lignes feuille compta.** dans
 
 - Les lignes feuille paiement contenant un message au format standard (qui a réussi le test MOD97), qui définit le champ **Message au format standard** sur Vrai dans la feuille opérations bancaires électroniques.
 
-## <a name="example-" />Exemple 1
+## <a name="example-1" />Exemple 1
 
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. [!INCLUDE[prod_short](../../includes/prod_short.md)] crée :  
 
 - Une ligne paiement combinée dans un fichier XML qui contient un message de paiement concaténé. L'espace blanc est le séparateur.  
 - Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
-## <a name="example-" />Exemple 2
+## <a name="example-2" />Exemple 2
 
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est désactivée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[prod_short](../../includes/prod_short.md)] crée :  
 
@@ -46,7 +46,7 @@ Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Tota
 
 - Une ligne paiement dans la feuille comptabilité avec une description générique contenant le nom du fournisseur.  
 
-## <a name="example-" />Exemple 3
+## <a name="example-3" />Exemple 3
 
 Dans cet exemple, vous exportez les lignes paiement, et la case à cocher **Totaliser lignes feuille compta.** est activée. La case à cocher **Limiter les textes du message de paiement** est également activée, et les lignes paiement SEPA et SEPA hors euro combinées dépassent 140 caractères dans le message de paiement. [!INCLUDE[prod_short](../../includes/prod_short.md)] crée :  
 
