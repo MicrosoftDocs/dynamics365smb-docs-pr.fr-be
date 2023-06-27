@@ -83,7 +83,7 @@ Un magasinier peut créer un nouveau rangement stock basé sur le document origi
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
+## <a name="see-related-microsoft-training" />Voir la [formation Microsoft](/training/modules/receive-put-away-items/) associée
 
 ## <a name="see-also" />Voir aussi
 

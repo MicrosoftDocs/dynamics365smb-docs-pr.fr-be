@@ -47,7 +47,7 @@ Le partage d’états avec des collaborateurs est également possible sur la pag
 >
 > Utiliser l’action **Partager** rend le fichier d’état généré accessible aux autres utilisateurs uniquement sur OneDrive for Business et ne répertorie pas l’état planifié sur leur **Boîte de réception état**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Voir la formation associée sur [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Voir la formation associée sur [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also" />Voir aussi
 
