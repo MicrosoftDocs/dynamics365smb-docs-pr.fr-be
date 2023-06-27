@@ -7,7 +7,7 @@ ms.search.form: 2000001
 ms.date: 01/10/2022
 ms.author: edupont
 ---
-# <a name="export-payment-files-in-the-belgian-version" />Exporter des fichiers de paiement dans la version belge
+# <a name="export-payment-files-in-the-belgian-version"></a>Exporter des fichiers de paiement dans la version belge
 
 Après avoir effectué une impression test et corrigé toutes les erreurs, vous pouvez exporter les lignes feuille paiement dans un fichier de paiement.  
 
@@ -15,7 +15,7 @@ Un fichier de paiement contient les paiements nationaux, internationaux, SEPA ou
 
 Dans la feuille paiement, le champ **Statut** sur les lignes exportées est défini sur **Validé**.  
 
-## <a name="to-print-a-payment-file" />Pour imprimer un fichier de paiement
+## <a name="to-print-a-payment-file"></a>Pour imprimer un fichier de paiement
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez *Feuille paiement*, puis choisissez le lien permettant d'ouvrir la page **Modèles feuille paiement EB**.  
 2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
@@ -49,7 +49,7 @@ Dans la feuille paiement, le champ **Statut** sur les lignes exportées est déf
 
     L'état que vous avez spécifié dans le protocole d'exportation approprié traite les lignes paiement et génère le fichier.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)  
 [Paiements électroniques belges](belgian-electronic-payments.md)  

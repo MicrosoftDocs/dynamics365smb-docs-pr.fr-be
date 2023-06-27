@@ -11,14 +11,14 @@ ms.search.form: 11308
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-electronic-banking-in-the-belgian-version" />Paramétrer des opérations bancaires électroniques dans la version belge
+# <a name="set-up-electronic-banking-in-the-belgian-version"></a>Paramétrer des opérations bancaires électroniques dans la version belge
 
 Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro. Avant de pouvoir les opérations bancaires électroniques, vous devez définir les informations suivantes :  
 
 - Paramétrage des opérations bancaires électroniques.  
 - Codes IBLC/BLWI - Pour plus d'informations, voir [Configurer des codes transaction IBLC-BLWI](how-to-set-up-iblc-blwi-transaction-codes.md).  
 
-## <a name="to-set-up-electronic-banking" />Pour paramétrer les opérations bancaires électroniques
+## <a name="to-set-up-electronic-banking"></a>Pour paramétrer les opérations bancaires électroniques
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramétrage des opérations bancaires électroniques**, puis choisissez le lien associé.  
 2.  Dans la page **Paramétrage des opérations bancaires électroniques**, renseignez les champs comme indiqué dans le tableau suivant.   
@@ -30,7 +30,7 @@ Avec les opérations bancaires électroniques, vous pouvez effectuer des paiemen
  
 3.  Cliquez sur le bouton **OK**.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
  [Site Web Isabel](https://go.microsoft.com/fwlink/?LinkId=210323)   
  [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)   
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   

@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="sepa-payments-in-the-belgian-version" />Paiements SEPA dans la version belge
+# <a name="sepa-payments-in-the-belgian-version"></a>Paiements SEPA dans la version belge
 
 Le SEPA (Espace unique de paiement en euros) unifie les modes de règlement des pays européens participants. Cela rend les paiements internationaux aussi facile à traiter que les paiements nationaux. Quel que soit leur emplacement, les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales, avec les mêmes conditions, droits, et obligations de base.  
 
-## <a name="see-also" />Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Site Web Febelfin](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [Site Web ISO 20022](https://go.microsoft.com/fwlink/?LinkId=275120)   
