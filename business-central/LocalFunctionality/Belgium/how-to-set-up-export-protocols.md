@@ -13,7 +13,7 @@ ms.search.form: 2000005
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="set-up-export-protocols-in-the-belgian-version"></a><a name="set-up-export-protocols-in-the-belgian-version"></a>Paramétrer les protocoles d'exportation dans la version belge
+# <a name="set-up-export-protocols-in-the-belgian-version"></a><a name="set-up-export-protocols-in-the-belgian-version"></a><a name="set-up-export-protocols-in-the-belgian-version"></a>Paramétrer les protocoles d'exportation dans la version belge
 Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez paramétrer les protocoles d'exportation. Les protocoles d'exportation définissent le format de fichier généré lorsque vous exportez l'historique des paiements que la banque doit traiter. Chaque ligne contient un protocole d'exportation identifié par un code et une description. Vous pouvez paramétrer autant de protocoles d'exportation que vous le souhaitez. Vous devez paramétrer un protocole d'exportation pour les paiements nationaux, internationaux, SEPA et SEPA hors euro.  
 
  Avec les protocoles d'exportation, vous pouvez affecter le codeunit qui définit la vérification à effectuer avant d'exporter les lignes paiement dans un fichier, et l'état qui définit le format de paiement. Par exemple, vous pouvez avoir un protocole d'exportation nommé **DOM1**. Ce protocole d'exportation contient le codeunit de vérification **Vérifier les paiements nationaux** et l'état **Effectuer des paiements nationaux**. Chaque protocole d'exportation a un codeunit de vérification et un état correspondant, comme indiqué dans le tableau suivant.  
@@ -28,7 +28,7 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
  Après avoir paramétré les protocoles d'exportation, vous pouvez les utiliser dans vos feuilles paiement bancaire électronique.  
 
-## <a name="to-set-up-an-export-protocol"></a><a name="to-set-up-an-export-protocol"></a>Pour paramétrer un protocole d'exportation
+## <a name="to-set-up-an-export-protocol"></a><a name="to-set-up-an-export-protocol"></a><a name="to-set-up-an-export-protocol"></a>Pour paramétrer un protocole d'exportation
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Protocoles d'exportation**, puis choisissez le lien associé.  
 2.  Choisissez l'action **Nouveau**.  
@@ -48,7 +48,7 @@ Avant de pouvoir utiliser les opérations bancaires électroniques, vous devez p
 
 4.  Cliquez sur le bouton **OK**.  
 
-## <a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
  [Paiements électroniques, Belgique](belgian-electronic-payments.md)   
  [Créer des modèles et des lots de feuille paiement](how-to-create-payment-journal-templates-and-batches.md)   
  [Tester les paiements électroniques](how-to-test-electronic-payments.md)
