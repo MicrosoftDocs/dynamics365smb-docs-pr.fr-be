@@ -10,7 +10,7 @@ ms.search.form: 2000001
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="test-electronic-payments-in-the-belgian-version"></a><a name="test-electronic-payments-in-the-belgian-version"></a><a name="test-electronic-payments-in-the-belgian-version"></a>Tester les paiements électroniques dans la version belge
+# <a name="test-electronic-payments-in-the-belgian-version"></a>Tester les paiements électroniques dans la version belge
 
 Après avoir paramétré les opérations bancaires électroniques et généré des suggestions de paiement, vous pouvez tester les lignes feuille paiement pour rechercher d'éventuelles erreurs avant de les valider.  
 
@@ -28,14 +28,14 @@ Vous pouvez afficher les erreurs sur la page **Exporter/Vérifier les journaux d
 > [!IMPORTANT]  
 > Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes.  
 
-## <a name="to-test-payment-journal-lines"></a><a name="to-test-payment-journal-lines"></a><a name="to-test-payment-journal-lines"></a>Pour tester les lignes feuille paiement
+## <a name="to-test-payment-journal-lines"></a>Pour tester les lignes feuille paiement
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles paiement**, puis choisissez le lien permettant d'ouvrir la page **Feuilles paiement EB**.  
 2. Dans le champ **Nom de la feuille**, sélectionnez le nom de feuille comptabilité requis.  
 3. Dans le champ **Protocole d'exportation**, sélectionnez le protocole d'exportation.  
 4. Entrez les informations sur les lignes feuille paiement, puis choisissez l'action **Vérifier lignes paiement** pour valider les lignes feuille paiement. La validation réalisée sur les lignes feuille dépend du type de vérification spécifié dans la page **Protocoles d'exportation**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Créer des modèles et des lots de feuilles paiement](how-to-create-payment-journal-templates-and-batches.md)  
 [Paiements électroniques belges](belgian-electronic-payments.md)  
