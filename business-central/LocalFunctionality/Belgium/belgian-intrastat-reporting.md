@@ -1,6 +1,6 @@
 ---
 title: États intracommunautaires belges
-description: Les sociétés de l'Union Européenne (UE) doivent déclarer leurs échanges avec d'autres pays de l'UE via l'état intracommunautaire ou le système d'échange d'informations sur la TVA.
+description: Les sociétés de l'Union Européenne (UE) doivent déclarer leurs échanges avec d'autres pays/régions de l'UE via l'état intracommunautaire ou le système d'échange d'informations sur la TVA.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,22 +10,22 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# <a name="belgian-intrastat-reporting"></a>États intracommunautaires belges
+# États intracommunautaires belges
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
-Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges avec les autres pays de l'UE. Ce processus de déclaration s'effectue via un état D.E.B ou une déclaration intracommunautaire (système d'échange d'informations sur la TVA). Il existe deux types de déclarations intracommunautaires :  
+Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges avec les autres pays/régions de l'UE. Ce processus de déclaration s'effectue via un état D.E.B ou une déclaration intracommunautaire (système d'échange d'informations sur la TVA). Il existe deux types de déclarations intracommunautaires :  
 
 - Déclaration simplifiée  
 - Déclaration étendue  
 
 Pour déterminer le type de déclaration à utiliser, visitez le site Web de la [Banque Nationale de Belgique](https://aka.ms/BelgianNationalBank).  
 
-## <a name="submitting-the-intrastat-report"></a>Soumission de la déclaration intracommunautaire
+## Soumission de la déclaration intracommunautaire
 
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez exporter les déclarations intracommunautaires dans un fichier que vous pouvez ensuite envoyer au portail OneGate. Pour plus d'informations, voir [Exporter des déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md).  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
 [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)  
