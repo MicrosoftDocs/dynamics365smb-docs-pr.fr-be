@@ -213,7 +213,7 @@
 ## Aide et support
 ### [Ressources pour l’Aide et le support](product-help-and-support.md)
 ### [Visite de notre vidéothèque](across-videos.md)
-### [Obtenir le support technique](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Obtenir le support technique](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
