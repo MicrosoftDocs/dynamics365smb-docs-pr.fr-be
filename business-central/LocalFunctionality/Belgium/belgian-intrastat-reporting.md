@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# États intracommunautaires belges
+# <a name="belgian-intrastat-reporting"></a>États intracommunautaires belges
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
@@ -21,11 +21,11 @@ Les sociétés de l'Union européenne (UE) doivent déclarer leurs échanges ave
 
 Pour déterminer le type de déclaration à utiliser, visitez le site Web de la [Banque Nationale de Belgique](https://aka.ms/BelgianNationalBank).  
 
-## Soumission de la déclaration intracommunautaire
+## <a name="submitting-the-intrastat-report"></a>Soumission de la déclaration intracommunautaire
 
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez exporter les déclarations intracommunautaires dans un fichier que vous pouvez ensuite envoyer au portail OneGate. Pour plus d'informations, voir [Exporter des déclarations tierces intracommunautaires](how-to-export-intrastat-third-party-declararations.md).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
 [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)  
