@@ -8,7 +8,7 @@ ms.search.form: 2000006
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="belgian-electronic-payments"></a>Paiements électroniques, Belgique
+# Paiements électroniques, Belgique
 
 Dans la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez définir les types suivants de paiements électroniques :  
 
@@ -26,13 +26,13 @@ Dans la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)], v
 
 Avant de pouvoir effectuer des paiements électroniques, vous devez paramétrer le système bancaire électronique. Pour plus d'informations, reportez-vous à [Configuration](belgian-electronic-banking.md#setup). Vous devez également spécifier les protocoles d'exportation appropriés. Pour plus d'informations, voir [Paramétrer les protocoles d'exportation](how-to-set-up-export-protocols.md).  
 
-## <a name="activate-sepa-payments-in-the-belgian-version"></a>Activer des paiements SEPA dans la version belge
+## Activer des paiements SEPA dans la version belge
 
 [!INCLUDE [activate-sepa-payments](../includes/BENL/activate-sepa-payments.md)]
 
 Vous pouvez à présent effectuer des paiements SEPA. Pour plus d'informations, reportez-vous à [Exportation de paiements vers un fichier bancaire](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file). Si vous n'utilisez pas la fonctionnalité AC Banking 365, vous pouvez exporter des lignes feuille paiement vers un fichier. Pour plus d'informations, reportez-vous à [Exporter des fichiers de paiement](how-to-print-payment-files.md).  
 
-## <a name="file-non-euro-sepa-payments"></a>Effectuer des paiements SEPA hors euro
+## Effectuer des paiements SEPA hors euro
 
 Dans [!INCLUDE[prod_short](../../includes/prod_short.md)], vous pouvez effectuer des paiements SEPA hors euro auprès de la banque. Cela est utile lorsque vous effectuez des paiements vers d'autres pays/régions qui n'utilisent pas SEPA et pour les devises autres que l'euro.  
 
@@ -43,7 +43,7 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
 - Sur la page **Paramètres comptabilité**, vérifiez que le champ **Devise euro** est vide et que le champ **Exportation non-euro SEPA** est sélectionné.  
 - Vérifiez que le champ **Compte bancaire préféré** du fournisseur dans la table **Fournisseur** contient l'IBAN et le code SWIFT.  
 
-## <a name="to-file-a-non-euro-sepa-payment"></a>Pour effectuer un paiement SEPA hors euro
+## Pour effectuer un paiement SEPA hors euro  
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Effectuer des paiements SEPA hors euro**, puis choisissez le lien associé.  
 2. Renseignez les champs comme indiqué dans le tableau suivant.  
@@ -57,7 +57,7 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
     |**Date d'exécution**|Entrez une date d'exécution si vous souhaitez que la date d'exécution soit différente de la date comptabilisation sur les lignes paiement.|  
     |**Emplacement**|Entrez le nom du fichier, y compris le lecteur et le dossier, dans lequel vous souhaitez imprimer l'état.|  
 
-## <a name="correcting-payment-lines"></a>Correction des lignes de paiement
+## Correction des lignes de paiement
 
 Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de paiement électronique. Vous pouvez corriger les lignes de paiement comme suit :  
 
@@ -68,7 +68,7 @@ Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de pa
 |Supprimer une ligne feuille paiement|Le traitement par lots **Proposer paiements fournisseur** crée des propositions de paiement pour tous les fournisseurs répondant aux critères spécifiés. Si vous souhaitez empêcher le paiement pour une écriture comptable fournisseur ou un fournisseur spécifique, vous pouvez supprimer les lignes feuille correspondantes.|  
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)  
 [Opérations bancaires électroniques, Belgique](belgian-electronic-banking.md)  
