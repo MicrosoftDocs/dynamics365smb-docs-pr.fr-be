@@ -10,7 +10,7 @@ ms.search.form: 2000040
 ms.date: 06/17/2021
 ms.author: edupont
 ---
-# Transférer et publier automatiquement des relevés CODA dans la version belge
+# <a name="automatically-transfer-and-post-coda-statements-in-the-belgian-version"></a>Transférer et publier automatiquement des relevés CODA dans la version belge
 
 Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer les lignes relevé CODA vers une feuille financière.  
 
@@ -18,7 +18,7 @@ Après avoir transféré les lignes relevé, vous pouvez valider les lignes vers
 
 Vous pouvez aussi transférer et valider manuellement les relevés CODA. Pour plus d'informations, voir [Transférer et publier manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md).  
 
-## Pour transférer automatiquement les lignes relevé  
+## <a name="to-automatically-transfer-statement-lines"></a>Pour transférer automatiquement les lignes relevé
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Comptes bancaires**, puis choisissez le lien associé.  
 2.  Sélectionnez le compte bancaire, puis choisissez l'action **Relevés CODA**.  
@@ -30,7 +30,7 @@ Le traitement par lots transfèrera à présent les lignes relevé CODA à la fe
 
 Après avoir transféré les lignes relevé vers la feuille, vous pouvez valider les lignes relevé vers la feuille financière correspondante.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Relevés bancaires CODA](coda-bank-statements.md)   
  [Importer des relevés CODA](how-to-import-coda-statements.md)   
  [Lettrer des relevés CODA](how-to-apply-coda-statements.md)   
