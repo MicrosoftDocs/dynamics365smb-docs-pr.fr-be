@@ -90,7 +90,7 @@ Le tableau suivant décrit les raccourcis clavier que vous pouvez utiliser dans 
 |*<kbd>Maj</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Envoyer les lignes suggérées sur la page des feuilles de calcul des flux de trésorerie.|Non applicable.|
 |*<kbd>Maj</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Afficher les numéros de série et de lot qui sont affectés à l’élément de ligne sur le document ou le journal.|Non applicable.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigation entre les lignes et les colonnes
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigation entre les lignes et les colonnes
 
 Des grilles contenant des lignes et des colonnes existent sur de nombreux types de page dans [!INCLUDE[prod_short](includes/prod_short.md)], telles que les pages de liste et les éléments **Lignes** sur les documents. Le passage d’une cellule à une autre sur une grille est entièrement compatible avec le clavier.
 
@@ -111,7 +111,7 @@ Des grilles contenant des lignes et des colonnes existent sur de nombreux types 
 | <kbd>Tab</kbd> | Dans une liste modifiable, accédez au prochain champ à droite de la même ligne. | Non applicable. | 
 | <kbd>Maj</kbd>+<kbd>Tab</kbd> | Dans une liste modifiable, accédez au champ suivant à gauche de la même ligne. | Non applicable. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Sélection, copie et collage
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Sélection, copie et collage
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour procéder dans une vue de liste |Pour procéder dans une vue en mosaïque |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Des grilles contenant des lignes et des colonnes existent sur de nombreux types 
 |<kbd>Maj</kbd>+<kbd>Bas</kbd><br /><br />(<kbd>Maj</kbd>+<kbd>Fn</kbd>+<kbd>Flèche vers le haut</kbd>)|Étendez la sélection des lignes pour inclure toutes les lignes visibles au-dessous de la sélection actuelle des lignes.|Non applicable.|
 |<kbd>F8</kbd>|Copier le champ dans la même colonne de la ligne précédente, et le coller dans la ligne actuelle. Vous pouvez effectuer ces opérations uniquement dans les listes modifiables. L’utilisation de ce raccourci suivi d’une tabulation <kbd>Tab</kbd> vous permet de renseigner rapidement les champs dans les lignes articles que vous souhaitez avoir la même valeur que la ligne précédente.|Non applicable.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Recherche et filtrage de listes
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Recherche et filtrage de listes
 
 |Sélectionnez ces touches<br />(dans macOS)|Pour|
 |--------------------------------|----------|
