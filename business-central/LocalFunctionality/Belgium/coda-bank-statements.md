@@ -1,7 +1,7 @@
 ---
 title: 'Relevés bancaires CODA belges [BE]'
 description: Le Coded Statement of Account est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse pour traiter automatiquement des relevés bancaires électroniques.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '2000040, 2000041, 2000042, 2000043, 2000045'
 ms.date: 02/08/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="belgian-coda-bank-statements-in-the-belgian-version"></a>Relevés bancaires CODA belges dans la version belge
+# Relevés bancaires CODA belges dans la version belge
 
 Le Coded Statement of Account (CODA) est une norme bancaire nationale conçue par l'Association belge des Banques et des Sociétés de Bourse qui vous permet de traitement automatiquement des relevés bancaires électroniques.  
 
 Chaque type de transaction d'un relevé CODA se voit attribuer un code unique. [!INCLUDE[prod_short](../../includes/prod_short.md)] utilise ce code pour interpréter les transactions et les lettrer aux écritures comptables correspondantes.  
 
-## <a name="applying-statement-lines"></a>Lettrage des lignes relevé
+## Lettrage des lignes relevé
 
 Lorsque vous avez importé un relevé CODA, vous pouvez lettrer les lignes relevé à des écritures comptables existantes selon les informations reprises dans la table **Encodage CODA**.  
 
@@ -41,11 +41,11 @@ Vous pouvez exécuter le traitement autant de fois que vous le souhaitez. Seules
 
 Lorsque vous avez lettré toutes les lignes relevé à un compte général ou à une écriture comptable client ou fournisseur correspondante, vous pouvez valider les lignes relevé CODA. Pour plus d'informations, voir [Transférer et publier automatiquement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md).  
 
-## <a name="extending-the-coda-integration"></a>Extension de l'intégration CODA
+## Extension de l'intégration CODA
 
 Le support actuel des relevés bancaires CODA peut être utilisé dans [!INCLUDE [prod_short](../../includes/prod_short.md)] en ligne et sur site. Cependant, les partenaires ne peuvent pas étendre les fonctionnalités d'une application pour [!INCLUDE [prod_short](../../includes/prod_short.md)] en ligne. Le code n'est pas déconseillé mais ne peut être étendu ou personnalisé que pour les déploiements sur site.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Banque électronique belge](belgian-electronic-banking.md)   
 [Paramétrer les comptes bancaires pour CODA](how-to-set-up-bank-accounts-for-coda.md)   

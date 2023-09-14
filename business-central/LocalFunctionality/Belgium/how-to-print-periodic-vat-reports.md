@@ -3,7 +3,7 @@ title: 'Impression des déclarations de TVA périodiques [BE]'
 description: "La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer trois\_déclarations de TVA aux autorités fiscales belges."
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '11306,11307,11308'
 ms.date: 06/17/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="print-periodic-vat-reports-in-the-belgian-version"></a>Imprimer les déclarations de TVA périodiques dans la version belge
+# Imprimer les déclarations de TVA périodiques dans la version belge
 La fonction de déclaration de TVA permet d'imprimer les détails des transactions de TVA. Vous devez envoyer les déclarations de TVA suivantes aux autorités fiscales belges :  
 
 - Déclaration mensuelle/trimestrielle  
 - Liste annuelle de TVA (sur papier/disque)  
 - TVA - Liste déclaration intracommunautaire (sur papier/disque)  
 
-## <a name="to-print-the-monthlyquarterly-declaration"></a>Pour imprimer la déclaration mensuelle/trimestrielle
+## Pour imprimer la déclaration mensuelle/trimestrielle  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Formulaire/Déclaration Intervat**, puis choisissez le lien associé.  
 2.  Dans la page **TVA – Formulaire**, renseignez les champs.  
@@ -36,7 +36,7 @@ La fonction de déclaration de TVA permet d'imprimer les détails des transactio
 
 3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran. Cliquez sur le bouton **Annuler** pour enregistrer les informations sans imprimer l'état.  
 
-## <a name="to-print-the-vat-annual-listing-on-disk"></a>Pour imprimer la liste annuelle de TVA sur disque
+## Pour imprimer la liste annuelle de TVA sur disque  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Liste annuelle de TVA - Disque**, puis accédez au lien associé.  
 2.  Dans la page **Liste annuelle de TVA - Disque**, renseignez les champs comme indiqué dans le tableau suivant.  
@@ -52,14 +52,14 @@ La fonction de déclaration de TVA permet d'imprimer les détails des transactio
 
 3.  Sélectionnez le bouton **Imprimer** pour imprimer l'état, ou le bouton **Aperçu** pour l'afficher à l'écran. Cliquez sur le bouton **Annuler** pour enregistrer les informations sans imprimer l'état.  
 
-## <a name="to-print-the-vat-vies-declaration-report-to-disk"></a>Pour imprimer l'état TVA - Déclaration intracommunautaire sur disque
+## Pour imprimer l'état TVA - Déclaration intracommunautaire sur disque  
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **TVA - Déclaration intracommunautaire sur disque**, puis choisissez le lien associé.  
 2.  Entrez les informations nécessaires, puis cliquez sur le bouton **OK** pour lancer le traitement par lots, qui crée un fichier .XML. Pour plus d'informations, voir TVA - Déclaration intracommunautaire sur disque.  
 3.  Si vous devez apporter une correction, choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **TVA - Correction déclaration intracommunautaire**, puis choisissez le lien associé.  
 4.  Choisissez l'action **Modifier la liste**, puis entrez les informations qui doivent être modifiées. Cliquez sur le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [TVA belge](belgian-vat.md)   
  [Configurer la TVA non déductible](how-to-set-up-non-deductible-vat.md)
 
