@@ -119,13 +119,11 @@ Vous pouvez même créer des factures à paiement direct pour les clients non en
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Voir la [formation Microsoft](/training/modules/invoicing-customers-dynamics-365-business-central/index) associée.
-
 ## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Imprimer la liste des prélèvements](sales-how-print-picking-list.md)  
+[Impression de la liste des prélèvements](sales-how-print-picking-list.md)  
 [Stock](inventory-manage-inventory.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  

@@ -54,8 +54,6 @@ Le nom de la société est toujours affiché dans le coin supérieur gauche et f
 
 L’expérience utilisateur par défaut dans une version d’évaluation de [!INCLUDE [prod_short](includes/prod_short.md)] ne révèle pas toutes les fonctionnalités. Vous pouvez passer à l’expérience complète dans la page **Informations société**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).  
 
-## Voir la [formation Microsoft](/training/modules/create-new-companies-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
 [Aperçu des tâches permettant de paramétrer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
