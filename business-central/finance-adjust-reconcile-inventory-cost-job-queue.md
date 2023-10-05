@@ -11,7 +11,7 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Planifier des tâches pour ajuster et rapprocher le coût des stocks avec la comptabilité
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Planifier des tâches pour ajuster et rapprocher le coût des stocks avec la comptabilité
 
 Pour optimiser l’expérience, l’ajustement automatique des coûts et la validation dans la comptabilité sont activés par défaut. Cependant, à mesure que les données s’accumulent au fil du temps, cela peut affecter les performances. Pour réduire la charge de l’application, il est souvent utile d’utiliser les écritures file d’attente des travaux pour déplacer les tâches à exécuter en arrière-plan.
 

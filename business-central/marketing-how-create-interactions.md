@@ -17,7 +17,7 @@ Vous pouvez créer des interactions pour enregistrer toutes les interactions et 
 
 Pour pouvoir créer des interactions, vous devez configurer des modèles interaction. Pour plus d’informations, reportez vous à [Configurer des modèles interaction](marketing-interactions.md).
 
-## <a name="to-create-an-interaction"></a>Pour créer une interaction
+## <a name="to-create-an-interaction-with-a-contact"></a>Pour créer une interaction
 1. Ouvrez le contact, le vendeur, ou l’écriture journal interaction.
 2. Sélectionnez l’action **Créer interaction**.
 3. Renseignez les champs, puis cliquez sur le bouton **OK**.
@@ -25,12 +25,12 @@ Pour pouvoir créer des interactions, vous devez configurer des modèles interac
 > [!NOTE]  
 >   Si vous devez effectuer une autre tâche avant de terminer l’interaction, vous pouvez cliquer sur **Annuler** et choisir de terminer l’interaction à une date ultérieure. Cela permet de reporter l’interaction à plus tard.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Pour terminer et supprimer les interactions reportées
+## <a name="to-create-an-interaction-on-a-segment"></a>Pour terminer et supprimer les interactions reportées
 1. Ouvrez le contact, le vendeur, ou l’écriture journal interaction.
 2. Sélectionnez **Interactions reportées**.
 3. Sélectionnez l’interaction que vous souhaitez terminer, puis sélectionnez l’action **Reprendre**.
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Pour créer une interaction sur un segment
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Pour créer une interaction sur un segment
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Segments**, puis sélectionnez le lien associé.
 2. Sur la page **Segment**, dans la section **Interaction**, renseignez les champs pour définir l’interaction à affecter au segment.
 

@@ -44,7 +44,7 @@ Voici l’ordre recommandé des étapes qu’un administrateur utilise pour conf
 > [!NOTE]
 > Pour se connecter à la société représentante du groupe TVA, les membres du groupe doivent disposer d’un compte utilisateur pouvant accéder au [!INCLUDE[prod_short](includes/prod_short.md)] de la société représentante du groupe TVA. Le représentant du groupe TVA doit créer au moins un utilisateur pour cela. Cependant, pour des raisons de sécurité, nous leur avons recommandé de créer un utilisateur pour chaque membre du groupe TVA, qui peut être un compte d’utilisateur système non lié à une personne réelle. Assurez-vous de distribuer les informations d’identification des utilisateurs aux membres du groupe TVA de manière sécurisée.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Configurer Azure Active Directory pour les membres du groupe
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Configurer Azure Active Directory pour les membres du groupe
 
 Lorsque la société représentante du groupe TVA utilise [!INCLUDE[prod_short](includes/prod_short.md)] en ligne ou sur site, les membres du groupe TVA utilisent Azure Active Directory pour authentifier les utilisateurs lorsqu’ils soumettent des déclarations de TVA à la société représentante du groupe TVA. Pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site, les membres doivent configurer l’authentification unique. En savoir plus dans la rubrique [Configurer l’authentification Azure Active Directory avec WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 

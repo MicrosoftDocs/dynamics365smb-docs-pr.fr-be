@@ -22,7 +22,7 @@ Deux tâches doivent être effectuées pour configurer l’intégration de OneDr
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] sur site ne peut être connecté qu’à un OneDrive hébergé par Microsoft dans le cloud. La connexion de [!INCLUDE[prod_short](includes/prod_short.md)] sur site au référentiel Mes sites du serveur SharePoint n’est pas prise en charge.
 
-## <a name="register-an-app-in-azure-ad-for-onedrive-integration"></a><a name="registerapp"></a>Enregistrer une application dans Azure AD pour l’intégration de OneDrive
+## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Enregistrer une application dans Azure AD pour l’intégration de OneDrive
 
 Dans cette tâche, vous ajoutez une application enregistrée pour Business Central dans le locataire Azure AD de votre plan Microsoft 365. Comme d′autres services Azure qui fonctionnent avec Business Central, OneDrive nécessite une application enregistrée dans Azure Active Directory (Azure AD). L’application enregistrée fournit des services d’authentification et d’autorisation entre Business Central et SharePoint, qui sont utilisés par OneDrive.
 

@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-and-income"></a>Répartition des coûts et du revenu
+# <a name="allocate-recurring-costs-and-income"></a>Répartition des coûts et du revenu
 
 Vous pouvez ventiler une écriture dans une feuille comptabilité dans différents comptes lorsque vous validez la feuille. La ventilation peut être effectuée de trois manières différentes :
 

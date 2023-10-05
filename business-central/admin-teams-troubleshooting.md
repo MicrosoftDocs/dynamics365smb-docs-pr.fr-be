@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Dépannage de l’intégration de Microsoft Teams avec [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -147,7 +147,7 @@ En tant qu’administrateur, avec des autorisations d’administrateur Azure Act
 
 Lorsque vous collez du texte dans la zone de message de la fenêtre **Partager avec Teams**, le texte est dupliqué. Ce problème est connu de Microsoft et sera résolu dans une mise à jour ultérieure. 
 
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Impossible de se connecter à la fenêtre Partager avec Teams
+## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Impossible de se connecter à la fenêtre Partager avec Teams
 
 Ce problème peut être causé par diverses raisons. Par exemple, l’identité que vous utilisez pour vous connecter doit avoir accès à Microsoft Teams, par exemple via un abonnement Microsoft 365.
 
@@ -167,7 +167,7 @@ Deux raisons expliquent ce problème.
 
 Ce problème est dû au fait que l’application BC pour Teams n’est pas installée. Seuls ceux qui ont installé l’application verront les onglets Business Central.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>D’autres voient un tri ou une disposition des colonnes différents de ce que voit l’auteur de l’onglet
+## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>D’autres voient un tri ou une disposition des colonnes différents de ce que voit l’auteur de l’onglet
 
 Ce problème est probablement dû au fait que vous avez partagé une vue de liste qui est une vue personnelle. Dans ce cas, travaillez avec l’administrateur pour créer des vues de liste spécifiques aux rôles qui couvrent les différents rôles dans le canal/la discussion instantanée, ou créez cette vue pour l’ensemble de l’organisation afin que tout le monde puisse obtenir une vue cohérente.
 
