@@ -1,17 +1,17 @@
 ---
 title: Configurer des employés d’entrepôt
-description: 'Chaque utilisateur exerçant une activité dans un entrepôt doit être configuré en tant qu’employé d’entrepôt affecté à un magasin par défaut, et éventuellement à d’autres magasins.'
+description: 'Chaque utilisateur exerçant une activité dans un entrepôt doit être configuré en tant qu''employé d''entrepôt affecté à un magasin par défaut, et éventuellement à d''autres magasins.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/09/2023
+ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# Configurer des employés d’entrepôt
+# Configuration des magasiniers
 
-Chaque utilisateur qui exécute des activités entrepôt doit être configuré en tant que magasinier et attribué à un emplacement par défaut. [!INCLUDE [prod_short](includes/prod_short.md)] filtre les activités de l’entrepôt à l’emplacement par défaut de l’employé. Ils ne peuvent effectuer les activités d’entrepôt qu’à l’emplacement. Vous pouvez aussi affecter un utilisateur à d’autres emplacements. Ils peuvent accéder, mais pas effectuer des activités à ces emplacements.
+Vous devez configurer chaque utilisateur qui exécute des activités dans un entrepôt en tant qu’employé de l’entrepôt et les affecter à un emplacement par défaut. [!INCLUDE [prod_short](includes/prod_short.md)] filtre les activités de l’entrepôt à l’emplacement par défaut de l’employé. Ils ne peuvent effectuer les activités d’entrepôt qu’à l’emplacement. Vous pouvez aussi affecter un utilisateur à d’autres emplacements. Ils peuvent accéder, mais pas effectuer des activités à ces emplacements.
 
 ## Pour configurer des employés d’entrepôt  
 
@@ -21,6 +21,11 @@ Chaque utilisateur qui exécute des activités entrepôt doit être configuré e
 4. Dans le champ **Code magasin**, entrez le code du magasin dans lequel va travailler l’utilisateur.  
 5. Activez le bouton à bascule **Par défaut** pour définir le magasin comme seul emplacement pour les activités entrepôt de l’employé.  
 6. Répétez ces étapes pour affecter d’autres employés à des magasins ou affecter d’autres magasins à des employés d’entrepôt existants.  
+
+> [!TIP]
+> Vous pouvez également utiliser l’action **M’ajouter en tant qu’employé de l’entrepôt** pour vous ajouter rapidement à la liste des employés de l’entrepôt. Par exemple, cela est utile lorsque vous testez les fonctionnalités.
+
+## Voir la [formation Microsoft](/training/modules/get-started-warehouse-management/) associée
 
 ## Voir aussi
 

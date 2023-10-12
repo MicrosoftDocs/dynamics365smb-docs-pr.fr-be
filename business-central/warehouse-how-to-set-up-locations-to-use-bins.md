@@ -3,7 +3,7 @@ title: Comment configurer des magasins de sorte qu’ils utilisent des emplaceme
 description: Les emplacements représentent la structure d’entrepôt de base et sont utilisés pour faire des propositions relatives à l’emplacement des articles.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
@@ -50,8 +50,6 @@ Ensuite, vous définissez la circulation des articles dans le magasin en spécif
 Ce graphique indique comment le champ **Code emplacement** sur les lignes composant O.F. est renseigné en fonction de la configuration de votre emplacement.
 
 :::image type="content" source="media/binflow.png" alt-text="Champ de code d’emplacement sur les lignes de composant d’ordre de fabrication.":::
-
-## Voir la [formation Microsoft](/training/modules/configure-bins-location/) associée
 
 ## Voir aussi
 

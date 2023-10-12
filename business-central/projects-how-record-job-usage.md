@@ -96,13 +96,11 @@ Après avoir validé les lignes feuilles projets, vous pouvez voir les lignes pl
 2. Sélectionnez une feuille projet appropriée, puis cliquez sur **Écritures comptables**.  
 3. Sur la page **Écritures comptables projet**, cliquez sur **Afficher les lignes planning projet liées**.
 
-## Voir la [formation Microsoft](/training/paths/post-job-usage-sales/) associée
-
 ## Voir aussi
 
 [Gestion de projets](projects-manage-projects.md)  
 [Finances](finance.md)  
-[Procédure d’achat](purchasing-manage-purchasing.md)  
+[Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

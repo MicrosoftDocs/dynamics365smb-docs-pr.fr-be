@@ -44,12 +44,10 @@ Si vous changez d’avis sur une catégorie d’article, vous pouvez la supprime
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Voir la [formation Microsoft](/training/modules/trade-master-data-dynamics-365-business-central/) associée
-
 ## Voir aussi
 
-[Utiliser les attributs d’article](inventory-how-work-item-attributes.md)  
-[Gérer les variantes de produits](inventory-item-variants.md)  
+[Utilisation des attributs d’articles](inventory-how-work-item-attributes.md)  
+[Gestion des variantes de produits](inventory-item-variants.md)  
 [Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
 [Stock](inventory-manage-inventory.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

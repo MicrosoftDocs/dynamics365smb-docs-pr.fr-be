@@ -78,8 +78,6 @@ La synchronisation des devises est unidirectionnelle, de [!INCLUDE [prod_short](
 * Les montants dans la devise de base [!INCLUDE[prod_short](includes/cds_long_md.md)] sont convertis dans la devise locale [!INCLUDE [prod_short](includes/prod_short.md)] en fonction du dernier taux de change synchronisé depuis [!INCLUDE [prod_short](includes/prod_short.md)].
 * Les montants dans la devise locale [!INCLUDE [prod_short](includes/prod_short.md)] se synchronisent avec la devise locale [!INCLUDE [prod_short](includes/prod_short.md)] dans l’une des autres devises (non de base) dans [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## Voir la [formation Microsoft](/training/modules/use-model-driven-apps-common-data-service/) associée
-
 ## Voir aussi
 
 [Modèles de propriété de données](admin-cds-company-concept.md)  

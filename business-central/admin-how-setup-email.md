@@ -2,17 +2,17 @@
 title: Paramétrer la messagerie dans Business Central (contient une vidéo)
 description: "Décrit comment connecter des comptes de messagerie à Business\_Central afin que vous puissiez envoyer des messages sortants sans avoir à ouvrir une autre application."
 author: brentholtorf
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.topic: get-started
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Configurer la messagerie
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Les utilisateurs au sein des entreprises envoient des informations et des documents, tels que des commandes vente et achat et des factures, par e-mail, au quotidien. Les administrateurs peuvent se connecter à un ou plusieurs comptes de messagerie à [!INCLUDE[prod_short](includes/prod_short.md)]. Vous pouvez donc envoyer des documents sans avoir à ouvrir une application de messagerie. Vous pouvez composer chaque message individuellement avec des outils de mise en forme de base, tels que des polices, des styles, des couleurs, etc., et ajouter des pièces jointes pouvant atteindre 100 Mo. De plus, les présentations d’états permettent aux administrateurs d’inclure uniquement les informations clés des documents. En savoir plus sur [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
 
@@ -56,7 +56,9 @@ Le tableau suivant décrit les extensions de messagerie disponibles par défaut.
 Si vous souhaitez utiliser le protocole SMTP pour envoyer des e-mails à partir de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez utiliser l’extension Connecteur SMTP. Lorsque vous configurez un compte qui utilise SMTP, le champ **Type d’expéditeur** est important. Si vous sélectionnez **Utilisateur spécifique**, les e-mails seront envoyés en utilisant le nom et d’autres informations du compte configuré. Cependant, si vous sélectionnez **Utilisateur actuel**, les e-mails seront envoyés à partir du compte de messagerie spécifié pour le compte de chaque utilisateur. La fonction Utilisateur actuel est similaire à la fonction Envoyer en tant que. Pour plus d’informations, voir [Utiliser une adresse d’expéditeur de remplacement pour les e-mails sortants](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] local, vous pouvez utiliser le protocole OAuth 2.0 pour l’authentification. Vous devez créer un enregistrement d’application dans le portail Azure, puis exécuter le guide d’installation assisté **Configurer Azure Active Directory** dans [!INCLUDE[prod_short](includes/prod_short.md)] pour se connecter à Azure AD. Pour plus d’informations, consultez [Créer une inscription d’application pour Business Central dans le portail Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] local, vous pouvez utiliser le protocole OAuth 2.0 pour l’authentification. Pour utiliser OAuth pour SMTP, tous les utilisateurs doivent être sur le même locataire Microsoft Entra. 
+> 
+> Vous devez créer un enregistrement d’application dans le portail Azure, puis exécuter le guide de configuration assistée **Configurer Microsoft Entra ID** dans [!INCLUDE[prod_short](includes/prod_short.md)] pour vous connecter à Microsoft Entra ID. Pour plus d’informations, consultez [Créer une inscription d’application pour Business Central dans le portail Azure](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online ne prend pas en charge l’authentification de base pour SMTP. Les clients qui utilisent actuellement l’authentification SMTP ne seront pas affectés par ce changement. Cependant, nous vous recommandons fortement d’utiliser la version la plus récente de [!INCLUDE [prod_short](includes/prod_short.md)] et de configurer l’authentification OAuth 2.0 pour SMTP. Nous n’ajouterons pas l’authentification basée sur les certificats pour les versions antérieures de [!INCLUDE [prod_short](includes/prod_short.md)], par exemple, version 14. Si vous ne pouvez pas configurer l’authentification OAuth 2.0, nous vous encourageons à explorer d’autres moyens si vous souhaitez utiliser la messagerie SMTP dans des versions antérieures.
 
@@ -202,11 +204,11 @@ Vous pouvez utiliser ces données pour surveiller l’utilisation de la messager
 
 ## Configurer la messagerie pour Business Central local
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sur site peut s’intégrer à des services basés sur Microsoft Azure. Par exemple, vous pouvez utiliser Cortana Intelligence pour des prévisions de trésorerie plus intelligentes, Power BI pour visualiser votre entreprise, et Exchange Online pour envoyer un e-mail. L’intégration avec ces services est basée sur l’enregistrement d’une application dans Azure Active Directory. L’enregistrement de l’application fournit des services d’authentification et d’autorisation pour les communications. Pour utiliser les fonctionnalités de messagerie dans [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous devez vous inscrire [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’application dans le portail Azure, puis connectez [!INCLUDE[prod_short](includes/prod_short.md)] à l’enregistrement de l’application. Les sections suivantes décrivent comment.
+[!INCLUDE[prod_short](includes/prod_short.md)] sur site peut s’intégrer à des services basés sur Microsoft Azure. Par exemple, vous pouvez utiliser Cortana Intelligence pour des prévisions de trésorerie plus intelligentes, Power BI pour visualiser votre entreprise, et Exchange Online pour envoyer un e-mail. L’intégration avec ces services est basée sur l’enregistrement d’une application dans Microsoft Entra ID. L’enregistrement de l’application fournit des services d’authentification et d’autorisation pour les communications. Pour utiliser les fonctionnalités de messagerie dans [!INCLUDE[prod_short](includes/prod_short.md)] sur site, vous devez vous inscrire [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’application dans le portail Azure, puis connectez [!INCLUDE[prod_short](includes/prod_short.md)] à l’enregistrement de l’application. Les sections suivantes décrivent comment.
 
 ### Créer une inscription d’application pour Business Central dans le portail Azure
 
-Les étapes pour inscrire [!INCLUDE[prod_short](includes/prod_short.md)] dans le portail Azure sont décrits dans [Enregistrer une application dans Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+Les étapes pour enregistrer [!INCLUDE[prod_short](includes/prod_short.md)] dans le portail Azure sont décrits dans [Enregistrer une application dans Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 > [!NOTE]
 > Pour utiliser les fonctionnalités de messagerie, l’enregistrement de votre application doit utiliser une configuration mutualisée.
@@ -243,26 +245,26 @@ Si vous ne parvenez pas à utiliser le protocole SMTP pour envoyer un e-mail apr
 
 ### Connecter [!INCLUDE[prod_short](includes/prod_short.md)] à votre inscription d’application
 
-Après avoir enregistré votre application dans le portail Azure, dans [!INCLUDE[prod_short](includes/prod_short.md)], utilisez la page **Enregistrement AAD de l’application de messagerie** pour y connecter [!INCLUDE[prod_short](includes/prod_short.md)].
+Après avoir enregistré votre application dans le portail Azure, dans [!INCLUDE[prod_short](includes/prod_short.md)], utilisez la page **Enregistrement Microsoft Entra ID de l’application de messagerie** pour y connecter [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrement AAD de l’application de messagerie**, puis sélectionnez le lien associé.
+1. Dans [!INCLUDE[prod_short](includes/prod_short.md)], choisissez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Enregistrement Microsoft Entra ID de l’application de messagerie**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Sinon, si vous vous connectez pour la première fois, vous pouvez exécuter le guide de configuration assistée **Configurer la messagerie**. Dans ce cas, le guide inclura également la page Enregistrement AAD de l’application de messagerie pour ajouter les informations de connexion à l’enregistrement de votre application. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Sinon, si vous vous connectez pour la première fois, vous pouvez exécuter le guide de configuration assistée **Configurer la messagerie**. Dans ce cas, le guide inclut également la page Enregistrement Microsoft Entra ID de l’application de messagerie pour ajouter les informations de connexion à l’enregistrement de votre application. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], start the **Email Application AAD Registration** assisted setup guide.
 2. On the first page of the guide, copy the value in the **Redirect URL** field.
-3. In Azure Active Directory, search for **App registrations**, and then open the **App registrations** page.
+3. In Microsoft Entra ID, search for **App registrations**, and then open the **App registrations** page.
 4. Choose **New registration**.
 5. In the **Name** field, enter a name for your app.
-6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Azure AD Directory - Multitenant)** or **Accounts in any organizational directory (Any Azure AD Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
+6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant)** or **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
 7. Under **Redirect URI (optional)**, choose **Web**, paste the URL you copied from the **Redirect URL** field in the assisted setup guide in Business Central, and then choose **Register**.
 8. On the navigation pane, choose **Overview**, and then copy the value in the **Application (client) ID** field.
 9. In [!INCLUDE[prod_short](includes/prod_short.md)], in the assisted setup guide, paste the ID in **Client ID** field.
-10. In Azure Active Directory, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
+10. In Microsoft Entra ID, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
 11. On the **Request API permissions** pane, on the **Microsoft APIs** tab, choose **Microsoft Graph**.  
 12. Choose **Delegated permissions**, and then in the **Select permissions** field, search for **Mail.ReadWrite**, **Mail.Send**, and **offline_access**. Choose those permissions, and then choose **Add permissions**.
 13. On the navigation pane, choose **Certificates & secrets**.
@@ -274,14 +276,12 @@ Après avoir enregistré votre application dans le portail Azure, dans [!INCLUDE
 
 -->
 
-## Voir la [formation Microsoft](/training/modules/set-up-email/) associée
-
 ## Voir aussi
 
 [Boîtes aux lettres partagées dans Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoi de documents par courrier électronique](ui-how-send-documents-email.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[prod_short](includes/prod_short.md)] sur mon périphérique mobile](install-mobile-app.md)   

@@ -1,11 +1,14 @@
 ---
 title: Présentation des informations sur la société
 description: 'La page Informations société spécifie les informations de base d’une entité commerciale, telles que le nom, les adresses et les informations d’expédition.'
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 08/31/2022
-ms.author: bholtorf
+ms.date: 09/24/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Présentation des informations sur la société
@@ -33,6 +36,10 @@ Il existe quelques fonctionnalités que vous pouvez utiliser pour changer d’en
 Lorsqu’il y a plus d’une société ou d’un environnement, vous verrez le sélecteur d’entreprise sur le côté supérieur droit de la barre d’application, près de l’icône de recherche dans la barre d’application. Par défaut, le sélecteur de société utilise une icône d’entreprise standard, comme le ![Lanceur Icône de l’entreprise.](media/ui-experience/company-icon.png "Affiche l’icône de changement d’entreprise utilisée lorsqu’il n’y a qu’un seul environnement") et ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Affiche l’icône de changement d’entreprise utilisée lorsqu’il y a plusieurs environnements").
 
 :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Affiche l’icône de changement de société dans l’en-tête du client Business Central.":::  
+
+À partir de la 2e vague de lancement 2023, version 23, le badge de la société apparaît dans l’onglet du navigateur lors de l’utilisation du client Web. Il est également inclus dans les liens de pages que vous [copiez et collez](across-share-data-features.md#copying-a-link) dans des éditeurs de texte enrichi, comme Word, Outlook et Teams.
+ 
+### Définir le badge de la société
 
 En utilisant la page **Informations sur la société**, vous pouvez remplacer l’icône standard de l’entreprise par un badge personnalisé pour chaque société si le badge de société permet aux utilisateurs d’identifier plus facilement la société dans laquelle ils travaillent.
 

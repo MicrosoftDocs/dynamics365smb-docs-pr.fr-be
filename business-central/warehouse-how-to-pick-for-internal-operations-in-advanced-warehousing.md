@@ -2,13 +2,12 @@
 title: Prélever pour des opérations internes dans les configurations de stockage avancées
 description: 'Si vos sites utilisent le prélèvement et l’expédition, choisissez des composants pour les activités de production, d’assemblage et les tâches dans la page Sélection d’entrepôt.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 09/02/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 09/12/2023
+ms.custom: bap-template
 ---
 # Prélever pour la fabrication, l’assemblage ou les tâches dans les configurations de stockage avancées
 
@@ -55,9 +54,13 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
 >
 > Les tâches ne prennent pas en charge les configurations avancées dans lesquelles le bouton à bascule **Prélèvement et rangement dirigés** est activé.
 
+## Vérifier si les articles sont disponibles pour le prélèvement
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ## Pour créer des documents de prélèvement en bloc avec la feuille prélèvement
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille prélèvement**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Feuille prélèvement**, puis choisissez le lien associé.  
 
 2. Choisissez l’action **Extraire documents entrepôt**.  
 

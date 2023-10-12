@@ -447,9 +447,10 @@
 ### [Validation directe des transactions en comptabilité.](finance-how-post-transactions-directly.md)
 ### [Contrepassation d’une validation feuille et annulation des réceptions/envois](finance-how-reverse-journal-posting.md)
 ### [Exportation de fichier d’audit](finance-how-to-export-audit-files.md)
-### [Ventilation des coûts et des bénéfices](year-allocate-costs-income.md)
 ### [Enregistrement et remboursement des frais des employés](finance-how-record-reimburse-employee-expenses.md)
 ### [Échelonnement des recettes et des dépenses](finance-how-defer-revenue-expenses.md)
+### [Ventilation des coûts et des bénéfices récurrents](year-allocate-costs-income.md)
+### [Affectation des revenus et des coûts à plusieurs comptes généraux](finance-allocate-revenue-costs.md)
 ### [Mise à jour des taux de change devise](finance-how-update-currencies.md)
 ### [Importation des transactions de paie](finance-how-import-payroll-transactions.md)
 ### [Utilisation de la TVA sur les ventes et les achats](finance-work-with-vat.md)
@@ -585,6 +586,7 @@
 #### [Gestion des interactions pour les segments](marketing-interaction-segments.md)
 ### Gestion des interactions
 #### [Interactions](marketing-interactions-overview.md)
+#### [Pièces jointes pour les interactions](marketing-interaction-attachments.md)
 #### [Enregistrement des interactions avec les contacts](marketing-interactions.md)
 #### [Création des interactions sur les contacts et les segments](marketing-how-create-interactions.md)
 #### [Enregistrement automatique des interactions avec les contacts](marketing-auto-record-interactions.md)
@@ -1545,6 +1547,7 @@
 #### [Configuration des conditions de livraison](sales-how-set-up-shipment-methods.md)
 #### [Configuration des transporteurs](sales-how-to-set-up-shipping-agents.md)
 #### [Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)
+#### [Mise à jour des dates de document avec les dates de validation](across-link-doc-dates-to-posting-dates.md)
 ### Configuration des achats
 #### [Configuration des achats](purchasing-setup-purchasing.md)
 #### [Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1557,7 @@
 #### [Configuration des prix et remises](across-prices-and-discounts.md)
 #### [Enregistrement des prix d’achat spéciaux et des remises](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Définition d’une stratégie de validation des factures pour les utilisateurs](admin-setup-invoice-posting-policy.md)
+#### [Mise à jour des dates de document avec les dates de validation](across-link-doc-dates-to-posting-dates.md)
 ### Configuration du stock
 #### [Configuration du stock](inventory-setup-inventory.md)
 #### [Configuration des informations générales relatives au stock](inventory-how-setup-general.md)
@@ -1791,7 +1795,7 @@
 ### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
 ### [Analyse des données de page dans Excel](across-work-with-excel.md)
 ### [Analyse des données d’état avec Excel](report-analyze-excel.md)
-### [Analyse des données de liste avec le mode d’analyse](analysis-mode.md)
+### [Analyse des données de liste et de requête avec le mode d’analyse](analysis-mode.md)
 ### [BI financière](bi.md)
 
 ## Analyses intégrées 
