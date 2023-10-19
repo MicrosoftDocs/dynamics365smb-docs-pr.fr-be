@@ -26,7 +26,7 @@ Avant de consolider les soldes, spécifiez quelques paramètres sur la page **Pa
 * Dans le raccourci **Interactions**, vous devez spécifier les codes relation d’affaires dans les champs **Clients** et **Fournisseurs**. [!INCLUDE[prod_short](includes/prod_short.md)] utilise ces informations pour déterminer le type de relation à afficher pour les contacts. 
 * Facultatif : dans le raccourci **Doublons**, activez ou désactivez la recherche des doublons. Par défaut, la recherche de doublons est activée. Pour plus d’informations, voir [Gestion des doublons](#handling-duplicates). 
 
-## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Lier une société client et fournisseur via un contact
+## <a name="link-an-existing-customer-and-vendor-company-through-a-contact"></a>Lier une société client et fournisseur via un contact
 Les étapes suivantes décrivent comment lier un client et un fournisseur via un contact.
 
 1. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Client** ou **Fournisseur**, puis choisissez le lien associé.
