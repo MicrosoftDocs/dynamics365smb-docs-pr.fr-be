@@ -348,6 +348,11 @@
 #### [Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Extension Prédictions de retard de paiement](ui-extensions-late-payment-prediction.md)
 
+### Gérer les documents électroniques
+#### [Paramétrer les documents électroniques](finance-how-setup-edocuments.md)
+#### [Utiliser des documents électroniques dans les ventes et les achats](finance-how-use-edocuments.md)
+#### [Extension de la fonctionnalité des documents électroniques](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Gestion de la TVA
 #### [Vue d’ensemble de la gestion de la TVA](finance-manage-vat.md)
 #### [Transactions d’achat de tiers dans l’UE](finance-how-to-eu3party-trade-purchase.md)
