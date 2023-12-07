@@ -22,7 +22,7 @@ Lorsque vous réceptionnez des articles de stock ou lorsque le service acheté e
 > [!CAUTION]  
 > Ne validez pas une facture achat pour des articles physiques tant que vous n’avez pas reçu les articles et que vous ne connaissez pas le coût total de l’achat, frais supplémentaires compris. Sinon, la valeur du stock et les chiffres du profit peuvent être biaisés.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Créer et valider une facture achat
+### <a name="create-and-post-a-purchase-invoice"></a>Créer et valider une facture achat
 
 Ce qui suit décrit comment créer une facture achat. La procédure est identique pour une commande achat. La principale différence est que les commandes achat ont des champs et des actions supplémentaires pour la manutention des articles.
 

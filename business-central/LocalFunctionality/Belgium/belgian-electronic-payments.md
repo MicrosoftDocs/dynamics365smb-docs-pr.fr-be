@@ -57,7 +57,7 @@ Avant de pouvoir effectuer un paiement SEPA hors euro, vous devez effectuer les 
     |**Date d'exécution**|Entrez une date d'exécution si vous souhaitez que la date d'exécution soit différente de la date comptabilisation sur les lignes paiement.|  
     |**Emplacement**|Entrez le nom du fichier, y compris le lecteur et le dossier, dans lequel vous souhaitez imprimer l'état.|  
 
-## <a name="correcting-payment-lines"></a>Correction des lignes de paiement
+## <a name="correct-payment-lines"></a>Correction des lignes de paiement
 
 Vous devez corriger toutes les erreurs avant de pouvoir valider les lignes de paiement électronique. Vous pouvez corriger les lignes de paiement comme suit :  
 
