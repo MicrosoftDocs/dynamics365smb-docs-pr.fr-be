@@ -1,17 +1,18 @@
 ---
-title: 'Fonctionnalité locale, Belgique'
-description: Les rubriques suivantes décrivent les différentes fonctionnalités locales de la version belge de Business Central.
+title: 'Fonctionnalités locales, Belgique'
+description: Les articles suivants décrivent les différentes fonctionnalités locales de la version belge de Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 06/17/2021
+ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="belgium-local-functionality"></a>Fonctionnalité locale, Belgique
+# Fonctionnalités locales, Belgique
 
-Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Les articles suivants décrivent les fonctionnalités locales propres à la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilité des fonctions
+## Disponibilité des fonctions
 
 * TVA
     * [TVA belge](belgian-vat.md) **Désormais disponible**
@@ -42,22 +43,25 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Générer des suggestions de règlement](how-to-generate-payment-suggestions.md) **Désormais disponible**
     * [Importer des relevés CODA](how-to-import-coda-statements.md) **Désormais disponible**
     * [Transférer et valider manuellement des relevés CODA](how-to-manually-transfer-and-post-coda-statements.md) **Désormais disponible**
-    * [Imprimer des fichiers de paiement](how-to-print-payment-files.md) **Désormais disponible**
-    * [Activer les paiements SEPA](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Désormais disponible**
-    * [Effectuer des paiements SEPA hors euro](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments) **Désormais disponible**
+    * [Imprimer des fichiers de paiement](how-to-print-payment-files.md#to-print-a-payment-file) **Désormais disponible**
+    * [Activer les paiements SEPA](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#activate-sepa-payments-in-the-belgian-version) **Désormais disponible**
+    * [Effectuer des paiements SEPA hors euro](/dynamics365/business-central/LocalFunctionality/Belgium/belgian-electronic-payments#file-non-euro-sepa-payments) **Désormais disponible**
     * [Domiciliation européenne](direct-debit-using-domiciliation.md) **Désormais disponible**
-    * [Paramétrer les domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
-    * [Modifier et supprimer des lignes domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
-    * [Tester les domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
-    * [Exporter et valider des domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
+    * [Paramétrer les domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#set-up-domiciliations) **Désormais disponible**
+    * [Modifier et supprimer des lignes domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#edit-and-delete-domiciliation-lines) **Désormais disponible**
+    * [Tester les domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#test-domiciliations) **Désormais disponible**
+    * [Exporter et valider des domiciliations](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation#export-and-post-domiciliations) **Désormais disponible**
     * [Générer des suggestions de domiciliation](/dynamics365/business-central/LocalFunctionality/Belgium/direct-debit-using-domiciliation) **Désormais disponible**
     * [Résumé des lignes règlement et des lignes feuille comptabilité](summarizing-payment-lines-and-general-journal-lines.md) **Désormais disponible**
-    
-* Finances principales
+
+* Facturation électronique
+    * [Facturation électronique en Belgique via le point d'accès PEPPOL](../../finance-how-setup-edocuments-external.md) **Désormais disponible**
+  
+* Finances de base
     * [Lettrer et délettrer des écritures comptables](how-to-apply-and-unapply-general-ledger-entries.md) **Désormais disponible**
     * [Créer des feuilles financières](how-to-create-financial-journals.md) **Désormais disponible**
     * [Exporter vers Accon](how-to-export-to-accon.md) **Désormais disponible**
-    * [[Rendre les modèles feuille obligatoires]](specify-journal-template-mandatory.md) **Désormais disponible**
+    * [Rendre les modèles feuille obligatoires](specify-journal-template-mandatory.md) **Désormais disponible**
 
 * Général
     * [Numéros d'entreprise et numéros d'établissement](enterprise-numbers-and-branch-numbers.md) **Désormais disponible**
@@ -66,15 +70,14 @@ Les rubriques suivantes décrivent la fonctionnalité locale qui est propre à l
     * [Rendre les modèles feuille obligatoires](specify-journal-template-mandatory.md) **Désormais disponible**
     * [Échelonnements dans les rapports Journal des ventes et Journal des achats](how-to-use-deferrals.md) **Désormais disponible**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Les futures exigences législatives en cours d’investigation
+## Les futures exigences législatives en cours d’investigation
 
-* TVA non déductible repensée et mise à niveau **Août-septembre 2023**
-* Réception de factures électroniques **phase de recherche**
+* TVA non déductible repensée et mise à niveau **Prévue pour le 23.5**
 
-Si vous avez connaissance de fonctionnalités réglementaires imminentes, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+Si vous avez connaissance de fonctionnalités réglementaires futures, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
