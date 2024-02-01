@@ -3,9 +3,7 @@ title: Règles pour le lettrage automatique des paiements
 description: Découvrez comment configurer des règles pour l’application automatique des paiements sur la page Règles de lettrage des paiements.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021

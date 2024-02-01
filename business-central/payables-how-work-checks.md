@@ -3,9 +3,7 @@ title: 'Emettre, imprimer et annuler des chèques'
 description: "Décrit comment émettre des chèques à l’aide de la feuille paiement, imprimer des chèques, et annuler ou afficher les écritures comptables chèque dans Business\_Central."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
 ms.date: 04/01/2021

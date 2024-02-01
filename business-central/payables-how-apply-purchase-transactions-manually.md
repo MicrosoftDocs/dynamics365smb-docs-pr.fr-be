@@ -3,9 +3,7 @@ title: Rapprocher les reçus de paiement fournisseur ou les remboursements dans 
 description: 'Pour traiter, mettre en correspondance, ou rapprocher des paiements ou des remboursements fournisseur manuellement, vous lettrez le montant dans une ou plusieurs écritures comptables fournisseur ouvertes.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment application, payment processing, match payments'
 ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021

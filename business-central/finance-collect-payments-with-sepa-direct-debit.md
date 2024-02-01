@@ -3,9 +3,7 @@ title: "Prélèvement SEPA dans Business\_Central"
 description: 'Avec le consentement de votre client, vous pouvez collecter les paiements directement à partir du compte bancaire du client en fonction du format SEPA.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 06/16/2021
 ms.author: bholtorf

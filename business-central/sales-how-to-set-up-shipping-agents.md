@@ -3,9 +3,7 @@ title: "Procédure\_: configurer des transporteurs"
 description: Découvrez comment configurer un code pour chacun de vos transporteurs et saisir des informations descriptives concernant chacun d’entre eux et les services qu’ils proposent.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

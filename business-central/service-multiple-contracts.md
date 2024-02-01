@@ -3,9 +3,7 @@ title: Plusieurs contrats | Microsoft Docs
 description: 'Selon les accords de votre niveau de service avec un client, vous pouvez avoir à gérer un article de service sous plusieurs contrats de service.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

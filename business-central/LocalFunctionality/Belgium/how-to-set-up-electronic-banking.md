@@ -3,9 +3,7 @@ title: 'Paramétrer des opérations bancaires électroniques [BE]'
 description: 'Avec les opérations bancaires électroniques, vous pouvez effectuer des paiements électroniques à des fournisseurs et clients nationaux, internationaux, SEPA et SEPA non euro.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 11308
 ms.date: 11/24/2023

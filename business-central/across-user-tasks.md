@@ -3,9 +3,7 @@ title: Affectation et gestion des tâches
 description: "Découvrez comment attribuer des tâches aux utilisateurs, y compris votre comptable, dans Business\_Central, et comment vous choisissez et effectuez des tâches."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '1164, 1170, 1171, 1172, 1175, 1176, 1177'
 ms.date: 04/01/2021

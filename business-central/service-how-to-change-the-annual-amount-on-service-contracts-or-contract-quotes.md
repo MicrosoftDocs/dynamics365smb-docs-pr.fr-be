@@ -3,9 +3,7 @@ title: Modifier le montant annuel du contrat service ou du devis contrat
 description: Vous pouvez modifier le montant facturé annuellement sur des contrats de service ou des devis contrat de service.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

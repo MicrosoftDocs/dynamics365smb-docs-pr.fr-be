@@ -3,9 +3,7 @@ title: Se préparer aux activités commerciales
 description: "Décrit les guides de configuration assistée, les vidéos, les rubriques d’aide, et les pages à utiliser pour vous préparer à faire des affaires dans Business\_Central."
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: bholtorf

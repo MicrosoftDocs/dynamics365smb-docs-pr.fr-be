@@ -3,9 +3,7 @@ title: Écritures comptables ouvertes d’articles non disponibles en stock
 description: Cet article traite du problème de niveau de stock nul alors qu’il existe des écritures comptables article ouvertes.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Fusionner les doublons d’enregistrements fournisseur ou client
 description: Décrit comment consolider les informations sur les clients ou les fournisseurs lorsque vous avez des entrées en double pour certains.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: 'Impression de l''état Formulaire de D.E.B. [BE]'
 description: L'état D.E.B. - Formulaire doit être utilisé pour la D.E.B afin de déclarer le mouvement de marchandises.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/17/2021
 ms.author: bholtorf

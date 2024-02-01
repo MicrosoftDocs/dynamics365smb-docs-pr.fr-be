@@ -3,12 +3,11 @@ title: Configurer les processus de gestion des services | Microsoft Docs
 description: Apprenez comment configurer les processus qui permettent de vérifier que les clients sont satisfaits de votre service client.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Configuration des processus de service
 Voici quelques exemples des paramètres que vous pouvez appliquer aux processus de gestion des services :  

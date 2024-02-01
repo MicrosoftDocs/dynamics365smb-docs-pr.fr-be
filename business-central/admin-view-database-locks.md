@@ -3,9 +3,7 @@ title: Afficher les verrouillages base de données
 description: "Découvrez comment afficher des informations sur les verrouillages de base de données client directement depuis l’interface client de Business\_Central."
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 9511
 ms.date: 06/14/2021
 ms.author: jswymer

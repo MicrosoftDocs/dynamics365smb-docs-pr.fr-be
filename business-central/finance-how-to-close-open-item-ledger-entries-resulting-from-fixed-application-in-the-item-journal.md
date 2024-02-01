@@ -3,9 +3,7 @@ title: Clôture des écritures comptables article provenant de l’utilisation d
 description: Découvrez comment vous pouvez créer un lettrage fixe entre une transaction entrante et la transaction sortante initiale dans la feuille article.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
