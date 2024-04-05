@@ -139,6 +139,7 @@ ms.service: dynamics-365-business-central
 ## Amélioration de la productivité dans Business Central
 ### [Vue d’ensemble des fonctionnalités générales](ui-work-product.md)
 ### [Aide-mémoire imprimable](ui-work-product.md#cheatsheet)
+### [Conversation instantanée avec Copilot (version préliminaire)](chat-with-copilot.md)
 ### [Recherche de pages et d’informations à l’aide de La fenêtre de recherche](ui-search.md)
 ### [FAQ sur La fenêtre de recherche](ui-search-faq.md)
 ### [Recherche de données spécifiques](ui-search-data.md)
@@ -201,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Informations intelligentes (en ligne uniquement)](about-intelligent-cloud.md)
 ## Forum aux questions
 ### [Forum aux questions](across-faq.yml)
+### [FAQ sur Conversation instantanée avec Copilot (version préliminaire)](chat-with-copilot-faq.md)
 ### [FAQ sur La fenêtre de recherche](ui-search-faq.md)
 ### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
 ### [FAQ sur les vues de liste](ui-views-faq.yml)
@@ -374,6 +376,7 @@ ms.service: dynamics-365-business-central
 #### [Configuration de l’évaluation du stock et des coûts ajustés](finance-set-up-inventory-valuation-and-costing.md)
 #### [Réévaluation du stock](inventory-how-revalue-inventory.md)
 #### [Ajustement coûts article](inventory-how-adjust-item-costs.md)
+#### [Suivi des ajustements des coûts d’articles](finance-track-inventory-costs.md)
 #### [Gestion des coûts ajustés et des coûts de fabrication](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Mise à jour des coûts standard](finance-how-to-update-standard-costs.md)
 #### [Suppression et relettrage des écritures comptables article](finance-how-to-remove-and-reapply-item-entries.md)
@@ -388,7 +391,6 @@ ms.service: dynamics-365-business-central
 #### [Vue d’ensemble de la trésorerie](finance-cash-flow-overview.md)
 #### [Analyse des trésoreries dans votre société](finance-analyze-cash-flow.md)
 #### [Procédure pas-à-pas : création de prévisions de trésorerie à l’aide d’états financiers](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
 
 ### Clôture d’exercices et de périodes
 #### [Vue d’ensemble de la clôture exercice](year-close-years-periods.md)
@@ -408,6 +410,7 @@ ms.service: dynamics-365-business-central
 ### Utilisation du plan comptable et de la comptabilité
 #### [Familiarisation avec la comptabilité et le plan comptable](finance-general-ledger.md)
 #### [Vérification des comptes](finance-review-accounts.md)
+#### [Réévaluation des soldes comptables](finance-revalue-account-balances.md)
 #### [Validation directe des transactions en comptabilité.](finance-how-post-transactions-directly.md)
 #### [Contrepassation d’une validation feuille et annulation des réceptions/envois](finance-how-reverse-journal-posting.md)
 #### [Enregistrement et remboursement des frais des employés](finance-how-record-reimburse-employee-expenses.md)
@@ -459,24 +462,34 @@ ms.service: dynamics-365-business-central
 ##### [Utilisation des documents et des feuilles intersociétés](intercompany-how-work-documents-journals.md)
 ##### [Gestion de la boîte de réception et la boîte d’envoi intersociétés](intercompany-how-manage-intercompany-inbox.md)
 ##### [Allocation des coûts aux partenaires intersociétés](intercompany-allocate-costs.md)
-
 ### [Expériences des comptables dans Business Central](finance-accounting.md)
 
+## Analyses financières 
+### [Présentation des analyses financières](bi.md)
+### [Gestion des états financiers entre les divisions ou les entités juridiques](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## BI financière et états
-### [Vue d’ensemble de la BI et des états](bi.md)
-### [États financiers](finance-reports.md)
-### [Analyse des données avec les comptes statistiques](bi-use-statistical-accounts.md)
-### [Analyse des montants réalisés et budgétés](bi-how-analyze-actual-versus-budget.md)
-### [Préparation des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)
-### [Configuration et publication des services web d’indicateur de performance clé sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)
-### [Création d’états d’analyse](bi-how-create-analysis-views-reports.md)
-### [Analyse des états financiers dans Excel](finance-analyze-excel.md)
-### [Création d’états avec XBRL](bi-create-reports-with-xbrl.md)
-### [Gestion de l’intention d’accès à la base de données](admin-data-access-intent.md)
-### [Procédure pas-à-pas : création de prévisions de trésorerie à l’aide d’états financiers](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### États financiers (mise en place des états financiers et des indicateurs de performance clés)
+#### [Préparation de l’état financier](bi-how-work-account-schedule.md)
+#### [Procédure pas-à-pas : utilisation des états financiers pour créer de prévisions de trésorerie](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Configuration et publication d’un service web d’indicateur de performance clé sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Analyse des données avec les comptes statistiques](bi-use-statistical-accounts.md)
+#### [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)
+#### [Création d’états d’analyse](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Outils d’analyse financière intégrés
+#### [Analyse des données financières du plan comptable](finance-general-ledger.md)
+#### [Analyse des montants réalisés et budgétés](bi-how-analyze-actual-versus-budget.md)
+#### [Analyse de la trésorerie](finance-analyze-cash-flow.md)
+
+### États financiers intégrés
+#### [États financiers Excel intégrés](finance-analyze-excel.md)
+#### [États financiers clés intégrés](finance-reports.md)
+#### [États sur les immobilisations intégrés](fa-reports.md)
+#### [États des comptes clients intégrés](receivables-reports.md)
+#### [États des comptes fournisseurs intégrés](payables-reports.md)
 
 ## Ventes
 ### [Vue d’ensemble des ventes](sales-manage-sales.md)
@@ -549,18 +562,20 @@ ms.service: dynamics-365-business-central
 ## Gestion de projets
 ### [Vue d’ensemble de la gestion de projets](projects-manage-projects.md)
 ### [États de projet](project-reports.md)
-### [Création de tâches](projects-how-create-jobs.md)
+### [Création de projets](projects-how-create-jobs.md)
 ### [Utilisation des ressources pour des projets](projects-how-use-resources.md)
 ### [Utilisation de feuilles de temps](projects-how-use-time-sheets.md)
 ### [Gestion des budgets des projets](projects-how-manage-budgets.md)
-### [Enregistrement de l’activité pour les projets](projects-how-record-job-usage.md)
-### [Gestion des fournitures pour un projet](projects-how-manage-project-supplies.md)
+### [Enregistrement de l’activité pour un projet](projects-how-record-job-usage.md)
+### [Gestion des fournitures d’un projet](projects-how-manage-project-supplies.md)
 ### [Familiarisation avec les méthodes TEC](projects-understanding-wip.md)
 ### [Surveillance de la progression et des performances du projet](projects-how-monitor-progress-performance.md)
 ### [Facturation des projets](projects-how-invoice-jobs.md)
 
 ## Immobilisations
 ### [Vue d’ensemble des immobilisations](fa-manage.md)
+### [Configuration des immobilisations](fa-setup.md)
+### [Méthodes amortissement](fa-depreciation-methods.md)
 ### [États et analyses des immobilisations](fa-reports.md)
 ### [Acquisition des immobilisations](fa-how-acquire.md)
 ### [Mise à jour des immobilisations](fa-how-maintain.md)
@@ -723,12 +738,12 @@ ms.service: dynamics-365-business-central
 ## Magasin en ligne avec Shopify
 ### [Mise en route avec le connecteur Shopify](shopify/get-started.md)
 #### [Création et configuration d’un compte Shopify](shopify/shopify-account.md)
-### [Synchronisation des articles avec Shopify](shopify/synchronize-items.md)
-### [Synchronisation des clients avec Shopify](shopify/synchronize-customers.md)
+### [Synchronisation des articles et du stock avec Shopify](shopify/synchronize-items.md)
+### [Synchronisation des clients et des entreprises avec Shopify](shopify/synchronize-customers.md)
 ### [Synchronisation et exécution des commandes vente avec Shopify](shopify/synchronize-orders.md)
 ### [Synchronisation des transactions et des règlements](shopify/transactions-and-payouts.md)
 ### [Configuration des taxes pour la connexion Shopify](shopify/setup-taxes.md)
-### [Exécution des tâches en arrière-plan](shopify/background.md)
+### [Automatisation de la synchronisation Shopify à l’aide de la file d’attente des tâches](shopify/background.md)
 ### [Résolution des problèmes du connecteur Shopify](shopify/troubleshoot.md)
 ### [FAQ sur le connecteur Shopify](shopify/shopify-faq.md)
 ### [Procédure pas à pas : configuration et utilisation du connecteur Shopify](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -853,33 +868,66 @@ ms.service: dynamics-365-business-central
 #### [Pack de localisation de base pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Pack de localisation avancée pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Finances de base  
-##### [Finances](LocalFunctionality/Czech/finance.md)
+##### [Publication de correction (Red Storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Informations statutaires sur la société](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Documents financiers internes](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Documents de sortie comptable](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Fonctionnalité de calendrier comptable](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Déclarations statutaires](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Opérations de clôture d’exercice](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Lettrage des écritures comptables](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Mise à jour des taux de change](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Comptabilité multicircuit](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### TVA
-##### [Finances – TVA](LocalFunctionality/Czech/finance-vat.md)
+##### [Date TVA](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [Déclaration de TVA](LocalFunctionality/Czech/vat-statement.md)
+##### [Déclaration de TVA complémentaire](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [Exportation VIES – CZ](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Payeur peu fiable](LocalFunctionality/Czech/unreliable-payer.md)
+##### [Taux de change de TVA](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Configuration et publication d’une autoliquidation](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
 ##### [État du contrôle de la TVA](LocalFunctionality/Czech/vat-control-report.md)
+##### [États TVA](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [Correction TVA en devise locale](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Déclaration d’échanges de biens](LocalFunctionality/Czech/intrastat.md)
+##### [Déclaration d’échanges de biens pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Immobilisations
-##### [Immobilisations](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Localisation des immobilisations pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banque et paiements
-##### [Fonctionnalité de banque](LocalFunctionality/Czech/bank-feature.md)
 ##### [Localisation des documents bancaires pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Gestion des guichets](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Localisation de guichet pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Enregistrement des ventes (EET)](LocalFunctionality/Czech/eet.md)
-##### [Avances](LocalFunctionality/Czech/advances.md)
 ##### [Localisation des paiements anticipés pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Fournisseurs et clients
-##### [Fournisseurs et clients](LocalFunctionality/Czech/receivables-payables.md)
-##### [Déclaration d’échanges de biens](LocalFunctionality/Czech/intrastat.md)
-##### [Localisation des compensations pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Fonctionnalité d’ajustement de taux de change](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Plusieurs comptes clients et fournisseurs](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Rapprochements client et fournisseur](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Documents de correction des ventes](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Mise à jour des contacts depuis ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Nouvelle conception des documents de sortie](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Rémunérations](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Stock
-##### [Stock](LocalFunctionality/Czech/inventory.md)
+##### [Arrondi de la comptabilité en stock](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Améliorations du rapprochement comptable des stocks](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Fonctionnalité avancée de l’inventaire](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Documents d’inventaire](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Document sur les opérations d’inventaire](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Groupes comptabilisation dans les ordres transferts](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Général
 ##### [Contrôle utilisateur étendu](LocalFunctionality/Czech/general.md)
-##### [Meilleures pratiques](LocalFunctionality/Czech/best-practices.md)
+##### [Contrôle des modifications du groupe comptabilisation](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Contrôle de la séquence temporelle de l’inventaire de sortie](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Modèles de mouvements de stock](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Modèles de points de stock](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Avantages coûts/bénéfices exacts obligatoires dans le secteur de la fabrication](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Groupe comptabilisation marché par défaut dans le secteur de la fabrication](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Groupe comptabilisation marché par défaut dans les ordres d’assemblage](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Axes analytiques de création et de mise à jour automatiques](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Ajout de champs dans les écritures articles](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Groupe comptabilisation de production générale dans le point de stock](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Ignorer la mise à jour pour le point de stock au moment de la validation](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Numérotation de l’article non stocké](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Danemark
 #### [Fonctionnalité locale dans la version danoise](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1523,6 +1571,7 @@ ms.service: dynamics-365-business-central
 #### [Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Utilisation des périodes comptables et des exercices comptables](finance-accounting-periods-and-fiscal-years.md)
 #### [Configuration des conditions et niveaux de relance](finance-setup-reminders.md)
+#### [Automatisation des relances dans les collectes](finance-automate-reminders.md)
 #### [Configuration des conditions des frais financiers](finance-setup-finance-charges.md)
 #### [Configuration de la TVA (taxe sur la valeur ajoutée)](finance-setup-vat.md)
 #### [Configuration des méthodes de calcul et de validation de la TVA](finance-setup-vat.md)
@@ -1584,15 +1633,14 @@ ms.service: dynamics-365-business-central
 #### [Classement des articles](inventory-how-categorize-items.md)
 #### [Importation de plusieurs images d’article](inventory-how-import-item-pictures.md)
 ### Configuration de la gestion des projets
-#### [Configuration des projets](projects-setup-projects.md)
+#### [Configuration de la gestion des projets](projects-setup-projects.md)
 #### [Configuration des ressources](projects-how-setup-resources.md)
 #### [Configuration des feuilles de temps](projects-how-setup-time-sheets.md)
-#### [Configuration de projets](projects-how-setup-jobs.md)
+#### [Configuration des projets](projects-how-setup-jobs.md)
 ### Configuration des immobilisations
 #### [Configuration des immobilisations](fa-setup.md)
 #### [Configuration des informations générales sur les immobilisations](fa-how-setup-general.md)
 #### [Configuration de l’amortissement des immobilisations](fa-how-setup-depreciation.md)
-#### [Définition des méthodes d’amortissement.](fa-depreciation-methods.md)
 #### [Configuration des méthodes d’amortissement définies par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md)
 #### [Configuration des assurances sur les immobilisations](fa-how-setup-insurance.md)
 #### [Configuration de la maintenance des immobilisations](fa-how-setup-maintenance.md)
@@ -1727,15 +1775,18 @@ ms.service: dynamics-365-business-central
 ### [Configuration des cartes en ligne](across-online-maps-setup.md)
 ### [Obtention de Business Central sur votre appareil mobile](install-mobile-app.md)
 ### [Obtention de Business Central sur votre bureau](install-desktop-app.md)
-<!--Reporting landing page-->
-# BI et création d’états 
 
-## [Vue d’ensemble](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analyses, business intelligence et reporting 
+
+## [Présentation des analyses](reports-bi-reporting.md)
+## [Utilisation d’indicateurs de performance clés pour répondre aux objectifs de votre entreprise](./analytics-about-kpis.md)
+## [Utilisation de l’état financier](bi-how-work-account-schedule.md)
 
 ## Utilisation des états dans le travail quotidien
 ### [Vue d’ensemble](reports-use-reports.md)
 ### [Exécution des états](ui-work-report.md)
-### [Ajouter un signet à un état](ui-bookmarks.md)
+### [Ajout d’un signet à un état](ui-bookmarks.md)
 ### [Analyse des données d’état avec Excel](report-analyze-excel.md)
 ### [Impression des états](ui-specify-printer-selection-reports.md#default)
 ### [Planification des états](ui-work-report.md#ScheduleReport)
@@ -1775,7 +1826,7 @@ ms.service: dynamics-365-business-central
 
 ### Projet
 #### [États de projet](project-reports.md)
-#### [Affichage des estimations d’activités de projets](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Affichage des estimations d’activités de projets](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Surveillance de la progression et des performances du projet](projects-how-monitor-progress-performance.md)
 
 ### Immobilisations
@@ -1933,6 +1984,7 @@ ms.service: dynamics-365-business-central
 #### [Extensions Business Central par d’autres fournisseurs](ui-extensions-other.md)
 ## Intégration à d’autres applications Dynamics 365
 ### [Intégration à Dynamics 365 Sales via la synchronisation des données](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Intégration à Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
 ## Intégration à Microsoft Dataverse
 ### [Intégration à Dataverse via la synchronisation des données](admin-common-data-service.md)
 ### [Modèles de propriété de données pour la synchronisation](admin-cds-company-concept.md)
@@ -2025,18 +2077,36 @@ ms.service: dynamics-365-business-central
 ## [Performances](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Fonctionnalités supprimées ou déconseillées](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Fonctionnalités de Copilot et d’IA
+## [À propos de Copilot dans Business Central](copilot-overview.md)
 ## Gestion des fonctionnalités de Copilot et d’IA
 ### [Configuration des fonctionnalités de Copilot et d’IA](enable-ai.md)
 ### [Déplacement des données Copilot entre des zones géographiques](ai-copilot-data-movement.md)
 ### [Résoudre les problèmes des fonctionnalités de Copilot et d’IA](ai-copilot-troubleshooting.md)
+## Assistance pour les analyses (version préliminaire)
+### [Analyse des données dans les listes avec Copilot](analysis-assist.md)
+### [FAQ sur l’assistance pour les analyses](faqs-analysis-assist.md)
 ## Aide pour le rapprochement de compte bancaire (version préliminaire)
 ### [Rapprochement de compte bancaire avec Copilot](bank-reconciliation-with-copilot.md)
 ### [FAQ pour l’aide au rapprochement bancaire](faqs-bank-reconciliation.md)
+## Conversation instantanée avec Copilot (version préliminaire)
+### [Conversation instantanée avec Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ sur la conversation instantanée avec Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [FAQ sur l’IA responsable pour la discussion instantanée avec Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Suggestions de texte marketing
 ### [Vue d’ensemble des suggestions de texte marketing](ai-overview.md)
 ### [Création de texte marketing avec Copilot](item-marketing-text.md)
 ### [FAQ pour les suggestions de texte marketing](faqs-marketing-text.md)
+## Suggestion de ligne vente (version préliminaire)
+### [Proposition de lignes sur les commandes vente avec Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [FAQ sur les suggestions de ligne vente de Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Mappage de document électronique (version préliminaire)
+### [Mappage de documents électroniques avec les lignes commandes achat avec Copilot](map-edocuments-with-copilot.md)
+### [FAQ sur le mappage de documents électroniques avec des commandes à l’aide de Copilot](faqs-map-edocuments.md)
 # IA responsable
 ## [Vue d’ensemble](responsible-ai-overview.md)
+## [FAQ sur l’assistance pour les analyses (version préliminaire)](faqs-analysis-assist.md)
 ## [FAQ pour l’aide au rapprochement bancaire (version préliminaire)](faqs-bank-reconciliation.md)
+## [FAQ sur la conversation instantanée avec Copilot (version préliminaire)](faqs-chat-with-copilot.md)
 ## [FAQ pour les suggestions de texte marketing](faqs-marketing-text.md)
+## [FAQ sur les suggestions de ligne vente de Copilot (version préliminaire)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [FAQ sur le mappage de documents électroniques avec des commandes à l’aide de Copilot (version préliminaire)](faqs-map-edocuments.md)
