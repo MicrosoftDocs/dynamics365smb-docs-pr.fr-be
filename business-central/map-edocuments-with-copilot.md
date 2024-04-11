@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# Mappage de documents électroniques avec les lignes commandes achat avec Copilot (version préliminaire)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Mappage de documents électroniques avec les lignes commandes achat avec Copilot (version préliminaire)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Vous pouvez désormais mettre à jour un bon de commande existant dans Business 
 > - AI-generated content may be incorrect.-->
 
 
-## Identifier commandes achat
+## <a name="identify-purchase-orders"></a>Identifier commandes achat
 
 Tout d’abord, vous pouvez identifier les bons de commande que vous pouvez automatiquement rapprocher.
 
-## Mapper les lignes
+## <a name="map-lines"></a>Mapper les lignes
 
 Copilot vous aide à faire correspondre automatiquement les lignes de facture électronique avec les lignes de bon de commande et offre des informations de correspondance supplémentaires pour améliorer les correspondances.
 
 Une fois qu’ils ont été rapprochés et mappés, Business Central met à jour le bon de commande rapproché avec les informations de réception pertinentes pour garantir que les bonnes quantités sont reçues sur les lignes de commande.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Vue d’ensemble des documents électroniques](finance-edocuments-overview.md)  
 [Utilisation des documents électroniques dans les ventes et les achats](finance-how-use-edocuments.md)  
