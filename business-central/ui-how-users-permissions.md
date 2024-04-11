@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 03/24/2023
+ms.date: 02/21/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Créer des utilisateurs en fonction des licences
+# Création des utilisateurs en fonction des licences
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -94,8 +95,11 @@ Si cette configuration par défaut n’est pas la bonne pour un environnement pa
 
 Après avoir ajouté des utilisateurs ou modifié les informations utilisateur dans le centre d’administration Microsoft 365, vous pouvez importer rapidement les informations utilisateur dans [!INCLUDE[prod_short](includes/prod_short.md)]. L’importation inclut les attributions de licence.  
 
+> [!TIP]
+> Si vous devez mettre à jour les informations utilisateur et que vous avez de nombreux utilisateurs, vous pouvez utiliser le volet de filtrage pour affiner la liste. Vous pouvez filtrer sur des informations de base telles que le nom d’utilisateur ou définir des filtres plus techniques, tels que l’ID de sécurité de l’utilisateur.
+
 1. Connectez-vous à [!INCLUDE[prod_short](includes/prod_short.md)] en tant qu’administrateur.
-2. Sélectionnez ![l’icône en forme d’ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Utilisateurs**, puis choisissez le lien associé.  
+2. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Utilisateurs**, puis choisissez le lien associé.  
 3. Choisissez **Mettre à jour les utilisateurs depuis Microsoft 365**.
 
 > [!IMPORTANT]  

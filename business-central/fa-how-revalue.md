@@ -1,27 +1,28 @@
 ---
 title: Réévaluer les immobilisations
-description: 'Apprenez comment modifier la valeur des immobilisations, enregistrer de nouveaux montants comme dépréciation ou réévaluation, et valider les coûts d’acquisition supplémentaires.'
+description: 'Apprenez comment modifier la valeur des immobilisations, enregistrer de nouveaux montants comme dépréciation ou réévaluation, et valider les autres coûts d’acquisition.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5628, 5629, 5633'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.form: '5628, 5629, 5633'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Réévaluer les immobilisations
+# Réévaluation des immobilisations
 
 La réévaluation des immobilisations peut consister en réévaluations, dépréciations ou corrections de valeurs générales.
 
-Lorsque la valeur d’une immobilisation a augmenté, vous validez une ligne feuille avec un montant supérieur, une réévaluation, dans la loi d’amortissement. Le nouveau montant est enregistré comme réévaluation selon la configuration de la validation immobilisation.
+Lorsque la valeur d’une immobilisation augmente, vous validez une ligne feuille avec une réévaluation, dans la loi d’amortissement. Le nouveau montant est enregistré comme réévaluation selon la configuration de la validation immobilisation.
 
-Lorsque la valeur d’une immobilisation a diminué, vous validez une ligne feuille avec un montant inférieur, une dépréciation, dans la loi d’amortissement. Le nouveau montant est enregistré comme dépréciation selon la configuration de la validation immobilisation.
+Lorsque la valeur d’une immobilisation diminué, vous validez une ligne feuille avec un montant inférieur, une dépréciation, dans la loi d’amortissement. Le nouveau montant est enregistré comme dépréciation selon la configuration de la validation immobilisation.
 
 L’actualisation permet d’ajuster plusieurs valeurs immobilisation, par exemple, en fonction de modifications générales de niveau de prix. Le traitement par lots **Réévaluer immobilisations** permet de modifier divers montants, tels que les montants de dépréciation et de réévaluation.
 
 ## Pour valider une réévaluation à partir d’une feuille comptabilisation immobilisation
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation immobilisation**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles comptabilisation immobilisation**, puis choisissez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.
 3. Dans le champ **Type compta. immo**, sélectionnez **Réévaluation**.
 4. Sélectionnez l’action **Insérer contrepartie immo.**. Une seconde ligne feuille est créée pour le compte contrepartie qui est configuré pour la validation de la réévaluation.
@@ -55,23 +56,23 @@ L’actualisation permet d’ajuster plusieurs valeurs immobilisation, par exemp
 6. Vérifiez les écritures créées, puis sélectionnez l’action **Valider** pour valider la feuille.
 
     > [!TIP]  
-    >   Si les taux de réévaluation sont définis uniquement pour une simulation, vous pouvez créer une loi d’amortissement spécifique pour les stocker. Ainsi, ces écritures n’affectent aucune autre loi d’amortissement.
+    >   Si les taux de réévaluation sont définis uniquement pour une simulation, vous pouvez créer une loi d’amortissement spécifique pour les stocker. Ainsi, ces écritures n'affectent aucune autre loi d'amortissement.
 
-## Pour valider les coûts d’acquisition supplémentaires
+## Pour valider les autres coûts d’acquisition
 
-Vous pouvez valider le coût d’acquisition supplémentaire d’une immobilisation de la même manière que son coût d’acquisition d’origine : à partir d’une facture achat ou d’une feuille immobilisation. Pour en savoir plus, voir [Acquérir des immobilisations](fa-how-acquire.md).  
+Vous pouvez valider l'autre coût d’acquisition d’une immobilisation à partir d’une facture achat ou d’une feuille immobilisation de la même manière que son coût d’acquisition d’origine. Pour en savoir plus, consultez [Acquérir des immobilisations](fa-how-acquire.md).  
 
-Si l’amortissement de l’immobilisation a été calculé, cochez la case **Amortir coût acquisition** pour que le résultat du coût d’acquisition supplémentaire moins la valeur résiduelle soit amorti proportionnellement au montant de l’amortissement de l’immobilisation précédemment acquise. Cette option garantit l’invariabilité de la période d’amortissement.  
+Si l’amortissement de l’immobilisation est calculé, cochez la case **Amortir coût acquisition** pour que le résultat du autre coût d’acquisition moins la valeur résiduelle soit amorti proportionnellement au montant de l’amortissement de l’immobilisation précédemment acquise. Cette méthode garantit l’invariabilité de la période d’amortissement.  
 
-Le pourcentage d’amortissement est calculé comme suit :  
+Le pourcentage d'amortissement est calculé comme suit :  
 
 *P = (amortissement total x 100)/base amortissement*
 
 *Montant de l’amortissement = (P/100) x (coût d’acquisition supplémentaire - valeur résiduelle)*  
 
-Pensez à cocher la case **Amort. jusqu’à date compta.** sur les lignes de la facture, de la feuille comptabilisation immobilisation ou de la feuille immobilisation pour que le programme calcule l’amortissement à partir de la date validation de l’immobilisation jusqu’à la date validation du coût d’acquisition supplémentaire.
+Pensez à cocher la case **Amort. jusqu’à date compta.** sur les lignes de la facture, de la feuille comptabilisation immobilisation ou de la feuille immobilisation pour que le programme calcule l’amortissement à partir de la date validation de l’immobilisation jusqu’à la date validation du autre coût d’acquisition.
 
-### Exemple - Valider des coûts d’acquisition supplémentaires
+### Exemple - Valider des autre coûts d’acquisition
 
 Vous achetez une machine le 1er août 2000. Son coût d’acquisition est de 4 800. La méthode d’amortissement est linéaire sur quatre années.
 
@@ -89,15 +90,15 @@ Si vous avez coché la case **Amort. jusqu’à date compta.** sur la facture av
 
 Si vous avez coché la case **Amortir coût acquisition** sur la facture avant que cette dernière soit validée, le calcul suivant est effectué :  
 
-*Le coût d’acquisition supplémentaire est amorti de ((150 x 100) / 4 800) / 100 x 480 = 15*
+*Le autre coût d’acquisition est amorti de ((150 x 100) / 4 800) / 100 x 480 = 15*
 
-La base d’amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l’amortissement cumulé équivaut à *165 = (100 + 50 + 15)*, soit 45 jours d’amortissement du coût d’acquisition total. Cela signifie que l'immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
+La base d’amortissement est maintenant égale à *5 280 = (4 800 + 480)* et l’amortissement cumulé équivaut à *165 = (100 + 50 + 15)*, soit 45 jours d’amortissement du coût d’acquisition total. Ce calcul signifie que l'immobilisation sera totalement amortie au cours de sa durée de vie estimée à quatre ans.  
 
 Lorsque le traitement par lots **Calculer amortissement** est exécuté le 30/09/00, le calcul suivant est utilisé :  
 
 *Durée d’amortissement restante : 3 ans, 10 mois et 15 jours = 1 395 jours*  
 
-*Valeur comptable : (5 280 - 165) = 5 115*  
+*Valeur comptable : (5 280 - 165) = 5 115*  
 
 *Montant de l’amortissement pour septembre 2 000 : 5 115 x 15 / 1 395 = 55,00*  
 
@@ -107,7 +108,7 @@ Si vous n’avez pas coché la case **Amort. jusqu’à date compta.**, l’acti
 
 *Durée de vie restante : 3 ans, 10 mois et 15 jours = 1 395 jours*  
 
-*Valeur comptable : (4 800 + 480 - 100 - 15) = 5 165*
+*Valeur comptable : (4 800 + 480 - 100 - 15) = 5 165*
 
 *Montant de l’amortissement pour septembre 2 000 : 5 165 x 15 / 1 395 = 55,54*  
 

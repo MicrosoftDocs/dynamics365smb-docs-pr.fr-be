@@ -89,7 +89,6 @@ Cette fonctionnalité collecte également des données à partir des commentaire
 
   Des réponses inexactes pourraient être renvoyées si les utilisateurs interagissent avec le système dans les langues prises en charge. En outre, un texte inexact pourrait être généré lorsque la langue de l’utilisateur et la langue principale des données dans la base de données [!INCLUDE[prod_short](includes/prod_short.md)] ne sont pas identiques.
 
-
 ## Quels facteurs et paramètres opérationnels permettent une utilisation efficace et responsable du système ?
 
 Il y a plusieurs choses que vous pouvez faire pour tirer le meilleur parti de la fonctionnalité :

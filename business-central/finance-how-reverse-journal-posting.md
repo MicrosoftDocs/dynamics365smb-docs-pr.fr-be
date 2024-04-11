@@ -28,7 +28,7 @@ Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables
 > [!NOTE]
 > L’écriture doit être émise depuis une validation feuille.
 >
-> En outre, vous ne pouvez pas contrepasser des écritures qui ont été validées avec des informations provenant d’un travail ou qui présentent des gains et pertes réalisés au sein de la même transaction.
+> En outre, vous ne pouvez pas contrepasser des écritures qui ont été validées avec des informations provenant d’un projet ou qui présentent des gains et pertes réalisés au sein de la même transaction.
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures comptables**, puis sélectionnez le lien associé.
 2. Sélectionnez l’écriture à contrepasser, puis cliquez sur l’action **Contrepasser la transaction**.

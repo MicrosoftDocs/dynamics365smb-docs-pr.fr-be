@@ -1,12 +1,12 @@
 ---
-title: Acheter des articles pour une vente
+title: Achat des articles pour une vente
 description: 'Depuis une facture vente, pour acheter des biens, vous pouvez créer une facture achat pour un fournisseur.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -60,9 +60,9 @@ Pour créer une facture achat unique pour une ou plusieurs lignes d’un documen
 
 ## Voir aussi
 [Achats](purchasing-manage-purchasing.md)  
-[Enregistrer des achats](purchasing-how-record-purchases.md)  
-[Facturer des ventes](sales-how-invoice-sales.md)  
-[Enregistrer un nouveau fournisseur](purchasing-how-register-new-vendors.md)  
+[Enregistrement des achats](purchasing-how-record-purchases.md)  
+[Facturation des ventes](sales-how-invoice-sales.md)  
+[Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -2,20 +2,20 @@
 title: Enregistrer de nouveaux clients en créant une fiche client (contient une vidéo)
 description: Décrit comment créer une fiche client pour enregistrer des informations sur chaque nouveau client ou client auquel vous vendez.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Enregistrement de nouveaux clients
 
 Les clients sont l’origine de vos revenus. Chaque client auquel vous vendez un élément doit être enregistré en tant que fiche client. Les fiches client contiennent les informations nécessaires à la vente de biens au client. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) et [Enregistrer de nouveaux articles](inventory-how-register-new-items.md).  
 
 Avant de pouvoir enregistrer de nouveaux clients, vous devez configurer divers codes vente que vous pouvez sélectionner lorsque vous renseignez les fiches client. En savoir plus sur [Configurer les ventes](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Vous pouvez choisir de ne pas recevoir les alertes quand le crédit autorisé du
     |**Crédit autorisé**|Le programme compare la valeur du champ **Crédit autorisé** de la fiche client et le solde du client, et affiche une alerte si le solde du client dépasse ce montant.|
     |**Solde échu**|Le champ **Solde dû** de la fiche client est contrôlé et une alerte s’affiche si le client a un solde échu.|
     |**Aucune alerte**|Aucune alerte n’est affichée sur le statut du client.|
+
+## Désigner un vendeur
+
+Vous pouvez affecter des vendeurs à l’adresse de livraison du client plutôt qu’à leur adresse de facturation afin que vos rapports de ventes reflètent la véritable répartition géographique de vos ventes. L’affectation d’un vendeur à l’adresse de livraison d’un client vous donne des informations plus précises et optimise l’allocation des ressources.
+
+Désignez un vendeur sur le **Client** page de la carte en choisissant **Client**, et puis **Adresses de livraison** pour ouvrir le **Liste des adresses de livraison** page. Choisir **Gérer**, et puis **Modifier** pour ouvrir le **Envoyer à l’adresse** page de carte. Entrez ou choisissez un **Code du vendeur** pour sélectionner le vendeur.
+
+Lorsque vous choisissez le **Autre adresse de livraison** option comme **Envoyez à** emplacement sur un document de vente, le **Code du vendeur** mises à jour pour correspondre au vendeur du **Envoyez à** plûtot que le **Facturer à** adresse. 
 
 ## Voir aussi
 

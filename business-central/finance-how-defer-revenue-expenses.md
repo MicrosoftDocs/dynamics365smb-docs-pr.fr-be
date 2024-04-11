@@ -1,25 +1,28 @@
 ---
-title: Echelonner les recettes et les dépenses
-description: 'Pour identifier des recettes ou des dépenses dans des période autres que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour les échelonner ou les reporter automatiquement selon un calendrier précis.'
+title: Échelonnement des recettes et des dépenses
+description: 'Découvrez comment utiliser la fonctionnalité pour les échelonner ou des recettes automatiquement ou des dépenses dans des période autres que la période de validation de la transaction, ou selon un calendrier précis.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Echelonner les recettes et les dépenses
+# Échelonnement des recettes et des dépenses
 
-Pour identifier une recette ou une dépense dans une période autre que la période de validation de la transaction, vous pouvez utiliser la fonctionnalité pour échelonner automatiquement les recettes et les dépenses selon un calendrier précis.
+Pour identifier une recette ou une dépense dans une période autre que la période de validation de la transaction, vous pouvez échelonner automatiquement les recettes et les dépenses selon un calendrier précis.
 
 Pour répartir les recettes et les dépenses sur les périodes comptables concernées, configurez un modèle d’échelonnement pour la ressource, l’article ou le compte général pour lequel/laquelle les recettes ou les dépenses seront validées. Lorsque vous validez le document vente ou achat concerné, les recettes ou les dépenses sont échelonnées sur les périodes comptables concernées, selon un tableau d’échelonnement régi par des paramètres dans le modèle d’échelonnement et la date de validation.
 
+> [!NOTE]
+> Les feuille vente et achat valident le code source. La validation nécessite que le code source des journaux de ventes et de ventes, ainsi que des journaux d’achat et d’achat respectivement, ne soit pas identique lorsque vous utilisez des reports. S’il est configuré pour être identique, vous pouvez contourner cette limitation en créant un modèle et un lot utilisant un autre code source.
+
 ## Pour configurer un compte général pour échelonnement
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.
 3. Renseignez les champs comme nécessaire afin de créer un compte général pour les recettes échelonnées. Pour plus d’informations, reportez-vous à [Les écritures comptables et le plan comptable](finance-general-ledger.md).
 4. Répétez les étapes 2 et 3 pour créer un nouveau compte général pour les dépenses échelonnées.

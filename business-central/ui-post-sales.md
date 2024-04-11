@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
+ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -50,7 +50,7 @@ Vous pouvez modifier certains champs dans les documents d’achat validés, tels
 
 [Ventes](sales-manage-sales.md)  
 [Validation de plusieurs documents en même temps](ui-batch-posting.md)  
-[Valider les documents validés](across-edit-posted-document.md)  
+[Modification des documents validés](across-edit-posted-document.md)  
 [Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
 [Corriger ou annuler des factures vente impayées](sales-how-correct-cancel-sales-invoice.md)  
 [Recherche de pages et d’informations avec Tell Me](ui-search.md)  

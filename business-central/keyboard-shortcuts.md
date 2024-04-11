@@ -22,7 +22,6 @@ Pour un aperçu des raccourcis clavier les plus courants, voir [Raccourcis clavi
 > [ ![Icône pour le fichier PDF.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Icône qui ouvre un PDF")
 
 
-
 ## Aperçu
 
 Les raccourcis clavier facilitent l’accessibilité et la navigation dans différentes zones et éléments d’une page. La plupart des navigateurs Web prennent en charge ces raccourcis ; toutefois, leur comportement peut varier légèrement.
@@ -194,12 +193,12 @@ Lorsque vous définissez un champ de date, vous pouvez saisir la date manuelleme
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Début</kbd>|Ouvrir le calendrier s’il est fermé. **Remarque** : cela ne fonctionne pas si le champ de date est dans une grille, où <kbd>Ctrl</kbd>+<kbd>Début</kbd> passe à la première ligne.|
 |<kbd>Ctrl</kbd>+<kbd>Début</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Début</kbd>)|Accéder au mois actuel, le jour actuel.|
-|<kbd>Ctrl</kbd>+<kbd>Flèche gauche</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flèche gauche</kbd>)|Accéder au jour précédent.|
-|<kbd>Ctrl</kbd>+<kbd>Flèche droite</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flèche droite</kbd>)|Accéder au jour suivant.|
-|<kbd>Ctrl</kbd>+<kbd>Flèche vers le haut</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flèche vers le haut</kbd>)|Accéder à la semaine précédente, le même jour de la semaine.|
-|<kbd>Ctrl</kbd>+<kbd>Flèche bas</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Flèche bas</kbd>)|Accéder à la semaine suivante, le même jour de la semaine.|
+|<kbd>Flèche vers la gauche</kbd><br /><br />(<kbd>Flèche vers la gauche</kbd>)|Accéder au jour précédent.|
+|<kbd>Flèche vers la droite</kbd><br /><br />(<kbd>Flèche vers la droite</kbd>)|Accéder au jour suivant.|
+|<kbd>Flèche vers le haut</kbd><br /><br />(<kbd>Flèche vers le haut</kbd>)|Accéder à la semaine précédente, le même jour de la semaine.|
+|<kbd>Flèche bas</kbd><br /><br />(<kbd>Flèche bas</kbd>)|Accéder à la semaine suivante, le même jour de la semaine.|
 |<kbd>Saisissez</kbd>|Sélectionner la date active.|
-|<kbd>Ctrl</kbd>+<kbd>Fin</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fin</kbd>)|Fermer le calendrier et supprimer la date actuelle.|
+|<kbd>Fin</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Fin</kbd>)|Fermer le calendrier et supprimer la date actuelle.|
 |<kbd>Echap</kbd>|Fermer le calendrier sans sélection, conserver la date actuelle.|
 |<kbd>Page suivante</kbd>|Accéder au mois suivant.|
 |<kbd>Page précédente</kbd>|Accéder au mois précédent.|  

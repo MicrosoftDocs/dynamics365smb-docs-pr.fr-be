@@ -133,7 +133,7 @@ Si l’utilisateur n’avait pas effectué le lettrage fixe entre l’avoir acha
 
 Le tableau suivant montre le résultat dans les écritures valeur de l’article si l’étape 2 dans le scénario précédent est effectuée sans lettrage fixe.  
 
-|Date comptabilisation|Type écriture comptable article|Quantité valorisée|Coût total (réel)|Écr. article à lettrer|Valorisé par coût moyen|N° écriture comptable article|N° écriture|  
+|Date comptabilisation|Type écriture comptable article|Quantité valorisée|Montant (réel)||Valorisé par coût moyen|N° écriture comptable article|N° d’écriture|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01/01/20|Achats|1|200.00||Non|1|1|  
 |01/01/20|Achats|1|1000.00||Non|2|2|  

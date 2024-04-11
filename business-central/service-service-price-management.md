@@ -34,12 +34,12 @@ Lorsque vous exécutez la fonction d’ajustement prix service, toutes les remis
 ## Groupes prix service  
 Vous pouvez configurer des groupes tarifs service pour créer des groupes articles de service qui reçoivent le même tarif service spécial. Une fois que vous avez configuré des groupes tarifs service, vous pouvez ensuite les affecter à des articles de service sur des lignes article de service. Vous pouvez aussi affecter des groupes prix service aux groupes articles de service.  
   
-Avant d’affecter un groupe tarifs service à un article de service, vous devez déterminer la zone panne, la devise ou le groupe ajustement prix service auquel s’applique le groupe tarifs service. Vous devez déterminer le montant auquel le prix service doit être ajusté et indiquer si ce montant doit inclure la TVA et les remises. Vous devez également déterminer si cet ajustement concerne un montant fixe ou s’il doit être appliqué uniquement sous certaines conditions.  
+Avant d'affecter un groupe tarifs service à un article de service, vous devez déterminer la zone panne, la devise ou le groupe ajustement prix service auquel s'applique le groupe tarifs service. Vous devez déterminer le montant auquel le prix service doit être ajusté et indiquer si ce montant doit inclure la TVA et les remises. Vous devez également déterminer si cet ajustement concerne un montant fixe ou s’il doit être appliqué uniquement sous certaines conditions.  
   
-Lorsque vous affectez un groupe tarifs service à un article de service, tous les prix service spéciaux que vous avez configurés dans ce groupe s’appliquent pour cet article de service.  
+Lorsque vous affectez un groupe tarifs service à un article de service, tous les prix service spéciaux que vous avez configurés dans ce groupe s'appliquent pour cet article de service.  
   
 ## Tarification service  
-Paramétrez les types de tarification service (prix et type d’ajustement prix) pour une combinaison de groupes prix service et de groupes prix client. Pour chaque type de tarification service, sélectionnez un groupe ajustement prix service. Vous pouvez aussi spécifier le type ajustement prix service (fixe, maximum ou minimum) et le prix réel.  
+Paramétrez les types de tarification service (prix et type d'ajustement prix) pour une combinaison de groupes prix service et de groupes prix client. Pour chaque type de tarification service, sélectionnez un groupe ajustement prix service. Vous pouvez aussi spécifier le type ajustement prix service (fixe, maximum ou minimum) et le prix réel.  
   
 Par exemple, vous pouvez paramétrer les types de tarifications service d’un groupe tarifs service radio. Dans le cas de clients qui ne sont associés à aucun groupe prix, vous pouvez décider d’appliquer une tarification service impliquant le prix maximum sur la main-d’œuvre, qui est le groupe ajustement prix main-d’œuvre. Dans le cas de clients associés à un groupe prix précis, vous pouvez décider d’appliquer une tarification service avec un prix fixe sur la main-d’œuvre, e même groupe ajustement prix main-d’œuvre.  
 

@@ -17,11 +17,10 @@ Les sociétés opérant dans un nombre croissant de pays/régions, il est de plu
 > [!NOTE]  
 > Dans [!INCLUDE[prod_short](includes/prod_short.md)], si vous recherchez des informations en temps réel sur les taux de devise étrangère (FX) ou les taux historiques, vous les trouverez sous la désignation de devise. En plus de cet article, consultez aussi [Mettre à jour les taux de change devise](finance-how-update-currencies.md).
 
-
 Votre comptabilité est configurée pour utiliser votre devise société (DS), mais vous pouvez la configurer pour utiliser une autre devise avec un taux de change courant. Si vous désignez une deuxième devise comme « devise report supplémentaire », [!INCLUDE[prod_short](includes/prod_short.md)] enregistre automatiquement les montants d’état en DS et dans cette devise report supplémentaire pour chaque écriture comptable, ainsi que pour d’autres écritures, telles que les écritures TVA.
 
 > [!Warning]
-> Il est déconseillé d’utiliser la fonctionnalité de devise report comme base pour une conversion d’état financier sauf si vous comprenez les limites. Cet outil ne permet pas d’effectuer une conversion d’états financiers de filiale étrangère dans le cadre d’une consolidation de société. La fonctionnalité de devise report peut uniquement être utilisée pour préparer des états dans une autre devise, comme s’il s’agissait de la devise société.
+> Il est déconseillé d’utiliser la fonctionnalité de devise report comme base pour une conversion d’état financier sauf si vous comprenez les limites. Cet outil ne peut pas traduire d’états financiers de filiale étrangère dans le cadre d’une consolidation de société. La fonctionnalité de devise report peut uniquement être utilisée pour préparer des états dans une autre devise, comme s’il s’agissait de la devise société.
 >
 > Par exemple, vous avez un grand nombre de comptes clients en livres sterling (GBP) et vous avez configuré votre devise de déclaration supplémentaire (DR) en GBP. Dans ce scénario, les montants des comptes clients qui utilisent la livre sterling ne seront pas ajustés pour les gains/pertes de change dans la DR, mais uniquement les montants des comptes clients qui sont dans d’autres devises. Cela signifie que si vous utilisez la DR pour déclarer vos états financiers, cela peut entraîner des soldes impayés sous-estimés ou surestimés des comptes débiteurs.
 
@@ -31,11 +30,11 @@ L'utilisation d'une devise report peut faciliter le processus de génération d'
 - Sociétés situées dans des pays/régions extérieur(e)s à l'UE qui effectuent un grand nombre de transactions avec des sociétés situées dans des pays/régions de l'UE. Dans ce cas, la société extérieure à l’UE peut vouloir générer des états financiers en euros afin qu’ils soient plus lisibles pour les partenaires commerciaux de l’UE.
 - Sociétés qui souhaitent pouvoir générer des états financiers dans une devise davantage utilisée au niveau international que leur devise société.
 
-Plusieurs états financiers sont basés sur les écritures comptables. Pour afficher les données d’états en devise report supplémentaire, activez simplement le champ **Afficher montants en devise report** sur le raccourci **Options** pour l’état comptable approprié.
+Plusieurs états financiers sont basés sur les écritures comptables. Pour afficher les données d’états en devise report supplémentaire, cochez la case **Afficher montants en devise report** sur le raccourci **Options** pour l’état comptable approprié.
 
 ## Ajustement des taux de change
 
-Comme les taux de change ne cessent de fluctuer, il convient d’ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne. Le traitement par lots **Ajuster taux de change** permet d’ajuster les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d’autres montants en devise report dans des écritures comptables. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).
+Comme les taux de change ne cessent de fluctuer, il convient d'ajuster périodiquement les équivalents devise supplémentaires de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne. Le traitement par lots **Ajuster taux de change** permet d’ajuster les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d'autres montants en devise report dans des écritures comptables. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).
 
 ## Configuration d’une devise report supplémentaire
 

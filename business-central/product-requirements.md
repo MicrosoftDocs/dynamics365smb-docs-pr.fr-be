@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Nous vous recommandons d’utiliser une version stable d’un navigateur Web, ca
 
 ## Outlook
 
-**Applications Outlook :** pour utiliser [!INCLUDE[prod_short](includes/prod_short.md)] Online comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d’Outlook 2019 ou d’une version ultérieure ou d’Outlook sur le web. Votre organisation doit également utiliser Microsoft 365. Vous ne pouvez pas utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site. 
+**Applications Outlook :** pour utiliser [!INCLUDE[prod_short](includes/prod_short.md)] Online comme votre boîte de réception professionnelle dans Outlook, vous devez disposer d’Outlook 2021 ou d’une version ultérieure ou d’Outlook sur le web. Votre organisation doit également utiliser Microsoft 365. Vous ne pouvez pas utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en ligne en tant que boîte de réception de votre entreprise dans Outlook si votre organisation utilise Exchange Server sur site. 
 
 **Navigateurs :** lorsque vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook dans un navigateur, le complément exige que votre ordinateur exécute l’un des navigateurs pris en charge répertoriés précédemment dans cette rubrique. 
 
@@ -51,7 +51,7 @@ Nous vous recommandons d’utiliser une version stable d’un navigateur Web, ca
 
 ## Excel
 
-**Modifier dans Excel** : pour utiliser le complément Excel pour apporter des modifications dans Excel et les appliquer dans [!INCLUDE[prod_short](includes/prod_short.md)], Excel 2019 ou une version ultérieure est requis. Pour plus d’informations, voir [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md).  
+**Modifier dans Excel** : pour utiliser le complément Excel pour apporter des modifications dans Excel et les appliquer dans [!INCLUDE[prod_short](includes/prod_short.md)], Excel 2021 ou une version ultérieure est requis. Pour plus d’informations, voir [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Utilisation du Centre d’administration Business Central
 

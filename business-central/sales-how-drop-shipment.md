@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Effectuer des livraisons directes
+# Réalisation de livraisons directes
 
 Lors d’une livraison directe, un ou plusieurs articles de l’un de vos fournisseurs sont livrés directement chez l’un de vos clients.
 

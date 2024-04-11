@@ -2,13 +2,14 @@
 title: 'Paramétrer les coûts, prix, et capacité des projets'
 description: 'Pour utiliser des ressources et faciliter la gestion de projets, vous spécifiez les coûts et les prix des différents ressources ou groupes de ressources, et définissez la capacité ressource.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '72, 76, 77, 203, 204'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Configurer des ressources pour les projets
 
@@ -42,9 +43,9 @@ Vous pouvez combiner plusieurs ressources dans un groupe ressources. Toutes les 
 
 ## Pour définir la capacité d’une ressource
 
-Pour calculer le temps qu’une ressource peut passer sur des projets, leur capacité doit d’abord être configurée comme temps disponible par période sur le calendrier de travail. Cette configuration est utilisée lorsque vous renseignez les lignes planning projet qui contiennent la ressource. Pour plus d’informations, voir [Créer des projets](projects-how-create-jobs.md).
+Pour calculer le temps qu’une ressource peut passer sur des projets, leur capacité doit d’abord être configurée comme temps disponible par période sur le calendrier de travail. Cette configuration est utilisée lorsque vous renseignez les lignes planning projet qui contiennent la ressource. Pour plus d’informations, reportez-vous à [Créer des projets](projects-how-create-jobs.md).
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ressources**, puis choisissez le lien associé.
 2. Ouvrez la fiche ressource appropriée, puis cliquez sur **Capacité ressource**.
 3. Sur la page **Capacité ressource**, dans le champ **Afficher par**, précisez la durée de la période (par exemple **Jour**) qui est indiquée dans le raccourci **Matrice Capacité ressource**.
 4. Pour chaque ressource sur une ligne, spécifiez pour chaque période sur les colonnes le nombre d’heures pendant lesquelles la ressource est disponible.
@@ -68,7 +69,7 @@ Outre le coût spécifié sur la fiche ressource, vous pouvez configurer des co�
 
 Outre le prix spécifié sur la fiche ressource, vous pouvez configurer des prix secondaires pour chaque ressource. Ces prix secondaires peuvent être conditionnels. Ils peuvent être liés à l’utilisation de la ressource avec un projet ou un type travail donné.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Ressources**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Ressources**, puis choisissez le lien associé.
 2. Sélectionnez la ressource pour laquelle vous souhaitez configurer un ou plusieurs prix secondaires, puis sélectionnez l’action **Prix**.
 3. Sur la page **Prix ressource**, renseignez les champs sur une ligne selon vos besoins.
 4. Répétez l’étape 3 pour chaque autre prix ressource à configurer.

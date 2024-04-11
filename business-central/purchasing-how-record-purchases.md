@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Lorsque vous réceptionnez des articles de stock ou lorsque le service acheté e
 Les étapes suivantes décrivent comment créer une facture achat. La procédure de création d’une commande achat sont similaires. La principale différence est que les commandes achat ont des champs et des actions supplémentaires pour la manutention des articles.
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.  
-2. Dans le champ **Fournisseur**, entrez le nom d’un fournisseur existant.
+2. Dans le champ **Nom fournisseur**, entrez le nom d’un fournisseur existant.
 
     D’autres champs de la page **Facture achat** sont désormais renseignés avec les informations standard sur le fournisseur sélectionné. Si le fournisseur n’est pas enregistré, procédez comme suit :
 
-    1. Dans le champ **Fournisseur**, entrez le nom du nouveau fournisseur.
+    1. Dans le champ **Nom fournisseur**, entrez le nom du nouveau fournisseur.
     2. Dans la boîte de dialogue d’enregistrement du nouveau fournisseur, cliquez sur le bouton **Oui**.
     3. Pour en savoir plus sur la façon de remplir la carte du fournisseur, consultez [Enregistrer de nouveaux fournisseurs](purchasing-how-register-new-vendors.md).  
     4. Une fois que vous avez terminé la fiche fournisseur, cliquez sur le bouton **OK** pour revenir à la page **Facture achat**.
@@ -69,7 +69,7 @@ L’achat est désormais visible dans le stock, les écritures ressource et les 
 
 Vous pouvez facilement corriger ou annuler une facture achat validée avant de payer le fournisseur. Cela est utile si vous souhaitez corriger une erreur de saisie, ou si vous souhaitez modifier l’achat assez tôt dans le processus de commande. En savoir plus, [Corriger ou annuler des factures achat impayées](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) Pour contrepasser l’achat pour des articles ou services figurant sur la facture achat validée pour lesquels le paiement est traité, vous devez créer un avoir achat. En savoir plus, [Traiter les retours ou annulations d’achats](purchasing-how-process-purchase-returns-cancellations.md)
 
-[Ouvrir la liste des **factures achat validées**](https://businesscentral.dynamics.com/?page=146) dans [!INCLUDE [prod_short](includes/prod_short.md)].
+[Ouvrir la liste des **factures achat validées** ](https://businesscentral.dynamics.com/?page=146) dans [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
 ## Acheter des articles hors stock

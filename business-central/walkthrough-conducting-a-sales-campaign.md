@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,11 +15,11 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
  Les fonctionnalités du module Ventes & marketing permet de planifier soigneusement vos activités de marketing et de gérer les interactions avec les contacts et clients. Vous pouvez créer des campagnes et configurer des segments de contacts pour le publipostage et d’autres types d’interactions avec vos contacts et prospects.  
 
- Les fonctionnalités Campagne et Segment et les processus automatisés associés vous permettent de planifier, d’organiser et de suivre vos activités de marketing. Ainsi, vos chances de gagner de nouveaux clients et de fidéliser les clients existants augmentent.  
+ Les fonctionnalités Campagne et Segment et les processus automatisés associés vous permettent de planifier, d'organiser et de suivre vos activités de marketing. Ainsi, vos chances de gagner de nouveaux clients et de fidéliser les clients existants augmentent.  
 
 ## À propos de cette procédure pas à pas
 
- Cette procédure pas à pas répertorie les étapes de suivi d’un salon commercial, ainsi que les étapes de ciblage des clients potentiels (contacts) dans une campagne de suivi.  
+ Cette procédure pas à pas répertorie les étapes de suivi d'un salon commercial, ainsi que les étapes de ciblage des clients potentiels (contacts) dans une campagne de suivi.  
 
  Elle présente la fonctionnalité de gestion des campagnes et segments pour le département Ventes & marketing. Cette procédure pas à pas présente les tâches suivantes :  
 
@@ -47,13 +47,13 @@ Une campagne désigne tout type d’activité impliquant plusieurs contacts. La 
 
  Les membres de l’équipe marketing du département Marketing gèrent la production, la distribution, et le placement des supports marketing.  
 
- La société vient de lancer un nouveau produit appelé Rome Guest Chair. Ce dernier a récemment été exposé au salon Office Futurus. De nombreux clients ont montré un grand intérêt pour le produit et, dans le cadre d’un effort promotionnel, les clients qui ont acheté Rome Guest Chair pendant la période de campagne se sont vus proposer un prix spécial campagne.  
+ La société a lancer un nouveau produit appelé Rome Guest Chair. Ce dernier a récemment été exposé au salon Office Futurus. De nombreux clients ont montré un grand intérêt pour le produit et, dans le cadre d’un effort promotionnel, les clients qui ont acheté Rome Guest Chair pendant la période de campagne se sont vus proposer un prix spécial campagne.  
 
  Après le salon commercial, l’une des tâches des membres de l’équipe marketing consiste à entrer toutes les informations de contact des clients potentiels.  
 
  Le directeur marketing configure une campagne, crée un segment contenant les nouveaux contacts, puis explore les données de contact pour sélectionner le public cible de la campagne.  
 
- Les membres de l’équipe marketing aident à l’envoi de lettres de remerciement à tous les contacts qui ont laissé leur carte de visite sur le stand. Le directeur marketing enregistre toutes les réponses reçues de la part des prospects.  
+ Les membres de l'équipe marketing aident à l'envoi de lettres de remerciement à tous les contacts qui ont laissé leur carte de visite sur le stand. Le directeur marketing enregistre toutes les réponses reçues de la part des prospects.  
 
 ## Configuration d’une campagne
 
@@ -95,7 +95,7 @@ La page **Segment** inclut désormais une liste de contacts basée sur le filtre
 
 ## Exploration de données
 
- Le directeur marketing observe attentivement la liste segmentée des contacts et réalise que la liste est bien trop longue. Il décide de la réduire en se basant sur de véritables prospects afin d’être certain de se concentrer sur le bon groupe cible. Ce processus de réduction et de redéfinition des données porte également le nom d’exploration de données.  
+ Le directeur marketing observe attentivement la liste segmentée des contacts et réalise que la liste est bien trop large. Il décide de la réduire en se basant sur de véritables prospects afin d’être certain de se concentrer sur le bon groupe cible. Ce processus de réduction et de redéfinition des données porte également le nom d’exploration de données.  
 
 ### Pour supprimer des contacts du segment  
 
@@ -115,7 +115,7 @@ La page **Segment** inclut désormais une liste de contacts basée sur le filtre
 1. Sur la page **Segment**, sélectionnez l’action **Segment**.
 2. Sélectionnez l’action **Annuler dernière action**.
 
-Les contacts que vous venez de supprimer sont rajoutés à la liste des contacts.
+Les contacts que vous avez supprimer sont rajoutés à la liste des contacts.
 
 ## Association d’un segment à une campagne
 
@@ -172,7 +172,7 @@ Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-sear
 
  Les lettres sont automatiquement envoyées par courrier électronique et le segment journalisé. Comme le segment a été journalisé, il ne figure plus dans la liste des segments, mais est enregistré dans la liste des segments journalisés. Pour voir cette liste, sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Segments journalisés**, puis sélectionnez le lien associé.  
 
-## Enregistrement des réponses de campagne
+## Enregistrer les réponses de la campagne
 
  Au cours des semaines suivantes, les prospects répondent à la lettre. Le directeur marketing souhaite assurer le suivi des réponses et enregistre ces interactions.  
 

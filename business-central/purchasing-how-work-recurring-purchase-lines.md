@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Créer des lignes achat récurrentes
+# Création des lignes achat récurrentes
 
 Si vous devez souvent créer des lignes achat comportant des informations similaires, vous pouvez configurer des lignes standard que vous pouvez ensuite insérer dans les documents achat, par exemple, pour les commandes de réapprovisionnement récurrentes.
 
@@ -47,7 +47,7 @@ Affectez une ou plusieurs lignes achat récurrentes à un fournisseur afin qu’
 
 Si des lignes achat récurrentes existent pour le fournisseur, vous pouvez les insérer ou demander à les ajouter sur tous les types de documents achat, par exemple une facture achat. Si vous avez activé les options **Toujours demander** tout en affectant des lignes achat récurrentes aux fournisseurs, vous serez informé si des lignes achat récurrentes existent.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Factures achat**, puis sélectionnez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures achat**, puis sélectionnez le lien associé.
 2. Ouvrez la facture achat que vous souhaitez pour insérer une ou plusieurs lignes achat standard.
 3. Choisissez l’action **Extraire les lignes achat récurrentes**.
 4. Sur la page **Lignes achat récurrentes**, cliquez sur le bouton de recherche du champ **Code**, puis sélectionnez un ensemble de lignes achat standard.

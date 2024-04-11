@@ -1,16 +1,16 @@
 ---
-title: Traitement des retours vente
+title: Traitement des ordres de retour vente
 description: 'Décrit comment créer un retour vente pour traiter un retour, une annulation, ou un remboursement pour les articles ou les services qui vous ont déjà été payés.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return, order'
 ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/08/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Traitement des retours vente  
+# Traitement des ordres de retour vente  
 
 Si vous souhaitez davantage de contrôle sur le processus de retour vente, par exemple les documents entrepôt pour la manutention des articles, ou une meilleure vue d’ensemble lors de la réception d’articles à partir de plusieurs documents vente avec un retour vente, vous pouvez créer des retours vente. Un retour vente émet automatiquement l’avoir vente associé et les autres documents relatifs au retour, comme une commande vente de remplacement, le cas échéant.
 
@@ -23,8 +23,8 @@ Outre la facture vente validée d’origine, vous pouvez lettrer l’avoir vente
 3. Renseignez les champs dans le raccourci **Général** selon les besoins.
 4. Dans le raccourci **Lignes**, renseignez les lignes manuellement, ou copiez des informations d’autres documents pour renseigner les lignes automatiquement :
 
-    - utiliser la fonction  **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d’un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
-    - Utilisez la fonction **Copier à partir du document** pour copier un document existant dans le retour. Cette fonction permet de copier l’ensemble du document. Il peut s’agir d’un document validé ou d’un document non encore validé. Cette fonction ne permet l’inversion de même coût que lorsque la case **Inversion de même coût obligatoire** est cochée sur la page **Paramètres ventes**.  
+    - utiliser la fonction **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d’un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
+    - Utilisez la fonction **Copier à partir du document** pour copier un document existant dans le retour. Cette fonction permet de copier l'ensemble du document. Il peut s’agir d’un document validé ou d’un document non encore validé. Cette fonction ne permet l’inversion de même coût que lorsque la case **Inversion de même coût obligatoire** est cochée sur la page **Paramètres ventes**.  
 
 5. Choisissez l’action **Traiter**, puis choisissez l’action **Afficher des lignes document validées à contrepasser**.
 6. Dans le haut de la page **Lignes document vente enreg.**, cochez la case **Afficher uniquement lignes réversibles** si vous voulez n’afficher que les lignes contenant des quantités qui n’ont pas encore été retournées, ou s’il s’agit de lignes achat, vendues ou consommées. Par exemple, si une quantité de facture vente validée a déjà été retournée, il se peut que vous ne vouliez pas retourner cette quantité sur un nouveau document retour vente.

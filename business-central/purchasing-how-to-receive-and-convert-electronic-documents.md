@@ -1,16 +1,16 @@
 ---
-title: Recevoir et convertir des documents électroniques
-description: Cette rubrique décrit comment recevoir des documents électroniques directement des partenaires commerciaux ou d’un service OCR.
+title: Réception et conversion de documents électroniques
+description: Cet article décrit comment recevoir des documents électroniques directement des partenaires commerciaux ou d’un service OCR.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Réception et conversion des documents électroniques
+# Réception et conversion de documents électroniques
 
 > [!NOTE]
 > Le contenu de cet article s’applique uniquement aux versions de Dynamics 365 Business Central sorties avant la 2e vague de lancement 2023. Dans la 2e vague de lancement 2023, une nouvelle fonctionnalité pour les documents électroniques est incluse. Pour en savoir plus, consultez [Configurer des documents électroniques](finance-how-setup-edocuments.md). 
@@ -59,7 +59,7 @@ La procédure suivante décrit comment recevoir une facture fournisseur et la co
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Documents entrants](across-income-documents.md)  
-[Configurer l’envoi et la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Configuration de l’envoi et de la réception de documents électroniques](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Échanger des données par voir électronique](across-data-exchange.md)   
 [Fonctionnalités marché](ui-across-business-areas.md)  
 

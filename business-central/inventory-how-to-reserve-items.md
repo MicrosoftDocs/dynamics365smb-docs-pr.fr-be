@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Vous pouvez réserver des articles pour les commandes vente, les commandes servi
 Chaque ligne que vous ouvrez pour réserver des articles sur la page **Réservation**, que vous ouvrez pour réserver des articles, donne des informations sur un type de ligne (vente, achat ou feuille) ou d’écriture de stock. Les lignes décrivent le nombre d'articles disponibles pour réservation à partir de chaque type de ligne ou d'écriture.
 
 > [!TIP]
-> En fonction des quantités que vous avez réservées dans l’inventaire, [!INCLUDE [prod_short](includes/prod_short.md)] affiche un statut sur les documents afin que vous soyez rapidement informé de l’étape suivante. Par exemple, pour indiquer que vous pouvez expédier une commande client ou commencer à travailler sur un ordre de travail, d’assemblage ou de fabrication. Ce statut aide également à réduire le risque d’expéditions partielles accidentelles ou de retards dus à un stock manquant pour les ordres de fabrication et d’assemblage.
+> En fonction des quantités que vous avez réservées dans l’inventaire, [!INCLUDE [prod_short](includes/prod_short.md)] affiche un statut sur les documents afin que vous soyez rapidement informé de l’étape suivante. Par exemple, pour indiquer que vous pouvez expédier une commande client ou commencer à travailler sur un ordre projet, d’assemblage ou de fabrication. Ce statut aide également à réduire le risque d’expéditions partielles accidentelles ou de retards dus à un stock manquant pour les ordres de fabrication et d’assemblage.
 >
 > Le champ **Réservé à partir du stock** peut vous aider à comprendre si vous pouvez expédier ou prélever une commande ou une ligne de commande spécifique. Pour les lignes, le champ Réservé à partir du stock est disponible dans les récapitulatifs. Pour accéder aux informations de toute la commande, le champ se trouve sur la page **Statistiques**.
 
@@ -79,13 +79,13 @@ Utilisez la page **Feuille réservation** pour réserver et affecter des marchan
 2. Choisissez l’action **Obtenir la demande**, puis spécifiez le type de demande que vous souhaitez réserver à partir de l’inventaire disponible.
 3. Renseignez les filtres selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Facultatif : pour affecter les articles immédiatement, choisissez l’action **Affecter**.
-5. Sur la page **Stratégie d’affectation**, choisissez une stratégie pour chaque étape
+5. Sur la page **Stratégie d’affectation**, choisissez une stratégie pour chaque étape.
 
    |Stratégie d’affectation  |Désignation  |
    |---------|---------|
    |Basique     | Affecte un stock à une demande s’il n’y a pas de conflits et que la demande peut être entièrement couverte. Par exemple, vous avez une commande client A avec une quantité de 10 et un projet avec une quantité de 7. Si vous en avez 20 en stock, les deux demandes reçoivent la quantité complète. Si votre stock est de 12, aucun stock n’est affecté. Vous devez affecter manuellement la quantité.        |
    |Répartir    | Distribue le stock disponible à la demande de manière équitable. Par exemple, vous avez une commande client avec une quantité de 10 et un projet avec une quantité de 7. Si votre niveau de stock est de 20, alors les deux demandes reçoivent la quantité complète. Si votre stock est de 12, alors les deux demandes obtiennent 6.        |
-   |Par priorité client|Répartition basée sur le champ Priorité de la fiche client. En cas de quantités insuffisantes, le système donnera la priorité à l’approvisionnement des clients avec la priorité la plus élevée.|
+   |Par priorité client|Répartition basée sur le champ **Priorité** de la page **fiche client**. En cas de faibles quantités de stocks, Business Central approvisionne en premier les clients prioritaires.|
 
 6. Pour réserver toutes les lignes où **Accepter** est activé, choisissez l’action **Créer une réservation**.
     

@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 03/24/2022
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Création des souches de numéros
 
-Pour chaque société que vous configurez, vous devez affecter des codes d’identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d’autres documents. La numérotation est importante, pas uniquement pour l’identification. Un système de numérotation bien conçu facilite la gestion et l’analyse de la société et permet de réduire les erreurs de saisie des données.
+Pour chaque société que vous configurez, vous devez affecter des codes d’identification uniques aux éléments tels que les comptes généraux, les comptes client et fournisseur, les factures et d’autres documents. La numérotation n'est importante que pour l’identification. Un système de numérotation bien conçu facilite la gestion et l’analyse de la société et permet de réduire les erreurs de saisie des données.
 
 > [!Important]
 > Par défaut, les écarts dans les souche de numéros ne sont pas autorisés car l’historique exact des transactions financières doit être disponible pour audit, conformément à la loi, et doit donc suivre une séquence ininterrompue sans numéros supprimés.
-> 
-> Si vous souhaitez autoriser des écarts dans certaines séries de nombres, commencez par consulter l’auditeur ou le responsable de la comptabilité pour vous assurer de respecter les exigences légales en vigueur dans votre pays/région. Pour plus d’informations, voir la section [Écarts dans les souches de numéros](#gaps-in-number-series).
+>
+> Si vous souhaitez autoriser des écarts dans certaines séries de nombres, consulter l’auditeur ou le responsable de la comptabilité pour vous assurer de respecter les exigences légales en vigueur dans votre pays/région. Pour plus d’informations, voir la section [Écarts dans les souches de numéros](#gaps-in-number-series).
 
 > [!NOTE]  
 > Il est recommandé d’utiliser les mêmes codes souche de numéros que ceux répertoriés sur la page **Liste de souches de numéros** de la société de démonstration CRONUS. Des codes tels que *P-INV+* ne vont pas vous paraître significatifs au premier abord, mais [!INCLUDE[prod_short](includes/prod_short.md)] dispose d’un certain nombre de paramètres par défaut en fonction de ces codes souche de numéros.
@@ -29,14 +29,15 @@ Vous créez un système de numérotation en définissant un ou plusieurs codes p
 
 Vous devez généralement définir votre souche de numéros pour insérer automatiquement le numéro suivant sur des fiches ou des documents que vous créez. Toutefois, vous pouvez également définir une souche de numéros pour permettre la saisie manuelle du nouveau numéro. Vous spécifiez cela grâce à la case à cocher **N° manuels**.
 
-Si vous voulez utiliser plusieurs codes souche de numéros pour un type de données de base (par exemple, si vous voulez utiliser différentes souches de numéros pour diverses catégories d’articles), vous pouvez utiliser des liens de souches de numéros.
+Si vous voulez utiliser plusieurs codes souche de numéros pour un type de données de base (par exemple, si vous voulez utiliser différentes souches de numéros pour diverses catégories d'articles), vous pouvez utiliser des liens de souches de numéros.
 
 ## Écarts dans les souches de numéros
+
 Tous les enregistrements que vous créez dans [!INCLUDE[prod_short](includes/prod_short.md)] ne sont pas des transactions financières qui doivent utiliser une numérotation séquentielle. Les fiches client, les devis, et les activités d’entrepôt sont des exemples d’enregistrements auxquels un numéro d’une souche de numéros est attribué, mais qui ne sont pas soumis à l’audit financier et/ou peuvent être supprimés. Pour ces souches de numéros, vous pouvez cocher la case **Autoriser les écarts dans les numéros** sur la page **Lignes souche de n°**. Ce paramètre peut être également modifié après la création de la souche de numéros. Pour plus d’informations, voir [Pour créer des souches de numéros](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## Comportement du champ N° sur des documents et des fiches
 
-Sur les documents de vente, d’achat et de transfert ainsi que sur toutes les fiches, le champ **N°** peut être renseigné automatiquement depuis une souche de numéros prédéfinie ou vous pouvez l’ajouter manuellement. Cependant, dans certaines circonstances, le champ **N°** est invisible pour vous empêcher de le modifier.  
+Sur les documents de vente, d’achat, de transfert et de service ainsi que sur toutes les fiches, le champ **N°** peut être renseigné automatiquement depuis une souche de numéros prédéfinie ou vous pouvez l’ajouter manuellement. Cependant, dans certaines circonstances, le champ **N°** est invisible pour vous empêcher de le modifier.  
 
 Le champ **N°** peut être renseigné de trois manières :
 
@@ -45,20 +46,22 @@ Le champ **N°** peut être renseigné de trois manières :
     Même si vous définissez des modèles avec différentes souches de numéros pour les clients, si la souche de numéros définie sur la page **Paramètres ventes** est configurée de cette manière, le champ **N°** sera invisible sur la fiche client, quel que soit le modèle que vous utilisez. Il en va de même pour les autres types de fiches et de documents.  
 
     > [!NOTE]  
-    > Si une souche de numéros ne fonctionne pas, par exemple parce qu’elle manque de numéros, le champ **N°** est visible et vous pouvez saisir manuellement un numéro ou résoudre les problèmes sur la page **Souches de n°**.
+    > Si la série de numéros ne fonctionne pas, par exemple parce qu’elle a atteint le dernier numéro défini pour sa plage, le champ **N°** s'affiche pour vous pouvez saisir un numéro manuellement. Vous pouvez résoudre les problèmes sur le **N° Série** page.
 
-2. Si plusieurs souches de numéros pour le type de document vente existent, et si la case à cocher **N° par défaut** n’est pas cochée pour la souche de numéros qui est actuellement affectée, le champ **N°** est visible, et vous pouvez accéder à la page **Liste Souche de n°** et sélectionnez la souche de numéros que vous souhaitez utiliser. Le numéro suivant dans la souche sélectionnée est inséré dans le champ **N°** .
+2. Si vous avez plusieurs souches de numéros pour un type de document vente, et si la case à cocher **N° par défaut** n’est pas cochée pour la souche de numéros affectée, le champ **N°** s'affiche, et vous pouvez accéder à la page **Liste Souche de n°** et sélectionnez la souche de numéros que vous souhaitez utiliser. Le numéro suivant dans la souche sélectionnée est inséré dans le champ **N°** .
 
-3. Si vous n’avez défini aucune souche de numéros pour ce type de document ou fiche ou si le champ **N° manuels** est sélectionné pour la souche de numéros, alors le champ **N°** est visible et vous devez saisir manuellement les numéros. Vous pouvez entrer un maximum de 20 caractères alphanumériques.
+3. Si vous n’avez défini aucune souche de numéros pour un type de document ou fiche ou si le champ **N° manuels** est sélectionné pour la souche de numéros, alors le champ **N°** s'affiche et vous devez saisir un numéro manuellement. Vous pouvez saisir un maximum de 20 caractères, des chiffres et des lettres.
 
-Lorsque vous ouvrez un nouveau document ou une nouvelle fiche pour lequel il existe une souche de numéros, la page **Paramètres souche de n°** s’ouvre afin de pouvoir configurer une souche de numéros pour ce type de document ou fiche, avant de continuer avec une autre saisie de donnée.
+Lorsque vous ouvrez un nouveau document ou une nouvelle fiche pour lequel il existe une souche de numéros, la page **Paramètres souche de n°** s’ouvre afin de pouvoir configurer une souche de numéros pour ce type de document ou fiche.
 
 > [!NOTE]  
-> Si vous devez activer la numérotation manuelle, par exemple, les nouvelles fiches article qui ont été créées avec un processus de migration des données pour lesquelles le champ **N°** est masqué par défaut, allez ensuite sur la page **Paramètres stock** et choisissez le champ **N° article** pour ouvrir et définir la souche de numéros sur **N° manuels**.
+> Si vous devez activer la numérotation manuelle, par exemple, les nouvelles fiches article qui ont été créées avec un processus de migration des données pour lesquelles le champ **N°** est masqué par défaut, allez sur la page **Paramètres stock** et choisissez le champ **N° article** pour ouvrir et définir la souche de numéros sur **N° manuels**.
+>
+> Il en va de même si vous utilisez des fonctionnalités de gestion de services. Pour résoudre ce problème, allez sur la page **Paramètres gestion des stocks** et choisissez le champ **N° articles service** pour ouvrir et définir la souche de numéros sur **N° manuels**.
 
 ## Pour créer des souches de numéros
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Souches de n°**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Souches de n°**, puis choisissez le lien associé.
 2. Sélectionnez l’action **Nouveau**.  
 3. Sur la nouvelle ligne, renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sélectionnez l’option **Lignes**.  
@@ -66,9 +69,9 @@ Lorsque vous ouvrez un nouveau document ou une nouvelle fiche pour lequel il exi
 6. Répétez l’étape 5 pour autant d’utilisations différentes de la série de chiffres dont vous avez besoin. Le champ **Date de début** définit quelle ligne de souche de numéros est active.  
 
 > [!TIP]
-> Pour permettre aux utilisateurs de spécifier manuellement des numéros lorsqu’ils enregistrent un nouveau client ou fournisseur, par exemple, choisissez le champ **Numéros manuels** sur la série de nombres elle-même. Pour interdire le numéro manuel, effacez le champ.
+> Pour permettre aux utilisateurs de spécifier manuellement des numéros lorsqu’ils enregistrent un nouveau client ou fournisseur, par exemple, choisissez le champ **Numéros manuels** sur la série de nombres elle-même. Pour empêcher la numérotation manuel, effacez le champ.
 
-Vous pouvez attribuer des souches de numéros aux modèles que vous configurez pour les différents types de clients et de fournisseurs que vos commerciaux et acheteurs ajoutent le plus souvent à votre fichier [!INCLUDE [prod_short](includes/prod_short.md)]. Dans ce cas, configurez la souche de numéros appropriée, liez-la via des relations, puis ajoutez la première souche de numéros dans la relation appropriée à la page de configuration appropriée. Ensuite, lorsqu’un utilisateur crée un client, il choisit le modèle approprié et le nouveau client reçoit un numéro attribué à partir de la souche de numéros définie pour ce modèle.  
+Vous pouvez attribuer des souches de numéros aux modèles que vous configurez pour les différents types de clients et de fournisseurs que vos commerciaux et acheteurs ajoutent le plus souvent. Dans ce cas, configurez la souche de numéros appropriée, liez-la via des relations, puis ajoutez la première souche de numéros dans la relation appropriée à la page de configuration appropriée. Ensuite, lorsqu’un utilisateur crée un client, il choisit le modèle approprié et le nouveau client reçoit un numéro attribué à partir de la souche de numéros définie pour ce modèle.  
 
 ## Pour créer des liens entre des souches de numéros
 

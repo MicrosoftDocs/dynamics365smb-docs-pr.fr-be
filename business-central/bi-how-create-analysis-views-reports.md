@@ -1,20 +1,20 @@
 ---
-title: Créer des rapports d’analyse
+title: Création d’états d’analyse
 description: 'Décrit comment créer de nouveaux rapports d’analyse pour les ventes, les achats et le stock, et configurer des modèles d’analyse.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Créer des rapports d’analyse
+# Création d’états d’analyse
 
 Les directeurs des ventes doivent analyser de manière régulière les rotations, la marge bénéficiaire brute et d’autres indicateurs de performance des ventes clés. Les acheteurs, eux, s’intéressent plutôt à la dynamique des volumes d’achat, des performances des fournisseurs et des prix d’achat. Par ailleurs, les gestionnaires des stocks et directeurs de la logistique ont besoin d’informations sur la rotation des stocks, d’une analyse des mouvements de stock et de statistiques sur la valeur du stock. Il n’y a donc pas de rapport d’analyse qui convienne à toutes les situations.
 
-Vous pouvez personnaliser les rapports d’analyse basés sur les enregistrements de vos transactions validées, comme les ventes, les achats, les transferts et les ajustements stock. Dans les rapports personnalisés, les données source, provenant de l’écriture article (comportant des écritures valeur associées), peuvent être combinées, comparées et présentées de plusieurs manières, conformément aux souhaits de l’utilisateur. En ce sens, les rapports d’analyse sont très proches des rapports de tableau croisé dynamique de Microsoft Excel.  
+Vous pouvez personnaliser les rapports d’analyse basés sur les enregistrements de vos transactions validées, comme les ventes, les achats, les transferts et les ajustements stock. Dans les rapports personnalisés, les données source, provenant de l’écriture article (comportant des écritures valeur associées), peuvent être combinées, comparées et présentées de plusieurs manières, conformément aux souhaits de l’utilisateur. En ce sens, les rapports d’analyse sont proches des rapports de tableau croisé dynamique de Microsoft Excel.  
 
 Ainsi, par exemple, vous pouvez créer un rapport personnalisé qui se concentre sur vos comptes principaux en termes de chiffre d’affaires total des produits en montants et quantités vendus, de marge brute et de pourcentage de marge brute au cours du mois en cours. Ensuite, vous pouvez lui demander de comparer ces chiffres avec les résultats des mois précédents ou du même mois l’année dernière, et de calculer les écarts. Vous pouvez effectuer toutes ces opérations dans une seule et même vue, ce qui vous permet d’accéder à la cause des zones problématiques identifiées, et même de sélectionner le menu déroulant pour détailler au maximum les transactions individuelles.  
 

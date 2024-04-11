@@ -1,18 +1,18 @@
 ---
-title: Créer des devis
+title: Réalisation des devis
 description: Consultez comment créer une offre vente offrent ou un document de demande de proposition pour enregistrer votre offre à un client ou prospecter pour vendre des produits dans certaines conditions.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Créer des devis
+# Réalisation des devis
 
-Vous créez un devis pour enregistrer votre proposition à un client ou un prospect pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
+Vous créez un devis pour enregistrer votre proposition à un client ou un prospect pour vendre certains biens selon certaines conditions de livraison et de paiement. Vous pouvez envoyer un devis au client pour communiquer la proposition. Vous pouvez envoyer par e-mail le document en pièce jointe au format PDF. Vous pouvez faire en sorte que le corps du message soit prérempli avec un résumé du devis. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Lorsque vous négociez avec le client ou le prospect, vous pouvez modifier et renvoyer autant de devis que nécessaire. Lorsque le client accepte le devis, vous convertissez le devis en facture vente ou en commande vente dans laquelle vous traitez la vente. Pour plus d’informations, voir [Facturer des ventes](sales-how-invoice-sales.md) ou [Vendre des produits](sales-how-sell-products.md).
 
@@ -73,7 +73,7 @@ Dans la plupart des cas, vous envoyez des devis aux clients potentiels. Vous ave
     > Pour que **Devis valide jusqu’à** soit renseigné automatiquement avec un certain nombre de jours après la création du devis, vous pouvez renseigner le champ **Calcul de validité du devis** sur la page **Ventes**.
 
 10. Lorsque les lignes devis sont renseignées, sélectionnez l’action **Envoyer par e-mail**.
-11. Sur la page **Envoyer e-mail**, renseignez les champs restants et examinez le devis intégré. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md).
+11. Sur la page **Envoyer e-mail**, renseignez les champs restants et examinez le devis intégré. Pour plus d’informations, voir [Envoyer des documents par e-mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Si le contact accepte le devis, choisissez l’action **Créer commande**.  
 
     Sinon, si votre organisation préfère ce processus, choisissez l’action **Créer une facture**.  
@@ -95,7 +95,7 @@ La conversion supprime le devis de la base de données. Une facture vente ou une
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Envoi de documents par courrier électronique](ui-how-send-documents-email.md)  
+[Envoi de documents par courrier électronique](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Archivage de documents](across-how-to-archive-documents.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

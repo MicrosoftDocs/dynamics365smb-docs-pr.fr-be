@@ -10,14 +10,16 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Détails de conception : structure de la table
+
 Pour comprendre comment les écritures analytiques sont stockées et validées, il est important de comprendre la structure de la table.  
 
 ## Table 480 : Écriture ensemble de dimensions  
+
 Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la table, vous ne pouvez plus les supprimer ou les modifier.
 
-|N° champ|Nom de champ|Type de données|Commentaire|  
+|N° champ|Nom du champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
-|1|**ID**|Entier|>0,0 est réservé à l’ensemble de dimensions vide. Champ de références 3 dans la table 481.|  
+|0|**ID**|Entier|>0,0 est réservé à l’ensemble de dimensions vide. Champ de références 3 dans la table 481.|  
 |2|**Code axe analytique**|Code 20|Relation de table avec la table 348.|  
 |3|**Code section**|Code 20|Relation de table avec la table 349.|  
 |4|**ID section analytique**|Entier|Champ de références 12 dans la table 349. Ce champ est la clé secondaire utilisée en parcourant la table 481.|  
@@ -27,7 +29,7 @@ Vous ne pouvez pas modifier cette table. Une fois les données écrites dans la 
 ## Table 481 : Nœud d’arbre ensemble de dimensions  
 Vous ne pouvez pas modifier cette table. Elle est utilisée pour trouver un ensemble de dimensions. Si l’ensemble de dimensions est introuvable, un nouvel ensemble est créé.  
 
-|N° champ|Nom du champ|Type de données|Commentaires|  
+|N° champ|Nom du champ|Type de données|Commentaire|  
 |---------------|----------------|---------------|-------------|  
 |1|**ID ensemble de dimensions parent**|Entier|0 pour le nœud de niveau supérieur.|  
 |2|**ID section analytique**|Entier|Relation de la table avec le champ 12 de la table 349.|  
@@ -75,9 +77,9 @@ En plus des autres champs d’axe dans la table, ces champs sont importants :
 
  Le champ 480 ne peut pas être modifié dans les tables suivantes.  
 
-|Numéro table|Nom de la table|  
+|N° table|Nom de table|  
 |---------------|----------------|  
-|17|**Écriture comptable**|  
+|17|**Ecriture comptable**|  
 |21|**Écriture comptable client**|  
 |25|**Écriture comptable fournisseur**|  
 |32|**Écriture comptable article**|  
@@ -138,7 +140,7 @@ Le champ 480 peut être modifié dans les tables suivantes.
 |81|**Ligne feuille comptabilité**|  
 |83|**Ligne feuille article**|  
 |89|**Ligne feuille nomenclature**|  
-|96|**Écriture budget**|  
+|96|**Ecriture budget**|  
 |207|**Ligne feuille ressource**|  
 |210|**Ligne feuille projet**|  
 |221|**Ventilation feuille compta**|  
@@ -163,10 +165,10 @@ Le champ 480 peut être modifié dans les tables suivantes.
 
 Le champ 480 existe dans les tables suivantes.  
 
-|Numéro table|Nom de la table|  
+|N° table|Nom de table|  
 |---------------|----------------|  
 |49|**Tampon valid. facture**|  
-|212|**Tampon validation projet**|  
+|212|**Tampon comptabilisation projet**|  
 |372|**Tampon paiement**|  
 |382|**Tampon écriture comptable CF**|  
 |461|**Tampon ligne fact. acompte**|  

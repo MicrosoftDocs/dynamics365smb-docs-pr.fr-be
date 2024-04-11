@@ -3,9 +3,9 @@ title: 'Configurer des projets, des prix et des groupes comptabilisation projet'
 description: Décrit comment configurer des informations générales sur les projets.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 04/25/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
@@ -18,17 +18,35 @@ En tant que chef de projet, vous pouvez définir des projets qui définissent ch
 Pour chaque projet, précisez diverses informations :
 
 * Prix des articles du projet
-* Ressources du projet
+* Ressources de projet
 * Comptes généraux du projet
 * Groupes comptabilisation du projet (requis)
 
 ## Pour configurer des informations générales pour les projets
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Paramètres projets**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres projets**, puis choisissez le lien associé.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Le bouton bascule **Appliquer le lien d′utilisation par défaut** sur la page **Paramètres projets** indique si les écritures comptables projet sont liées aux lignes planning projet par défaut. Activez le bouton bascule pour appliquer ce paramètre à tous les nouveaux projets. Vous pouvez activer ou désactiver le suivi de l′utilisation des projets pour un projet donné en activant ou désactivant le bouton bascule **Appliquer le lien d′utilisation** sur la page **Fiche projet**.
+
+### Spécifier un emplacement par défaut pour les éléments du projet
+
+Vous pouvez gagner du temps lors de la saisie des données en spécifiant un emplacement et un emplacement par défaut pour les projets sur la page **Carte de projet** . Lorsque vous créez des tâches de projet, des lignes de planification de projet et des lignes de journal de projet pour le projet, l’emplacement et l’emplacement par défaut sont automatiquement attribués. Vous pouvez cependant modifier le code d’emplacement et le compartiment des tâches et des lignes si nécessaire.
+
+Si vous définissez un **Code emplacement vers le projet** sur l’emplacement, le code emplacement est renseigné lorsque vous sélectionnez le code emplacement. Si votre flux d’entrepôt nécessite des prélèvements en entrepôt, vous pouvez également définir d’autres emplacements à partir desquels consommer les articles.
+
+Ces champs sont les champs par défaut lorsque vous créez des tâches de projet. Les tâches de projet existantes ne changent pas.
+
+Il y a quelques choses à savoir sur l’utilisation des emplacements par défaut :
+
+* Pour les tâche projet, Si vous définissez un **Code emplacement vers le projet** sur l’emplacement, le code emplacement est affecté lorsque vous sélectionnez le code emplacement. Si votre flux d’entrepôt nécessite des prélèvements en entrepôt, vous pouvez également définir d’autres emplacements à partir desquels consommer les articles.
+* Pour les lignes de planification de projet, le **Code d’emplacement** est basé sur la valeur sélectionnée sur la ligne de planification de projet lorsque vous sélectionnez un article. Si aucun code d’emplacement n’est défini pour la tâche de projet, l’emplacement du contenu de l’emplacement par défaut est sélectionné. Vous pouvez modifier les deux valeurs manuellement.
+* Pour les lignes feuille projet, le **Code d’emplacement** est basé sur la valeur sélectionnée sur la ligne feuille projet lorsque vous sélectionnez un article. Si aucun code d’emplacement n’est défini pour la tâche de projet, l’emplacement du contenu de l’emplacement par défaut est sélectionné. Vous pouvez modifier les deux valeurs manuellement.
+
+### Facturer plusieurs clients pour les tâches du projet 
+
+Lorsque les projets impliquent plusieurs clients, facturer les bons clients pour les bonnes tâches peut s’avérer difficile. [!INCLUDE [prod_short](includes/prod_short.md)] simplifie la facturation en vous permettant de spécifier les clients à facturer et à vendre sur chaque ligne de tâche du projet, afin que vous puissiez générer automatiquement des factures pour les bons clients. Pour en savoir plus sur la facturation de plusieurs clients, accédez à [Facturer un ou plusieurs clients pour les tâches du projet](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
 ### Pour configurer un suivi d’utilisation de projet
 
@@ -53,7 +71,7 @@ Vous pouvez paramétrer les prix pour des articles, des ressources et des compte
 
 #### [Expérience actuelle](#tab/current-experience)
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **projet**, puis choisissez le lien associé.  
 2. Sélectionnez le projet, puis cliquez sur l’action **Ressource**, **Article** ou **Compte général**.
 3. Sur la page **Prix ressource projet**, **Prix article projet** ou **Prix compte général projet**, remplissez les champs selon vos besoins.
 
@@ -61,25 +79,25 @@ Lorsque vous choisissez une ressource, un article ou un compte général pour un
 
 |Colonne1  |Colonne2  |
 |---------|---------|
-|**Ressources du projet**|Champs **N° tâche projet**, **Type travail**, **Code devise**, **% Remise ligne** et **Facteur coût unitaire**. La valeur du champ **Prix unitaire** de la ressource est utilisée sur les lignes planning projet et les feuilles projet lorsque vous saisissez une ressource ou une ressource affectée au groupe de ressources. Ce prix remplace les prix spécifiés sur la page **Prix de la ressource/Prix du groupe de ressources**.|
-|**Articles du projet**|Champs **N° tâche projet**, **Code devise** et **% Remise ligne**. La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré. Ce prix remplace le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser le prix client habituel, ne spécifiez pas de prix article projet pour le projet.|
+|**Ressources de projet**|Champs **N° tâche projet**, **Type travail**, **Code devise**, **% Remise ligne** et **Facteur coût unitaire**. La valeur du champ **Prix unitaire** de la ressource est utilisée sur les lignes planning projet et les feuilles projet lorsque vous saisissez une ressource ou une ressource affectée au groupe de ressources. Ce prix remplace les prix spécifiés sur la page **Prix de la ressource/Prix du groupe de ressources**.|
+|**Articles par projet**|Champs **N° tâche projet**, **Code devise** et **% Remise ligne**. La valeur du champ **Prix unitaire** pour l’article sera utilisée sur les lignes planning du projet et les feuilles projet lorsque cet article sera entré. Ce prix remplace le prix client habituel (mécanisme du « meilleur prix ») des articles. Pour utiliser le prix client habituel, ne spécifiez pas de prix article projet pour le projet.|
 |**Comptes généraux**|Les informations contenues dans les champs **N° tâche projet**, **Code devise**, **% remise ligne**, **Facteur coût unitaire** et **Coût unitaire** serviront sur les lignes planning projet et les feuilles projet lorsque ce compte général sera entré et ajouté à un projet. Lorsque vous choisissez un compte général, des lignes planning projet et des feuilles projet, utilisez la valeur du champ **Prix unitaire** pour les dépenses du projet.|
 
 #### [Nouvelle expérience](#tab/new-experience)
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **projets**, puis choisissez le lien associé.  
 2. Sélectionnez le projet concerné, puis cliquez sur l’action **Listes prix vente**.
 
 ---
 
-## Pour configurer les groupes compta. projet
+## Pour paramétrer des groupes comptabilisation projet
 
 L’un des aspects des projets de planification est de décider quels comptes de validation utiliser pour l’évaluation du stock projet. Pour valider des projets, vous configurez des comptes afin de valider chaque groupe compta. projet. Un groupe comptabilisation représente un lien entre le projet et la manière dont il doit être traité dans la comptabilité. Lorsque vous créez un projet, vous pouvez spécifier un groupe comptabilisation et, par défaut, chaque tâche que vous créez pour le projet est associée avec ce groupe comptabilisation. Toutefois, lorsque vous créez des tâches, vous pouvez remplacer la valeur par défaut et sélectionner un groupe comptabilisation plus approprié.  
 
 > [!NOTE]  
 > Vous devez configurer les comptes dans le plan comptable avant de configurer les groupes comptabilisation. Pour plus d’informations, reportez-vous à [Configuration ou modification du plan comptable](finance-setup-chart-accounts.md).  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. projet**, puis choisissez le lien associé.  
+1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes comptabilisation projet**, puis choisissez le lien associé.  
 2. Cliquez sur l’action **Nouveau**, puis renseignez les champs comme indiqué dans le tableau suivant.  
 
 | Champ de compte | Désignation | Utilisé dans le type TEC |
@@ -109,6 +127,5 @@ L’un des aspects des projets de planification est de décider quels comptes de
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,17 +1,17 @@
 ---
-title: Surveiller la progression et les performances
+title: Surveillance de la progression et des performances du projet
 description: Décrit la manière dont vous pouvez créer une méthode de travaux en cours (TEC) et calculer les TEC pour estimer la valeur financière des projets lorsqu’ils sont en cours.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Surveiller la progression et les performances
+# Surveillance de la progression et des performances du projet
 
 Grâce à la fonctionnalité encours (WIP), vous pouvez estimer la valeur financière des projets en cours dans la comptabilité.
 
@@ -35,25 +35,25 @@ Créez une méthode TEC projet qui répondent aux besoins de votre organisation 
 > [!NOTE]
 > Après avoir utilisé la nouvelle méthode pour créer des écritures TEC, vous ne pouvez pas modifier ou supprimer cette méthode.  
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **méthodes TEC projet**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **méthodes TEC projet**, puis choisissez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Fermez la page.   
-4. Pour faire de cette nouvelle méthode la méthode par défaut, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **paramètres projets**, puis choisissez le lien associé.  
+4. Pour faire de cette nouvelle méthode la méthode par défaut, sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Paramètres projets**, puis choisissez le lien associé.  
 5. Dans le champ **Méthode TEC par défaut**, choisissez la méthode de la liste.
 
 ## Définir une méthode TEC pour un projet
 
 Lorsque vous créez un projet, vous devez spécifier la méthode TEC projet qui s’applique. Dans certains cas, la méthode TEC projet que vous utilisez est déjà définie par défaut.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **projets**, puis choisissez le lien associé.
-2. Sélectionnez l’action **Nouveau**. En savoir plus sur [Créer des projets](projects-how-create-jobs.md).  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projets**, puis choisissez le lien associé.
+2. Sélectionnez l’action **Nouveau**. En savoir plus sur [Créer des projet](projects-how-create-jobs.md).  
 3. Sur la page **Fiche projet**, dans le champ **Méthode TEC**, sélectionnez une méthode TEC dans la liste. Si une méthode par défaut a été définie, vous pouvez sélectionner une autre option si nécessaire.  
 
 ### Définir une méthode TEC pour une tâche projet
 
-Vous pouvez définir une méthode TEC pour une tâche, exclure certaines tâches du calcul TEC, ou regrouper des tâches pour les calculer ensemble. 
+Vous pouvez définir une méthode TEC pour une tâche de projet, exclure certaines tâches de projet du calcul TEC, ou regrouper des tâches pour les calculer ensemble. 
 
-Si vous souhaitez calculer le TEC pour chaque tâche individuellement, la validation TEC fournit des dimensions définies pour les tâches spécifiques.
+Si vous souhaitez calculer le TEC pour chaque tâche de projet individuellement, la validation TEC fournit des dimensions définies pour les tâches spécifiques.
 
 Le **Total TEC** spécifie les tâches projet à regrouper lors du calcul TEC et de la réception. Dans n’importe quel groupe de tâches, il faut une tâche répondant à deux conditions :
 <!--But doesn't the parenthetical below contradict this -* if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
@@ -72,9 +72,9 @@ Le tableau suivant décrit trois options :
 
 Dans l’exemple suivant, les tâches projet sont réparties en deux groupes de totaux TEC, montrant le fonctionnement du champ **Total TEC** :
 
-|N° tâche projet|Désignation|Type tâche projet|Champ **Total TEC**|  
+|N° tâche projet|Désignation|Type de tâche projet|Champ **Total TEC**|  
 |------------------|----------------------|----------------------|----------------------|  
-|1 000|Préparation|Début total|\<blank\>|
+|1 000|Préparation|Total-début|\<blank\>|
 |1010|.    Nettoyage|Valider|**Exclu**|
 |1099|Total préparation|Fin total|\<blank\>|
 |1100|Moquette|Début total|\<blank\>|
@@ -96,47 +96,47 @@ Vous remarquerez les choses suivantes :
 
 ## Calculer TEC
 
-Vous pouvez déterminer le montant TEC à valider dans les comptes de bilan pour la génération d’états de clôture d’exercice. Utilisez le traitement par lots **Projet Calculer TEC**.  
+Vous pouvez déterminer le montant TEC à valider dans les comptes de bilan pour la génération d’états de clôture d’exercice. Utilisez le projet traitement par lots **Projet Calculer TEC**.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **projet calculer TEC**, puis choisissez le lien associé.  
+1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **projet calculer TEC**, puis choisissez le lien associé.  
 2. Cliquez sur **Calculer TEC**.
 3. Sur la page **Projet Calculer TEC**, renseignez les champs comme nécessaire.
 4. Cliquez sur le bouton **OK**.  
 
 > [!NOTE]  
->   Ce traitement par lots calcule uniquement le TEC et ne le valide pas dans la comptabilité. Pour le valider, exécutez le traitement par lots **Valider TEC en compta.** à l’issue du calcul TEC. Consultez la procédure ci-dessous pour en savoir plus.
+> Ce projet traitement par lots calcule uniquement le TEC et ne le valide pas dans la comptabilité. Pour le valider, exécutez le projet traitement par lots **Valider TEC en compta.** à l’issue du calcul TEC. Consultez la procédure ci-dessous pour en savoir plus.
 
 ## Valider TEC
 
-Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les comptes bilan pour le reporting de fin de période. Pour ce faire, utilisez le traitement par lots **Projet Valider TEC en comptabilité**.
+Quand vous avez calculé les TEC, vous pouvez les valider pour équilibrer les comptes bilan pour le reporting de fin de période. Pour ce faire, utilisez le projet traitement par lots **Projet Valider TEC en comptabilité**.
 
-1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **projet valider TEC en comptabilité**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Projet Valider TEC en comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
 3. Cliquez sur le bouton **OK**.
 
 ## Calculer et valider les écritures d’achèvement du projet
 
-À la fin des activités d’un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le **Statut** du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
+À la fin des activités d’un projet (validation et facturation comprises), vous devez le mettre à jour pour définir le Statut du projet sur **Terminé**. Ensuite, vous devez contrepasser tous les travaux en cours validés antérieurement dans la comptabilité.
 
-1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , saisissez **projets**, puis choisissez le lien associé.  
+1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Projets**, puis choisissez le lien associé.  
 2. Sélectionnez un projet ouvert, puis cliquez sur **Modifier**.
 3. Dans le champ **Statut**, sélectionnez **Terminé**.
-4. Suivez les étapes d’aide pour calculer et valider le TEC. Vous pouvez également suivre les étapes 5 et 6 pour le faire manuellement.  
+4. Suivez les étapes d’assistance pour calculer et comptabiliser l’en-cours, ou suivez les étapes 5 et 6 pour le faire manuellement.  
 5. Cliquez sur **Calculer TEC**.
 6. Sur la page **Projet Calculer TEC**, renseignez les champs comme nécessaire.  
 
      Les écritures TEC projet créées par le traitement par lots auront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.  
-7. Cliquez sur **Projet Valider TEC en comptabilité**.
+7. Cliquez sur **Valider TEC en comptabilité**.
 8. Sur la page **Projet Valider TEC en comptabilité**, renseignez les champs selon vos besoins.  
 
      Les écritures comptabilité TEC projet créées par le traitement par lots verront la case **Projet terminé** cochée pour indiquer qu’il s’agit d’écritures d’achèvement.
 
-## Visualiser des écritures comptables projet
+## Afficher des écritures comptables projet
 
-Toutes les écritures liées à des projets sont enregistrées dans des historiques des transactions projet et sont numérotées de manière séquentielle, à partir de 1. L’historique des transactions projet permet d’obtenir un aperçu de toutes les écritures comptables projet.    
+Toutes les écritures liées à des projets sont enregistrées dans des historiques des transactions projet et sont numérotées de manière séquentielle à partir de 1. L’historique projet permet d’obtenir un aperçu de toutes les écritures comptables projet.    
 
-1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **registres projet**, puis choisissez le lien associé.
-2. Sélectionnez un historique approprié, puis cliquez sur **Écritures projet**
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **registres projet**, puis choisissez le lien associé.
+2. Sélectionnez un historique approprié, puis cliquez sur **Écritures projet**.
 
 Sur la page **Écritures comptables projet** vous pouvez passer en revue les écritures associées à un projet.  
 

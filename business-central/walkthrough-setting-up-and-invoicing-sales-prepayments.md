@@ -1,15 +1,15 @@
 ---
-title: Configuration et facturation d’acomptes
+title: Configurer et facturer des acomptes vente
 description: Les acomptes sont des paiements qui sont facturés et validés dans une commande acompte vente ou achat avant la facturation finale.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Procédure pas à pas : configuration et facturation d’acomptes
+# Procédure pas à pas : Configurer et facturer des acomptes vente
 
 Cette procédure pas à pas vous guide tout au long du processus de configuration et d’utilisation des acomptes dans [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -152,11 +152,11 @@ Susan crée la facture acompte et l’envoie au client.
 
 ## Créer une facture acompte
 
-Après avoir entré la valeur d’acompte correcte sur la commande, Susan crée la facture acompte et l’envoie au client.  
+Après avoir entré la valeur d'acompte correcte sur la commande, Susan crée la facture acompte et l'envoie au client.  
 
 ### Pour créer une facture acompte
 
-1. Sur la page **Commande**, choisissez **Actions**, puis **Validation**, puis **Acompte**, puis **Valider et imprimer facture acompte**.
+1. Sur la page **Commande**, choisissez **Actions**, puis **Validation**, puis **Acompte**, puis **Valider et imprimer facture acompte**
 2. Choisissez le bouton **Oui** pour valider la facture.  
 
 > [!NOTE]  
@@ -171,7 +171,7 @@ Le jour suivant, le client appelle Susan et modifie sa commande. Il souhaite deu
 1. Sur la page **Commande vente**, choisissez l’action **Lancer**, puis **Rouvrir**  
 2. Sur la ligne de l’article **1896-S**, dans le champ **Quantité**, entrez **2**.  
 
-    Dans l’action **Ordre**, choisissez **Statistiques**. Le champ **Montant acompte HT** indique à présent **768,04** et le champ **Montant fact. acompte HT** indique **417,76**. Ces valeurs indiquent qu’il existe un montant d’acompte supplémentaire qui n’a pas encore été facturé.  
+    Dans l’action **Ordre**, choisissez **Statistiques**. Le champ **Montant acompte HT** affiche à présent **768,04** et le champ **Montant fact. acompte HT** indique **417,76**. Ces valeurs indiquent qu’il existe un montant d’acompte supplémentaire qui n’a pas encore été facturé.  
 3. Pour valider une facture pour le montant d’acompte supplémentaire, choisissez **Actions**, puis **Validation**, puis **Acompte**, puis **Valider et imprimer facture acompte**
 4. Choisissez le bouton **Oui** pour valider la facture.  
 

@@ -24,7 +24,7 @@ L’offre d’un service continu aux clients est essentielle à toute transactio
 
 En outre, vous pouvez standardiser le codage, configurer les contrats, appliquer une stratégie de remise et créer des calendriers pour les salariés en charge de la prestation de service.  
 
-En général, la gestion de services est constituée de deux éléments : la configuration et le paramétrage de votre système, et son utilisation pour les tarifs, contrats, commandes, affectation du personnel de service et planificateur de traitements.  
+En général, la gestion de services est constituée de deux éléments : la configuration et le paramétrage de votre système, et son utilisation pour les tarifs, contrats, commandes, affectation du personnel de service et planificateur de projet.  
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.   
 

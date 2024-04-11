@@ -2,14 +2,16 @@
 title: Créer une Fiche projet pour un projet et spécifier des tâches
 description: 'Pour un nouveau projet, vous créez une fiche projet qui contient les tâches projet et les lignes planning, pour vous aider à gérer la progression et les budgets.'
 author: brentholtorf
-ms.topic: conceptual
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
-ms.date: 08/03/2022
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Créer des projets
+# Création de projets
 
 Lorsque vous démarrez un nouveau projet, vous devez créer une fiche projet avec des tâches intégrées et des lignes planning structurées en deux couches.  
 
@@ -20,21 +22,45 @@ La seconde couche inclut les lignes planning projet, qui spécifient l’utilisa
 La structure de couche permet de séparer le projet en tâches plus petites et ainsi d’utiliser des détails plus spécifiques dans l’établissement du budget, les devis et l’enregistrement. En outre, elle vous donne un aperçu de la progression d’un projet. Par exemple, vous pouvez rechercher si vous respectez les étapes importantes fixées ou si vous êtes en passe de satisfaire les attentes budgétaires.
 
 > [!TIP]
-> Choisissez l’action **Nouveau projet** du tableau de bord **Chef de projet** pour lancer un guide de configuration assistée qui vous dirige à travers les étapes de création d’un projet avec des tâches intégrées et des lignes planning. La procédure suivante décrit comment exécuter les étapes manuellement. Pour obtenir un exemple de la procédure pour créer manuellement un projet, reportez-vous à la rubrique [Vidéo : Créer un projet dans Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+> Choisissez l’action **Nouveau projet** du tableau de bord **Chef de projet** pour lancer un guide de configuration assistée qui vous dirige à travers les étapes de création d’un projet avec des tâches intégrées et des lignes planning. La procédure suivante décrit comment exécuter les étapes manuellement. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-Parfois, la partie qui reçoit un service est différente de celle qui paie la facture. Sur la page **Projets**, vous pouvez spécifier le client qui bénéficiera du projet dans les champs **Donneur d’ordre** et la partie à facturer dans champs **Facturation**. Vous pouvez également fournir les informations suivantes : 
+## Facturer un ou plusieurs clients pour les tâches du projet
+
+Parfois, la partie qui reçoit un service est différente de celle qui paiera la facture. De plus, vous devrez parfois facturer plusieurs clients pour les tâches du projet. Sur la page **Fiche de projet** , utilisez le champ **Méthode de facturation des tâches** pour spécifier si vous facturez un seul client, ou plusieurs clients.
+
+Si le client qui reçoit le service paiera également la facture, dans les champs **Facture à** et **Expédition à** champs, choisissez **Par défaut (Client)** et **Par défaut (Adresse de vente)**.
+
+Si vous facturez plusieurs clients, vous pouvez spécifier le client qui recevra le service et le client à facturer pour chaque tâche du projet. Vous pouvez également fournir les informations suivantes :
 
 * Où le travail aura lieu en sélectionnant parmi une liste d’adresses de livraison pour le client.
 * Ajouter des informations sur les références externes pour simplifier la communication sur le projet.
 * Remplacer les conditions financières standard du projet.
 
+## Facturer un client pour plusieurs tâches du projet
+
+Vous pouvez simplifier votre processus de facturation en envoyant une seule facture à un client pour plusieurs projets. Ajoutez des lignes de planification de projet de plusieurs projets à une facture de vente en une seule fois. Ce processus est similaire à la création d’une facture de vente à partir d’une ligne de planification de projet et à la saisie d’une valeur dans le champ **Ajouter au numéro de facture de vente** .
+
+Voici un aperçu du processus.
+
+1. Créez une facture vente et renseignez le champ **N° donneur d’ordre** . Si nécessaire, remplissez également le **numéro de client facturé** et le **Code magasin**.
+2. Dans le raccourci **Lignes**, sélectionnez l’action **Extraire lignes Planning projet**. Le **Obtenir les lignes de planification du projet** page affiche les lignes de planification de projet facturables provenant de projets pour le client vendeur, le client facturé et la devise de facturation où la quantité à facturer est supérieure à zéro. 
+3. Choisissez les lignes que vous voulez ajouter à la facture puis cliquez sur **OK**.
+
+Répétez ces étapes si vous souhaitez ajouter un autre ensemble de lignes de planification de projet. Vous pouvez également supprimer la facture ou ses lignes et recommencer.
+
+> [!NOTE]
+> Il y a quelques limites :
+>
+> * Le **Obtenir les lignes de planification du projet** l’action n’est pas disponible sur les commandes clients ou les devis clients.
+> * Vous ne pouvez pas filtrer sur le **Code de livraison** ou **Numéro de contact** .
+
 ## Pour créer une fiche projet
 
 Vous devez créer une fiche projet, puis créez des Lignes tâche projet et des lignes planning projet pour ce projet.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **projets**, puis choisissez le lien associé.  
 2. Cliquez sur **Nouveau**, puis renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Pour spécifier le projet avec les informations d’autres projets, cliquez sur **Copier projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
+3. Pour baser le projet sur les informations d’un autre projet, cliquez sur **Copier projet**, renseignez les champs selon vos besoins, puis cliquez sur le bouton **OK**.
 
 > [!NOTE]  
 > Si vous utilisez des feuilles de temps dans le projet, vous devez également indiquer une personne responsable. Cette personne peut approuver les feuilles de temps pour les tâches des salariés associées à ce projet. Pour plus d’informations, voir [Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md).
@@ -44,14 +70,14 @@ Si vous le souhaitez, marquez les actions sur le projet comme bloquées à l’a
 |Option  |Désignation  |
 |---------|---------|
 |Vide |Toutes les actions sont autorisées.|
-|Valider    |Vous pouvez utiliser des lignes planning, mais la validation du projet est bloquée. Choisir cette option implique que vous ne pouvez pas valider d’activité ni de vente sur le projet.|
-|Tous  |Toutes les actions sont bloquées.|
+|Comptabilisation    |Vous pouvez utiliser des lignes planning, mais la validation du projet est bloquée. Choisir cette option implique que vous ne pouvez pas valider d’activité ni de vente sur le projet.|
+|Tout  |Toutes les actions sont bloquées.|
 
 ## Pour créer une tâche pour un projet
 
 L’une des clés de la création d’un projet consiste à spécifier les différentes tâches impliquées dans le projet. Spécifiez les tâches en créant une ligne par tâche sur le raccourci **Tâches** de la page **Fiche projet**. Chaque projet doit avoir au minimum une tâche.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **projets**, puis choisissez le lien associé.
 2. Ouvrez la fiche projet pour un projet concerné.
 3. Sur le raccourci **Tâches**, renseignez les champs, le cas échéant sur une ligne.
 4. Pour indenter des tâches et créer une hiérarchie, cliquez sur **Tâches**, puis sur **Indenter tâches projet**.
@@ -60,20 +86,20 @@ L’une des clés de la création d’un projet consiste à spécifier les diff�
 
 ## Pour créer des lignes planning pour un projet
 
-Vous pouvez redéfinir vos nouvelles tâches projet sur les lignes planning projet. Une ligne planning peut extraire les information que vous souhaitez suivre pour un projet. Par exemple, vous pouvez suivre les ressources requises par le travail ou les éléments nécessaires. Par exemple, vous avez pour tâche d’amener un client à approuver un travail. Vous associez la tâche à des lignes planning article, comme un rendez-vous avec le client et l’affectation d’une ressource.  
+Vous pouvez redéfinir vos nouvelles tâches projet sur les lignes planning projet. Une ligne planning peut extraire les information que vous souhaitez suivre pour un projet. Par exemple, vous pouvez suivre les ressources requises par le projet ou les éléments nécessaires. Par exemple, vous avez pour tâche d’amener un client à approuver un projet. Vous associez la tâche à des lignes planning article, comme un rendez-vous avec le client et l’affectation d’une ressource.  
 
 Une ligne planning projet peut avoir l’un des types suivants :  
 
 | Type | Désignation |
 | --- | --- |
-| **Budget** |Permet d’obtenir les activités et coûts prévus pour le projet, généralement dans le cadre d’un projet de régie. Les lignes planning de ce type ne peuvent pas être facturées. |
+| **Budget** |Permet d’obtenir les activités et coûts prévus pour le projet, généralement dans le cadre d’un projet de régie. Impossible de facturer les lignes planning de ce type. |
 | **Facturable** |Permet de fournir un devis au client, généralement utilisé dans le cadre d’un projet à prix fixe. |
 | **Budget et Facturable** |Permet de faire correspondre l’activité budgétée au montant que vous souhaitez facturer. |
 
 > [!NOTE]
-> Tandis que vous ajoutez des informations sur les lignes planning projet, le coût est automatiquement mis à jour. Par exemple, le coût, le prix et la remise relatifs aux ressources et aux articles sont calculés sur la base des informations de la ressource et l’article. 
+> Tandis que vous ajoutez des informations sur les lignes planning projet, le coût est automatiquement mis à jour. Par exemple, le coût, le prix et la remise relatifs aux ressources et aux articles sont calculés sur la base des informations de la ressource et l’article.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Projets**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **projets**, puis choisissez le lien associé.
 2. Ouvrez la fiche projet appropriée.
 3. Sélectionnez une tâche projet pour laquelle le champ **Type tâche projet** contient **Validation** puis, cliquez sur **Lignes planning projet**.  
 4. Sur la page **Lignes planning projet**, renseignez les champs, le cas échéant sur une nouvelle ligne.
@@ -87,6 +113,5 @@ Une ligne planning projet peut avoir l’un des types suivants :
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -25,7 +25,7 @@ Utilisez les documents suivants pour les opérations internes :
 
 * Lorsque vous enregistrez un prélèvement stock pour une opération interne, telles que la production ou une tâche, la consommation des composants sélectionnés est validée en même temps.
 * Le bouton à bascule **Emplacement obligatoire** sur la page **Fiche magasin** est facultatif.
-* Lorsque vous utilisez les prélèvements stock, le champ **Code emplacement** sur une ligne de composant d’ordre de fabrication ou les lignes planning d’une tâche définit l’emplacement *prendre*. Les composants sont diminués dans le bac « prendre » lorsque vous validez la consommation.
+* Lorsque vous utilisez les prélèvements stock, le champ **Code emplacement** sur une ligne de composant d’ordre de fabrication ou les lignes planning d’une projet définit l’emplacement *prendre*. Les composants sont diminués dans le bac « prendre » lorsque vous validez la consommation.
 
 ## Mouvements de stock
 
@@ -60,9 +60,9 @@ Utilisez les documents **Prélèvement stock** pour sélectionner les composants
 Pour les magasins qui utilisent des emplacements, vous pouvez étendre le flux jusqu’aux projets en utilisant les documents **Mouvement stock**.
 
 > [!NOTE]
-> La possibilité de sélectionner des composants pour les lignes de planning des tâches a été ajoutée à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans la 2è vague de lancement 2022. Pour commencer à utiliser la capacité, un administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
+> La possibilité de sélectionner des composants pour les lignes de planning projet a été ajoutée à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans la 2e vague de lancement 2022. Pour commencer à utiliser la capacité, un administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] utilise la valeur dans le champ **Quantité restante** sur la ligne de planning des tâches lorsqu’il crée des prélèvements stock. Pour utiliser les prélèvements d’inventaire pour les tâches, vous devez activer le bouton à bascule **Appliquer le lien d’utilisation** sur la page **Fiche projet** pour les tâches. Cela vous permet de suivre l’utilisation par rapport à votre forfait. Si vous n’activez pas le bouton à bascule, la quantité restante restera à **0** et le choix de stock ne sera pas créé. Learn more at [Pour configurer un suivi d’utilisation de projet](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] utilise la valeur dans le champ **Quantité restante** sur la ligne de planning projet lorsqu’il crée des prélèvements stock. Pour utiliser les prélèvements d’inventaire pour les tâches, vous devez activer le bouton à bascule **Appliquer le lien d’utilisation** sur la page **Fiche projet** pour les tâches. Cela vous permet de suivre l’utilisation par rapport à votre forfait. Si vous n’activez pas le bouton à bascule, la quantité restante restera à **0** et le choix de stock ne sera pas créé. Learn more at [Pour configurer un suivi d’utilisation de projet](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Prélever ou déplacer pour la production, l’assemblage ou les projets dans les configurations de stockage de base
 
@@ -103,7 +103,7 @@ Pour prélever ou déplacer des composants pour des documents origine en deux é
 
 Un magasinier affecté au prélèvement d’articles peut créer un document de rangement de stock pour le document origine.  
 
-1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements stock** or **Inventory Movement**, and then choose the related link.  
+1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements stock** or **Inventory Movement**, and then choose the related link.  
 2. Sélectionnez l’action **Nouveau**.  
 3. Dans le champ **Document origine**, sélectionnez le type de document origine que concerne le rangement.
 
@@ -119,7 +119,7 @@ Un magasinier affecté au prélèvement d’articles peut créer un document de 
 2. Dans le champ **Code emplacement** sur les lignes prélèvement, l’emplacement à partir duquel les articles doivent être prélevés à partir de l’emplacement où l’article est disponible. Si nécessaire, vous pouvez modifier l’emplacement.
 3. Exécutez le prélèvement, puis saisissez la quantité prélevée dans le champ **Quantité à traiter**.
 
-    Si vous devez prélever les articles d’une ligne à partir de plusieurs emplacements, par exemple parce qu’un emplacement ne contient pas la quantité totale, utilisez l’action**Fractionner la ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.  
+    Si vous devez prélever les articles d’une ligne à partir de plusieurs emplacements, par exemple parce qu’un emplacement ne contient pas la quantité totale, utilisez l’action **Fractionner la ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.  
 4. Sélectionnez l’action **Valider**.  
 
 Voici ce qui se passe pendant le processus de validation :

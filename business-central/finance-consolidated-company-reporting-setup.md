@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Configurer la consolidation de la société
+# Configuration de la consolidation de la société
 
 Avant de pouvoir consolider les écritures comptables de deux ou plusieurs sociétés (filiales) dans une société consolidée, vous devez préparer les plans comptables et la société de consolidation.  
 
@@ -32,7 +32,7 @@ Si votre consolidation est simple, car vous détenez en totalité les centres de
 
 Pour utiliser le guide de configuration assistée, procédez comme suit :
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  saisissez **Configuration assistée**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Configuration assistée**, puis choisissez le lien associé.
 2. Choisissez **Traiter les consolidations**, puis effectuez chaque étape du guide de configuration assistée Consolidation de la société.
 
 ## Configuration d’une consolidation avancée
@@ -75,8 +75,21 @@ Une grande partie de la configuration du centre de profit consiste à spécifier
 > [!NOTE]
 > L’option API vous permet également de partager les écritures comptables d’autres environnements [!INCLUDE [prod_short](includes/prod_short.md)]. Pour utiliser l’option API, l’utilisateur qui configure la consolidation doit avoir l’autorisation d’accéder aux écritures comptables. Par exemple, les ensembles d’autorisations D365 Basic et D365 Read fournissent l’accès.
 
+#### Paramétrer les devises des divisions
+
+Lorsque vous exécutez une consolidation pour des unités commerciales qui utilisent une devise étrangère, vous devez accorder une attention particulière aux taux de change utilisés par différentes parties du processus, et encore plus lorsque vous réexécutez la consolidation. Pour ce faire, utilisez la page **Configurer les devises des unités commerciales** pour suivre facilement les taux.
+
+La page **Configurer les devises des unités commerciales** vous donne les derniers taux pour le taux moyen, de clôture et le dernier taux de clôture. Vous pouvez rechercher les taux de change dans le tableau des taux de change, ce qui facilite la validation des taux. Vous pouvez modifier les taux pour l’exécution en cours en saisissant les valeurs ou en les copiant des exécutions précédentes. Pour copier les taux, choisissez **Sélectionner à partir d’une consolidation précédente**. Cette page est particulièrement utile lorsque vous souhaitez réexécuter une consolidation précédente, où vous devez utiliser un taux de clôture précédent. Ceci est nécessaire pour réévaluer correctement vos postes de bilan. La page **Sélectionner à partir de la consolidation précédente** est également utile si vous souhaitez simplement afficher les taux qui ont été utilisés, par exemple, lors d’un dépannage. La page est filtrée sur les exécutions incluant l’unité commerciale sélectionnée.
+
+Vous démarrez la tâche par lots **Exécuter la consolidation** à partir de la page de liste **Unités commerciales** . Vous pouvez également accéder à la page **Configurer les devises des unités commerciales** en choisissant l’action **Taux de change** .
+
+> [!NOTE]
+> Les pages de configuration du taux de change pour le taux moyen, de clôture et le dernier taux de clôture actuellement disponibles sur la fiche **Division** seront obsolètes dans une version ultérieure. Toutefois, vous pouvez toujours conserver ces taux si vous disposez d’unités commerciales que vous importez via des fichiers.
+
+#### Créer une divisions
+
 1. Connectez-vous à la société consolidée.
-2. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"),  entrez **Centres de profit**, puis choisissez le lien associé.  
+2. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Centres de profit**, puis choisissez le lien associé.  
 3. Choisissez **Nouveau**, puis remplissez les champs obligatoires dans les raccourcis **Général** et **Comptes généraux**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -113,13 +126,11 @@ Le tableau suivant décrit les méthodes de conversion de taux de change que vou
 |Taux composite | Les montants de la période en cours sont convertis au taux moyen et ajoutés au solde précédemment enregistré dans la société consolidée. Vous utilisez généralement cette méthode pour les comptes de bénéfices non répartis. Ces comptes incluent des montants de différentes périodes, ils contiennent donc des montants convertis avec différents taux de change.|
 |Taux des fonds propres | Cette option est similaire au **Taux composite**. Les différences sont validées sur des comptes généraux distincts.|
 
-Pour spécifier des taux de change pour les centres de profit, procédez comme suit :
+Pour spécifier des taux de change pour un centres de profit, procédez comme suit :
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de profit**, puis choisissez le lien associé.  
-2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l’action **Taux moyen (manuel)**.  
-3. Sur la page **Modifier taux de change**, la valeur du champ **Montant taux de change lié** est copiée à partir de la table **Taux de change devise**, mais vous pouvez la modifier. Fermez la page.  
-4. Choisissez l’action **Taux de clôture**.  
-5. Dans le champ **Montant taux de change lié**, saisissez le taux de change.
+1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de profit**, puis choisissez le lien associé.  
+2. Sur la page **Liste des centres de profit**, choisissez le centre de profit, puis choisissez l’action **Taux de change**.  
+3. Sur la page **Paramétrer Devises division**, renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Inclure ou exclure des axes analytiques
 

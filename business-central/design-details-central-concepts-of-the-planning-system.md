@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Détails de conception : concepts centraux du système de planification
 
-Les fonctions de planification se trouvent dans un traitement par lots qui sélectionne d’abord les articles appropriés et la période à planifier. Ensuite, selon le code plus bas niveau de chaque article (sa position dans la nomenclature), le traitement par lots appelle une unité de code qui calcule un plan d’approvisionnement. L’unité de code équilibre les ensembles offre-demande et suggère des actions à l’utilisateur. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
+Les fonctions de planification se trouvent dans un projet de traitement par lots qui sélectionne d’abord les articles appropriés et la période à planifier. Ensuite, selon le code plus bas niveau de chaque article (sa position dans la nomenclature), le traitement par lots appelle une unité de code qui calcule un plan d’approvisionnement. L’unité de code équilibre les ensembles offre-demande et suggère des actions à l’utilisateur. Les mesures suggérées apparaissent sous forme de lignes dans la feuille planning ou dans la demande achat.  
 
 ![Contenu de la page Feuilles planning.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Contenu de la page Feuilles planning")  
 
@@ -75,7 +75,7 @@ Après avoir exécuté la planification, la table Écriture message d’action n
 
 ## Séquence et priorité de la planification
 
-La séquence des calculs dans votre planification est importante pour que le travail soit fait dans un délai raisonnable. La gestion des priorités des besoins et ressources joue également un rôle important pour obtenir les meilleurs résultats.  
+La séquence des calculs dans votre planification est importante pour que le projet soit fait dans un délai raisonnable. La gestion des priorités des besoins et ressources joue également un rôle important pour obtenir les meilleurs résultats.  
 
 Le système de planification est axé sur les demandes. Les articles de haut niveau doivent être planifiés avant les articles de bas niveau, car ils peuvent générer une demande pour des articles de niveau inférieur. Par exemple, planifiez les sites de vente au détail avant les centres de distribution, car un site de vente au détail peut inclure une demande du centre de distribution. À un niveau d’équilibrage détaillé, si une commande d’approvisionnement lancée peut couvrir une commande client, le système ne doit pas créer de nouvelle commande d’approvisionnement. Un approvisionnement portant un numéro de lot spécifique ne doit pas être affecté pour couvrir une demande générique si une autre demande requiert ce lot spécifique.  
 
@@ -267,7 +267,7 @@ Si le champ n’est pas activé, le traitement par lots **Calculer planning** se
 
 ## Flexibilité planification
 
-Il n’est pas toujours pratique de planifier une commande approvisionnement existante. Par exemple, lorsque la production a commencé ou que vous embauchez des personnes supplémentaires un jour précis pour faire le travail. Pour indiquer si le système de planification peut modifier une commande existante, toutes les lignes de commande approvisionnement ont un champ **Flexibilité planification** avec deux options :  **Illimitée** ou **Aucune**. Si le champ est défini sur **Aucune**, le système de planification ne tente pas de modifier la ligne commande approvisionnement.  
+Il n’est pas toujours pratique de planifier une commande approvisionnement existante. Par exemple, lorsque la production a commencé ou que vous embauchez des personnes supplémentaires un jour précis pour faire le projet. Pour indiquer si le système de planification peut modifier une commande existante, toutes les lignes de commande approvisionnement ont un champ **Flexibilité planification** avec deux options :  **Illimitée** ou **Aucune**. Si le champ est défini sur **Aucune**, le système de planification ne tente pas de modifier la ligne commande approvisionnement.  
 
 Vous pouvez choisir manuellement une option dans le champ ; cependant, dans certains cas, elle sera définie automatiquement par [!INCLUDE [prod_short](includes/prod_short.md)]. Le fait que vous puissiez manuellement définir la flexibilité de planification est important, parce que cela permet d’adapter facilement l’utilisation de la fonction dans différents flux de travail et scénarios métier. Pour plus d’informations sur l’utilisation de ce champ, consultez [Détails de conception : transferts de planification](design-details-transfers-in-planning.md).  
 

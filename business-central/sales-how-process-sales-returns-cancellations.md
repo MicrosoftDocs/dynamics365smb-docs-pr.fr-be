@@ -1,18 +1,18 @@
 ---
-title: Traiter les retours ou annulations de ventes
+title: Traitement des retours ou annulations de ventes
 description: 'Décrit comment créer un avoir vente pour traiter un retour, annulation, ou un remboursement pour les articles ou les services qui vous ont déjà été payés.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Traiter les retours ou annulations de ventes
+# Traitement des retours ou annulations de ventes
 
-Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations correctes sur la facture vente, vous pouvez procéder comme suit :  
+Si votre client souhaite retourner des articles ou obtenir un remboursement pour des articles, ou encore annuler des services, que vous lui avez vendus et pour lesquels vous avez reçu un paiement, vous devez créer et valider un avoir vente qui indique la modification demandée. Pour inclure les informations correctes sur la facture vente, vous pouvez faire les tâches comme suit :  
 
 - Créer l’avoir vente directement à partir de la facture vente enregistrée.
 - Créer un avoir vente avec les informations copiées de la facture.

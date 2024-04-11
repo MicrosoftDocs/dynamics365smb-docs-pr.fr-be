@@ -12,30 +12,30 @@ ms.service: dynamics-365-business-central
 
 Cette procédure détaillée illustre plusieurs processus principaux :
 
-- Ajout de tâches aux projets
-- Enregistrement du temps et des dépenses de matériel pour un projet
-- Facturation d’un projet
+- Ajouter des tâches aux projets
+- Enregistrer les dépenses en temps et matériel pour un projet
+- Facturation un projet
 
-## Ajout d’une tâche à un projet
+## Ajouter tâche projet
 
 ### Scénario  
 
-Simon, le chef de projet, souhaite enregistrer le temps consacré à former le client sur l’utilisation d’une machine expresso dans une tâche distincte du projet d’installation d’une machine commerciale sur site.
+Simon, le chef de projet, souhaite consacrer un temps record à enseigner au client comment utiliser la machine à expresso. Simon souhaite utiliser une tâche distincte dans le cadre de son travail pour installer une machine commerciale sur site.
 
 ### Étapes
 
-1. Créer la tâche de projet  
+1. Créer la tâche de projet.
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis choisissez le lien associé.  
+    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **projets**, puis choisissez le lien associé.  
     2. Sélectionnez le projet *J00010*.
-    3. Dans la zone **Tâches**, choisissez l’action **Nouvelle ligne**.  Saisissez les valeurs suivantes :
+    3. Dans la zone **Tâche**, choisir l’action **Nouvelle ligne** et entrez les valeurs suivantes :
  
-    |N° tâche projet|Désignation|Type tâche projet|
+    |N° tâche projet|Désignation|Type de tâche projet|
     |------------|-----------|-------------|  
-    |220|Formation du client|Validation|
+    |220|Formation du client|Comptabilisation|
 
-2. Indenter les tâches de projet
-   1. Dans la zone Tâches, localisez l’action **Indenter tâches projet**
+2. Mise en retrait des tâches projet.
+   1. Dans la zone Tâches, localisez l’action **Indenter tâches projet**.
    2. Confirmez que vous souhaitez indenter les tâches en sélectionnant **Oui**.
 
 ### Résultats
@@ -46,51 +46,54 @@ Simon, le chef de projet, souhaite enregistrer le temps consacré à former le c
 
 ### Scénario  
 
-Edgin, le technicien qui installe la machine, doit enregistrer son temps et les matériels utilisés lors de l’installation dans le projet pour la facturation.  Il a déjà ajouté les déplacements et les matériels, et doit maintenant ajouter le temps pour apprendre au personnel comment utiliser la machine.
+Edgin, le technicien qui installe la machine, doit enregistrer son temps et les matériels utilisés lors de l’installation dans le projet pour la facturation. Edgin a déjà ajouté les déplacements et les matériels, et doit maintenant ajouter le temps pour apprendre au personnel comment utiliser la machine.
 
 ### Étapes
 
-1. Créer des lignes feuille projet supplémentaires
+1. Créer lignes feuille projet supplémentaires
 
     1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles projet**, puis choisissez le lien associé.  
-    2. Sélectionnez le lot *CONTOSO*.  Vous verrez plusieurs lignes de type Ressource et Article, qui reflètent le temps (pour le technicien et le véhicule) et les matériels (la machine et les fournitures) utilisés.
-    3. Créez une ligne. Saisissez les valeurs suivantes :
+    2. Sélectionnez le lot *CONTOSO*. Vous voyez plusieurs lignes de type Ressource et Article, qui reflètent le temps (pour le technicien et le véhicule) et les matériels (la machine et les fournitures) utilisés.
+    3. Créez une ligne, puis entrez les valeurs suivantes :
  
     |N° projet|N° tâche projet|Type|N°|Désignation|Quantité|
     |-------|------------|----|---|-----------|--------|  
     |J00010|220|Ressource|EDGIN|Formation du client|0|
 
-2. Valider le temps et les dépenses
-   1. Choisissez l’action **Valider**
+2. Valider le temps et les dépenses.
+   1. Sélectionnez l’action **Valider**.
    2. Confirmez que vous souhaitez valider les lignes en sélectionnant **Oui**.
 
 ### Résultats
 
- - Des écritures comptables projet et des écritures comptables ressource de type *Utilisation* sont créées
- - Des écritures comptables article sont créées pour ajuster négativement l’inventaire
- - Sur la fiche projet, les coûts et les prix dans la zone Tâches reflètent les nouveaux soldes en attente de facturation
- - Sur la fiche projet, le récaptitulatif Détails du projet reflète les totaux des prix
+- Des écritures comptables projet et des écritures comptables ressource de type *Utilisation* sont créées.
+- Des écritures comptables article sont créées pour ajuster négativement l’inventaire.
+- Sur la fiche projet, les coûts et les prix dans la zone Tâches reflètent les nouveaux soldes en attente de facturation.
+- Sur la fiche projet, le récaptitulatif Détails du projet reflète les totaux des prix.
 
 ## Création d’une facture vente pour un projet
 
 ### Scénario  
+
 Simon doit créer et valider une facture à envoyer au client avec le temps et les dépenses du projet.
 
 ### Étapes
-1. Créer la facture vente
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Projets**, puis choisissez le lien associé.  
+1. Créer la facture vente.
+
+    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **projets**, puis choisissez le lien associé.  
     2. Dans la liste des projets, choisissez l’action **Créer une facture vente projet**.
-    3. Définissez le filtre **N° projet** sur *J00010*.
-    4. Choisissez **OK** pour générer la facture vente.  Vous recevrez une confirmation du nombre de factures générées
+    3. Définir **N° projet** filtrez sur *J00010*.
+    4. Choisissez **OK** pour générer la facture vente. Vous recevrez une confirmation du nombre de factures générées.
 
-2. Valider la facture du temps et des dépenses
+2. Valider la facture du temps et des dépenses.
+
    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Factures vente**, puis sélectionnez le lien associé.  
    2. Sélectionnez la dernière facture pour l’ouvrir pour révision.
    3. Sélectionnez l’action **Valider**.
 
 ### Résultats
 
- - Des écritures comptables projet et des écritures comptables ressource de type *Vente* sont créées
- - Sur la fiche projet, les coûts et les prix dans la zone Tâches reflètent les nouveaux soldes facturés
- - Sur la fiche projet, le récaptitulatif Détails du projet reflète les totaux des prix dans la section Prix facturé
+- Des écritures comptables projet et des écritures comptables ressource de type *Vente* sont créées.
+- Sur la fiche projet, les coûts et les prix dans la zone Tâches reflètent les nouveaux soldes facturés.
+- Sur la fiche projet, le récaptitulatif Détails du projet reflète les totaux des prix dans la section Prix facturé.

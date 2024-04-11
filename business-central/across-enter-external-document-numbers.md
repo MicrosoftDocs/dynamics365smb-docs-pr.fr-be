@@ -1,15 +1,15 @@
 ---
-title: Entrer des numéros de document externe
+title: Saisie des numéros des documents externes
 description: 'Vous pouvez entrer des numéros de document externe pour les clients et les fournisseurs dans toutes les commandes vente et achat, les factures et les avoirs. Vous pouvez utiliser ces numéros pour rechercher ultérieurement des lignes vente et achat validées.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/28/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Entrer des numéros de document externe
+# Saisie des numéros des documents externes
 
 Vous pouvez entrer des numéros de document externe pour les clients et les fournisseurs dans toutes les commandes vente et achat, les factures et les avoirs. Vous pouvez utiliser ces numéros pour rechercher ultérieurement des lignes vente et achat validées.  
 
@@ -29,7 +29,7 @@ La procédure suivante explique comment spécifier un numéro de document extern
 
 ## Voir aussi
 
-[Numéros de document externe sur les documents achat](purchasing-ext-doc-no.md)  
+[Numéros de documents externes sur les documents achat](purchasing-ext-doc-no.md)  
 [Numéros de document externe sur les documents vente](sales-how-invoice-sales.md#external-document-numbers)  
 [Vendre des produits](sales-how-sell-products.md)  
 [Achats](purchasing-manage-purchasing.md)  

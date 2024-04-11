@@ -1,16 +1,16 @@
 ---
 title: Envoyer des rappels de soldes impayés
-description: Découvrez comment envoyer un rappel à un client concernant un paiement en retard.  est dû et ajouter des frais ou des frais au paiement en raison du retard.
+description: Découvrez comment envoyer un rappel à un client concernant un paiement en retard.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '436, 437, 442, 431, 432, 434'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Envoi des rappels de soldes impayés
+# Envoi des relances de soldes restants
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 

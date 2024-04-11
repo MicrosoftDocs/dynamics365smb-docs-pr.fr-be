@@ -25,23 +25,26 @@ Grâce au connecteur Shopify, les entreprises ont la possibilité de connecter l
 - Prise en charge de plusieurs magasins Shopify
   - Chaque magasin a sa propre configuration, y compris un ensemble de produits, d’emplacements utilisés pour calculer le stock et des listes de prix.  
 - Synchronisation bidirectionnelle des articles ou des produits
-  - Le connecteur synchronisera les images, les variantes article, les codes-barres, les références fournisseur, les textes étendus et les balises.  
+  - Le connecteur synchronisera les images, les variantes article, les codes-barres, les références fournisseur, les textes marketing étendus et les balises.  
   - Exportez les attribut article dans Shopify.  
-  - Utilisez les groupes prix client et les remises sélectionnés pour définir les prix exportés vers Shopify.  
-  - Décidez si les articles peuvent être créés automatiquement ou n’autorisez que les mises à jour des produits existants.  
+  - Utilisez les groupes prix client et les remises sélectionnés pour définir les prix exportés vers Shopify.
+  - Définir les prix et les remises pour les catalogues de produits liés aux entreprises B2B.
+  - Décidez si les articles peuvent être créés automatiquement ou n’autorisez que les mises à jour des produits existants.
 - Synchronisation des niveaux de stock
   - Choisissez certains ou tous les emplacements disponibles dans [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Mettez à jour les niveaux de stock sur plusieurs emplacements dans Shopify.  
-- Synchronisation bidirectionnelle des clients
+- Synchronisation bidirectionnelle des clients et sociétés
   - Mappez intelligemment les clients par téléphone et e-mail.  
   - Utilisez des modèles spécifiques au pays/à la région lors de la création de clients, ce qui permet de garantir que les paramètres fiscaux sont corrects.  
 - Importer des commandes depuis Shopify
-  - Incluez les commandes créées dans différents canaux de vente, tels qu’une boutique en ligne ou d’un **PDV Shopify**.
+  - Incluez les commandes créées dans différents canaux de vente, tels qu’une **Shopify PDV** ou **B2B**.
   - Frais d’expédition, cartes-cadeaux, pourboires, modes d’expédition et de paiement, transactions et risque de fraude.  
   - Lors de l’importation, vous pouvez créer automatiquement des clients dans [!INCLUDE [prod_short](../includes/prod_short.md)] ou décider de gérer les clients dans Shopify.  
   - Recevez des informations de paiement de Shopify Payments.
 - Suivez les informations d’exécution
-  - Choisissez éventuellement de transférer des informations de suivi des articles à partir de [!INCLUDE [prod_short](../includes/prod_short.md)] dans Shopify.  
+  - Choisissez éventuellement de transférer des informations de suivi des articles à partir de [!INCLUDE [prod_short](../includes/prod_short.md)] dans Shopify.
+- Intégration sans tête
+  - Activez la synchronisation automatique des produits, des stocks, des commandes, des exécutions et bien plus encore.
 
 ## Pourquoi Microsoft et Shopify ont-ils formé ce partenariat ?
 
@@ -52,6 +55,8 @@ Grâce au connecteur Shopify, les entreprises ont la possibilité de connecter l
 Cette fonction est disponible uniquement pour [!INCLUDE[prod_short](../includes/prod_short.md)] en ligne, à partir de la version 20.1. Elle n’est pas disponible pour les déploiements locaux. Le connecteur est préinstallé pour les nouveaux environnements. Les organisations disposant d’environnements existants peuvent télécharger et installer le connecteur à partir de AppSource. L’organisation doit disposer à la fois d’une licence [!INCLUDE [prod_short](../includes/prod_short.md)] et d’une licence Shopify pour utiliser le connecteur. Pour en savoir plus sur les pays/régions, les langues et les éditions de [!INCLUDE[prod_short](../includes/prod_short.md)] pris en charge, consultez [Connecteur Shopify sur AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 Le connecteur Shopify ne fonctionne pas pour [Intégrer les applications](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), où l’URL du client a le format : `https://[application name].bc.dynamics.com`.
+
+Le Shopify connecteur ne fonctionne pas avec d’autres produits du portefeuille Dynamics 365.
 
 ## Quel support est proposé pour le connecteur Shopify ?
 
@@ -69,8 +74,6 @@ Vous pouvez également explorer la [place de marché Experts](https://experts.sh
 
 ## Fonctionnalités actuellement non prises en charge ; cependant, nous les suivons et pourrions envisager de les ajouter
 
-- Fonctionnalités B2B, y compris les entreprises, les listes de prix des entreprises, les conditions de paiement
-  - La prise en charge étendue du B2B sera disponible dans la 1re vague de lancement de 2024. Pour plus d’informations, voir [Connecter Business Central avec Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Marchés
   - Traductions multiples des données de base. Vous pouvez choisir une langue qui sera utilisée pour l’exportation des informations sur les produits.
   - Prix par pays/région. Une liste de prix est disponible pour la devise sélectionnée. Shopify gère la conversion vers d’autres devises.
@@ -78,7 +81,7 @@ Vous pouvez également explorer la [place de marché Experts](https://experts.sh
 
 ## Le connecteur Shopify est-il extensible ?
 
-Oui, le connecteur Shopify est extensible. Consultez GitHub pour accéder à la [liste des points d’extensibilité](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) et découvrez quelques [exemples](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Oui, le connecteur Shopify est extensible. Consultez GitHub pour accéder à la [liste des points d’extensibilité](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) et découvrez quelques [exemples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Le connecteur Shopify est-il ouvert à la participation ?
 

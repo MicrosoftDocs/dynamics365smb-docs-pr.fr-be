@@ -1,26 +1,26 @@
 ---
-title: Informations intelligentes et migration vers le cloud
+title: Informations intelligentes et migration vers le cloud (local uniquement)
 description: "Dans Business\_Central Online, vous avez accès à d’autres services en ligne et vous pouvez obtenir des informations intelligentes basées sur Azure AI, par exemple. Poursuivez votre lecture si vous envisagez de migrer du local vers le cloud."
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
-ms.search.form: 4010
-ms.date: 04/12/2021
+ms.search.form: '4010,'
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Informations intelligentes dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Informations intelligentes et migration vers le cloud (local uniquement)
 
-En tant qu’utilisateur de [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous avez un accès complet aux scénarios basés sur le Cloud intelligent, comme les indicateurs de performance clés basés sur Machine Learning, ou lorsque vous consultez vos données dans Power BI.  
+Si vous utilisez [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, vous avez un accès complet aux scénarios basés sur le cloud intelligent. Par exemple, des indicateurs de performance clés (KPI) basés sur l’apprentissage automatique ou lorsque vous affichez vos données Power BI.  
 
 Cependant, si vous utilisez [!INCLUDE [prod_short](includes/prod_short.md)] sur site, vous n’avez pas accès aux mêmes informations. Si vous souhaitez bénéficier de scénarios en ligne, vous devez migrer vers [!INCLUDE [prod_short](includes/prod_short.md)] Online. Pour en savoir plus, voir la rubrique [Migration des données locales vers Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) dans le contenu d’administration pour [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Affichage des statistiques dans [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-Dans [!INCLUDE[prod_short](includes/prod_short.md)] Online, la page **Informations sur le cloud intelligent** répertorie les quatre points clé d’intérêts pour la plupart des sociétés :
+Pour un environnement sur site pour lequel les données ont été migrées vers [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, la page **Informations sur le cloud intelligent** de l’environnement en ligne présente quatre points d’intérêt clés pour la plupart des entreprises :
 
 - Disponibilité de trésorerie
 - Rentabilité ventes

@@ -1,16 +1,16 @@
 ---
-title: Regroupement de bons de réception sur une seule facture
+title: Regroupement des réceptions sur une seule facture
 description: 'Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez utiliser la fonction Regroupement des réceptions.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
-ms.date: 08/03/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Regroupement de bons de réception sur une seule facture
+# Regroupement des réceptions sur une seule facture
 
 Si vous voulez facturer plusieurs réceptions achat en une fois, vous pouvez sélectionner plusieurs lignes réception sur la facture achat.  
 

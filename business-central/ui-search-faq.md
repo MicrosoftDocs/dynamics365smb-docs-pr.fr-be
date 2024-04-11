@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ Vous pouvez utiliser la fenêtre de recherche (Tell Me) dans le client Web local
 
 ## La fenêtre de recherche est-elle disponible pour tous les facteurs d’écrans ?
 
-Oui. Elle a été introduite sur les téléphones et les tablettes dans la 2e vague de lancement 2023 de Business Central, mais doit être activée dans [Gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management) en utilisant le bouton bascule **Fonctionnalité : rechercher des pages et des données dans l’application mobile**. 
+Oui. Il a été introduit sur les téléphones et les tablettes lors de la deuxième vague de lancement de Business Central 2023. Dans la 2e vague de lancement 2023, Elle doit être activée dans [Gestion des fonctionnalités](/dynamics365/business-central/dev-itpro/administration/feature-management) en utilisant le bouton bascule **Fonctionnalité : rechercher des pages et des données dans l’application mobile**. Dans la 1re vague de lancement 2024 et les versions ultérieures, cette fonctionnalité est toujours activée.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

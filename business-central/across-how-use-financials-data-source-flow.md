@@ -107,7 +107,7 @@ La création de nouveaux flux ou la modification et la gestion des flux existant
 Ces tâches sont généralement effectuées par un administrateur ou un super utilisateur. Les tâches nécessitent des connaissances élargies des processus métier dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour en savoir plus, consultez les articles suivants dans l’aide pour les développeurs et les professionnels de l’informatique de Business Central :
 
 - [Intégration de Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Créer des flux automatisés](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (couvre également les flux d’approbation)
+- [Créer des flux automatisés](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (couvre également les flux d’approbation)
 - [Créer des flux instantanés](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Gérer les flux Power Automate](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

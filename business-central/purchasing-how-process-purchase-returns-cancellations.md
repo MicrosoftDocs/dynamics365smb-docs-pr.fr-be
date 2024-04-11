@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Traiter les retours ou annulations d’achats
+# Traitement des retours ou annulations d’achats
 
 Si vous souhaitez retourner des articles à votre fournisseur ou annuler des services que vous avez achetés, vous pouvez créer et valider un avoir achat qui indique la modification demandée par rapport à la facture achat d’origine. Pour inclure les informations de facture achat correctes, vous pouvez créer l’avoir achat à partir de la facture achat enregistrée ou vous pouvez créer un avoir achat avec les informations copiées de la facture.
 
@@ -81,8 +81,8 @@ L’avoir achat est supprimé et remplacé par un nouveau document dans la liste
 3. Renseignez les champs dans le raccourci **Général** selon les besoins.
 4. Dans le raccourci **Lignes**, renseignez les lignes manuellement, ou copiez des informations d’autres documents pour renseigner les lignes automatiquement :
 
-    - utiliser la fonction  **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d’un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
-    - Utilisez la fonction **Copier à partir du document** pour copier un document existant dans le retour. Cette fonction permet de copier l’ensemble du document. Il peut s’agir d’un document validé ou d’un document non encore validé. Cette fonction ne permet l’inversion de même coût que lorsque la case **Inversion de même coût obligatoire** est cochée sur la page **Paramètres ventes**.  
+    - utiliser la fonction **Extraire lignes document enreg. à contrepasser** pour copier une ou plusieurs lignes de document validées à partir d’un ou plusieurs documents validés. Cette fonction inverse toujours exactement les coûts à partir de la ligne de document validée. Cette fonction est décrite dans les étapes suivantes.    
+    - Utilisez la fonction **Copier à partir du document** pour copier un document existant dans le retour. Cette fonction permet de copier l'ensemble du document. Il peut s’agir d’un document validé ou d’un document non encore validé. Cette fonction ne permet l’inversion de même coût que lorsque la case **Inversion de même coût obligatoire** est cochée sur la page **Paramètres ventes**.  
 
 5. Sélectionnez l’action **Afficher des lignes document validées à contrepasser**.
 6. Dans le haut de la page **Lignes document achat enreg.**, cochez la case **Afficher uniquement lignes réversibles** si vous voulez n’afficher que les lignes contenant des quantités qui n’ont pas encore été retournées, ou s’il s’agit de lignes achat, vendues ou consommées. Par exemple, si une quantité de facture achat validée a déjà été retournée, il se peut que vous ne vouliez pas intégrer cette quantité dans un nouveau document retour achat.
@@ -137,7 +137,7 @@ Vous pouvez vous accorder avec le fournisseur pour qu’il compense l’achat d�
 
 Si vous recevez de votre fournisseur des articles que vous ne souhaitez pas, par exemple s’ils sont légèrement endommagés, ou s’ils ne sont pas de la bonne couleur ou de la bonne taille, le fournisseur peut vous proposer un rabais.  
 
-Vous pouvez valider ce coût d’achat réduit en tant que frais annexes sur un avoir ou un retour et le lier à la réception validée. Ce qui suit décrit la procédure pour un retour achat, mais les mêmes étapes s’appliquent à un avoir achat.
+Vous pouvez valider ce coût d'achat réduit en tant que frais annexes sur un avoir ou un retour et le lier à la réception validée. Ce qui suit décrit la procédure pour un retour achat, mais les mêmes étapes s’appliquent à un avoir achat.
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Avoirs achat**, puis sélectionnez le lien associé.
 2. Sélectionnez l’action **Nouveau** pour ouvrir un nouvel avoir achat vierge.  
@@ -160,7 +160,7 @@ Lorsque vous expédiez ces articles, vous validez les commandes retour achat ass
 
 Lorsque vous êtes prêt à facturer ces articles, au lieu de facturer séparément chaque retour achat, vous pouvez créer un avoir achat et copier automatiquement dans ce document les lignes expédition retour achat validées. Il vous suffit alors de valider l’avoir achat et de facturer en une fois tous les retours achat ouverts.  
 
-Lorsque des expéditions retour sont regroupées sur un avoir et validées, un avoir achat validé est créé pour les lignes facturées. Le champ **Quantité facturée** sur le retour achat d’origine est mis à jour en fonction de la quantité facturée. Comme ce retour achat d’origine n’est toutefois pas supprimé, même s’il a été entièrement reçu et facturé, vous devez supprimer le retour achat manuellement.
+Lorsque des expéditions retour sont regroupées sur un avoir et validées, un avoir achat validé est créé pour les lignes facturées. Le champ **Quantité facturée** sur le retour achat d'origine est mis à jour en fonction de la quantité facturée. Comme ce retour achat d’origine n’est toutefois pas supprimé, même s’il a été entièrement reçu et facturé, vous devez supprimer le retour achat manuellement.
 
 > [!NOTE]  
 > Dans la procédure suivante, on suppose qu’il existe plusieurs retours achat pour le fournisseur et qu’ils ont été validés comme étant expédiés.     

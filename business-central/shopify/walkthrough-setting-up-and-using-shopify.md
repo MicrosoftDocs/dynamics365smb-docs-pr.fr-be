@@ -132,9 +132,9 @@ Dans **Admin Shopify** notez que la commande est maintenant marquée comme *Exé
 
 ### Scénario
 
-Après un lancement rapide et réussi de votre nouvelle boutique en ligne, vous souhaitez que vos clients actuels la visitent et commencent à passer des commandes. En fonction de votre Shopify plan et processus, vous pouvez essayer les flux B2B et D2C.
+Après un lancement rapide et réussi de votre nouvelle boutique en ligne, vous souhaitez que vos clients actuels la visitent et commencent à passer des commandes. En fonction de votre Shopify plan et processus, vous pouvez essayer les flux B2B et DTC
 
-### Étapes D2C
+### Étapes DTC
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)], procédez comme suit :
 

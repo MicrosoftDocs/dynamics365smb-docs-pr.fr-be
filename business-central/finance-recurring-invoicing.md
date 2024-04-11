@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -40,7 +40,7 @@ Avec cette option, vous suivez la procédure de facturation standard avec tous l
 
 Cependant, pour chaque nouveau client, vous devez créer un nouveau projet et ajouter des lignes à la feuille récurrente. 
 
-Pour plus d’informations, voir [Créer des lignes feuille projet](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) et [Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Pour plus d’informations, voir [Créer des lignes feuille projet](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) et [Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Créer plusieurs factures à partir de lignes vente récurrentes
 
@@ -106,10 +106,10 @@ Vous pouvez obtenir des extensions pour Business Central sur le site [AppSource.
 
 [Formules de date](ui-enter-date-ranges.md#use-date-formulas)  
 [Utiliser des feuilles abonnement](ui-work-general-journals.md#work-with-recurring-journals)  
-[Créer des lignes feuille projet](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Créer lignes feuille projet](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Créer plusieurs factures vente projet](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Créer des lignes ventes et achat récurrentes](sales-how-work-standard-lines.md)  
-[Utiliser des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Utilisation des contrats de service et des devis contrat de service](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Facturer plusieurs contrats de service](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Prévisions de demande et commandes ouvertes](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Utiliser des commandes ouvertes vente](sales-how-to-create-blanket-sales-orders.md)  

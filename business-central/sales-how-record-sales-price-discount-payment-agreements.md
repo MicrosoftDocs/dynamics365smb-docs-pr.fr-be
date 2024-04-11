@@ -35,7 +35,7 @@ Pour utiliser un modèle de tarification de base, il vous suffit de spécifier u
 * Quantité minimale
 * Dates qui définissent la période pour laquelle les prix sont valables.
 
-Après avoir défini des prix spéciaux, [!INCLUDE[prod_short](includes/prod_short.md)] peut calculer les meilleurs prix sur les documents vente et achat, et sur les lignes de travail et les feuilles articles. En savoir plus sur [Calcul du meilleur prix](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Après avoir défini des prix spéciaux, [!INCLUDE[prod_short](includes/prod_short.md)] peut calculer les meilleurs prix sur les documents vente et achat, et sur les lignes de projet et les feuilles articles. En savoir plus sur [Calcul du meilleur prix](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Pour les remises, vous pouvez configurer deux types différents :
 

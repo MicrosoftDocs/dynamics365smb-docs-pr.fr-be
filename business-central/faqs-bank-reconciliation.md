@@ -1,7 +1,7 @@
 ---
 title: FAQ sur l’assistant de rapprochement de compte bancaire (version préliminaire) avec Copilot
 description: "Cette FAQ fournit des informations sur la technologie d’IA utilisée pour rapprocher les comptes bancaires et les relevés Business\_Central. Elle comprend également des éléments à prendre en compte et des détails clés sur la façon dont l’IA est utilisée, comment elle a été testée et évaluée, et toutes les limitations spécifiques."
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# FAQ sur l’assistant de rapprochement de compte bancaire (version préliminaire) avec Copilot
+# FAQ sur l’assistant de rapprochement de compte bancaire avec Copilot (version préliminaire)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Cette foire aux questions (FAQ) décrit l’impact de l’IA sur l’assistance Copilot pour le rapprochement des comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Cette foire aux questions (FAQ) décrit l’impact de l’IA sur l’assistance Copilot pour le rapprochement des comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## Qu’est-ce que l’assistant de rapprochement bancaire ?
 

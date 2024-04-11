@@ -1,14 +1,15 @@
 ---
 title: 'Paramétrer les ressources, les feuilles de temps et les projets'
-description: 'Cette rubrique décrit comment configurer les ressources, les feuilles de temps et les projets pour la gestion des projets et leurs budgets.'
+description: 'Cette rubrique décrit comment configurer les ressources, les feuilles de temps pour la gestion des projets et leurs budgets.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: projects
 ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Configuration de la gestion de projet
 
@@ -20,10 +21,10 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | À | Voir |
 | --- | --- |
-| Configurez la gestion de projet.|[Configurer des informations générales pour les projets](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
+| Configurez la gestion de projet.|[Configurer des informations générales pour les projets](projects-how-setup-jobs.md#to-set-general-information-for-projects)|
 | Vous pouvez configurer des ressources, ainsi que les coûts et les prix associés, soit pour des ressources individuelles, des groupes de ressources ou pour toutes les ressources disponibles de la société. |[Paramétrer des ressources](projects-how-setup-resources.md) |
-| Vous pouvez permettre aux ressources d’enregistrer le temps d’utilisation d’une personne ou d’un poste, et permettre à un administrateur de consulter l’activité d’une ressource et son affectation. |[Paramétrer des feuilles de temps](projects-how-setup-time-sheets.md) |
-| Vous pouvez créer des fiches projet et préparer les tâches projet. Vous pouvez configurer les articles projet et les ressources de projet et définir les groupes comptabilisation projet. |[Configuration de projets](projects-how-setup-jobs.md) |
+| Vous pouvez permettre aux ressources d’enregistrer le temps d’utilisation d’une personne ou d’un poste, et permettre à un administrateur de consulter l’activité d’une ressource et son affectation. |[Configuration des feuilles de temps](projects-how-setup-time-sheets.md) |
+| Vous pouvez créer des fiches projet et préparer les tâches projet. Vous pouvez configurer les articles projet et les ressources de projet et définir les groupes comptabilisation projet. |[Configuration des projets](projects-how-setup-jobs.md) |
 
 ## Voir aussi
 
@@ -33,6 +34,5 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Créer des commandes spéciales
+# Création des commandes spéciales
 
 Vous pouvez créer une commande spéciale pour un article de catalogue spécifique à expédier à un client particulier. Le fournisseur expédie l’article à votre entrepôt et vous pouvez ensuite l’expédier à votre client seul ou avec d’autres articles issus d’autres commandes.  
 
@@ -24,7 +24,7 @@ Pour pouvoir utiliser cette fonction, vous devez d’abord configurer les fiches
 3.  Sous le raccourci **Lignes**, renseignez la ligne vente. Dans le champ **Procédure achat**, sélectionnez une procédure achat dont le champ **Commande spéciale** est sélectionné.
 
     Vous devez maintenant créer une commande achat à partir d’une demande achat.  
-4. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Demande d’achat**, puis sélectionnez le lien associé.  
+4. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), , saisissez **Demandes achat**, puis choisissez le lien associé.  
 5. Choisissez l’action **Commande spéciale**, puis choisissez l’option **Extraire commandes vente**.  
 6.  Sur la page **Extraire commandes vente**, affichez les résultats dans lesquels le **N° document** correspond au numéro de commande vente. Cliquez sur le bouton **OK**. Une ligne demande achat est créée pour l’article.  
 7.  Dans la ligne demande achat, sélectionnez **Nouveau** dans le champ **Message d’action**.  

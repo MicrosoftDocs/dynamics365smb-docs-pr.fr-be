@@ -2,30 +2,30 @@
 title: Enregistrer et ajuster l’utilisation et les prix des ressources
 description: 'Décrit la manière dont vous pouvez enregistrer l’utilisation ou la consommation ressource associée à un projet, de garder la trace et de gérer les coûts, les prix, ainsi que les types de travaux.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Utiliser des ressources pour des projets
+# Utilisation des ressources pour des projets
 
 Vous devez enregistrer l’utilisation des ressources dans la feuille projet pour suivre les coûts et les prix, ainsi que les types de travaux associés aux projets. Pour en savoir plus, consultez [Enregistrer l’utilisation pour les projets](projects-how-record-job-usage.md).
 
 > [!NOTE]
 > Vous pouvez également acheter des ressources externes, par exemple pour facturer un fournisseur pour le travail livré. Pour en savoir plus, consultez [Enregistrer des achats](purchasing-how-record-purchases.md).
 
-Vous pouvez aussi valider l’utilisation d’une ressource sur une feuille ressource. Les écritures validées sur une feuille ressource n’ont aucune incidence sur la comptabilité.
+Vous pouvez aussi valider l’utilisation d’une ressource sur une feuille ressource. Les écritures validées sur une feuille ressource n'ont aucune incidence sur la comptabilité.
 
 ## Pour affecter des ressources aux projets
 
-Vous pouvez affecter des ressources aux projets en créant des lignes planning projet pour le projet. Pour plus d’informations, voir [Créer des projets](projects-how-create-jobs.md).
+Vous pouvez affecter des ressources aux projets en créant des lignes planning projet pour le projet. Pour plus d’informations, reportez-vous à [Créer des projets](projects-how-create-jobs.md).
 
 ## Pour enregistrer l’utilisation des ressources pour un projet
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles projet**, puis choisissez le lien associé.
 2. Ouvrez la feuille projet appropriée, puis complétez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Lorsque la feuille est renseignée, cliquez sur **Valider**.
 
@@ -75,6 +75,5 @@ Si vous avez déjà configuré des prix secondaires pour certaines ressources, v
 [Achats](purchasing-manage-purchasing.md)         
 [Ventes](sales-manage-sales.md)     
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 06/16/2021
+ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,14 +15,17 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge les transactions des employés de la même manière que pour les fournisseurs. Par conséquent, les groupes comptabilisation des salariés existent pour s’assurer que les écritures comptables d’un salarié sont validées dans les comptes appropriés de la comptabilité.
 
 > [!NOTE]  
-> Les transactions des employés ne peuvent être validées que dans la devise société. Les paiements de remboursement aux employés ne prennent pas en charge les remises et les écarts de règlement.
+> Les paiements de remboursement aux employés ne prennent pas en charge les remises et les écarts de règlement.
 
 Si les salariés dépensent leur propre argent pendant les activités commerciales, vous pouvez valider les frais sur le compte du salarié. Vous pouvez ensuite rembourser le salarié en faisant un paiement sur le compte bancaire du salarié, de la même façon que vous payez des fournisseurs.  
 
-> [!TIP]
-> Cet article explique comment enregistrer les frais dans les livres et comment rembourser l’employé. Votre organisation peut avoir un portail ou une application où les employés peuvent soumettre leurs notes de frais.
+Cet article explique comment enregistrer les frais dans les livres et comment rembourser l’employé. Votre organisation peut avoir un portail ou une application où les employés peuvent soumettre leurs notes de frais.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] est suffisamment flexible pour s’adapter à de nombreuses pratiques différentes. Les numéros de compte exacts à utiliser dépendent de la configuration et des processus de votre organisation.  
+
+Vous pouvez utiliser les journaux généraux des comptes des employés pour enregistrer les dépenses des employés et les transactions de remboursement en devises étrangères, puis suivre facilement les montants et les comparer aux reçus. Laissez votre calculatrice dans le tiroir de votre bureau : Business Central peut ajuster le taux de change pour vous. Lorsque vous utilisez les journaux généraux pour valider des transactions pour les comptes d’employés, par exemple lorsque vous remboursez des dépenses, vous pouvez utiliser le champ **Code devise** pour spécifier la devise des transactions. La spécification d’une devise vous permet d’utiliser les mêmes fonctionnalités que lorsque vous enregistrez des transactions dans les livres comptables clients et fournisseurs. Par exemple, les salariés peuvent enregistrer une dépense en euros mais être payés en dollars.
+
+Pour garantir que le taux de change des montants est à jour, vous pouvez ajuster les soldes des employés lorsque vous exécutez le traitement par lots du taux de change. Si vous souhaitez utiliser la table des taux de change, mais régler les soldes des employés dans votre devise locale, vous pouvez exclure les comptes des employés lorsque vous ajustez les taux de change.
 
 ## Pour enregistrer les frais des salariés
 

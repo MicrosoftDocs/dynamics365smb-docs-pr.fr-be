@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -30,7 +30,7 @@ Si les articles peuvent être prélevés à la date d’expédition, alors le pr
 
 ## Calcul de la première date de livraison possible
 
-Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande vente ou si la date livraison demandée ne peut pas être respectée, alors la première date à laquelle les articles sont disponibles est calculée. Cette date est ensuite renseignée dans le champ **Date d’expédition** sur la ligne, et la date à laquelle vous prévoyez d’expédier les articles, ainsi que la date à laquelle ces derniers seront livrés au client sont calculées via les formules suivantes.
+Si vous ne spécifiez aucune date livraison demandée sur une ligne de commande vente ou si la date livraison demandée ne peut pas être respectée, alors la première date à laquelle les articles sont disponibles est calculée. Cette date est ensuite renseignée dans le champ **Date d’expédition** sur la ligne, et la date à laquelle vous prévoyez d’expédier les articles, ainsi que la date à laquelle ces derniers seront livrés au client sont calculées via les formules suivants :
 
 - *Date d’expédition + délai désenlogement = date d’expédition planifiée*
 - *Date livraison planifiée - délai d’expédition = date expédition planifiée*

@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Rapprocher les comptes bancaires avec Copilot (version préliminaire)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 Cet article explique comment utiliser l’assistance au rapprochement des comptes bancaires pour vous aider à rapprocher les transactions bancaires avec les écritures comptables dans Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## À propos de l’assistant de rapprochement bancaire
 
@@ -25,7 +27,7 @@ L’assistant de rapprochement bancaire est un ensemble de fonctionnalités bas�
 - Amélioration de la correspondance des transactions avec les écritures comptables
 
    Il se peut que vous connaissiez déjà l’action **Faire correspondre automatiquement** sur la page **Rapprochement bancaire** qui fait correspondre automatiquement la plupart des transactions bancaires avec les écritures comptables. Nous appelons cette opération *automatch*. Bien que la correspondance automatique fonctionne bien, les algorithmes utilisés peuvent parfois aboutir à de nombreuses transactions sans correspondance. Copilot utilise la technologie d’IA pour inspecter les transactions restantes et identifier davantage de correspondances, en fonction des dates, des montants et des descriptions. Par exemple, si plusieurs factures ont été payées en une seule fois par un client, Copilot rapproche la ligne de relevé bancaire unique avec les multiples écritures comptables des factures.
-   
+
    Accédez à [Rapprocher les comptes bancaires avec Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Comptes généraux suggérés
@@ -34,11 +36,9 @@ L’assistant de rapprochement bancaire est un ensemble de fonctionnalités bas�
   
    Accédez à [Transférer les transactions bancaires sans correspondance vers les comptes généraux suggérés](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Conditions préalables
 
-- L’assistance au rapprochement des comptes bancaires est activée. Cette tâche est effectuée par un administrateur. [En savoir plus sur l’activation des fonctionnalités Copilot et IA](enable-ai.md).
+- L’assistance au rapprochement des comptes bancaires est activée. Cette tâche est effectuée par un administrateur. [En savoir plus sur la configuration des fonctionnalités Copilot et IA](enable-ai.md).
 - Les comptes bancaires dans Business Central que vous souhaitez rapprocher sont liés à un compte bancaire en ligne ou configurés avec un format d’importation de relevé bancaire. 
 - Vous êtes familier avec le rapprochement des comptes bancaires dans Business Central, comme décrit dans [Rapprocher les comptes bancaires](bank-how-reconcile-bank-accounts-separately.md). 
 

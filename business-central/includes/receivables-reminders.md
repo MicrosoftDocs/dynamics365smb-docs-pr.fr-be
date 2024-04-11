@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. Vous pouvez également utiliser les relances pour calculer les intérêts de retard tels que les intérêts ou les frais et les inclure dans la relance.
+
+> [!TIP]
+> Les informations contenues dans cet article sont exactes, mais elles décrivent un processus essentiellement manuel. [!INCLUDE [prod_short](prod_short.md)] propose des outils que vous pouvez utiliser pour automatiser les processus de création, d’émission et d’envoi de rappels. L’automatisation de ces étapes peut vous faire gagner un temps considérable consacré aux collections. Pour en savoir plus, rendez-vous sur [Automatisez les rappels dans les collections](../finance-automate-reminders.md).
 
 Avant de pouvoir créer des relances, vous devez configurer des conditions relance et les affecter à vos clients. Pour plus d’informations, voir [Configurer les conditions et niveaux de relance](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Le contenu de la page **Conditions intérêts de retard** détermine si les intérêts sont calculés dans la relance.  
 

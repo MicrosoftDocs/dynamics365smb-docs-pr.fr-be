@@ -153,7 +153,7 @@ La table suivante répertorie les domaines fonctionnels où il peut y avoir des 
 |Planning |Demande achat, feuille planning et planification commande |
 |Entrepôt |Ordres transfert, expéditions en entrepôt, feuilles entrepôt, prélèvements, rangements et mouvements entrepôt, prélèvements et rangements internes, et feuilles création emplacement |
 |Assemblage |Documents d’assemblage, y compris les commandes, les retours et les commandes cadre |
-|Projets |Lignes planning projet et lignes feuille projet |
+|Projets |lignes planning projet et lignes feuille projet |
 |Service |Documents de service et contrats de service |
 |Fabrication |Ordres de fabrication (planifiés, et planifiés fermes et lancés) |
 

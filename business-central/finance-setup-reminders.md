@@ -6,30 +6,44 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Configurer les conditions et niveaux de relance
 
-Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+Vous pouvez utiliser des relances pour rappeler aux clients les soldes échus et demande paiement. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+
+> [!TIP]
+> Après avoir configuré les conditions et les niveaux de rappel, vous pouvez les inclure dans les processus automatisés de création, d’émission et d’envoi de rappels. Pour en savoir plus sur le processus automatisé, accédez à [Automatiser les rappels dans les collections](finance-automate-reminders.md).
 
 ## Conditions de relance
 
 Si des clients ont des impayés, vous devez décider quand et comment leur envoyer une relance. En outre, vous pouvez être amené à débiter leurs comptes d’intérêts ou de frais. Vous pouvez configurer autant de conditions relance que vous le souhaitez.  
 
 > [!NOTE]
-> Si vous souhaitez calculer les intérêts sur les paiements échus, vous pouvez le faire lorsque vous créez des relances. Cependant, si vous souhaitez calculer les intérêts et en informer vos clients sans envoyer de relances, utilisez les [factures d’intérêts](finance-setup-finance-charges.md). Pour plus d’informations, consultez [Relances](receivables-collect-outstanding-balances.md#reminders) ou [Frais financiers](receivables-collect-outstanding-balances.md#finance-charges), respectivement.
+> Si vous souhaitez calculer les intérêts sur les paiements échus, vous pouvez le faire lorsque vous créez des relances. Cependant, si vous souhaitez calculer les intérêts et en informer vos clients sans envoyer une relances, utilisez un [factures d’intérêts](finance-setup-finance-charges.md). Pour plus d’informations, consultez [Relances](receivables-collect-outstanding-balances.md#reminders) ou [Frais financiers](receivables-collect-outstanding-balances.md#finance-charges).
 
-### Pour configurer des conditions de relance
+### Configurer les textes des pièces jointes et du corps des e-mails pour les communications
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
+Sur la page **Configuration des conditions de rappel** , vous pouvez configurer les textes des pièces jointes et les e-mails standard à utiliser soit pour tous les niveaux de rappel, soit créer des messages spécifiques pour chaque niveau. Par exemple, le message que vous envoyez pour le premier niveau de rappel peut avoir un ton ou un contenu différent de celui du deuxième ou du troisième. Pour créer des pièces jointes et des textes de messages électroniques pour tous les niveaux, choisissez **Communication client** en haut de la page. Pour créer des messages pour des lignes spécifiques, sur l’onglet rapide **Niveau de rappel** , choisissez une ligne, puis choisissez la **Communication client** action sur le raccourci.
+
+Par défaut, les textes des pièces jointes et des e-mails utilisent votre paramètre de langue. Toutefois, si vous envoyez des rappels à des clients dans d’autres pays, vous souhaiterez peut-être communiquer dans différentes langues. Vous pouvez créer des textes pour chaque langue [!INCLUDE [prod_short](includes/prod_short.md)] prise en charge en utilisant l’action **Ajouter du texte pour la langue** . Si vous le faites, assurez-vous que les langues sont les mêmes pour les textes des pièces jointes et les textes des e-mails. S’ils ne correspondent pas et que le terme de rappel comporte plusieurs niveaux, l’automatisation risque de ne pas être en mesure de personnaliser le message pour un ou plusieurs niveaux. Pour vérifier que les langues correspondent, utilisez l’action **Aperçu des communications** et comparez les communications pour les textes.
+
+Lorsque vous envoyez un e-mail, le rappel est un rapport que vous joignez à l’e-mail. Vous définissez le rapport qui génère le rappel sur la page **Rappel de sélection de rapport/frais financiers** , où vous sélectionnez également le rapport contenant le texte du corps de l’e-mail dans le **Champ Nom de la présentation du corps de l’e-mail** . Lorsque vous envoyez des e-mails à vos clients, les textes du **Texte de l’e-mail** FastTab sont insérés dans le rapport sélectionné dans le **Nom de la présentation du corps de l’e-mail** champ. Le rapport standard comporte un champ de texte pour ce texte. Si vous le souhaitez, vous pouvez modifier ce rapport, par exemple pour ajouter ou supprimer du contenu. Modifiez la mise en page de ces rapports sur la page **Mise en page des rapports** . Pour en savoir plus sur les présentations de rapport, accédez à [Commencez à créer des présentations de rapport](ui-get-started-layouts.md).
+
+> [!NOTE]
+> Pour communiquer par e-mail directement depuis [!INCLUDE [prod_short](includes/prod_short.md)] , vous devez être configuré pour le faire. Pour en savoir plus sur la connexion des comptes e-mails avec [!INCLUDE [prod_short](includes/prod_short.md)], consultez [Configurer e-mail](admin-how-setup-email.md).
+
+### Configurer des conditions de relance
+
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Conditions de relance**, puis sélectionnez le lien associé.  
 2. Renseignez les champs selon vos besoins. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Pour utiliser plusieurs combinaisons de conditions de relance, créez un code pour chacun d’eux.
 
 ## Niveaux relance
 
-Vous pouvez définir un nombre illimité de niveaux de relance pour chaque code de condition de relance. La première fois qu’une relance est créée pour un client, le paramétrage utilisé est celui du niveau 1. Lorsque la relance est émise, le numéro du niveau est enregistré dans les écritures relance qui sont créées et associées à l’écriture comptable client spécifique. S’il est nécessaire de relancer le client, toutes les écritures comptables relance associées aux écritures comptables client ouvertes sont vérifiées afin de localiser le numéro de niveau le plus élevé. Les conditions du niveau suivant seront alors utilisées pour la nouvelle relance.
+Pour chaque terme de rappel, vous pouvez définir un nombre illimité de niveaux de rappel, même si la plupart des entreprises n’utilisent que deux ou trois niveaux. La première fois qu'une relance est créée pour un client, le paramétrage utilisé est celui du niveau 1. Lorsque la relance est émise, le numéro du niveau est enregistré dans les écritures relance qui sont créées et associées à l’écriture comptable client spécifique. S’il est nécessaire de relancer le client, toutes les écritures comptables relance associées aux écritures comptables client ouvertes sont vérifiées afin de localiser le numéro de niveau le plus élevé. Les conditions du niveau suivant seront alors utilisées pour la nouvelle relance.
 
 Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions utilisées seront celles du niveau le plus élevé. Vous pouvez utiliser autant de relances que le champ **Nombre max. de relances** des conditions relance le permet.
 
@@ -67,7 +81,7 @@ Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions u
     Pour chaque niveau relance, vous pouvez indiquer le texte à imprimer avant (**Texte début**) ou après (**Texte fin**) les écritures de la relance.
 
 6. Choisissez les actions **Texte de début** ou **Texte de fin** respectivement, puis renseignez la page **Texte relance**.
-7. Pour insérer automatiquement des valeurs correspondantes dans le texte de relance résultant, entrez les espaces réservés suivants dans le champ **Texte**.  
+7. Pour insérer automatiquement des valeurs correspondantes dans le texte de relance, entrez les espaces réservés suivants dans le champ **Texte**.  
 
     |Paramètre substituable|Valeur|  
     |-----------------|-----------|  
@@ -84,12 +98,14 @@ Si vous créez plus de relances qu'il n'y a de niveaux relance, les conditions u
     |%11|Nom de la société|  
     |%12|Contenu du champ **Frais supplémentaires par ligne** de l’en-tête de relance|  
 
-    Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2.**, la relance résultante contiendra le texte suivant : Vous devez **1 200,50 USD dus au 02/02/2014.**.
+    Par exemple, si vous saisissez **Vous devez %9 %7 dus au %2**, la relance contient le texte suivant : **Vous devez 1 200,50 USD dus au 02/02/2024.**.
 
     > [!NOTE]
-    > La date d’échéance est calculée selon la formule de date que vous saisissez. Pour plus d’informations, voir [Utiliser des formules date](ui-enter-date-ranges.md#use-date-formulas).
+    > [!INCLUDE [prod_short](includes/prod_short.md)] La date d’échéance est calculée selon la formule de date que vous saisissez. Pour plus d’informations, voir [Utiliser des formules date](ui-enter-date-ranges.md#use-date-formulas).
 
-Si vous avez configuré les conditions relance (avec des niveaux et du texte supplémentaires), saisissez l’un des codes sur chaque fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
+8. Pour spécifier la langue d’un e-mail, choisissez l’action **Ajouter du texte pour la langue** . Le champ **Code de langue** est mis à jour pour afficher votre sélection. Sur l’onglet rapide **Texte de l’e-mail** , saisissez le contenu du message dans la langue sélectionnée.
+
+Après avoir configuré les conditions de rappel, vous pouvez les attribuer aux clients sur les pages Fiche client. Pour plus d’informations, reportez vous à [Enregistrer de nouveaux clients](sales-how-register-new-customers.md).  
 
 ## Voir aussi
 

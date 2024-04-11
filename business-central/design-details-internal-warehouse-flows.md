@@ -1,6 +1,6 @@
 ---
-title: 'Détails de conception - Flux pour la production, l’assemblage et les tâches'
-description: 'Découvrez le flux entre les emplacements d’entrepôt pour le prélèvement des composants et le rangement des articles finis pour l’assemblage, la production ou les ordres de travail.'
+title: 'Détails de conception - Flux pour la production, l’assemblage et les projets'
+description: 'Découvrez le flux entre les emplacements d’entrepôt pour le prélèvement des composants et le rangement des articles finis pour l’assemblage, la production ou les ordres de projet.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -11,31 +11,31 @@ ms.custom: bap-template
 ---
 # Flux pour la production, l’assemblage et les tâches
 
-Les flux internes, tels que le prélèvement de composants et le rangement des articles finis pour l’assemblage, les tâches et les ordres de fabrication, sont similaires aux flux entrants ou sortants. Ainsi, de nombreux processus peuvent sembler familiers. Cet article fournit des informations sur l’utilisation des flux d’entrepôt internes avec différents niveaux de complexité.
+Les flux internes, tels que le prélèvement de composants et le rangement des articles finis pour l’assemblage, les projet et les ordres de fabrication, sont similaires aux flux entrants ou sortants. Ainsi, de nombreux processus peuvent sembler familiers. Cet article fournit des informations sur l’utilisation des flux d’entrepôt internes avec différents niveaux de complexité.
 
 ## Aperçu des différentes options de configuration
 
-Vous pouvez configurer les fonctionnalités d’entrepôt de différentes manières. Il est important que les options que vous choisissez améliorent vos processus sans entraîner de surcharge. Les tableaux suivants décrivent les configurations typiques de traitement des biens physiques pour la production, les tâches et les ordres d’assemblage.
+Vous pouvez configurer les fonctionnalités d’entrepôt de différentes manières. Il est important que les options que vous choisissez améliorent vos processus sans entraîner de surcharge. Les tableaux suivants décrivent les configurations typiques de traitement des biens physiques pour la production, les projet et les ordres d’assemblage.
 
 ### Flux entrant (rangement)
 
-|Niveau de complexité|Description|Paramètres|Code emplacement|Flux entrant de l’ordre de fabrication|Flux entrant de l’ordre d’assemblage|Flux entrant de tâches|  
+|Niveau de complexité|Description|Paramètres|Code emplacement|Flux entrant de l’ordre de fabrication|Flux entrant de l’ordre d’assemblage|Flux entrant de projet|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Aucune activité entrepôt dédiée.|Validation à partir des ordres et des feuilles.||Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Feuille production -> Feuille sortie</br><br/> **REMARQUE** : Vous pouvez valider la sortie à l’aide de la **Feuille production**.|Ordre d’assemblage|Le rangement ne s’applique pas aux tâches|  
-|Basique|Commande par commande.|Rangement requis. </br><br/> **REMARQUE** : bien que le paramètre soit appelé **Rangement requis**, vous pouvez toujours publier la sortie des documents origine aux emplacements où vous cochez cette case. |Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Ordre de fabrication -> Rangement stock|Ordre d’assemblage|Le rangement ne s’applique pas aux tâches|
-|Avancé|Activités de rangement regroupées pour plusieurs documents origines.|Réception requise + Rangement requis|Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Ordre(s) de fabrication -> Feuille sortie|Ordre(s) d’assemblage -> mouvements internes | Le rangement ne s’applique pas aux tâches|
-|Avancé|Comme ci-dessus + activités de prélèvement/rangement dirigées|Prélèvement et rangement dirigés (les boutons à bascule dépendants seront activés automatiquement)|Obligatoire|Comme ci-dessus|Comme ci-dessus| Le rangement ne s’applique pas aux tâches|
+|Aucune activité entrepôt dédiée.|Validation à partir des ordres et des feuilles.||Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Feuille production -> Feuille sortie</br><br/> **REMARQUE** : Vous pouvez valider la sortie à l’aide de la **Feuille production**.|Ordre d’assemblage|Le rangement ne s’applique pas aux projet|  
+|Basique|Commande par commande.|Rangement requis. </br><br/> **REMARQUE** : bien que le paramètre soit appelé **Rangement requis**, vous pouvez toujours publier la sortie des documents origine aux emplacements où vous cochez cette case. |Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Ordre de fabrication -> Rangement stock|Ordre d’assemblage|Le rangement ne s’applique pas aux projet|
+|Avancé|Activités de rangement regroupées pour plusieurs documents origines.|Réception requise + Rangement requis|Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Ordre(s) de fabrication -> Feuille sortie|Ordre(s) d’assemblage -> mouvements internes | Le rangement ne s’applique pas aux projet|
+|Avancé|Comme ci-dessus + activités de prélèvement/rangement dirigées|Prélèvement et rangement dirigés (les boutons à bascule dépendants seront activés automatiquement)|Obligatoire|Comme ci-dessus|Comme ci-dessus| Le rangement ne s’applique pas aux projet|
 
 Certaines configurations ne vous permettent pas d’utiliser des documents d’entrepôt dédiés pour enregistrer les rangements. Toutefois, si votre site utilise des emplacements, vous pouvez utiliser des documents de mouvement génériques pour déplacer les articles produits ou assemblés vers l’entrepôt. Learn more at [Déplacement des articles en interne dans les configurations entrepôt de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
 ### Flux sortant (prélèvement)
 
-|Niveau de complexité|Description|Paramètres|Code emplacement|Flux sortant de l’ordre de fabrication|Flux sortant de l’ordre d’assemblage|Flux sortant de tâches|  
+|Niveau de complexité|Description|Paramètres|Code emplacement|Flux sortant de l’ordre de fabrication|Flux sortant de l’ordre d’assemblage|Flux sortant de projet|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Aucune activité entrepôt dédiée.|Validation à partir des ordres et des feuilles.||Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Feuille production -> Feuille consommation </br><br/> **REMARQUE** : Vous pouvez valider la consommation à l’aide de la **Feuille production**.|Ordre d’assemblage|Tâche -> Feuille projet|  
-|Basique|Commande par commande.|Prélèvement requis. </br><br/> **REMARQUE** : bien que le paramètre soit appelé **Prélèvement requis**, vous pouvez toujours publier la sortie des documents origine aux emplacements où vous cochez cette case. <!-- ToDo Test prod output-->|Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Ordre de fabrication -> Prélèvement stock|Ordre de fabrication -> mouvement de stock</br><br/>Le **Mouvement de stock** ne peut être utilisé qu’avec des emplacements.|Tâche -> Prélèvement stock|
-|Avancé|Activités de prélèvement regroupées pour plusieurs documents origines.|Expédition requise + Prélèvement requis|Facultatif. Contrôlé par le bouton à bascule Code emplacement obligatoire|Ordre(s) de fabrication ->Prélèvement entrepôt -> Feuille consommation |Ordre(s) d’assemblage -> Prélèvement entrepôt| Tâche(s) -> Prélèvement entrepôt -> Feuille projet |
-|Avancé|Comme ci-dessus + activités de prélèvement/rangement dirigées|Prélèvement et rangement dirigés (les boutons à bascule dépendants seront activés automatiquement)|Obligatoire|Comme ci-dessus|Comme ci-dessus| Le prélèvement et le rangement dirigés ne sont pas pris en charge pour les tâches|
+|Aucune activité entrepôt dédiée.|Validation à partir des ordres et des feuilles.||Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Feuille production -> Feuille consommation </br><br/> **REMARQUE** : Vous pouvez valider la consommation à l’aide de la **Feuille production**.|Ordre d’assemblage|Projet -> Feuilles projet|  
+|Basique|Commande par commande.|Prélèvement requis. </br><br/> **REMARQUE** : bien que le paramètre soit appelé **Prélèvement requis**, vous pouvez toujours publier la sortie des documents origine aux emplacements où vous cochez cette case. <!-- ToDo Test prod output-->|Facultatif. Contrôlé par le bouton à bascule **Code emplacement obligatoire**.|Ordre de fabrication -> Prélèvement stock|Ordre de fabrication -> mouvement de stock</br><br/>Le **Mouvement de stock** ne peut être utilisé qu’avec des emplacements.|Projet -> Prélèvement stock|
+|Avancé|Activités de prélèvement regroupées pour plusieurs documents origines.|Expédition requise + Prélèvement requis|Facultatif. Contrôlé par le bouton à bascule Code emplacement obligatoire|Ordre(s) de fabrication ->Prélèvement entrepôt -> Feuille consommation |Ordre(s) d’assemblage -> Prélèvement entrepôt| Projet(s) -> Prélèvement entrepôt -> Feuille projet |
+|Avancé|Comme ci-dessus + activités de prélèvement/rangement dirigées|Prélèvement et rangement dirigés (les boutons à bascule dépendants seront activés automatiquement)|Obligatoire|Comme ci-dessus|Comme ci-dessus| Le prélèvement et le rangement dirigés ne sont pas pris en charge pour les projets|
 
 Comme pour le flux entrant, certaines configurations ne vous permettent pas d’utiliser des documents d’entrepôt dédiés pour enregistrer les rangements. Si votre site utilise des emplacements, vous pouvez utiliser des documents de mouvement génériques pour déplacer les articles produits ou assemblés. Learn more at [Déplacement d’articles](warehouse-move-items.md).
 
@@ -44,7 +44,7 @@ Comme pour le flux entrant, certaines configurations ne vous permettent pas d’
 Même si vous n’avez pas d’activités d’entrepôt dédiées, vous souhaiterez probablement toujours suivre des éléments tels que la consommation et la production. Les articles suivants fournissent des informations sur le traitement des réceptions pour les documents origine.
 
 * [Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé](production-how-to-register-consumption-and-output.md)
-* [Assembler des articles](assembly-how-to-assemble-items.md)
+* [Assemblage des articles](assembly-how-to-assemble-items.md)
 * [Enregistrer la consommation ou l′utilisation pour les projets](projects-how-record-job-usage.md)
 
 ## Configuration d’entrepôt de base
@@ -83,9 +83,9 @@ Pour les sites qui utilisent des emplacements :
 
 ### Flux pour la gestion de projet dans une configuration d’entrepôt de base
 
-Utilisez les documents **Prélèvement stock** pour sélectionner les composants de la tâche dans le flux vers la gestion de projet.
+Utilisez les documents **Prélèvement stock** pour sélectionner les composants projet dans le flux vers la gestion de projet.
 
-Pour un site qui utilise des emplacements, le champ **Code emplacement vers projet** sur l’emplacement définit les flux par défaut vers la gestion de projet.
+Pour un site qui utilise des emplacements, le champ **Code emplacement projet** sur l’emplacement définit les flux par défaut vers la gestion de projet.
 
 ## Configurations d’entrepôt avancées  
 
@@ -121,7 +121,7 @@ L’assemblage pour stock fait partie du flux interne de l’entrepôt et l’as
 
 Utilisez les documents **Prélèvement entrepôt** et la page **Feuille prélèvement** pour prélever des composants dans le flux pour la gestion de projet.
 
-Pour les site qui utilisent des emplacements, le champ **Code emplacement vers projet** sur l’emplacement définit les flux par défaut vers la zone du projet.
+Pour les site qui utilisent des emplacements, le champ **Code emplacement projet** sur l’emplacement définit les flux par défaut vers la zone du projet.
 
 ## Voir aussi  
 

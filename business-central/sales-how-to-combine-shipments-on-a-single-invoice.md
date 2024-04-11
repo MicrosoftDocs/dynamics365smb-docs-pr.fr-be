@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Regroupement de bons de livraison sur une seule facture
+# Regroupement de B.L. sur une seule facture
 
 Si vous souhaitez facturer plusieurs bons de livraison à la fois, vous pouvez utiliser la fonction de regroupement des bons de livraison.  
 
@@ -26,7 +26,7 @@ Pour créer un regroupement de bons de livraison, plusieurs bons de livraison ve
     - Pour insérer toutes les lignes, sélectionnez-les toutes et sélectionnez le bouton **OK**.  
     - Pour insérer des lignes spécifiques, sélectionnez-les et sélectionnez le bouton **OK**. Vous pouvez utiliser la touche Ctrl pour sélectionner plusieurs lignes qui ne sont pas séquentielles.  
 
-    Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez simplement les lignes de la facture, puis exécutez de nouveau la fonction **Extraire lignes expédition**.  
+    Si une ligne expédition incorrecte a été sélectionnée ou si vous voulez recommencer, supprimez les lignes de la facture, puis réexécutez la fonction **Extraire lignes expédition**.  
 7. Pour valider la facture, sélectionnez l’action **Valider**.  
 
 > [!TIP]  

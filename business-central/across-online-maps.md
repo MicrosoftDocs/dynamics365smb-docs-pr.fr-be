@@ -16,7 +16,7 @@ Vous pouvez obtenir une carte depuis votre service de cartes en ligne indiquant 
 * Fiche client
 * Fiche fournisseur
 * Fiche ressource
-* Fiche suiveuse
+* Fiche projet
 * Fiche compte bancaire
 * Fiche contact
 * Fiche salarié

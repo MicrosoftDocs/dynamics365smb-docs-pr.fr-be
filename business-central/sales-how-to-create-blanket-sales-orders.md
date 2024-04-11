@@ -1,17 +1,17 @@
 ---
 title: Utiliser des Commandes cadres vente ou des commandes achat
-description: Utilisez des commandes ouvertes quand un client a accepté d’acheter de grandes quantités à livrer en plusieurs expéditions de petite taille au cours d’une période déterminée. La même chose s’applique aux achats.
+description: Utilisez des commandes ouvertes quand un client a accepté d'acheter de grandes quantités à livrer en plusieurs expéditions de petite taille au cours d'une période déterminée. La même chose s’applique aux achats.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Utiliser des Commandes cadres vente ou des commandes cadres achat
 
-Une commande ouverte vente représente le cadre d’un accord à long terme entre votre client et vous. De même, vous utilisez des commandes cadre achat pour gérer les contrats à long terme entre vous et votre fournisseur.
+Une commande ouverte vente représente le cadre d'un accord à long terme entre votre client et vous. De même, vous utilisez des commandes cadre achat pour gérer les contrats à long terme entre vous et votre fournisseur.
 
 Une commande ouverte est généralement établie quand un client s’est engagé à acheter de grandes quantités à livrer en plusieurs expéditions de plus petite taille au cours d’une période déterminée. Souvent, les commandes ouvertes ne portent que sur un seul article avec des dates de livraison prédéterminées. La principale raison d'utiliser une commande ouverte plutôt qu'une commande vente est que les quantités entrées dans une commande ouverte n'affectent pas la disponibilité de l'article et peuvent donc être utilisées comme une feuille à des fins de surveillance, de précision et de planification.
 
@@ -33,7 +33,7 @@ Vous pouvez utiliser une commande ouverte vente, par exemple, lorsqu’un client
 ## Pour créer une commande vente à partir d’une commande ouverte vente  
 
 1. Pour créer une commande pour l’une des lignes de la commande vente en cours, effacez la quantité du champ **Qté à expédier** de toutes les lignes que vous ne voulez pas expédier actuellement.  
-2. Lorsque vous êtes prêt à créer les commandes, sélectionnez **Créer commande**, puis **Oui**. Un message s’affiche, vous informant que la commande ouverte a été associée à un numéro de commande. Remarquez que la commande ouverte n’a pas été supprimée.  
+2. Lorsque vous êtes prêt à créer les commandes, sélectionnez **Créer commande**, puis **Oui**. Un message s'affiche, vous informant que la commande ouverte a été associée à un numéro de commande. Remarquez que la commande ouverte n’a pas été supprimée.  
 3. Cliquez sur le bouton **OK**.  
 4. Pour afficher les résultats des étapes précédentes, sélectionnez l’action **Ligne**, l’action **Lignes non validées**, puis l’action **Commandes**.  
 5. Sur la page **Lignes vente**, sélectionnez la commande vente appropriée, l’action **Ligne**, puis l’action **Afficher document**.  
@@ -44,7 +44,7 @@ Ce qui suit s’applique aux commandes vente après leur création à partir de 
 - N'oubliez pas que la quantité de la ligne commande vente ne peut pas dépasser celle de la ligne commande ouverte associée. Sinon, la validation de la commande vente est impossible.  
 - Lorsque la commande vente est validée comme expédiée et/ou facturée, les champs **Qté expédiée** et **Quantité facturée** sont mis à jour sur la commande ouverte concernée.  
 - Le numéro de commande ouverte et un numéro de ligne sont enregistrés comme propriétés des lignes vente en cas de création à partir d’une commande ouverte.  
-- Si les commandes vente ne sont pas créées directement depuis la commande ouverte mais ont trait à celle\-ci, il est possible de créer un lien entre une commande vente et une commande ouverte en entrant le numéro de commande ouverte associé dans le champ **N° commande ouverte** sur la ligne de commande vente.  
+- Si les commandes vente ne sont pas créées directement depuis la commande ouverte mais ont trait à celle-ci, il est possible de créer un lien entre une commande vente et une commande ouverte en entrant le numéro de commande ouverte associé dans le champ **N° commande ouverte** sur la ligne de commande vente.  
 - Une fois la commande vente créée pour la quantité totale d’une ligne commande ouverte, aucune autre commande vente ne peut être créée pour la même ligne. Les utilisateurs ne peuvent plus entrer de quantité dans le champ **Qté à expédier**. Toutefois, si des quantités supplémentaires doivent être ajoutées à une commande ouverte, il est possible d’augmenter la valeur du champ **Quantité** et de créer des commandes supplémentaires.  
 - La commande ouverte vente facturée reste dans le système jusqu’à ce qu’elle soit supprimée, soit en supprimant les commandes ouvertes individuelles, soit en exécutant le traitement par lots **Suppr. cdes vente ouv. fact.**.  
 - Si un client est également enregistré comme contact dans le module Marketing et si vous avez spécifié un code modèle interaction pour les commandes vente ouvertes sur la page **Paramètres Marketing**, lorsque vous sélectionnez **Imprimer** pour imprimer la commande vente ouverte, une interaction est enregistrée automatiquement dans la table Écriture journal interaction.

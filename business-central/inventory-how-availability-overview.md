@@ -7,11 +7,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Voir la disponibilité des articles
+# Afficher la disponibilité des articles
 
 Dans le contexte d’une tâche professionnelle, vous pouvez obtenir des informations avancées sur la disponibilité et l’emplacement d’un article, par exemple en discutant avec un client à propos d’une date de livraison.
 
@@ -59,7 +59,7 @@ Vous pouvez visualiser la disponibilité d’un article dans le temps pour les p
 
 Vous pouvez afficher la disponibilité d’un article dans les magasins dans lesquels il est stocké sur la page **Disponibilité art. par magasin**.
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis choisissez le lien associé.
 2. Ouvrez la fiche d’un article dont vous voulez afficher la disponibilité.
 3. Cliquez sur **Disponibilité article par**, puis sur **Magasin**.
 
@@ -127,7 +127,7 @@ La page **Disponibilité assemblage** affiche des informations de disponibilité
 
 - Automatiquement à partir d’une ligne commande vente dans les scénario Assembler pour commande lorsque vous entrez une quantité à l’origine d’un problème de disponibilité des composants.
 - Automatiquement à partir d’un en-tête d’ordre d’assemblage lorsque vous entrez une valeur dans le champ Quantité à l’origine d’un problème de disponibilité des composants.
-- Manuellement lorsque vous l’ouvrez à partir d’un ordre d’assemblage. Sur l’onglet Actions , dans le groupe Fonctions, cliquez sur Afficher disponibilité.
+- Manuellement lorsque vous l’ouvrez à partir d’un ordre d’assemblage. Sur l’onglet Actions , dans le groupe Fonctions, Sélectionner Afficher disponibilité.
 
 Le raccourci **Détails** affiche des informations de disponibilité détaillées pour l’élément d’assemblage, dont la part de la quantité d’ordre d’assemblage pouvant être assemblée d’ici la date d’échéance sur la base de la disponibilité des composants requis. Cela s’affiche dans le champ Capacité d’assembler sur le raccourci Détails .
 

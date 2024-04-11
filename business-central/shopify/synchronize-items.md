@@ -1,12 +1,12 @@
 ---
 title: Synchroniser les articles et le stock
 description: Configurer et exécuter des synchronisations d’articles entre Shopify et Business Central
-ms.date: 11/17/2023
+ms.date: 02/28/2024
 ms.topic: article
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.collection:
   - bap-ai-copilot
 ---
@@ -50,30 +50,8 @@ Tout d’abord, importiez les articles de Shopify en bloc ou en même temps que 
 |**Séparateur de champ de point de stock**|Utilisez-le avec **Mappage point de stock** défini sur **[N° article + Code variante](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Définissez un séparateur qui doit servir à diviser le point de stock.<br>Par exemple, si, dans Shopify, vous créez la variante avec le point de stock 1000/001, tapez « / » dans le champ **Séparateur de champ de point de stock** pour obtenir le numéro d’article dans [!INCLUDE[prod_short](../includes/prod_short.md)] comme 1000 et le code variante article comme 001. Notez que si vous créez la variante avec le SKU "1000/001/111" dans Shopify, le numéro d’article dans [!INCLUDE[prod_short](../includes/prod_short.md)] sera "1000" et le code de variante d’article "001". La partie "111" est ignorée. |
 |**Préfixe variante**|Utilisez avec le paramètre **Mappage point de stock** défini sur **Code variante** ou **N° article + Code variante** comme stratégie de secours lorsque le point de stock provenant de Shopify est vide.<br>Pour créer la variante article dans [!INCLUDE[prod_short](../includes/prod_short.md)] automatiquement, saisissez une valeur dans **Code**. Par défaut, la valeur définie dans le champ Point de stock importé de Shopify est utilisée. Cependant, si le point de stock est vide, il génère le code commençant par le préfixe de la variante défini et 001.|
 |**Shopify peut mettre à jour l’article**|Choisissez cette option pour mettre à jour les articles et/ou les variantes automatiquement.|
-
-### Effet des points de stock et codes à barres dans le produit Shopify sur le mappage et la création d’articles et de variantes dans Business Central
-
-Lorsque les produits sont importés de Shopify vers les tableaux **Produits Shopify** et **Variantes Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de trouver les enregistrements existants.
-
-Le tableau suivant présente les différentes options du champ **Mappage point de stock**.
-
-|Option|Effet sur le mappage|Effet sur la création|
-|------|-----------------|------------------|
-|**Vide**|Le champ Point de stock n’est pas utilisé dans la routine de mappage des articles.|Aucun effet sur la création de l’article.<br>Cette option empêche la création de variantes. Lorsque, dans la commande client, seul l’article principal est utilisé. Une variante peut toujours être mappée manuellement à partir de la page **Produit Shopify**.|
-|**N° article**|Choisissez si le champ Point de stock contient le numéro d’article|Aucun effet sur la création de l’article sans les variantes. Pour un article avec des variantes, chaque variante est créée comme un article séparé.<br>Si Shopify a un produit avec deux variantes et que leurs points de stock sont 1000 et 2000, le système [!INCLUDE[prod_short](../includes/prod_short.md)] crée deux articles avec les numéros 1000 et 2000.|
-|**Code variante**|Le champ Point de stock n’est pas utilisé dans la routine de mappage des articles.|Aucun effet sur la création de l’article. Si une variante article est créée, la valeur du champ Point de stock est utilisée comme code. Si le point de stock est vide, un code est généré en utilisant le champ **Préfixe variante**.|
-|**N° article + Code variante**|Sélectionnez si le champ Point de stock contient un numéro d’article et le code variante article séparés par la valeur définie dans le champ **Séparateur de champ de point de stock**.|Lorsqu’un article est créé, la première partie de la valeur du champ Point de stock est utilisée comme **N°**. Si le point de stock est vide, un numéro d’article est généré en utilisant une série de numéros définie dans le champ **Code modèle article** ou **N° article** de la page **Paramètres stock**.<br>Lorsqu’un article est créé, la fonction variante utilise la seconde partie de la valeur du champ Point de stock comme **Code**. Si le champ du point de stock est vide, un code est généré en utilisant le champ **Préfixe variante**.|
-|**Référence fournisseur**|Choisissez si le champ Point de stock contient le numéro d’article du fournisseur. Dans ce cas, le **Numéro du fournisseur de l’article** n’est pas utilisé sur la page **Fiche article** ; le **Numéro d’article du fournisseur** du **Catalogue des fournisseurs d’articles** est plutôt utilisé. Si l’enregistrement *Catalogue fournisseur articles* trouvé contient un code variante, ce dernier est utilisé pour mapper la variante Shopify.|Si un fournisseur correspondant existe dans [!INCLUDE[prod_short](../includes/prod_short.md)], la valeur de point de stock sert de **Référence fournisseur** dans **Fiche Article** et comme **Référence article** de type *Fournisseur*. <br>Empêche la création de variantes. Utile pour utiliser l’article principal uniquement dans la commande vente. Vous pouvez toujours mapper une variante manuellement à partir de la page **Produit Shopify**.|
-|**Code à barres**|Choisissez si le champ Point de stock contient un code à barres. Une recherche est effectuée sur les **Références articles** de type *code-barres*. Si l’enregistrement Référence article trouvé contient un code variante, ce dernier est utilisé pour mapper la variante Shopify.|Aucun effet sur la création de l’article. <br>Empêche la création de variantes. Utile pour utiliser l’article principal uniquement dans la commande vente. Vous pouvez toujours mapper une variante manuellement à partir de la page **Produit Shopify**.|
-
-Le tableau suivant donne les effets du champ **Code à barres**.
-
-|Effet sur le mappage|Effet sur la création|
-|-----------------|------------------|
-|Une recherche est effectuée parmi les **Références articles** de type Code à barres sur la valeur définie dans le champ **Code à barres** dans Shopify. Si l’enregistrement Référence article trouvé contient un code variante, ce dernier est utilisé pour mapper la variante Shopify.|Le code à barres est enregistré comme **Référence article** pour l’article et la variante article.|
-
-> [!NOTE]  
-> Vous pouvez déclencher le mappage pour le produit/les variantes sélectionnés ou tous les produits non mappés importés en choisissant **Essayer de rechercher le mappage du produit** (pour le produit/les variantes sélectionnés) ou **Essayer de rechercher des mappages**.
+|**Unité en tant que variante**| Choisissez cette option si vous souhaitez que toutes les unités de mesure des articles soient exportées sous forme de variantes distinctes. Ajoutez le champ via la personnalisation. Pour en savoir plus, consultez la section [Unité de mesure en tant que variante](synchronize-items.md#unit-of-measure-as-variant) .|
+|**Nom d’option de variante pour l’unité**| Utilisez ce champ avec **UdM comme variante** pour spécifier sous quelle option ajouter des variantes qui représentent des unités de mesure. La valeur par défaut est *Unité de mesure*. Ajoutez le champ via la personnalisation.|
 
 ## Exporter les articles dans Shopify
 
@@ -101,6 +79,37 @@ Les paramètres suivants permettent de gérer l’exportation des articles :
 |**Suivi stock**| Choisissez comment le système remplit le champ **Suivi stock** pour les produits exportés dans Shopify. Vous pouvez mettre à jour les informations de disponibilité à partir de [!INCLUDE[prod_short](../includes/prod_short.md)] pour les produits dans Shopify pour lesquels le suivi stock est activé. Consultez la section [Stock](synchronize-items.md#sync-inventory-to-shopify).|
 |**Stratégie de stock par défaut**|Choisissez *Refuser* pour éviter tout stock négatif du côté de Shopify. <br>Si **Peut mettre à jour les produits Shopify** est activé, les modifications dans le champ **Stratégie de stock par défaut** sont propagées à Shopify après la prochaine synchronisation pour tous les produits et variantes répertoriés dans la page **Produits Shopify** pour le magasin sélectionné.|
 |**Possibilité de mettre à jour les produits Shopify**|Définissez ce champ si [!INCLUDE[prod_short](../includes/prod_short.md)] peut uniquement créer des articles ou peut également les mettre à jour. Sélectionnez cette option si, après la synchronisation initiale déclenchée par l’action **Ajouter un article**, vous prévoyez de mettre à jour les produits manuellement en utilisant l’action **Synchroniser le produit** ou via la file d’attente des tâches pour les mises à jour récurrentes. N’oubliez pas de sélectionner **À Shopify** dans le champ **Synchronisation article**.<br>**Peut mettre à jour les produits Shopify** n’a pas d’impact sur la synchronisation des prix, des images ou des niveaux d’inventaire, qui sont configurés par des contrôles indépendants.<br>Si **Peut mettre à jour les produits Shopify** est activée, les champs suivants du côté Shopify seront mis à jour au niveau du produit et, si nécessaire, au niveau de la variante : **SKU**, **Code-barres**, **Poids**. Les champs **Titre**, **Type de produit**, **Fournisseur** et **Description** du produit seront également mis à jour si les valeurs exportées ne sont pas vides. Pour la description, cela signifie que vous devez activer l’un des boutons à bascule **Synchroniser texte étendu article**, **Synchroniser texte marketing article** et **Synchroniser les attributs d’articles** et les attributs, le texte étendu ou marketing doivent avoir des valeurs. Si le produit utilise des variantes, la variante est ajoutée ou supprimée si nécessaire. <br>Si le produit sur Shopify est configuré pour utiliser une matrice de variantes combinant deux options ou plus, le connecteur Shopify ne peut pas créer de variante pour ce produit. Dans [!INCLUDE[prod_short](../includes/prod_short.md)] il n’y a aucun moyen de définir une matrice d’options ; c’est pourquoi le connecteur utilise le **code variante** comme seule option. Cependant, Shopify attend plusieurs options et refuse de créer une variante si les informations sur la deuxième option et les autres options sont manquantes. |
+|**Unité en tant que variante**| Choisissez cette option si vous souhaitez que certaines options soient exportées comme importées sous forme d’unités de mesure plutôt que de variantes. Ajoutez le champ via la personnalisation. Pour en savoir plus, consultez la section [Unité de mesure en tant que variante](synchronize-items.md#unit-of-measure-as-variant) .|
+|**Nom d’option de variante pour l’unité**| Utilisez ce champ avec **UdM comme variante** pour spécifier quelle option contient des variantes qui représentent des unités de mesure. La valeur par défaut est *Unité de mesure*. Ajoutez le champ via la personnalisation.|
+
+> [!NOTE]
+> Lorsque vous souhaitez exporter de nombreux éléments et variantes, certains peuvent être bloqués. Vous ne pouvez pas inclure les articles et variantes bloqués dans les calculs de prix. Ils ne sont donc pas exportés. Le connecteur ignore ces éléments et variantes, vous n’avez donc pas besoin de les filtrer sur la page **Ajouter un élément à Shopify** de la demande.
+
+## Détails avancés
+
+### Effet des points de stock et codes à barres dans le produit Shopify sur le mappage et la création d’articles et de variantes dans Business Central
+
+Lorsque les produits sont importés de Shopify vers les tableaux **Produits Shopify** et **Variantes Shopify**, [!INCLUDE[prod_short](../includes/prod_short.md)] tente de trouver les enregistrements existants.
+
+Le tableau suivant présente les différentes options du champ **Mappage point de stock**.
+
+|Option|Effet sur le mappage|Effet sur la création|
+|------|-----------------|------------------|
+|**Vide**|Le champ Point de stock n’est pas utilisé dans la routine de mappage des articles.|Aucun effet sur la création de l’article.<br>Cette option empêche la création de variantes. Lorsque, dans la commande client, seul l’article principal est utilisé. Une variante peut toujours être mappée manuellement à partir de la page **Produit Shopify**.|
+|**N° article**|Choisissez si le champ Point de stock contient le numéro d’article|Aucun effet sur la création de l’article sans les variantes. Pour un article avec des variantes, chaque variante est créée comme un article séparé.<br>Si Shopify a un produit avec deux variantes et que leurs points de stock sont 1000 et 2000, le système [!INCLUDE[prod_short](../includes/prod_short.md)] crée deux articles avec les numéros 1000 et 2000.|
+|**Code variante**|Le champ Point de stock n’est pas utilisé dans la routine de mappage des articles.|Aucun effet sur la création de l’article. Si une variante article est créée, la valeur du champ Point de stock est utilisée comme code. Si le point de stock est vide, un code est généré en utilisant le champ **Préfixe variante**.|
+|**N° article + Code variante**|Sélectionnez si le champ Point de stock contient un numéro d’article et le code variante article séparés par la valeur définie dans le champ **Séparateur de champ de point de stock**.|Lorsqu’un article est créé, la première partie de la valeur du champ Point de stock est utilisée comme **N°**. Si le point de stock est vide, un numéro d’article est généré en utilisant une série de numéros définie dans le champ **Code modèle article** ou **N° article** de la page **Paramètres stock**.<br>Lorsqu’un article est créé, la fonction variante utilise la seconde partie de la valeur du champ Point de stock comme **Code**. Si le champ du point de stock est vide, un code est généré en utilisant le champ **Préfixe variante**.|
+|**Référence fournisseur**|Choisissez si le champ Point de stock contient le numéro d’article du fournisseur. Dans ce cas, le **Numéro du fournisseur de l’article** n’est pas utilisé sur la page **Fiche article** ; le **Numéro d’article du fournisseur** du **Catalogue des fournisseurs d’articles** est plutôt utilisé. Si l’enregistrement *Catalogue fournisseur articles* trouvé contient un code variante, ce dernier est utilisé pour mapper la variante Shopify.|Si un fournisseur correspondant existe dans [!INCLUDE[prod_short](../includes/prod_short.md)], la valeur de point de stock sert de **Référence fournisseur** dans **Fiche Article** et comme **Référence article** de type *Fournisseur*. <br>Empêche la création de variantes. Utile pour utiliser l’article principal uniquement dans la commande vente. Vous pouvez toujours mapper une variante manuellement à partir de la page **Produit Shopify**.|
+|**Code à barres**|Choisissez si le champ Point de stock contient un code à barres. Une recherche est effectuée sur les **Références articles** de type *code-barres*. Si l’enregistrement Référence article trouvé contient un code variante, ce dernier est utilisé pour mapper la variante Shopify.|Aucun effet sur la création de l’article. <br>Empêche la création de variantes. Utile pour utiliser l’article principal uniquement dans la commande vente. Vous pouvez toujours mapper une variante manuellement à partir de la page **Produit Shopify**.|
+
+Le tableau suivant donne les effets du champ **Code à barres**.
+
+|Effet sur le mappage|Effet sur la création|
+|-----------------|------------------|
+|Une recherche est effectuée parmi les **Références articles** de type Code à barres sur la valeur définie dans le champ **Code à barres** dans Shopify. Si l’enregistrement Référence article trouvé contient un code variante, ce dernier est utilisé pour mapper la variante Shopify.|Le code à barres est enregistré comme **Référence article** pour l’article et la variante article.|
+
+> [!NOTE]  
+> Vous pouvez déclencher le mappage pour le produit/les variantes sélectionnés ou tous les produits non mappés importés en choisissant **Essayer de rechercher le mappage du produit** (pour le produit/les variantes sélectionnés) ou **Essayer de rechercher des mappages**.
 
 ### Aperçu du mappage des champs
 
@@ -118,7 +127,7 @@ Les paramètres suivants permettent de gérer l’exportation des articles :
 |Coût par article|**Coût unitaire**|**Coût unitaire**. Le coût unitaire est uniquement importé dans les articles récemment créés et il ne sera pas mis à jour lors des synchronisations ultérieures.|
 |SKU|En savoir plus sous **Mappage point de stock** dans la section [Exporter des articles vers Shopify](synchronize-items.md#export-items-to-shopify).|En savoir plus dans la section [Effet des points de stock et codes barres de produit Shopify sur le mappage et la création d’articles et de variants dans Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Code-barres|**Références articles** de type Code à barres.|**Références articles** de type Code à barres.|
-|L’inventaire est stocké dans| Dépend des emplacements des magasins Shopify. Si **Services d’exécution Business Central** a **Défaut** champ activé, l’inventaire est stocké et expédié à partir de **Services d’exécution Business Central**. Sinon, le Shopify un emplacement principal ou plusieurs emplacements sont utilisés.| Aucun affichage.|
+|L’inventaire est stocké dans| Dépend des emplacements des magasins Shopify. Si **Services d’exécution Business Central** a **Magasin de produit par défaut** champ activé, l’inventaire est stocké et expédié à partir de **Services d’exécution Business Central**. Sinon, le Shopify un emplacement principal ou plusieurs emplacements sont utilisés. Apprenez-en davantage dans les [Deux approches pour gérer les exécutions](synchronize-items.md#two-approaches-to-manage-fulfillments)| Aucun affichage.|
 |Suivi quantité|En fonction du champ **Suivi stock** dans la page **Fiche magasin Shopify**. Consultez la section [Stock](synchronize-items.md#sync-inventory-to-shopify). Utilisé uniquement lorsque vous exportez un produit pour la première fois.|Aucun affichage.|
 |Poursuivre la vente même en cas de rupture de stock|En fonction de **Stratégie de stock par défaut** dans la page **Fiche magasin Shopify**.|Aucun affichage.|
 |Type|**Description** de **Code catégorie article**. Si le type n’est pas spécifié dans Shopify, il est ajouté en tant que type personnalisé.|**Code catégorie article**. Mappage par description.|
@@ -132,6 +141,23 @@ Les paramètres suivants permettent de gérer l’exportation des articles :
 
 Examinez les balises importées dans le récapitulatif **Balises** de la page **Produit Shopify**. Sur la même page, pour modifier les balises, choisissez l’action **Balises**.
 Si l’option **À Shopify** est sélectionnée dans le champ **Synchroniser l’article**, les balises attribuées sont exportées vers Shopify à la prochaine synchronisation.
+
+### Traduction unité comme variante
+
+Shopify ne prend pas en charge plusieurs unités de mesure. Si vous souhaitez vendre le même produit, par exemple à la pièce et à l’ensemble, et utiliser des prix ou des remises différents, vous devez créer une unité de mesure en tant que variantes de produit.
+Shopify Le connecteur peut être configuré pour exporter des unités de mesure en tant que variantes ou importer des variantes en tant qu’unité de mesure.
+
+Pour activer cette fonctionnalité, utilisez les champs **UoM comme variante** et **Nom de l’option de variante** dans les **Shopify Carte d’achat**. Les champs sont masqués par défaut, utilisez la personnalisation pour les ajouter à la page.
+
+**Remarques Unité comme variante**
+
+* Lorsque le produit est importé dans [!INCLUDE[prod_short](../includes/prod_short.md)], le connecteur crée des unités de mesure. Vous devrez mettre à jour **Qté. par unité de mesure**.
+* Lorsque vous traitez une matrice de variantes, par exemple Couleur et UdM et que vous souhaitez importer des produits, vous devez définir le *Numéro d’article + Code de variante* dans le **Champ de mappage SKU** et assurez-vous que le champ **SKU** dans Shopify a la même valeur pour toutes les unités de mesure et inclut les deux. numéro d’article. et le code de variante.
+* Dans [!INCLUDE[prod_short](../includes/prod_short.md)] la disponibilité est calculée par article/variante d’article et non par unité de mesure. Cela signifie que la même disponibilité sera attribuée à chaque variante représentant l’unité de mesure (par rapport à **Qté par unité de mesure**), ce qui peut conduire à des cas où la quantité disponible en Shopify n’est pas exact. Exemple : article vendu en PCS et en boîte de 6. L’inventaire dans [!INCLUDE[prod_short](../includes/prod_short.md)] est de 6 PCS. Article exporté vers Shopify en tant que produit avec deux variantes. Une fois la synchronisation des stocks exécutée, le niveau de stock dans Shopify sera de 6 pour la variante PCS et de 1 pour la variante BOX. L’acheteur peut explorer uniquement le magasin et voir que le produit est disponible dans les deux options et passer une commande pour 1 BOÎTE. Le prochain acheteur verra que BOX n’est pas disponible, mais il reste encore 6 PCS. Ce problème sera corrigé lors de la prochaine synchronisation de l’inventaire.
+
+### URL et URL d’aperçu
+
+Un article ajouté à Shopify ou importé de Shopify peut avoir **URL** ou **URL d’aperçu** remplis. Le champ **URL** sera vide si le produit n’est pas publié sur la boutique en ligne, par exemple, parce que son statut est brouillon. L’**URL** sera vide si le magasin est protégé par mot de passe, par exemple, parce qu’il s’agit d’un magasin de développement. Dans la plupart des cas, vous pouvez utiliser l’**URL d’aperçu** pour vérifier à quoi ressemblera le produit une fois publié.
 
 ## Exécuter la synchronisation des articles
 
@@ -162,10 +188,6 @@ Alternativement, vous pouvez synchroniser un élément en choisissant l’option
 Sinon, utilisez l’action **Synchroniser les produits** dans la page **Produits Shopify** ou recherchez le traitement par lots **Synchroniser les produits**.
 
 Vous pouvez programmer la tâche pour qu’elle soit exécutée de manière automatisée. En savoir plus dans la section [Programmer des tâches récurrentes](background.md#to-schedule-recurring-tasks).
-
-### URL et URL d’aperçu
-
-Un article ajouté à Shopify ou importé de Shopify peut avoir **URL** ou **URL d’aperçu** remplis. Le champ **URL** sera vide si le produit n’est pas publié sur la boutique en ligne, par exemple, parce que son statut est brouillon. L’**URL** sera vide si le magasin est protégé par mot de passe, par exemple, parce qu’il s’agit d’un magasin de développement. Dans la plupart des cas, vous pouvez utiliser l’**URL d’aperçu** pour vérifier à quoi ressemblera le produit une fois publié.
 
 ### Mises à jour ponctuelles des produits Shopify
 
@@ -253,8 +275,7 @@ La synchronisation du stock peut être configurée pour les articles déjà sync
 4. Sélectionnez l’action **Obtenir les emplacements Shopify** pour importer tous les emplacements définis dans Shopify. Ils se trouvent dans les paramètres [**Emplacements**](https://www.shopify.com/admin/settings/locations) sous **Administration Shopify**.
 5. Dans le champ **Filtre magasin**, ajoutez des emplacements si vous voulez inclure le stock en provenance de certains emplacements uniquement. Par exemple, saisissez *EST|OUEST* pour que seul le stock de ces deux emplacements soit disponible à la vente sur la boutique en ligne.
 6. Sélectionnez la méthode de calcul des stocks à utiliser pour les emplacements Shopify sélectionnés.
-7. Activez **Par défaut** si vous souhaitez que l’emplacement soit utilisé pour la création d’enregistrements d’inventaire et participe à la synchronisation de l’inventaire. Activez **Par défaut** pour **Services d’exécution Business Central** pour créer un enregistrement d’inventaire représentant le service d’exécution ; sinon un enregistrement d’inventaire est créé pour l’emplacement Shopify principal et tous les emplacements normaux où **Par défaut** est activé.
-
+7. Activez **Magasin de produit par défaut** si vous souhaitez que l’emplacement soit utilisé pour la création d’enregistrements d’inventaire et participe à la synchronisation de l’inventaire. 
 
 La synchronisation du stock peut être initialisée de deux manières décrites ci-dessous.
 
@@ -271,7 +292,7 @@ La synchronisation du stock peut être initialisée de deux manières décrites 
 
 ### Remarques sur le stock
 
-* La méthode standard de calcul des stocks est **Solde disponible projeté à la date**. Avec l’extensibilité, vous pouvez ajouter plus d’options. Pour en savoir plus sur l’extensibilité, rendez-vous sur [ exemples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
+* Il existe deux méthodes standard de calcul des stocks : **Solde disponible projeté à la date** et **Inventaire libre (non réservé)**. Avec l’extensibilité, vous pouvez ajouter plus d’options. Pour en savoir plus sur l’extensibilité, rendez-vous sur [ exemples](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Vous pouvez consulter les informations de stock en provenance de Shopify dans la page **Récapitulatif du stock Shopify**. Dans ce récapitulatif, un aperçu du stock Shopify et du dernier stock calculé s’affichent dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Il existe un enregistrement par emplacement.
 * Si les informations de stock dans Shopify sont différentes de l’élément **Stock prévisionnel** dans [!INCLUDE[prod_short](../includes/prod_short.md)], le stock est mis à jour dans Shopify.
 * Lorsque vous ajoutez un nouveau magasin dans Shopify, vous devez également ajouter des enregistrements d’inventaire pour celui-ci. Shopify ne le fait pas automatiquement pour les produits et variantes existants et le connecteur ne synchronisera pas les niveaux de stock pour ces articles dans le nouveau magasin. Pour en savoir plus, consultez [Affecter un stock à des magasins](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
@@ -285,6 +306,51 @@ Il y a 10 pièces de l’article A disponibles en stock et deux commandes vente
 |------|-----------------|-----------------|
 |Mardi|9|Stock 10 moins commande vente définis sur une expédition lundi|
 |Vendredi|7|Stock 10 moins les deux commandes vente|
+
+### Deux approches pour gérer les exécutions
+
+Il existe deux manières de gérer l’exécution dans Shopify :
+* Shopify Traitement des commandes et suivi des stocks "intégrés"
+* Traitement des commandes et suivi des stocks tiers
+
+L’inventaire de chaque produit Shopify peut être stocké soit par Shopify , soit par 3PL.
+
+Si vous utilisez le Shopify fulfillment, vous pouvez également définir plusieurs emplacements dans Shopify. Une fois la commande créée, Shopify sélectionne l’emplacement en fonction de la disponibilité et de la priorité. Vous pouvez également spécifier les emplacements sur lesquels vous prévoyez de suivre un produit spécifique, par exemple ne jamais vendre à partir de l’emplacement *ShowRoom*.
+
+Si vous utilisez 3PL, la manutention physique est prise en charge par le fournisseur 3PL, les emplacements ne sont donc pas nécessaires. Pour le 3PL le champ SKU devient obligatoire.
+
+Lorsque vous décidez de l’emplacement auquel suivre l’article, Shopify crée des enregistrements dans le tableau **Niveaux d’inventaire** , qui peut être mis à jour manuellement en fonction de la disponibilité des stocks.
+
+Le connecteur prend en charge les deux modes. Il peut envoyer des stocks à plusieurs Shopify sites ou fonctionner comme service de traitement des commandes.
+
+Du point de vue [!INCLUDE[prod_short](../includes/prod_short.md)] lorsque vous créez un élément et que vous souhaitez l’envoyer à Shopify vous souhaitez également :
+* Utilisez le bouton **Emplacement du produit par défaut** pour spécifier si cet article sera traité par Shopify exécution ou par 3PL. Il existe toujours un **service de traitement des commandes Business Central**, mais il peut y avoir davantage de services de traitement des commandes si davantage d’applications sont installées. Vous pouvez activer l’ **emplacement par défaut du produit** uniquement dans un seul enregistrement si vous souhaitez utiliser le service de traitement des commandes. 
+* Utilisez le bouton **Emplacement du produit par défaut** pour spécifier les emplacements que vous souhaitez utiliser pour suivre l’inventaire. Vous pouvez activer l’ **emplacement par défaut du produit** pour plusieurs emplacements où **le service de traitement des commandes** est désactivé. Notez que l’inventaire sera toujours suivi pour l’emplacement principal. 
+ 
+#### Quelle est la différence ?
+
+Shopify l’accomplissement est utile lors de l’utilisation Shopify PDV et il existe plusieurs magasins physiques. Vous voulez que les employés du magasin physique connaissent leur inventaire actuel. Dans ce cas, vous créez plusieurs emplacements dans Shopify, plusieurs emplacements dans [!INCLUDE[prod_short](../includes/prod_short.md)], Activer **Emplacement du produit par défaut** pour tous ces endroits.  
+
+Si la logistique est gérée [!INCLUDE[prod_short](../includes/prod_short.md)] où peut avoir autant d’emplacements que nécessaire représentant les centres de distribution, vous ne créez pas d’emplacements dans Shopify, Shopify Le connecteur crée automatiquement des services de traitement des commandes Business Central et vous pouvez lier l’inventaire via des filtres d’emplacement de plusieurs emplacements à un enregistrement de services de traitement des commandes. Comme résultat en Shopify il n’y a aucune information sur l’endroit d’où les marchandises sont envoyées, il n’y a que des informations sur le suivi. Tandis que dans [!INCLUDE[prod_short](../includes/prod_short.md)] vous pouvez sélectionner en fonction de la disponibilité et de la proximité de la destination. 
+
+#### Exemple d’utilisation de la bascule Emplacement du produit par défaut
+
+Après avoir choisi le **Obtenir Shopify Emplacements** action dans le **Shopify Emplacements** sur la page, vous voyez les emplacements suivants :
+
+|Nom|Service d’exécution|Est principal|
+|------|-----------------|-----------------|
+|Principal| |**Oui**|
+|Second| | |
+|Service exécution Business Central|**Oui**| |
+
+Examinons l’impact de l’activation de la bascule Emplacement du produit par défaut :
+
+|Nom des emplacements pour lesquels le bouton Emplacement du produit par défaut est activé|Impact sur la façon dont le produit est créé dans Shopify|
+|------|-----------------|
+|Principal| L’inventaire sera stocké à : Plusieurs emplacements ; emplacements sélectionnés : principal (principal) |
+|Principal et Deuxième| L’inventaire sera stocké à : Plusieurs emplacements ; emplacements sélectionnés : principal et second |
+|Service exécution Business Central|L’inventaire sera stocké à : Business Central Fulfilment Service ; emplacements sélectionnés : (Application) Business Central Fulfilment Service|
+|Service exécution Business Central et principal| Erreur : Vous ne pouvez pas utiliser des magasins Shopify standard avec des magasins de service d’exécution|
 
 ## Voir aussi
 

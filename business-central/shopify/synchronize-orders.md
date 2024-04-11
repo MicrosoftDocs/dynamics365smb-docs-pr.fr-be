@@ -1,13 +1,13 @@
 ---
 title: Synchroniser et exécuter les commandes vente
 description: Configurez et exécutez l’importation et le traitement des commandes vente à partir de Shopify.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Synchroniser et exécuter les commandes vente
@@ -20,7 +20,7 @@ Saisissez un **Code monnaie** si la boutique en ligne utilise une monnaie diffé
 
 Vous pouvez accéder à la devise du magasin dans les paramètres [Détails du magasin](https://www.shopify.com/admin/settings/general) dans votre administrateur Shopify. Shopify peut être configuré pour accepter différentes devises. Toutefois, les commandes importées dans [!INCLUDE[prod_short](../includes/prod_short.md)] utilisent la devise du magasin.
 
-Une commande Shopify classique peut inclure des coûts en plus du sous-total, comme les frais d’expédition ou, s’ils sont activés, les pourboires. Ces montants sont validés directement dans le compte général que vous souhaitez utiliser pour des types de transactions spécifiques :
+Une commande Shopify classique peut inclure des coûts en plus du sous-total, comme les frais d’expédition ou, s’ils sont activés, les pourboires. Ces montants sont validés directement dans le compte général à utiliser pour des types de transactions spécifiques :
 
 * **Compte frais d’expédition**
 * **Compte carte cadeau vendu** ; en savoir plus dans la rubrique [Carte cadeau](synchronize-orders.md#gift-cards)
@@ -30,10 +30,12 @@ Activez **Créer automatiquement des commandes** pour créer automatiquement des
 
 Si vous souhaitez lancer automatiquement un document de vente, activez le bouton bascule **Lancer automatiquement les commandes vente**.
 
+Si vous ne souhaitez pas envoyer de confirmations d’expédition automatiques aux clients, désactivez l’option **Envoyer une confirmation d’expédition** . Désactiver la bascule peut être utile si vous vendez des biens numériques ou si vous souhaitez utiliser un autre mécanisme de notification.
+
 Si vous sélectionnez le champ **N° commande Shopify sur n° ligne doc.**, [!INCLUDE [prod_short](../includes/prod_short.md)] insère les ligne vente de type **Commentaire** avec le numéro de commande Shopify.
 
->[!NOTE]
->Le document de vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] est lié à la commande Shopify, et vous pouvez ajouter le **N° de commande Shopify** aux pages de liste ou de carte pour les bons de commande, les factures et l’expédition. Pour en savoir plus sur l’ajout d’un champ, accédez à [Commencer à personnaliser en utilisant le mode de personnalisation](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> Le document de vente dans [!INCLUDE[prod_short](../includes/prod_short.md)] est lié à la commande Shopify, et vous pouvez ajouter le **N° de commande Shopify** aux pages de liste ou de carte pour les bons de commande, les factures et l’expédition. Pour en savoir plus sur l’ajout d’un champ, accédez à [Commencer à personnaliser en utilisant le mode de personnalisation](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 Dans le champ **Priorité zone recouvrement**, vous pouvez définir la priorité en matière de sélection du code zone recouvrement sur les adresses dans la commande. La commande Shopify importée contient des informations sur les taxes. Les taxes sont recalculées lorsque vous créez les documents de vente, il est donc important que les paramètres de TVA/taxe soient corrects dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Pour plus d’informations sur les taxes, accédez à [Configurer les taxes pour la connexion Shopify](setup-taxes.md).
 
@@ -131,7 +133,11 @@ La page **Commande Shopify à importer** est utile pour résoudre les problèmes
 Une fois l’importation terminée, vous pouvez explorer la commande Shopify et trouver toutes les informations associées comme les transactions de paiement, les frais d’expédition, le niveau de risque, les attributs et balises de commande ou les exécutions, si la commande a déjà été exécutée dans Shopify. Vous pouvez également voir les confirmations de commande envoyées au client en sélectionnant l’action **Page de statut Shopify**.
 
 > [!NOTE]  
-> Vous pouvez accéder directement à la fenêtre **Commandes Shopify** pour afficher les commandes dont le statut est défini sur *Ouvert* dans tous les magasins. Pour consulter les commandes terminées, vous devez ouvrir la page **Commandes Shopify** à partir de la fenêtre **Fiche magasin Shopify** spécifique.
+> Vous pouvez accéder directement à la fenêtre **Commandes Shopify** pour afficher les commandes dont le statut est défini sur *Ouvert* dans tous les magasins. Pour consulter les commandes terminées, vous devez ouvrir la page **Commandes Shopify** à partir de la page **Fiche magasin Shopify** spécifique.
+
+Avant que les documents de vente ne soient créés dans [!INCLUDE[prod_short](../includes/prod_short.md)], vous pouvez utiliser l’action **Synchroniser la commande à partir de Shopify** dans la **Shopify Commande** page pour réimporter des commandes spécifiques.
+
+Vous pouvez également marquer une commande comme payée, ce qui est utile dans un scénario B2B où les paiements sont traités en dehors du Shopify paiement. Sélectionnez l’action **Marquer comme payé** sur la page **Shopify Commande**. Vous pouvez également marquer une commande comme annulée pour lancer le flux de remboursement dans Shopify. Choisir la **annuler la commande** action sur le **Shopify Commande** page, remplissez les champs nécessaires sur la page **Shopify annuler la commande** page et appuyez sur **OK**. Vous devrez exécuter la synchronisation des commandes pour importer les mises à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Créer des documents vente dans Business Central
 
@@ -147,15 +153,17 @@ Si le bouton à bascule **Créer automatiquement des commandes** est activée su
 
 Si la commande Shopify exige une exécution, une **Commande vente** est créée. Pour les commandes Shopify exécutées, telles que les commandes qui ne contiennent qu’une carte-cadeau ou qui sont déjà traitées dans Shopify, une **Facture vente** est créée.
 
-Un document vente est maintenant créé et peut être géré en utilisant les fonctionnalités standard de [!INCLUDE[prod_short](../includes/prod_short.md)].
+Un document vente est créé et peut être géré en utilisant les fonctionnalités standard de [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+Si vous souhaitez recréer un document de vente, vous pouvez utiliser le **Dissocier les documents traités** action dans le **Shopify Commande** page. Notez que cette action ne supprime pas le document de vente déjà créé. Vous devez le traiter manuellement.
 
 ### Gérer les clients manquants
 
-Si vos paramètres empêchent la création automatique d’un client et qu’un client existant approprié est introuvable, vous devez attribuer un client à la commande Shopify manuellement. Il explique plusieurs méthodes pour y parvenir :
+Si vos paramètres empêchent la création automatique d’un client et qu’une correspondance client est introuvable, vous devez attribuer un client à la commande Shopify manuellement. Il existe plusieurs façons d’attribuer des clients à des commandes :
 
-* Vous pouvez attribuer le **N° donneur d’ordre** et **N° client facturé** directement dans la page **Commandes Shopify** en choisissant un client dans la liste des clients existants.
-* Vous pouvez sélectionner un code modèle client, puis créer et affecter le client par l’action **Créer un client** dans la page **Commandes Shopify**. Remarquez que le client Shopify doit avoir au moins une adresse. Les commandes créées via le canal de vente du PDV Shopify manquent souvent de détails d’adresse.
-* Vous pouvez mapper un client existant avec le **Client Shopify** existant dans la fenêtre **Clients Shopify**, puis sélectionner l’action **Trouver le mappage** dans la page **Commandes Shopify**.
+* Affecter **N° donneur d’ordre** et **N° client facturé** directement dans la page **Commandes Shopify** en choisissant un client dans la liste des clients existants.
+* Sélectionner un modèle client, puis créer et affecter le client par l’action **Créer un client** dans la page **Commandes Shopify**. Le client Shopify doit avoir au moins une adresse. Les commandes créées via le canal de vente du PDV Shopify manquent souvent de détails d’adresse.
+* Vous pouvez mapper un client existant avec le **Client Shopify** existant dans la page **Clients Shopify**, puis sélectionner l’action **Trouver le mappage** dans la page **Commandes Shopify**.
 
 ### Comment le connecteur choisit le client à utiliser
 
@@ -172,6 +180,8 @@ Les étapes suivantes dépendent du champ **Type de mappage client**.
 
 > [!NOTE]  
 > Le connecteur utilise les informations de l’adresse facturation et crée le client facturé dans [!INCLUDE[prod_short](../includes/prod_short.md)]. Le client vendeur est le même que le client facturé.
+
+Pour les commandes B2B, le flux est similaire, bien que le connecteur utilise **Numéro d’entreprise par défaut**, **Importation de la société depuis Shopify**, **Type de cartographie de l’entreprise** champs sur le **Shopify Carte de magasin** page. Notez qu’il n’y a pas **Numéro d’entreprise par défaut** Dans le **Shopify Modèle client** quant au B2B, il est censé avoir des clients nommés.
 
 ### Différentes règles de traitement des commandes
 
@@ -199,27 +209,32 @@ Chaque file d’attente importe et traite les commandes dans les filtres défini
 
 Dans Shopify :
 
-|Modifier|Impact pour la commande déjà importée|Impact pour la commande importée pour la première fois|
+|Modifier|Impact sur Shopify Commandes non encore traitées dans [!INCLUDE[prod_short](../includes/prod_short.md)] | Impact sur Shopify Commandes déjà traitées dans [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Modifier l’emplacement d’exécution | L’emplacement d’origine est dans les lignes | L’emplacement d’exécution est synchronisé avec [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Modifier une commande et accroître sa quantité| L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas.| La commande importée utilise la nouvelle quantité|
-|Modifier une commande et réduire sa quantité| L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas.| La commande importée utilise la quantité d’origine, le champ Quantité réalisable contient une nouvelle valeur.|
-|Modifier une commande et supprimer un article existant | L’en-tête de la commande et les tableaux supplémentaires seront mis à jour dans [!INCLUDE[prod_short](../includes/prod_short.md)], les lignes ne le seront pas.| L’article supprimé est toujours importé, le champ Quantité réalisable contient la valeur zéro. |
-|Modifier une commande et ajouter un nouvel article | L’en-tête de la commande sera mis à jour, pas les lignes. | Les articles originaux et ajoutés sont importés. |
-|Traiter la commande : remplir, mettre à jour les informations de paiement | L’en-tête de la commande est mis à jour, pas les lignes. |Le changement n’a aucun impact sur la façon dont la commande est importée.|
-|Annuler une commande | L’en-tête de la commande est mis à jour, pas les lignes. |La commande annulée n’est pas importée |
+|Modifier l’emplacement d’exécution | L’emplacement d’exécution est synchronisé avec [!INCLUDE[prod_short](../includes/prod_short.md)]. | L’emplacement d’exécution est synchronisé avec [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Modifier une commande et accroître sa quantité|La commande importée utilise la nouvelle quantité.| Le connecteur détectera les modifications et marquera les commandes. |
+|Modifier une commande et réduire sa quantité|La commande importée utilise la nouvelle quantité. Shopify un remboursement d’un montant nul sera importé et ne pourra pas être converti en note de crédit.| Le connecteur détectera les modifications et marquera les commandes. |
+|Modifier une commande et supprimer un article existant |L’élément supprimé ne sera pas importé. Shopify un remboursement d’un montant nul sera importé et ne pourra pas être converti en note de crédit.| Le connecteur détectera les modifications et marquera les commandes. |
+|Modifier une commande et ajouter un nouvel article | Les articles originaux et ajoutés sont importés. | Le connecteur détectera les modifications et marquera les commandes. |
+|Traiter la commande : remplir, mettre à jour les informations de paiement | L’en-tête de la commande sera mis à jour. |L’en-tête de la commande sera mis à jour. Le traitement ne sera pas synchronisé avec Shopify.|
+|Annuler une commande payée | L’en-tête de la commande sera mis à jour et sera traité séparément |Le connecteur détectera les modifications et marquera les commandes. |
+|Annuler une commande non payée | L’élément supprimé ne sera pas importé. Shopify un remboursement d’un montant nul sera importé et ne pourra pas être converti en note de crédit. |Le connecteur détectera les modifications et marquera les commandes. |
 
-Comme vous pouvez le constater, dans certains cas, il peut être raisonnable de supprimer une commande modifiée dans [!INCLUDE[prod_short](../includes/prod_short.md)] et de l’importer comme nouvelle.
+Si la commande a déjà été traitée dans [!INCLUDE[prod_short](../includes/prod_short.md)] le connecteur affiche le message d'erreur suivant : *la commande a déjà été traitée dans Business Central, mais une édition a été reçue de Shopify. Les modifications n’ont pas été propagées à la commande traitée dans Business Central. Mettez à jour les documents traités pour qu’ils correspondent aux données reçues de Shopify. Si vous souhaitez forcer la synchronisation, utilisez l’action « Synchroniser la commande de Shopify » dans la page carte de commande Shopify.*
+
+En fonction du statut du document de vente créé, vous pouvez effectuer les actions suivantes :
+1. Supprimer un document vente créé
+2. Choisir la **Dissocier les documents traités** action pour réinitialiser le **Traité** indicateur.
+3. Choisir la **Synchroniser la commande à partir de Shopify** action pour mettre à jour la commande individuelle avec les données récentes de Shopify.
 
 Dans [!INCLUDE[prod_short](../includes/prod_short.md)] :
 
 |Modifier|Impact|
 |------|-----------|
-|Changez l’emplacement en un autre emplacement, mappé sur les magasins Shopify. Validez l’expédition. | La commande est marquée comme exécutée. L’emplacement d’origine est utilisé. |
-|Changez l’emplacement en un autre emplacement, non mappé sur les magasins Shopify. Validez l’expédition. | Le traitement ne sera pas synchronisé avec Shopify. |
+|Changez l’emplacement vers un autre emplacement. Validez l’expédition. | La commande est marquée comme exécutée. Lieu de traitement à partir de Shopify sera utilisé. |
 |Réduisez la quantité. Validez l’expédition. | La commande Shopify est marquée comme partiellement exécutée. |
-|Augmentez la quantité. Validez l’expédition. | Le traitement ne sera pas synchronisé avec Shopify. |
-|Ajoutez un nouvel article. Validez l’expédition. | La commande Shopify est marquée comme exécutée. Les lignes ne sont pas mises à jour. |
+|Augmentez la quantité. Validez l’expédition. | Le traitement ne sera pas synchronisé avec Shopify. Idem si l’exécution était divisée en Shopify mais traité comme une seule ligne dans [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Ajoutez un nouvel article. Validez l’expédition. | La commande Shopify est marquée comme exécutée. Les nouvelles lignes ne seront pas ajoutées. |
 
 ## Synchroniser les livraisons avec Shopify
 

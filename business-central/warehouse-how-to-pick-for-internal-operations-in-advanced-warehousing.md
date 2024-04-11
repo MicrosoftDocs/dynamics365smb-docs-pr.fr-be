@@ -52,7 +52,7 @@ Utilisez les documents **Prélèvement entrepôt** pour déplacer les composants
 Utilisez les documents **Prélèvement entrepôt** pour sélectionner les composants de la tâche dans le flux vers la gestion de projet.
 
 > [!NOTE]
-> La possibilité de sélectionner des composants pour les lignes de planning des tâches a été ajoutée à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans la 2è vague de lancement 2022. Pour commencer à utiliser la capacité, un administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
+> La possibilité de sélectionner des composants pour les lignes de planning projet a été ajoutée à [!INCLUDE[d365fin](includes/d365fin_md.md)] dans la 2e vague de lancement 2022. Pour commencer à utiliser la capacité, un administrateur doit activer **Mise à jour des fonctionnalités : activer prélèvement stock et entrepôt à partir des projets** sur la page **Gestion des fonctionnalités**.
 >
 > Les tâches ne prennent pas en charge les configurations avancées dans lesquelles le bouton à bascule **Prélèvement et rangement dirigés** est activé.
 
@@ -115,7 +115,7 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
 
 ## Pour prélever des articles pour un ordre de fabrication, un ordre d’assemblage, une tâche
 
-1. Sélectionnez l’![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis choisissez le lien associé.  
+1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Prélèvements**, puis choisissez le lien associé.  
 
     Si vous souhaitez travailler à un prélèvement particulier, sélectionnez-le dans la liste ou filtrez cette dernière afin de trouver les prélèvements qui vous ont été affectés. Ouvrez la fiche prélèvement.  
 2. Si le champ **ID utilisateur affecté** est vide, entrez votre ID pour vous identifier, si nécessaire.  
@@ -138,7 +138,7 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
     Vous pouvez maintenant amener les articles dans la zone respective et publier l’utilisation ou la consommation des composants prélevés en validant la feuille consommation, l’ordre d’assemblage ou la feuille projet. Pour en savoir plus, consultez les articles suivants :
 
     * [Enregistrer la consommation et la production pour une ligne ordre de fabrication lancé](production-how-to-register-consumption-and-output.md)
-    * [Assembler des articles](assembly-how-to-assemble-items.md)
+    * [Assemblage des articles](assembly-how-to-assemble-items.md)
     * [Enregistrer la consommation ou l′utilisation pour les projets](projects-how-record-job-usage.md)
 
 ## Consommer les composants pour la fabrication dans une configuration entrepôt avancée
