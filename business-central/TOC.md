@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### États financiers (mise en place des états financiers et des indicateurs de performance clés)
 #### [Préparation de l’état financier](bi-how-work-account-schedule.md)
+#### [Définitions de ligne dans les états financiers](bi-row-definitions.md)
+#### [Définitions de colonne dans les états financiers](bi-column-definitions.md)
 #### [Procédure pas-à-pas : utilisation des états financiers pour créer de prévisions de trésorerie](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Configuration et publication d’un service web d’indicateur de performance clé sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyse des données avec les comptes statistiques](bi-use-statistical-accounts.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Islande
 #### [Fonctionnalité locale dans la version islandaise](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Configuration de l’application principale W1 pour l’Islande](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### TVA
 ##### [Impression des informations de synthèse sur la TVA sur les documents](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Sortie de données et d’états spéciaux pour l’administration fiscale](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Général  
 ##### [Mappage des numéros de l’IRS avec le plan comptable](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Suppression de factures validées et d’avoirs validés](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Numéro d’enregistrement dans la localisation islandaise](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### Inde
 #### [Vue d’ensemble](LocalFunctionality/India/india-local-functionality.md)
