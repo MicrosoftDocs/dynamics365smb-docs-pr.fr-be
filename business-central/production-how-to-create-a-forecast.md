@@ -68,7 +68,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 > [!NOTE]  
 > Si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
 
-### <a name="do-not-use-forecast-by-locations"></a>Ne pas utiliser Prévision sur magasin
+### <a name="if-you-dont-use-forecast-by-locations"></a>Ne pas utiliser Prévision sur magasin
 
 Si vous désactivez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] ignorera les codes magasin spécifiés pour chaque écriture de prévision de la demande et agrègera les prévisions en une prévision pour les magasins vides.  
 
