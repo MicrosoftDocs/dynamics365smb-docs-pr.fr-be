@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Gérer des immobilisations
+# Gérer des immobilisations
 
 Le module Immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d’assurance, de valider les transactions d’immobilisations, et de générer des états et des statistiques variés.
 
-## <a name="video-overview"></a>Présentation de la vidéo
+## Présentation de la vidéo
 
 La vidéo suivante couvre les notions de base des immobilisations :
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Vue d’ensemble des immobilisations
+## Vue d’ensemble des immobilisations
 
 Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu’actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Puis, vous pouvez commencer à acquérir, maintenir et commercialiser les immobilisations. Vous pouvez également paramétrer des immobilisations budgétées. La budgétisation vous permet par exemple d’inclure dans des états des acquisitions et des ventes anticipées.
 
@@ -46,28 +46,30 @@ Vous pouvez rattacher chaque immobilisation à une ou plusieurs polices d’assu
 > [!NOTE]  
 > Vous pouvez enregistrer les transactions immobilisation sur la page **Feuille compta. immo.** ou sur la page **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L’aide pour les immobilisations décrit uniquement la procédure d’utilisation de la page **Feuille compta. immo.**. Pour en savoir plus, voir [Configurer l’amortissement d’immobilisation](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Utilisation des immobilisations
+## Utilisation des immobilisations
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
 | À  | Voir |
 | --- | --- |
 | Paramétrez les conditions préalables de la fonctionnalité des immobilisations (en définissant les valeurs par défaut, la comptabilité des immobilisations, les groupes comptabilisation, les clés de ventilation, les feuilles et les types de validation). | [Paramétrage d’immobilisations](fa-setup.md)|
-| Créer des immobilisations, affecter des méthodes d'amortissement, valider des acquisitions et des valeurs résiduelles et imprimer les listes d'immobilisations. |[Acquérir des immobilisations](fa-how-acquire.md) |
+| Gérer les budgets d’immobilisations, budgéter les coûts d’acquisition, les cessions d’immobilisations et l’amortissement. |[Gestion des budgets pour les immobilisations](fa-how-manage-budgets.md) |
+| Créer des immobilisations, affecter des méthodes d'amortissement, valider des acquisitions et des valeurs résiduelles et imprimer les listes d'immobilisations. |[Acquisition des immobilisations](fa-how-acquire.md) |
+| En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
+| Calculer l’amortissement, valider l’amortissement et analyser l’amortissement dans les états sur les immobilisations. |[Amortissement des immobilisations](fa-how-depreciate-amortize.md) |
+| Apprenez-en davantage sur les fonctionnalités intégrées de reporting et d’analyse pour les immobilisations. | [Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md) |
 | Enregistrer les visites de service, valider les coûts de maintenance et surveiller les coûts de maintenance. |[Mettre à jour des immobilisations](fa-how-maintain.md) |
 | Mettre à jour les informations d’assurance, valider les coûts d’acquisition vers les polices d’assurance, modifier la couverture assurance, visualiser les statistiques assurance et répertorier les polices d’assurance. |[Assurer les immobilisations](fa-how-insure.md) |
 | Reclasser les immobilisations, les transférer vers d’autres emplacements, les diviser ou les combiner. |[Transférer, fractionner ou regrouper les immobilisations](fa-how-trans-split-combine.md) |
-| Ajuster les valeurs des immobilisations, valider les réévaluations et les transactions de dépréciation. |[Réévaluer les immobilisations](fa-how-revalue.md) |
-| Calculer l’amortissement, valider l’amortissement et analyser l’amortissement dans les états sur les immobilisations. |[Amortissement des immobilisations](fa-how-depreciate-amortize.md) |
-| En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
-| Valider les transactions de cession, visualiser les écritures comptables cession et valider les cessions partielles. |[Céder ou annuler des immobilisations](fa-how-dispose-retire.md) |
-| Gérer les budgets d’immobilisations, budgéter les coûts d’acquisition, les cessions d’immobilisations et l’amortissement. |[Gestion des budgets pour les immobilisations](fa-how-manage-budgets.md) |
-| Apprenez-en davantage sur les fonctionnalités intégrées de reporting et d’analyse pour les immobilisations. | [États et analyses des immobilisations](fa-reports.md) |
+| Ajuster les valeurs des immobilisations, valider les réévaluations et les transactions de dépréciation. |[Réévaluation des immobilisations](fa-how-revalue.md) |
+| Valider les transactions de cession, visualiser les écritures comptables cession et valider les cessions partielles. |[Cession ou annulation des immobilisations](fa-how-dispose-retire.md) |
 
-## <a name="see-also"></a>Voir aussi
+
+## Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
-[Vue d’ensemble de Finances](finance.md)  
+[Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md)   
+[Vue d’ensemble de Finance](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  

@@ -1,37 +1,37 @@
 ---
 title: Configurer ou modifier le plan comptable (contient une vidéo)
-description: En savoir plus sur la configuration de votre plan comptable pour afficher les comptes généraux qui stockent vos données financières.
+description: En savoir plus sur la configuration de votre plan comptable avec les comptes généraux qui stockent vos données financières.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 12/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Configurer ou modifier le plan comptable
+# Configurer ou modifier le plan comptable
 
 Le plan comptable affiche les comptes généraux qui stockent vos données financières. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société. Vous pouvez, cependant, modifier les comptes par défaut, et vous pouvez ajouter de nouveaux comptes.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Ajouter ou modifier les comptes
+## Ajouter ou modifier les comptes
 
 À partir du plan comptable, vous pouvez ouvrir chaque compte général et ajouter ou modifier des paramètres. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
 Vous pouvez, au besoin, utiliser plusieurs lignes pour le nom d’un compte général. Sur la page **Fiche compte général**, dans le groupe **Compte**, choisissez **Textes étendus**, puis remplissez une ou plusieurs lignes avec le texte à copier et le nom du compte.  
 
-Pour les comptes de type **Total**, vous devez renseigner le champ **Totalisation**. Pour les comptes de type **Fin total**, ce champ est renseigné automatiquement par la fonction d’indentation. Après avoir configuré tous les comptes, choisissez l’action **Traiter**, puis choisissez **Indenter plan comptable**.  
+Pour les comptes de type **Total**, vous devez renseigner le champ **Totalisation**. Pour les comptes de type **Fin total**, ce champ est renseigné automatiquement par la fonction d'indentation. Après avoir configuré tous les comptes, choisissez l’action **Traiter**, puis choisissez **Indenter plan comptable**.  
 
 > [!IMPORTANT]
 > Si vous avez entré des définitions dans les champs **Totalisation** pour les comptes de type **Fin total** avant d’exécuter la fonction d’indentation, vous devez les entrer à nouveau car cette fonction remplace les valeurs de tous les champs **Fin total**.
 
-## <a name="delete-accounts"></a>Supprimer les comptes
+## Supprimer les comptes
 
-Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer, les conditions suivantes doivent être réunies :  
+Vous pouvez supprimer un compte général. Toutefois, avant que de le supprimer, les conditions suivantes doivent être réunies :  
 
 * Le solde du compte doit être nul.  
 * Le champ **Autoriser suppr. cpte gén. av.** doit être défini sur la page **Paramètres comptabilité**, et le compte ne doit pas comporter d’écritures comptables à cette date ou après celle-ci.  
@@ -43,13 +43,17 @@ Vous pouvez également spécifier quand autoriser les utilisateurs à supprimer 
 
 La désactivation du champ **Bloquer la suppression des comptes généraux** est une pratique exemplaire, tout comme définir la date dans le champ **Vérifier suppr. cpte gén. ap.**, par exemple à la date à laquelle vous devez stocker vos données financières.  
 
-### <a name="video-guidance"></a>Guidage vidéo
+### Guidage vidéo
 
 Cette vidéo montre comment spécifier si et quand les utilisateurs peuvent supprimer des comptes G/L.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Voir aussi
+## Parcours d’apprentissage : configurer le plan comptable dans Dynamics 365 Business Central
+
+Pour savoir configurer la définition du plan comptable dans [!INCLUDE [prod_short](includes/prod_short.md)] ? Commencez ensuite le parcours d’apprentissage suivant [Configurer le plan comptable dans Dynamics 365 Business Central](/training/modules/chart-accounts-dynamics-365-business-central).
+
+## Voir aussi
 
 [Comptabilité et plan comptable](finance-general-ledger.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Utilisez les documents **Prélèvement entrepôt** pour sélectionner les compos
     > [!NOTE]
     > Si vous devez prélever ou placer les articles d’une ligne dans plusieurs emplacements, notamment parce que l’emplacement indiqué est plein, utilisez l’action **Eclater ligne** sur le raccourci **Lignes**. L’action crée une ligne pour la quantité restante à gérer.
 
+      Vous pouvez trier les lignes prélèvement en fonction de critères divers, tels que l’article, le numéro emplacement ou la date d’échéance. Le tri peut aider à optimiser le processus de rangement, par exemple :
+
+    * Si les lignes Prendre et Placer de chaque ligne expédition ne se suivent pas directement et que vous souhaitez qu’elles se suivent, triez-les en sélectionnant **Article** dans le champ **Méthode de tri**.  
+    * Si les classements des emplacements reflètent la disposition physique de l’entrepôt, utilisez la méthode de tri **Priorité emplacement** pour organiser le travail par emplacements.
+
+  > [!NOTE]  
+  > Les lignes sont triées par ordre croissant, en fonction des critères sélectionnés. Si vous triez par document, le tri est effectué d’abord par type de document en fonction du champ **Document source d’activité d’entrepôt** . Si vous triez par de livraison, le tri est effectué d’abord par type de destination en fonction du champ **Type de destination d’entrepôt** .
+
 4. Après avoir prélevé et placé les articles dans la zone de production, d’assemblage ou de travail, choisissez l’action **Enregistrer le prélèvement**.  
 
     Vous pouvez maintenant amener les articles dans la zone respective et publier l’utilisation ou la consommation des composants prélevés en validant la feuille consommation, l’ordre d’assemblage ou la feuille projet. Pour en savoir plus, consultez les articles suivants :
@@ -171,6 +179,14 @@ Les étapes suivantes décrivent les actions prises par divers utilisateurs et l
 La figure ci-après indique la date à laquelle le champ **Code emplacement** de la liste des composants est renseigné en fonction du paramétrage de votre magasin ou poste/centre de charge.  
 
 :::image type="content" source="media/binflow.png" alt-text="Aperçu de quand et comment le champ Code emplacement est renseigné.":::
+
+## Fabrication à la commande des composants pour la fabrication dans une configuration entrepôt avancée
+
+Dans les scénarios où un article produit est constitué de matières premières et d’articles semi-finis avec la politique de fabrication définie sur **Fabrication sur commande**, le prélèvement en entrepôt pour ces composants semi-finis est ajouté au même ordre de fabrication avec le champ **Code de niveau de planification** rempli. Il est prévu que les articles semi-finis soient disponibles immédiatement pour la consommation et ne nécessitent pas de prélèvement, ils ne sont donc pas inclus dans le document de prélèvement en entrepôt. Les prélèvements entrepôt créés incluent uniquement les matières premières pour l’article produit et pour les articles semi-finis.
+
+Cependant, si des articles semi-finis sont disponibles en stock, le système de planification vous suggère de les consommer au lieu de produire la totalité de la quantité. Par exemple, un article fabriqué nécessite cinq composants semi-finis, mais trois sont déjà en stock. Dans ce cas, cinq articles semi-finis sont répertoriés dans les composants de l’ordre de fabrication, mais seulement deux sont produits dans le même ordre de fabrication en tant que ligne d’ordre de fabrication distincte.
+Une telle configuration n’est pas compatible avec les prélèvements en entrepôt et, en fonction de la fréquence, vous devez soit modifier la politique de fabrication de ces articles semi-finis en **Fabriquer sur stock** ou fractionnez manuellement la ligne de composants de l’ordre de fabrication lorsque vous devez prélever les articles semi-finis produits précédemment.
+
 
 ## Voir aussi
 

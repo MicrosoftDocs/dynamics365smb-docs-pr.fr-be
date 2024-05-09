@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Validation de l’écriture de clôture d’exercice](year-how-post-year-end-close-entry.md)
 
 ### Utilisation du plan comptable et de la comptabilité
-#### [Familiarisation avec la comptabilité et le plan comptable](finance-general-ledger.md)
+#### [Comprendre la comptabilité](finance-general-ledger.md)
+#### [Comprendre le plan comptable](finance-chart-of-accounts.md)
 #### [Vérification des comptes](finance-review-accounts.md)
 #### [Réévaluation des soldes comptables](finance-revalue-account-balances.md)
 #### [Validation directe des transactions en comptabilité.](finance-how-post-transactions-directly.md)
@@ -476,8 +477,7 @@ ms.service: dynamics-365-business-central
 #### [Procédure pas-à-pas : utilisation des états financiers pour créer de prévisions de trésorerie](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Configuration et publication d’un service web d’indicateur de performance clé sur la base d’états financiers](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyse des données avec les comptes statistiques](bi-use-statistical-accounts.md)
-#### [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md)
-#### [Création d’états d’analyse](bi-how-create-analysis-views-reports.md)
+#### [Analyse des données par axes analytiques](bi-how-analyze-data-dimension.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Ventes
 ### [Vue d’ensemble des ventes](sales-manage-sales.md)
-### [États des ventes](sales-reports.md)
+### Analyse vente 
+#### [Vue d’ensemble de l’analyse vente](sales-analytics-overview.md)
+#### [Créer des rapports d’analyse vente](bi-how-create-analysis-views-reports.md)
+#### [Analyse ad hoc des données vente](ad-hoc-analysis-sales.md)
+#### [États vente intégrés](sales-reports.md)
+
 ### [Procédure pas à pas : mise en place d’une campagne de vente](walkthrough-conducting-a-sales-campaign.md)
 ### [Procédure pas à pas : configuration et facturation d’acomptes sur les ventes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Enregistrement de nouveaux clients](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Achats
 ### [Vue d’ensemble des achats](purchasing-manage-purchasing.md)
-### [États des achats](purchase-reports.md)
+### Analyse des achats 
+#### [Vue d’ensemble de l’analyse achats](purchasing-analytics-overview.md)
+#### [Analyse ad hoc des données achats](ad-hoc-analysis-purchasing.md)
+#### [États achats intégrés](purchase-reports.md)
 ### [Procédure pas à pas : configuration et utilisation d’un flux de travail approbation achat](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Enregistrement des achats](purchasing-how-record-purchases.md)
 ### [Demande de devis](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Immobilisations
 ### [Vue d’ensemble des immobilisations](fa-manage.md)
+### Analyse des immobilisations
+#### [Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md)
+#### Outils d’analyse des immobilisations intégrés
+##### [Surveillance des coûts de maintenance](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Surveillance des couvertures d’assurance](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Affichage des valeurs de la loi d’amortissement modifiées](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Affichage des écritures comptables cession](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Affichage des valeurs de cession prévues](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [États sur les immobilisations intégrés](fa-reports.md)
 ### [Configuration des immobilisations](fa-setup.md)
 ### [Méthodes amortissement](fa-depreciation-methods.md)
-### [États et analyses des immobilisations](fa-reports.md)
+### [Gestion des budgets pour les immobilisations](fa-how-manage-budgets.md)
 ### [Acquisition des immobilisations](fa-how-acquire.md)
 ### [Mise à jour des immobilisations](fa-how-maintain.md)
 ### [Assurance des immobilisations](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Réévaluation des immobilisations](fa-how-revalue.md)
 ### [Amortissement des immobilisations](fa-how-depreciate-amortize.md)
 ### [Cession ou annulation des immobilisations](fa-how-dispose-retire.md)
-### [Gestion des budgets pour les immobilisations](fa-how-manage-budgets.md)
 ### [Résolution des problèmes des écritures comptables immobilisation](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Gestion des relations
 ### [Vue d’ensemble de la gestion des relations](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Création des états pour afficher les données de listes](across-how-use-powerbi-reports-factbox.md)
 ##### Utilisateurs métier
 ###### [Utilisation des états Power BI dans Business Central](across-working-with-powerbi.md)
-###### [Utilisation des données Business Central dans Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Se connecter à Power BI depuis Business Central local](across-working-with-business-central-in-powerbi.md)
 ###### [Utilisation des applications Business Central dans Power BI](across-powerbi-business-central-apps.md)
 ##### [FAQ](power-bi-faq.md)
 #### Utilisation de Power Automate avec Business Central
@@ -1787,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Présentation des analyses](reports-bi-reporting.md)
 ## [Utilisation d’indicateurs de performance clés pour répondre aux objectifs de votre entreprise](./analytics-about-kpis.md)
 ## [Utilisation de l’état financier](bi-how-work-account-schedule.md)
+
+## Analyse de données ad hoc
+### [Vue d’ensemble](reports-adhoc-analysis.md)
+### [Tri, recherche et filtrage](ui-enter-criteria-filters.md)
+### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
+### [Analyse des données de page dans Excel](across-work-with-excel.md)
+### [Analyse des données d’état avec Excel](report-analyze-excel.md)
+### [Analyse des données de liste et de requête avec le mode d’analyse](analysis-mode.md)
+
+## Outils d’analyse intégrés
+### [Vue d’ensemble](reports-built-in-analytics.md)
+### [Utilisation des états Power BI](across-working-with-powerbi.md)
+### [Informations intelligentes (local)](about-intelligent-cloud.md)
+### [Signalement de l’activité de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Utilisation des états dans le travail quotidien
 ### [Vue d’ensemble](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Vue d’ensemble des devis service](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Vue d’ensemble des documents service enregistrés](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Analyse de données ad hoc
-### [Vue d’ensemble](reports-adhoc-analysis.md)
-### [Tri, recherche et filtrage](ui-enter-criteria-filters.md)
-### [FAQ sur la recherche et le filtrage](ui-search-filter-faq.yml)
-### [Analyse des données de page dans Excel](across-work-with-excel.md)
-### [Analyse des données d’état avec Excel](report-analyze-excel.md)
-### [Analyse des données de liste et de requête avec le mode d’analyse](analysis-mode.md)
-### [BI financière](bi.md)
-
-## Analyses intégrées 
-### [Vue d’ensemble](reports-built-in-analytics.md)
-### [Informations intelligentes](about-intelligent-cloud.md)
-### [Utilisation des états Power BI](across-working-with-powerbi.md)
-### [BI financière](bi.md)
-### [Analyse des états financiers avec Excel](finance-analyze-excel.md)
-### [Consolidation des données financières de plusieurs sociétés](finance-consolidated-company-reporting.md)
-### [Signalement de l’activité de la télémétrie](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analyse des données dans les outils de BI
-### [Vue d’ensemble](reports-external-analysis.md)
-### [Microsoft Fabric et Business Central](admin-fabric.md)
-### [Utilisation de Power BI avec Business Central](admin-powerbi.md)
-### [Analyse des états financiers avec Excel](finance-analyze-excel.md)
-### [Extraction de données vers des entrepôts de données ou des lacs de données](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Lecture des données avec l’API Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Élaboration d’états
 ### [Vue d’ensemble](reports-develop-reports.md)
 ### Élaboration de dispositions d’état
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Élaboration de jeux de données d’état
 #### [Guide de développement d’états](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Guide de réglage des performances des états](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analyse des données dans les outils de BI
+### [Vue d’ensemble](reports-external-analysis.md)
+### [Microsoft Fabric et Business Central](admin-fabric.md)
+### [Utilisation de Power BI avec Business Central](admin-powerbi.md)
+### [Analyse des états financiers avec Excel](finance-analyze-excel.md)
+### [Extraction de données vers des entrepôts de données ou des lacs de données](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Lecture des données avec l’API Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Sécurité, confidentialité et conformité
 ## Sécurité et protection

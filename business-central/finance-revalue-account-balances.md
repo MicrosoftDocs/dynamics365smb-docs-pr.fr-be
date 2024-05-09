@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Réévaluation des soldes comptables
+# Réévaluation des soldes comptables
 
 Si vous utilisez des comptes du grand livre pour enregistrer des postes de bilan en devises étrangères, vous devez réévaluer les soldes des comptes avant de produire des états financiers. Les taux de change changent souvent et la réévaluation contribue à rendre vos états financiers plus précis.
 
-## <a name="set-up-revaluations"></a>Configurer réévaluation
+## Configurer réévaluation
 
 Vous configurez chaque compte que vous souhaitez inclure dans les réévaluations sur la page **Fiche de compte général** . Vous pouvez choisir de comptabiliser les ajustements de réévaluation dans les comptes de gains/pertes réalisés ou latents. La comptabilisation des gains et des pertes lors d’un ajustement du taux de change suit la routine de comptabilisation normale. Par exemple, vous le faites pour chaque configuration sur la page **Devises** . Pour en savoir plus sur les ajustements des taux de change, accédez à [Mettre à jour les taux de change](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Pour minimiser les erreurs, dans le champ **Validation en devise source** , vous
 * Même devise
 * Devise locale
 
-## <a name="run-a-revaluation"></a>Exécuter Réévaluation
+## Exécuter Réévaluation
 
 Pour réévaluer les montants en devise étrangère dans la devise locale pour les soldes des comptes généraux, sur la page **Plan comptable** , utilisez l’option **Devise du grand livre Action de réévaluation** pour démarrer un travail par lots. Le travail par lots crée des écritures d’ajustement dans le journal que vous sélectionnez. Lorsque vous validez les écritures, vous ajustez le solde en devise locale (LCY) du compte. Les soldes des comptes généraux qui s’affichent toujours en LCY reflètent désormais les modifications apportées aux devises dans lesquelles les écritures ont été comptabilisées. Cette réévaluation vous permet de produire un état financier plus précis avec moins d’effort.
 
@@ -38,7 +38,7 @@ Si vous utilisez une devise de reporting supplémentaire (ACY), les écritures d
 > [!NOTE]
 > La réévaluation ne permet pas d’appliquer ou d’annuler des écritures, comme c’est le cas avec les écritures comptables des clients et des fournisseurs. Les ajustements se produisent sur une base de solde par devise.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Réévaluer les comptes par rapport aux ajustements de taux de change des clients et des fournisseurs
+## Réévaluer les comptes par rapport aux ajustements de taux de change des clients et des fournisseurs
 
 La réévaluation simplifie la tâche d’ajustement des soldes des comptes généraux. La fonctionnalité réévalue le solde par devise et par compte général, tout comme vous le faites pour les ajustements des comptes généraux liés aux comptes bancaires. Si vous utilisez un compte général pour suivre plusieurs actifs, envisagez plutôt d’utiliser un compte fournisseur ou client.
 
@@ -56,7 +56,7 @@ Cette différence est importante lorsque vous évaluez si la réévaluation du g
 > [!TIP]
 > Nous vous recommandons de demander à votre comptable ou auditeur quel type de compte convient le mieux à votre entreprise. Il pourrait également y avoir une application pour [!INCLUDE [prod_short](includes/prod_short.md)] sur [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) c’est parfait pour vos scénarios commerciaux.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Examiner les montants dans la comptabilité](finance-review-accounts.md)  
 [Comprendre la comptabilité et le plan comptable](finance-general-ledger.md)  

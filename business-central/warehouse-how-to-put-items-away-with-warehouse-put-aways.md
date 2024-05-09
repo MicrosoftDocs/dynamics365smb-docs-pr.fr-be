@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Ranger des articles avec le rangement entrepôt
+# Rangement des articles avec les rangement entrepôt
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous recevez des articles et les rangez en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
@@ -31,7 +31,7 @@ En fonction de la valeur du champ **Utiliser feuille rangement** de la **Fiche m
 
 Outre les méthodes standard pour créer les rangements entrepôt qui sont décrits dans cet article, vous pouvez créer des rangements à partir de la réception entrepôt validée associée. Cela est utile si vous avez supprimé des lignes rangement ou si vous décidez de ne pas utiliser la feuille rangement, car vous pouvez créer ou recréer des instructions de rangement à partir des lignes réception validées.
 
-## <a name="zone-and-bin-codes"></a>Codes zone et emplacement
+## Codes zone et emplacement
 
 Dans les magasins configurés pour utiliser le rangement et le prélèvement dirigés, les paramètres suivants sont requis pour déterminer le meilleur endroit pour ranger les articles :  
 
@@ -41,7 +41,7 @@ Dans les magasins configurés pour utiliser le rangement et le prélèvement dir
 
 La priorité emplacement est prise en compte lorsque plusieurs emplacements correspondent aux critères du modèle rangement. Si les critères du modèle rangement et la priorité emplacement coïncident pour plusieurs emplacements, l’emplacement dont le numéro est le plus élevé est alors sélectionné.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Pour créer des documents rangement en bloc avec la feuille rangement
+## Pour créer des documents rangement en bloc avec la feuille rangement  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -54,12 +54,12 @@ Vous pouvez créer des documents rangement pour plusieurs réceptions en même t
 3. Sélectionnez les documents que vous souhaitez utiliser. Vous pouvez utiliser simultanément des lignes de plusieurs documents.  
 
     > [!NOTE]  
-    >  Si vous sélectionnez un document réception ou rangement interne dont toutes les lignes disposent déjà d’instructions, [!INCLUDE[prod_short](includes/prod_short.md)]] vous indique qu’il n’y a rien à gérer.  
+    > Si vous sélectionnez un document réception ou rangement interne dont toutes les lignes disposent déjà d’instructions, [!INCLUDE[prod_short](includes/prod_short.md)]] vous informe qu’il n’y a rien à gérer.  
 
 4. Renseignez le champ **Méthode de tri** pour trier les lignes.  
 
     > [!NOTE]  
-    >  La façon dont les lignes sont triées dans la feuille ne se répercute pas automatiquement sur l’instruction de rangement. Cependant, les mêmes possibilités de tri et de classement des emplacements existent. Vous pouvez recréer l’ordre des lignes planifié dans la feuille lorsque vous créez ou triez les instructions rangement.
+    > La façon dont les lignes sont triées dans la feuille ne se répercute pas automatiquement sur l’instruction de rangement. Cependant, les mêmes possibilités de tri et de classement des emplacements existent. Vous pouvez recréer l’ordre des lignes planifié dans la feuille lorsque vous créez ou triez les instructions rangement.
 
 5. Renseignez le champ **Quantité à traiter**. Choisissez l’action **Remplir qté à traiter**, ou renseignez les champs manuellement.  
 6. Si nécessaire, vous pouvez modifier les lignes manuellement. Vous pouvez supprimer des lignes (par exemple, si certains articles doivent être rangés dans un emplacement éloigné des emplacements des autres articles).  
@@ -77,7 +77,7 @@ Vous pouvez créer des documents rangement pour plusieurs réceptions en même t
 
 8. Sélectionnez **OK** pour créer le rangement.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Pour créer un rangement à partir d’une réception validée
+## Pour créer un rangement à partir d’une réception validée
 
 Si un magasin utilise à la fois le traitement du rangement et de la réception et que vous avez supprimé des lignes rangement, ou si vous utilisez le prélèvement et le rangement dirigés et avez décidé de ne pas utiliser la feuille rangement, vous pouvez créer ou recréer des instructions de rangement pour les lignes réception validées.
 
@@ -90,7 +90,7 @@ Si un magasin utilise à la fois le traitement du rangement et de la réception 
 4. Si la réception est partiellement rangée ou n’est pas rangée du tout, choisissez l’action **Créer rangement**.  
 5. Renseignez les champs selon vos besoins, puis sélectionnez **OK**.  
 
-## <a name="to-put-items-away"></a>Pour ranger les articles
+## Pour ranger les articles
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangements entrepôt**, puis sélectionnez le lien associé.
 
@@ -101,6 +101,9 @@ Si un magasin utilise à la fois le traitement du rangement et de la réception 
 
     * Si les lignes Prendre et Placer de chaque ligne réception ne se suivent pas directement et que vous souhaitez qu’elles se suivent, triez-les en sélectionnant **Article** dans le champ **Méthode de tri**.  
     * Si les classements des emplacements reflètent la disposition physique de l’entrepôt, utilisez la méthode de tri **Priorité emplacement** pour organiser le travail par emplacements.
+
+  > [!NOTE]  
+  > Les lignes sont triées par ordre croissant, en fonction des critères sélectionnés. Si vous triez par document, le tri est effectué d’abord par type de document en fonction du champ **Document source d’activité d’entrepôt** . Si vous triez par de livraison, le tri est effectué d’abord par type de destination en fonction du champ **Type de destination d’entrepôt** .
 
 4. Effectuez les actions.
 
@@ -114,7 +117,7 @@ Si un magasin utilise à la fois le traitement du rangement et de la réception 
 
 5. Après avoir placé tous les articles dans des emplacements selon les instructions, choisissez l’action **Enregistrer rangement**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
