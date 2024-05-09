@@ -10,18 +10,18 @@ ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Comprendre la comptabilité et le plan comptable
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
 
 La comptabilité (comptes généraux) stocke vos données financières, et le plan comptable (COA) affiche les comptes sur lesquels valider toutes les écritures comptables. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 
-## Paramètres comptabilité et paramètres comptabilisation
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Paramètres comptabilité et paramètres comptabilisation
 
 La configuration des écritures comptables est le composant principal des processus financiers car elle définit comment vous validez les données. Deux pages jouent un rôle particulièrement important dans la configuration de vos processus financiers :  
 
 * **Paramètres comptabilité**
 * **Paramètres comptabilisation**
 
-### La page **Paramètres comptabilité**
+### <a name="the-general-ledger-setup-page"></a>La page **Paramètres comptabilité**
 
 Utiliser la page **Paramètres comptabilité**, vous spécifiez comment gérer certains problèmes comptables dans votre société, par exemple :  
 
@@ -34,7 +34,7 @@ Utiliser la page **Paramètres comptabilité**, vous spécifiez comment gérer c
 
 Pour ouvrir la page maintenant, utilisez le lien suivant [Paramètres comptabilité](https://businesscentral.dynamics.com/?page=118).
 
-### La page **Paramètres comptabilisation**
+### <a name="the-general-posting-setup-page"></a>La page **Paramètres comptabilisation**
 
 Utilisez la page **Paramètres comptabilisation** pour configurer des combinaisons de groupes comptabilisation marché et de groupes comptabilisation produits. Les groupes comptabilisation mappent des entités telles que les clients, les fournisseurs, les éléments, les ressources et les documents vente et achat dans des comptes généraux. Saisissez une ligne pour chaque combinaison de groupes comptabilisation marché et de groupes comptabilisation produit. Mais vous pouvez également ouvrir chaque ligne dans sa propre fiche paramètres comptabilisation. Pour plus d’informations, consultez [Configurer les groupes comptabilisation](finance-posting-groups.md).  
 
@@ -43,7 +43,7 @@ Utilisez la page **Paramètres comptabilisation** pour configurer des combinaiso
 
 Pour ouvrir la page maintenant, utilisez le lien suivant [Paramètres comptabilisation](https://businesscentral.dynamics.com/?page=314).
 
-## Le plan comptable
+## <a name="the-chart-of-accounts"></a>Le plan comptable
 
 Le **plan comptable** affiche tous les comptes généraux. Vous pouvez effectuer les opérations suivantes à partir du plan comptable :  
 
@@ -55,7 +55,7 @@ Le **plan comptable** affiche tous les comptes généraux. Vous pouvez effectuer
 
 Pour en savoir plus, allez à [Familiarisation avec le plan comptable](finance-chart-of-accounts.md).
 
-## Catégories de compte
+## <a name="account-categories"></a>Catégories de compte
 
 Vous pouvez personnaliser la structure de vos états financiers en mappant les comptes généraux aux catégories de comptes.  
 
@@ -65,7 +65,7 @@ Vous pouvez créer un groupe des catégories en effectuant une indentation d’a
 
 Vous pouvez définir si des types d’états spécifiques doivent inclure les comptes de chaque sous-catégorie. Les catégories de compte vous aident à définir la présentation de vos états financiers.  
 
-### Exemple :
+### <a name="example"></a>Exemple :
 
 Par exemple, le solde relevé par défaut solde est doté d’une sous-catégorie pour la *trésorerie* dans *Actifs à court terme*. Si vous souhaitez que le solde relevé tienne compte du fonds de caisse et du compte chèque, vous pouvez donc procéder comme suit :
 
@@ -92,17 +92,17 @@ Lorsque vous sélectionnez l’action **Générer des états financiers**, ou la
 > [!NOTE]
 > Si vous créez un compte général sans affecter de catégorie de compte, lorsque vous affectez le compte à un groupe comptabilisation [!INCLUDE[prod_short](includes/prod_short.md)] attribue automatiquement la catégorie de compte du compte général immédiatement au-dessus du compte dans votre plan comptable. Cependant, pour inclure le nouveau compte dans vos états financiers, vous devez choisir l’action **Générer des états financiers** sur la page **Catégories de compte général**. Vous pouvez également ouvrir la page Fiche Compte général, spécifier la catégorie de compte, puis régénérer votre état financier.
 
-## Accès pour créer et modifier des comptes général et des catégories de comptes
+## <a name="access-to-create-and-edit-gl-accounts-and-account-categories"></a>Accès pour créer et modifier des comptes général et des catégories de comptes
 
 Dans une petite organisation, comme la société de démonstration CRONUS, la plupart des utilisateurs peuvent modifier les entités finance comme Compte général, catégories compte et le plan comptable, à l’exception des utilisateurs disposant d’une licence MEMBRE D’ÉQUIPE. Cependant, les grandes organisations utilisent généralement des rôles et des autorisations d’utilisation pour limiter l’accès pour modifier les entités. Si vous êtes administrateur ou si vous avez le rôle de *Gestionnaire d’activité* ou de *Comptable*, vous pouvez contrôler les autorisations utilisateur pour vous assurer que les bonnes personnes ont accès aux tables pertinentes. Pour plus d’informations, consultez [Pour afficher ou modifier les autorisations d’un utilisateur](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Utilisez des dimensions pour simplifier votre plan comptable
+## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Utilisez des dimensions pour simplifier votre plan comptable
 
 Les axes analytiques sont des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser sur les documents, tels que les commandes vente. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture. Ainsi, au lieu de configurer des comptes généraux distincts pour chaque service et projet, vous pouvez utiliser les axes analytiques comme base d’analyse et éviter d’avoir à créer un plan comptable compliqué.
 
 Pour en savoir plus sur les axes analytiques, aller [configurer des axes analytiques par défaut pour les clients, les fournisseurs et d’autres comptes](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Comprendre du plan comptable](finance-chart-of-accounts.md)  
 [Utilisation des axes analytiques](finance-dimensions.md)  
