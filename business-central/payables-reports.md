@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # États Comptabilité fournisseur et analyse
 
-Pour vous aider à gérer votre comptabilité fournisseur dans [!INCLUDE [prod_short](includes/prod_short.md)], des états et des analyses standard sont intégrés. Ils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports.  
+[!INCLUDE [prod_short](includes/prod_short.md)] a des états et des analyses intégrés pour vous aider à gérer votre comptabilité fournisseur. Les outils vont au-delà des contraintes des rapports traditionnels pour vous aider à concevoir efficacement divers types de rapports.  
 
 ## États
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Explorez les rapports finances avec l’Explorateur de rapports
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Voir aussi
 
-[Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
-[Utiliser les axes analytiques](finance-dimensions.md)  
-[Gestion des immobilisations](fa-manage.md)  
-[Vue d’ensemble des fonctionnalités locales](about-localization.md)  
+[Analyse ad hoc sur données financières](ad-hoc-analysis-finance.md)  
+[Analyses financières](bi.md)  
+[Analyse des achats](purchasing-analytics-overview.md)  
 [Expériences de comptable dans [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

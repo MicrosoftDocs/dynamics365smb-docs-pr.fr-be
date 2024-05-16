@@ -9,14 +9,14 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="run-tasks-in-the-background"></a>Exécution des tâches en arrière-plan
+# Exécution des tâches en arrière-plan
 
 Il est efficace d’exécuter certaines tâches simultanément et de manière automatisée. Vous pouvez effectuer ces tâches en arrière-plan et également définir un calendrier pour les exécuter automatiquement. Pour exécuter des tâches en arrière-plan, deux modes sont pris en charge :
 
 - Les tâches déclenchées manuellement sont planifiées immédiatement via **Écritures file d’attente des travaux**.
 - Les tâches récurrentes sont planifiées dans **Écritures file d’attente des travaux**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Exécuter des tâches en arrière-plan pour un magasin spécifique
+## Exécuter des tâches en arrière-plan pour un magasin spécifique
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez exécuter la synchronisation à l’arrière-plan pour ouvrir la page **Fiche magasin Shopify**.
@@ -24,7 +24,7 @@ Il est efficace d’exécuter certaines tâches simultanément et de manière au
 
 Désormais, lorsque l’action de synchronisation démarre, au lieu d’exécuter une tâche au premier plan, vous serez invité à attendre. Une fois la synchronisation terminée, vous pouvez passer à l’action suivante. La tâche est créée comme **Écriture file d’attente des travaux** et démarre immédiatement.
 
-## <a name="to-schedule-recurring-tasks"></a>Pour programmer des tâches récurrentes
+## Pour programmer des tâches récurrentes
 
 Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soient exécutées de manière automatisée. Pour plus d’informations sur la planification des tâches, voir [File d’attente](../admin-job-queues-schedule-tasks.md).
 
@@ -43,28 +43,28 @@ Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soi
 |**Sync. prix catalogue**|État 30116 Shopify Sync. prix catalogue (B2B)|
 
 > [!NOTE]
-> Certains éléments peuvent être mis à jour par plusieurs tâches, par exemple lorsque vous importez des commandes, selon le paramétrage dans la **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. N’oubliez pas d’utiliser la même catégorie de file d’attente pour éviter les conflits.
+> Certains éléments peuvent être mis à jour par plusieurs tâches. Par exemple lorsque vous importez des commandes, selon le paramétrage dans la **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. N’oubliez pas d’utiliser la même catégorie de file d’attente pour éviter les conflits.
 
 Autres tâches pouvant être utiles pour automatiser le traitement ultérieur des documents de vente :
 
-- état 297 TPL validation factures vente
-- état 296 TPL validation commandes vente
+- État 297 TPL validation factures vente
+- État 296 TPL validation commandes vente
 
 Vous pouvez utiliser le champ **N° de commande Shopify** pour identifier les documents commerciaux importés depuis Shopify.
 
 Pour en savoir plus sur la validation de commandes client par lot, accédez à [Pour créer une entrée de file d’attente de tâches pour la validation par lots de commandes client](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="to-check-the-status-of-synchronization"></a>Pour examiner le statut de la synchronisation
+## Pour examiner le statut de la synchronisation
 
 Sur le **Chef d’entreprise** Centre de rôle, le **Shopify Activités** La pièce propose plusieurs indices qui peuvent vous aider à identifier rapidement s’il y a des problèmes avec Shopify Connecteur.
 
-- **Clients non mappés** – Shopify le client est importé, mais n’est pas lié à une entrée client correspondante dans [!INCLUDE [prod_short](../includes/prod_short.md)].
+- **Clients non mappés** : Shopify le client est importé, mais n’est pas lié à une entrée client correspondante dans [!INCLUDE [prod_short](../includes/prod_short.md)].
 - **Produits non mappés** – Shopify le produit est importé, mais n’est pas lié à une entrée article correspondante dans [!INCLUDE [prod_short](../includes/prod_short.md)].
-- **Commandes non traitées** – Shopify les commandes sont importées, mais les documents de vente [!INCLUDE [prod_short](../includes/prod_short.md)] n’ont pas été créés, souvent à cause de produits ou de clients non cartographiés.
-- **Envois non traités** - Les expéditions de vente publiées provenaient de Shopify les commandes ne sont pas synchronisées avec Shopify.
-- **Erreurs d’expédition** - Shopify Le connecteur n’a pas pu synchroniser les expéditions de ventes publiées avec Shopify.
-- **Erreurs de synchronisation** - Il y a des entrées de file d’attente de travaux ayant échoué liées à la synchronisation avec Shopify.
+- **Commandes non traitées** : Shopify les commandes sont importées, mais les documents de vente [!INCLUDE [prod_short](../includes/prod_short.md)] n’ont pas été créés, souvent à cause de produits ou de clients non cartographiés.
+- **Envois non traités** : Les expéditions de vente publiées provenaient de Shopify les commandes ne sont pas synchronisées avec Shopify.
+- **Erreurs d’expédition** : Shopify Le connecteur n’a pas pu synchroniser les expéditions de ventes publiées avec Shopify.
+- **Erreurs de synchronisation** : Il y a des entrées de file d’attente de travaux ayant échoué liées à la synchronisation avec Shopify.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Mise en route du connecteur pour Shopify](get-started.md)  
+[Mise en route avec le connecteur Shopify](get-started.md)  

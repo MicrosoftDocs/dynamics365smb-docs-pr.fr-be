@@ -1,19 +1,21 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Vérifier des données dans des documents et des feuilles pendant votre travail
+## Vérifier des données dans des documents et des feuilles pendant votre travail
 
-Dans la 1re vague de lancement de 2022, nous avons introduit une fonctionnalité qui validera pendant la saisie les données que vous saisissez dans les documents et les feuilles. Par exemple, l’activation de cette fonctionnalité peut aider à éviter les erreurs de saisie de données ou l’impossibilité de valider quelque chose en raison d’une erreur. 
+Votre administrateur peut permettre [!INCLUDE [prod_short](prod_short.md)] de valider les données que vous saisissez dans les documents et journaux en temps réel.
 
-Votre administrateur peut activer la fonctionnalité **Fonction : vérification des documents et des feuilles pendant votre travail** sur la page **Gestion des fonctionnalités**. Vous recevrez ensuite une notification lorsque vous ouvrirez une page pour commencer à travailler sur un document ou une feuille. Pour commencer à utiliser la fonctionnalité, choisissez le lien **Activer cette fonction** dans la notification. 
+Si vous activez la fonctionnalité, le volet Récapitulatif affiche soit un Récapitulatif **Vérifier le document** ou **Vérifier la feuille**, en fonction du type de document sur lequel vous travaillez. Le Récapitulatif répertorie les erreurs sur la page afin que vous puissiez les résoudre rapidement.
 
-Si vous activez la fonctionnalité, le volet Récapitulatif affichera soit un Récapitulatif **Vérifier le document** ou **Vérifier la feuille**, en fonction du type de document sur lequel vous travaillez. Le Récapitulatif répertorie les erreurs sur la page afin que vous puissiez les résoudre rapidement.
+Pour activer la fonctionnalité, sur la page **Mes notifications** , cochez les cases suivantes :
 
-Si vous décidez que vous n’avez pas besoin de cette fonctionnalité, vous pouvez la désactiver de deux manières :
+* Pour les journaux, cochez la case **Activé** pour **Activer la vérification des données**.
+* Pour les documents, cochez la case **Activée** pour **Afficher la FactBox de vérification des documents**.
 
-* Pour les journaux, désactivez le bouton bascule **Activer la vérification des données** sur la page **Configuration de la feuille comptabilité**.
-* Pour les documents, décochez l’option **Afficher le récapitulatif de vérification de document** sur la page **Mes notifications**.
+La vidéo suivante explique la vérification des données en temps réel.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l0pR]

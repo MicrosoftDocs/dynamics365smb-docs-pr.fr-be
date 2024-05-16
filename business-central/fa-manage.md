@@ -3,18 +3,18 @@ title: Gérer les immobilisations (contient une vidéo)
 description: En savoir plus sur la fonctionnalité d’immobilisations et afficher un aperçu de l’utilisation et de la gestion de vos immobilisations.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
-ms.date: 03/25/2024
+ms.date: 05/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Gérer des immobilisations
 
-Le module Immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] offre un aperçu des immobilisations et garantit un amortissement périodique correct. Elle vous permet également de connaître les coûts de maintenance, de gérer les polices d’assurance, de valider les transactions d’immobilisations, et de générer des états et des statistiques variés.
+Le module Immobilisations dans [!INCLUDE[prod_short](includes/prod_short.md)] offre un aperçu des immobilisations et garantit un amortissement correct. Elle vous permet également de suivre les coûts de maintenance, de gérer les polices d’assurance, de valider les transactions d’immobilisations, et de générer des états et des statistiques variés.
 
 ## Présentation de la vidéo
 
@@ -22,59 +22,88 @@ La vidéo suivante couvre les notions de base des immobilisations :
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Vue d’ensemble des immobilisations
+## Configuration initiale des immobilisations
 
-Pour chaque immobilisation, vous devez créer une fiche contenant des informations la concernant. Vous pouvez configurer des bâtiments ou un équipement de production en tant qu’actif principal avec une liste de composants et vous pouvez les regrouper de différentes façons, comme par catégorie, département ou emplacement. Puis, vous pouvez commencer à acquérir, maintenir et commercialiser les immobilisations. Vous pouvez également paramétrer des immobilisations budgétées. La budgétisation vous permet par exemple d’inclure dans des états des acquisitions et des ventes anticipées.
+Avant de pouvoir gérer les immobilisations, vous devez effectuer les configurations suivantes :
 
-> [!IMPORTANT]
-> Avant de pouvoir gérer les immobilisations, vous devez effectuer les configurations suivantes :
->
-> * Valeur par défaut
-> * Comptabilité immobilisations
-> * Groupes comptabilisation
-> * Clés de ventilation
-> * Feuilles immobilisation
->
-> Pour plus d’informations, reportez-vous à [Paramétrage d’immobilisations](fa-setup.md).
+- Valeur par défaut
+- Comptabilité immobilisations
+- Groupes et types comptabilisation
+- Clés de ventilation
+- Feuilles immobilisation
 
-Pour suivre des amortissements d’immobilisations et d'autres transactions financières pour les immobilisations, vous configurez une, voire plusieurs lois d’amortissements pour chacune. L’amortissement est effectué en exécutant un état afin de calculer l’amortissement périodique et compléter une feuille avec les écritures résultantes, puis valider la feuille. [!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs méthodes d’amortissement. Pour en savoir plus, voir [Méthodes d’amortissement](fa-depreciation-methods.md). Vous pouvez configurer plusieurs lois d’amortissement par immobilisation à différentes fins, telles qu’une pour la déclaration fiscale, et une autre pour les états internes.
+Pour en savoir plus, accédez à [Configuration des Immobilisations](fa-setup.md).
 
-Pour chaque immobilisation, vous pouvez enregistrer des coûts de maintenance et la date de la prochaine visite d'entretien. Le suivi des frais de maintenance peut être utile dans le cadre de l’élaboration du budget et de la prise de décisions concernant le remplacement éventuel d’une immobilisation.
+## Analyse des immobilisations
 
-Vous pouvez rattacher chaque immobilisation à une ou plusieurs polices d’assurance et vérifier que les primes des polices correspondent à la valeur des actifs.
+Cette section décrit les outils analytiques que vous pouvez utiliser pour obtenir des informations dans vos données sur vos Immobilisations.
 
-> [!NOTE]  
-> Vous pouvez enregistrer les transactions immobilisation sur la page **Feuille compta. immo.** ou sur la page **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. L’aide pour les immobilisations décrit uniquement la procédure d’utilisation de la page **Feuille compta. immo.**. Pour en savoir plus, voir [Configurer l’amortissement d’immobilisation](fa-how-setup-depreciation.md).
+| Pour... | Voir |
+| --- | --- |
+| Découvrez les fonctionnalités d’analyse des données sur les immobilisations. | [Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md) |
+| Effectuez une analyse ad hoc des données Immobilisations directement sur les pages de liste et les requêtes. | [Analyse ad hoc des données Immobilisations](ad-hoc-analysis-fa.md) |
+| Explorez états intégrés sur les immobilisations. | [États sur les immobilisations intégrés](fa-reports.md) |
+| Surveillance des coûts de maintenance. | [Surveillance des coûts de maintenance](fa-how-maintain.md#to-monitor-maintenance-costs)|
+| Surveillance des couvertures d’assurance. | [Surveillance des couvertures d’assurance](fa-how-insure.md#to-monitor-insurance-coverage) |
+| Afficher des écritures comptables cession. | [Affichage des écritures comptables cession](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
+| Visualiser des valeurs de cession prévues. | [Affichage des valeurs de cession prévues](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Utilisation des immobilisations
+## Enregistrer Immobilisations
 
-Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
+Pour chaque immobilisation, vous devez créer une fiche contenant des informations les concernant. Par exemple, vous pouvez paramétrer les bâtiments ou le matériel de production en tant qu'actifs principale avec une liste de composants. Vous pouvez regrouper les actifs de différentes manières par exemple, par classe, par département ou par emplacement. Puis, vous pouvez acquérir, maintenir et commercialiser les immobilisations. Vous pouvez également paramétrer des immobilisations budgétées. La budgétisation vous permet par exemple d’inclure dans des états des acquisitions et des ventes anticipées.
 
 | À  | Voir |
 | --- | --- |
-| Paramétrez les conditions préalables de la fonctionnalité des immobilisations (en définissant les valeurs par défaut, la comptabilité des immobilisations, les groupes comptabilisation, les clés de ventilation, les feuilles et les types de validation). | [Paramétrage d’immobilisations](fa-setup.md)|
 | Gérer les budgets d’immobilisations, budgéter les coûts d’acquisition, les cessions d’immobilisations et l’amortissement. |[Gestion des budgets pour les immobilisations](fa-how-manage-budgets.md) |
 | Créer des immobilisations, affecter des méthodes d'amortissement, valider des acquisitions et des valeurs résiduelles et imprimer les listes d'immobilisations. |[Acquisition des immobilisations](fa-how-acquire.md) |
+
+## Configurer les Amortissement des immobilisations
+
+Pour suivre des amortissements d’immobilisations et d'autres transactions financières pour les immobilisations, vous configurez une, voire plusieurs lois d’amortissements pour chacune. Voici quelques étapes pour amortir les actifs :
+
+1. Exécuter un état pour calculer l'amortissement périodique.
+1. Renseignez une feuille avec les écritures résultant.
+1. Validez la feuille.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] prend en charge plusieurs méthodes d’amortissement. Pour en savoir plus, consultez [Méthodes amortissement](fa-depreciation-methods.md). Vous pouvez configurer plusieurs lois d’amortissement pour chaque immobilisation à différentes fins, telles qu’une pour la déclaration fiscale, et une autre pour les états internes.
+
+| À  | Voir |
+| --- | --- |
 | En savoir plus sur les différentes méthodes d’amortissement des immobilisations. |[Méthodes d’amortissement](fa-depreciation-methods.md) |
 | Calculer l’amortissement, valider l’amortissement et analyser l’amortissement dans les états sur les immobilisations. |[Amortissement des immobilisations](fa-how-depreciate-amortize.md) |
-| Apprenez-en davantage sur les fonctionnalités intégrées de reporting et d’analyse pour les immobilisations. | [Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md) |
-| Enregistrer les visites de service, valider les coûts de maintenance et surveiller les coûts de maintenance. |[Mettre à jour des immobilisations](fa-how-maintain.md) |
-| Mettre à jour les informations d’assurance, valider les coûts d’acquisition vers les polices d’assurance, modifier la couverture assurance, visualiser les statistiques assurance et répertorier les polices d’assurance. |[Assurer les immobilisations](fa-how-insure.md) |
-| Reclasser les immobilisations, les transférer vers d’autres emplacements, les diviser ou les combiner. |[Transférer, fractionner ou regrouper les immobilisations](fa-how-trans-split-combine.md) |
+| Afficher les valeurs comptables d’amortissement modifiées. | [Affichage des valeurs de la loi d’amortissement modifiées](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
+| Enregistrer les transactions immobilisation manuellement sur la page **Feuille compta. immo.** ou sur la page **Feuille immo.**, selon que les transactions sont destinées pour des rapports financiers ou pour la gestion interne. | [Configuration des amortissements](fa-how-setup-depreciation.md) |
+
+## Entretien et assurance des immobilisations
+
+Enregistrer des coûts de maintenance et la date de la prochaine visite d'entretien pour chaque actif. Le suivi des frais de maintenance peut être utile dans le cadre de l’élaboration du budget et de la prise de décisions concernant le remplacement éventuel d’une immobilisation. Vous pouvez rattacher chaque immobilisation à une ou plusieurs polices d’assurance et vérifier que les primes des polices correspondent à la valeur des actifs.
+
+| À  | Voir |
+| --- | --- |
+| Enregistrer les visites de service, valider les coûts de maintenance et surveiller les coûts de maintenance. |[Mise à jour des immobilisations](fa-how-maintain.md) |
+| Surveillance des coûts de maintenance. | [Surveillance des coûts de maintenance](fa-how-maintain.md#to-monitor-maintenance-costs)|
+| Mettre à jour les informations d’assurance, valider les coûts d’acquisition vers les polices d’assurance, modifier la couverture assurance, visualiser les statistiques assurance et répertorier les polices d’assurance. |[Assurance des immobilisations](fa-how-insure.md) |
+| Surveillance des couvertures d’assurance. | [Surveillance des couvertures d’assurance](fa-how-insure.md#to-monitor-insurance-coverage) |
+
+## Reclasser, transférer, diviser/regrouper, ajuster la valeur, déprécier et céder des immobilisations
+
+| À  | Voir |
+| --- | --- |
+| Reclasser les immobilisations, les transférer vers d'autres emplacements, les diviser ou les combiner. |[Transférer, fractionner ou regrouper les immobilisations](fa-how-trans-split-combine.md) |
 | Ajuster les valeurs des immobilisations, valider les réévaluations et les transactions de dépréciation. |[Réévaluation des immobilisations](fa-how-revalue.md) |
 | Valider les transactions de cession, visualiser les écritures comptables cession et valider les cessions partielles. |[Cession ou annulation des immobilisations](fa-how-dispose-retire.md) |
-
+| Afficher des écritures comptables cession. | [Affichage des écritures comptables cession](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
+| Visualiser des valeurs de cession prévues. | [Affichage des valeurs de cession prévues](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
 ## Voir aussi
 
 [Paramétrage d’immobilisations](fa-setup.md)  
-[Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md)   
+[Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md)  
 [Vue d’ensemble de Finance](finance.md)  
 [Préparation aux activités commerciales](ui-get-ready-business.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Modification des fonctionnalités affichées](ui-experiences.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

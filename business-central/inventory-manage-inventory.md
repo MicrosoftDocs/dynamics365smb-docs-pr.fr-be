@@ -24,6 +24,16 @@ Pour améliorer votre aperçu d’articles et pour vous aider à les trouver, vo
 
 Le planning d’articles pour répondre à la demande est couvert dans le cadre de la fonctionnalité de planning de l’offre. En savoir plus sur [Planification](production-planning.md).  
 
+## Analyses du stock
+
+Cette section décrit les outils analytiques que vous pouvez utiliser pour obtenir des informations sur vos données stock.
+
+| Pour... | Voir |
+| --- | --- |
+| Découvrez les fonctionnalités d’analyse des données de stock. | [Vue d’ensemble de l’analyse vente](inventory-analytics-overview.md) |
+| Effectuez une analyse ad hoc des données de stock directement sur les pages de liste et les requêtes. | [Analyse ad hoc des données stock](ad-hoc-analysis-inventory.md) |
+| Explorer états intégrés pour la stock. | [États de stock et d’entrepôt intégrés](inventory-WMS-reports.md) |
+
 ## Rapprochement stock
 
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité. En savoir plus sur [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
