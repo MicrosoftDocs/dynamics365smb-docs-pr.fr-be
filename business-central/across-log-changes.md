@@ -11,11 +11,11 @@ ms.date: 05/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Audit des modifications
+# <a name="auditing-changes"></a>Audit des modifications
 
 Un défi courant dans de nombreuses applications de gestion d’entreprise est d’éviter les modifications indésirables des données. Il peut s’agir d’une simple erreur de numéro de téléphone client comme d’une écriture comptable erronée. Cet article décrit les fonctionnalités permettant de savoir ce qui a changé, qui l’a modifié et quand la modification a été effectuée.
 
-## À propos du journal des modifications
+## <a name="about-the-change-log"></a>À propos du journal des modifications
 
 Le journal des modifications vous permet de suivre toutes les modifications directes apportées par un utilisateur aux données dans la base de données. Vous spécifiez les opérations que le système doit journaliser, pour chaque table et chaque champ, puis activez le journal modification. Le journal des modifications est basé sur les modifications apportées aux données dans les tableaux que vous suivez. Sur la page **Écritures du journal des modifications**, les entrées sont chronologiquement ordonnées et montrent toutes les modifications apportées aux valeurs des champs des tables que vous spécifiez.
 
@@ -37,7 +37,7 @@ Le suivi des modifications peut affecter les performances, ce qui peut vous fair
 > - L’utilisateur a sélectionné une autre société ou un autre Tableau de bord.
 > - L’utilisateur s’est déconnecté et s’est reconnecté.
 
-## Configuration du journal modifications
+## <a name="setting-up-the-change-log"></a>Configuration du journal modifications
 
 Vous pouvez activer et désactiver le journal des modifications sur la page **Paramètres journal modification**. Lorsque vous le faites, l’activité est enregistrée afin que vous puissiez toujours voir qui a effectué la modification.
 
@@ -48,11 +48,11 @@ Sur la page **Paramètres journal modification**, si vous choisissez l’option 
 
 Une fois que configuré et activé le journal des modifications et modifié des données, vous pouvez afficher et filtrer les modifications sur la page **Écritures journal modification**. Si vous souhaitez supprimer des entrées, configurez une stratégie de rétention, dans laquelle vous pouvez définir des filtres en fonction des dates et de l’heure. Pour en savoir plus sur les stratégies de rétention, accédez à [Définir des stratégies de rétention](admin-data-retention-policies.md).  
 
-## Analyser les données dans le journal des modifications
+## <a name="analyze-data-in-the-change-log"></a>Analyser les données dans le journal des modifications
 
 Vous pouvez utiliser la fonctionnalité **Analyse des données** pour analyser les données du journal des modifications à partir de la page [Entrées du journal des modifications](https://businesscentral.dynamics.com/?page=595) . Vous n’avez pas besoin d’exécuter un rapport ou d’ouvrir une autre application, telle qu’Excel. La fonction fournit un moyen interactif et polyvalent de calculer, résumer et examiner les données. Plutôt que d’exécuter des rapports à l’aide d’options et de filtres, vous pouvez ajouter plusieurs onglets qui représentent différentes tâches ou vues sur les données. Quelques exemples sont "Qui a modifié quelles données et quand" ou "Les données changent par table/champ" ou toute autre vue que vous pouvez imaginer. Pour en savoir plus sur l’utilisation de la fonctionnalité **Analyse des données** , accédez à [Analyser la liste et interroger les données avec le mode d’analyse](analysis-mode.md).
 
-### Scénarios d’analyse ad hoc des journaux de modification
+### <a name="change-log-ad-hoc-analysis-scenarios"></a>Scénarios d’analyse ad hoc des journaux de modification
 
 Les sections suivantes fournissent des exemples de scénarios dans lesquels l’analyse du journal des modifications peut vous aider à surveiller et auditer les modifications importantes.
 
@@ -61,7 +61,7 @@ Les sections suivantes fournissent des exemples de scénarios dans lesquels l’
 | [Qui a modifié quelles données et quand](#example-who-changed-what-data-and-when) | Voir qui a modifié quelles données. | [Écritures du journal des modifications](https://businesscentral.dynamics.com/?page=595) | **ID utilisateur**, **Date et heure**, **Légende du tableau**, **Légende du champ**, **Valeur de clé primaire 2**, **Valeur de clé primaire 3**, **Type de changement**, **Ancienne valeur** et **Nouvelle valeur**. |
 | [Modifications des données par table/champ](#example-data-changes-by-tablefield) | Consultez les modifications de données par table/champ et par qui a effectué la modification. | [Écritures du journal des modifications](https://businesscentral.dynamics.com/?page=595) | **Légende du tableau**, **Légende du champ**, **Identifiant utilisateur**, **Date et heure**, **Valeur de clé primaire 2**, **Valeur de clé primaire 3**, **Type de changement**, **Ancienne valeur** et **Nouvelle valeur**. |
 
-### Exemple : Qui a modifié quelles données et quand
+### <a name="example-who-changed-what-data-and-when"></a>Exemple : Qui a modifié quelles données et quand
 
 Pour analyser Qui a modifié Quelles données Quand, procédez comme suit :
 
@@ -82,7 +82,7 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Exemple de comment effectuer une analyse de données sur la page Modifier les entrées du journal (Qui a modifié quelles données quand)." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
 
-### Exemple : Modifications des données par table/champ
+### <a name="example-data-changes-by-tablefield"></a>Exemple : Modifications des données par table/champ
 
 Pour analyser les modifications de données par table/champ, procédez comme suit :
 
@@ -102,22 +102,22 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Exemple de comment effectuer une analyse de données sur la page Modifier les entrées du journal (Modifications des données par table/champ)." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png":::
 
-## À propos des journaux d’activité
+## <a name="about-activity-logs"></a>À propos des journaux d’activité
 
 À partir des pages [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez afficher un journal d’activités indiquant l’état et les erreurs éventuelles des fichiers que vous exportez ou importez dans [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### Utiliser les journaux d’activité
+### <a name="work-with-activity-logs"></a>Utiliser les journaux d’activité
 
 Les informations sont affichées dans la page **Journal des activités**, en fonction du contexte de l’ouverture. Par exemple, vous pouvez ouvrir la page depuis les pages **Paramètres du service d’échange de documents**, **Document entrant**, **Facture vente validée** et **Avoir vente enregistré**, par exemple. Vous pouvez vider la liste des entrées du journal ou simplement effacer la liste des entrées de plus de sept jours.  
 
-## Surveiller les champs sensibles
+## <a name="monitor-sensitive-fields"></a>Surveiller les champs sensibles
 
 La protection et la confidentialité des données sensibles est au cœur des préoccupations de la plupart des entreprises. Pour ajouter une couche de sécurité, vous pouvez surveiller les champs importants et recevoir e-mail lorsque quelqu’un change une valeur. Par exemple, vous souhaiterez peut-être être averti si quelqu’un change le numéro IBAN de votre entreprise.
 
 > [!NOTE]
 > Pour envoyer des notifications par e-mail, vous devez configurer la fonction e-mail dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, voir [Configurer la messagerie](admin-how-setup-email.md).
 
-### Configurer la surveillance des champs
+### <a name="set-up-field-monitoring"></a>Configurer la surveillance des champs
 
 Vous pouvez utiliser le guide de configuration assistée **Surveiller la configuration du changement de champ** pour spécifier les champs que vous souhaitez surveiller en fonction de critères de filtre, tels que la classification de sensibilité des données pour les champs. Pour plus d’informations, voir [Classification de la sensibilité des données](admin-classifying-data-sensitivity.md). Le guide vous permet également de spécifier la personne qui reçoit une notification par e-mail en cas de modification et le compte de messagerie qui envoie la notification. Spécifiez à la fois l’utilisateur à notifier et le compte à partir duquel envoyer la notification. Une fois le guide terminé, vous pouvez gérer les paramètres de surveillance des champs sur la page **Configuration de la surveillance des champs**.
 
@@ -133,7 +133,7 @@ Vous pouvez gérer les paramètres de surveillance des champs, par exemple envoy
 > [!NOTE]
 > Après avoir ajouté un ou plusieurs champs et commencé la surveillance, déconnectez-vous de [!INCLUDE[prod_short](includes/prod_short.md)] et reconnectez-vous pour appliquer vos paramètres.
 
-### Utiliser la surveillance des champs
+### <a name="work-with-field-monitoring"></a>Utiliser la surveillance des champs
 
 Les entrées de toutes les valeurs modifiées des champs surveillés sont disponibles sur la page **Entrées du journal des champs surveillés**. Pour cet exemple, les entrées contiennent les informations suivantes :
 
@@ -143,18 +143,18 @@ Les entrées de toutes les valeurs modifiées des champs surveillés sont dispon
 
 Pour étudier plus en détail une modification, choisissez une valeur pour ouvrir la page sur laquelle elle a été effectuée. Pour afficher une liste de toutes les entrées, choisissez **Écritures de modification de champ**.
 
-### Afficher la télémétrie de surveillance des champs
+### <a name="view-field-monitoring-telemetry"></a>Afficher la télémétrie de surveillance des champs
 
 Vous pouvez configurer [!INCLUDE[prod_short](includes/prod_short.md)] pour envoyer une activité de surveillance des champs à une ressource Application Insights dans Microsoft Azure. Ensuite, à l’aide d’Azure Monitor, vous créez des états et configurez des alertes sur les données collectées. Pour plus d’informations, voir les articles suivants dans l’aide [!INCLUDE[prod_short](includes/prod_short.md)] dédiée aux développeurs et professionnels de l’informatique.
 
 - [Surveillance et analyse de la télémétrie - Activation d’Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 - [Analyse de la télémétrie de surveillance des champs](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
-## Définir des stratégies de rétention
+## <a name="define-retention-policies"></a>Définir des stratégies de rétention
 
 Vous pouvez créer des stratégies de rétention pour supprimer les données inutiles dans les journaux après une période de temps que vous spécifiez. Par exemple, au fil du temps, le nombre d’entrées dans un journal peut augmenter. En nettoyant les anciennes entrées, vous pouvez vous concentrer plus facilement sur des entrées plus récentes et probablement plus pertinentes. Pour en savoir plus sur les stratégies de rétention, accédez à [Définir des stratégies de rétention](admin-data-retention-policies.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Surveiller les champs sensibles](across-log-changes.md#monitor-sensitive-fields)  
 [Analyse de la télémétrie de surveillance des champs](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  
