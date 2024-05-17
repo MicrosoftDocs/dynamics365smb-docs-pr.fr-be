@@ -11,30 +11,30 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Comment enregistrer les entrées de durabilité  
+# <a name="record-sustainability-entries"></a>Comment enregistrer les entrées de durabilité
 
 À l’heure actuelle, la seule façon d’enregistrer les émissions de GES dans le **Compta. de durabilité** est d’utiliser les **Journaux de durabilité**.   
 
-## Feuille durabilité  
+## <a name="sustainability-journals"></a>Feuille durabilité
 
 **Les journaux de durabilité** sont conçus pour suivre et enregistrer les activités liées au développement durable en utilisant la même expérience utilisateur que les autres journaux de Business Central. Dans le journal, les utilisateurs ont la possibilité de saisir manuellement les émissions s’ils possèdent les informations nécessaires. Alternativement, s’ils ne disposent pas de ces données, ils peuvent utiliser des formules intégrées pour calculer avec précision les émissions sur la base de paramètres connus spécifiques correspondant à différents types de sources et de comptes. 
 
 Les informations que vous saisissez dans une feuille sont temporaires et peuvent être modifiées tant qu’elles sont dans la feuille. Lorsque vous validez la feuille, les informations sont transférées vers des **écritures de comptes de durabilité** ou **Comptes de durabilité** individuels, où elles ne peuvent pas être modifiées. Vous pouvez toutefois comptabiliser des écritures d’extourne ou de correction.  
 
-### Utiliser des modèles feuille et des feuilles 
+### <a name="use-journal-templates-and-batches"></a>Utiliser des modèles feuille et des feuilles
 
 Il existe deux **modèles de journaux de durabilité** par défaut : le modèle standard et le modèle récurrent. Pour chaque modèle feuille, vous pouvez configurer votre propre feuille personnelle sous forme de nom de feuille. Pour ce faire, vous devez choisir l’action **Lots** sur la page **Modèles de journaux de développement durable** et créer le nouveau **Feuille durabilité** sur la nouvelle page. Par exemple, vous pouvez définir votre propre lot de journaux pour chaque périmètre d’émission, à l’aide de l’option **Portée d’émission** qui vous permet de choisir entre trois périmètres existants. Vous pouvez également ajouter ou modifier le **Code source** et **Code motif** pour chacun des lots. 
 
 >[!TIP]
 >Vous pouvez avoir un lot de journal pour chacun des types d’émissions, si vous avez plusieurs lignes, car cela peut réduire le risque d’erreurs, mais vous pouvez également utiliser le lot commun pour tous les types d’émissions.   
 
-### Validation de feuilles durabilité 
+### <a name="validate-sustainability-journals"></a>Validation de feuilles durabilité
 
 Vous pouvez activer une vérification des antécédents sur **Configuration durabilité** qui aidera à éviter les retards lors de la validation. Le contrôle vous informe lorsqu’une erreur en utilisant **la feuille durabilité** et vous empêche de valider le journal.  
 
 Lorsque vous activez la validation, le Récapitulatif **Vérification de feuille** affiche les problèmes de la ligne actuelle et du lot entier. La validation se produit lorsque vous chargez une Feuille et lorsque vous choisissez une autre ligne feuille. La vignette **Nombre total d’erreurs** du Récapitulatif montre le nombre total de problèmes que [!INCLUDE [prod_short](includes/prod_short.md)] a trouvées, et vous pouvez le choisir pour ouvrir un aperçu des problèmes. 
 
-### Utiliser des feuilles durabilité 
+### <a name="work-with-sustainability-journals"></a>Utiliser des feuilles durabilité
 
 Pour commencer à travailler avec les **feuilles durabilité**, suivez les étapes :   
 
@@ -55,7 +55,7 @@ Pour commencer à travailler avec les **feuilles durabilité**, suivez les étap
 
 Dans le cas où votre formule est basée sur le **Calculer à partir de Comptabilité** possibilité dans le **Catégorie de compte de durabilité**, vous devez utiliser le **Recueillir le montant des écritures comptables** action avant de publier le journal pour calculer les émissions en fonction de cette source de données. De plus, si vous avez apporté des modifications aux facteurs d’émission après avoir renseigné les lignes de journal, vous devez choisir le **Recalculer** action pour obtenir le montant approprié dans le journal.  
 
-### Feuilles abonnement 
+### <a name="recurring-journals"></a>Feuilles abonnement
 
 Une feuille abonnement est une **feuille durabilité** contenant des champs spécifiques pour la gestion des transactions que vous validez fréquemment avec peu ou pas de modifications. Par exemple, les transactions durables telles que l’électricité, le chauffage ou d’autres transactions similaires. L’utilisation de journaux récurrents vous permet de comptabiliser des montants fixes et variables. Avec une feuille abonnement, vous ne créez les écritures qui sont régulièrement validées qu’une fois. Par exemple, les comptes, axes, sections analytiques, etc. que vous saisissez restent dans la feuille après validation. Si des modifications sont nécessaires, vous pouvez les apporter à chaque validation. 
 
@@ -65,7 +65,7 @@ Vous devez également configurer le **Fréquence Abonnement** car ce champ de fo
 
 Ce champ **Date expiration** détermine la date à laquelle la ligne est validée pour la dernière fois. La ligne n’est plus validée après cette date. L’avantage d’utiliser le champ **Date d’expiration** est que la ligne n’est pas supprimée immédiatement de la feuille. Vous pouvez entrer une date ultérieure afin de pouvoir utiliser la ligne à l’avenir. Si le champ est blanc, la ligne est validée à chaque validation, jusqu’à ce qu’elle soit supprimée de la feuille.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 [Finance](finance.md)    
 [Vue d’ensemble de la gestion de la durabilité](finance-manage-sustainability.md)   
 [Configuration de durabilité](finance-sustainability-setup.md)   
