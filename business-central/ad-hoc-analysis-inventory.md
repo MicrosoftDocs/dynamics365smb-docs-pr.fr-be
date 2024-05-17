@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-inventory-data"></a>Analyse ad hoc des données stock
+# Analyse ad hoc des données stock
 
 Cet article vous apprenez à utiliser fonction **analyse les données** pour analyser des pages stock directement de liste de pages et requêtes. Vous n’avez pas besoin d’exécuter un rapport ou de passer à une autre application, telle qu’Excel. La fonction fournit un moyen interactif et polyvalent de calculer, résumer et examiner les données. Plutôt que d’exécuter des rapports à l’aide d’options et de filtres, vous pouvez ajouter plusieurs onglets qui représentent différentes tâches ou vues sur les données. Quelques exemples sont "stock expiration" ou "meilleures vente", ou toute autre vue que vous pouvez imaginer. Pour en savoir plus sur l’utilisation de la fonctionnalité **Analyse des données** , accédez à [Analyser la liste et interroger les données avec le mode d’analyse](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Utilisez les pages de liste suivantes pour une analyse ad hoc des processus de s
 
 - [Écritures comptables article](https://businesscentral.dynamics.com/?page=38)
 
-## <a name="inventory-ad-hoc-analysis-scenarios"></a>Scénarios d’analyse ad hoc des stock
+## Scénarios d’analyse ad hoc des stock
 
 Utilisez la fonctionnalité **Analyse des données** pour une vérification rapide des faits et une analyse ad hoc :
 
@@ -38,7 +38,7 @@ Les sections suivantes fournissent des exemples de scénarios de stock dans [!IN
 | Débit d’inventaire | Obtenez un aperçu des achats et des ventes dans votre inventaire par mois ou trimestre. | [Écritures comptables article](https://businesscentral.dynamics.com/?page=38) | **Date de publication Année**, **Date de publication Mois**, **N° d’article**, **Quantité**, **Montant des ventes**, **Montant du coût (réel)**, et **Date de publication Mois** |
 | [Mouvements de stock] | Obtenez un aperçu de la façon dont les marchandises de votre inventaire se déplacent entre les emplacements. | [Écritures comptables article](https://businesscentral.dynamics.com/?page=38) | **Code d’emplacement**, **Quantité**, **Date de publication**, **Numéro d’article.** |
 
-## <a name="example-inventory-on-hand"></a>Exemple : Stock disponible
+## Exemple : Stock disponible
 
 Pour analyser les articles de votre inventaire qui sont en stock, procédez comme suit :
 
@@ -54,7 +54,7 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Exemple de comment effectuer une analyse des données disponibles d’inventaire." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## <a name="example-track-expiring-or-old-stock"></a>Exemple : suivre les stocks expirés ou anciens
+## Exemple : suivre les stocks expirés ou anciens
 
 Pour analyse des articles de votre inventaire qui sont en stock depuis longtemps et qui ne se vendent pas bien ces étapes :
 
@@ -69,7 +69,7 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Exemple de comment effectuer une analyse des données de stock vide sur la page des écritures comptables articles" lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## <a name="example-returned-items-by-return-reason"></a>Exemple : articles retournés par motif de retour
+## Exemple : articles retournés par motif de retour
 
 Pour analyser les articles retournés triés par motif de retour, procédez comme suit :
 
@@ -83,7 +83,7 @@ Pour analyser les articles retournés triés par motif de retour, procédez comm
 1. Ajoutez tous les autres champs de votre choix dans l’analyse et activez-les dans la zone **Colonnes**. Par exemple, vous pouvez ajouter la **Date de publication**, **Type de document**, **N° d’article** et **N° du document** champs.
 1. Renommez votre onglet d’analyse en **Articles retournés par motif de retour** ou quelque chose qui décrit cette analyse.  
 
-## <a name="example-inventory-throughput"></a>Exemple : Débit d’inventaire
+## Exemple : Débit d’inventaire
 
 1. Ouvrez le [Écritures comptables article](https://businesscentral.dynamics.com/?page=38) liste et activez :::image type="content" source="media/analysis-mode-icon.png" alt-text="Saisissez le mode d’analyse."::: pour activer le mode d’analyse.
 1. Allez au **Colonnes** menu et supprimez toutes les colonnes (cochez la case à côté du **Recherche** champ à droite).
@@ -93,7 +93,7 @@ Pour analyser les articles retournés triés par motif de retour, procédez comm
 1. Glisser le **Mois de la date validation** champ vers le **groupes de colonnes** zone.
 1. Renommez votre onglet d’analyse en **Débit stock par mois** ou quelque chose qui décrit cette analyse.  
 
-## <a name="inventory-movements"></a>Mouvements de stock
+## Mouvements de stock
 
 Pour suivre les mouvements de stock entre les emplacements, procédez comme suit :
 
@@ -107,7 +107,7 @@ Pour suivre les mouvements de stock entre les emplacements, procédez comme suit
    > [!TIP]
    > Si vous ajoutez le champ Date comptable, vous pouvez également suivre les mouvements au fil du temps.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Base de données pour une analyse ad hoc du stock
+## Base de données pour une analyse ad hoc du stock
 
 Lorsqu’une commande vente est validée, [!INCLUDE [prod_short](includes/prod_short.md)] met à jour le compte du client, les écritures comptables et les écritures comptables article.
 
@@ -117,7 +117,7 @@ Lorsqu’un document achat est validé, [!INCLUDE [prod_short](includes/prod_sho
 
 - Pour chaque ligne d’achat, le cas échéant, des écritures sont créées dans le tableau **Écriture comptable des articles** (si la ligne d’achat est de type Article). En outre, les documents achat sont toujours enregistrés dans les tables **En-tête réception achat** et **En-tête facture achat**. Pour en savoir plus, accédez à [Valider des achats](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Analyse des données de liste et de requête avec le mode d’analyse](analysis-mode.md)  
 [Vue d’ensemble de l’analyse stock](inventory-analytics-overview.md)  
