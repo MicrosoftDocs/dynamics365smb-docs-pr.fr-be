@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Préparer Financial Reporting avec des données financières et des catégories de compte
+# Préparer Financial Reporting avec des données financières et des catégories de compte
 
 La fonctionnalité **états financiers** vous donne un aperçu des données financières enregistrées dans votre plan comptable (COA). Configurez les états financiers pour analysent les chiffres de la comptabilité et comparent les écritures comptables et les écritures comptables budget. Les résultats s’affichent dans les graphiques et les états de votre tableau de bord, comme le graphique Trésorerie et les états Comptes de gestion et Bilan. Vous accédez à ces deux états, par exemple, avec l’action **Relevés financiers** dans les tableaux de bord Gestionnaire d’activité et Comptable.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fournit des exemples d’états financiers que vous pouvez utiliser immédiatement comme modèles. Vous pouvez également configurer vos propres états pour spécifier les chiffres à comparer. Par exemple, vous pouvez créer des états financiers pour calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes client. Le nombre de rapports financiers que vous pouvez créer est illimité et ne nécessite aucune intervention d’un développeur.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Conditions préalables au Financial Reporting
+## Conditions préalables au Financial Reporting
 
 La configuration des états financiers exige une compréhension de la structure du plan comptable. Il y a trois concepts clés auxquels vous devrez probablement prêter attention avant de concevoir vos rapports financiers :
 
@@ -31,7 +31,7 @@ La configuration de dimensions vous permet de découper vos données financière
 
 Si vous voulez afficher les écritures comptables en tant que pourcentages des écritures budget, vous devez créer des budgets Comptabilité. Pour plus d’informations, consultez [Créer des budgets](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>États financiers
+## États financiers
 
 Les états financiers organisent les comptes à partir de votre plan comptable de manière à faciliter la présentation des données. Vous pouvez configurer différentes présentations pour définir les informations que vous souhaitez extraire du plan comptable. Les états financiers fournissent aussi un emplacement pour les calculs qui ne peuvent pas être effectués directement dans le plan comptable. Par exemple, vous pouvez créer des sous-totaux pour des groupes de comptes, puis inclure ce total dans d’autres totaux. Un autre exemple consiste à calculer les marges bénéficiaires dans des axes tels que les départements ou les groupes client. De plus, vous pouvez filtrer les écritures comptables et les écritures comptables budget, par exemple, par solde période ou par montant débit.
 
@@ -63,13 +63,13 @@ Vous pouvez également utiliser des formules comparer deux ou plusieurs états f
 - créer autant d’états financiers que nécessaire, chacun étant doté d’un nom unique ;
 - configurer différentes présentations d’états et imprimer les états avec les chiffre actuels.
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Parcours d’apprentissage : Créer des rapports financiers dans Microsoft Dynamics 365 Business Central
+## Parcours d’apprentissage : Créer des rapports financiers dans Microsoft Dynamics 365 Business Central
 
 Vous souhaitez apprendre à créer des budgets, puis à utiliser des rapports financiers, des dimensions et des définitions de lignes et de colonnes pour générer les rapports financiers généralement nécessaires ?
 
 Commencez par le parcours d’apprentissage [Créer des rapports financiers dans Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central) suivant.
 
-## <a name="create-a-new-financial-report"></a>Créer un état financier
+## Créer un état financier
 
 Vous utilisez les états financiers pour analyser les comptes généraux ou pour comparer les écritures comptables et les écritures comptables budget. Par exemple, vous pouvez afficher les écritures comptables en tant que pourcentages des écritures budget.
 
@@ -91,25 +91,25 @@ Les états financiers dans la version standard de [!INCLUDE[prod_short](includes
 > [!NOTE]
 > Lorsque vous ouvrez un état financier en mode Afficher ou Modifier, le volet Filtre est disponible. N’utilisez pas le Volet Filtre pour définir des filtres pour les données de votre état. Ces filtres peuvent provoquer des erreurs ou ne pas réellement filtrer les données. Utilisez plutôt les champs des **Options** et **Dimensions** FastTabs pour configurer des filtres pour le rapport.
 
-### <a name="create-or-edit-a-row-definition"></a>Créer ou modifier une définition de ligne
+### Créer ou modifier une définition de ligne
 
 Les définitions de lignes dans les états financiers fournissent un emplacement pour les calculs qui ne peuvent pas être effectués directement dans le plan comptable. Par exemple, vous pouvez créer des sous-totaux pour des groupes de comptes, puis inclure ce total dans d’autres totaux. Vous pouvez également calculer des étapes intermédiaires qui ne sont pas affichées dans le rapport final.
 
 Pour plus d'informations, voir [Définitions de ligne dans les états financiers](bi-row-definitions.md).
 
-### <a name="create-or-edit-a-column-definition"></a>Créer ou modifier une définition de colonne
+### Créer ou modifier une définition de colonne
 
 Utilisez les définitions de colonne pour spécifier les colonnes à inclure dans l’état. Par exemple, vous pouvez créer une disposition de rapport de manière à comparer le solde période et le solde pour une même période de l'exercice actuel et du précédent. Vous pouvez avoir jusqu’à 15 colonnes dans une définition de colonne. Par exemple, plusieurs colonnes sont utiles pour afficher les budgets sur 12 mois avec une colonne indiquant le total.
 
 Pour plus d'informations, voir [Définitions de colonnes dans les états financiers](bi-column-definitions.md).
 
-## <a name="using-dimensions-in-financial-reports"></a>Utilisation de dimensions dans les rapports financiers
+## Utilisation de dimensions dans les rapports financiers
 
 En analyse financière, un axe correspond à des données que vous ajoutez à une écriture comme une sorte de marqueur. Ces données permettent de regrouper des écritures dotées de caractéristiques similaires, telles que les clients, les régions, les produits et les commerciaux, et de récupérer facilement ces groupes à des fins d'analyse. Vous pouvez utiliser les axes sur des écritures de feuilles, de documents et de budgets.
 
 Chaque axe décrit l’objet de l’analyse. Une analyse à deux axes, par exemple, est une analyse des ventes par zone. En utilisant plus de deux dimensions lors de la création d’une entrée, vous pouvez effectuer une analyse plus complexe. Un exemple d’analyse complexe consiste à explorer les ventes par campagne de vente, par groupe de clients et par zone. Cela vous permet d’obtenir un meilleur aperçu de votre activité commerciale, comme la mesure du bon fonctionnement de votre société, les domaines dans lesquels elle prospère ou non, et ceux dans lesquels il est nécessaire d’affecter davantage de ressources. Ces informations vous aident à prendre des décisions commerciales plus éclairées. Pour en savoir plus, consultez [Utiliser les axes analytiques](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Configurer des états financiers avec des aperçus
+## Configurer des états financiers avec des aperçus
 
 Vous pouvez utiliser un état financier pour créer un état comparant les chiffres de la comptabilité avec les chiffres budgétés.
 
@@ -127,11 +127,11 @@ Vous pouvez utiliser un état financier pour créer un état comparant les chiff
 
 Vous pouvez maintenant copier et coller votre budget dans un classeur.  
 
-## <a name="integrate-financial-reports-with-excel"></a>Intégrer les rapports financiers avec Excel
+## Intégrer les rapports financiers avec Excel
 
 Vous pouvez intégrer un rapport financier avec un modèle de classeur Excel, ajuster la mise en page en fonction de vos besoins, puis mettre à jour le modèle Excel avec les données de [!INCLUDE[prod_short](includes/prod_short.md)]. Par exemple, cette intégration facilite la génération de vos états financiers mensuels et annuels dans un format qui vous convient.
 
-### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Configurer l’intégration Excel pour un rapport financier (créer un modèle Excel)
+### Configurer l’intégration Excel pour un rapport financier (créer un modèle Excel)
 
 Pour configurer l’intégration Excel pour un rapport financier, suivez ces étapes pour créer un modèle Excel pour un rapport.
 
@@ -147,7 +147,7 @@ Pour configurer l’intégration Excel pour un rapport financier, suivez ces ét
 1. Enregistrez le classeur dans OneDrive ou dans un endroit similaire où le fichier est sauvegardé et versionné.
 1. Fermez le classeur.
 
-### <a name="run-a-financial-report-with-an-excel-template"></a>Exécuter un rapport financier avec un modèle Excel
+### Exécuter un rapport financier avec un modèle Excel
 
 Pour exécuter un rapport financier avec un modèle Excel, procédez comme suit :
 
@@ -158,7 +158,7 @@ Pour exécuter un rapport financier avec un modèle Excel, procédez comme suit�
 1. Sur la page **Recherche de nom/valeur** , choisissez la feuille de calcul Données.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] exécute le rapport financier et fusionne les données résultantes avec votre modèle Excel.
 
-## <a name="print-and-save-financial-reports"></a>Imprimer et enregistrer des états financiers
+## Imprimer et enregistrer des états financiers
 
 Vous pouvez imprimer des états financiers à l’aide des services d’impression de votre appareil. [!INCLUDE[prod_short](includes/prod_short.md)] offre également les possibilités d’enregistrer les états sous forme de classeurs Excel, de documents Word, de fichiers PDF et XML.
 
@@ -169,7 +169,7 @@ Vous pouvez imprimer des états financiers à l’aide des services d’impressi
     1. L’option **(Géré par le navigateur)** indique qu’il n’y a pas d’imprimante désignée pour l’état. Dans ce cas, le navigateur gérera l’impression et affiche une expérience standard, où vous pourrez choisir une imprimante locale connectée à votre appareil. **(Géré par le navigateur)** n’est pas disponible dans l’application mobile [!INCLUDE[prod_short](includes/prod_short.md)] ou application pour Teams.
 1. Choisissez l’action **Imprimer**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Planifier un état financier ou l’enregistrer au format PDF, Word ou Excel
+### Planifier un état financier ou l’enregistrer au format PDF, Word ou Excel
 
 Enregistrez un état financier sous forme de fichier formats, tels que PDF, XML, Word ou Excel. [!INCLUDE[prod_short](includes/prod_short.md)] peut aussi générer des états financiers Abonnement.
 
@@ -180,7 +180,7 @@ Enregistrez un état financier sous forme de fichier formats, tels que PDF, XML,
 1. Pour générer un état financier planifié ou récurrent, remplissez les champs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Pour les états financiers récurrents, définissez les champs **Date/heure de début au plus tôt** et **Date/heure d’expiration** avec la première et la dernière date, respectivement, pour générer l’état financier. Sélectionnez également les jours où l’état est généré en définissant le champ **Formule de la date de la prochaine exécution** en suivant le format expliqué dans la section [Utiliser des formules de date](ui-enter-date-ranges.md#use-date-formulas).
 
 
-## <a name="best-practices-for-working-with-financial-report-definitions"></a>Meilleures pratiques pour utiliser les définitions de rapports financiers
+## Meilleures pratiques pour utiliser les définitions de rapports financiers
 
 Les définitions des rapports financiers ne sont pas versionnées. Lorsque vous modifiez une définition de rapport, l’ancienne version est remplacée lorsque votre modification est enregistrée dans la base de données. La liste suivante contient quelques bonnes pratiques pour utiliser les définitions d’états financiers :
 
@@ -188,7 +188,7 @@ Les définitions des rapports financiers ne sont pas versionnées. Lorsque vous 
 - Avant de modifier une définition de rapport, envisagez d’en faire une copie comme sauvegarde, au cas où votre modification ne fonctionnerait pas comme prévu. Vous pouvez soit simplement copier la définition (lui donner un bon nom), soit l’exporter. Pour en savoir plus, voir [importer ou exporter des définitions de rapports financiers](#import-or-export-financial-report-definitions).
 - Si vous avez besoin d’une nouvelle copie d’une définition [!INCLUDE[prod_short](includes/prod_short.md)] fournie, un moyen simple d’en obtenir une consiste à créer une nouvelle société contenant uniquement des données de configuration. Ensuite, exportez la définition et importez-la dans l’entreprise où la définition doit être actualisée.
 
-## <a name="import-or-export-financial-report-definitions"></a>Importer ou exporter des définition de états financiers
+## Importer ou exporter des définition de états financiers
 
 Vous pouvez importer et exporter des définition de rapport financiers comme des packages de configuration RapidStart. Par exemple, les packages de configuration s’avèrent utiles pour le partage d’informations avec d’autres sociétés. Le package est créé dans un fichier .rapidstart, qui compresse le contenu.
 
@@ -205,7 +205,7 @@ Pour en savoir plus sur l’importation ou l’exportation de définitions de li
 - [Importer ou exporter des définitions de lignes de Financial Reporting](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) ou
 - [Importer ou exporter des définition de colonnes de Financial Reporting](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définitions de ligne dans les états financiers](bi-row-definitions.md)  
 [Définitions de colonne dans les états financiers](bi-column-definitions.md)  

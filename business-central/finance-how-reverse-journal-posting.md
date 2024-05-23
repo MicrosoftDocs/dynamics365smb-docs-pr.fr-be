@@ -3,13 +3,13 @@ title: Annuler une validation en validant une écriture opposée
 description: 'Si vous trouvez une erreur dans une feuille comptabilité validée, vous pouvez utiliser l’action de contrepassation de transaction pour annuler la validation avec une piste d’audit correcte.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Contrepasser une validation feuille et annuler les réceptions/envois
+# Contrepassation d’une validation feuille et annulation des réceptions/envois
 
 La contrepassation des validations feuille est utile, par exemple, pour corriger les erreurs et pour effacer une ancienne écriture de régularisation avant d’en saisir une nouvelle. Une écriture contrepassée est identique à l’entrée d’origine, mais a un signe opposé dans le champ **Montant**. L’écriture contrepassée doit avoir le même numéro de document et la même date de publication que l’entrée d’origine. Une fois l’écriture contrepassée, créez l’écriture correcte.
 
@@ -27,10 +27,8 @@ Vous pouvez inverser des écritures sur toutes les pages **Écritures comptables
 
 > [!NOTE]
 > L’écriture doit être émise depuis une validation feuille.
->
-> En outre, vous ne pouvez pas contrepasser des écritures qui ont été validées avec des informations provenant d’un projet ou qui présentent des gains et pertes réalisés au sein de la même transaction.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures comptables**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures comptables**, puis sélectionnez le lien associé.
 2. Sélectionnez l’écriture à contrepasser, puis cliquez sur l’action **Contrepasser la transaction**.
 3. Sur la page **Contrepasser les écritures de transaction**, choisissez l’action **Contrepasser**.
 4. Cliquez sur **Oui** pour confirmer la contrepassation.
@@ -84,10 +82,21 @@ La procédure est identique pour les réceptions retour enregistrées.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Annuler une écriture comptable client et fournisseur avec une écriture de gain ou de perte réalisé
+
+Vous pouvez utiliser l’action **Annuler la transaction** pour annuler les paiements qui ont été appliqués à des écritures provenant de devises étrangères et qui ont été ajustés à l’aide du travail par lots Ajustement du taux de change. La fonctionnalité est compatible à la fois avec les achats et les ventes.
+
+Voici un scénario simple qui illustre son fonctionnement :
+
+1. Validez une facture vente pour un client en utilisant une devise étrangère.
+2. Ajustez le taux de change pour cette devise.
+3. Validez un paiement appliqué à la facture.
+4. Annulez le rapprochement et la transaction de paiement, par exemple à partir de la page **Écritures comptables client**.
+
 ## Voir aussi
 
-[Annuler la validation d’assemblage](assembly-how-to-undo-assembly-posting.md)  
-[Valider les transactions directement vers la comptabilité](finance-how-post-transactions-directly.md)  
+[Validation de l’annulation d’assemblage](assembly-how-to-undo-assembly-posting.md)  
+[Validation directe des transactions en comptabilité.](finance-how-post-transactions-directly.md)  
 [Utiliser des feuilles comptabilité](ui-work-general-journals.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

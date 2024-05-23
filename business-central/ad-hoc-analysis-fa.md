@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Analyse ad hoc des données Immobilisations
 
-Cet article vous apprenez à utiliser fonction **analyse les données** pour analyser des pages de Immobilisations directement de liste de pages et requêtes. Vous n’avez pas besoin d’exécuter un rapport ou de passer à une autre application, telle qu’Excel. La fonction fournit un moyen interactif et polyvalent de calculer, résumer et examiner les données. Plutôt que d’exécuter des rapports à l’aide d’options et de filtres, vous pouvez ajouter plusieurs onglets qui représentent différentes tâches ou vues sur les données. Quelques exemples sont "Actifs totaux", "Amortissement" ou toute autre vue que vous pouvez imaginer. Pour en savoir plus sur l’utilisation de la fonctionnalité **Analyse des données** , accédez à [Analyser la liste et interroger les données avec le mode d’analyse](analysis-mode.md).
+Cet article vous apprenez à utiliser fonction **analyse les données** pour analyser des pages de Immobilisations directement de liste de pages et requêtes. Vous n’avez pas besoin d’exécuter un rapport ou de passer à une autre application, telle qu’Excel. La fonction fournit un moyen interactif et polyvalent de calculer, résumer et examiner les données. Plutôt que d’exécuter des rapports à l’aide d’options et de filtres, vous pouvez ajouter plusieurs onglets qui représentent différentes tâches ou vues sur les données. Quelques exemples sont « Actifs totaux », « Amortissement » ou toute autre vue que vous pouvez imaginer. Pour en savoir plus sur l’utilisation de la fonctionnalité **Analyse des données** , accédez à [Analyser la liste et interroger les données avec le mode d’analyse](analysis-mode.md).
 
 Utilisez les pages de liste suivantes pour commencer une analyse ad hoc des processus Immobilisations :
 
@@ -34,7 +34,8 @@ Les sections suivantes fournissent des exemples de scénarios de Immobilisations
 | Zone | Pour... | Ouvrir cette page en mode analyse | Utiliser ces champs |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Immobilisations (valeur actuelle)](#example-fixed-assets-current-value) | Suivez la valeur des actifs, à la fois sur tous les actifs et sur un seul actif. | [Écritures comptables immoblisation](https://businesscentral.dynamics.com/?page=5604) | **Livre d’amortissement**, **N° immo.**, **Date de comptabilisation FA**, **Type compta. immo.** et **Montant** |
-|[Exemple : amortissements des immobilisations au fil du temps](#example-fixed-asset-depreciations-over-time) | Suivez les Amortissement au fil du temps, à la fois sur tous les actifs et sur un seul actif. | [Écritures comptables immoblisation](https://businesscentral.dynamics.com/?page=5604) | **Livre d’amortissement**, **N° immo.**, **exercice de comptabilisation FA**, **Mois de comptabilisation FA**, **Montant** et **Type compta. immo.** |
+| [La valeur des actifs change au fil du temps](#example-asset-value-changes-over-time) | Suivez les modifications de valeur des actifs au fil du temps. | [Écritures comptables immoblisation](https://businesscentral.dynamics.com/?page=5604) | **Type compta. immo.**, **Date de publication immo.** et **Montant** |
+|[Amortissements des immobilisations au fil du temps](#example-fixed-asset-depreciations-over-time) | Suivez les Amortissement au fil du temps, à la fois sur tous les actifs et sur un seul actif. | [Écritures comptables immoblisation](https://businesscentral.dynamics.com/?page=5604) | **Livre d’amortissement**, **N° immo.**, **exercice de comptabilisation FA**, **Mois de comptabilisation FA**, **Montant** et **Type compta. immo.** |
 
 ### Exemple: valeur actuelle Immobilisations
 
@@ -51,13 +52,29 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Exemple de comment effectuer une analyse de données sur la page Écritures comptables immobilisation pour voir la valeur d’un actif." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### Exemple : amortissements des immobilisations au fil du temps
+### Exemple : la valeur des actifs change au fil du temps
 
-Pour suivre l'Amortissement d’une ou plusieurs immobilisations, procédez comme suit :
+Pour suivre les changements de valeur des actifs au fil du temps, procédez comme suit :
 
 1. Ouvrez le [Écritures comptables immobilisation](https://businesscentral.dynamics.com/?page=5604) liste et activez :::image type="content" source="media/analysis-mode-icon.png" alt-text="Saisissez le mode d’analyse."::: pour activer le mode d’analyse.
 1. Allez au **Colonnes** menu et supprimez toutes les colonnes (cochez la case à côté du **Recherche** champ à droite).
-1. Allumer **Pivot* mode** (situé directement au-dessus du **Recherche** champ droite).
+1. Allumer **Pivot mode** (situé directement au-dessus du **Recherche** champ droite).
+1. Faites glisser le champ **Type compta. immo.** vers la zone **Groupes de lignes**.
+1. Faites glisser le **exercice compta. immo.** et **Mois compta. immo.** champs vers le **Étiquettes de colonnes** zone.
+1. Faites glisser **Montant** champ vers le **Valeurs** zone.
+1. Renommez votre onglet d’analyse en **Changements de la valeur d’actifs au fil du temps** ou quelque chose qui décrit cette analyse.
+
+L’image suivante montre le résultat de ces étapes.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Exemple de comment effectuer une analyse de données sur la page Écritures comptables immobilisation pour voir les changements de la valeur des actifs au fil du temps." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
+
+### Exemple : amortissements des immobilisations au fil du temps
+
+Pour suivre l’Amortissement d’une ou plusieurs immobilisations, procédez comme suit :
+
+1. Ouvrez le [Écritures comptables immobilisation](https://businesscentral.dynamics.com/?page=5604) liste et activez :::image type="content" source="media/analysis-mode-icon.png" alt-text="Saisissez le mode d’analyse."::: pour activer le mode d’analyse.
+1. Allez au **Colonnes** menu et supprimez toutes les colonnes (cochez la case à côté du **Recherche** champ à droite).
+1. Allumer **Pivot mode** (situé directement au-dessus du **Recherche** champ droite).
 1. Faites glisser les champs **Loi d’amortissement** et **N° immo.** vers les **Groupes de lignes** zone.
 1. Faites glisser le **exercice compta. immo.** et **Mois compta. immo.** champs vers le **Étiquettes de colonnes** zone.
 1. Faites glisser **Montant** champ vers le **Valeurs** zone.
@@ -72,11 +89,17 @@ L’image suivante montre le résultat de ces étapes.
 
 Lorsque vous validez des journaux immobilisations, [!INCLUDE [prod_short](includes/prod_short.md)] crée des entrées dans le **Écriture immobilisation** table. Par conséquent, une analyse ad hoc des Immobilisations est généralement effectuée sur la page [Écritures comptables immobilisation](https://businesscentral.dynamics.com/?page=5604) .
 
+## Contributeurs
+
+*Microsoft maintient cet article. Certaines parties des exemples ont été initialement écrites par le contributeur suivant.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Consultante
+
 ## Voir aussi
 
 [Analyse des données de liste et de requête avec le mode d’analyse](analysis-mode.md)  
 [Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md)  
-[Vue d'ensemble Analyses, business intelligence et reporting](reports-bi-reporting.md)  
+[Vue d’ensemble Analyses, business intelligence et reporting](reports-bi-reporting.md)  
 [Vue d’ensemble des immobilisations](fa-manage.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

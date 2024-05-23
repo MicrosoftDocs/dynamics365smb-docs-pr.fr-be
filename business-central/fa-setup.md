@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Paramétrage d’immobilisations
+# Paramétrage d’immobilisations
 
 Avant de pouvoir utiliser les immobilisations, vous devez définir les éléments suivants :  
 
@@ -26,7 +26,7 @@ Les sections de cet article renvoient à des informations supplémentaires sur l
 
 Lorsque vous activez une activité immobilisation dans la section **Intégration compta.** sur la page **Fiche loi d’amortissement**, la page **Feuille compta. immo.** sera utilisée pour valider les transactions pour l’activité.
 
-## <a name="required-setup-tasks"></a>Tâches de configuration obligatoire
+## Tâches de configuration obligatoire
 
 Le tableau suivant contient une séquence de tâches pour configurer les immobilisations et des liens vers des articles connexes.
 
@@ -35,7 +35,7 @@ Le tableau suivant contient une séquence de tâches pour configurer les immobil
 | Configurer les comptes généraux par défaut, les clés de ventilation, les modèles feuille et les lots pour la validation des immobilisations et configurer les catégories et sous-catégories d’immobilisation, telles que Corporelles et Incorporelles. |[Configurer des informations générales pour les immobilisations](fa-how-setup-general.md) |
 | Créer des lois d’amortissement, définir différentes méthodes d’amortissement, procéder à l’intégration en comptabilité et activer la duplication d’écritures dans plusieurs lois d’amortissement. |[Configuration des amortissements](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Tâches de configuration facultatives (assurance, maintenance et méthodes d’amortissement définies par l’utilisateur)
+## Tâches de configuration facultatives (assurance, maintenance et méthodes d’amortissement définies par l’utilisateur)
 
 Le tableau suivant contient une séquence de tâches facultative pour configurer les immobilisations, notamment les assurances, la gestion, et les Méthode amortissement et des liens vers des articles connexes. 
 
@@ -45,7 +45,7 @@ Le tableau suivant contient une séquence de tâches facultative pour configurer
 | Activer la maintenance des immobilisations, configurer les informations générales propres à la maintenance, configurer les comptes de validation de la maintenance et définir les types de travaux de maintenance. |[Configuration de la maintenance des immobilisations](fa-how-setup-maintenance.md) |
 | Découvrez comment appliquer des méthodes d’amortissement. |[Configuration des méthodes d’amortissement définies par l’utilisateur](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble des immobilisations](fa-manage.md)  
 [Vue d’ensemble de l’analyse des immobilisations](fa-analytics-overview.md)   
