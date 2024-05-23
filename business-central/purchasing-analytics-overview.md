@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyses dans achats
+# <a name="analytics-in-purchasing"></a>Analyses dans achats
 
 Les entreprises capturent des lots de données au cours de leurs activités quotidiennes, ce qui soutient une précieuse BI pour les gestionnaires d'achats :
 
@@ -30,7 +30,7 @@ Chacune de ces fonctionnalités présente ses avantages et inconvénients, selon
 
 Cet article vous présente comment d’utiliser ces fonctionnalités analytiques pour obtenir des informations achats.
 
-## Besoins analytiques en achats
+## <a name="analytics-needs-in-purchasing"></a>Besoins analytiques en achats
 
 Lorsque l’on réfléchit aux besoins d’analyse en achats, il peut être utile d’utiliser un modèle basé sur une personne décrites à un niveau élevé des différents besoins en matière d’analyse.
 
@@ -47,14 +47,14 @@ Les personnes occupant différents rôles ont des besoins différents en matièr
 |Chargé d’achat / Agent d’achat | Informations détaillées     | États exploitation prédéfinis <br> Données de tâche à l’écran |
 
 <!-- 
-## Purchasing KPIs
+## <a name="purchasing-kpis"></a>Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés (associés à achats)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés (associés à achats)
 
 La fonctionnalité **Financial Reporting** vous donne un aperçu des données financières enregistrées dans votre plan comptable (COA). Configurez les états financiers pour analysent les chiffres de la comptabilité et comparent les écritures comptables et les écritures comptables budget. Spécifiquement pour les achats, vous pouvez configurer des rapports financiers sur les comptes du comptabilité (G/L) que vous utilisez pour suivre les validations d’achat.
 
@@ -62,13 +62,13 @@ Les axes jouent un rôle important dans la veille économique. Un axe correspond
 
 Pour en savoir plus sur les états financiers, accédez à [Préparer des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md).
 
-## États financiers entre les divisions ou les entités juridiques (associé à achats)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>États financiers entre les divisions ou les entités juridiques (associé à achats)
 
 Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui rendre compte aux organisations mères. [!INCLUDE [prod_short](includes/prod_short.md)] fournit aux comptables des outils qui les aident à transférer les écritures comptables de deux ou plusieurs sociétés (filiales) dans une société consolidée. Spécifiquement pour la gestion des achats, vous souhaiterez peut-être consolider les écritures comptabilité pour vos comptes d’achats afin de suivre les KPI de vente dans les unités commerciales ou les entités juridiques.
 
 Pour en savoir plus, reportez-vous à [Consolidation de la société](finance-consolidated-company-reporting.md).
 
-## Analyse ad hoc des données achats
+## <a name="ad-hoc-analysis-of-purchasing-data"></a>Analyse ad hoc des données achats
 
 Parfois, il suffit de vérifier si les chiffres s’additionnent correctement ou de confirmer rapidement un chiffre. Les fonctionnalités suivantes sont idéales pour les analyses ad hoc :
 
@@ -88,7 +88,7 @@ De la même manière, vous pouvez utiliser le **Ouvrir dans Excel** action pour 
 
 Pour en savoir plus sur la manière d’effectuer une analyse ad hoc des données d’achat, accédez à [Analyse ad hoc des données d’achat](ad-hoc-analysis-purchasing.md).
 
-## États intégrés pour l'achat
+## <a name="built-in-reports-for-purchasing"></a>États intégrés pour l'achat
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports intégrés, fonctions de traçage et outils pour aider les organisations d’achat à créer des rapports sur leurs données.
 
@@ -103,7 +103,7 @@ Pour obtenir un aperçu des rapports disponibles, choisir sur **Tous les rapport
 
 Pour en savoir plus sur les rapports pertinents pour les achats, accédez aux [Rapports d’achat intégrés](purchase-reports.md).
 
-## Analyse des achats à l’écran
+## <a name="on-screen-purchasing-analytics"></a>Analyse des achats à l’écran
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comporte plusieurs pages qui vous donnent des aperçus des achats et des tâches à accomplir. Voici un exemple pour commencer :
 
@@ -112,7 +112,7 @@ Pour en savoir plus sur les rapports pertinents pour les achats, accédez aux [R
 - [Affichage des écritures comptables d’achat](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 
-### Afficher les écritures comptables et les soldes liés aux achats à partir de la page Plan comptable
+### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Afficher les écritures comptables et les soldes liés aux achats à partir de la page Plan comptable
 
 La page Plan comptable affiche tous les comptes du grand livre avec des chiffres agrégés comptabilisé dans le grand livre. À partir de cette page, vous pouvez faire des choses comme :  
 
@@ -126,7 +126,7 @@ Spécifiquement pour les achats, vous pouvez créer une vue sur la page Plan com
 
 Pour en savoir plus, allez à [Familiarisation avec le plan comptable](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analyse des données par axe analytique (lié aux achats)
+### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analyse des données par axe analytique (lié aux achats)
 
 Les axes analytiques sont des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser sur les documents, tels que les commandes achat. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
 
@@ -134,7 +134,7 @@ Au lieu de configurer des comptes généraux distincts pour chaque service ou Em
 
 Pour plus d’informations, consultez [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Consolidation de la société](finance-consolidated-company-reporting.md)  
 [Préparer des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)  

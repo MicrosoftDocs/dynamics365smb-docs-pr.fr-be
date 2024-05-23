@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Clôture d’exercices et de périodes
+# <a name="closing-years-and-periods"></a>Clôture d’exercices et de périodes
 
 À la fin d’un exercice comptable, vous devez exécuter un certain nombre de tâches administratives, par exemple vous assurer que tous les documents et les feuilles sont validés veillant, que les données de devise sont à jour, que les livres sont clôturés, et plus. Les tâches réelles dépendent de votre société.
 
@@ -29,7 +29,7 @@ Le tableau suivant fournit un aperçu des tâches que vous devez généralement 
 | Imprimer des états qui peuvent vous aider à créer des états financiers. |[Préparation des états de clôture](year-prepare-close-statement.md) |
 | Clôturer des périodes et l’exercice comptables, transférer des soldes de comptes de gestion dans des comptes de bilan et valider l’écriture de clôture d’exercice. |[Clôture plans](year-close-books.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utilisation des périodes et exercices comptables](finance-accounting-periods-and-fiscal-years.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
