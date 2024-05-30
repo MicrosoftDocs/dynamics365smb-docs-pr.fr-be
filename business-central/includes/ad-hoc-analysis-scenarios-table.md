@@ -1,7 +1,7 @@
 | Utilisation de... | Voir |
 | ------------------- | --- |
-| Finance             | [Analyse ad hoc sur données financières](../ad-hoc-analysis-finance.md) |
-| COMPTES D'IMMOBILISATIONS        | [Analyse ad hoc des données Immobilisations](../ad-hoc-analysis-fa.md) |
+| Finances             | [Analyse ad hoc sur données financières](../ad-hoc-analysis-finance.md) |
+| Immobilisations        | [Analyse ad hoc des données Immobilisations](../ad-hoc-analysis-fa.md) |
 | Vente               | [Analyse ad hoc des données vente](../ad-hoc-analysis-sales.md) |
 | Achats          | [Analyse ad hoc des données achats](../ad-hoc-analysis-purchasing.md) |
 | Stock           | [Analyse ad hoc des données stock](../ad-hoc-analysis-inventory.md) |

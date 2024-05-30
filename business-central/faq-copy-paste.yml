@@ -9,7 +9,7 @@ title: FAQ sur l’opération Copier et coller
 summary: |
   Vous pouvez copier une ou plusieurs lignes (enregistrements) dans une liste ou un champ unique sur une page, puis collez ce que vous avez copié dans la même page, une autre page, ou un document externe (comme Microsoft Excel et un e-mail Outlook).  
 
-  En raccourci, pour copier, appuyez sur <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur <kbd>CTRLV</kbd>+<kbd>V</kbd> (<kbd>Cmd</kbd>+<kbd>V</kbd> dans macOS). Plusieurs autres raccourcis clavier permettent de copier et coller afin de faire gagner du temps pendant la saisie des données. Pour plus d’informations sur ceux-ci, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#CopyRows). Cet article répond à des questions courantes que vous pouvez avoir à propos de copier et coller.  
+  En raccourci, pour copier, appuyez sur <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C dans macOS) sur votre clavier. Pour coller, appuyez sur <kbd>CTRLV</kbd>+<kbd>V</kbd> (<kbd>Cmd</kbd>+<kbd>V</kbd> dans macOS). Plusieurs autres raccourcis clavier permettent de copier et coller afin de faire gagner du temps pendant la saisie des données. Pour plus d'informations sur ceux-ci, reportez-vous à [Raccourcis clavier](keyboard-shortcuts.md#CopyRows). Cet article répond à des questions courantes que vous pouvez avoir à propos de copier et coller.  
 sections:
   - name: Général
     questions:
@@ -35,7 +35,7 @@ sections:
           Oui. Le collage s’effectue dans un tableau convivial qui conserve l’indentation, l’alignement numérique et les couleurs, tout comme vous le verriez dans [!INCLUDE[prod_short](includes/prod_short.md)].
       - question: "Dans quelles listes puis-je copier et coller des lignes\_?"
         answer: |
-          Vous pouvez copier des lignes dans tout type de liste, y compris les feuilles de calcul, les récapitulatifs, ou les listes qui sont incorporées sur une page (telles que les lignes d’une commande vente). Toutefois, pour coller des lignes, la liste doit être modifiable.
+          Vous pouvez copier des lignes dans tout type de liste, y compris les feuilles de calcul, les récapitulatifs, ou les listes qui sont incorporées sur une page (telles que les lignes d'une commande vente). Toutefois, pour coller des lignes, la liste doit être modifiable.
 
           Dans certaines pages, la conception de l’application peut vous empêcher de coller des lignes. Contactez votre administrateur ou développeur d’application pour modifier la [propriété modifiable](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) dans la page ou la [propriété PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) du tableau source.
       - question: "Sur quels clients la fonction Copier/Coller est-elle disponible\_?"
@@ -45,10 +45,10 @@ sections:
       - question: "Dois-je avoir exactement le même nombre de colonnes en collant des lignes\_?"
         answer: |
           Oui. Que vous copiiez depuis [!INCLUDE[prod_short](includes/prod_short.md)], d’Excel, ou d’un autre tableau d’origine, les lignes que vous collez dans [!INCLUDE[prod_short](includes/prod_short.md)] doivent avoir les mêmes colonnes correspondantes - ni plus ni moins.
-      - question: "Pourquoi est-ce que j’obtiens des erreurs en collant des lignes\_?"
+      - question: "Pourquoi est-ce que j'obtiens des erreurs en collant des lignes\_?"
         answer: |
-          Lorsque vous collez dans [!INCLUDE[prod_short](includes/prod_short.md)], chaque ligne est vérifiée pour s’assurer que les valeurs de chaque colonne sont valides. Si une colonne contient une valeur qui n’est pas valide, le collage arrêté, et un message d’erreur s’affiche. Pour éviter cela, assurez-vous que les colonnes ont des valeurs valides avant de les coller.
+          Lorsque vous collez dans [!INCLUDE[prod_short](includes/prod_short.md)], chaque ligne est vérifiée pour s’assurer que les valeurs de chaque colonne sont valides. Si une colonne contient une valeur qui n'est pas valide, le collage arrêté, et un message d'erreur s'affiche. Pour éviter cela, assurez-vous que les colonnes ont des valeurs valides avant de les coller.
       - question: "Puis-je également copier des liens vers des pages et des enregistrements\_?"
         answer: |
           Oui. Pour plus d’informations, voir [Partage de données métier à partir de Business Central](across-share-data-features.md).
-additionalContent: "## Étapes suivantes\nTrouvez des informations relatives ici\_: \n  - [Fonctionnalités d’assistance](ui-accessibility.md)  \n  - [Préparation aux activités commerciales](ui-get-ready-business.md)  \n  - [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Forum Aux Questions](across-faq.yml)  \n"
+additionalContent: "## Étapes suivantes\nTrouvez des informations relatives ici\_: \n  - [Fonctionnalités d'assistance](ui-accessibility.md)  \n  - [Préparation aux activités commerciales](ui-get-ready-business.md)  \n  - [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Forum aux questions](across-faq.yml)  \n"

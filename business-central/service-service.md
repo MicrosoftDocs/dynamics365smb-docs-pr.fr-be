@@ -1,5 +1,5 @@
 ---
-title: Gestion des services
+title: Management des services
 description: "Découvrez comment utiliser les fonctionnalités de Business\_Central conçues pour gérer et suivre les services pour prendre en charge les opérations d’atelier de réparation et de service sur le terrain."
 author: brentholtorf
 ms.author: bholtorf
@@ -10,12 +10,12 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="service-management"></a>Management des services
+# Management des services
 
 > [!NOTE]
 > La fonctionnalité décrite dans ces rubrique et sous-rubriques n’est visible dans l’interface utilisateur que si vous avez l’expérience **Premium**. Pour plus d’informations, voir [Modifier les fonctionnalités affichées](ui-experiences.md).
 
-L’offre d’un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n’est pas toujours facile ; [!INCLUDE[prod_short](includes/prod_short.md)] inclut un ensemble d’outils qui simplifient ces tâches. Ces outils sont conçus pour prendre en charge les ateliers de réparation et les opérations de service sur site, et prennent en charge les scénarios typiques de ces entreprises :
+L'offre d'un service continu aux clients est essentielle à toute transaction commerciale et peut être source de satisfaction et de fidélisation des clients, en complément des revenus. Cependant, gérer et suivre des services n’est pas toujours facile ; [!INCLUDE[prod_short](includes/prod_short.md)] inclut un ensemble d’outils qui simplifient ces tâches. Ces outils sont conçus pour prendre en charge les ateliers de réparation et les opérations de service sur site, et prennent en charge les scénarios typiques de ces entreprises :
 
 * Planification appels de service.
 * Gérer commande service.  
@@ -34,7 +34,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Créer et gérer les accords contractuels entre vous et vos clients.|[Exécution des contrats de service](service-fulfill-service-contracts.md)|  
 |Fournir des services aux clients et facturer les commandes service.|[Exécution du service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Projets](projects-how-create-jobs.md)  

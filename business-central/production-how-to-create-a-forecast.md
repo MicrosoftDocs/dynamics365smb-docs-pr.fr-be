@@ -10,7 +10,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-a-demand-forecast"></a>Créer une prévision de la demande
+# Créer une prévision de la demande
 
 Vous pouvez créer des prévisions de vente et de production à l’aide de la page de liste **Prévisions de demande**. Ensuite, pour chaque prévision, vous devez spécifier divers paramètres dans la page **Aperçu prévision demande**.  
 
@@ -20,39 +20,39 @@ Les prévisions permettent à votre société de créer des scénarios basés su
 
 Vous pouvez aussi définir le niveau de détails souhaité dans les champs **Prévision par magasin** et **Prévision par variante** sur la page **Aperçu prévision demande**. Les filtres et autres paramètres sont stockés dans le **Nom de la prévision de la demande** table, afin que vous puissiez facilement arrêter et continuer votre travail plus tard. 
 
-## <a name="sales-forecasts-and-production-forecasts"></a>Prévisions de vente et de fabrication
+## Prévisions de vente et de fabrication
 
 La fonctionnalité de prévision de l’application permet de générer des prévisions de vente ou de fabrication, de façon combinée ou indépendante. Par exemple, la plupart des sociétés qui fabriquent à la commande ne gèrent pas un stock de produits finis parce que chaque article est produit au moment de la commande. L'anticipation sur les commandes (prévision de vente) est essentielle pour aboutit à un délai de production raisonnable des produits finis (prévision de production). À titre d'exemple, les composants nécessitant un délai de livraison important, s'il ne sont pas en commande ou en stock, peuvent retarder la fabrication.  
 
 - La prévision de vente est le meilleur indicateur du service commercial en relation avec les ventes futures et est spécifiée par article et par période. Toutefois, la prévision de vente n'est pas toujours appropriée pour la fabrication.  
 - La prévision de production est l'estimation par le gestionnaire de production du nombre d'articles finis et de produits semi-finis à produire dans des périodes données afin de satisfaire les prévisions de vente.  
 
-Dès lors, le plus souvent, le gestionnaire de production modifie la prévision de vente pour l’adapter aux conditions de production, tout en satisfaisant à la prévision de vente.  
+Dès lors, le plus souvent, le gestionnaire de production modifie la prévision de vente pour l'adapter aux conditions de production, tout en satisfaisant à la prévision de vente.  
 
 Vous créez des prévisions manuellement sur la page **Prévision demande**. Plusieurs prévisions peuvent exister dans le système, qui se différencient par leur nom et leur type. Vous pouvez copier et modifier les prévisions si nécessaire. 
 
 > [!NOTE]
 > Il ne peut y avoir qu’une seule prévision valide à la fois en relation avec le planning.
 
-La prévision consiste en un certain nombre d’enregistrements indiquant un numéro d’article, une date prévision et une quantité prévision. La prévision d'un article couvre une période qui est définie par la date prévision et la date prévision de l'enregistrement prévision suivant. Du point de vue du planning, la quantité prévue doit être disponible au début de la période de demande.  
+La prévision consiste en un certain nombre d'enregistrements indiquant un numéro d'article, une date prévision et une quantité prévision. La prévision d'un article couvre une période qui est définie par la date prévision et la date prévision de l'enregistrement prévision suivant. Du point de vue du planning, la quantité prévue doit être disponible au début de la période de demande.  
 
 Vous devez désigner une prévision comme *Article vente*, *Composant* ou *Les deux*. Le type prévision *Article vente* est utilisé pour la prévision de vente. La prévision de production est créée à l'aide du type *Composant*. Le type de prévision *Les deux* n'est utilisé que pour donner au gestionnaire un aperçu de la prévision de vente et de la prévision de production. Avec cette option, les écritures prévisions ne sont pas modifiables. En désignant ces types de prévision ici, vous pouvez utiliser la même feuille pour entrer une prévision de vente que pour une prévision de production, ainsi qu'utiliser la même feuille pour afficher les deux prévisions simultanément. Notez que le système traite les différentes entrées (vente et production) de façon différente lors du calcul du planning, en fonction de la configuration de l'article, de la fabrication et de la production.  
 
-## <a name="component-forecast"></a>Prévision composant
+## Prévision composant
 
 La prévision composant peut être considérée comme une prévision d'option en relation avec un article parent. Cela peut, par exemple, être utile si le gestionnaire peut estimer la demande pour le composant.  
 
 Du fait que la prévision composant sert à définir des options pour un article parent, la valeur de prévision composant doit être inférieure ou égale à la quantité de vente d’article prévue. Si la valeur de prévision composant est supérieure à la prévision de vente d’article, le système traite la différence entre ces deux types de prévisions comme une demande indépendante.  
 
-## <a name="forecasting-periods"></a>Périodes de prévision
+## Périodes de prévision
 
-La période de prévision est valide de la date début jusqu'à la date de début de la prévision suivante. La page d’intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l'étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
+La période de prévision est valide de la date début jusqu'à la date de début de la prévision suivante. La page d'intervalle de temps offre plusieurs choix pour insérer la demande à une date spécifique dans une période. Il est donc recommandé de ne pas modifier l'étendue de la période de prévision à moins de déplacer toutes les écritures de prévision à la date début de cette période.  
 
-## <a name="forecast-by-locations"></a>Prévisions par magasin
+## Prévisions par magasin
 
 Sur la page **Paramètres production**, vous pouvez spécifier la manière dont vous voulez prendre en compte les emplacements définis dans les prévisions lorsque vous calculez des plans. 
 
-### <a name="use-forecast-by-locations"></a>Prévision sur magasin
+### Prévision sur magasin
 
 Si vous activez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] respecte tous les codes magasin spécifiés pour chaque écriture de prévision de la demande et calculera la prévision restante pour chaque magasin.  
 
@@ -69,7 +69,7 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 > [!NOTE]  
 > Si les prévisions basées sur le magasin sont consultées isolément, il se peut que la prévision globale ne soit pas représentative.
 
-### <a name="if-you-dont-use-forecast-by-locations"></a>Si ne pas utiliser Prévision sur magasin
+### Si ne pas utiliser Prévision sur magasin
 
 Si vous désactivez le bouton de basculement **Prévision sur magasin**, [!INCLUDE[prod_short](includes/prod_short.md)] ignore les codes magasin spécifiés pour chaque écriture de prévision de la demande et agrégera les prévisions en une prévision pour les magasins vides.  
 
@@ -86,32 +86,32 @@ Ensuite, vous créez une commande client avec une quantité de 12 sur le magasi
 > [!NOTE]  
 > Vous pouvez définir un filtre par emplacement, mais les résultats basés sur l’emplacement peuvent ne pas correspondre aux résultats de planification sans filtres.
 
-## <a name="to-create-a-demand-forecast"></a>Pour créer une prévision de la demande
+## Pour créer une prévision de la demande
 
-1. Sélectionnez l’icône ![en forme d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prévision de la demande**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prévision de la demande**, puis sélectionnez le lien associé.  
 2. Sur le raccourci **Général**, choisissez une prévision dans le champ **Nom prévision demande**. Plusieurs prévisions peuvent exister, qui se différencient par leur nom et leur type.  
-3. Dans le champ **Filtre magasin**, sélectionnez le magasin auquel s’applique la prévision.
+3. Dans le champ **Filtre magasin**, sélectionnez le magasin auquel s'applique la prévision.
 4. Dans le champ **Afficher par** pour modifier la période affichée dans chaque colonne. Vous pouvez choisir entre les intervalles suivants : **Jour**, **Semaine**, **Mois**, **Trimestre**, **Année** ou **Période comptable**, tel que paramétré dans votre espace financier.
 
 > [!NOTE]  
-> Vous devez choisir l’intervalle de temps que vous voulez utiliser pour les prévisions futures de façon à ce qu’il soit toujours cohérent. Lorsque vous entrez une quantité prévision, elle vaut dès le premier jour de l'intervalle de temps que vous sélectionnez. Par exemple, si vous sélectionnez un mois, entrer la quantité prévision au premier jour du mois. Si vous sélectionnez un trimestre, entrer la quantité prévision au premier jour du premier mois du trimestre.
+> Vous devez choisir l'intervalle de temps que vous voulez utiliser pour les prévisions futures de façon à ce qu'il soit toujours cohérent. Lorsque vous entrez une quantité prévision, elle vaut dès le premier jour de l'intervalle de temps que vous sélectionnez. Par exemple, si vous sélectionnez un mois, entrer la quantité prévision au premier jour du mois. Si vous sélectionnez un trimestre, entrer la quantité prévision au premier jour du premier mois du trimestre.
 
-5. Dans le champ **Afficher en tant que**, sélectionnez la manière dont seront affichées les quantités prévision pour l'intervalle de temps. Si vous sélectionnez **Solde période**, le solde période est affiché pour l’intervalle de temps. Si vous sélectionnez **Solde au**, la page affiche le solde au dernier jour de l’intervalle de temps.  
+5. Dans le champ **Afficher en tant que**, sélectionnez la manière dont seront affichées les quantités prévision pour l'intervalle de temps. Si vous sélectionnez **Solde période**, le solde période est affiché pour l'intervalle de temps. Si vous sélectionnez **Solde au**, la page affiche le solde au dernier jour de l'intervalle de temps.  
 6. Dans le champ **Type prévision**, choisissez **Article vente**, **Composant** ou **Les deux**. Si vous sélectionnez **Article vente** ou **Composant**, vous pouvez modifier la quantité par période. Si vous sélectionnez **Les deux**, vous ne pouvez pas modifier la quantité mais vous pouvez choisir le bouton flèche déroulante afin de visualiser les écritures prévision demande.  
 7. Spécifiez un **filtre date** si vous voulez limiter la quantité de données affichées.  
 8. Sur le raccourci **Matrice Prévision demande**, entrez les quantités prévues en saisissant une quantité dans la cellule représentant un article à une date ou une période particulière. Notez que dans les cellules vides, le bouton de recherche ouvre une page vide indiquant que vous devez saisir manuellement une valeur.   
 
 > [!NOTE]  
-> Vous pouvez également modifier une prévision existante. Sur la page **Matrice Prévision demande**, choisissez l’action **Copier prévision demande** et renseignez la page **Prévision demande** à l’aide de la prévision existante. Vous pouvez alors modifier les quantités en fonction des besoins.  
+> Vous pouvez également modifier une prévision existante. Sur la page **Matrice Prévision demande**, choisissez l'action **Copier prévision demande** et renseignez la page **Prévision demande** à l'aide de la prévision existante. Vous pouvez alors modifier les quantités en fonction des besoins.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage de la production](production-configure-production-processes.md)  
 [Production](production-manage-manufacturing.md)
 [Stock](inventory-manage-inventory.md)  
 [Achats](purchasing-manage-purchasing.md)  
-[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)   
-[Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
+[Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)   
+[Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
