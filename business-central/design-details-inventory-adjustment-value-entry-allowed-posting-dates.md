@@ -26,7 +26,7 @@ Ce message d’erreur indique que l’utilisateur n’est pas autorisé à valid
 
 L’utilisateur dans ce cas a une plage de dates comptabilisation autorisées allant du 11 au 30 septembre et n’est donc pas autorisé à valider l’écriture valeur d’ajustement avec la date comptabilisation du 10 septembre.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Aperçu de la configuration de la date comptabilisation impliquée
+### <a name="overview-of-the-posting-date-setup"></a>Aperçu de la configuration de la date comptabilisation impliquée
 
 #### <a name="inventory-periods"></a>Périodes inventaire
 
