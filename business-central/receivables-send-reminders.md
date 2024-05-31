@@ -10,16 +10,16 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Envoi des relances de soldes restants
+# Envoi des relances de soldes restants
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer plusieurs taux d’intérêt pour les paiements retardés](finance-how-to-set-up-multiple-interest-rates.md)  
-[Configurer les conditions et niveaux de relance](finance-setup-reminders.md)  
-[Configurer les conditions intérêts de retard](finance-setup-finance-charges.md)  
+[Configuration des conditions et niveaux](finance-setup-reminders.md)  
+[Configuration des conditions des frais financiers](finance-setup-finance-charges.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utilisation de [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

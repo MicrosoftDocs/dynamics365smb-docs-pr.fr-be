@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
+# Procédure pas à pas sur les flux entrants ou sortants dans les configurations entrepôt avancées
 
 Cette procédure pas à pas montre comment effectuer des flux entrants et sortants dans la configuration avancée : Prélèvement et rangement dirigés. Pour plus d’informations, voir [Présentation des différentes options de configuration](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Conditions préalables
+## Conditions préalables  
 Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le site *BLANC* en procédant comme suit :  
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Employés entrepôt**, puis sélectionnez le lien associé.  
 2. Choisissez le champ **ID utilisateur** et sélectionnez votre propre compte utilisateur sur la page **Utilisateurs**.  
@@ -23,10 +23,10 @@ Pour exécuter cette procédure, vous devez faire de vous un magasinier sur le s
 4. Activez le bouton à bascule **Par défaut**.
 
 
-## <a name="scenario"></a>Scénario
+## Scénario  
 Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transbordement et de réapprovisionnement des emplacements pour accélérer les délais de réception et d’expédition.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez une expédition entrepôt.  
 
@@ -39,7 +39,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
     1.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 3.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
     2.  Sélectionnez *WRB-1000*, puis sélectionnez l’action **Contenus emplacement**.  
-    3.  Sélectionnez l’action **Nouveau**. Ajoutez deux lignes.
+    3.  Choisissez l'action **Nouveau**. Ajoutez deux lignes.
     
     |Article|Code magasin|Code emplacement|Corrigé|Unité de mesure|
     |----------|----------|---------|---|------|  
@@ -49,12 +49,12 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 3. Créez une réception entrepôt.  
 
     1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 4.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
-    2. Sélectionnez la commande du fournisseur 10000 pour l’emplacement BLANC. Le numéro de commande fournisseur est *W-2*. Utilisez les outils de personnalisation si le **N° de commande fournisseur** n’est pas visible. Pour plus d’informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md).
+    2. Sélectionnez la commande du fournisseur 10000 pour l’emplacement BLANC. Le numéro de commande fournisseur est *W-2*. Utilisez les outils de personnalisation si le **N° de commande fournisseur** n’est pas visible. Pour plus d'informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md).
     3. Choisissez l’action **Créer réception entrepôt** pour créer une réception entrepôt pour la commande achat sélectionnée.
 
 
 4. Vérifier si des commandes sortantes nécessitent des articles reçus et valider la réception
-    1. Choisissez l’action **Calculer transbordement**. Cela remplit une colonne **Quantité à transborder**.
+    1. Choisissez l'action **Calculer transbordement**. Cela remplit une colonne **Quantité à transborder**.
     2. Entrez 0 dans le champ **Quantité à transborder** dans la ligne avec l’article *WRB-1000*, car vous ne prévoyez pas de remballer dans la zone de réception.
     3. Sélectionnez l’action **Valider la réception**.
 
@@ -78,22 +78,22 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
 6. Définir des emplacements de prélèvement pour l’article pour contrôler l’emplacement où il est prélevé 
 
-    1.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 6.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Magasins**, puis choisissez le lien associé.  
+    1.  Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 6.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.  
     2.  Ouvrez la fiche magasin *BLANC*.  
     3.  Choisissez l’action **Emplacements** dans la **Fiche magasin**
     4.  Sélectionnez l’emplacement *W-02-0001*, puis sélectionnez l’action **Contenus**.  
-    5.  Sélectionnez l’action **Nouveau**.  
+    5.  Choisissez l'action **Nouveau**.  
     6.  Activez le bouton à bascule **Fixe**.  
     7.  Dans le champ **N° article**, saisissez *WRB-1000*. 
     8.  Dans le champ **Quantité min.**, saisissez *2*. 
     9.  Dans le champ **Quantité max.**, saisissez *10*. 
 
-    Utilisez les outils de personnalisation si les champs **Quantité min.** et **Quantité max.** ne sont pas visibles. Pour plus d’informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md). 
+    Utilisez les outils de personnalisation si les champs **Quantité min.** et **Quantité max.** ne sont pas visibles. Pour plus d'informations, voir [Personnaliser votre espace de travail](../../ui-personalization-user.md). 
 
 7. Réorganisez l’entrepôt en déplaçant les articles de la zone de stockage en vrac vers la zone de prélèvement, afin d’optimiser le temps de prélèvement.
 
     1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 7.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles mouvement**, puis choisissez le lien associé
-    2. Choisissez l’action **Calculer réappro. emplacement**. 
+    2. Choisissez l'action **Calculer réappro. emplacement**. 
 
     La feuille de calcul de l’entrepôt avec la proposition de déplacement de l’article *WRB-1000* du stockage en vrac vers la zone de prélèvement est créée.
 
@@ -116,7 +116,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
     3. Inspectez le champ **Quantité à l’emplacement de transbordement**. 
 
-    4. Choisissez l’action **Créer prélèvement**.
+    4. Choisissez l'action **Créer prélèvement**.
     5. Confirmez tous les paramètres de prélèvement nécessaires, par exemple, activez le bouton à bascule **Par zone de départ**. Cliquez sur le bouton **OK**.
     
     Vous recevez un message de confirmation avec les numéros de prélèvement. Il y a deux prélèvements, car certains articles sont situés dans la zone de transbordement, à proximité de la zone d’expédition, et il serait logique de les traiter séparément.
@@ -124,7 +124,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 9.  Enregistrer les prélèvements d’entrepôt
     1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 10.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Prélèvements entrepôt**, puis choisissez le lien associé.
     2. Localisez les prélèvements que vous avez créés et ouvrez-les.
-    3. Choisissez l’action **Enregistrer prélèvement**.
+    3. Choisissez l'action **Enregistrer prélèvement**.
     4. Répétez l’opération pour le deuxième prélèvement
 
 10. Valider l’expédition entrepôt
@@ -135,7 +135,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
     4. Confirmez l’option **Expédier**.
 
 
-## <a name="results"></a>Résultats
+## Résultats
 - la **Réception entrepôt enregistrée** est créée
 - le **Rangement entrepôt enreg.** est créé    
 - la **Réceptions achat enregistrées** est créée    
@@ -149,7 +149,7 @@ Ellen, la responsable de l’entrepôt, utilise la fonctionnalité de transborde
 
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Recevoir des articles](../../warehouse-how-receive-items.md) 
 [Détails de conception : Flux d’enlogement](../../design-details-inbound-warehouse-flow.md) 
 [Expédier les articles](../../warehouse-how-ship-items.md) 

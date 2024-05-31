@@ -22,7 +22,7 @@ Utilisez les pages de liste suivantes pour commencer une analyse ad hoc des proc
 - [Écritures comptables client](https://businesscentral.dynamics.com/?page=25)
 - [Écritures fournisseur](https://businesscentral.dynamics.com/?page=29)
 
-## Scénarios d’analyse ad hoc finance
+## Scénarios d’analyse ad hoc en finance
 
 Utilisez la fonctionnalité **Analyse des données** pour une vérification rapide des faits et une analyse ad hoc :
 
@@ -34,12 +34,13 @@ Les sections suivantes fournissent des exemples de scénarios de finance dans [!
 
 | Zone | Pour... | Ouvrir cette page en mode analyse | Utiliser ces champs |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finance (Comptabilité client)](#example-finance-accounts-receivables) | Voyez par exemple ce que vos clients vous doivent, décomposé en intervalles de temps pendant lesquels les montants sont dus. | [Écritures comptables client](https://businesscentral.dynamics.com/?page=25) | **Nom du client**, **Date d’échéance**, et **Montant restant** |
+|[Exemple : Finances (Comptes clients)](#example-finance-accounts-receivable) | Voyez par exemple ce que vos clients vous doivent, décomposé en intervalles de temps pendant lesquels les montants sont dus. | [Écritures comptables client](https://businesscentral.dynamics.com/?page=25) | **Nom du client**, **Date d’échéance**, et **Montant restant** |
 | [Finances (comptabilité fournisseur)](#example-finance-accounts-payable) | Voyez ce que vous devez à vos fournisseurs décomposé en intervalles de temps pendant lesquels les montants sont dus. | [Écritures fournisseur](https://businesscentral.dynamics.com/?page=29) | **Nom du fournisseur**, **Type de document**, **N° du document**, **Année de la date d’échéance**, **Mois de la date d’échéance** et **Montant restant**. |
+| [Finances (Factures de ventes par compte général)](#example-finance-sales-invoices-by-gl-account) | Découvrez comment vos factures de vente sont réparties sur les comptes généraux à partir du plan comptable, par exemple, décomposées en intervalles de temps pour la comptabilisation des montants. | [Écritures comptables](https://businesscentral.dynamics.com/?page=20) | **Nom du compte général**, **Code source**, **Nom du compte général**,  **N° de compte général**, **Montant débiteur**, **Montant crédit**, **Date de publication Année**, **Date de publication Trimestre** et **Date de publication Date Mois** |
 | [Finance (comptes de gestion)](#example-finance-income-statement) | Consultez vos revenus sur les comptes de revenus à partir des plan comptable, par exemple, décomposés en intervalles de temps pour la comptabilisation des montants. | [Écritures comptables](https://businesscentral.dynamics.com/?page=20) | **N° compte général**, **Date comptabilisation** et **Montant**. |
 | [Finance (Actifs total)](#example-finance-total-assets) | Consultez vos actifs sur les comptes de actifs à partir du plan comptable, par exemple, décomposés en intervalles de temps pour la comptabilisation des montants. | [Écritures comptables](https://businesscentral.dynamics.com/?page=20) | **N° compte général**, **Date comptabilisation** et **Montant**. |
 
-### Exemple : Finance (Comptabilités client)
+### Exemple : Finances (Comptes clients)
 
 Pour voir ce que vos clients vous doivent, décomposé en intervalles de temps pendant lesquels les montants sont dus, comme suit :
 
@@ -67,12 +68,32 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Exemple de comment effectuer une analyse des données sur la page des écritures comptables" lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Exemple : Finance (Factures de vente par compte général)
+
+Pour voir comment vos factures de vente sont réparties sur les comptes généraux à partir du plan comptable, par exemple, décomposées en intervalles de temps pour la validation des montants, procédez comme suit :
+
+1. Ouvrez la page [Ecritures du grand livre](https://businesscentral.dynamics.com/?page=20) .
+1. Ajoutez les champs **Nom du compte général** et **Code source** en personnalisant la page. Dans le menu **Paramètres** , choisissez **Personnaliser**.
+1. Quittez le mode personnalisation.
+1. Choisir :::image type="content" source="media/analysis-mode-icon.png" alt-text="Entrer en mode d’analyse."::: pour activer le mode d’analyse.
+1. Dans le menu **Filtres d’analyse**, définissez un filtre sur le champ **Code source**  sur **VENTES**. Si vous disposez de personnalisations qui ajoutent d’autres valeurs, vous pouvez également les ajouter.
+1. À la **Colonnes** menu, supprimez toutes les colonnes (cochez la case à côté du **Recherche** champ).
+1. Allumer **Pivot mode** (situé directement au-dessus du **Recherche** champ droite).
+1. Faites glisser les champs **Nom du compte général** et **Numéro de compte général** vers **Zone Groupes de lignes** .
+1. Faites glisser les champs **Montant du débit** et **Montant du crédit** vers les **Valeurs** zone.
+1. Faites glisser la **Date de publication Année**, **Date de publication Trimestre** et **Date de publication Mois** champs dans la zone **Étiquettes de colonnes** .
+1. Renommez votre onglet d’analyse en **Répartition des factures par compte**, ou quelque chose qui décrit cette analyse.
+
+L’image suivante montre le résultat de ces étapes.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Exemple de comment effectuer une analyse de données sur la page Écritures du grand livre (pour comprendre les écritures de ventes)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Exemple : Finance (comptes de gestion)
 
 Pour consultez vos revenus sur les comptes de revenus à partir du plan comptable décomposés en intervalles de temps pour la comptabilisation des montants comme suit :
 
 1. Ouvrez le [Écritures comptabilité](https://businesscentral.dynamics.com/?page=20) liste et activez :::image type="content" source="media/analysis-mode-icon.png" alt-text="Saisissez le mode d’analyse."::: pour activer le mode d’analyse.
-1. Allez au **Colonnes** menu et supprimez toutes les colonnes (cochez la case à côté du **Recherche** champ).
+1. Allez au **Colonnes** menu et supprimez toutes les colonnes (cochez la case à côté du **Recherche** champ à droite).
 1. Allumer **Pivot mode** (situé directement au-dessus du **Recherche** champ droite).
 1. Faites glisser le **N° compte général** champ vers le **Groupes de lignes** zone et faites glisser **Montant** au **Valeurs** zone.
 1. Glisser le **Mois de la date validation** champ vers le **Étiquettes de colonnes** zone.
@@ -113,7 +134,7 @@ Pour en savoir plus, consultez les articles suivants :
 [Analyse des données de liste et de requête avec le mode d’analyse](analysis-mode.md)  
 [Présentation des analyses financières](bi.md)  
 [Vue d'ensemble Analyses, business intelligence et reporting](reports-bi-reporting.md)  
-[Vue d’ensemble de Finance](finance.md)   
+[Vue d’ensemble de Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

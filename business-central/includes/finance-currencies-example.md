@@ -11,10 +11,10 @@ Dans l’exemple suivant, une facture est reçue le 1er janvier avec le montant
 
 |Date|Action|Montant devise|Taux document|Montant DS sur le document|Taux ajustement|Montant gains prévu|Taux règlement|Montant pertes constatées report|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Facture**|1000|1,123|1123|||||
-|1/31|**Ajustement**|1000||1125|1,125|2|||
-|2/15|**Ajustement Contrepassation sur paiement**|1000||||-2|||
-|2/15|**Paiement**|1000||1120|||1,120|-3|
+|1/1|**Facture**|1 000|1.123|1123|||||
+|1/31|**Ajustement**|1 000||1125|1.125|2|||
+|2/15|**Ajustement Contrepassation sur paiement**|1 000||||-2|||
+|2/15|**Paiement**|1 000||1120|||1.120|-3|
 
 À la fin du mois, un ajustement de devise est effectué lorsque le taux de change d’ajustement a été fixé à 1,125, ce qui déclenche un gain prévu de 2.
 

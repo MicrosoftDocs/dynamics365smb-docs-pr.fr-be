@@ -1,6 +1,6 @@
 ---
 title: Gestion des présentations de rapport et de document
-description: 'Utilisez des présentations d’états pour personnaliser les documents, par exemple, pour personnaliser la police, le logo, ou la mise en page des fichiers PDF que vous envoyez aux clients.'
+description: 'Utilisez des présentations d''états pour personnaliser les documents, par exemple, pour personnaliser la police, le logo, ou la mise en page des fichiers PDF que vous envoyez aux clients.'
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'customized report, document layout, logo, personalize'
@@ -9,7 +9,7 @@ ms.date: 01/18/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="report-and-document-layouts-overview"></a>Vue d’ensemble des présentations d’état et de document
+# Vue d’ensemble des présentations d’état et de document
 
 Une présentation d’état contrôle le contenu et le format du rapport, dont les champs de données d’un ensemble de données d’état apparaissant sur le rapport et la façon ils sont organisés, le style de texte, les images, et plus encore. À partir de [!INCLUDE[prod_short](includes/prod_short.md)], vous pouvez modifier la présentation utilisée sur un rapport, créer une nouvelle présentation ou modifier les présentations existantes.
 
@@ -18,26 +18,26 @@ Une présentation d’état contrôle le contenu et le format du rapport, dont l
 
 Vous pouvez également utiliser des présentations d’état pour ajouter du contenu aux messages électroniques. Par exemple, les présentations d’état peuvent vous faire gagner du temps et contribuer à assurer la cohérence, car elles réutilisent le même contenu lorsque vous communiquez avec vos clients. Pour utiliser des présentations d’état personnalisées avec le courrier électronique, le type de fichier de la mise en page doit être Word. Vous ne pouvez pas utiliser le type de fichier RDLC. Pour plus d’informations, voir [Configurer des textes et des mises en page d’e-mail réutilisables](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Introduction
+## Introduction
 
 Une présentation d’état configure notamment ce qui suit :
 
 * Les champs d’étiquette et de données à inclure à partir de l’ensemble des données du rapport [!INCLUDE[prod_short](includes/prod_short.md)].
 * Le format du texte, comme le type, la taille et la couleur de police.
 * Le logo de la société et son emplacement.
-* Paramètres de page généraux, comme les marges et les images d’arrière-plan.
+* Paramètres de page généraux, comme les marges et les images d'arrière-plan.
 
-Un état peut être créé avec plusieurs présentations d’état, que vous pouvez ensuite changer au besoin. 
+Un état peut être créé avec plusieurs présentations d'état, que vous pouvez ensuite changer au besoin. 
 
 <!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
 Deux aspects importants des présentations d’états influenceront la manière dont vous les utiliserez : le *type de présentation* et la *source de la présentation*. Le type de présentation indique le type de fichier sur lequel la présentation est basée. La source de la présentation indique l’origine de la présentation.
 
-## <a name="layout-types"></a>Types de présentation
+## Types de présentation
 
 Il existe quatre types de présentation que vous pouvez utiliser pour les états : Word, RDLC, Excel et externe.
 
-### <a name="word"></a>Word
+### Word
 
 Les présentations Word sont basées sur les documents Word (type de fichier .docx). Les présentations Word vous permettent de concevoir des présentations d’état à l’aide de Microsoft Word. Une présentation Word détermine le contenu de l’état, contrôle la manière dont les éléments de contenu sont organisés ainsi que leur apparence. Un document de présentation Word utilisera généralement des tableaux pour organiser le contenu, dans lequel les cellules peuvent contenir des champs de données, du texte ou des images.
 
@@ -47,7 +47,7 @@ Les présentations Word sont basées sur les documents Word (type de fichier .do
 
 Pour plus d’informations, voir [Utiliser des présentations Word](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 Les présentations Excel sont basées sur les classeurs Microsoft Excel (type de fichier .xlsx). Elles vous permettent de créer des états en utilisant des fonctionnalités Excel familières pour résumer, analyser et présenter des données avec des outils comme des formules, des tableaux croisés dynamiques et des graphiques croisés dynamiques, etc.
 
@@ -55,7 +55,7 @@ Les présentations Excel sont basées sur les classeurs Microsoft Excel (type de
 
 Pour plus d’informations, voir [Utiliser des présentations Excel](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 Les présentations RDLC sont basées sur les fichiers de présentation de définition d’état client (types de fichier .rdl ou .rdlc). Ces présentations sont créées et modifiées à l’aide du Générateur d’états SQL Server ou Microsoft RDLC Report Designer. Le concept de conception des présentations RDLC est similaire à celui des présentations Word, où la présentation détermine les champs à afficher et leur disposition. Toutefois, la création de présentations RDLC est plus avancée que les présentations Word.
 
@@ -63,13 +63,13 @@ Les présentations RDLC sont basées sur les fichiers de présentation de défin
 
 Pour plus d’informations, voir [Utiliser des présentations RDLC](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Externe
+### Externe
 
 Un type de présentation externe fait référence à un type avancé spécialement conçu pour des états spécifiques. Les états et les présentations elles-mêmes sont généralement fournies par des partenaires, et non par Microsoft. Le type de fichier réel de la présentation varie selon le fournisseur.
 
 Pour plus d’informations, voir [Développement d’un rendu d’état personnalisé](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Sources de présentation
+## Sources de présentation
 
 En plus du type, les présentations sont divisées en trois catégories, en fonction de leur source ou de leur origine.
 
@@ -95,7 +95,7 @@ Pour obtenir des informations qui vous aideront à choisir le type qui vous conv
 > Une chose importante à retenir est que vous ne pouvez pas modifier les présentations d’extension à partir du client Business Central. Par exemple, vous n’êtes pas autorisé à modifier le nom ou le type de la présentation, ni à la télécharger et à la remplacer par une autre version. Si vous essayez, vous recevez un message d’erreur. Vous devrez plutôt créer une présentation définie par l’utilisateur ou personnalisée basée sur la présentation d’extension.
 
 <!--
-### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
+### Built-in and custom report layouts
 
 
 
@@ -115,13 +115,13 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise à jour des dispositions de rapport personnalisées](ui-update-report-layouts.md)  
 [Création et modification des dispositions de rapport personnalisées](ui-how-create-custom-report-layout.md)  
-[Importer et exporter une présentation d’état ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
+[Importer et exporter une présentation de rapport ou de document personnalisée](ui-how-import-and-export-report-layout.md)  
 [Définir des présentations de document spéciales pour les clients et les fournisseurs](ui-define-customer-vendor-document-layouts.md)  
-[Envoyer des documents par e-mail](ui-how-send-documents-email.md)  
+[Envoi de documents par courrier électronique](ui-how-send-documents-email.md)  
 [Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

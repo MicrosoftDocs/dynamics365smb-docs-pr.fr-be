@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 Le tableau suivant décrit certains états financiers clés.
 
-| État | Désignation | ID | 
+| État | Description | ID | 
 |--|--|--|
 | [Balance](https://businesscentral.dynamics.com?report=6) | Affiche le plan comptable avec les soldes et les soldes périodes. Vous pouvez choisir de visualiser une balance générale relative à aux axes analytiques sélectionnés ou utiliser cet état lors de la clôture d’une période comptable ou d’un exercice comptable. | 6 |
 | [Balance par période](https://businesscentral.dynamics.com?report=38) | Présente le solde d’ouverture par compte général, les mouvements pour la période sélectionnée (mois, trimestre ou année) et le solde de clôture qui en résulte. <br>Conseil : Peut être utilisé pour afficher les profits et les pertes (P&L) avec un total pour chaque mois.| 38 |

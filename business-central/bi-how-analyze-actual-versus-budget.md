@@ -10,17 +10,17 @@ ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analyser les montants réalisés et les montants budgétés
+# Analyser les montants réalisés et les montants budgétés
 
-Lors de la collecte, l’analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
+Lors de la collecte, l'analyse, et le partage des données de votre société, vous voyez les montants réels comparés aux montants budgétés de tous les comptes et pour plusieurs périodes.
 
 Pour analyser les montants budgétés, vous devez d’abord créer des budgets comptabilité. Pour plus d’informations, consultez [Créer des budgets](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a>Afficher un budget comptabilité
+## Afficher un budget comptabilité
 
-Dans un budget doté d’axes, vous pouvez filtrer les écritures et visualiser des budgets spécifiques.
+Dans un budget doté d'axes, vous pouvez filtrer les écritures et visualiser des budgets spécifiques.
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Budgets comptabilité**, puis choisissez le lien associé.
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Budgets comptabilité**, puis choisissez le lien associé.
 2. Sur la page **Budgets comptabilité**, ouvrez le budget que vous souhaitez visualiser.  
 3. En haut de la page, renseignez les champs nécessaires pour définir ce qui est affiché. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -33,12 +33,12 @@ Dans un budget doté d’axes, vous pouvez filtrer les écritures et visualiser 
 > [!TIP]  
 > Utilisez l’action **Modifier le budget** pour modifier le budget. Sur la page des budgets, choisissez un montant pour afficher les écritures Budget sous-jacentes.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Afficher les montants budgétés et réalisés de tous les comptes
+## Afficher les montants budgétés et réalisés de tous les comptes
 
 Vous pouvez afficher des budgets et les comparer aux chiffres réels dans différents modules de [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
-2. Sur la page **Plan comptable**, choisissez l’action **Réalisé/Budget par compte**.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis choisissez le lien associé.  
+2. Sur la page **Plan comptable**, choisissez l'action **Réalisé/Budget par compte**.
 3. Dans le raccourci **Options**, renseignez les champs nécessaires pour définir ce qui est affiché dans la table.  
 4. Survolez un champ de la table pour lire une brève description du montant affiché.
 
@@ -50,22 +50,22 @@ Les colonnes les plus à gauche contiennent le plan comptable. Sur les cinq colo
 > [!TIP]  
 > Le champ **Afficher par** de la page **Réalisé/Budget par compte** permet de sélectionner la longueur de la période. Le champ **Afficher en tant que** permet de sélectionner le mode de calcul des montants, à savoir **Solde période** ou **Solde au**. Choisissez **Période précédente** ou **Période suivante** pour changer de période.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Pour afficher les montants budgétés et réalisés de plusieurs périodes
+## Pour afficher les montants budgétés et réalisés de plusieurs périodes  
 
-Au lieu de visualiser les montants budgétés et réalisés de tous les comptes au sein d’une seule période, vous pouvez afficher un certain nombre de périodes pour un seul compte.  
+Au lieu de visualiser les montants budgétés et réalisés de tous les comptes au sein d'une seule période, vous pouvez afficher un certain nombre de périodes pour un seul compte.  
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Sur la page **Plan comptable**, sélectionnez le compte général approprié, puis choisissez l’action **Réalisé/Budget compte général**.  
 3. Dans le raccourci **Options**, renseignez les champs nécessaires pour définir ce qui est affiché dans la table.  
 4. Dans le raccourci **Lignes**, survolez un champ de la table pour lire une brève description du montant affiché.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Business Intelligence financière](bi.md)  
 [Utilisation des états financiers](bi-how-work-account-schedule.md)  
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  
-[Comptabilité et plan comptable](finance-general-ledger.md)  
+[Les écritures comptables et le plan comptable](finance-general-ledger.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

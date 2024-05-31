@@ -10,19 +10,19 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-customer-price-groups"></a>Configurer des groupes tarifs client
+# Configurer des groupes tarifs client
   
 Vous pouvez affecter des prix de vente différents selon les groupes de clients que vous approvisionnez. C’est ce que l’on appelle des groupes tarifs client.
 
 Avant de configurer des groupes tarifs client, vous devez décider de leur nombre et identifier les clients auxquels vous allez associer chacun d’eux.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Comment créer des prix de vente pour un groupe de clients
+## Comment créer des prix de vente pour un groupe de clients  
 
 Lorsque vous avez convenu du prix à appliquer à un groupe de clients pour certains articles, enregistrez l’accord relatif à chaque article sur les lignes de la page **Prix vente**.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Pour créer des prix de vente pour un groupe de clients
+### Pour créer des prix de vente pour un groupe de clients
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes tarifs clients**, puis sélectionnez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes tarifs clients**, puis sélectionnez le lien associé.  
 
 2. Sélectionnez la ligne pour le groupe tarifs client. Si une ligne n’existe pas déjà, vous pouvez en créer une nouvelle. Sélectionnez **Nouveau** pour créer une nouvelle entité et lui donner un nom.  
     
@@ -42,24 +42,24 @@ Lorsque vous avez convenu du prix à appliquer à un groupe de clients pour cert
 
 Répétez les étapes 4 à 8 pour chacun des articles pour lesquels vous souhaitez créer un prix de vente.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Comment entrer des codes groupe tarifs client sur des fiches client
+## Comment entrer des codes groupe tarifs client sur des fiches client  
 
 Une fois ces groupes tarifs client définis, vous pouvez entrer les codes correspondants sur les fiches client.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Pour entrer des codes groupe tarifs client sur une fiche client
+### Pour entrer des codes groupe tarifs client sur une fiche client  
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Clients**, puis choisissez le lien associé.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), , entrez **Clients**, puis choisissez le lien associé.  
 
 2. Ouvrez la **fiche client** correspondant au client que vous voulez associer à un groupe tarifs client.  
 
 3. Sur le raccourci **Facturation**, dans le champ **Groupe tarifs client**, sélectionnez le code **Groupe tarifs client**.  
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Ventes](sales-manage-sales.md)  
 [Définition des ventes](sales-setup-sales.md)  
-[Enregistrer les prix de vente spéciaux et les remises](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Enregistrement des prix de vente spéciaux et des remises](sales-how-record-sales-price-discount-payment-agreements.md)  
 [Configuration des groupes remises client](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

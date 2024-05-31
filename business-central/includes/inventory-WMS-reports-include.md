@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 Le tableau suivant décrit certains des principaux états dans la gestion des stocks et de l’entrepôt.
 
-| État | Désignation | ID | 
+| État | Description | ID | 
 |---------|---------|---------|
 |[Échéancier des dispo. de stock](https://businesscentral.dynamics.com?report=707)|Obtenez une vue d’ensemble des articles spécifiques et des points de stock spécifiques et de leur disponibilité. Cet état affiche des valeurs cumulées telles que les besoins bruts, les réceptions planifiées et prévues, le stock, etc. |707|
 |[Évaluation du stock](https://businesscentral.dynamics.com?report=1001)|Affiche l’évaluation du stock des articles sélectionnés dans votre stock. L’état indique également des informations sur la valeur des augmentations et des diminutions de stock au fil du temps.<br><br>L’état imprime également le coût prévu des écritures validées comme étant réceptionnées ou livrées, si vous actionnez le bouton à bascule **Inclure coûts prévus**.<br><br>Si vous activez **Inclure coûts prévus**, le rapport regroupe les entrées et affiche un total de groupe des coûts facturés et prévus pour chaque groupe comptabilisation de stock.<br><br>Vous pouvez également affiner la sortie d’état avec les filtres d’emplacement et de variante. Cependant, comme l’état est créé au-dessus d’une écriture valeur, vous ne pouvez pas utiliser Filtre emplacement.<br><br>Pour garantir que l’état **Évaluation du stock** est à jour, il est recommandé d’exécuter la tâche de traitement par lots **Ajuster coûts : Écr. article** avant d’exécuter cet état.<br><br>Cet état n’est pas disponible aux États-Unis, au Canada et au Mexique. Utilisez plutôt la version localisée de l’état Évaluation du stock (10139).|1001|

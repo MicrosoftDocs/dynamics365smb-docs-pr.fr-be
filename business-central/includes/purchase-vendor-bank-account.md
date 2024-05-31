@@ -6,9 +6,9 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Fournisseurs**, puis choisissez le lien associé.
+1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Fournisseurs**, puis choisissez le lien associé.
 2. Ouvrez la fiche pour le fournisseur.
-3. Choisissez l’option **Comptes bancaires**.
+3. Choisissez l'option **Comptes bancaires**.
 4. Dans la **Liste des comptes bancaires des fournisseurs**, choisissez le compte bancaire approprié ou ajoutez un nouveau compte bancaire en cliquant sur **Nouveau**.
 5. Sur la page **Fiche compte bancaire fourn.**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](../includes/tooltip-inline-tip_md.md)]
 

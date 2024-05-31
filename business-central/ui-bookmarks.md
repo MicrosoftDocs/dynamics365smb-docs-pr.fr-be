@@ -11,31 +11,31 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Ajouter un signet vers une page ou un état sur votre tableau de bord
+# Ajouter un signet vers une page ou un état sur votre tableau de bord
 À l’aide de la nouvelle icône de signet, vous pouvez ajouter une action qui ouvre une page ou un état à partir du menu de navigation de votre tableau de bord. Les signets vous permettent d’accéder rapidement à votre contenu préféré ou à vos tâches professionnelles. Vous devez ajouter le signet à partir de la page ou de l’état cible, c’est-à-dire la page sur laquelle vous souhaitez que le lien du tableau de bord s’ouvre.
 
 L’icône de signet est affichée dans le coin supérieur droit d’une page et également dans la fenêtre **Rechercher** où vous pouvez marquer plusieurs pages ou états efficacement. Si un signet existe déjà pour la page, l’icône est sombre et l’info-bulle indique « Mis en favori ».
 
-## <a name="to-bookmark-the-target-page"></a>Pour ajouter un signet à la page cible
+## Pour ajouter un signet à la page cible
 1. Ouvrez n’importe quelle page pour laquelle vous souhaitez un lien sur votre tableau de bord.
 2. Choisissez l’icône ![Signet.](media/ui_bookmark_icon.png "Signet") .
 
 Un nom d’action après la page est maintenant ajouté au menu de navigation de votre tableau de bord.
 
-## <a name="to-bookmark-the-target-report"></a>Pour ajouter un signet à l’état cible
+## Pour ajouter un signet à l’état cible
 1. Ouvrez n’importe quelle page de demande d’état pour laquelle vous souhaitez un lien sur votre tableau de bord.
 2. Choisissez l’icône ![Signet.](media/ui_bookmark_icon.png "Signet") .
 
 Un nom d’action après l’état est maintenant ajouté au menu de navigation de votre tableau de bord.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Pour ajouter un signet à une page ou à un état à partir de la fenêtre Tell me
+## Pour ajouter un signet à une page ou à un état à partir de la fenêtre Tell me
 1. Ouvrez la fenêtre **Rechercher** et entrez, par exemple, **Commandes vente**.
 2. Passez votre souris sur le résultat de la recherche pour la page ou l’état **Commandes vente**, puis choisissez l’icône ![Signet.](media/ui_bookmark_icon.png "Signet") .
 
 Un nom d’action après la page ou l’état est maintenant ajouté au menu de navigation de votre tableau de bord.
 
 
-## <a name="frequently-asked-questions"></a>Forum Aux Questions
+## Forum aux questions  
 
 - **Puis-je réorganiser mes signets ?**  
 Oui. Vous pouvez personnaliser votre tableau de bord et déplacer les actions dans un ordre plus optimal ou les déplacer dans des groupes ou sous-groupes existants.  
@@ -67,7 +67,7 @@ Certains états peuvent être remplacés par d’autres états après avoir appl
 <!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
 - **Le signet est-il disponible pour XMLports ?**  
-Non. Pour le moment, l’ajout d’actions pour ouvrir XMLports n’est pas possible à partir de l’interface utilisateur.
+N° Pour le moment, l’ajout d’actions pour ouvrir XMLports n’est pas possible à partir de l’interface utilisateur.
 
 - **Mes signets seront-ils traduits lorsque je changerai ma langue dans Business Central ?**  
 Lorsqu’une nouvelle action est ajoutée, tout texte traduit qui était disponible à ce moment est également mis en signet. Si un nouveau texte traduit est ajouté ultérieurement, la nouvelle action n’inclura pas les traductions les plus récentes.
@@ -75,11 +75,11 @@ Lorsqu’une nouvelle action est ajoutée, tout texte traduit qui était disponi
 - **Pourquoi ne puis-je pas ajouter de texte dans une page directement après l’avoir ouverte avec le signet ?**<br> Lorsqu’une page est mise en signet, la page s’ouvrira toujours dans le mode d’affichage à partir du signet&mdash; même s’il était en mode édition lorsqu’il a été mis en signet. Sélectioner l’icône **Apporter des modifications sur la page** ![Affiche l’icône en forme de crayon pour modifier la page.](media/edit-pencil.png) vous permettra d’ajouter du texte dans les champs qui sont modifiables.
 
 
-## <a name="see-also"></a>Voir aussi
-[Personnaliser votre espace de travail](ui-personalization-user.md)  
+## Voir aussi
+[Personnalisation de votre espace de travail](ui-personalization-user.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Modifier les paramètres de base](ui-change-basic-settings.md)  
-[Modifier les fonctionnalités affichées](ui-experiences.md)  
+[Modification des paramètres de base](ui-change-basic-settings.md)  
+[Modification des fonctionnalités affichées](ui-experiences.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

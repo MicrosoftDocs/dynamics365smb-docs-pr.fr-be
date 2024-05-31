@@ -9,7 +9,7 @@ ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoicing-prepayments"></a>Facturation d’acomptes
+# Facturation d’acomptes
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -24,13 +24,13 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 |**Pour**|**Voir**|  
 |------------|-------------|  
-|Configurer les groupes de validation d’acompte et les souches de numéros, et configurer les pourcentages d’acompte par défaut pour les clients, fournisseurs et articles.|[Configuration des acomptes](finance-set-up-prepayments.md)|
-|Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Créer des factures d’acompte](finance-how-to-create-prepayment-invoices.md)|  
+|Configurer les groupes de validation d'acompte et les souches de numéros, et configurer les pourcentages d'acompte par défaut pour les clients, fournisseurs et articles.|[Configuration des acomptes](finance-set-up-prepayments.md)|
+|Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md)|  
 |Émettre une facture acompte supplémentaire, pour des articles supplémentaires ou pour un acompte supplémentaire dans la commande originale, ou émettre un avoir acompte.|[Corriger des acomptes](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Procédure pas à pas : configuration et facturation d’acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Procédure pas à pas : configuration et facturation d'acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finances](finance.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

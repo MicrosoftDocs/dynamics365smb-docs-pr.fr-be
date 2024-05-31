@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Déplacement d’articles
+# Déplacement d'articles
 
 Vous pouvez déplacer des articles dans votre entrepôt de différentes manières, selon la façon dont vous avez configuré votre entrepôt. La complexité peut varier :
 
@@ -29,14 +29,14 @@ Les tâches de comptage, d’ajustement et de reclassement des articles peuvent 
 
  Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
-|**À**|**Voir**|  
+|**Pour**|**Voir**|  
 |------------|-------------|  
 |Déplacer des articles entre magasins|[Transfert de stock entre des magasins](inventory-how-transfer-between-locations.md)|
-|Déplacer des articles d’un emplacement à l’autre dans des configurations entrepôt de base à tout moment et sans documents origine.|[Déplacer des articles dans les configurations de stockage de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
+|Déplacer des articles d'un emplacement à l'autre dans des configurations entrepôt de base à tout moment et sans documents origine.|[Déplacer des articles dans les configurations de stockage de base](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Utilisez la feuille mouvement entrepôt, le prélèvement et le rangement internes pour déplacer des articles dans des configurations d’entrepôt avancées avec un prélèvement et un rangement dirigés.|[Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Restructurez votre entrepôt avec de nouveaux codes et caractéristiques emplacement et déplacez-les potentiellement autour.|[Restructuration des entrepôts](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion d’entrepôt](design-details-warehouse-management.md)  
 [Stock](inventory-manage-inventory.md)  

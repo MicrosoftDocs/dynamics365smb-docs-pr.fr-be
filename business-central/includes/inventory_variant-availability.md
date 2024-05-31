@@ -9,7 +9,7 @@ Lorsque vous ouvrez la page **Dispo. article par variante** à partir d’une li
 
 La page affiche une ligne pour chaque période. Chaque ligne affiche les chiffres de disponibilité de l’article dans les champs clés suivants :
 
-| Champ | Désignation |
+| Champ | Description |
 |--|--|
 | **Besoin brut**| Indique la somme de la demande totale pour cet article. Le besoin brut est égal à la somme de la *demande dépendante* et de la *demande indépendante*. La *demande indépendante* est issue des commandes vente, des commandes service, des ordres de transfert et des prévisions de production. La *demande dépendante* est issue des composants O.F., des ordres de fabrication planifiés, planifiés fermes et lancés. Elle comprend également des lignes de feuilles planning et demande achat.|
 | **Réception planifiée** | Spécifie la somme des articles provenant du réapprovisionnement. Le calcul inclut des ordres de fabrication lancés et planifiés fermes, des commandes achat et des ordres de transfert. |

@@ -11,7 +11,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-relationships"></a>Gestion des relations
+# Gestion des relations
 Les fonctionnalités de gestion des relations de [!INCLUDE[prod_short](includes/prod_short.md)] vous aident à gérer et prendre en charge vos efforts de vente. Grâce à elles, vous avez accès à des informations complètes et pertinentes qui vous permettent de focaliser vos interactions sur les segments client/contact favoris.
 
 Les pratiques recommandées en matière de vente et de marketing reposent toutes sur la prise de décisions appropriées au bon moment. [!INCLUDE[prod_short](includes/prod_short.md)] fournit une vue d’ensemble précise et opportune de vos informations de contact afin d’offrir des services à vos prospects de manière plus efficace et d’accroître la satisfaction de la clientèle.
@@ -20,8 +20,8 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 
 | Pour | Voir |
 | --- | --- |
-|Définir les paramètres par défaut pour l’utilisation des contacts et des interactions et paramétrer les souches de numéros.|[Paramétrage de la Gestion des relations](marketing-setup-marketing.md)|
-|Définir les entités externes avec lesquelles vous avez des relations d’affaires, par exemple, les clients, prospects, fournisseurs, avocats et consultants, en tant que type Personne ou type Société.|[Gestion de contacts](marketing-contacts.md)|
+|Définir les paramètres par défaut pour l'utilisation des contacts et des interactions et paramétrer les souches de numéros.|[Paramétrage de la Gestion des relations](marketing-setup-marketing.md)|
+|Définir les entités externes avec lesquelles vous avez des relations d'affaires, par exemple, les clients, prospects, fournisseurs, avocats et consultants, en tant que type Personne ou type Société.|[Gestion de contacts](marketing-contacts.md)|
 |Gérer tous les types de communications entre votre société et vos contacts, par exemple par e-mail, par lettre, par téléphone, lors de réunions.|[Gestion des interactions](marketing-interactions.md)|
 |Définir des segments pour sélectionner un groupe de contacts en fonction de critères spécifiques, tels que le secteur auquel les contacts appartiennent.|[Gestion des segments](marketing-segments.md)|
 |Traiter les prospects entrants en créant des opportunités et en les associant à des vendeurs afin de pouvoir suivre les ventes potentielles.|[Gestion des opportunités de ventes](marketing-manage-sales-opportunities.md)|

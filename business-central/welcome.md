@@ -8,9 +8,9 @@ ms.date: 05/22/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="welcome-to-"></a>Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
+# Bienvenue dans [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] est une solution de gestion d’entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. Hautement adaptable et riche en fonctionnalités, [!INCLUDE[prod_short](includes/prod_short.md)] permet aux entreprises de gérer leurs activités, y compris la finance, la fabrication, l’expédition, la gestion de projets, les services, etc. Celles-ci peuvent facilement ajouter des fonctionnalités adaptées aux types d’opérations exécutés et personnalisées pour une prise en charge des secteurs hautement spécialisés. [!INCLUDE[prod_short](includes/prod_short.md)] est rapide à mettre en œuvre, facile à configurer et la simplicité guide les innovations dans la conception du produit, le développement, l’implémentation et la convivialité.  
+[!INCLUDE[prod_short](includes/prod_short.md)] est une solution de gestion d’entreprise pour les PME qui automatise et simplifie les processus entreprise et vous aide à gérer votre entreprise. Hautement adaptable et riche en fonctionnalités, [!INCLUDE[prod_short](includes/prod_short.md)] permet aux entreprises de gérer leurs activités, y compris la finance, la fabrication, l’expédition, la gestion de projets, les services, etc. Celles-ci peuvent facilement ajouter des fonctionnalités adaptées aux types d'opérations exécutés et personnalisées pour une prise en charge des secteurs hautement spécialisés. [!INCLUDE[prod_short](includes/prod_short.md)] est rapide à mettre en œuvre, facile à configurer et la simplicité guide les innovations dans la conception du produit, le développement, l’implémentation et la convivialité.  
 
 Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vous à [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Autrement, [obtenez la vue d’ensemble](https://dynamics.microsoft.com/business-central/overview/), [faites la visite guidée](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1), puis [apprenez à démarrer une évaluation gratuite](trial-signup.md). Consultez les [articles de démarrage rapide](quick-start-business-central.md) pour vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)]. Pour plus d’informations sur l’intégration dans [!INCLUDE[prod_short](includes/prod_short.md)], voir [Se préparer aux activités commerciales](ui-get-ready-business.md).  
 
@@ -21,7 +21,7 @@ Si vous avez déjà [!INCLUDE[prod_short](includes/prod_short.md)], connectez-vo
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-learn"></a>Microsoft Learn
+## Microsoft Learn
 
 Dans le panneau de navigation à gauche, vous trouverez des informations sur l’utilisation de [!INCLUDE[prod_short](includes/prod_short.md)] dans votre société. Trouvez des liens vers des descriptions des fonctionnalités les plus couramment utilisées dans la section [Processus d’entreprise](#business-processes). Voir aussi la section [En savoir plus à l’aide de la documentation du produit](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -34,7 +34,7 @@ Vous pouvez également [visiter notre vidéothèque](across-videos.md), ou comme
 
 Les sections suivantes présentent des articles clés qui peuvent vous aider à vous familiariser avec [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="business-processes"></a>Processus entreprise
+## Processus entreprise
 
 - [Préparation aux activités commerciales](ui-get-ready-business.md)
 - [Configuration de [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -43,7 +43,7 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
 - [Procédures pas à pas liées au processus entreprise](walkthrough-business-process-walkthroughs.md)
 - [Détails de conception de l’application](design-details-application-design.md)
 - [Personnaliser Business Central](ui-customizing-overview.md)
-- [Fonctionnalités d’entreprise](across-business-functionality.md)
+- [Fonctionnalités d'entreprise](across-business-functionality.md)
 
   - [Finances](finance.md)
   - [Ventes](sales-manage-sales.md)
@@ -56,12 +56,12 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
   - [Planification de la production](production-planning.md)
   - [Gestion des assemblages](assembly-assemble-items.md)
   - [Production](production-manage-manufacturing.md)
-  - [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)  
-  - [Gestion des services](service-service.md)
+  - [Vue d’ensemble de la gestion d’entrepôt](design-details-warehouse-management.md)  
+  - [Management des services](service-service.md)
   - [Fonctionnalités marché](ui-across-business-areas.md)
   - [Fonctionnalités locales](about-localization.md)
 
-## <a name="development-and-administration-content"></a>Contenu de développement et administration
+## Contenu de développement et administration
 
 - [Développement et administration](/dynamics365/business-central/dev-itpro/index)
 - [Versions d’évaluation et abonnements](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -69,13 +69,13 @@ Les sections suivantes présentent des articles clés qui peuvent vous aider à 
 - [Environnement de développement AL](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Règles et instructions du code d’AL](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="microsoft-learn-training"></a>Formation Microsoft Learn
+## Formation Microsoft Learn
 
 Trouvez du contenu e-learning gratuit pour [!INCLUDE[prod_short](includes/prod_short.md)] sur la [formation Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et couramment utilisées dans notre vidéothèque. Pour plus d’informations, voir [Visiter notre vidéothèque](across-videos.md).  
 
-## <a name="community-resources"></a>Ressources de la communauté
+## Ressources de la communauté
 
 - [Forum de la communauté Microsoft Dynamics 365 Business Central](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central dans le blog Dynamics 365](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
@@ -83,20 +83,20 @@ Vous pouvez également visionner des vidéos de fonctionnalités nouvelles et co
 - [Feuille de route Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/roadmap/business-central/)  
 - [Microsoft Partner Network \(requiert un compte d’adhésion Microsoft Partner Network\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Soyez informé des changements via un flux RSS
+## Soyez informé des changements via un flux RSS
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Formation Dynamics 365 Business Central](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Démarrage rapide de Business Central](quick-start-business-central.md)  
 [Mise en route de Business Central](ui-get-ready-business.md)  
-[Visiter notre vidéothèque](across-videos.md)  
+[Visite de notre vidéothèque](across-videos.md)  
 [Personnalisation de [!INCLUDE[prod_short](includes/prod_short.md)] à l’aide des extensions](ui-extensions.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] en tant que boîte de réception professionnelle dans Outlook](admin-outlook.md)  
 [Obtention de [!INCLUDE[prod_short](includes/prod_short.md)] sur votre périphérique mobile](install-mobile-app.md)  
-[Utiliser les axes analytiques](finance-dimensions.md)  
+[Utilisation des axes analytiques](finance-dimensions.md)  
 [Ressources pour l’Aide et le support](product-help-and-support.md)  
 [En savoir plus à l’aide de la documentation du produit](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [Conformité [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  

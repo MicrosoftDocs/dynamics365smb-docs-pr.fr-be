@@ -8,27 +8,27 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Configurer et traiter une opération de sous-traitance
+# Configurer et traiter une opération de sous-traitance
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration de Contoso Coffee dans la sous-traitance.
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. En raison de contraintes de capacité, vous envisagez de faire appel à un sous-traitant pour produire l’article **SP-SCM1009, Airpot**.
 
 Vous allez donc créer un ordre de fabrication pour 12 unités de l’article SP-SCM1009, Airpot, à l’aide de la gamme SP-SCM1009-SUB-2. Utilisez la proposition de sous-traitance pour générer un bon de commande pour la fabrication, puis terminez l’opération par la réception et la facturation du bon de commande.
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez un nouvel ordre de fabrication pour 12 unités d’article SP-SCM1009, Airpot.
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancé**, puis sélectionnez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancé**, puis sélectionnez le lien associé.  
 
     2. Cliquez sur l’action **Nouveau**, puis renseignez les champs comme indiqué dans le tableau suivant.  
 
         |Champ  |Valeur  |
         |---------|---------|
-        |**Type origine** |Article ;|
+        |**Type origine** |Article|
         |**N° origine** |SP-SCM1009|
         |**Quantité** |100|
     3. Choisissez l’action **Actualiser O.F.**.  
@@ -45,13 +45,13 @@ Vous allez donc créer un ordre de fabrication pour 12 unités de l’article S
 
 3. Utilisez la proposition de sous-traitance pour générer un bon de commande pour l’opération sous-traitée sur l’ordre de fabrication que vous avez créé à l’étape 2.  
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Propositions sous-traitance**, puis sélectionnez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Propositions sous-traitance**, puis sélectionnez le lien associé.  
 
     2. Choisissez l’action **Générer sous-traitances**.
 
     3. Sélectionnez le champ **Accepter message d’action** de la nouvelle ligne.
 
-    4. Choisissez l’action **Traiter message d’action**.  
+    4. Choisissez l'action **Traiter message d'action**.  
 
     5. Sur la page de demande **Traiter messages d’action - Demande**, acceptez toutes les valeurs par défaut, puis cliquez sur le bouton **OK**.
 
@@ -59,7 +59,7 @@ Vous allez donc créer un ordre de fabrication pour 12 unités de l’article S
 
 4. Réceptionnez et facturez la commande achat.  
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Commandes achat**, puis choisissez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Commandes achat**, puis choisissez le lien associé.  
 
     2. Sur la liste **Commandes achat**, recherchez la commande achat du fournisseur 82000.
 
@@ -67,12 +67,12 @@ Vous allez donc créer un ordre de fabrication pour 12 unités de l’article S
 
     4. Sélectionnez la ligne sur le raccourci **Lignes**, puis définissez le champ **Coût direct** sur *18*.
 
-    5. Sélectionnez l’action **Valider**.  
+    5. Sélectionnez l'action **Valider**.  
 
     6. Dans le message de demande, choisissez l’option **Réceptionner et facturer**.  
 
 La sortie de l’article SP-SCM1009 Airpot est maintenant enregistrée.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

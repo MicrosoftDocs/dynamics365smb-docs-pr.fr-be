@@ -27,4 +27,11 @@ sections:
       - question: "Un utilisateur invité peut-il utiliser l’application pour accéder à notre solution Business Central\_?\n"
         answer: |
           N° Les utilisateurs invités sont des utilisateurs invités d’un autre locataire Microsoft Entra que le vôtre. Dans ce cas, l’application s’authentifie auprès du locataire principal Microsoft Entra de l’utilisateur invité et essaie d’ouvrir le point de terminaison Business Central sur ce locataire au lieu du vôtre.  
-additionalContent: "\n## Voir aussi\n\n[Obtention de Business\_Central sur votre périphérique mobile](install-mobile-app.md)  \n[Installer l’application Business Central pour Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]\n"
+additionalContent: |
+
+  ## Voir aussi
+
+  [Obtention de Business Central sur votre périphérique mobile](install-mobile-app.md)  
+  [Installer l’application Business Central pour Microsoft Teams](across-install-app-for-teams.md)  
+
+  [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,7 +5,7 @@ ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction de recherche 0.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Paramétrage déclaration TVA**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 0.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramétrage déclaration TVA**, puis choisissez le lien associé.  
 2. Pour permettre aux utilisateurs de modifier et de renvoyer cet état, choisissez le champ **Autoriser la modification**.  
 3. Si les autorités fiscales exigent que vous soumettiez des déclarations de TVA qui incluent également le montant net qui a été utilisé pour calculer la TVA, choisissez le champ **Déclarer la base de TVA**.  
 4. Choisissez la souche de numéros à utiliser pour chaque état. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)]  

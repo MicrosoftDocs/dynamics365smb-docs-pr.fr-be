@@ -1,6 +1,6 @@
 ---
 title: "Procédure\_: Copier des articles existants pour créer de nouveaux articles"
-description: 'Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction Copier article pour copier un article existant et l’utiliser comme modèle pour un nouvel article.'
+description: 'Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction Copier article pour copier un article existant et l''utiliser comme modèle pour un nouvel article.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -10,14 +10,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Copier des articles existants pour créer de nouveaux articles
+# Copier des articles existants pour créer de nouveaux articles
 
-Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction **Copier article** pour copier un article existant et l’utiliser comme modèle pour un nouvel article.  
+Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utiliser la fonction **Copier article** pour copier un article existant et l'utiliser comme modèle pour un nouvel article.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Pour copier un article existant dans un nouvel article
+## Pour copier un article existant dans un nouvel article
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
-2. Sélectionnez l’article que vous souhaitez copier, puis choisissez l’action **Copier article**.  
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+2. Sélectionnez l'article que vous souhaitez copier, puis choisissez l'action **Copier article**.  
 
     Si vous ne trouvez pas l’action **Copier article**, choisissez d’afficher plus d’options, puis recherchez-la sous **Actions**, **Fonctions**.  
 
@@ -28,9 +28,9 @@ Lorsque vous ajoutez un nouvel article, pour gagner du temps, vous pouvez utilis
 
 4. Pour copier vos choix dans le nouvel article, choisissez le bouton **OK**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
-[Enregistrer de nouveaux articles](inventory-how-register-new-items.md)  
+[Enregistrement des nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de stock](inventory-setup-inventory.md)  
 
 

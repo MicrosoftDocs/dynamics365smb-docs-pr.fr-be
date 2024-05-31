@@ -9,20 +9,20 @@ ms.date: 12/21/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Gérer les paramètres enregistrés pour les états et les traitements par lots
+# Gérer les paramètres enregistrés pour les états et les traitements par lots
 
-Lors de l’exécution d’un état, les utilisateurs voient généralement une page qui leur permet de sélectionner des options et de définir des filtres pour modifier les données incluses dans l’état généré. Cette page est appelée la *page de demande*. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l’état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d’utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d’informations, voir [Utiliser les paramètres enregistrés](ui-work-report.md#SavedSettings).
+Lors de l’exécution d’un état, les utilisateurs voient généralement une page qui leur permet de sélectionner des options et de définir des filtres pour modifier les données incluses dans l’état généré. Cette page est appelée la *page de demande*. Un état peut inclure un ou plusieurs *paramètres enregistrés* que les utilisateurs peuvent appliquer à l'état à partir de la page de demande. Les *Paramètres enregistrés* sont essentiellement des options et des filtres prédéfinis. Le fait d'utiliser les paramètres enregistrés est une façon rapide et fiable de générer de façon cohérente des états qui contiennent les données adéquates. Pour plus d’informations, voir [Utiliser les paramètres enregistrés](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Cette rubrique fait référence aux *états*, mais des informations similaires s’appliquent aux *traitements par lots*.
 
 Si vous avez les bonnes autorisations, vous pouvez visualiser, créer et modifier les paramètres enregistrés pour tous les états pour tous les utilisateurs de la société. Vous pouvez attribuer les paramètres enregistrés d’un état à des utilisateurs en particulier ou à tous les utilisateurs de la société.
 
-## <a name="manage-saved-settings"></a>Gérer les paramètres enregistrés
+## Gérer les paramètres enregistrés
 
 Vous devez gérer les paramètres enregistrés à partir de la page **Paramètres des états**. Deux méthodes sont disponibles pour ouvrir cette page :
 
-- Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres de l’état**, puis choisissez le lien associé.
+- Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres de l’état**, puis choisissez le lien associé.
 - Sur la page de demande d’un état, sélectionnez la fonction de recherche dans le champ **Utiliser les valeurs par défaut de**, puis choisissez l’action **Sélectionner dans la liste complète**.
 
     Ce champ n’est visible que si vous avez exécuté le rapport au moins une fois auparavant. La liste n’affichera que les paramètres qui sont disponibles pour vous, soit parce qu’il s’agit de vos propres paramètres, soit parce que les paramètres sont partagés avec vous.
@@ -34,21 +34,21 @@ La page **Paramètres de l’état** affiche toutes les entrées de paramètres 
 >
 > Cependant, dans certains cas, les paramètres ne peuvent pas être partagés et l’administrateur ne peut pas non plus les modifier. La plupart des traitements par lots ne prennent pas en charge les paramètres partagés.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Créer ou modifier les paramètres enregistrés pour tous les utilisateurs
+## Créer ou modifier les paramètres enregistrés pour tous les utilisateurs
 
-Dans la page **Paramètres de l’état**, vous pouvez :
+Dans la page **Paramètres de l'état**, vous pouvez :
 
 - Sélectionner l’action **Nouveau** pour créer une nouvelle entrée de paramètres enregistrés.
 - Sélectionner une entrée de paramètres enregistrés dans la liste, puis choisir l’action **Copier** pour créer une copie.
 - Sélectionner une entrée de paramètres enregistrés dans la liste, puis choisir l’action **Modifier** pour la modifier.
 
 > [!Important]
-> Définir le nom que vous souhaitez affecter à une entrée de paramètres enregistrés. Si vous créez une entrée de paramètres enregistrés pour tous les utilisateurs et vous lui donnez le même nom que l’entrée de paramètres enregistrés existants qui est affectée à un utilisateur spécifique, alors cet utilisateur ne pourra pas utiliser l’entrée de paramètres enregistrés qui est affectée à tous.  Dans la section **Paramètres enregistrés** dans la page de demande de l’état, l’utilisateur verra deux entrées de paramètres enregistrés avec le même nom. Toutefois, peu importe l’option qu’il choisit, l’entrée de paramètres enregistrés qui lui est spécifique sera utilisée.
+> Définir le nom que vous souhaitez affecter à une entrée de paramètres enregistrés. Si vous créez une entrée de paramètres enregistrés pour tous les utilisateurs et vous lui donnez le même nom que l'entrée de paramètres enregistrés existants qui est affectée à un utilisateur spécifique, alors cet utilisateur ne pourra pas utiliser l'entrée de paramètres enregistrés qui est affectée à tous.  Dans la section **Paramètres enregistrés** dans la page de demande de l’état, l’utilisateur verra deux entrées de paramètres enregistrés avec le même nom. Toutefois, peu importe l’option qu’il choisit, l’entrée de paramètres enregistrés qui lui est spécifique sera utilisée.
 
 > [!NOTE]
 > La possibilité d’enregistrer les paramètres n’est disponible que pour les états où la [propriété SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) de la page de demande de l’état est définie sur **Oui**. La propriété **SaveValues** est définie par le développeur.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser des états, des traitements par lots et des XMLports](ui-work-report.md)  
 

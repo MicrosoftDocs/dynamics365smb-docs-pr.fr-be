@@ -10,9 +10,9 @@ ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-transfers-in-planning"></a>Détails de conception : transferts de planification
+# Détails de conception : transferts de planification
 
-Les ordres de transfert sont également une source d’approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l’utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d’un autre magasin. Dans une situation avec plus d’entrepôts, vous pourriez avoir une chaîne de transferts. L’approvisionnement vers l’emplacement VERT est transféré depuis le JAUNE, l’approvisionnement vers le JAUNE est transféré depuis le ROUGE, et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement par **Ordre de fabrication** ou **Achat**.  
+Les ordres de transfert sont également une source d'approvisionnement lorsque vous travaillez au niveau des points de stock. Lors de l'utilisation de plusieurs magasins (entrepôts), le système de réapprovisionnement de point de stock peut être défini sur Transfer, ce qui implique que le magasin est réapprovisionné en transférant des biens d'un autre magasin. Dans une situation avec plus d’entrepôts, vous pourriez avoir une chaîne de transferts. L’approvisionnement vers l’emplacement VERT est transféré depuis le JAUNE, l’approvisionnement vers le JAUNE est transféré depuis le ROUGE, et ainsi de suite. Au début de la chaîne, il existe un système de réapprovisionnement par **Ordre de fabrication** ou **Achat**.  
 
 ![Exemple de flux de transfert.](media/nav_app_supply_planning_7_transfers1.png "Exemple de flux de transfert")  
 
@@ -28,7 +28,7 @@ Si la demande change, cela peut avoir des répercussions sur toute la chaîne. T
 
 ![Exemple d’équilibre de l’offre et de la demande dans les transferts.](media/nav_app_supply_planning_7_transfers2.png "Exemple d’équilibre de l’offre et de la demande dans les transferts")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Pourquoi le transfert est-il un cas spécial ?
+## Pourquoi le transfert est-il un cas spécial ?  
 
 Les ordres de transfert sont similaires aux autres ordres, tels que les ordres d’achat et de fabrication. Toutefois, en coulisse, ils sont différents.  
 
@@ -38,7 +38,7 @@ Une différence est qu’une ligne de transfert représente à la fois la demand
 
 Lorsque [!INCLUDE [prod_short](includes/prod_short.md)] change le côté offre du transfert, il doit faire un changement similaire du côté demande.  
 
-## <a name="transfers-are-dependent-demand"></a>Les transferts sont des demandes dépendantes
+## Les transferts sont des demandes dépendantes  
 
 La relation entre l’offre et la demande est similaire aux composants sur les lignes d’ordre de fabrication. La différence est que les composants des lignes d’ordre de fabrication se trouvent au niveau de planification suivant et ont un article différent. Les deux parties du transfert sont au même niveau pour le même article.  
 
@@ -48,19 +48,19 @@ Autre similitude importante : les composants et les transferts sont des demande
 
 Dans la procédure de planification, la demande de transfert doit être prise en compte uniquement après que le système de planification a traité le côté de l’offre. Avant que le traitement n’ait lieu, la demande réelle n’est pas connue. La séquence des modifications est importante pour les ordres de transfert.  
 
-## <a name="planning-sequence"></a>Séquence de planification
+## Séquence de planification  
 
 L’image suivante montre un exemple d’une chaîne de transferts.  
 
 ![Exemple de flux de transfert simple.](media/nav_app_supply_planning_7_transfers4.png "Exemple de flux de transfert simple")  
 
-Dans cet exemple, un client commande l’article au magasin VERT. Le magasin VERT est approvisionné via un transfert de l’entrepôt central ROUGE. L’entrepôt central ROUGE est approvisionné par un transfert après production vers le magasin BLEU.  
+Dans cet exemple, un client commande l'article au magasin VERT. Le magasin VERT est approvisionné via un transfert de l'entrepôt central ROUGE. L'entrepôt central ROUGE est approvisionné par un transfert après production vers le magasin BLEU.  
 
 Dans cet exemple, le système de planification commence à la demande client et remonte en amont dans la chaîne. Les demandes et les offres sont traitées pour un magasin à la fois.  
 
 ![Planification de l’approvisionnement avec transferts.](media/nav_app_supply_planning_7_transfers5.png "Planification de l’approvisionnement avec transferts")  
 
-## <a name="transfer-level-code"></a>Code niveau transfert
+## Code niveau transfert  
 
 Le code niveau de transfert du point de stock détermine l’ordre dans lequel le système de planification traite les magasins.  
 
@@ -72,7 +72,7 @@ Le code niveau de transfert est de 0 pour les points de stock avec système de r
 
 Lors de la mise à jour d’un point de stock, le système de planification détecte si les systèmes de réapprovisionnement pour les points de stock ont des références circulaires.  
 
-## <a name="planning-transfers-without-sku"></a>Planifier des transferts sans point de stock
+## Planifier des transferts sans point de stock  
 
 Pour les configurations d’entrepôt moins avancées, vous pouvez utiliser des magasins et effectuer des transferts manuels entre les magasins, même si vous n’utilisez pas de points de stock. Par exemple, le transfert peut couvrir une commande vente à cet magasin. Le système de planification réagit aux changements de la demande.  
 
@@ -82,7 +82,7 @@ Pour les transferts manuels, le système de planification analyse les ordres de 
 
 S’il existe plusieurs transferts vers un magasin, le premier ordre de transfert définit le sens de la planification. Les transferts en sens inverse sont annulés.  
 
-## <a name="changing-quantity-with-reservations"></a>Modification de la quantité avec des réservations
+## Modification de la quantité avec des réservations  
 
 Lors de la modification des quantités d’un approvisionnement, le système de planification prend en compte les réservations. La quantité réservée représente la limite inférieure de réduction de l’offre.  
 
@@ -97,7 +97,7 @@ Même si le côté entrant peut avoir une offre excédentaire, vous ne pouvez pa
 
 ![Réservations de planification de transfert.](media/nav_app_supply_planning_7_transfers8.png "Réservations de planification de transfert")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Modification de la quantité dans une chaîne de transfert
+## Modification de la quantité dans une chaîne de transfert  
 
 Voici un exemple de ce qui se passe lorsque vous modifiez une quantité lors d’un changement de transfert.
 
@@ -113,13 +113,13 @@ Habituellement, cela signifie que le système de planification ignore la command
 
 ![Modification de la quantité dans la planification de transfert 3.](media/nav_app_supply_planning_7_transfers11.png "Modification de la quantité dans la planification de transfert 3")  
 
-Lorsque le système de planification est à nouveau exécuté, il doit se débarrasser de l’approvisionnement excédentaire. Toutefois, la réservation verrouille l’achat et le transfert à une quantité de 27.  
+Lorsque le système de planification est à nouveau exécuté, il doit se débarrasser de l'approvisionnement excédentaire. Toutefois, la réservation verrouille l’achat et le transfert à une quantité de 27.  
 
 ![Modification de la quantité dans la planification de transfert 4.](media/nav_app_supply_planning_7_transfers12.png "Modification de la quantité dans la planification de transfert 4")  
 
 Le transfert ROUGE-ROSE a été réduit à 22. La partie entrante du transfert BLEU-ROSE n’est pas réservée, mais la partie sortante l’est. La réservation signifie que vous ne pouvez pas réduire la quantité en dessous de 27.  
 
-## <a name="lead-time-calculation"></a>Calcul du délai
+## Calcul du délai  
 
 Lors du calcul de la date d’échéance d’un ordre de transfert, différents types de délai seront pris en compte.  
 
@@ -146,21 +146,21 @@ L’illustration ci-après montre l’interprétation de la date/heure de début
 
 L’exemple montre les calculs suivants :  
 
-* Date d’expédition + Traitement en sortie = Date début  
-* Date début + Délai d’expédition = Date fin  
+* Date d'expédition + Traitement en sortie = Date début  
+* Date début + Délai d'expédition = Date fin  
 * Date fin + Traitement entrant = Date de réception  
 
-## <a name="safety-lead-time"></a>Délai de sécurité
+## Délai de sécurité  
 
 Le champ **Délai de sécurité par défaut** de la page **Paramètres production** et le champ associé **Délai de sécurité** sur la page **Fiche article** ne sont pas pris en compte dans les calculs d’un ordre de transfert. Cependant, le délai de sécurité influence la planification totale. Le délai de sécurité affecte l’ordre de réapprovisionnement (achat ou production) au début de la chaîne de transfert. C’est le point où les articles ont été placés au magasin d’où ils seront transférés.  
 
 ![Éléments de la date d’échéance de transfert.](media/nav_app_supply_planning_7_transfers14.png "Éléments de la date d’échéance de transfert")  
 
-Sur la ligne O.F., Date fin + Délai de sécurité + Délai enlogement = Date d’échéance.  
+Sur la ligne O.F., Date fin + Délai de sécurité + Délai enlogement = Date d'échéance.  
 
 Sur la ligne commande achat, Date livraison fournisseur prévue + Délai de sécurité + Délai enlogement = Date réception prévue.  
 
-## <a name="reschedule"></a>Replanifier
+## Replanifier  
 
 Lorsque vous replanifiez une ligne transfert, le système de planification trouve la partie sortante et modifie la date et l’heure.
 
@@ -171,11 +171,11 @@ Lorsque vous replanifiez une ligne transfert, le système de planification trouv
 
 Lors de la modification de la date d’échéance sur une ligne transfert, le délai doit être calculé pour mettre à jour la partie sortante du transfert.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Numéros de série et de lot dans des chaînes de transfert
+## Numéros de série et de lot dans des chaînes de transfert  
 
-Si la demande utilise des numéros de série ou de lot et que vous exécutez le moteur de planification, il créera des ordres de transfert. Pour plus d’informations sur ce concept, voir Attributs d’article. Cependant, si les numéros de série ou de lot sont supprimés de la demande, les ordres de transfert utiliseront toujours les numéros de série ou de lot et la planification les ignorera (mais ne les supprimera pas).  
+Si la demande utilise des numéros de série ou de lot et que vous exécutez le moteur de planification, il créera des ordres de transfert. Pour plus d'informations sur ce concept, voir Attributs d'article. Cependant, si les numéros de série ou de lot sont supprimés de la demande, les ordres de transfert utiliseront toujours les numéros de série ou de lot et la planification les ignorera (mais ne les supprimera pas).  
 
-## <a name="order-to-order-links"></a>Liens ordre pour ordre
+## Liens ordre pour ordre  
 
 Dans cet exemple, le point de stock BLEU est configuré avec une stratégie de réapprovisionnement **Commander**. Les points de stock ROSE et ROUGE ont la stratégie de réapprovisionnement **Lot pour lot**. La création d’une commande vente de 27 au magasin ROUGE entraîne une chaîne de transferts. Le dernier transfert est au magasin BLEU, et il est réservé avec liaison. Dans cet exemple, les réservations ne sont pas des réservations fermes créées par le planificateur au magasin ROSE. Le système de planification crée les liaisons. La différence importante est que le système de planification peut modifier ces derniers.  
 
@@ -183,15 +183,15 @@ Dans cet exemple, le point de stock BLEU est configuré avec une stratégie de r
 
 Si la demande passe de 27 à 22, le système de planification réduira la quantité tout au long de la chaîne. La réserve contraignante est également réduite.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
 
 [Détails de conception : paramètres de planification](design-details-planning-parameters.md)   
-[Détails de conception : tableau d’affectation de planification](design-details-planning-assignment-table.md)   
+[Détails de conception : tableau d'affectation de planification](design-details-planning-assignment-table.md)   
 [Détails de conception : gestion des méthodes de réapprovisionnement](design-details-handling-reordering-policies.md)   
 [Détails de conception : Planification avec/sans magasin](production-planning-with-without-locations.md)   
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)   
-[Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)   
-[Détails de conception : planification de l’approvisionnement](design-details-supply-planning.md)
+[Détails de conception : équilibrage de la demande et de l'approvisionnement](design-details-balancing-demand-and-supply.md)   
+[Détails de conception : planification de l'approvisionnement](design-details-supply-planning.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

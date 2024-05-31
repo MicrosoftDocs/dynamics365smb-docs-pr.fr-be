@@ -25,4 +25,4 @@ sections:
     questions:
       - question: "Qu’en est-il de l’exigence B2G en Allemagne\_?"
         answer: "Pour les utilisateurs de Business Central qui ont des clients au gouvernement allemand et qui ont besoin d’une facturation B2G, à compter du 27\_novembre\_2020, ils doivent envoyer des factures dans des formats locaux, tels que *XRechnung* ou *ZUGFeRD*.  Cela sera pris en charge par des applications telles que [Belware\_XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview), ou [Pagero\_E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)."
-additionalContent: "## Étapes suivantes\nTrouvez des informations relatives ici\_: \n  - [Envoyer des documents électroniques](sales-how-to-send-electronic-documents.md)  \n  \n"
+additionalContent: "## Étapes suivantes\nTrouvez des informations relatives ici\_: \n  - [Envoi des documents électroniques](sales-how-to-send-electronic-documents.md)  \n  \n"

@@ -17,7 +17,7 @@ Les commandes vente et achat ont souvent différents types d’éléments sur le
 
 Pour permettre aux magasiniers d’expédier et de recevoir des articles hors inventaire, complétez le champ **Valider automatiquement les articles hors inventaire via l’entrepôt** sur les pages **Paramètres ventes** et **Paramètres achats**. Le champ fournit les options suivantes :
 
-|Option  |Désignation  |
+|Option  |Description  |
 |---------|---------|
 |Aucune     |N’expédiez ni ne recevez des articles hors inventaire.         |
 |Attaché/affecté     | Validez les frais article et autres lignes article hors inventaire qui sont attribués ou joints aux articles physiques. Pour joindre des lignes hors inventaire aux articles physiques, utilisez l’action **Joindre à la ligne inventaire**.        |

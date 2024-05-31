@@ -8,7 +8,7 @@ ms.service: dynamics-365-business-central
 
 Le tableau suivant décrit certains des principaux états dans les états de projets.
 
-| État | Désignation | ID | 
+| État | Description | ID | 
 |---------|---------|---------|
 | [Analyse du projet](https://businesscentral.dynamics.com?report=1008)|Analyse votre projet à l’aide des paramètres que vous spécifiez. Par exemple, vous pouvez créer un état avec les prix budgétés, les prix activité et les prix facturables, et comparer ainsi les trois types de prix.<br>Permet d’utiliser une combinaison des champs **Montant** disponibles pour créer une analyse personnalisée. Pour chaque champ, sélectionnez l’un des prix, coûts ou marge suivants : Planifié, Activité, Contrat et Facturé. <br>Permet de choisir l’affichage de la devise en Devise société (DS) ou en Devise étrangère (DE). |1008|
 | [Lignes planning projet](https://businesscentral.dynamics.com?report=1006) |Cet état affiche les différentes lignes planning projet et tâche projet, y compris le type de ligne, les quantités, l’unité, les coûts totaux, etc.|1006|

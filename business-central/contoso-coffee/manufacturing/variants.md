@@ -8,23 +8,23 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Procédure pas à pas : variantes
+# Procédure pas à pas : variantes
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration de Contoso Coffee pour en savoir plus sur les variantes.
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à jour la prévision de la demande pour chaque variante de l’article SP-SCM1006, AutoDripLite. Comme les couleurs sont différentes, vous devez vous assurer que la bonne nomenclature (BOM) est utilisée pour chaque variante. Exécutez la feuille planning pour calculer l’approvisionnement.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Configurez les unités de gestion des stocks pour l’article SP-SCM1006, AutoDripLite. Attribuez une nomenclature pour SKU avec les variantes ROUGE et BLANC.
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez *articles*, puis choisissez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez *articles*, puis choisissez le lien associé.  
 
     2. Ouvrez l’élément **SP-SCM1006, AutoDripLite**.
 
-    3. Choisissez l’action **Créer point de stock**.  
+    3. Choisissez l'action **Créer point de stock**.  
 
     4. Définissez le champ **Créer par** sur *Magasin et variante*.
 
@@ -42,7 +42,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
 2. Mettez à jour les paramètres production et respectez les prévisions de demande sur les magasins et les variantes.  
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez *Paramètres production*, puis choisissez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez *Paramètres production*, puis choisissez le lien associé.  
 
     2. Activez le champ **Prévision sur magasin**.
 
@@ -52,7 +52,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
 3. Créez une prévision de la demande mensuelle, *AUTODRIP*. Filtrez-la par l’article SP-SCM1006 et le magasin PRINCIPAL. Définissez la demande pour Mai pour chaque variante. 
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez *Prévision de la demande*, puis sélectionnez le lien associé.
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez *Prévision de la demande*, puis sélectionnez le lien associé.
 
     2. Créez une prévision de la demande et nommez-la *AUTODRIP*.
 
@@ -82,7 +82,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
     1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez *Feuille planning*, puis choisissez le lien associé.
 
-    2. Choisissez l’action **Calculer planning régénératif**.
+    2. Choisissez l'action **Calculer planning régénératif**.
 
     3. Activez le champ **MPS**.
 
@@ -98,6 +98,6 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez mettre à
 
     9. Pour chaque ligne créée, choisissez l’action **Composants** et vérifiez quelle couleur est utilisée.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

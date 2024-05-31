@@ -7,19 +7,19 @@ ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Procédure pas à pas : Créer une gamme
+# Procédure pas à pas : Créer une gamme
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee pour configurer manuellement une nouvelle gamme de production dans [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une gamme nommée *Nouveau chemin*. Étant donné que cette gamme ne ressemble à aucune autre chez Contoso Coffee, Oscar doit saisir manuellement toutes les informations relatives à la gamme.  
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 1. Créez l’en-tête de la gamme.  
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **gammes**, puis sélectionnez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **gammes**, puis sélectionnez le lien associé.  
 
     2. Cliquez sur l’action **Nouveau**, puis renseignez les champs comme indiqué dans le tableau suivant.  
 
@@ -36,14 +36,14 @@ Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une ga
         |**N° opération** |10|
         |**Type** |Centre de charge|
         |**N°** |100|
-        |**Temps de préparation** |20|
+        |**Temps de préparation** |2.0|
         |**Temps d’exécution** |15|
 
     2. Ajoutez une nouvelle ligne, puis renseignez les champs comme indiqué dans le tableau suivant.  
 
         |Champ  |Valeur  |
         |---------|---------|
-        |**N° opération** |20|
+        |**N° opération** |2.0|
         |**Type** |Centre de charge|
         |**N°** |200|
         |**Temps de préparation** |30|
@@ -54,6 +54,6 @@ Oscar, l’ingénieur de processus chez Contoso Coffee, décide de créer une ga
 
 La nouvelle gamme est maintenant configurée.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Introduction aux données de démonstration Contoso Coffee](../contoso-coffee-intro.md)  

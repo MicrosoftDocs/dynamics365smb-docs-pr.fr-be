@@ -10,9 +10,9 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Définir des règles pour le lettrage automatique des paiements
+# Définir des règles pour le lettrage automatique des paiements
 
-Sur la page **Règles de lettrage de paiement**, vous définissez des règles pour définir comment le texte de paiement (sur une transaction bancaire) doive être automatiquement mis en correspondance avec le texte sur les factures (impayées), les avoirs ou d’autres entrées associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**. Pour plus d’informations, voir [Rapprocher les paiements à l’aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
+Sur la page **Règles de lettrage de paiement**, vous définissez des règles pour définir comment le texte de paiement (sur une transaction bancaire) doive être automatiquement mis en correspondance avec le texte sur les factures (impayées), les avoirs ou d’autres entrées associées lorsque vous utilisez la fonction **Lettrer automatiquement** sur la page **Feuille rapprochement bancaire**. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 
 Pour définir de nouvelles règles de lettrage de paiement, choisissez quels types de données sur une ligne feuille rapprochement bancaire doivent correspondre aux données sur une ou plusieurs écritures ouvertes avant que le paiement associé ne soit automatiquement lettré avec les écritures ouvertes. La qualité de chaque lettrage automatique est indiquée par une valeur de **Faible** à **Élevée** dans le champ **Fiabilité correspondance** sur la page **Feuille rapprochement bancaire** selon la règle de lettrage de paiement qui a été utilisée.
 
@@ -28,8 +28,8 @@ Outre les critères de correspondance, les remarques suivantes s’appliquent co
 - Pour les montants négatifs, une correspondance est d’abord établie par rapport aux écritures ouvertes représentant les factures client, et ensuite par rapport aux avoirs fournisseur.
 - Pour les montants positifs, une correspondance d’abord établie par rapport aux écritures ouvertes représentant les factures fournisseur, et ensuite par rapport aux avoirs client.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Pour définir une règle de lettrage de paiement
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Règles de lettrage des paiements**, puis choisissez le lien associé.
+## Pour définir une règle de lettrage de paiement
+1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Règles de lettrage des paiements**, puis choisissez le lien associé.
 2. Définissez une règle de lettrage de paiement, nouvelle ou modifiée, en renseignant les champs sur une ligne tel que décrit dans le tableau suivant.
 
 |Champ|Description|
@@ -48,33 +48,33 @@ Le tableau suivant décrit les règles de lettrage de paiement standard dans [!I
 
 | Fiabilité correspondance | Priorité | Correspondance partie associée | Correspondance N° doc./N° doc. ext. | Correspondance montant avec écart |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
-| Élevée             | 1        | Intégrale                 | Oui - Multiple                 | Une correspondance                      |
-| Élevée             | 2        | Intégrale                 | Oui - Multiple                 | Correspondances multiples               |
-| Élevée             | 3        | Intégrale                 | Oui                            | Une correspondance                      |
-| Élevée             | 4        | Intégrale                 | Oui                            | Correspondances multiples               |
-| Élevée             | 5        | Partielle             | Oui - Multiple                 | Une correspondance                      |
-| Élevée             | 6        | Partielle             | Oui - Multiple                 | Correspondances multiples               |
-| Élevée             | 7        | Partielle             | Oui                            | Une correspondance                      |
-| Élevée             | 8        | Intégrale                 | Non                             | Une correspondance                      |
-| Élevée             | 9        | Non                    | Oui - Multiple                 | Une correspondance                      |
-| Élevée             | 10       | Non                    | Oui - Multiple                 | Correspondances multiples               |
-| Moyenne           | 1        | Intégrale                 | Oui - Multiple                 | Non applicable                 |
+| Haut             | 0        | Intégrale                 | Oui - Multiple                 | Une correspondance                      |
+| Haut             | 2        | Intégrale                 | Oui - Multiple                 | Correspondances multiples               |
+| Haut             | 3        | Intégrale                 | Oui                            | Une correspondance                      |
+| Haut             | 4        | Intégrale                 | Oui                            | Correspondances multiples               |
+| Haut             | 5        | Partielle             | Oui - Multiple                 | Une correspondance                      |
+| Haut             | 6        | Partielle             | Oui - Multiple                 | Correspondances multiples               |
+| Haut             | 7        | Partielle             | Oui                            | Une correspondance                      |
+| Haut             | 8        | Intégrale                 | N°                             | Une correspondance                      |
+| Haut             | 9        | N°                    | Oui - Multiple                 | Une correspondance                      |
+| Haut             | 10       | N°                    | Oui - Multiple                 | Correspondances multiples               |
+| Moyenne           | 0        | Intégrale                 | Oui - Multiple                 | Non applicable                 |
 | Moyenne           | 2        | Intégrale                 | Oui                            | Non applicable                 |
-| Moyenne           | 3        | Intégrale                 | Non                             | Correspondances multiples               |
+| Moyenne           | 3        | Intégrale                 | N°                             | Correspondances multiples               |
 | Moyenne           | 4        | Partielle             | Oui - Multiple                 | Non applicable                 |
 | Moyenne           | 5        | Partielle             | Oui                            | Non applicable                 |
-| Moyenne           | 6        | Non                    | Oui                            | Une correspondance                      |
-| Moyenne           | 7        | Non                    | Oui-Multiple                   | Non applicable                 |
-| Moyenne           | 8        | Partielle             | Non                             | Une correspondance                      |
-| Moyenne           | 9        | Non                    | Oui                            | Non applicable                 |
-| Faible              | 1        | Intégrale                 | Non                             | Aucune correspondance                     |
-| Faible              | 2        | Partielle             | Non                             | Correspondances multiples               |
-| Faible              | 3        | Partielle             | Non                             | Aucune correspondance                     |
+| Moyenne           | 6        | N°                    | Oui                            | Une correspondance                      |
+| Moyenne           | 7        | N°                    | Oui-Multiple                   | Non applicable                 |
+| Moyenne           | 8        | Partielle             | N°                             | Une correspondance                      |
+| Moyenne           | 9        | N°                    | Oui                            | Non applicable                 |
+| Mauvaises              | 0        | Intégrale                 | N°                             | Aucune correspondance                     |
+| Mauvaises              | 2        | Partielle             | N°                             | Correspondances multiples               |
+| Mauvaises              | 3        | Partielle             | N°                             | Aucune correspondance                     |
 | Mauvaises              | 4        | N°                    | N°                             | Une correspondance                      |
 | Mauvaises              | 5        | N°                    | N°                             | Correspondances multiples               |
 
-## <a name="see-also"></a>Voir aussi
-[Rapprocher les paiements à l’aide de l’application automatique](receivables-how-reconcile-payments-auto-application.md)  
+## Voir aussi
+[Rapprocher les paiements à l'aide de l'application automatique](receivables-how-reconcile-payments-auto-application.md)  
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

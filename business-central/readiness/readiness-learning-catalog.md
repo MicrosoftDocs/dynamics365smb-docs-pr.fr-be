@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-central-learning-catalog"></a>Catalogue d’apprentissage Business Central
+# Catalogue d’apprentissage Business Central
 
 Trouvez la bonne formation en ligne, les ateliers en personne et les événements adaptés à votre rôle d’utilisateur ou de partenaire de Business Central.
 
@@ -31,7 +31,7 @@ Trouvez la bonne formation en ligne, les ateliers en personne et les événement
 
     :::column:::
 
-    ### Utilisateur professionnel
+    ### Utilisateurs métier
 
     Vous venez de recevoir une nouvelle application ? 
 

@@ -1,5 +1,5 @@
 ---
-title: Gestion des assemblages
+title: Gestion nomenclature d’assemblage
 description: Découvrez comment fournir des produits aux clients en combinant des composants dans des processus simples sans utiliser de fonctions de fabrication.
 author: brentholtorf
 ms.author: bholtorf
@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Gestion des assemblages
+# Gestion nomenclature d’assemblage
 
 Les entreprises peuvent fournir des produits aux clients en combinant des composants sans utiliser de fonctions de fabrication. Les fonctions d’assemblage d’articles s’intègrent aux fonctions associées telles que les ventes, la planification, les réservations et l’entreposage.  
 
@@ -38,21 +38,21 @@ Pour en savoir plus sur les prélèvements stock et les articles de l’assembla
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
-|**À**|**Voir**|  
+|**Pour**|**Voir**|  
 |------------|-------------|  
 |Découvrez plus d’informations sur l’assemblage d’articles pour les commandes vente et le stockage.|[Description des processus Assembler pour commande et Assembler pour stock](assembly-assemble-to-order-or-assemble-to-stock.md)|
-|Utilisez les fiches magasin et les paramètres stock pour définir le flux des articles vers et depuis l’assemblage.|[Configurer des entrepôts de base avec les zones d’opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
+|Utilisez les fiches magasin et les paramètres stock pour définir le flux des articles vers et depuis l’assemblage.|[Configuration des entrepôts de base avec les zones d’opérations](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
 |Établissez un devis pour un article d’assemblage personnalisé, puis convertissez le devis en vente lorsque le client l’accepte.|[Établissement d’un devis de vente Assembler pour commande](assembly-how-to-quote-an-assemble-to-order-sale.md)|
-|Combinez des composants pour créer un article pour une commande ou pour le stock.|[Assembler des articles](assembly-how-to-assemble-items.md)|  
+|Combinez des composants pour créer un article pour une commande ou pour le stock.|[Assemblage des articles](assembly-how-to-assemble-items.md)|  
 |Vendez les éléments d’assemblage qui ne sont pas disponibles actuellement en créant un ordre d’assemblage associé pour fournir la quantité totale ou partielle de la commande vente.|[Vente d’articles à assembler pour commande](assembly-how-to-sell-items-assembled-to-order.md)|
-|Si des articles à assembler pour commande sont déjà en stock, vous pouvez déduire cette quantité de l’ordre d’assemblage et la réserver dans le stock.|[Vente d’articles en stock dans des flux à assembler pour commande](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
+|Si des articles à assembler pour commande sont déjà en stock, vous pouvez déduire cette quantité de l’ordre d’assemblage et la réserver dans le stock.|[Vente d’articles en stock dans des flux d’assemblage pour commande](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Lorsque les éléments d’assemblage ne sont pas en stock, utilisez un ordre d’assemblage pour fournir tout ou partie de la quantité.|[Vente simultanée d’articles à assembler pour commande et d’articles en stock](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
-|Créez des éléments d’assemblage personnalisés pour les commandes cadres ouvertes avant de créer les commandes vente.|[Création d’ordres d’assemblage permanents](assembly-how-to-create-blanket-assembly-orders.md)|
-|Annulez un ordre d’assemblage validé, par exemple parce que la facture a été validée avec des erreurs.|[Annuler la validation d’assemblage](assembly-how-to-undo-assembly-posting.md)|
-|Apprenez à utiliser les nomenclatures d’assemblage et leurs différences avec les nomenclatures de production.|[Utilisation des nomenclatures d’assemblage](assembly-how-work-assembly-boms.md)|
+|Créez des éléments d’assemblage personnalisés pour les commandes cadres ouvertes avant de créer les commandes vente.|[Création de commandes cadres d’assemblage](assembly-how-to-create-blanket-assembly-orders.md)|
+|Annulez un ordre d’assemblage validé, par exemple parce que la facture a été validée avec des erreurs.|[Validation de l’annulation d’assemblage](assembly-how-to-undo-assembly-posting.md)|
+|Apprenez à utiliser les nomenclatures d’assemblage et leurs différences avec les nomenclatures de production.|[Utilisation des nomenclatures d’élément d’assemblage](assembly-how-work-assembly-boms.md)|
 |Découvrez plus d’informations sur la validation de la consommation de l’assemblage et de la production, et sur la manière dont [!INCLUDE [prod_short](includes/prod_short.md)] répartit les coûts des articles et des ressources dans la comptabilité.|[Détails de conception : validation d’ordre d’assemblage](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utilisation des nomenclatures](inventory-how-work-BOMs.md)  
 [Stock](inventory-manage-inventory.md)  

@@ -1,5 +1,5 @@
 ---
-title: Rapprocher les paiements à l’aide de l’application automatique
+title: Rapprocher les paiements à l'aide de l'application automatique
 description: Décrit comment rapprocher les paiements avec la fonction de lettrage automatique pour lettrer les paiements ou les règlements dans leurs écritures ouvertes connexes.
 author: brentholtorf
 ms.topic: conceptual
@@ -10,14 +10,14 @@ ms.date: 06/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Rapprocher les paiements à l’aide de l’application automatique
+# Rapprocher les paiements à l'aide de l'application automatique
 
 La page **Journal de rapprochement bancaire** précise les paiements, entrants ou sortants, qui ont été enregistrés comme des transactions sur votre compte bancaire en ligne ou sur un service de paiement. Vous pouvez appliquer les paiements aux écritures comptables client, fournisseur et compte bancaire ouvertes associées. Complétez le journal en important un relevé bancaire en tant que flux ou fichier bancaire ou en saisissant manuellement les transactions que vous effectuez sur votre service de paiement.
 
 > [!NOTE]
-> La page offre une fonctionnalité de correspondance automatique qui lettre les paiements à leurs écritures ouvertes associées sur la base d’une correspondance entre les données d’une ligne de relevé bancaire (ligne feuille) et les données d’une ou de plusieurs écritures ouvertes. Notez que vous pouvez remplacer les applications automatiques suggérées, et vous pouvez choisir de ne pas utiliser du tout l’application automatique. Pour plus d’informations, voir l’étape 7.
+> La page offre une fonctionnalité de correspondance automatique qui lettre les paiements à leurs écritures ouvertes associées sur la base d’une correspondance entre les données d’une ligne de relevé bancaire (ligne feuille) et les données d’une ou de plusieurs écritures ouvertes. Notez que vous pouvez remplacer les applications automatiques suggérées, et vous pouvez choisir de ne pas utiliser du tout l'application automatique. Pour plus d'informations, voir l'étape 7.
 
-Un journal de rapprochement bancaire est lié à un compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)]. Le compte bancaire représente le compte bancaire en ligne où sont enregistrées les opérations de paiement. Toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées lorsque vous sélectionnez l’action **Valider les paiements et rapprocher les comptes bancaires**. Le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal.
+Un journal de rapprochement bancaire est lié à un compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)]. Le compte bancaire représente le compte bancaire en ligne où sont enregistrées les opérations de paiement. Toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées lorsque vous sélectionnez l'action **Valider les paiements et rapprocher les comptes bancaires**. Le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal.
 
 Si vous utilisez le **Journal de rapprochement bancaire** pour enregistrer et appliquer les paiements des clients, vous pouvez configurer le journal pour utiliser une souche de numéros spécifique. Ensuite, vous pouvez spécifier la souche de numéros dans le champ **Souches de n° de rapprochement bancaire** sur un compte bancaire. L’utilisation d’une souche de numéros dédiée peut faciliter l’identification des entrées qui ont été publiées via le journal.
 
@@ -25,7 +25,7 @@ Comme pour les autres journaux, lorsque vous corrigez des écritures reportées,
 
 Lorsque vous utilisez l’application automatique, [!INCLUDE[prod_short](includes/prod_short.md)] reconnaît les écritures comptables bancaires déjà enregistrées, ce qui permet d’éviter les doubles écritures.
 
-Vous pouvez importer des transactions bancaires sous forme de fichiers bancaires .csv ou d’un autre format fourni par votre banque. Si vous souhaitez importer des relevés bancaires en tant que flux bancaires, vous devez d’abord activer le service d’intégration bancaire dédié, puis associer le compte bancaire au compte bancaire en ligne associé. La feuille rapprochement bancaire détectera alors automatiquement les flux bancaire si vous sélectionnez l’action **Importer les transactions bancaires**. En outre, vous pouvez définir un compte bancaire de sorte à importer automatiquement de nouveaux flux de relevés bancaires toutes les heures. Les transactions pour les paiements qui ont déjà été validés comme lettrés et/ou rapprochés ne sont pas importées. Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds pour obtenir ces transactions ; il est préinstallé dans certaines versions localisées de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md). Vous pouvez également contacter votre partenaire Microsoft pour obtenir de l’aide pour répondre aux exigences de votre entreprise ou de votre pays.
+Vous pouvez importer des transactions bancaires sous forme de fichiers bancaires .csv ou d’un autre format fourni par votre banque. Si vous souhaitez importer des relevés bancaires en tant que flux bancaires, vous devez d’abord activer le service d’intégration bancaire dédié, puis associer le compte bancaire au compte bancaire en ligne associé. La feuille rapprochement bancaire détectera alors automatiquement les flux bancaire si vous sélectionnez l'action **Importer les transactions bancaires**. En outre, vous pouvez définir un compte bancaire de sorte à importer automatiquement de nouveaux flux de relevés bancaires toutes les heures. Les transactions pour les paiements qui ont déjà été validés comme lettrés et/ou rapprochés ne sont pas importées. Vous pouvez utiliser le service Envestnet Yodlee Bank Feeds pour obtenir ces transactions ; il est préinstallé dans certaines versions localisées de [!INCLUDE[d365fin](includes/d365fin_md.md)]. Pour plus d’informations, voir [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md). Vous pouvez également contacter votre partenaire Microsoft pour obtenir de l’aide pour répondre aux exigences de votre entreprise ou de votre pays.
 
 L’action **Mapper le texte avec le compte** vous permet de configurer des mappages entre le texte des paiements et des comptes de débit, de crédit et de contrepartie spécifiques afin que ces paiements soient validés dans les comptes spécifiés lorsque vous validez la feuille rapprochement bancaire. Cela s’avère utile, par exemple, pour les recettes ou dépenses récurrentes en liquide, notamment les achats fréquents de carburant pour les voitures ou les frais et intérêts bancaires, qui apparaissent régulièrement sur le relevé bancaire et n’ont pas besoin d’un document d’entreprise lié. (Voir l’étape 10 ci-dessous) Pour plus d’informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
@@ -42,12 +42,12 @@ Pour chaque ligne feuille de la page **Feuille rapprochement bancaire**, vous po
 > [!NOTE]  
 > Vous pouvez lancer l’importation des transactions bancaires en même temps que vous ouvrez la page **Feuille rapprochement bancaire** pour une feuille existante. La procédure suivante décrit comment importer des transactions bancaires sur la page **Feuille rapprochement bancaire** après avoir créé une nouvelle feuille.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>Pour rapprocher les paiements à l’aide du lettrage automatique
+## Pour rapprocher les paiements à l'aide du lettrage automatique
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
-2. Pour travailler dans une nouvelle feuille rapprochement bancaire, sélectionnez l’action **Nouvelle feuille**.
+2. Pour travailler dans une nouvelle feuille rapprochement bancaire, sélectionnez l'action **Nouvelle feuille**.
 3. Sur la page **Liste comptes bancaires paiement**, sélectionnez le compte bancaire pour lequel vous voulez rapprocher des paiements, puis cliquez sur le bouton **OK**.
-   La page **Feuille rapprochement bancaire** s’ouvre préparée pour le compte bancaire sélectionné.
-4. Choisissez l’action **Importer les transactions bancaires**.
+   La page **Feuille rapprochement bancaire** s'ouvre préparée pour le compte bancaire sélectionné.
+4. Choisissez l'action **Importer les transactions bancaires**.
    Si le compte bancaire du journal sélectionné n’est pas configuré pour importer des opérations bancaires, [!INCLUDE[d365fin](includes/d365fin_md.md)] vous aide à y parvenir.
 5. Sur la page **Sélectionner un fichier à importer**, sélectionnez le fichier contenant les transactions bancaires pour les paiements que vous souhaitez rapprocher, puis cliquez sur le bouton **Ouvrir**.  
 6. Si le service Envestnet Yodlee Bank Feeds est activé, sur la page **Filtre de relevé bancaire** qui s’ouvre automatiquement, spécifiez l’intervalle de temps pour l’importation des relevés bancaires.
@@ -64,9 +64,9 @@ Pour chaque ligne feuille de la page **Feuille rapprochement bancaire**, vous po
 
 8. Pour examiner, accepter ou supprimer, ou modifier manuellement plusieurs applications de paiement que la règle a définies pour être examinées, choisissez l’action **Lignes à réviser**. 
 
-9. Pour modifier un lettrage automatique, sélectionnez une feuille journal, puis sélectionnez l’action **Lettrer manuellement** pour relettrer ou lettrer le paiement manuellement sur la page **Lettrage paiement**. Pour plus d’informations, voir [Réviser ou lettrer les paiements après application automatique](receivables-how-review-apply-payments-auto-application.md).
+9. Pour modifier un lettrage automatique, sélectionnez une feuille journal, puis sélectionnez l’action **Lettrer manuellement** pour relettrer ou lettrer le paiement manuellement sur la page **Lettrage paiement**. Pour plus d'informations, voir [Réviser ou lettrer les paiements après application automatique](receivables-how-review-apply-payments-auto-application.md).
 
-10. Sélectionnez une ligne feuille non lettrée pour une réception ou une dépense récurrente en liquide, par exemple l’achat de carburant pour une voiture, puis sélectionnez **Mapper le texte avec le compte**. Pour plus d’informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+10. Sélectionnez une ligne feuille non lettrée pour une réception ou une dépense récurrente en liquide, par exemple l'achat de carburant pour une voiture, puis sélectionnez **Mapper le texte avec le compte**. Pour plus d'informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
     Une fois terminé le mappage du texte de paiement avec les comptes, sélectionnez l’action **Lettrer manuellement**.
 
@@ -78,16 +78,16 @@ Pour chaque ligne feuille de la page **Feuille rapprochement bancaire**, vous po
 
     - **Valider les paiements et rapprocher les comptes bancaires** - Pour valider les paiements comme lettrés et clôturer également les écritures comptables compte bancaire associées comme rapprochées.
     - **Valider les paiements uniquement** - Pour valider uniquement les paiements comme lettrés, mais laisser les écritures comptables compte bancaire ouvertes. Exige que vous rapprochiez le compte bancaire séparément, par exemple. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
-    - **Impression test** - Pour examiner le résultat de la validation avant de valider. L’état **Relevé bancaire** s’ouvre et affiche les mêmes champs qu’en bas de la page **Feuille rapprochement bancaire**.
+    - **Impression test** - Pour examiner le résultat de la validation avant de valider. L'état **Relevé bancaire** s'ouvre et affiche les mêmes champs qu'en bas de la page **Feuille rapprochement bancaire**.
 
-Lorsque vous validez le journal de rapprochement bancaire, les écritures ouvertes appliquées sont fermées. Les comptes client, fournisseur ou général sont mis à jour. Pour les paiements sur les lignes feuille basées sur le mappage de texte à compte, les comptes généraux, client et fournisseur spécifiés sont mis à jour. Pour toutes les lignes feuille, des écritures comptables compte bancaire sont créées. Si vous sélectionnez l’action **Valider les paiements et rapprocher les comptes bancaires**, toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées. Cela signifie que le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal.
+Lorsque vous validez le journal de rapprochement bancaire, les écritures ouvertes appliquées sont fermées. Les comptes client, fournisseur ou général sont mis à jour. Pour les paiements sur les lignes feuille basées sur le mappage de texte à compte, les comptes généraux, client et fournisseur spécifiés sont mis à jour. Pour toutes les lignes feuille, des écritures comptables compte bancaire sont créées. Si vous sélectionnez l'action **Valider les paiements et rapprocher les comptes bancaires**, toutes les écritures comptables compte bancaire ouvertes associées au client lettré ou à des écritures comptables fournisseur sont clôturées. Cela signifie que le compte bancaire est automatiquement rapproché pour les paiements que vous validez avec le journal.
 
-Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après validation** avec la valeur du champ **Solde final du relevé** pour avoir un suivi lorsque le compte bancaire a fait l’objet d’un rapprochement en fonction des paiements que vous validez.
+Vous pouvez comparer la valeur du champ **Solde sur compte bancaire après validation** avec la valeur du champ **Solde final du relevé** pour avoir un suivi lorsque le compte bancaire a fait l'objet d'un rapprochement en fonction des paiements que vous validez.
 
 > [!NOTE]  
 >   Si vous ne souhaitez pas rapprocher le compte bancaire à partir de la page **Feuille rapprochement bancaire**, vous devez utiliser la page **Rapprochement bancaire**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  

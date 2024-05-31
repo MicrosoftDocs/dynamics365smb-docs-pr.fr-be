@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
+# Procédure pas à pas : Combiner la consommation automatique et la consommation manuelle
 
 Dans cet article, nous vous expliquons comment utiliser les données de démonstration Contoso Coffee dans la consommation.  
 
-## <a name="scenario"></a>Scénario
+## Scénario
 
 Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un nouvel ordre de fabrication pour 10 unités de l’article SP-SCM1004, AutoDrip. Certains composants et certaines opérations seront consommés en aval et d’autres consommés en amont en fonction de différentes conditions.
 
-## <a name="steps"></a>Étapes
+## Étapes
 
 > [Remarque !] N’oubliez pas d’ajuster le stock en validant la feuille article avec les soldes d’ouverture.
 
@@ -34,7 +34,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
 3. Vérifiez les écritures comptables article et capacité pour l’ordre de fabrication.
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **O.F. lancé**, puis sélectionnez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **O.F. lancé**, puis sélectionnez le lien associé.  
 
     2. Ouvrez l’ordre de fabrication avec les 5 unités de la machine à café AutoDrip.  
 
@@ -46,7 +46,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
     Vous pouvez consommer manuellement les composants à l’aide de la feuille consommation ou de la feuille production. La consommation manuelle vous permet d’ajuster la quantité avant de valider. Par exemple, si une quantité supplémentaire est nécessaire pour couvrir des matières premières de faible qualité.
 4. Consommer les composants manuellement.  
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille consommation**, puis choisissez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille consommation**, puis choisissez le lien associé.  
 
     2. Choisissez l’action **Calculer consommation**.  
 
@@ -58,7 +58,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
     Vous devez renseigner manuellement les champs **Temps de préparation** et **Temps d’exécution**. Vous pouvez également spécifier la quantité réellement produite et le rebut. Entrer *3* comme quantité de production et validez la production.
 
-    1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuille production**, puis choisissez le lien associé.  
+    1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuille production**, puis choisissez le lien associé.  
 
     2. Sur la page **Feuille production**, créez une ligne feuille.  
 
@@ -103,7 +103,7 @@ Vous êtes planificateur de production chez Contoso Coffee. Vous devez créer un
 
 C’est tout pour la consommation manuelle et automatique des composants.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Consommer des composants en fonction de la production réalisée](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduction aux données de démonstration Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

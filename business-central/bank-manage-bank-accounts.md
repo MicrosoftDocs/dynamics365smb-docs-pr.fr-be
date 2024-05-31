@@ -10,7 +10,7 @@ ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Gérer et rapprocher vos comptes bancaires
+# Gérer et rapprocher vos comptes bancaires
 
 Un rapprochement bancaire doit être effectué à intervalles réguliers pour tous vos comptes bancaires afin de garantir l’exactitude des registres de trésorerie de la société. Pour ce faire, vous comparez et faites correspondre les écritures de vos comptes bancaires internes avec les transactions bancaires de votre banque, puis vous validez les soldes sur vos comptes bancaires internes pour mettre les totaux à la disposition des responsables financiers. Le rapprochement bancaire est également un moyen pratique de découvrir et de résoudre les paiements manquants et les erreurs de comptabilité.
 
@@ -19,7 +19,7 @@ Vous pouvez effectuer la tâche sur la page **Rapprochement bancaire**, où vous
 > [!NOTE]  
 > Dans les versions nord-américaines, vous pouvez également effectuer le rapprochement bancaire sur la page **Feuille rapprochement bancaire**, qui est mieux adaptée pour les chèques et les acomptes, mais ne prend pas en charge l’importation de fichiers de relevé bancaire. Pour utiliser cette page à la place de la page **Rapprochement bancaire**, désélectionnez le champ **Rapprochement bancaire avec correspondance auto.** sur la page **Paramètres comptabilité**. Pour plus d’informations, voir [Rapprocher des comptes bancaires](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) sous Fonctionnalité locale, États-Unis.
 
-Avant de pouvoir gérer vos comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez configurer chaque compte bancaire en tant que fiche compte bancaire. En outre, vous devez configurer les services électroniques que vous pouvez utiliser pour l’importation de relevés bancaires et l’exportation de fichiers de paiement. Pour plus d’informations, reportez-vous à [Paramétrage des opérations bancaires](bank-setup-banking.md).
+Avant de pouvoir gérer vos comptes bancaires dans [!INCLUDE[prod_short](includes/prod_short.md)], vous devez configurer chaque compte bancaire en tant que fiche compte bancaire. En outre, vous devez configurer les services électroniques que vous pouvez utiliser pour l'importation de relevés bancaires et l'exportation de fichiers de paiement. Pour plus d’informations, reportez-vous à [Paramétrage des opérations bancaires](bank-setup-banking.md).
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
@@ -31,7 +31,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ru
 > [!TIP]
 > Utilisez le rapprochement bancaire pour vérifier que vos livres sont à jour et ne publiez pas le rapprochement tant que vous n’êtes pas satisfait du rapprochement.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md)  
