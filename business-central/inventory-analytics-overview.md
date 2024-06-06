@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse du stock
+# <a name="inventory-analytics"></a>Analyse du stock
 
 Les entreprises capturent des lots de données au cours de leurs activités quotidiennes, ce qui soutient une précieuse BI pour les gestionnaires stock :
 
@@ -31,7 +31,7 @@ Chacune de ces fonctionnalités présente ses avantages et inconvénients, selon
 
 Cet article vous présente comment d’utiliser ces fonctionnalités analytiques pour obtenir des informations stock.
 
-## Besoins analytiques en stock
+## <a name="analytics-needs-in-inventory"></a>Besoins analytiques en stock
 
 Lorsque l’on réfléchit aux besoins d’analyse en gestion des stock, il peut être utile d’utiliser un modèle basé sur une personne décrites à un niveau élevé des différents besoins en matière d’analyse.
 
@@ -48,14 +48,14 @@ Les personnes occupant différents rôles ont des besoins différents en matièr
 |Magasinier   | Informations détaillées     | Rapports opérationnels intégrés, données de tâches à l’écran |
 
 <!-- 
-## Inventory KPIs
+## <a name="inventory-kpis"></a>Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés (associés à stock)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés (associés à stock)
 
 La fonctionnalité **Financial Reporting** vous donne un aperçu des données financières enregistrées dans votre plan comptable (COA). Configurez les états financiers pour analysent les chiffres de la comptabilité et comparent les écritures comptables et les écritures comptables budget. Spécifiquement pour la gestion des stock, vous pouvez configurer des rapports financiers sur les comptes du comptabilité (G/L) que vous utilisez pour suivre les validations de stock.
 
@@ -63,13 +63,13 @@ Les axes jouent un rôle important dans la veille économique. Un axe correspond
 
 Pour en savoir plus sur les états financiers, accédez à [Préparer des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md).
 
-## États financiers entre les divisions ou les entités juridiques (associé à stock)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>États financiers entre les divisions ou les entités juridiques (associé à stock)
 
 Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui rendre compte aux organisations mères. [!INCLUDE [prod_short](includes/prod_short.md)] fournit aux comptables des outils qui les aident à transférer les écritures comptables de deux ou plusieurs sociétés (filiales) dans une société consolidée. Spécifiquement pour la gestion des stock, vous souhaiterez peut-être consolider les écritures comptabilité pour vos comptes stock pour suivre les KPI de vente dans les unités commerciales ou les entités juridiques.
 
 Pour en savoir plus, reportez-vous à [Consolidation de la société](finance-consolidated-company-reporting.md).
 
-## Analyse ad hoc des données stock
+## <a name="ad-hoc-analysis-of-inventory-data"></a>Analyse ad hoc des données stock
 
 Parfois, il suffit de vérifier si les chiffres s’additionnent correctement ou de confirmer rapidement un chiffre. Les fonctionnalités suivantes sont idéales pour les analyses ad hoc :
 
@@ -89,7 +89,7 @@ De la même manière, vous pouvez utiliser le **Ouvrir dans Excel** action pour 
 
 Pour en savoir plus sur la manière d’effectuer une analyse ad hoc des données de stock, accédez à [Analyse ad hoc des données de stock](ad-hoc-analysis-inventory.md).
 
-## États intégrés pour stock
+## <a name="built-in-reports-for-inventory"></a>États intégrés pour stock
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports intégrés, fonctions de traçage et outils pour aider les organisations stock à créer des rapports sur leurs données.
 
@@ -104,7 +104,7 @@ Pour obtenir un aperçu des rapports disponibles, choisir sur **Tous les rapport
 
 Pour en savoir plus sur les rapports pertinents pour les stock, accédez aux [Rapports stock et Entrepôt intégrés](inventory-WMS-reports.md).
 
-## Analyse des stock à l’écran
+## <a name="on-screen-inventory-analytics"></a>Analyse des stock à l’écran
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comporte plusieurs pages qui vous donnent des aperçus des stocks et des tâches à accomplir. Voici des exemple pour commencer :
 
@@ -120,7 +120,7 @@ Le module de vente comprend également des pages d’analyse liées à l’inven
 - [Calculer la dates de livraison des Commandes ventes](sales-date-calculation-for-sales.md)
 - [Suivi des paquets](sales-how-track-packages.md)
 
-### Afficher les écritures comptables et les soldes liés aux stock à partir de la page Plan comptable
+### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Afficher les écritures comptables et les soldes liés aux stock à partir de la page Plan comptable
 
 La page **Plan comptable** affiche tous les comptes du grand livre avec des chiffres agrégés comptabilisé dans le grand livre. À partir de cette page, vous pouvez faire des choses comme :  
 
@@ -134,7 +134,7 @@ Spécifiquement pour les gestion stock, vous pouvez créer une vue sur la page P
 
 Pour en savoir plus, allez à [Familiarisation avec le plan comptable](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analyse des données stock par axe analytique
+### <a name="analyze-inventory-data-by-dimensions"></a>Analyse des données stock par axe analytique
 
 Les axes analytiques sont des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser sur les documents, tels que les commandes vente. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
 
@@ -142,7 +142,7 @@ Au lieu de configurer des comptes généraux distincts pour chaque service ou Em
 
 Pour plus d’informations, consultez [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Consolidation de la société](finance-consolidated-company-reporting.md)   
 [Préparer des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)  
