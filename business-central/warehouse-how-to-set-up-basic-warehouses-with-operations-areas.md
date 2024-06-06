@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a>Configurer des entrepôts de base avec les zones d'opérations
+# Configurer des entrepôts de base avec les zones d'opérations
 
 Si les zones Opérations internes telles que la production ou l'assemblage existent dans les configurations entrepôt de base dans lesquelles les magasins utilisent le champ de configuration **Emplacement obligatoire** et éventuellement les champs **Prélèvement requis** et **Rangement requis**, vous pouvez utiliser les documents d'entrepôt de base suivants pour enregistrer vos activités entrepôt pour des zones Opérations internes :  
 
@@ -34,14 +34,14 @@ Les procédures suivantes sont basées sur la configuration d'activités entrep�
 > [!NOTE]  
 >  Dans la procédure suivante, le champ de configuration **Emplacement obligatoire** dans les fiches magasin est sélectionné en tant que condition préalable car il est considéré comme point de départ de tout niveau de gestion d'entrepôt.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Pour activer les documents de stock pour les activités d'opérations internes
+## Pour activer les documents de stock pour les activités d'opérations internes
 
 1.  Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez la fiche magasin que vous voulez configurer.  
 3.  Sur le raccourci **Entrepôt**, cochez la case **Rangement requis** pour indiquer que lorsqu'un document origine entrant ou interne avec un code emplacement est lancé, il est possible de créer un document rangement stock ou mouvement de stock.  
 4.  Cochez la case **Prélèvement requis** pour indiquer que lorsqu'un document origine sortant ou interne avec un code emplacement est créé, il est obligatoire de créer un document prélèvement stock ou mouvement de stock.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Pour définir une structure d'emplacement par défaut dans la zone de fabrication
+## Pour définir une structure d'emplacement par défaut dans la zone de fabrication
 
 1.  Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Emplacements**, puis choisissez le lien associé.
 2. Ouvrez l'emplacement que vous voulez configurer.  
@@ -59,7 +59,7 @@ Ce graphique indique comment le champ **Code emplacement** sur les lignes compos
 
 ![Organigramme Flux d’emplacement.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Pour définir une structure d'emplacement par défaut dans la zone d'assemblage
+## Pour définir une structure d'emplacement par défaut dans la zone d'assemblage
 
 Les composants pour les commandes d'assemblage ne peuvent pas être prélevés ni validés avec des prélèvements stock. À la place, utilisez la page **Mouvement de stock**. Pour plus d’informations, consultez [Prélever ou déplacer pour la fabrication, l’assemblage ou les projets dans les configurations de stockage de base](warehouse-how-to-pick-for-production.md).
 
@@ -67,12 +67,12 @@ En cas de prélèvement et d'expédition de quantités de lignes vente assemblé
 
 Pour plus d'informations, voir [Gestion des assemblages](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Pour configurer la création automatique d'un mouvement stock lors de la création du prélèvement stock pour l'élément d'assemblage
+### Pour configurer la création automatique d'un mouvement stock lors de la création du prélèvement stock pour l'élément d'assemblage
 
 1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Configuration d’assemblage**, puis choisissez le lien associé.
 2. Cochez la case **Créer des mouvements automatiquement**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Pour configurer l'emplacement dans la zone d'assemblage où les composants sont stockés par défaut avant de pouvoir être consommés dans l'assemblage
+### Pour configurer l'emplacement dans la zone d'assemblage où les composants sont stockés par défaut avant de pouvoir être consommés dans l'assemblage
 
 La valeur de ce champ est automatiquement insérée dans le champ **Code emplacement** des lignes d'ordre d'assemblage lorsque ce magasin est saisi dans le champ **Code magasin** de la ligne d'ordre d'assemblage.
 
@@ -80,7 +80,7 @@ La valeur de ce champ est automatiquement insérée dans le champ **Code emplace
 2. Ouvrez l'emplacement que vous voulez configurer.
 3. Renseignez le champ **Code empl. vers assemblage**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Pour configurer l'emplacement de zone d'assemblage au niveau duquel les éléments d'assemblage terminés sont validés lorsqu'ils sont associés au stock
+### Pour configurer l'emplacement de zone d'assemblage au niveau duquel les éléments d'assemblage terminés sont validés lorsqu'ils sont associés au stock
 
 La valeur de ce champ est automatiquement insérée dans le champ **Code emplacement** des en-têtes d'ordre d'assemblage lorsque ce code de magasin est saisi dans le champ **Code magasin** de l'en-tête d'ordre d'assemblage.
 
@@ -93,7 +93,7 @@ Les codes emplacement qui sont paramétrés dans les fiches magasin définissent
 2. Ouvrez l'emplacement que vous voulez configurer.
 3. Renseignez le champ **Code empl. depuis assemblage**.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Pour configurer l'emplacement au niveau duquel les éléments d'assemblage terminés sont validés lorsqu'ils sont associés à une commande vente
+### Pour configurer l'emplacement au niveau duquel les éléments d'assemblage terminés sont validés lorsqu'ils sont associés à une commande vente
 
 Les articles d'assemblage sont expédiés immédiatement à partir de cet emplacement, via un prélèvement stock, afin d'honorer la commande vente.
 
@@ -115,7 +115,7 @@ Le même code emplacement est également copié vers le champ **Code emplacement
 2. Ouvrez l'emplacement que vous voulez configurer.
 3. Renseignez le champ **Code empl. exp. ass. pr comm.**.
 
-## <a name="to-create-dedicated-component-bins"></a>Pour créer des emplacements composants dédiés
+## Pour créer des emplacements composants dédiés
 
 Vous pouvez spécifier que les quantités d'un emplacement soient protégées des prélèvements d'autres demandes que la demande de leurs objectifs actuels.
 
@@ -135,7 +135,7 @@ La réservation d'un emplacement fournit la même fonctionnalité permettant d'u
 > [!NOTE]  
 >  L'emplacement doit être vide avant que vous puissiez sélectionner ou désactiver le champ **Dédié**.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  
