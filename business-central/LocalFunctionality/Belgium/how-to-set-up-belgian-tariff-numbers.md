@@ -9,11 +9,11 @@ ms.date: 06/17/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-belgian-tariff-numbers-in-the-belgian-version"></a>Paramétrer les nomenclatures produits belges dans la version belge
+# Paramétrer les nomenclatures produits belges dans la version belge
 
 Les autorités douanières et fiscales belges ont établi un code article à 8 chiffres pour diverses nomenclatures produits.  
 
-## <a name="to-set-up-tariff-numbers"></a>Pour paramétrer les nomenclatures produits
+## Pour paramétrer les nomenclatures produits
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Nomenclatures produits**, puis choisissez le lien associé.  
 2. Sélectionnez l'action **Nouveau**.  
@@ -27,7 +27,7 @@ Les autorités douanières et fiscales belges ont établi un code article à 8 
 
 4. Choisissez le bouton **OK**.  
   
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
  [États intracommunautaires belges](belgian-intrastat-reporting.md)   
  [Paramétrer des types de déclarations](how-to-set-up-declaration-types.md)   

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analyze-data-by-dimensions"></a>Analyse des données par axe analytique
+# Analyse des données par axe analytique
 
 En analyse financière, un axe correspond à des données que vous ajoutez à une écriture comme une sorte de marqueur pour grouper les écritures similaires. Par exemple, les dimensions regroupent souvent les entrées pour les clients, les régions, les produits et les vendeurs. Les groupes vous permettent de récupérer facilement des données les concernant pour les analyser. Vous pouvez utiliser les axes sur des écritures de feuilles, de documents et de budgets.
 
@@ -24,7 +24,7 @@ Chaque axe décrit l’objet de l’analyse. Une analyse à deux axes, par exemp
 > [!NOTE]
 > Si vous découvrez qu’une section analytique incorrecte a été utilisée sur les écritures comptables comptabilisées, vous pouvez la corriger et mettre à jour vos vues d’analyse. Pour en savoir plus, consultez [Dépannage et correction des axes analytiques](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Configurer une vue d’analyse
+## Configurer une vue d’analyse
 
 Les vues analytiques utilisent une combinaison sélectionnée d’axes analytiques. Vous stockez, récupérez et mettez à jour cet ensemble d’axes analytiques en créant une fiche **Vue d’analyse**.
 
@@ -34,7 +34,7 @@ Les vues analytiques utilisent une combinaison sélectionnée d’axes analytiqu
 4. Pour ajouter des codes axe aux quatre codes du raccourci **Axes analytiques**, cliquez sur l’action **Filtre**, renseignez les champs et cliquez sur **OK**.  
 5. Pour mettre à jour la vue, choisissez l'action **Mettre à jour**.
 
-## <a name="analyze-by-dimensions"></a>Analyse par axe analytique
+## Analyse par axe analytique
 
 Utilisez les vues d’analyse que vous avez déjà configurées avec la matrice **Vues analytiques** pour afficher les montants de votre comptabilité.
 
@@ -56,7 +56,7 @@ Utilisez les vues d’analyse que vous avez déjà configurées avec la matrice 
 > [!TIP]  
 > Vous pouvez également modifier la vue en changeant la valeur des champs **Afficher lignes** et **Afficher colonnes**. Pour contrepasser un paramètre de vue, choisissez l'action **Inverser lignes et colonnes**.
 
-## <a name="update-an-analysis-view"></a>Mettre à jour une vue d’analyse
+## Mettre à jour une vue d’analyse
 
 Les montants sur la page **Vues analytiques** offrent une image de l’état de la société au moment de la dernière mise à jour. Pour obtenir l’état actuel, exécutez l’action de mise à jour pour mettre à jour la vue d’analyse.
 
@@ -74,7 +74,7 @@ Suivez la procédure suivante pour mettre à jour une vue d’analyse à partir 
 > [!NOTE]  
 > Pour mettre à jour tout ou partie des vues d’analyse en même temps, utiliser le traitement par lots **Mise à jour vues d’analyse**.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Business Intelligence financière](bi.md)  
 [Finances](finance.md)  
