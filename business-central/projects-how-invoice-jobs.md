@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# Facturation des projets
+# <a name="invoice-projects"></a>Facturation des projets
 
 Au cours du projet, les coûts de projet provenant de l’utilisation de ressources, de matières, et d’achats associés au projet peuvent s’accumuler. Au fur et à mesure de la progression du projet, ces transactions sont validées dans la feuille projet. Il est important que tous les coûts enregistrés dans la feuille projet avant de facturer le client.
 
@@ -24,7 +24,7 @@ Vous pouvez facturer l’ensemble du projet à partir de la page **Lignes tâche
 
 Vous pouvez également facturer une entreprise qui n’est pas le client final. Parfois, la partie à laquelle un projet est destiné est différente de celle qui paie la facture. Sur la page **Projets**, vous pouvez spécifier le client qui bénéficiera du projet dans les champs **Donneur d’ordre** et la partie à facturer dans champs **Facturation**.
 
-## Pour créer plusieurs factures vente projet
+## <a name="to-create-multiple-project-sales-invoices"></a>Pour créer plusieurs factures vente projet
 
 Vous pouvez créez une facture pour un projet ou pour une ou plusieurs tâches projet pour un client lorsque le travail à facturer est terminé ou lorsque la date de facturation dépendante d’un programme de facturation est atteinte.
 
@@ -40,7 +40,7 @@ Vous pouvez examiner et valider les factures créées dans la fenêtre **Facture
 > [!NOTE]
 > Sinon, facturez un client en sélectionnant le projet, puis en choisissant l’action **Créer une facture vente projet**. 
 
-## Pour créer et valider une facture vente projet à partir de lignes planning projet
+## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Pour créer et valider une facture vente projet à partir de lignes planning projet
 
 Vous pouvez créer une facture à partir des lignes planning projet et indiquer à ce moment-là la quantité de l’article, la ressource ou le compte général sur lequel vous souhaitez facturer.
 
@@ -59,7 +59,7 @@ Vous pouvez créer une facture à partir des lignes planning projet et indiquer 
 > [!NOTE]  
 > La procédure ci-dessus permet également de créer, de consulter, puis de valider un avoir vente associé à un projet.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des projets](projects-manage-projects.md)  
 [Finances](finance.md)  

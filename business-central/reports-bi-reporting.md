@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Vue d'ensemble Analyses, business intelligence et reporting
+# <a name="analytics-business-intelligence-and-reporting-overview"></a>Vue d'ensemble Analyses, business intelligence et reporting
 
 Les petites et moyennes entreprises répondent sur des analyses et des rapports intégrés qu’elles peuvent utiliser prêts à l’emploi pour aider à suivre leur activité. [!INCLUDE[prod_short](includes/prod_short.md)] fournit des rapports et des outils d’analyse qui couvrent les processus commerciaux de base et complexes pour ces organisations. Vous pouvez également effectuer des analyses ad hoc directement depuis votre page d’accueil.  
 
-## Besoins analytiques en organisations
+## <a name="analytics-needs-in-organizations"></a>Besoins analytiques en organisations
 
 Lorsque l’on réfléchit aux besoins d’analyse en organisations, il peut être utile d’utiliser un modèle mental basé sur des personnalités décrites à un niveau élevé et leurs différents besoins en matière d’analyse.
 
@@ -34,7 +34,7 @@ Utilisez les sections suivantes pour en savoir plus sur les façons de consommer
 - Analyse ad hoc
 - États
 
-## Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés
+## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés
 
 La fonctionnalité états financiers vous donnent un aperçu des données financières enregistrées dans votre plan comptable (COA). Configurez les états financiers pour analysent les chiffres de la comptabilité et comparent les écritures comptables et les écritures comptables budget.
 
@@ -44,7 +44,7 @@ Les axes jouent un rôle important dans la veille économique. Un axe correspond
 
 Pour en savoir plus sur les états financiers et les KPI, consultez [Utiliser les états financiers pour produire des états financiers et des KPI](bi.md).
 
-## Utilisation d’indicateurs de performance clés pour répondre aux objectifs de votre entreprise
+## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Utilisation d’indicateurs de performance clés pour répondre aux objectifs de votre entreprise
 
 Un indicateur de performance clé (KPI) est une valeur mesurable qui montre l’efficacité avec laquelle vous atteignez vos objectifs. Considérez les KPI comme le tableau de bord de votre entreprise, un moyen de mesurer si vous atteignez vos objectifs.
 
@@ -59,7 +59,7 @@ L’identification et le suivi des KPI vous permettent de savoir si votre entrep
 
 Pour en savoir plus sur les KIP, alle zà [Utilisation d’indicateurs de performance clés pour répondre aux objectifs de votre entreprise](./analytics-about-kpis.md)
 
-## Analyse de données ad hoc
+## <a name="ad-hoc-data-analysis"></a>Analyse de données ad hoc
 
 Vous souhaiterez peut-être simplement vérifier si les chiffres s’additionnent correctement, confirmer ou infirmer rapidement une hypothèse sur l’entreprise, ou peut-être rechercher des anomalies dans vos données financières. Pour les analyses ad hoc, il se peut que vous ne disposiez pas d’un rapport intégré permettant de répondre à vos questions. Pour les analyses ad hoc, utilisez ces deux fonctionnalités :
 
@@ -79,7 +79,7 @@ De la même manière, vous pouvez utiliser le **Ouvrir dans Excel** action pour 
 
 Pour en savoir plus sur les analyses ad hoc, accédez à [Analyse de données ad hoc](reports-adhoc-analysis.md).
 
-## États
+## <a name="reports"></a>États
 
 Un rapport dans [!INCLUDE[prod_short](includes/prod_short.md)] rassemble des informations en fonction d’un ensemble spécifié de critères. Les états organise et présente les informations dans un format facile à lire que vous pouvez utiliser dans Excel, imprimer ou enregistrer sous forme de fichier.  
 
@@ -105,7 +105,7 @@ Le tableau suivant répertorie les articles sur l’utilisation des rapports int
 | En savoir plus sur les rapports intégrés disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)]. |[Vue d’ensemble du rapport](reports-available-reports.md)| 
 | Utilisez l’Explorateur de rapports pour voir tous les rapports intégrés. | [Explorer les rapports par rôle](ui-role-explorer.md) |
 
-## Business Intelligence externe et outils de reporting
+## <a name="external-business-intelligence-and-reporting-tools"></a>Business Intelligence externe et outils de reporting
 
 Si vous préférez, vous pouvez utiliser des outils de BI qui ne sont pas intégrés [!INCLUDE[prod_short](includes/prod_short.md)]. Le tableau suivant fournit des liens vers des conseils et des façons d’utiliser des outils externes.
 
@@ -117,7 +117,7 @@ Si vous préférez, vous pouvez utiliser des outils de BI qui ne sont pas intég
 | Analyser les données Business Central dans Microsoft Fabric| [Introduction à Microsoft Fabric et Business Central](admin-fabric.md) |
 | Lire les données métier à partir de Business Central avec API | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## Analyses par domaine fonctionnel
+## <a name="analytics-by-functional-area"></a>Analyses par domaine fonctionnel
 
 Le contenu de cet article général est également disponible dans des versions spéciales pour de nombreux domaines fonctionnels [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -129,7 +129,7 @@ Le contenu de cet article général est également disponible dans des versions 
 | Gestion des immobilisations | [Analyse des immobilisations](fa-analytics-overview.md) |
 
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés](bi.md)  
 [Utilisation d’indicateurs de performance clés pour répondre aux objectifs de votre entreprise](analytics-about-kpis.md)  
