@@ -9,12 +9,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Transférer et publier manuellement des relevés CODA dans la version belge
+# <a name="manually-transfer-and-post-coda-statements-in-the-belgian-version"></a>Transférer et publier manuellement des relevés CODA dans la version belge
 Après avoir lettré et traité toutes les lignes relevé CODA, vous pouvez transférer manuellement les lignes relevé CODA vers une feuille financière. La feuille financière vous permet d'entrer un solde de début et un solde final, puis de calculer automatiquement la différence entre les deux soldes. La validation n'est pas autorisée si les montants de ligne relevé ne correspondent pas au solde final du relevé.  
 
 Pour plus d'informations sur la manière de transférer automatiquement les relevés, voir [Transférer et publier automatiquement des relevés CODA](how-to-automatically-transfer-and-post-coda-statements.md).  
 
-## Pour transférer et valider manuellement les lignes relevé  
+## <a name="to-manually-transfer-and-post-statement-lines"></a>Pour transférer et valider manuellement les lignes relevé
 
 1.  Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuille comptabilité**, puis choisissez le lien associé.  
 2.  Sélectionnez la feuille, puis cliquez sur le bouton **OK**.  
@@ -22,7 +22,7 @@ Pour plus d'informations sur la manière de transférer automatiquement les rele
 4.  Entrez manuellement chaque ligne du relevé.  
 5.  Choisissez l'action **Valider**.  
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
  [Banque électronique belge](belgian-electronic-banking.md)   
  [Relevés bancaires CODA](coda-bank-statements.md)   
  [Importer des relevés CODA](how-to-import-coda-statements.md)   

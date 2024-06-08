@@ -9,11 +9,11 @@ ms.date: 03/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Lettrer et délettrer des écritures comptables dans la version belge
+# <a name="apply-and-unapply-general-ledger-entries-in-the-belgian-version"></a>Lettrer et délettrer des écritures comptables dans la version belge
 
 [!INCLUDE [apply-unapply-general-ledger-entries](../includes/BENL/apply-unapply-general-ledger-entries.md)]
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Familiarisation avec les écritures comptables et les COA](../../finance-general-ledger.md)  
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
