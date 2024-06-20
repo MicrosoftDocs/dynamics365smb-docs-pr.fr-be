@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Si votre entreprise opère dans plusieurs pays ou régions, il est probablement important que vous puissiez faire des affaires dans plusieurs devises. Vous définissez votre devise locale (DL) sur la page **Paramètres comptabilité**. Par la suite, votre devise locale sera représentée comme une devise vierge sur les documents et les transactions. Lorsque le champ **Devise** est vide, la devise est DL.
 

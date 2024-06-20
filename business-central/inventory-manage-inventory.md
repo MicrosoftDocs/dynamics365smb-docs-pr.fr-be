@@ -9,9 +9,10 @@ ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 3
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="manage-inventory"></a>Gestion du stock
+# Gestion du stock
 
 Pour chaque produit physique que vous commercialisez, vous devez créer une fiche article de type **Stock**. Les articles que vous proposez aux clients, mais que vous n’avez pas en stock, peuvent être enregistrés comme articles de catalogue. Vous pouvez ensuite les convertir en articles stockés, le cas échéant. Vous pouvez augmenter ou diminuer la quantité d’un article en stock en validant directement les écritures comptables de l’article, par exemple, après un inventaire ou si vous n’enregistrez pas les achats.
 
@@ -24,7 +25,7 @@ Pour améliorer votre aperçu d’articles et pour vous aider à les trouver, vo
 
 Le planning d’articles pour répondre à la demande est couvert dans le cadre de la fonctionnalité de planning de l’offre. En savoir plus sur [Planification](production-planning.md).  
 
-## <a name="inventory-analytics"></a>Analyse du stock
+## Analyse du stock
 
 Cette section décrit les outils analytiques que vous pouvez utiliser pour obtenir des informations sur vos données stock.
 
@@ -34,13 +35,13 @@ Cette section décrit les outils analytiques que vous pouvez utiliser pour obten
 | Effectuez une analyse ad hoc des données de stock directement sur les pages de liste et les requêtes. | [Analyse ad hoc des données de stock](ad-hoc-analysis-inventory.md) |
 | Explorer états intégrés pour la stock. | [États de stock et d’entrepôt intégrés](inventory-WMS-reports.md) |
 
-## <a name="inventory-reconciliation"></a>Rapprochement stock
+## Rapprochement stock
 
 Lorsque vous validez des mouvements de stock, tels que des expéditions vente, des factures achat ou des ajustements de stock, les coûts article modifiés sont enregistrés dans les écritures valeur. Pour refléter ces modifications de la valeur stock dans vos livres financiers, les coûts stocks sont automatiquement validés dans les comptes stock associés dans les écritures comptables. Pour chaque mouvement stock que vous validez, les valeurs appropriées sont validées dans le compte stocks, le compte ajustement et le compte validation stock dans la comptabilité. En savoir plus sur [Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Bien que les coûts soient automatiquement validés en comptabilité, il est malgré tout nécessaire de vous assurer que les coûts des biens sont transmis à la transaction de vente sortante associée, notamment dans les situations où vous vendez des biens avant de facturer l’achat. Il s'agit d'un ajustement des coûts. Le coût des articles est ajusté automatiquement lorsque vous validez des transactions article, mais vous pouvez également les ajuster manuellement. En savoir plus sur [Ajuster les coûts des articles](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Tâches connexes
+## Tâches connexes
 
 Le tableau suivant présente les tâches associées.
 
@@ -64,7 +65,7 @@ Le tableau suivant présente les tâches associées.
 |Gérer les opérations commerciales dans les bureaux de vente, les départements d’achat ou les bureaux de planification d’usine pour plusieurs magasins.|[Utilisation des centres de gestion](inventory-responsibility-centers.md)|
 |Utilisez des ressources avec des fonctions spécifiques pour divers services et éléments de service.|[Configuration de l’affectation des ressources](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)    
 [Achats](purchasing-manage-purchasing.md)    

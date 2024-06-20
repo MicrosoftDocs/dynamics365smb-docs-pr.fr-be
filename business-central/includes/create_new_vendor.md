@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche 2.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Fournisseurs**, puis choisissez le lien associé.  

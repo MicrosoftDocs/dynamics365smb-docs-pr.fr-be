@@ -9,9 +9,10 @@ ms.search.form: '50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308'
 ms.date: 05/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>Utilisation des documents électroniques dans le processus achats
+# Utilisation des documents électroniques dans le processus achats
 
 Vous pouvez utiliser des documents électroniques configurés (documents électroniques) avec les documents achat.
 
@@ -25,11 +26,11 @@ Vous pouvez utiliser les document achat suivants avec la fonctionnalité des doc
 > [!NOTE]
 > Depuis la [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0, il est possible de connecter **Commandes achat** aux **e-documents** reçus.  
 
-## <a name="e-documents-in-purchases"></a>Documents électroniques achat
+## Documents électroniques achat
 
 La réception des documents électroniques achat dans Dynamics 365 Business Central peut être effectuée par lots ou manuellement.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Comment configurer les fournisseurs pour qu’ils travaillent avec différents documents achat
+### Comment configurer les fournisseurs pour qu’ils travaillent avec différents documents achat  
 
 Suivez ces étapes pour configurer les fournisseurs afin qu’ils fonctionnent correctement avec les factures électroniques entrantes : 
 
@@ -46,9 +47,9 @@ Suivez ces étapes pour configurer les fournisseurs afin qu’ils fonctionnent c
 4. Choisissez l’une des options que vous souhaitez utiliser pour le fournisseur sélectionné. 
 5. Fermez la page.   
 
-### <a name="to-work-with-purchase-invoices"></a>Pour utiliser des factures achat
+### Pour utiliser des factures achat  
 
-#### <a name="run-the-batch-job"></a>Exécuter le traitement par lots
+#### Exécuter le traitement par lots  
 
 > [!NOTE]
 > Ce traitement par lots est destiné à la collecte automatisée de vos factures entrantes. Cela ne peut fonctionner que dans un pays ou une région où la fonctionnalité existe.  
@@ -76,7 +77,7 @@ Il existe deux erreurs courantes :
 
 Après avoir corrigé les erreurs et les avertissements, vous pouvez spécifier manuellement quand le système doit créer une facture achat en fonction de votre configuration en sélectionnant **Créer un document**.   
 
-#### <a name="manually-import-invoices"></a>Importer manuellement les factures
+#### Importer manuellement les factures  
 
 Pour importer manuellement des documents électroniques externes, procédez comme suit :
 
@@ -87,9 +88,9 @@ Pour importer manuellement des documents électroniques externes, procédez comm
 5. Lorsque vous avez fini de résoudre les problèmes, dans le groupe **Importer manuellement**, sélectionnez **Créer un document**.  
 6. Une fois le document créé dans [!INCLUDE[prod_short](includes/prod_short.md)], l’utilisation d’un travail par lots ne modifie pas la façon dont vous l’affichez. 
 
-### <a name="e-documents-with-purchase-orders"></a>Documents électroniques avec commandes achats
+### Documents électroniques avec commandes achats  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Pour lier les commandes achat à la commande achat au document électronique reçu
+#### Pour lier les commandes achat à la commande achat au document électronique reçu
 
 Si votre **fournisseur** a configuré le champ **Recevoir le document électronique à** pour qu’il fonctionne avec **Commande achat**, une fois un document électronique créé dans [!INCLUDE[prod_short](includes/prod_short.md)] (manuellement ou à partir d’un point de terminaison externe), [!INCLUDE[prod_short](includes/prod_short.md)] effectueront les opérations suivantes :  
 
@@ -99,7 +100,7 @@ Si votre **fournisseur** a configuré le champ **Recevoir le document électroni
 
 3. Si le **Commande achat** pour ce fournisseur particulier n’existe pas au moment de la création du nouveau **document électronique**, [!INCLUDE[prod_short](includes/prod_short.md)] créera un nouveau **Commande achat**, en utilisant le même modèle de création qui existe déjà pour les nouvelles **factures achat**. Le **Statut du document** de cela **Document électronique** sera **Traité**, et le **Statut du document électronique** dans le **Statut du service** la sous-page sera **Document importé créé**. Ce lien sera visible dans le champ **Document** de ce **document électronique** spécifique.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Lignes correspondantes du document électronique reçu avec le Commande achat
+#### Lignes correspondantes du document électronique reçu avec le Commande achat  
 
 Vous pouvez faire correspondre vos documents électroniques reçus avec les lignes de Commande achat provenant de deux endroits différents : depuis le **Document électronique** page ou à partir de la **Commande achat** page. Le moyen le plus simple de localiser le déjà lié **Commande achat** est d’utiliser le **Commande achat liés** vignette faisant partie de **Activités liées aux documents électroniques**. Tous les documents non liés peuvent être trouvés à l’aide de la vignette **En attente des factures électroniques d’achat** où vous avez une liste de **Documents électroniques** que vous devez revoir.  
 
@@ -109,7 +110,7 @@ Vous pouvez faire correspondre vos documents électroniques reçus avec les lign
 > [!NOTE]
 > Si le pourcentage de TVA diffère entre le document entrant et le pourcentage de TVA de l’entreprise, les documents correspondants ne peuvent pas être utilisés dans un environnement multi-pays.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Correspondance des lignes de commande achat
+##### Correspondance des lignes de commande achat  
 
 Vous pouvez faire correspondre les lignes du **Commande achat** liste ou à partir de l’une des listes ouvertes **Commande achat**. Pour commencer, procédez comme suit :  
 
@@ -159,7 +160,7 @@ Si vous souhaitez ajouter une certaine tolérance et autoriser la différence en
 3. Cette configuration s’appliquera à toutes les lignes correspondantes, mais encore une fois en tenant compte de la tolérance sur le montant total, comme pour le **Coût unitaire direct** avec la **remise de ligne appliquée %**.  
 4. Fermez la page.   
 
-##### <a name="matching-lines-from-e-document"></a>Correspondance les lignes d’un document électronique
+##### Correspondance les lignes d’un document électronique  
 
 Vous pouvez faire correspondre les lignes sur la page **E-Document** . Pour commencer, procédez comme suit :  
 
@@ -168,7 +169,7 @@ Vous pouvez faire correspondre les lignes sur la page **E-Document** . Pour comm
 3. Choisissez l’action **Rapprocher le Commande achat** pour ouvrir la page **Rapprocher le Commande achat**.  
 4. Répétez les mêmes étapes que celles utilisées lorsque vous avez commencé à rapprocher les Commande achat.
 
-### <a name="e-document-matching-assistance-copilot"></a>Copilote aide à la mise en correspondance de documents électroniques
+### Copilote aide à la mise en correspondance de documents électroniques  
 
 > [!NOTE]
 > Actuellement, le copilote **Assistance à la correspondance de documents électroniques** est en version préliminaire prête pour la production et est disponible dans le monde entier, sauf au Canada. Cela ne fonctionne qu’en anglais. 
@@ -176,7 +177,7 @@ Vous pouvez faire correspondre les lignes sur la page **E-Document** . Pour comm
 > [!NOTE]
 > Copilot est l’Assistant optimisé par l’IA qui aide les gens de votre organisation à libérer leur créativité et à automatiser les tâches fastidieuses. Le copilote **Assistance de rapprochement de documents électroniques** aide les utilisateurs à faire facilement correspondre les factures électroniques reçues avec les lignes de bon de commande existantes, en utilisant le modèle LLM pour faire correspondre les lignes entre deux documents différents. 
 
-#### <a name="to-activate-the-copilot"></a>Pour activer le copilote
+#### Pour activer le copilote  
 
 Si vous n’avez pas activé le copilote **Assistance de correspondance de documents électroniques**, vous devez le faire manuellement. Pour activer le copilote **Assistance de correspondance de documents électroniques**, suivez ces étapes : 
 
@@ -185,7 +186,7 @@ Si vous n’avez pas activé le copilote **Assistance de correspondance de docum
 
 Une fois le copilote activé, vous pouvez commencer à l’utiliser.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>Utiliser le copilote aide à la mise en correspondance de documents électroniques
+#### Utiliser le copilote aide à la mise en correspondance de documents électroniques 
 
 Si le copilote est activé, les actions existantes **Mapper les lignes de documents électroniques** sur les commandes achetées et **Faire correspondre le Commande achat** sur le **Document électronique** La page obtiendra différentes icônes, symbolisant la capacité de l’IA. Vous pouvez exécuter ces actions (les mêmes que dans les exemples précédents à partir de la liste des Commande achat), depuis l’un des **Acheter en ligne**, ou de **Document électronique**. Toutes les étapes d’exécution sont les mêmes, mais lorsque vous exécutez cette action, le résultat sera différent et vous devez suivre ces étapes :  
 
@@ -230,7 +231,7 @@ Si le copilote est activé, les actions existantes **Mapper les lignes de docume
 > [!NOTE]
 > L’analyse prix/coût et le contrôle de la quantité disponible font partie de l’activité de prétraitement.   
 
-## <a name="overview-of-e-document-statuses"></a>Vue d’ensemble des statuts des documents électroniques
+## Vue d’ensemble des statuts des documents électroniques
 
 Pour obtenir un meilleur aperçu de tous les documents électroniques de l’entreprise, vous pouvez sélectionner le centre de rôles **Comptable** où existent les statuts des documents électroniques. Vous y trouverez des activités de documents électroniques qui ont les statuts suivants :
 
@@ -241,7 +242,7 @@ Pour obtenir un meilleur aperçu de tous les documents électroniques de l’ent
     - Erreur
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Configurer des documents électroniques](finance-how-setup-edocuments.md)    
 [Utilisation du documents électroniques dans le processus vente](finance-how-use-edocuments.md)   

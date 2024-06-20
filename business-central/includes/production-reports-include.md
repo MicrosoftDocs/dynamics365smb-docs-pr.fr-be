@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/01/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Le tableau suivant décrit certains des principaux états dans les états de production.

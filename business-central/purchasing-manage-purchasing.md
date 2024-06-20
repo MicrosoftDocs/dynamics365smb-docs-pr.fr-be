@@ -9,8 +9,9 @@ ms.search.form: '460, 9307'
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="purchasing"></a>Procédure d'achat
+# Procédure d'achat
 
 Vous créez une facture achat ou une commande achat pour enregistrer le coût d'achats et suivre les créances. Si vous devez contrôler un stock, les factures achat sont également utilisées pour mettre à jour de manière dynamique les niveaux de stock afin que vous puissiez réduire vos coûts et fournir un meilleur service client. Le prix d'achat, notamment les frais de service, et les valeurs d'inventaire qui résultent de la validation des factures achat contribuent aux chiffres du profit et à d'autres KPI financiers sur votre Tableau de bord.
 
@@ -24,7 +25,7 @@ Pour tous les processus d'achat, vous pouvez incorporer un flux de travail d'app
 
 Le section suivant décrit une série de tâches et inclut des liens vers les articles qui les décrivent.
 
-## <a name="get-started-with-purchase-capabilities"></a>Démarrer avec les capacités achat
+## Démarrer avec les capacités achat
 
 Avant de acheter biens, précisez comment vous souhaitez gérer les processus de achat de votre entreprise.
 
@@ -33,7 +34,7 @@ Avant de acheter biens, précisez comment vous souhaitez gérer les processus de
 | Configurer les règles et les valeurs permettant de définir vos règles d'achat de la société. | [Configuration des achats](purchasing-setup-purchasing.md) |
 | Enregistrez chaque fournisseur à qui vous achetez des biens en tant que fiche fournisseur. | [Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Analyse des achats
+## Analyse des achats
 
 Cette section décrit les outils analytiques que vous pouvez utiliser pour obtenir des informations sur vos processus achats.
 
@@ -43,7 +44,7 @@ Cette section décrit les outils analytiques que vous pouvez utiliser pour obten
 | Effectuez une analyse ad hoc des données de achats directement sur les pages de liste et les requêtes. | [Analyse ad hoc des données achats](ad-hoc-analysis-purchasing.md) |
 | Explorer états intégrés pour la achat. | [États achats intégrés](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>Devis de commande à facture de achat
+## Devis de commande à facture de achat
 
 Le tableau suivant décrit comment utiliser des processus de achat simples.
 
@@ -64,7 +65,7 @@ Si vous avez besoin de processus de achat plus complexes, le tableau suivant ré
 |Gérez votre engagement envers un fournisseur à acheter de grandes quantités livrées en plusieurs expéditions sur une certaine période.|[Utilisation des commandes cadres achat](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Commandes annulées, remboursements et retours
+## Commandes annulées, remboursements et retours
 
 Le tableau suivant décrit comment gérer les commandes annulées, les remboursements et les retours de marchandises achetés.
 
@@ -74,7 +75,7 @@ Le tableau suivant décrit comment gérer les commandes annulées, les rembourse
 |Conversion, par exemple, de factures électroniques de vos fournisseurs en factures achat dans Business Central.|[Réception et conversion des documents électroniques](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Autres processus de vente
+## Autres processus de vente
 
 Le tableau suivant décrit comment traiter autres des processus de achat.
 
@@ -83,11 +84,11 @@ Le tableau suivant décrit comment traiter autres des processus de achat.
 |Résolvez la confusion lorsque deux enregistrements ou plus existent pour le même fournisseur.|[Fusion des enregistrements en double](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Numéros de document externe
+## Numéros de document externe
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Définition des achats](purchasing-setup-purchasing.md)  
 [Enregistrement des nouveaux fournisseurs](purchasing-how-register-new-vendors.md)  

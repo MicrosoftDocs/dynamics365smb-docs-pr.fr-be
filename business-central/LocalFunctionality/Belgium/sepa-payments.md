@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 11/27/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="sepa-payments-in-the-belgian-version"></a>Paiements SEPA dans la version belge
+# Paiements SEPA dans la version belge
 
 Le SEPA (Espace unique de paiement en euros) unifie les modes de paiement des pays/régions européens participants. Cela rend les paiements internationaux aussi facile à traiter que les paiements nationaux. Quel que soit leur emplacement, les citoyens et sociétés européens peuvent effectuer et recevoir des règlements en euros, à l'intérieur ou l'extérieur des frontières nationales/régionales, avec les mêmes conditions, droits et obligations de base.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Site Web Febelfin](https://go.microsoft.com/fwlink/?LinkId=275119)   
 [Site Web ISO 20022](https://go.microsoft.com/fwlink/?LinkId=275120)   

@@ -7,12 +7,13 @@ ms.search.keywords: null
 ms.date: 02/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="belgium-local-functionality"></a>Fonctionnalités locales, Belgique
+# Fonctionnalités locales, Belgique
 
 Les articles suivants décrivent les fonctionnalités locales propres à la version belge de [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Disponibilité des fonctions
+## Disponibilité des fonctions
 
 * TVA
     * [TVA belge](belgian-vat.md) **Désormais disponible**
@@ -70,14 +71,14 @@ Les articles suivants décrivent les fonctionnalités locales propres à la vers
     * [Rendre les modèles feuille obligatoires](specify-journal-template-mandatory.md) **Désormais disponible**
     * [Échelonnements dans les rapports Journal des ventes et Journal des achats](how-to-use-deferrals.md) **Désormais disponible**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Les futures exigences législatives en cours d’investigation
+## Les futures exigences législatives en cours d’investigation
 
 * TVA non déductible repensée et mise à niveau **Prévue pour la 2e vague de lancement 2024**
 
 Si vous avez connaissance de fonctionnalités réglementaires futures, envoyez une [Alerte de fonctionnalité réglementaire](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Utiliser [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Disponibilité nationale/régionale et langues prises en charge](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

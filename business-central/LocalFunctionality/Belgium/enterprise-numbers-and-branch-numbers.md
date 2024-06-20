@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="enterprise-numbers-and-branch-numbers-in-the-belgian-version"></a>Numéros d'entreprise et numéros d'établissement dans la version belge
+# Numéros d'entreprise et numéros d'établissement dans la version belge
 
 Les sociétés reçoivent un numéro d'entreprise unique et un ou plusieurs numéros d'établissement de la [Banque-Carrefour des Entreprises](https://crossroadsbankenterprises.com/) belge. Ces numéros sont utilisés dans tous les échanges afin de simplifier la communication avec l'administration et les autorités juridiques belges.  
 
-## <a name="enterprise-numbers"></a>Numéros d'entreprise
+## Numéros d'entreprise
 
 Le numéro d'entreprise remplace l'actuel numéro de TVA. Pour les sociétés existantes qui ont un numéro d'identification intracommunautaire, le numéro d'entreprise est défini comme le numéro d'identification intracommunautaire précédé d'un zéro. Les nouvelles sociétés recevront un nouveau numéro d'entreprise.  
 
@@ -31,7 +32,7 @@ Le numéro d'entreprise est configuré aux emplacements suivants :
 - Table client  
 - Table fournisseur  
 
-## <a name="branch-numbers"></a>Numéros d'établissement
+## Numéros d'établissement
 
 Un numéro d'établissement est délivré à une société pour identifier une adresse où au moins une des activités de la société est exercée, par exemple, un atelier, un bureau, un entrepôt, une agence ou une filiale. Contrairement au numéro d'entreprise, le numéro d'établissement ne doit pas obligatoirement être imprimé.  
 
@@ -42,7 +43,7 @@ Le numéro d'établissement est configuré aux emplacements suivants :
 - Table informations société  
 - Table magasin  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Fonctionnalité locale pour la Belgique](belgium-local-functionality.md)
 [Banque-Carrefour des Entreprises](https://kruispuntdatabank.be/)  
