@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 --- 
 
-# États des pratiques de paiement  
+# <a name="payment-practices-report"></a>États des pratiques de paiement
 
 Certains pays/régions exigent que les entreprises déclarent les délais de paiement de leurs fournisseurs tels que définis par les autorités locales. Ces rapports peuvent être basés sur différentes sources et trier les fournisseurs en fonction de leur taille ou de leurs conditions de paiement définies, fournissant ainsi des rapports aux fournisseurs sur les éléments suivants, comme l’exigent les autorités locales :  
 
@@ -24,7 +24,7 @@ Les utilisateurs peuvent sélectionner la période pour laquelle ils souhaitent 
 > [!NOTE]
 > Ce reporting est jusqu’à présent requis dans certains pays, mais il s’agit d’une fonctionnalité mondiale et peut être utilisée partout. Actuellement, chaque année, les entreprises suédoises de 250 salariés et plus doivent déclarer au Bureau suédois d’enregistrement des sociétés les délais de paiement dont elles disposent pour les achats auprès d’entreprises plus petites qu’elles. Des lois similaires existent au Royaume-Uni, en Australie et en Nouvelle-Zélande.  
 
-## Générez l’état 
+## <a name="generate-the-report"></a>Générez l’état
 
 Pour exécuter le rapport **Pratiques de paiement** , procédez comme suit :
 
@@ -48,7 +48,7 @@ Pour exécuter le rapport **Pratiques de paiement** , procédez comme suit :
 6. À partir de tous les champs calculés, vous pouvez approfondir la façon dont ce résultat a été calculé en ouvrant la page **Liste des données sur les pratiques de paiement** .
 7. Si vous souhaitez imprimer le document, vous pouvez le faire en exécutant l’action **Imprimer** .
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [États financiers](finance-reports.md)  
 [Analyse des états financiers dans Microsoft Excel](finance-analyze-excel.md)  
