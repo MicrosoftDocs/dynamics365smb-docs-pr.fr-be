@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-rounding"></a>Détails de conception : arrondi
+# Détails de conception : arrondi
 Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une sortie de stock qui est mesurée dans une quantité différente de l'entrée de stock correspondante. Les reliquats d'arrondi sont calculés pour tous les modes d'évaluation du stock lorsque vous exécutez le traitement par lots **Ajuster coûts - Écr. article**.  
 
  Lorsque vous utilisez le mode d'évaluation moyen, le montant résiduel est calculé et enregistré sur une base cumulative écriture par écriture.  
 
  Lorsque vous utilisez un mode d'évaluation autre qu'Average, le montant résiduel est calculé lorsque l'augmentation de stock a été totalement appliquée, c'est-à-dire lorsque la quantité restante pour l'augmentation de stock est égale à zéro. Une écriture distincte est ensuite créée pour l'arrondi résiduel, et la date de comptabilisation de l'écriture arrondie représente la date de comptabilisation de la dernière écriture valeur facturée de l'entrée de stock.  
 
-## <a name="example"></a>Exemple :
+## Exemple :  
  L'exemple suivant présente la manière dont les différents reliquats d'arrondi sont traités pour le mode évaluation stock moyen et pour le mode évaluation stock non moyen, respectivement. Dans les deux cas, le traitement par lots **Ajuster coûts - Écr. article** a été exécuté.  
 
  Le tableau suivant répertorie les écritures comptables article sur lesquelles l'exemple est basé.  
@@ -52,7 +52,7 @@ Des reliquats d'arrondi peuvent se produire lorsque vous évaluez le coût d'une
 |01/04/20|-1|-3,33|4|4|  
 |01/01/20|0|-0,01|1|5|  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi  
  [Détails de conception : évaluation stock](design-details-inventory-costing.md)   
  [Détails de conception : ajustement des coûts](design-details-cost-adjustment.md)   
  [Détails de conception : Modes évaluation stock](design-details-costing-methods.md) [Gestion des composants des coûts](finance-manage-inventory-costs.md)  

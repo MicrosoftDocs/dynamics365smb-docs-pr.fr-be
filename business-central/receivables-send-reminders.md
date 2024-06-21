@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Envoi des relances de soldes restants
+# Envoi des relances de soldes restants
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Collecte des soldes restants](receivables-collect-outstanding-balances.md)  
 [Configurer plusieurs taux d’intérêt pour les paiements retardés](finance-how-to-set-up-multiple-interest-rates.md)  
