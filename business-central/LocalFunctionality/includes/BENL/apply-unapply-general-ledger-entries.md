@@ -22,7 +22,7 @@ Lorsque les écritures comptables ont été traitées, vous pouvez utiliser la f
 
 Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écritures clôturées pour apporter des modifications.  
 
-## Pour lettrer des écritures comptables  
+## <a name="to-apply-general-ledger-entries"></a>Pour lettrer des écritures comptables
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
@@ -55,7 +55,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 6. Cliquez sur le bouton **OK**.  
 
-## Pour afficher les écritures comptables lettrées  
+## <a name="to-view-the-applied-general-ledger-entries"></a>Pour afficher les écritures comptables lettrées
 
 1. Choisissez l'icône ![Ampoule qui ouvre la fonction Tell Me.](../../../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  
@@ -65,7 +65,7 @@ Vous pouvez délettrer les écritures comptables lettrées puis ouvrir les écri
 
 4. Cliquez sur le bouton **OK**.  
 
-## Pour délettrer des écritures comptables  
+## <a name="to-unapply-general-ledger-entries"></a>Pour délettrer des écritures comptables
 
 1. Sélectionnez l'icône :::image type="icon" source="../../../media/ui-search/search_small.png" border="false":::, entrez **Historiques des transactions comptabilité**, puis choisissez le lien associé.  
 2. Sélectionnez un historique des transactions comptabilité, puis choisissez l'action **Comptabilité**.  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Validation des documents et des feuilles
+# <a name="posting-documents-and-journals"></a>Validation des documents et des feuilles
 
 La validation est une action de comptabilité qui consiste à enregistrer des transactions commerciales dans les divers livres comptables de la société.
 
@@ -27,7 +27,7 @@ Le tableau suivant décrit les tâches associées, et inclut des liens vers les 
 | Obtenir un aperçu, sur la page, des écritures qui seront créées lors de la validation. |[Résultats de l'aperçu compta.](ui-how-preview-post-results.md) |
 | Obtenir un aperçu, dans un état, des écritures qui seront créées lors de la validation. |[Affichage d’états de test avant validation](ui-how-view-test-reports-posting.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Modification des documents validés](across-edit-posted-document.md)  
 [Recherche des écritures associées aux documents](ui-find-entries.md)  

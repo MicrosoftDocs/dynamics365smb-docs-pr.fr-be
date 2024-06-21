@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse vente
+# <a name="sales-analytics"></a>Analyse vente
 
 Les entreprises capturent des lots de données au cours de leurs activités quotidiennes, ce qui soutient une précieuse BI pour les gestionnaires de ventes :
 
@@ -32,7 +32,7 @@ Chacune de ces fonctionnalités présente ses avantages et inconvénients, selon
 
 Cet article vous présente comment utiliser ces fonctionnalités analytiques pour gagner des Informations sur les ventes.
 
-## Besoins analytiques en ventes
+## <a name="analytics-needs-in-sales"></a>Besoins analytiques en ventes
 
 Lorsque l’on réfléchit aux besoins d’analyse en gestion des ventes, il peut être utile d’utiliser un modèle basé sur une personne décrites à un niveau élevé des différents besoins en matière d’analyse.
 
@@ -49,14 +49,14 @@ Les personnes occupant différents rôles ont des besoins différents en matièr
 |Gestionnaire de comptes/vendeur | Informations détaillées     | États exploitation prédéfinis <br> Données de tâche à l’écran |
 
 <!-- 
-## Sales KPIs
+## <a name="sales-kpis"></a>Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés associés à ventes
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Utilisation États financiers pour produire des états financiers et des indicateurs de performance clés associés à ventes
 
 La fonctionnalité **Financial Reporting** vous donne un aperçu des données financières enregistrées dans votre plan comptable (COA). Configurez les états financiers pour analysent les chiffres de la comptabilité et comparent les écritures comptables et les écritures comptables budget. Spécifiquement pour la gestion des achats, vous pouvez configurer des rapports financiers sur les comptes du comptabilité (G/L) que vous utilisez pour suivre les validations de vente.
 
@@ -64,13 +64,13 @@ Les axes jouent un rôle important dans la veille économique. Un axe correspond
 
 Pour en savoir plus sur les états financiers, accédez à [Préparer des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md).
 
-## États financiers entre les divisions ou les entités juridiques associé à ventes
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>États financiers entre les divisions ou les entités juridiques associé à ventes
 
 Certaines organisations utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans plusieurs centres de profit ou entités juridiques. D’autres utilisent [!INCLUDE [prod_short](includes/prod_short.md)] dans les filiales qui rendre compte aux organisations mères. [!INCLUDE [prod_short](includes/prod_short.md)] fournit aux comptables des outils qui les aident à transférer les écritures comptables de deux ou plusieurs sociétés (filiales) dans une société consolidée. Spécifiquement pour la gestion des ventes, vous souhaiterez peut-être consolider les écritures comptabilité pour vos comptes ventes pour suivre les KPI de vente dans les unités commerciales ou les entités juridiques.
 
 Pour en savoir plus, reportez-vous à [Consolidation de la société](finance-consolidated-company-reporting.md).
 
-## Analyse ad hoc des données de ventes
+## <a name="ad-hoc-analysis-of-sales-data"></a>Analyse ad hoc des données de ventes
 
 Parfois, il suffit de vérifier si les chiffres s’additionnent correctement ou de confirmer rapidement un chiffre. Les fonctionnalités suivantes sont idéales pour les analyses ad hoc :
 
@@ -90,7 +90,7 @@ De la même manière, vous pouvez utiliser le **Ouvrir dans Excel** action pour 
 
 Pour en savoir plus sur la manière d’effectuer une analyse ad hoc des données de ventes, accédez à [Analyse ad hoc des données de ventes](ad-hoc-analysis-sales.md). 
 
-## États intégrés pour la vente
+## <a name="built-in-reports-for-sales"></a>États intégrés pour la vente
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comprend plusieurs rapports intégrés, fonctions de traçage et outils pour aider les organisations de vente à créer des rapports sur leurs données.
 
@@ -105,7 +105,7 @@ Les rapports intégrés sont disponibles en deux versions :
 
 Pour en savoir plus sur les rapports pertinents pour les ventes, accédez aux [Rapports de ventes intégrés](sales-reports.md).
 
-## Analyse des ventes à l’écran
+## <a name="on-screen-sales-analytics"></a>Analyse des ventes à l’écran
 
 [!INCLUDE [prod_short](includes/prod_short.md)] comporte plusieurs pages qui vous donnent des aperçus des ventes et des tâches à accomplir. Voici des exemple pour commencer :
 
@@ -121,7 +121,7 @@ Pour en savoir plus sur les rapports pertinents pour les ventes, accédez aux [R
 - [Affichage des lignes de commande cadre vente validées et non validées](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
 
-### Afficher les écritures et les soldes du grand livre liées aux ventes à partir de la page Plan comptable
+### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Afficher les écritures et les soldes du grand livre liées aux ventes à partir de la page Plan comptable
 
 La page Plan comptable affiche tous les comptes du grand livre avec des chiffres agrégés comptabilisé dans le grand livre. À partir de cette page, vous pouvez faire des choses comme :  
 
@@ -135,7 +135,7 @@ Spécifiquement pour les ventes, vous pouvez créer une vue sur la page Plan com
 
 Pour en savoir plus, allez à [Familiarisation avec le plan comptable](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analyse des données par axe analytique (lié aux ventes)
+### <a name="analyze-data-by-dimensions-related-to-sales"></a>Analyse des données par axe analytique (lié aux ventes)
 
 Les axes analytiques sont des valeurs qui permettent de catégoriser les écritures afin de pouvoir les suivre et les analyser sur les documents, tels que les commandes vente. Ils peuvent par exemple indiquer de quel projet ou département provient une écriture.  
 
@@ -143,7 +143,7 @@ Au lieu de configurer des comptes généraux distincts pour chaque service ou Em
 
 Pour plus d’informations, consultez [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Consolidation de la société](finance-consolidated-company-reporting.md)   
 [Préparer des états financiers avec des données financières et des catégories de compte](bi-how-work-account-schedule.md)  
