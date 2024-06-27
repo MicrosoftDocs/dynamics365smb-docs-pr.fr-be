@@ -10,7 +10,7 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Réalisation de livraisons directes
+# <a name="make-drop-shipments"></a>Réalisation de livraisons directes
 
 Lors d’une livraison directe, un ou plusieurs articles de l’un de vos fournisseurs sont livrés directement chez l’un de vos clients.
 
@@ -19,7 +19,7 @@ Lorsqu’une commande vente est marquée pour la livraison directe, et lorsque v
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## Pour créer une commande vente pour des livraisons directes
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Pour créer une commande vente pour des livraisons directes
 
 Pour préparer une livraison directe, vous créez une commande vente pour un article et indiquer sur la ligne vente que la vente exige la livraison directe.
 
@@ -29,7 +29,7 @@ Pour préparer une livraison directe, vous créez une commande vente pour un art
 > [!TIP]
 > Par défaut, la case à cocher Livraison directe et le champ Code achat n’est pas disponible sur les lignes. Si ce n’est pas le cas, vous pouvez les ajouter en personnalisant la section de page qui contient les lignes. Pour plus d’informations, voir [Personnaliser votre espace de travail](ui-personalization-user.md).
 
-## Pour créer la commande achat pour livraison directe
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Pour créer la commande achat pour livraison directe
 
 Pour préparer une livraison directe, vous indiquez sur la commande achat qu’elle doit être expédiée à votre client, et non à vous-même.
 
@@ -46,7 +46,7 @@ Vous pouvez maintenant demander à votre fournisseur d’expédier les articles 
 
 Si votre fournisseur vous communique des Informations supplémentaires comme un numéro de suivi ou des informations similaires, vous pouvez ajouter ces informations comme Commentaires dans une ligne de la commande achat. Pour ajouter un commentaire sur une ligne, dans le champ **Type** , choisissez **Commentaire**, puis saisissez les informations dans le champ **Description** .  
 
-## Pour créer plusieurs commandes achat pour des livraisons directes
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Pour créer plusieurs commandes achat pour des livraisons directes
 
 Vous pouvez également utiliser la demande achat pour créer les commande achat du fournisseur. L’avantage d’utiliser la demande achat est qu’elle peut créer des commandes achat pour toutes les livraisons directes en attente. Cela signifie que vous n’avez pas à créer chaque ordre individuellement.
 
@@ -56,11 +56,11 @@ Vous pouvez également utiliser la demande achat pour créer les commande achat 
 4. Passez en revue les lignes commande achat et, dans le champ **N° fournisseur**, sélectionnez le fournisseur qui fournit les marchandises.
 5. Choisissez l’action **Traiter messages d’action** pour convertir les lignes en commande achat.
 
-## Pour afficher la commande achat associée à partir de la commande vente
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Pour afficher la commande achat associée à partir de la commande vente
 
 Sélectionnez la ligne commande vente livraison directe, choisissez l’action **Commande**, puis l’action **Livraison directe** et enfin l’action **Commande achat**.
 
-## Pour valider une livraison directe
+## <a name="to-post-a-drop-shipment"></a>Pour valider une livraison directe
 
 Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande vente comme envoyée. Vous pouvez également valider la commande achat, mais uniquement avec l’option **Réceptionner** jusqu’à ce que la commande vente ait été facturée.
 
@@ -73,7 +73,7 @@ Lorsque le fournisseur a expédié les articles, vous pouvez valider la commande
 > [!TIP]
 > N’oubliez pas que vous devez valider la facture du bon de commande.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Création des commandes spéciales](sales-how-to-create-special-orders.md)  
 [Achat des articles pour une vente](purchasing-how-purchase-products-sale.md)  

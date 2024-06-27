@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Enregistrement des nouveaux articles
+# <a name="register-new-items"></a>Enregistrement des nouveaux articles
 
 Les articles sont les biens ou services que vous achetez, stockez, vendez, livrez et dont vous prenez en compte. Utilisez le **Carte d’article** page pour enregistrer des informations sur les types d’éléments suivants :
 
@@ -24,19 +24,19 @@ Pour en savoir plus sur ces types d'articles, accédez à [À propos des types d
 > [!TIP]
 > Il existe également des articles de catalogue, qui sont similaires aux articles hors stock dans la mesure où ce sont des articles que vous proposez aux clients mais que vous ne gérez pas tant que vous ne les vendez pas. Pour en savoir plus, consultez [Utiliser les articles catalogue](inventory-how-work-nonstock-items.md).  
 
-## Fournisseurs principaux et alternatifs
+## <a name="primary-and-alternate-vendors"></a>Fournisseurs principaux et alternatifs
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous pouvez lier ces fournisseurs à la article. Utilisez le **Vendeurs** action sur le **Carte d’article** page pour ouvrir le **Catalogue des fournisseurs d’articles** page. La page affiche les fournisseurs auprès desquels vous achetez l’article, afin que vous puissiez facilement créer ou sélectionner un autre fournisseur lorsque vous créez un bon de commande.
 
-## Utiliser modèles article
+## <a name="use-item-templates"></a>Utiliser modèles article
 
 Pour réutiliser les paramètres de différents types d’éléments lorsque vous créez de nouveaux éléments, vous pouvez enregistrer les éléments en tant que modèles d’élément. Les modèles d’articles permettent d’accélérer le processus d’ajout de nouveaux articles et d’améliorer la cohérence de vos données d’articles. Lorsque vous enregistrez un nouvel élément, une page apparaît qui vous permet de choisir un modèle. Après avoir choisi un modèle, ses paramètres sont renseignés pour vous sur l’élément que vous créez. Si vous avez un seul modèle article, les nouvelles article utiliseront toujours ce modèle. Pour savoir comment configurer un modèle d’élément, accédez à [Enregistrer une fiche article en tant que modèle d’article](#save-an-item-card-as-an-item-template).
 
-## Inclure des éléments dans les nomenclatures
+## <a name="include-items-in-bills-of-materials"></a>Inclure des éléments dans les nomenclatures
 
 Vous pouvez structurer des hiérarchies comportant un article principal avec des éléments de composants sous-jacents dans les nomenclatures d’assemblage et de production. Pour en savoir plus sur les nomenclatures, consultez [Utilisation des nomenclatures](inventory-how-work-BOMs.md).
 
-## Pour créer une fiche article
+## <a name="to-create-a-new-item-card"></a>Pour créer une fiche article
 
 La vidéo suivant montre la manière dont un article est paramétrée sur la fiche article. Toutefois, vous pouvez également configurer de nouvelles articles en copiant celles existantes. Pour plus d’informations, aller [Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md).  
 
@@ -51,7 +51,7 @@ La vidéo suivant montre la manière dont un article est paramétrée sur la fic
 
 Vous pouvez utiliser des prix spéciaux ou des remises que vous ou votre fournisseur accordez pour l’article en fonction de certains critères. Par exemple, les critères incluent le client, la quantité minimale de commande ou la date de fin. Configurez les prix spéciaux choisissez les actions **Définir les prix spéciaux** ou **Définir les remises spéciales**. Chaque ligne de la page **Prix de vente**, par exemple, représente un prix spécial. Chaque colonne représente un critère qui doit s’appliquer pour accorder à un client le prix spécial que vous entrez dans le champ **Prix unitaire** de la page **Prix de vente**. Pour plus d’informations sur les prix, voir [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md) ou [Enregistrer les prix d’achat spéciaux et les remises](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-### Enregistrer la fiche article en tant que modèle article
+### <a name="save-an-item-card-as-an-item-template"></a>Enregistrer la fiche article en tant que modèle article
 
 1. Sur la page **Fiche article**, sélectionnez l’action **Sauvegarder comme modèle**. La page **Modèle article** affiche la fiche article comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,11 +61,11 @@ Vous pouvez utiliser des prix spéciaux ou des remises que vous ou votre fournis
 
 Le modèle article est ajouté à la liste des modèles article. Vous pouvez ainsi l’utiliser pour créer des fiches article.
 
-### Articles utilisés dans les ordres de fabrication
+### <a name="items-used-in-production-orders"></a>Articles utilisés dans les ordres de fabrication
 
 Si vous souhaitez enregistrer des articles qui sont ensuite utilisés dans des ordres de fabrication, vous spécifiez le système réappro. comme *Ordre de fabrication* sur le raccourci **Réapprovisionnement**. Pour plus d’informations, voir [À propos des ordres de fabrication](production-about-production-orders.md).  
 
-## Pour configurer plusieurs fournisseurs pour un article
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Pour configurer plusieurs fournisseurs pour un article
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir, pour chacun des fournisseurs de cet article des informations concernant, par exemple, ses prix, ses délais, ses escomptes, etc.  
 
@@ -78,11 +78,11 @@ Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir,
 
 Les fournisseurs s’affichent maintenant sur la page **Catalogue fournisseur articles** (que vous ouvrez à partir de la fiche article), de sorte que vous pouvez facilement sélectionner un autre fournisseur.
 
-## Configuration d’articles de substitution
+## <a name="set-up-item-substitutions"></a>Configuration d’articles de substitution
 
 Vous pouvez configurer des articles pour qu’ils aient des substituts, tels que d’autres articles pouvant être utilisés à la place de l’article d’origine.
 
-### Pour affecter le statut de substitut à un article
+### <a name="to-make-an-item-substitution"></a>Pour affecter le statut de substitut à un article
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Recherchez l’article concerné, puis cliquez sur le **N° article** pour ouvrir la fiche article.  
@@ -95,29 +95,29 @@ Lorsque la quantité d’articles requis dépasse la quantité disponible en sto
 > [!NOTE]  
 > Sachez que les articles de substitution n’entraîneront pas automatiquement le remplacement d’un article par un autre, par exemple lors de la création d’une commande client ou dans une nomenclature. Au lieu de cela, vous serez alerté du fait qu’un substitut est disponible pour vous.
 
-## Catégories, attributs et variantes
+## <a name="categories-attributes-and-variants"></a>Catégories, attributs et variantes
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 En savoir plus sur les variantes dans la section [Gérer les variantes de produits](inventory-item-variants.md).  
 
-## Supprimer de fiches article
+## <a name="delete-item-cards"></a>Supprimer de fiches article
 
 Si vous enregistré une transaction pour un article, vous ne pouvez pas supprimer la carte, car les écritures comptables peuvent être nécessaires pour l’évaluation du stock ou l’audit. Pour supprimer des fiches article avec des écritures comptables, contactez le partenaire Microsoft pour le faire via le code.  
 
-## Gérer le stock des entrepôts
+## <a name="manage-inventory-in-warehouses"></a>Gérer le stock des entrepôts
 
 Lorsque vous enregistrez un nouvel article, vous verrez des champs liés à la gestion de l’entrepôt, en particulier sur le raccourci **Entrepôt**. Si votre organisation n’utilise pas les fonctionnalités de gestion d’entrepôt dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez alors ignorer ces champs.  
 
 Si votre organisation configure ultérieurement la gestion des entrepôts, nous vous recommandons de vous assurer que chaque article existant possède les bonnes informations dans les différents champs. De cette façon, les processus d’entrepôt peuvent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
-## Planification
+## <a name="planning"></a>Planification
 
 Lorsque votre entreprise utilise les processus de planification des approvisionnements dans [!INCLUDE [prod_short](includes/prod_short.md)], vous devez remplir les champs correspondants sur le raccourci **Planification**. Pour une introduction à la zone de planification, voir [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md).  
 
 Pour des exemples d’utilisation des champs du raccourci **Planification**, voir [Configurer des recommandations : paramètres de planification](setup-best-practices-planning-parameters.md).  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Configuration des unités de mesure](inventory-how-setup-units-of-measure.md)  

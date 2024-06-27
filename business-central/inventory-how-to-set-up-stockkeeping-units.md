@@ -11,14 +11,14 @@ ms.search.forms: '5704, 5700, 5702, 5701'
 ms.service: dynamics-365-business-central
 ---
 
-# Configuration des unités de gestion de stock
+# <a name="set-up-stock-keeping-units"></a>Configuration des unités de gestion de stock
 
 Utilisez des points de stock pour enregistrer des informations relatives aux articles pour un magasin ou une variante spécifique. Ils vous permettent d’ajouter différentes informations sur un article pour un magasin spécifique, par exemple :
 
 * Un entrepôt ou un centre de distribution
 * Des variantes, par exemple différents numéros d’étagère et différentes informations de réapprovisionnement, pour un même article  
 
-## Pour configurer un SKU  
+## <a name="to-set-up-a-sku"></a>Pour configurer un SKU
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Centres de stock**, puis choisissez le lien associé.  
 2. Sélectionnez l’action **Nouveau**.  
@@ -35,7 +35,7 @@ Pour créer plusieurs SKU pour un article, utilisez le traitement par lots **Cr�
 > Si le point de stock est expédié à la fabrication, le champ **Coût standard** n’est pas utilisé lors de la facturation et de l’ajustement du coût réel de l’article fabriqué. À la place, [!INCLUDE [prod_short](includes/prod_short.md)] utilise la valeur du champ **Coût standard** de la fiche article et les écarts sont calculés par rapport aux coûts totaux de cet article.<br><br>
 > Bien que vous puissiez affecter les nomenclatures de production et les gammes aux points de stock, le calcul du coût unitaire et le calcul lié des coûts totaux ne sont pas disponibles dans les points de stock. Pour en savoir plus sur les coûts standard, consultez [À propos du calcul du coût standard](finance-about-calculating-standard-cost.md)
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Enregistrement des nouveaux articles](inventory-how-register-new-items.md)  
 [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md)  

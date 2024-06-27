@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées... »
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Message d’erreur : « La date comptabilisation n’est pas incluse dans la plage de dates comptabilisation autorisées... »
 
 Lors de l’utilisation du traitement par lots **Ajuster coûts : Écr. article**, vous pouvez rencontrer le message d’erreur suivant :
 
@@ -18,7 +18,7 @@ Lors de l’utilisation du traitement par lots **Ajuster coûts : Écr. article
 
 Ce message indique que vous n’êtes pas autorisé à publier des entrées pour la date que vous avez saisie. Vous pouvez contourner ce problème en modifiant votre configuration utilisateur.
 
-## Modifier les paramètres utilisateur  
+## <a name="change-the-user-setup"></a>Modifier les paramètres utilisateur
 
 |Identifiant d’utilisateur  |Début période validation  | Fin période validation  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Ce message indique que vous n’êtes pas autorisé à publier des entrées pour
 
 Dans ce cas, vous êtes autorisé à publier entre le 11 septembre et le 30 septembre. Cependant, vous n’êtes pas autorisé à valider l’entrée de valeur d’ajustement avec une date de comptabilisation le 10 septembre.  
 
-### Aperçu de la configuration de la date comptabilisation
+### <a name="overview-of-the-posting-date-setup"></a>Aperçu de la configuration de la date comptabilisation
 
-#### Périodes inventaire
+#### <a name="inventory-periods"></a>Périodes inventaire
 
 |Date de fin  |Nom  |Terminé  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ Dans ce cas, vous êtes autorisé à publier entre le 11 septembre et le 30 se
 |2020/11/30     |Novembre 2020   |         |
 |2020/12/31     |Décembre 2020   |         |  
 
-#### Paramètres comptabilité
+#### <a name="general-ledger-setup"></a>Paramètres comptabilité
 
 |Champ|Valeur|
 |---------|---------|
@@ -54,7 +54,7 @@ Dans ce cas, vous êtes autorisé à publier entre le 11 septembre et le 30 se
 |Registre temps :       |         |
 |Format adresse local :|   Code postal      |  
 
-#### Paramètres utilisateur
+#### <a name="user-setup"></a>Paramètres utilisateur
 
 |ID utilisateur  |Début période validation  | Fin période validation  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ Dans ce cas, vous êtes autorisé à publier entre le 11 septembre et le 30 se
 
 En attribuant à l’utilisateur une plage de dates comptabilisation autorisée plus large que dans la **période inventaire** ou les **paramètres comptabilité**, il devient possible d’éviter le conflit à l’origine du message d’erreur. Par exemple, la plage plus large vous permet de valider l’entrée de valeur d’ajustement avec une date de comptabilisation le 10 septembre.
   
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 
 [Détails de conception : date comptabilisation de l’écriture valeur d’ajustement](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Détails de conception : Évaluation stock](design-details-inventory-costing.md)  

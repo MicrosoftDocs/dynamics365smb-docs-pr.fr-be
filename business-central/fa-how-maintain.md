@@ -11,7 +11,7 @@ ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Mise à jour des immobilisations
+# <a name="maintain-fixed-assets"></a>Mise à jour des immobilisations
 
 Les frais d’entretien sont des dépenses d’exploitation liées aux choses que vous faites pour préserver l’état de vos immobilisations. Contrairement aux améliorations des immobilisations, l’entretien n’augmente pas la valeur de vos actifs.
 
@@ -24,7 +24,7 @@ Chaque fois une immobilisation envoyée en réparation, vous enregistrez les inf
 
 L'actualisation permet d'ajuster des valeurs en fonction de modifications générales de niveau de prix. Utiliser action **Réévaluer immobilisations** recalculer les coûts de maintenance.
 
-## Enregistrer une coût de maintenance directement sur une immobilisation
+## <a name="record-a-maintenance-cost-directly-on-a-fixed-asset"></a>Enregistrer une coût de maintenance directement sur une immobilisation
 
 Vous pouvez enregistrer chaque tâche de maintenance d’un actif, telle qu’une visite de service, utilisez la page **Saisie de la maintenance**.  
 
@@ -32,7 +32,7 @@ Vous pouvez enregistrer chaque tâche de maintenance d’un actif, telle qu’un
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez enregistrer la maintenance, puis sélectionnez l’action **Saisie de la maintenance**.
 3. Sur la page **Saisie de la maintenance**, renseignez les champs comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Valider les coûts de maintenance à partir d’une feuille comptabilisation immobilisation
+## <a name="post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Valider les coûts de maintenance à partir d’une feuille comptabilisation immobilisation
 
 1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Liste de la loi d’amortissement**, puis choisissez le lien associé.  
 2. Sélectionnez la loi d’amortissement qui est attribuée à une immobilisation, puis sélectionnez l’action **Modifier**.
@@ -46,7 +46,7 @@ Vous pouvez enregistrer chaque tâche de maintenance d’un actif, telle qu’un
     > L’étape 7 ne fonctionne que si vous avez configuré ce qui suit : sur la page **Fiche groupe compta. immo.** du groupe de validation de l’immobilisation, le champ **Compte maintenance** contient le compte débit général et le champ **Compte contrepartie maintenance** contient le compte général dans lequel vous souhaitez valider les écritures contrepartie pour réévaluation. Pour plus d’informations, reportez vous à [Pour configurer des groupes de validation immobilisation](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Sélectionnez l’action **Valider**.
 
-## Enregistrer le coût de maintenance à partir d’une facture d’achat
+## <a name="record-maintenance-cost-from-a-purchase-invoice"></a>Enregistrer le coût de maintenance à partir d’une facture d’achat
 
 Les étapes suivantes décrivent comment enregistrer les coûts de maintenance d’une immobilisation à partir d’une facture d’achat. La procédure est identique pour des commandes achat.
 
@@ -57,7 +57,7 @@ Les étapes suivantes décrivent comment enregistrer les coûts de maintenance d
 5. Dans le champ **Type compta. immo**, sélectionnez **Maintenance**.
 6. Valider facture achat.
 
-## Suivre visites d’entretien
+## <a name="follow-up-on-service-visits"></a>Suivre visites d’entretien
 
 Vous pouvez imprimer l’état **Maintenance - Service suivant** afin de lister les immobilisations programmé une visite de service. Vous pouvez également utiliser cet état à mettez à jour le champ **Date prochain service** des fiches immobilisation.  
 
@@ -65,7 +65,7 @@ Vous pouvez imprimer l’état **Maintenance - Service suivant** afin de lister 
 2. Renseignez les champs **Date début** et **Date fin**.  
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## Surveillance des coûts de maintenance
+## <a name="monitor-maintenance-costs"></a>Surveillance des coûts de maintenance
 
 Vous pouvez afficher des statistiques pour surveiller les coûts de maintenance.  
 
@@ -76,7 +76,7 @@ Vous pouvez afficher des statistiques pour surveiller les coûts de maintenance.
 
 Utilisez la page **Écritures comptables maintenance** affichant les écritures qui constituent le montant dans le champ **Maintenance**.
 
-## Afficher ou imprimer les coûts de maintenance pour plusieurs immobilisations
+## <a name="view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Afficher ou imprimer les coûts de maintenance pour plusieurs immobilisations
 
 Dans l’état **Maintenance - Analyse**, vous pouvez choisir de examiner la maintenance sur un, deux ou trois codes maintenance pour une date ou une période donnée. Le rapport peut visualiser le total de toutes les immobilisations sélectionnées, soit celui de chaque immobilisation.
 
@@ -84,7 +84,7 @@ Dans l’état **Maintenance - Analyse**, vous pouvez choisir de examiner la mai
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## Visualiser des écritures comptables maintenance
+## <a name="view-maintenance-ledger-entries"></a>Visualiser des écritures comptables maintenance
 
 Vous pouvez également explorer les coûts de maintenance en visualisant les écritures comptables.  
 
@@ -92,7 +92,7 @@ Vous pouvez également explorer les coûts de maintenance en visualisant les éc
 2. Sélectionnez l’immobilisation pour laquelle vous souhaitez afficher les écritures comptables, puis sélectionnez l’action **Lois d’amortissement**.
 3. Sur la page **Écritures comptables maintenance**, sélectionnez la loi d’amortissement immobilisation pertinente, puis l’action **Statistiques**.
 
-## Afficher ou imprimer les écritures comptables de maintenance pour plusieurs immobilisations
+## <a name="view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Afficher ou imprimer les écritures comptables de maintenance pour plusieurs immobilisations
 
 Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les écritures comptables de maintenance pour un ou plusieurs actifs.  
 
@@ -100,7 +100,7 @@ Dans l’état **Maintenance - Détails**, vous pouvez afficher ou imprimer les 
 2. Renseignez les champs selon vos besoins.
 3. Cliquez sur le bouton **Imprimer** ou **Aperçu**.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  

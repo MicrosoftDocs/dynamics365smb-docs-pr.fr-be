@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Configuration d’une devise report supplémentaire
+# <a name="set-up-an-additional-reporting-currency"></a>Configuration d’une devise report supplémentaire
 
 Les sociétés opérant dans un nombre croissant de pays/régions, il est de plus en plus important qu’elles puissent consulter et générer des états de données financiers dans plusieurs devises.
 
@@ -25,7 +25,7 @@ Votre comptabilité est configurée pour utiliser votre devise société (DS), m
 >
 > Par exemple, vous avez un grand nombre de comptes clients en livres sterling (GBP) et vous avez configuré votre ACY en GBP. Dans ce scénario, les montants des comptes clients qui utilisent la livre sterling ne sont pas ajustés pour les gains/pertes de change dans la DR, mais uniquement les montants des comptes clients qui sont dans d’autres devises. Cela signifie que si vous utilisez la DR pour déclarer vos états financiers, cela peut entraîner des soldes impayés sous-estimés ou surestimés des comptes débiteurs.
 
-## Afficher les rapports et les montants en ACY
+## <a name="displaying-reports-and-amounts-in-acy"></a>Afficher les rapports et les montants en ACY
 
 L'utilisation d'une ACY peut faciliter le processus de génération d'états d'une société dans les cas suivants :
 
@@ -34,11 +34,11 @@ L'utilisation d'une ACY peut faciliter le processus de génération d'états d'u
 
 Plusieurs états financiers sont basés sur les écritures comptables. Pour afficher les données d’états en ACY, cochez la case **Afficher montants en devise report** sur le raccourci **Options** pour l’état comptable approprié.
 
-## Ajustement des taux de change
+## <a name="adjusting-exchange-rates"></a>Ajustement des taux de change
 
 Comme les taux de change ne cessent de fluctuer, il convient d'ajuster périodiquement les équivalents ACY de votre système. À défaut d'effectuer ces ajustements, les montants convertis à partir de devises étrangères (ou supplémentaires) et publiés dans la comptabilité en DS risquent d'être erronés. En outre, les écritures quotidiennes validées avant la saisie d’un taux de change quotidien dans l’application doivent être mises à jour après la saisie des informations de taux de change quotidienne. Le traitement par lots **Ajuster taux de change** permet d’ajuster les taux de change d’écritures client, fournisseur et compte bancaire validées. Il peut également mettre à jour d'autres montants ACY dans des écritures comptables. Pour plus d’informations, voir [Mettre à jour les taux de change devise](finance-how-update-currencies.md).
 
-## Installation ACY
+## <a name="setting-up-an-acy"></a>Installation ACY
 
 Pour configurer ACY, procédez comme suit :
 
@@ -47,7 +47,7 @@ Pour configurer ACY, procédez comme suit :
 - Spécifiez la méthode d’ajustement de taux de change pour les écritures TVA.  
 - Activez le contrat ACY.  
 
-### Pour spécifier les comptes généraux pour la validation d’ajustements de taux de change  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Pour spécifier les comptes généraux pour la validation d’ajustements de taux de change
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Devises**, puis choisissez le lien associé.  
 2. Sur la page **Devises**, renseignez les champs suivants pour ACY.  
@@ -64,7 +64,7 @@ Pour configurer ACY, procédez comme suit :
 
 Pour chaque compte général, vous devez spécifier la manière dont les montants comptables du compte sont ajustés en fonction des fluctuations de taux de change entre DS et ACY.  
 
-### Pour spécifier la méthode d’ajustement de taux de change pour tous les comptes généraux
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Pour spécifier la méthode d’ajustement de taux de change pour tous les comptes généraux
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Plan comptable**, puis choisissez le lien associé.  
 2. Sur la page **Plan comptable**, sélectionnez le compte approprié, puis cliquez sur l’action **Modifier**.  
@@ -82,7 +82,7 @@ Pour chaque compte général, vous devez spécifier la manière dont les montant
 
 4.  Fermez la page **Fiche compte général**.  
 
-### Pour spécifier la méthode d’ajustement de taux de change pour toutes les écritures TVA
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Pour spécifier la méthode d’ajustement de taux de change pour toutes les écritures TVA
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, sélectionnez la méthode adéquate dans le champ **Ajustement tx de change TVA**.  
@@ -98,7 +98,7 @@ Pour chaque compte général, vous devez spécifier la manière dont les montant
     |**Ajuster montant**|La devise société est ajustée pour tous les gains ou toutes les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
     |**Ajuster montant devise report**|La ACY est ajustée pour tous les gains ou toutes les pertes de change. Les gains ou pertes sur le taux de change sont validés dans le compte général, champ **Montant DR**, et dans les comptes que vous avez spécifiés pour les gains ou les pertes dans le champ **Cpte gains constatés report** et **Cpte pertes constatées report** de la page **Devises**.|  
 
-### Pour activez ACY  
+### <a name="to-activate-the-acy"></a>Pour activez ACY
 
 1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilité**, puis choisissez le lien associé.  
 2. Sur la page **Paramètres comptabilité**, choisissez le champ **Devise report (DR)** la devise supplémentaire à utiliser pour vos états.  
@@ -125,7 +125,7 @@ En outre, toutes les écritures futures du même type ont des montants enregistr
 > [!NOTE]  
 > Le champ **Devise report** n’est activé qu’après que vous avez cliqué sur le bouton **OK** dans le traitement par lots **Ajuster devise report**.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Mise à jour des taux de change devise](finance-how-update-currencies.md)  
 [Clôture des exercices et des périodes](year-close-years-periods.md)  

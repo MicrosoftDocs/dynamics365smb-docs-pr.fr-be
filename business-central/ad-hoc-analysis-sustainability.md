@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse ad hoc des données de durabilité
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Analyse ad hoc des données de durabilité
 
 Cet article vous apprenez à utiliser fonction **analyse les données** pour analyser des pages de durabilité directement de liste de pages et requêtes. Vous n’avez pas besoin d’exécuter un rapport ou de passer à une autre application, telle qu’Excel. La fonction fournit un moyen interactif et polyvalent de calculer, résumer et examiner les données. Plutôt que d’exécuter des rapports à l’aide d’options et de filtres, vous pouvez ajouter plusieurs onglets qui représentent différentes tâches ou vues sur les données. Quelques exemples sont "Aperçu émissions" ou "Émissions par scope", ou toute autre vue que vous pouvez imaginer. Pour en savoir plus sur l’utilisation de la fonctionnalité **Analyse des données** , accédez à [Analyser la liste et interroger les données avec le mode d’analyse](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Utilisez les pages de liste suivantes pour une analyse ad hoc des données durab
 
 - [Écritures comptables durabilité](https://businesscentral.dynamics.com/?page=6220)
 
-## Scénarios d’analyse ad hoc durabilité
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Scénarios d’analyse ad hoc durabilité
 
 Utilisez la fonctionnalité **Analyse des données** pour une vérification rapide des faits et une analyse ad hoc :
 
@@ -36,7 +36,7 @@ Les sections suivantes fournissent des exemples de scénarios de durabilité dan
 | [Émissions moyennes par catégorie](#example-average-emissions-by-category) | Analysez vos émissions moyennes par catégorie. | [Écritures comptables durabilité](https://businesscentral.dynamics.com/?page=6220) | **Catégorie de compte**, **Nom du compte**, **Émission NH4**, **Émission de CO2** et **Émission de N2O**.|
 | [Émissions de scope](#example-emissions-by-scope) | Analysez vos émissions par scope. | [Écritures comptables durabilité](https://businesscentral.dynamics.com/?page=6220) | **Scope émission**, **Catégorie de compte**, **Émission NH4**, **Émission de CO2** et **Émission de N2O**.|
 
-## Exemple : Aperçu des émissions (somme par catégorie)
+## <a name="example-emission-overview-sum-by-category"></a>Exemple : Aperçu des émissions (somme par catégorie)
 
 Pour analyser émissions par catégorie, procédez comme suit :
 
@@ -51,7 +51,7 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Exemple 1 de comment effectuer une analyse des données sur la page des écritures comptables durabilité" lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Exemple : Émissions moyennes par catégorie
+## <a name="example-average-emissions-by-category"></a>Exemple : Émissions moyennes par catégorie
 
 Pour analyser émissions moyennes par catégorie, procédez comme suit :
 
@@ -67,7 +67,7 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Exemple 2 de comment effectuer une analyse des données sur la page des écritures comptables durabilité" lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Exemple : Émissions de scope
+## <a name="example-emissions-by-scope"></a>Exemple : Émissions de scope
 
 Pour analyser émissions par scope, procédez comme suit :
 
@@ -82,13 +82,13 @@ L’image suivante montre le résultat de ces étapes.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Exemple 3 de comment effectuer une analyse des données sur la page des écritures comptables durabilité" lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Base de données pour une analyse ad hoc des durabilité
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Base de données pour une analyse ad hoc des durabilité
 
 Les informations que vous saisissez dans une feuille durabilité sont temporaires et peuvent être modifiées tant qu’elles sont dans la feuille. Lorsque vous validez la feuille durabilité, les informations sont transférées vers des écritures de comptes de durabilité ou comptes de durabilité individuels, où elles ne peuvent pas être modifiées. Vous pouvez toutefois comptabiliser des écritures d’extourne ou de correction. La page de liste des [Entrées du grand livre de développement durable](https://businesscentral.dynamics.com/?page=6220) est la principale source de données pour l’analyse ad hoc des données de développement durable.
 
 Pour en savoir plus sur la publication d’entrées de développement durable, accédez à [Enregistrer les entrées de développement durable](finance-sustainability-journal.md).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Enregistrer les entrées de durabilité](finance-sustainability-journal.md)  
 [Rapports de durabilité intégrés](sustainability-reports.md)   

@@ -12,20 +12,20 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Exécuter et imprimer états dans Business Central
+# <a name="run-and-print-reports-in-business-central"></a>Exécuter et imprimer états dans Business Central
 
 Les rapports vous aident à collecter et à afficher des données en fonction de critères spécifiques. Il organise et présente les informations dans un format facile à lire que vous pouvez imprimer ou enregistrer sous forme de fichier. Il existe de nombreux états accessibles tout au long de l’application. Les états fournissent généralement des informations relatives au contexte de la page où vous vous trouvez. Par exemple, la page **Client** comprend des états pour les 10 principaux clients et les statistiques de vente, et plus encore.
 
 > [!NOTE]
 > Les traitements par lots et les ports XML sont plus ou moins identiques aux états mais ils ont pour objectif d’exécuter un processus ou d’exporter des données. Par exemple, le traitement par lots **Créer des relances** crée des relances pour les clients avec des paiements échus. Cette rubrique fait référence surtout aux « états », mais des informations similaires s’appliquent aux traitements par lots et aux ports XML.
 
-## Démarrer
+## <a name="get-started"></a>Démarrer
 
 Vous pouvez trouver des rapports dans le **Rapports** menu sur les pages, listes et cartes sélectionnées. Utilisez aussi la recherche ![Ampoule qui ouvre la fonction de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), pour rechercher des rapports par nom. Pour un aperçu des états intégrés que vous pouvez utiliser dans [!INCLUDE[prod_short](includes/prod_short.md)], triés par catégories, voir [États disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md).
 
 Lorsque vous choisissez un état, une page de demande avec un titre selon le nom de l’état pour vous permettre de définir plusieurs options et filtres qui déterminent les éléments à inclure dans l’état. Les sections suivantes expliquent comment utiliser la page de demande pour créer, afficher un aperçu et imprimer un état.
 
-## <a name="SavedSettings"></a>Utiliser des valeurs par défaut – paramètres prédéfinis
+## <a name="use-default-valuesmdashpredefined-settings"></a><a name="SavedSettings"></a>Utiliser des valeurs par défaut – paramètres prédéfinis
 
 La plupart des pages de demande incluent le champ **Utiliser les valeurs par défaut de**. Avec ce champ, vous pouvez sélectionner des paramètres prédéfinis pour l’état, qui définissent automatiquement les options et les filtres. Sélectionnez une entrée dans la liste déroulante, et vous verrez les options et les filtres sur la page de demande se modifier en conséquence.
 
@@ -36,7 +36,7 @@ Le champ **Utiliser les valeurs par défaut de** fournit un moyen rapide et fiab
 > [!NOTE]
 > Les paramètres prédéfinis sont généralement configurés et gérés par un administrateur. En savoir plus sur [Gérer les paramètres enregistrés pour les états et les traitements par lots](reports-saving-reusing-settings.md).
 
-## Spécifier des données à inclure dans un état
+## <a name="specify-the-data-to-include-in-a-report"></a>Spécifier des données à inclure dans un état
 
 Utilisez les champs sous **Options** et **Filtres** pour modifier ou limiter les informations que vous souhaitez dans l’état. Vous devez définir des filtres dans un état de la même manière que vous le faites sur des listes. Consultez la section [Filtrage](ui-enter-criteria-filters.md#filtering).
 
@@ -47,7 +47,7 @@ Utilisez les champs sous **Options** et **Filtres** pour modifier ou limiter les
 >
 > **Exemple** : Lorsque vous utilisez le traitement par lots **Créer relance**, un filtre pour le champ **Écritures comptables client** de **Niveau dernière relance émise** sera ignoré, car les filtres sont fixes pour ce traitement par lots.
 
-## Afficher l'aperçu d'un état
+## <a name="preview-a-report"></a>Afficher l'aperçu d'un état
 
 En affichant l’aperçu d’un état vous permet de voir à quoi il ressemblera avant de l’imprimer. L’aperçu n’est pas basé sur l’imprimante sélectionnée dans le champ **Imprimante** sur la page de demande. Il est contrôlé par le navigateur. Après l’aperçu, vous pouvez revenir à la page de la demande et apporter des modifications aux options et aux filtres nécessaire.
 
@@ -56,7 +56,7 @@ Les choix d’aperçu sur la page **Demande d’état** dépendent de l’état.
 > [!NOTE]
 > Si vous utilisez la vague de lancement 1 de 2020 de Business Central ou antérieure, il n’y a qu’un choix **Aperçu** qui ferme la page de demande lors de l’aperçu, comme décrit pour **Aperçu et fermer**.
 
-### Utiliser l’aperçu
+### <a name="work-with-the-preview"></a>Utiliser l’aperçu
 
 Dans l’Aperçu, utilisez la barre de menus dans l’aperçu de l’état pour :
 
@@ -74,7 +74,7 @@ Dans l’Aperçu, utilisez la barre de menus dans l’aperçu de l’état pour�
 - Téléchargez un fichier PDF sur votre ordinateur ou votre réseau.
 - Imprimer
 
-## Enregistrer un état dans un fichier
+## <a name="save-a-report-to-a-file"></a>Enregistrer un état dans un fichier
 
 Vous pouvez enregistrer un état dans un document PDF, un document Microsoft Word, un classeur Microsoft Excel ou un document XML en sélectionnant **Envoyer à**, puis en effectuant votre sélection. Un fichier de présentation sera téléchargé sur votre ordinateur.
 
@@ -85,7 +85,7 @@ Si votre organisation a configuré OneDrive pour les fonctionnalités système, 
 >
 > Vous pouvez également utiliser l’option **Document Microsoft Excel (données uniquement)** pour créer des présentations Excel pour un état donné. En savoir plus sur [Utiliser les présentations Excel](ui-excel-report-layouts.md).  
 
-## <a name="ScheduleReport"></a> Planifier d’un état pour une exécution ultérieure ou périodique
+## <a name="schedule-a-report-to-run-later-or-periodically"></a><a name="ScheduleReport"></a>Planifier d’un état pour une exécution ultérieure ou périodique
 
 Vous pouvez planifier ou traiter par lots un état ponctuel ou récurrent à exécuter à une date et une heure spécifiques. Les états prévus sont entrés dans la file projets et traités au moment prévu, comme les autres projets. Choisir l’option **Planifié** après avoir cliqué sur le bouton **Envoyer à**, puis vous devez entrer des informations telles que l’imprimante, l’heure et la date. L’état est alors ajouté à la file d’attente des travaux et sera exécuté au moment spécifié. Lorsque l’état a été traité, l’article est supprimé de la file projets. Pour plus d’informations, voir [Utiliser des files d’attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
@@ -93,7 +93,7 @@ Lorsque vous planifiez l’exécution d’un rapport, vous pouvez spécifier qu�
 
 Vous pouvez sauvegarder l’état dans un fichier (par exemple, Excel, Word ou PDF) de l’imprimer ou uniquement de générer l’état. Si vous enregistrer l’état dans un fichier, alors l’état traité est envoyé à la **Boîte de réception état** sur votre tableau de bord, dans laquelle vous pouvez l’afficher. En savoir plus [Partager et exporter des états avec la boîte de réception état](ui-work-report-inbox.md)
 
-### Gérer les états récurrents planifiés
+### <a name="manage-scheduled-recurring-reports"></a>Gérer les états récurrents planifiés
 
 Les états planifiés sont générés par des traitements par lots gérés sur la page **Écritures de la file d’attente des travaux**. Vous pouvez voir l’état et d’autres informations de chaque rapport sur la page, interrompre/reprendre le traitement par lots de l’état et générer l’état à la demande.
 
@@ -108,13 +108,13 @@ Après avoir modifié les options de l’état, répétez les deux premières é
 
 En savoir plus sur la gestion de la file d’attente des travaux sur [Utiliser les files d’attente de travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).  
 
-## <a name="PrintReport"></a>Impression état
+## <a name="print-a-report"></a><a name="PrintReport"></a>Impression état
 
 Pour imprimer un état, sélectionnez **Imprimer** sur la page de demande d’état ou dans la barre de menu de la page **Aperçu**.
 
 Lorsqu’un état utilise une présentation Excel, le champ **Imprimante** et les boutons **Imprimer** ou **Aperçu** ne sont pas affichés. Au lieu de cela, il y a une option **Télécharger**. Pour imprimer, sélectionnez **Télécharger**, puis ouvrez le fichier téléchargé dans Excel et imprimez à partir de là.
 
-### <a name="Printer"></a>Imprimante
+### <a name="printer"></a><a name="Printer"></a>Imprimante
 
 Le champ **Imprimante** de la page de demande d’état affiche le nom de l’imprimante à laquelle l’état sera transmis. Pour changer d’imprimante, sélectionnez simplement l’imprimante dans la liste.
 
@@ -124,13 +124,13 @@ Le champ **Imprimante** de la page de demande d’état affiche le nom de l’im
 > [!TIP]
 > L’imprimante sélectionnée pour vous par défaut est configurée sur la page **Sélections d’imprimantes**. En savoir plus comment la modification de l’imprimante par défaut dans la section [Configurer les imprimantes par défaut](ui-specify-printer-selection-reports.md#default).
 
-### Imprimer d’états en thaïlandais
+### <a name="print-reports-in-thai"></a>Imprimer d’états en thaïlandais
 
 Spécifiquement pour la version thaïlandaise de [!INCLUDE[prod_short](includes/prod_short.md)], le bouton **Imprimer** ne peut pas imprimer correctement des états du fait des limitations du service qui génère un fichier PDF imprimable. À la place, vous pouvez ouvrir l’état dans Word puis enregistrer l’état en tant que fichier PDF imprimable.  
 
 Sinon, vous pouvez demander à votre administrateur de créer une présentation état Word pour vos états les plus utilisés. En savoir plus [Gestion des présentations état et document](ui-manage-report-layouts.md).  
 
-## Modifier la disposition de l’état
+## <a name="switch-the-report-layout"></a>Modifier la disposition de l’état
 
 Une présentation d’état contrôle les éléments affichés sur un état, leur agencement et leur mise en forme. Il explique plusieurs méthodes pour modifier la présentation :
 
@@ -139,7 +139,7 @@ Une présentation d’état contrôle les éléments affichés sur un état, leu
 
 En savoir plus sur [(Hérité) Définir la présentation utilisée par un état](ui-set-report-layout.md). Ou, si vous voulez personnaliser votre propre présentation d’état, voir [Bien démarrer avec la création de présentations](ui-get-started-layouts.md).
 
-## Modifier la langue et le format des nombres, des dates et des heures
+## <a name="change-language-and-format-of-numbers-dates-and-times"></a>Modifier la langue et le format des nombres, des dates et des heures
 
 Par défaut, la langue du texte et le format des nombres, des dates et des heures dans un rapport sont basés sur vos paramètres de langue de travail et de région, qui sont définis sur la page **Mes paramètres**. Vous pouvez toutefois modifier la langue et la région de format au cas par cas lorsque vous prévisualisez, imprimez ou envoyez un rapport. Sur la page de demande, définissez les options **Langue** et **Région de format** selon vos préférences. Vous pouvez également spécifier le format de langue et de région à utiliser par défaut pour les clients et les fournisseurs sur les pages de leurs fiches.
 
@@ -152,7 +152,7 @@ Selon l’emplacement où vous avez spécifié les paramètres de langue et de f
 
 Pour plus d’informations sur la page **Mes paramètres**, voir [Modifier les paramètres de base](ui-change-basic-settings.md#region).
 
-## Options avancées
+## <a name="advanced-options"></a>Options avancées
 
 Les champs sous **Avancé** définissent des limites sur l’état généré pour contrôler les ressources de l’imprimante. Vous n’aurez généralement pas à modifier ces paramètres, sauf si vous disposez d’un état volumineux. Si un état dépasse ces limites lorsque vous essayez d’afficher un aperçu ou d’imprimer, un message apparaît vous indiquant quelle limite a été dépassée. Vous pouvez ensuite modifier les paramètres en fonction de votre état. Cependant, chaque champ a une valeur maximale que vous devez connaître :
 
@@ -165,7 +165,7 @@ Les champs sous **Avancé** définissent des limites sur l’état généré pou
 > [!NOTE]
 > Les valeurs maximales peuvent être différentes pour [!INCLUDE[prod_short](includes/prod_short.md)] sur site et un administrateur peut les modifier. Pour plus d’informations, reportez-vous à la rubrique [Configuration de Business Central Server – États](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Pour un aperçu des limites des états [!INCLUDE[prod_short](includes/prod_short.md)] en ligne, voir [Limites opérationnelles](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 - [États disponibles dans [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 - [Utilisation des rapports dans le travail quotidien](reports-use-reports.md)  

@@ -11,7 +11,7 @@ ms.search.form: '5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Amortissement des immobilisations
+# <a name="depreciate-or-amortize-fixed-assets"></a>Amortissement des immobilisations
 
 L'amortissement permet de ventiler le coût des immobilisations, telles que les machines et le matériel, sur leur durée d'amortissement. Vous devez définir la méthode d’amortissement pour chaque immobilisation.  
 
@@ -28,7 +28,7 @@ Vous pouvez annuler des écritures d’amortissement incorrectes à l’aide du 
 
 L’actualisation permet d’ajuster des valeurs en fonction de modifications générales de niveau de prix. Vous pouvez utiliser le traitement par lots **Actualiser immobilisation** pour recalculer les montants des amortissements.  
 
-## Pour calculer automatiquement des amortissements
+## <a name="to-calculate-depreciation-automatically"></a>Pour calculer automatiquement des amortissements
 
 Une fois par mois, ou à la fréquence de votre choix, vous pouvez lancer le traitement par lots **Calculer amortissement**. Le traitement par lots ignore les immobilisations qui sont vendues, celles qui ont été bloquées ou qui sont inactives, et celles qui utilisent la méthode d’amortissement manuelle.  
 
@@ -49,7 +49,7 @@ Une fois par mois, ou à la fréquence de votre choix, vous pouvez lancer le tra
 > Nous recommandons la première option, car vous ne voudrez peut-être pas modifier l’utilisation de 30 jours/mois pour l’amortissement. Pour plus d’informations, consultez la section [Amortissement via le champ Exercice comptable 365 jours](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
 
 
-## Pour valider un amortissement manuellement à partir d’une feuille validation immobilisation
+## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Pour valider un amortissement manuellement à partir d’une feuille validation immobilisation
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille compta. immo.**, puis choisissez le lien associé.  
 2. Créez une feuille comptable initiale et complétez les champs, le cas échéant.  
@@ -61,7 +61,7 @@ Le champ **Valeur comptable** dans la page **Fiche immobilisation** est mis à j
 
 Si vous avez défini des clés de ventilation immobilisation pour ventiler des montants entre plusieurs départements ou plusieurs projets, les montants sont alloués lors de la validation. Pour en savoir plus, voir [Configurer des informations générales sur les immobilisations](fa-how-setup-general.md).  
 
-## Pour gérer la valeur comptable finale
+## <a name="to-manage-the-ending-book-value"></a>Pour gérer la valeur comptable finale
 
 Dans le champ **Valeur comptable finale** de la page **Lois d’amortissement immo.**, vous pouvez spécifier la valeur comptable de votre immobilisation dans la loi d’amortissement actuelle une fois entièrement amortie. Vous pouvez entrer la valeur manuellement ou vous pouvez renseigner le champ **Valeur comptable finale par défaut** dans la page **Loi d’amortissement**. La valeur renseigner automatiquement le champ.
 
@@ -69,7 +69,7 @@ Dans le champ **Valeur comptable finale** de la page **Lois d’amortissement im
 > Si le dernier amortissement entraîne une valeur comptable inférieure à zéro dans le champ **Valeur comptable** de la page **Fiche immobilisation**, ce montant est automatiquement soustrait du dernier amortissement.<br /><br />
 > Si la valeur du champ **Valeur comptable** est supérieure à zéro après le dernier amortissement, par exemple à cause d’un arrondi ou d’une valeur résiduelle, la valeur du champ **Valeur comptable finale** dans la page **Lois d’amortissement immo.** est ignorée. Pour plus d’informations, voir [Pour valider la valeur résiduelle ainsi que le coût d’acquisition](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
-## Pour calculer les ventilations d’immobilisation
+## <a name="to-calculate-allocations-for-a-fixed-asset"></a>Pour calculer les ventilations d’immobilisation
 
 
 1. Sélectionnez ![icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Groupes compta. immo.**, puis choisissez le lien associé.
@@ -82,7 +82,7 @@ Dans le champ **Valeur comptable finale** de la page **Lois d’amortissement im
 > [!NOTE]  
 > Si une immobilisation est utilisée par plusieurs services, vous pouvez sélectionner la dimension sur la ligne du journal du grand livre des immobilisations.
 
-## Utilisez les listes de duplication pour préparer la validation vers plusieurs lois d’amortissement
+## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Utilisez les listes de duplication pour préparer la validation vers plusieurs lois d’amortissement
 
 Lorsque vous renseignez les lignes feuille à valider dans une loi d’amortissement, vous pouvez dupliquer les lignes dans une autre feuille afin de pouvoir valider dans une autre loi d’amortissement. Pour en savoir plus, voir [Pour valider les écritures vers différentes lois d’amortissement](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
@@ -92,7 +92,7 @@ Lorsque vous renseignez les lignes feuille à valider dans une loi d’amortisse
 > [!IMPORTANT]  
 >   Si le champ **Utiliser liste duplication** est sélectionné, n’utilisez pas de souches de numéros sur la feuille. En effet, les souches de numéros pour la feuille validation immobilisation ne correspondent pas aux souches pour la feuille immobilisation.  
 
-## Pour valider des écritures dans plusieurs lois d’amortissement
+## <a name="to-post-entries-to-different-depreciation-books"></a>Pour valider des écritures dans plusieurs lois d’amortissement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Feuille compta. immo.**, puis choisissez le lien associé.  
 2. Dans la feuille avec laquelle vous souhaitez valider l’amortissement, sélectionnez la case **Utiliser liste duplication**.  
@@ -109,7 +109,7 @@ Lorsque vous renseignez les lignes feuille à valider dans une loi d’amortisse
 
 Vous pouvez copier des écritures d’une loi d’amortissement vers une autre à l’aide du traitement par lots **Copier lois d’amortissement**. Le traitement par lots crée des lignes feuille dans la feuille que vous avez indiquée sur la page **Param. feuille immo.** pour la loi d’amortissement vers laquelle vous souhaitez réaliser la copie. Pour en savoir plus, aller [Pour copier des écritures comptables immobilisation entre les lois d’amortissement](#to-copy-fixed-asset-ledger-entries-between-depreciation-books).  
 
-## Pour copier des écritures comptables immobilisation entre les lois d’amortissement
+## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Pour copier des écritures comptables immobilisation entre les lois d’amortissement
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Lois d’amortissement**, puis choisissez le lien associé.  
 2. Ouvrez la fiche loi d’amortissement pertinente, puis sélectionnez l’action **Copier loi d’amortissement**.  
@@ -118,7 +118,7 @@ Vous pouvez copier des écritures d’une loi d’amortissement vers une autre �
 
 Les lignes copiées sont créées dans la feuille comptabilisation immobilisation ou la feuille immobilisation, selon que la loi d’amortissement que vous copiez a été intégrée en comptabilité ou non.  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Immobilisations](fa-manage.md)  
 [Paramétrage d’immobilisations](fa-setup.md)  
