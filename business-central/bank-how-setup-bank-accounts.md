@@ -1,29 +1,27 @@
 ---
-title: Configurer des comptes bancaires (contient une vidéo)
+title: Configuration des comptes bancaires
 description: "Découvrez comment les comptes bancaires sont utilisés dans Business\_Central et comment vous pouvez rapprocher les montants avec votre banque."
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 08/03/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Configuration des comptes bancaires
+# Configuration des comptes bancaires
 
-[!INCLUDE[prod_short](includes/prod_short.md)] vous permet de gérer vos transactions bancaires à l’aide des comptes bancaires. Les comptes peuvent être en devise société ou en devise étrangère. Après avoir configuré des comptes bancaires, vous pouvez aussi utiliser l'option d'impression de chèque. Les comptes bancaires incluent des fonctionnalités supplémentaires pour le [rapprochement des paiements](receivables-apply-payments-auto-reconcile-bank-accounts.md), le [rapprochement bancaire](bank-how-reconcile-bank-accounts-separately.md) et l’import et l’export de fichiers bancaires. Les comptes bancaires peuvent également être inclus dans les transactions en comptabilité. Chaque compte bancaire est lié à un compte du plan comptable via le groupe de comptabilisation du compte bancaire affecté. L’utilisation d’un compte bancaire dans une opération de paiement créera automatiquement une entrée à la fois sur le compte bancaire et sur le compte général connecté.  
+Utiliser [!INCLUDE[prod_short](includes/prod_short.md)] vous permet de gérer vos transactions bancaires à l’aide des comptes bancaires. Les comptes peuvent être en devise société ou en devise étrangère. Après avoir configuré des comptes bancaires, vous pouvez aussi impression de chèque. Les comptes bancaires incluent aussi des fonctionnalités pour le [rapprochement des paiements](receivables-apply-payments-auto-reconcile-bank-accounts.md), le [rapprochement bancaire](bank-how-reconcile-bank-accounts-separately.md) et l’import et l’export de fichiers bancaires.
+
+Les comptes bancaires peuvent également être inclus dans les transactions en feuilles comptabilité. Chaque compte bancaire est lié à un compte du plan comptable via le groupe de comptabilisation du compte bancaire affecté. L’utilisation d’un compte bancaire dans une opération de paiement crée automatiquement une entrée à la fois sur le compte bancaire et sur le compte général connecté.  
 
 Les comptes bancaires fonctionnent différemment selon qu’un code de devise est spécifié :
 
-- Si le code de la devise est vide
-
-  Toutes les transactions sur le compte bancaire seront en devise locale (DS) de l’entreprise actuelle. Si une transaction est effectuée sur le compte dans une autre devise, les montants sont comptabilisés sur le compte en DS sur la base du taux de change de la devise concernée. Tous les chèques émis à partir de ce compte doivent être émis en DS. Si le compte bancaire est utilisé dans un journal, la ligne de journal héritera automatiquement du code devise vide.  
+- Si code devise n’est pas spécifié Toutes les transactions sur le compte bancaire seront en devise locale (DS) de l’entreprise actuelle. Si une transaction est effectuée pour le compte dans une autre devise, les montants sont comptabilisés sur le compte en DS sur la base du taux de change de la devise. Tous les chèques émis à partir de ce compte doivent être en DS. Si le compte bancaire est utilisé dans un journal, la ligne de journal utilise automatiquement du code devise vide.  
   
-- Le code devise est spécifié
-
-  Toutes les transactions effectuées sur ce compte et les chèques émis de ce compte doivent être dans la même devise que celle spécifiée sur le compte.
+- Si code devise spécifié, Toutes les transactions effectuées sur ce compte et tous les chèques émis de ce compte doivent être dans la même devise que celle sur le compte.
 
 Vous pouvez gagner du temps lors de la saisie des données en définissant un compte bancaire comme compte par défaut à utiliser pour la devise spécifiée pour le compte. Dans ce cas, le compte sera affecté aux documents vente et service qui utilisent la devise. Pour définir le compte le compte par défaut pour les documents vente et service, sur la page **Fiche compte bancaire**, activez le bouton bascule **Utiliser par défaut pour la devise**. Si nécessaire, vous pouvez choisir un autre compte lorsque vous travaillez sur un document.
 
@@ -31,22 +29,22 @@ Un compte bancaire fait partie intégrante de [!INCLUDE[prod_short](includes/pro
 
 ![Illustration des relations de compte bancaire.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-Vous pouvez voir que la création d’un compte bancaire le rend disponible dans tous les endroits indiqués ci-dessus et l’indique pour le compte général concerné et sur la page **Informations société**.
+La création d’un compte bancaire le rend disponible dans tous les endroits indiqués illustration et l’indique pour le compte général et sur la page **Informations société**.
 
-Un compte bancaire est généralement surveillé quotidiennement pour s’assurer que tout nouveau paiement des clients est enregistré le plus rapidement possible. Cela permet de s’assurer que le statut réel d’un client est reflété dans [!INCLUDE[prod_short](includes/prod_short.md)]. Cela permet aux commerciaux, comptables et autres employés d’accéder aux informations les plus pertinentes et les plus à jour afin d’éviter d’appeler inutilement le client concernant des factures en souffrance ou des retards d’expédition.  
+Compte bancaire est souvent surveillé quotidiennement pour s’assurer que nouveau paiement des clients est enregistré le plus rapidement possible. Enregistrer paiements vite permet de s’assurer que le statut réel d’un client est reflété dans [!INCLUDE[prod_short](includes/prod_short.md)]. Garder à jour le statut des paiements des clients aide les vendeurs, les comptables et les autres employés à passer des appels inutiles concernant des factures en souffrance ou des retards de livraison.  
 
 ![Illustration du paiement bancaire.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-Une autre tâche consiste à importer les paiements en devise du fournisseur avec les taux de change réalisés pour s’assurer que le statut réel des fournisseurs est à jour. L’utilisation de la fonctionnalité [rapprochement des paiements](receivables-apply-payments-auto-reconcile-bank-accounts.md) est le moyen le plus simple de le faire. Dans la **Feuille rapprochement bancaire**, vous pouvez importer des opérations bancaires directement depuis une application bancaire en ligne et les faire valider plus ou moins automatiquement. Le journal identifie et publie automatiquement les éléments suivants :  
+Une autre tâche consiste à importer les paiements en devise du fournisseur avec les taux de change réalisés pour s’assurer que le statut réel des fournisseurs est à jour. L’utilisation de la fonctionnalité [rapprochement des paiements](receivables-apply-payments-auto-reconcile-bank-accounts.md) est le moyen le plus simple de le faire. Dans la **Feuille rapprochement bancaire**, vous pouvez importer des opérations bancaires directement depuis une application bancaire en ligne et les valider plus ou moins automatiquement. Le journal identifie et publie automatiquement les transactions suivants :  
 
-- Paiements par prélèvement automatique des clients  
-- Paiements clients de factures uniques  
-- Paiements forfaitaires des clients  
-- Paiements client en devises étrangères  
-- Paiements fournisseur  
-- Paiements fournisseur en devise étrangère  
-- Paiements et abonnements récurrents des fournisseurs  
-- Frais bancaires et intérêts  
+- Paiements par prélèvement automatique des clients.  
+- Paiements clients de factures uniques.  
+- Paiements forfaitaires des clients.  
+- Paiements client en devises étrangères.  
+- Paiements fournisseur.  
+- Paiements fournisseur en devise étrangère.  
+- Paiements et abonnements fournisseur récurrents.  
+- Frais bancaires et intérêts.  
 
 Le rapprochement des paiements génère un gain de temps considérable lors de la comptabilisation des paiements entrants et sortants. Cependant, les opérations sur le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)] ne sont pas considérées comme correctes à 100 % tant que vous n’avez pas effectué de rapprochement bancaire.  
 
@@ -54,15 +52,15 @@ Le rapprochement bancaire consiste à s’assurer que le compte bancaire dans [!
 
  ![Illustration du rapprochement bancaire.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-Dans l’illustration ci-dessus, le côté gauche représente le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)], et le côté droit représente les transactions importées de la banque via l’application bancaire en ligne. Le diagramme du milieu montre les transactions des deux côtés, c’est-à-dire le rapprochement bancaire.
+Dans l’illustration, le côté gauche représente le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)], et le côté droit représente les transactions importées de la banque via l’application bancaire en ligne. Le diagramme du milieu montre les transactions des deux côtés, c’est-à-dire le rapprochement bancaire.
 
 Depuis le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)], la plupart des transactions doivent être connues de la banque physique. Les quelques exceptions incluent les cas suivants :  
 
-- Corrections publiées dans [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Chèques émis pas encore encaissés 
-- Paiements fournisseurs qui n’ont pas été approuvés par la banque  
+- Corrections publiées dans [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Chèques émis qui ne sont pas encaissés.
+- Paiements fournisseurs qui n’ont pas été approuvés par la banque.  
 
-Depuis le compte physique en banque, des transactions qui n’ont pas été identifiées dans la feuille rapprochement bancaire arrivent tout le temps, telles que les suivantes :  
+Depuis le compte physique en banque, des transactions qui n’ont pas été identifiées dans la feuille rapprochement bancaire arrivent tout le temps, telles que les transactions suivantes :  
 
 - Nouveaux abonnements fournisseurs  
 - Paiements client sans description
@@ -72,7 +70,7 @@ Depuis le compte physique en banque, des transactions qui n’ont pas été iden
 
 Plus les informations de mappage dans la feuille rapprochement bancaire sont optimales, plus les transactions sont enregistrées automatiquement et plus le rapprochement bancaire périodique devient facile.
 
-Regardez dans la vidéo ci-dessous les étapes de base pour créer un compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)].
+La vidéo ci-dessous les étapes de base pour créer un compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
@@ -81,10 +79,10 @@ Regardez dans la vidéo ci-dessous les étapes de base pour créer un compte ban
 > [!WARNING]
 > Certains champs peuvent contenir des données sensibles, comme les champs **Code établissement**,**N° de compte bancaire**, **Code BIC** et **Code IBAN**. Pour plus d’informations, consultez [Surveiller des champs sensibles](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Pour configurer des comptes bancaires
+## Pour configurer des comptes bancaires
 
 1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 1.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
-2. Sur la page **Comptes bancaires**, sélectionnez l'action **Nouveau**.
+2. Sur la page **Comptes bancaires**, sélectionnez l’action **Nouveau**.
 3. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Par exemple, le champ **Groupe compta. banque** qui connecte le compte bancaire au compte général sous-jacent dans le bilan. Pour plus d’informations, consultez [Configurer les groupes comptabilisation](finance-posting-groups.md).
@@ -151,37 +149,37 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Pour entrer un solde d’ouverture
+## Pour entrer un solde d’ouverture
 
-Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une écriture comptable compte bancaire avec le montant en question. Vous pouvez effectuer cette opération en effectuant un rapprochement bancaire. Pour plus d’informations, consultez [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).  
+Pour renseigner le champ **Solde** avec un solde ouvert, vous devez valider une écriture comptable compte bancaire avec le montant en question. Vous validez l’écriture via un rapprochement de compte bancaire. Pour plus d’informations, consultez [Rapprochement des comptes bancaires](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Sinon, vous pouvez appliquer le solde ouvert dans le cadre de la création des données générales de nouvelles sociétés à l’aide du guide de configuration assistée **Effectuer migration données métier**. En savoir plus, [Préparation aux activités commerciales](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Ne validez pas le solde d’ouverture directement dans la comptabilité. Le fait d’avoir des écritures dans le compte général qui y ont été comptabilisées directement vous empêche généralement de rapprocher le compte bancaire. Avec les comptes bancaires en devise étrangère, une telle pratique entraîne l’accumulation de différences à mesure que vous validez davantage de rapprochements bancaires. En règle générale, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, vous pourrez le contrepasser plus tard en dehors du compte général que vous utilisez pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire (surtout si le compte bancaire est en devise étrangère).
+> Ne validez pas le solde d’ouverture directement dans la comptabilité. Les écritures dans le compte général qui y ont été comptabilisées directement vous empêche généralement de rapprocher le compte bancaire. Avec les comptes bancaires en devise étrangère, validation directe entraîne l’accumulation de différences à mesure que vous validez davantage de rapprochements bancaires. En règle générale, vous comptabilisez le solde bancaire d’ouverture directement sur le compte bancaire, et le montant se retrouve ensuite dans le compte général. Sinon, vous pourrez le contrepasser plus tard en dehors du compte général que vous utilisez pour équilibrer le solde d’ouverture des écritures comptables. Dans les deux cas, vous devez équilibrer toute écriture directe sur le compte général avant de commencer votre premier rapprochement bancaire (surtout si le compte bancaire est en devise étrangère).
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pour configurer votre compte bancaire pour importer ou exporter des fichiers bancaires
+## Pour configurer votre compte bancaire pour importer ou exporter des fichiers bancaires
 
 Les champs associés à l’importation et à l’exportation des flux et des fichiers bancaires se trouvent sur le raccourci **Transfert** de la page **Fiche compte bancaire**. Pour plus d’informations, consultez [Utilisation de l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-1. Sélectionnez l’icône en forme ![d’ampoule qui ouvre la fonction Tell Me 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
-2. Ouvrez la fiche d’un compte bancaire pour lequel vous allez exporter ou importer des fichiers bancaires.
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche 2.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Comptes bancaires**, puis sélectionnez le lien associé.
+2. Ouvrez la fiche d’un compte bancaire pour lequel vous exporter ou importer des fichiers bancaires.
 3. Sur le raccourci **Transfert**, complétez les champs, comme nécessaire. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Différents services d'exportation de fichiers et leurs formats nécessitent des valeurs de configuration différentes sur la page **Fiche compte bancaire**. Vous serez informé si des valeurs de configuration sont manquantes ou fausses lorsque vous exportez le fichier. Lisez les courtes descriptions des champs ou reportez-vous aux rubriques de procédure associées. Par exemple, pour exporter un fichier de paiement pour un transfert électronique de fonds, les champs **Dernier n° avis de remise** et **N° interne** doivent être remplis. Pour plus d’informations, consultez [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Différents services d’exportation de fichiers et leurs formats nécessitent des valeurs de configuration différentes sur la page **Fiche compte bancaire**. Vous serez informé si des valeurs de configuration sont manquantes ou fausses lorsque vous exportez le fichier. Lisez les courtes descriptions des champs ou reportez-vous aux rubriques de procédure associées. Par exemple, pour exporter un fichier de paiement pour un transfert électronique de fonds, les champs **Dernier n° avis de remise** et **N° interne** doivent être remplis. Pour plus d’informations, consultez [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 Les champs sur le raccourci **Transit** sur le compte bancaire servent à des fins différentes, selon que le paiement est entrant ou sortant.
 
-L’illustration ci-dessous montre l’itinéraire des paiements entrants (les numéros dans la description correspondent à ceux de l’illustration) :
+L’illustration suivante montre l’itinéraire des paiements entrants. Les numéros dans la description correspondent aux numéros dans l’illustration.
 
 :::row:::
     :::column:::
 
 1. Les transactions sont exportées depuis le compte bancaire dans un format .csv lisible par l’homme ou dans le propre format de la banque.
-2. La *définition d’échange de données* fait correspondre les informations du fichier aux champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Configurer l’échange de données](across-set-up-data-exchange.md)
-3. La *configuration d’exportation/d’importation de données* définit l’exportation ou l’importation et est liée à la définition de l’échange de données.
-4. Le *format d’importation des relevés bancaires* lie les paramètres de l’importation au compte bancaire.
+2. La définition d’échange de données fait correspondre les informations du fichier aux champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Configurer l’échange de données](across-set-up-data-exchange.md)
+3. La configuration d’exportation/d’importation de données définit l’exportation ou l’importation et est liée à la définition de l’échange de données.
+4. Le format d’importation des relevés bancaires lie les paramètres de l’importation au compte bancaire.
 5. Les paiements sont importés via la page **Feuille rapprochement bancaire** ou la page **Rapprochement des comptes bancaires**.
 
   :::column-end:::
@@ -194,15 +192,15 @@ L’illustration ci-dessous montre l’itinéraire des paiements entrants (les n
 
 Les paiements entrants sont toujours importés via la page **Feuille rapprochement bancaire** ou directement dans la page **Rapprochement des comptes bancaires**. En revanche, les paiements sortants peuvent provenir de n’importe quelle feuille de paiements. La seule condition préalable est que le champ **Autoriser exportation paiement** dans la feuille paiement concerné doit être sélectionné.
 
-L’illustration ci-dessous montre l’itinéraire des paiements sortants (les numéros dans la description correspondent à ceux de l’illustration) :
+L’illustration suivante montre l’itinéraire des paiements sortants. Les numéros dans la description correspondent aux numéros dans l’illustration.
 
 :::row:::
     :::column:::
 
-6. Les transactions sont renseignées dans un journal des paiements qui a été préparé pour l’exportation des paiements vers un fichier.
-7. Le *format d’importation des relevés bancaires* lie les paramètres de l’importation au compte bancaire.
-8. La *configuration d’exportation/d’importation de données* définit l’exportation ou l’importation et est liée à la définition de l’échange de données.
-9. La *définition d’échange de données* fait correspondre les informations du fichier aux champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Configurer les définitions d’échange de données](across-set-up-data-exchange.md)
+6. Les transactions sont renseignées dans un journal des paiements préparé pour l’exportation des paiements vers un fichier.
+7. Le format d’importation des relevés bancaires lie les paramètres de l’importation au compte bancaire.
+8. La configuration d’exportation/d’importation de données définit l’exportation ou l’importation et est liée à la définition de l’échange de données.
+9. La définition d’échange de données fait correspondre les informations du fichier aux champs dans [!INCLUDE[prod_short](includes/prod_short.md)]. Pour plus d’informations, consultez [Configurer les définitions d’échange de données](across-set-up-data-exchange.md)
 10. Les paiements sont exportés du journal des paiements et importés dans le compte bancaire.
 
   :::column-end:::
@@ -213,29 +211,29 @@ L’illustration ci-dessous montre l’itinéraire des paiements sortants (les n
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Pour configurer des comptes bancaires fournisseur pour exporter des fichiers bancaires
+## Pour configurer des comptes bancaires fournisseur pour exporter des fichiers bancaires
 
 Les champs du raccourci **Transfert** de la page **Fiche compte bancaire fourn.** sont associés à l’exportation des flux et des fichiers bancaires. Pour plus d’informations, consultez [Utiliser l’extension AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) et [Exporter des paiements vers un fichier bancaire](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Changer votre compte bancaire
+## Changer votre compte bancaire
 
 Pour utiliser un autre compte bancaire pour votre entreprise, vous devez créer le compte bancaire dans [!INCLUDE[prod_short](includes/prod_short.md)]. Nous vous recommandons de ne pas simplement remplacer les informations sur le compte que vous utilisez actuellement, car cela peut entraîner des données incorrectes. Par exemple, votre solde d’ouverture peut être incorrect ou votre flux bancaire peut cesser de fonctionner correctement. Il est important que vous fassiez la distinction entre comptes actuels et nouveaux comptes.
 
-Après avoir créé le compte bancaire, vous devez également créer un groupe d’écritures bancaires et l’affecter à un nouveau compte général. Vous pouvez réutiliser un groupe comptabilisation bancaire existant et les transactions bancaires seront comptabilisées sur les mêmes comptes généraux que les autres comptes bancaires qui partagent ce groupe comptabilisation bancaire. Cependant, nous vous recommandons de créer un groupe d’écriture bancaire et un nouveau compte général afin que les rapprochements soient plus faciles à faire.
+Après avoir créé le compte bancaire, vous devez également créer un groupe d’écritures bancaires et l’affecter à un nouveau compte général. Vous pouvez réutiliser un groupe comptabilisation bancaire existant et les transactions bancaires sont comptabilisées sur les mêmes comptes généraux que les autres comptes bancaires qui partagent ce groupe comptabilisation bancaire. Cependant, nous vous recommandons de créer un groupe d’écriture bancaire et un nouveau compte général afin que les rapprochements soient plus faciles à faire.
 
 > [!NOTE]
 > N’oubliez pas que les informations de compte bancaire sur les factures de vente ouvertes mentionnent toujours le compte bancaire d’origine. En conséquence, les paiements sont susceptibles d’être toujours enregistrés sur ce compte. Nous vous recommandons de garder les deux comptes actifs pendant un certain temps après le changement.
 
 Pour obtenir une vue plus condensée de vos comptes de trésorerie dans les rapports financiers, utilisez les comptes **Début total** et **Total final** dans votre plan comptable, les lignes **Totalisation** dans les états financiers ou les catégories de comptes généraux. Pour plus d’informations, consultez la section [Vue d’ensemble de Business Intelligence et Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Paramétrage des opérations bancaires](bank-setup-banking.md)  
 [Configuration de groupes comptabilisation](finance-posting-groups.md)  
 [Rapprochement de comptes bancaires](bank-manage-bank-accounts.md)  
-[Configuration du service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
+[Configurer le service Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Prélèvement SEPA dans Business Central](finance-collect-payments-with-sepa-direct-debit.md)  
 [Pour configurer votre compte bancaire pour les prélèvements automatiques SEPA](finance-collect-payments-with-sepa-direct-debit.md#to-set-up-your-bank-account-for-sepa-direct-debit)  
 [Pour configurer un compte bancaire pour les virements SEPA](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-set-up-a-bank-account-for-sepa-credit-transfer)  

@@ -8,18 +8,19 @@ ms.search.keywords: null
 ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="print-the-picking-list"></a>Impression de la liste des prélèvements
+# Impression de la liste des prélèvements
 
 Vous pouvez imprimer une liste des prélèvements de stock directement à partir d’une commande client ou d’autres documents qui déclenchent l’expédition des articles.
 
 Cet état est généralement utilisé dans les entreprises sans fonctionnalité dédiée à la gestion des entrepôts, de sorte qu’un magasinier peut afficher ou imprimer la liste des prélèvements à partir du document de vente associé. Dans les entreprises avec un volume plus élevé ou des processus plus complexes, l’expédition et le prélèvement sont planifiés et effectués dans des documents d’entrepôt dédiés. Learn more at [Flux de désenlogement](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Pour imprimer la liste des prélèvements à partir d’une commande vente
+## Pour imprimer la liste des prélèvements à partir d’une commande vente
 
 La procédure suivante se base sur une commande vente. Les étapes sont similaires pour tous les autres documents pouvant être utilisés pour lancer l’expédition d’articles, par exemple un ordre transfert.
 
-1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Page ou état pour la recherche") entrez **Commandes vente**, puis sélectionnez le lien associé.  
+1. Choisissez l’icône ![age ou état pour la recherche.](media/ui-search/search_small.png "Icône Rechercher une page ou un état") entrez **Commandes vente**, puis sélectionnez le lien associé.  
 2. Ouvrez une commande vente pour laquelle vous souhaitez sélectionner des articles.  
 3. Choisir l’action **Rapport**, puis choisissez l’action **Liste de prélèvement par ordre**.  
 4. Sélectionnez le bouton **Imprimer** pour imprimer la liste de prélèvements, ou le bouton **Aperçu** pour l’afficher à l’écran.
@@ -29,7 +30,7 @@ Vous pouvez également enregistrer la liste des prélèvements en tant que docum
 > [!NOTE]
 > Si vous avez utilisé la fonction **Éclater nomenclature** sur la commande client, seuls les composants de l’élément d’assemblage associé sont affichés dans le rapport. Learn more at [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Stock](inventory-manage-inventory.md)  
 [Flux de désenlogement](design-details-outbound-warehouse-flow.md)

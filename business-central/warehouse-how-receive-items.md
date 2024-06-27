@@ -1,30 +1,30 @@
 ---
-title: Réceptionner des articles
+title: Réception des articles
 description: Cet article est un aperçu des différentes manières de recevoir des articles dans un entrepôt avec une réception entrepôt.
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 09/02/2022
-ms.devlang: al
+ms.date: 06/06/2024
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Réceptionner des articles avec une réception entrepôt
+# Réceptionner des articles avec une réception entrepôt
 
 Dans [!INCLUDE[prod_short](includes/prod_short.md)], vous recevez des articles et les rangez en utilisant l’une des quatre méthodes décrites dans le tableau suivant.
 
 |Méthode|Processus entrant|Réceptions requises|Rangements requis|Niveau de complexité (pour plus d’informations, consultez [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md))|  
 |------------|---------------------|--------------|----------------|------------|  
 |A|Validation de la réception et du rangement à partir de la ligne commande|||Aucune activité entrepôt dédiée.|  
-|B|Validation de la réception et du rangement à partir d'un document de rangement stock||Activé|De base : commande par commande.|  
-|C|Validation de la réception et du rangement à partir d'un document réception entrepôt|Activé||De base : envoi/réception regroupés pour plusieurs commandes.|  
-|J|Validation de la réception d'un document réception entrepôt et validation du rangement à partir d'un document de rangement entrepôt|Activé|Activé|Avancé|  
+|B|Validation de la réception et du rangement à partir d’un document de rangement stock||Activé|De base : commande par commande.|  
+|A|Validation de la réception et du rangement à partir d’un document réception entrepôt|Activé||De base : envoi/réception regroupés pour plusieurs commandes.|  
+|J|Validation de la réception d’un document réception entrepôt et validation du rangement à partir d’un document de rangement entrepôt|Activé|Activé|Avancé|  
 
 Pour en savoir plus sur la gestion des articles entrants, consultez [Flux d’enlogement](design-details-inbound-warehouse-flow.md).
 
 L’article suivant fait référence aux méthodes C et D dans le tableau précédent.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Réceptionner des articles avec une réception entrepôt
+## Réceptionner des articles avec une réception entrepôt
 
 Lorsque les articles arrivent dans un entrepôt configuré pour traiter les réceptions entrepôt, vous devez extraire les lignes du document origine lancé ayant déclenché la réception. Si vous utilisez des emplacements, vous pouvez soit accepter l’emplacement par défaut, soit spécifier l’emplacement dans lequel placer les articles. Ce dernier peut être nécessaire lorsque vous recevez un article pour la première fois. Alors, renseignez les quantités d’articles reçus et validez la réception.  
 
@@ -33,17 +33,17 @@ Vous pouvez créer une réception entrepôt de deux manières :
 * En mode « push », lorsque le travail est effectué commande par commande. Sélectionnez l’action **Créer réception entrepôt** dans le document origine, tel qu’une commande achat, un retour vente ou un ordre de transfert pour créer une réception entrepôt pour un document origine.
 * En mode « pull », où vous utilisez l’action **Lancer** du document origine, action in the source document, tel qu’une commande achat, un retour vente ou un ordre de transfert pour lancer le document dans l’entrepôt. Un magasinier crée une **Réception entrepôt** pour un ou plusieurs documents origine lancés. La procédure suivante décrit comment créer une réception entrepôt en mode « push ». La procédure suivante décrit comment créer une réception entrepôt en mode « pull ».
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
-2. Choisissez l'action **Nouveau**.  
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Réceptions entrepôt**, puis choisissez le lien associé.  
+2. Sélectionnez l’action **Nouveau**.  
 
-    Renseignez le champ **Code magasin** dans le raccourci **Général**. Lorsque vous récupérez des lignes document origine,certaines des informations de l'en-tête sont copiées dans chaque ligne.
+    Renseignez le champ **Code magasin** dans le raccourci **Général**. Lorsque vous récupérez des lignes document origine, certaines des informations de l’en-tête sont copiées dans chaque ligne.
 
     Pour un magasin qui nécessite des emplacements, remplissez le champ **Code emplacement**. Selon votre configuration, [!INCLUDE[prod_short](includes/prod_short.md)] peut ajouter le code emplacement pour vous. Learn more at [Codes zone et emplacement](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
 3. Vous pouvez obtenir le document origine de deux manières :
 
-    1. Choisissez l'action **Extraire documents origine**. La page **Documents origine - Entrant** s’ouvre. Ici, vous pouvez sélectionner un ou plusieurs documents origine lancés dans l’entrepôt qui nécessitent une réception.
-    2. Choisissez l'action **Filtrer pour extr. doc. orig.**. La page **Filtres pour extr. doc. orig. - Entrants** s’ouvre. Ici, vous pouvez sélectionner le filtre de document origine et l’exécuter. Toutes les lignes du document origine lancé qui répondent aux critères de filtre sont ajoutées sur la page **Réception entrepôt**. Learn more at [Procédure : utiliser des filtres afin d’obtenir des documents origine](warehouse-how-receive-items.md#how-to-use-filters-to-get-source-documents).
+    1. Choisissez l’action **Extraire documents origine**. La page **Documents origine - Entrant** s’ouvre. Ici, vous pouvez sélectionner un ou plusieurs documents origine lancés dans l’entrepôt qui nécessitent une réception.
+    2. Choisissez l’action **Filtrer pour extr. doc. orig.**. La page **Filtres pour extr. doc. orig. - Entrants** s’ouvre. Ici, vous pouvez sélectionner le filtre de document origine et l’exécuter. Toutes les lignes du document origine lancé qui répondent aux critères de filtre sont ajoutées sur la page **Réception entrepôt**. Learn more at [Procédure : utiliser des filtres afin d’obtenir des documents origine](warehouse-how-receive-items.md#how-to-use-filters-to-get-source-documents).
 
 4. Définissez la quantité à recevoir.
 
@@ -65,7 +65,7 @@ Vous pouvez créer une réception entrepôt de deux manières :
     > [!NOTE]  
     > Si votre entrepôt utilise le transbordement, vous pouvez vérifier si vous pouvez transborder des articles sans les ranger. Pour en savoir plus sur le transbordement, consultez [Transborder des articles](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Procédure : utiliser des filtres afin d’obtenir des documents origine
+## Procédure : utiliser des filtres afin d’obtenir des documents origine
 
 À partir d’une réception entrepôt, vous pouvez utiliser la page **Filtres pour extr. doc. orig.** afin d’extraire les lignes du document origine lancé qui indiquent les articles à recevoir.
 
@@ -79,9 +79,9 @@ Vous pouvez créer une réception entrepôt de deux manières :
 
 Toutes les lignes du document origine lancé qui répondent aux critères de filtre sont ajoutées sur la page **Réception entrepôt** sur laquelle vous avez activé les filtres.
 
-Le nombre de combinaisons de filtres est illimité. Les filtres sont enregistrés sur la page **Filtres pour extr. doc. orig.** et seront disponibles la prochaine fois que vous en aurez besoin. Vous pouvez modifier les critères à tout moment en choisissant l'action **Modifier**.
+Le nombre de combinaisons de filtres est illimité. Les filtres sont enregistrés sur la page **Filtres pour extr. doc. orig.** et seront disponibles la prochaine fois que vous en aurez besoin. Vous pouvez modifier les critères à tout moment en choisissant l’action **Modifier**.
 
-## <a name="zone-and-bin-codes"></a>Codes zone et emplacement
+## Codes zone et emplacement
 
 Pour réceptionner des articles portant des codes classe entrepôt différents du code classe de l’emplacement indiqué dans le champ **Code emplacement** de l’en-tête du document, effacez la valeur du champ **Code emplacement** de l’en-tête avant d’extraire les lignes des documents origine des articles.  
 <!-- TBD, table with comparison of various options-->
@@ -91,7 +91,7 @@ Si des emplacements sont obligatoires pour un magasin, les codes zone et emplace
 * Pour les configurations avancées qui utilisent le rangement et le prélèvement dirigés, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement réception de la page **Fiche magasin** du magasin. Si aucun code emplacement réception n’est spécifié, aucun emplacement n’est spécifié. Si l’article et les emplacements de réception ne correspondent pas, le code emplacement réception est vide.
 * Dans d’autres configurations, si aucun code emplacement réception n’est spécifié, [!INCLUDE [prod_short](includes/prod_short.md)] utilise le code emplacement du document origine.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Vue d’ensemble de la gestion des entrepôts](design-details-warehouse-management.md)
 [Stock](inventory-manage-inventory.md)  

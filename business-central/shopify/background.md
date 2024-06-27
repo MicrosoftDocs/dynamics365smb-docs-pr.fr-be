@@ -1,30 +1,31 @@
 ---
 title: Exécuter des tâches en arrière-plan et de manière récurrente
 description: Configurer la synchronisation des données entre Business Central et Shopify en arrière-plan.
-ms.date: 03/26/2024
+ms.date: 05/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
-# <a name="run-tasks-in-the-background"></a>Exécution des tâches en arrière-plan
+# Exécution des tâches en arrière-plan
 
 Il est efficace d’exécuter certaines tâches simultanément et de manière automatisée. Vous pouvez effectuer ces tâches en arrière-plan et également définir un calendrier pour les exécuter automatiquement. Pour exécuter des tâches en arrière-plan, deux modes sont pris en charge :
 
 - Les tâches déclenchées manuellement sont planifiées immédiatement via **Écritures file d’attente des travaux**.
 - Les tâches récurrentes sont planifiées dans **Écritures file d’attente des travaux**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Exécuter des tâches en arrière-plan pour un magasin spécifique
+## Exécuter des tâches en arrière-plan pour un magasin spécifique
 
-1. Sélectionnez ![l’icône Ampoule qui ouvre la fenêtre de recherche.](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") saisissez **Magasin Shopify**, puis sélectionnez le lien associé.
+1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](../media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), saisissez **Magasin Shopify**, puis sélectionnez le lien associé.
 2. Sélectionnez le magasin pour lequel vous voulez exécuter la synchronisation à l’arrière-plan pour ouvrir la page **Fiche magasin Shopify**.
 3. Activez **Autoriser les synchronisations en arrière-plan**.
 
 Désormais, lorsque l’action de synchronisation démarre, au lieu d’exécuter une tâche au premier plan, vous serez invité à attendre. Une fois la synchronisation terminée, vous pouvez passer à l’action suivante. La tâche est créée comme **Écriture file d’attente des travaux** et démarre immédiatement.
 
-## <a name="to-schedule-recurring-tasks"></a>Pour programmer des tâches récurrentes
+## Pour programmer des tâches récurrentes
 
 Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soient exécutées de manière automatisée. Pour plus d’informations sur la planification des tâches, voir [File d’attente](../admin-job-queues-schedule-tasks.md).
 
@@ -43,7 +44,9 @@ Vous pouvez programmer les activités récurrentes suivantes pour qu’elles soi
 |**Sync. prix catalogue**|État 30116 Shopify Sync. prix catalogue (B2B)|
 
 > [!NOTE]
-> Certains éléments peuvent être mis à jour par plusieurs tâches. Par exemple lorsque vous importez des commandes, selon le paramétrage dans la **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. N’oubliez pas d’utiliser la même catégorie de file d’attente pour éviter les conflits.
+> Certains éléments peuvent être mis à jour par plusieurs tâches. Par exemple lorsque vous importez des commandes, selon le paramétrage dans la page **fiche magasin Shopify**, le système peut également importer et mettre à jour des données client et/ou produit. Pour éviter les conflits N’oubliez pas d’utiliser la même catégorie de file d’attente.
+>
+> Utilisez le **Page de demande de rapport** action pour définir des filtres. Par exemple, vous pouvez spécifier que vous importez les commandes uniquement lorsque leur statut est **Entièrement payé**.
 
 Autres tâches pouvant être utiles pour automatiser le traitement ultérieur des documents de vente :
 
@@ -54,7 +57,7 @@ Vous pouvez utiliser le champ **N° de commande Shopify** pour identifier les do
 
 Pour en savoir plus sur la validation de commandes client par lot, accédez à [Pour créer une entrée de file d’attente de tâches pour la validation par lots de commandes client](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="to-check-the-status-of-synchronization"></a>Pour examiner le statut de la synchronisation
+## Pour examiner le statut de la synchronisation
 
 Sur le **Chef d’entreprise** Centre de rôle, le **Shopify Activités** La pièce propose plusieurs indices qui peuvent vous aider à identifier rapidement s’il y a des problèmes avec Shopify Connecteur.
 
@@ -65,6 +68,6 @@ Sur le **Chef d’entreprise** Centre de rôle, le **Shopify Activités** La pi�
 - **Erreurs d’expédition** : Shopify Le connecteur n’a pas pu synchroniser les expéditions de ventes publiées avec Shopify.
 - **Erreurs de synchronisation** : Il y a des entrées de file d’attente de travaux ayant échoué liées à la synchronisation avec Shopify.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Mise en route avec le connecteur Shopify](get-started.md)  

@@ -1,62 +1,65 @@
 ---
-title: Créer des fiches article pour des biens ou des services (contient une vidéo)
+title: Créer des fiches article pour des biens ou des services
 description: Vous créez des fiches article pour les services que vous vendez en heures et pour les produits physiques. Les exemples incluent les éléments d’assemblage et les produits finis que vous vendez à partir de votre inventaire.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Enregistrer de nouveaux articles
+# Enregistrement des nouveaux articles
 
-Les articles, entre autres produits, sont la base de votre activité, les biens ou les services que vous commercialisez. Chaque article doit être enregistré en tant que fiche article.
+Les articles sont les biens ou services que vous achetez, stockez, vendez, livrez et dont vous prenez en compte. Utilisez le **Carte d’article** page pour enregistrer des informations sur les types d’éléments suivants :
 
-Les fiches article contiennent les informations nécessaires à l'achat, le stockage, la vente, la livraison et la comptabilisation des articles.
+* **Inventaire** spécifie que l’article est une unité physique que vous gérez et suivez dans l’inventaire.
+* **Hors inventaire** sont des unités physiques que vous ne gérez pas ou ne suivez pas dans l’inventaire.
+* **Service** les articles sont une unité de temps de travail, généralement utilisée dans la gestion des services.
 
-La fiche article peut être de type **Stock**, **Service** ou **Hors stock** pour spécifier si l’article est une unité de stock physique, une unité de temps de travail ou une unité physique qui n’est pas suivie dans le stock. Pour plus d'informations sur les types, voir [À propos des types d'articles](inventory-about-item-types.md).
+Pour en savoir plus sur ces types d'articles, accédez à [À propos des types d’articles](inventory-about-item-types.md).
 
-Un article peut être structuré comme article parent avec les éléments enfants sous-jacents dans une nomenclature. En savoir plus sur les nomenclatures d’élément d’assemblage et les nomenclatures de production dans la section [Utiliser les nomenclatures](inventory-how-work-BOMs.md).
+> [!TIP]
+> Il existe également des articles de catalogue, qui sont similaires aux articles hors stock dans la mesure où ce sont des articles que vous proposez aux clients mais que vous ne gérez pas tant que vous ne les vendez pas. Pour en savoir plus, consultez [Utiliser les articles catalogue](inventory-how-work-nonstock-items.md).  
 
-Si vous achetez le même article chez plusieurs fournisseurs, vous pouvez lier ces fournisseurs à la fiche article. La page **Catalogue fournisseur articles** affiche les fournisseurs, de sorte que vous pouvez facilement sélectionner un autre fournisseur.
+## Fournisseurs principaux et alternatifs
 
-Les *Articles de catalogue* sont des articles que vous offrez à vos clients, mais que vous ne souhaitez pas gérer dans votre système tant que vous ne les commercialisez pas. Les articles de catalogue ne sont pas des articles normaux de type **Hors-stock**. En savoir plus sur [Utiliser des éléments de catalogue](inventory-how-work-nonstock-items.md).  
+Si vous achetez le même article chez plusieurs fournisseurs, vous pouvez lier ces fournisseurs à la article. Utilisez le **Vendeurs** action sur le **Carte d’article** page pour ouvrir le **Catalogue des fournisseurs d’articles** page. La page affiche les fournisseurs auprès desquels vous achetez l’article, afin que vous puissiez facilement créer ou sélectionner un autre fournisseur lorsque vous créez un bon de commande.
 
-> [!NOTE]  
-> Si des modèles article existent pour différents types d'articles, une page s'affiche automatiquement lorsque vous créez une nouvelle fiche article à partir de laquelle vous pouvez sélectionner un modèle article approprié. Si un seul modèle article existe, les nouvelles fiches article utiliseront toujours ce modèle.
+## Utiliser modèles article
 
-La procédure suivante explique comment créer une fiche article à partir de zéro. Vous pouvez également créer de nouvelles fiches d'objets en copiant celles existantes. Pour plus d'informations, voir [Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md).  
+Pour réutiliser les paramètres de différents types d’éléments lorsque vous créez de nouveaux éléments, vous pouvez enregistrer les éléments en tant que modèles d’élément. Les modèles d’articles permettent d’accélérer le processus d’ajout de nouveaux articles et d’améliorer la cohérence de vos données d’articles. Lorsque vous enregistrez un nouvel élément, une page apparaît qui vous permet de choisir un modèle. Après avoir choisi un modèle, ses paramètres sont renseignés pour vous sur l’élément que vous créez. Si vous avez un seul modèle article, les nouvelles article utiliseront toujours ce modèle. Pour savoir comment configurer un modèle d’élément, accédez à [Enregistrer une fiche article en tant que modèle d’article](#save-an-item-card-as-an-item-template).
 
-<br />
+## Inclure des éléments dans les nomenclatures
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Vous pouvez structurer des hiérarchies comportant un article principal avec des éléments de composants sous-jacents dans les nomenclatures d’assemblage et de production. Pour en savoir plus sur les nomenclatures, consultez [Utilisation des nomenclatures](inventory-how-work-BOMs.md).
 
 ## Pour créer une fiche article
+
+La vidéo suivant montre la manière dont un article est paramétrée sur la fiche article. Toutefois, vous pouvez également configurer de nouvelles articles en copiant celles existantes. Pour plus d’informations, aller [Copier des articles existants pour créer de nouveaux articles](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> Dans le champ **Mode évaluation stock**, vous configurez la façon dont le coût unitaire de l'article est calculé en estimant le flux d'articles dans votre société. Il existe cinq modes évaluation stock disponibles, selon le type d'article. Pour plus d'informations, [Détails de conception : modes évaluation stock](design-details-costing-methods.md).
+> Dans le champ **Mode évaluation stock**, vous configurez la façon dont le coût unitaire de l’article est calculé en estimant le flux d’articles dans votre société. Il existe cinq modes évaluation stock disponibles, selon le type d’article. Pour en savoir plus sur coûts des stocks, accédez à [Détails de conception : Méthodes Évaluation des coûts](design-details-costing-methods.md).
 >
-> Si vous sélectionnez **Moyenne**, le coût unitaire de l’article est calculé comme le coût unitaire moyen à chaque moment après un achat. Le stock est évalué avec la supposition que tous les stocks sont vendus simultanément. Avec ce paramètre, vous pouvez choisir le champ **Coût unitaire**, sur la page **Aperçu calc. coût moyen** de la fiche article pour afficher l'historique des transactions à partir duquel est calculé le coût moyen
+> Si vous sélectionnez **Moyenne**, le coût unitaire de l’article est calculé comme le coût unitaire moyen à chaque moment après un achat. Le stock est évalué avec la supposition que tous les stocks sont vendus simultanément. Avec ce paramètre, vous pouvez choisir le champ **Coût unitaire**, sur la page **Aperçu calc. coût moyen** de la fiche article pour afficher des transactions pour calculé le coût moyen.
 
-Vous pouvez afficher ou modifier les prix spécifiques ou les remises accordées, ou que votre vendeur vous accorde, pour l’article si certains critères sont réunis, par exemple le client, la quantité minimum commande ou la date de fin. Pour ce faire, choisissez les actions **Définir les prix spéciaux** ou **Définir les remises spéciales**. Chaque ligne de la page **Prix de vente**, par exemple, représente un prix spécial. Chaque colonne représente un critère qui doit s’appliquer pour accorder à un client le prix spécial que vous entrez dans le champ **Prix unitaire** de la page **Prix de vente**. Pour plus d’informations, voir [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md) ou [Enregistrer les prix d’achat spéciaux et les remises](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Vous pouvez utiliser des prix spéciaux ou des remises que vous ou votre fournisseur accordez pour l’article en fonction de certains critères. Par exemple, les critères incluent le client, la quantité minimale de commande ou la date de fin. Configurez les prix spéciaux choisissez les actions **Définir les prix spéciaux** ou **Définir les remises spéciales**. Chaque ligne de la page **Prix de vente**, par exemple, représente un prix spécial. Chaque colonne représente un critère qui doit s’appliquer pour accorder à un client le prix spécial que vous entrez dans le champ **Prix unitaire** de la page **Prix de vente**. Pour plus d’informations sur les prix, voir [Enregistrement des prix de vente, des remises et des accords sur les paiements](sales-how-record-sales-price-discount-payment-agreements.md) ou [Enregistrer les prix d’achat spéciaux et les remises](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-L'article est désormais enregistré, et la fiche article est prête à être utilisée sur les documents d'achat et de vente.
+### Enregistrer la fiche article en tant que modèle article
 
-Si vous souhaitez utiliser cette fiche article comme modèle lorsque vous créez de nouvelles fiches article, enregistrez-la comme modèle. Pour plus d'informations, reportez-vous à la section suivantes.  
-
-### Pour enregistrer la fiche article en tant que modèle
-
-1. Sur la page **Fiche article**, sélectionnez l'action **Sauvegarder comme modèle**. La page **Modèle article** s'ouvre et affiche la fiche article comme modèle.
+1. Sur la page **Fiche article**, sélectionnez l’action **Sauvegarder comme modèle**. La page **Modèle article** affiche la fiche article comme modèle.
 2. Renseignez les champs selon vos besoins. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l'action **Axes analytiques**. La page **Modèles axe** s'ouvre et affiche tous les codes axe qui sont définis pour l'article.
-4. Modifiez ou entrez les codes axe s’appliquant aux nouvelles fiches article créées à l’aide du modèle.
-5. Lorsque vous terminez le nouveau modèle article, cliquez sur le bouton **OK**.
 
-Le modèle article est ajouté à la liste des modèles article. Vous pouvez ainsi l'utiliser pour créer des fiches article.
+> [!TIP]
+> Vous pouvez également réutiliser les dimensions des éléments. Pour réutiliser les axes analytiques dans les modèles, sélectionnez l’action **Axes analytiques**. La page **Modèles axe** s’ouvre et affiche les axe analytique qui sont définis pour l’article. Modifiez ou ajoutez des dimensions qui s’appliquent aux nouveaux éléments que vous créez à partir du modèle.
+
+Le modèle article est ajouté à la liste des modèles article. Vous pouvez ainsi l’utiliser pour créer des fiches article.
 
 ### Articles utilisés dans les ordres de fabrication
 
@@ -66,12 +69,12 @@ Si vous souhaitez enregistrer des articles qui sont ensuite utilisés dans des o
 
 Si vous achetez le même article chez plusieurs fournisseurs, vous devez saisir, pour chacun des fournisseurs de cet article des informations concernant, par exemple, ses prix, ses délais, ses escomptes, etc.  
 
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
-2. Sélectionnez l'article concerné, puis cliquez sur l'action **Modifier**.  
-3. Sélectionnez l'action **Fournisseurs**.  
-4. Cliquez sur le champ **N° fournisseur**, puis sélectionnez le fournisseur à paramétrer pour l'article.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
+2. Sélectionnez l’article concerné, puis cliquez sur l’action **Modifier**.  
+3. Sélectionnez l’action **Fournisseurs**.  
+4. Cliquez sur le champ **N° fournisseur**, puis sélectionnez le fournisseur à paramétrer pour l’article.  
 5. De manière facultative, renseignez les autres champs.  
-6. Répétez les étapes 2 à 5 pour chaque fournisseur auprès de qui vous souhaitez acheter l'article.
+6. Répétez les étapes 2 à 5 pour chaque fournisseur auprès de qui vous souhaitez acheter l’article.
 
 Les fournisseurs s’affichent maintenant sur la page **Catalogue fournisseur articles** (que vous ouvrez à partir de la fiche article), de sorte que vous pouvez facilement sélectionner un autre fournisseur.
 
@@ -81,7 +84,7 @@ Vous pouvez configurer des articles pour qu’ils aient des substituts, tels que
 
 ### Pour affecter le statut de substitut à un article
 
-1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Articles**, puis choisissez le lien associé.  
+1. Sélectionnez l’icône en forme ![d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Articles**, puis choisissez le lien associé.  
 2. Recherchez l’article concerné, puis cliquez sur le **N° article** pour ouvrir la fiche article.  
 3. Choisissez l’action **Association**, puis sélectionnez **Article**, puis **Substitutions** pour ouvrir la page **Saisie de substitution d’article**.  
 4. Sélectionnez le champ **N° substitut**, puis sélectionnez l’article de substitution dans la liste.
@@ -106,9 +109,9 @@ Si vous enregistré une transaction pour un article, vous ne pouvez pas supprime
 
 Lorsque vous enregistrez un nouvel article, vous verrez des champs liés à la gestion de l’entrepôt, en particulier sur le raccourci **Entrepôt**. Si votre organisation n’utilise pas les fonctionnalités de gestion d’entrepôt dans [!INCLUDE [prod_short](includes/prod_short.md)], vous pouvez alors ignorer ces champs.  
 
-Si votre organisation configure ultérieurement la gestion des entrepôts, nous vous recommandons de vous assurer que chaque article existant possède les bonnes informations dans les différents champs. De cette façon, les processus d’entrepôt peuvent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d'informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
+Si votre organisation configure ultérieurement la gestion des entrepôts, nous vous recommandons de vous assurer que chaque article existant possède les bonnes informations dans les différents champs. De cette façon, les processus d’entrepôt peuvent s’exécuter comme prévu. Ces informations peuvent inclure des champs, tels que **Code classe entrepôt** ou **Code modèle rangement**. Pour plus d’informations, voir [Configuration de la gestion des entrepôts](warehouse-setup-warehouse.md).  
 
-## Planning
+## Planification
 
 Lorsque votre entreprise utilise les processus de planification des approvisionnements dans [!INCLUDE [prod_short](includes/prod_short.md)], vous devez remplir les champs correspondants sur le raccourci **Planification**. Pour une introduction à la zone de planification, voir [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md).  
 
@@ -120,17 +123,17 @@ Pour des exemples d’utilisation des champs du raccourci **Planification**, voi
 [Configuration des unités de mesure](inventory-how-setup-units-of-measure.md)  
 [Gestion des variantes de produits](inventory-item-variants.md)  
 [Paramétrer les états intracommunautaires](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
-[Rapprochement des coûts et de la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Rapprocher l’évaluation stock avec la comptabilité](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Création des souches de numéros](ui-create-number-series.md)  
 [Configuration de groupes comptabilisation](finance-posting-groups.md)  
 [Achats](purchasing-manage-purchasing.md)  
 [Ventes](sales-manage-sales.md)  
 [À propos de la fonctionnalité Planification](production-about-planning-functionality.md)  
-[Configuration des meilleures pratiques : paramètres de planification](setup-best-practices-planning-parameters.md)  
-[Pratiques de configuration recommandées : planification de l'approvisionnement](setup-best-practices-supply-planning.md)  
+[Pratiques de configuration recommandées : paramètres de planification](setup-best-practices-planning-parameters.md)  
+[Pratiques de configuration recommandées : planification de l’approvisionnement](setup-best-practices-supply-planning.md)  
 [Détails de conception : concepts centraux du système de planification](design-details-central-concepts-of-the-planning-system.md)  
 [Détails de conception : équilibrage de la demande et de l’approvisionnement](design-details-balancing-demand-and-supply.md)  
-[Détails de conception : Paramètres de planification](design-details-planning-parameters.md)  
+[Détails de conception : paramètres de planification](design-details-planning-parameters.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

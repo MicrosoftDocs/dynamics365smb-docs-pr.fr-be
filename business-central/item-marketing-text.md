@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Avec Copilot, vous obtenez rapidement une suggestion de texte automatiquement g�
 
 Copilot est conçu pour vous faire gagner du temps et vous aider à rédiger des textes créatifs et attrayants qui reflètent votre marque et sont cohérents dans toute votre gamme de produits. Commencez par générer une suggestion, puis modifiez le texte suggéré si nécessaire.
 
+### Langues disponibles
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Conditions préalables
 
-- La fonctionnalité de suggestions de texte marketing est activée sur votre environnement. Cette tâche est généralement effectuée par un administrateur. Pour plus d’informations, accédez à [Configurer Copilot et les capacités IA](enable-ai.md).
-- Vous utilisez l’une des langues actuellement prises en charge par les suggestions de texte marketing.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Pour modifier la langue, dans le coin supérieur droit, sélectionnez l’icône **Paramètres** ![Paramètres](media/ui-experience/settings_icon_small.png "Icône Paramètres du tableau de bord") > **Mes paramètres** > **Langue**. Pour plus d’informations, consultez [Modifier les paramètres de base](ui-change-basic-settings.md#language).
-- Consultez la [FAQ sur les suggestions de textes marketing](faqs-marketing-text.md) pour découvrir comment l’IA est appliquée.
+La fonctionnalité de suggestions de texte marketing est activée sur votre environnement. Cette tâche est généralement effectuée par un administrateur. Pour plus d’informations, accédez à [Configurer Copilot et les capacités IA](enable-ai.md).
 
 ### Créer un premier brouillon avec Copilot
 
@@ -101,7 +99,7 @@ Vous pouvez effectuer quelques étapes pour améliorer les suggestions de texte 
    Les suggestions Copilot sont basées en partie sur les attributs affectés à l’article. Pour afficher les attributs disponibles et les paramètres actuels, sélectionnez l’icône Modifier ![Affiche l’icône de modification dans la fenêtre Copilot pour modifier les attributs](media/edit-pencil.png) dans le coin supérieur gauche. Sur la page **Attributs d’article**, choisissez les attributs qui correspondent le mieux aux caractéristiques que vous souhaitez promouvoir. Plus vous incluez d’attributs pertinents, plus le résultat est riche. Si vous pensez qu’il vous manque des attributs clés, ajoutez-en d’autres. Pour en savoir plus sur les attributs, consultez [Utiliser les attributs d’article](inventory-how-work-item-attributes.md).
 1. Modifiez vos paramètres de préférences pour les options **Ton**, **Format** et **Accent**.
 
-   |Option|Description|
+   |Option|Désignation|
    |-|-|
    |Ton |Utilisez cette option pour influencer le type de mots, d’expressions et de ponctuation utilisés pour engager le public cible. Vous pouvez choisir parmi plusieurs tons de voix prédéfinis, allant de **Formel** (ce qui donne un ton professionnel) à **Créatif** (ce qui se traduit par un ton informel). |
    |Format et longueur|Utilisez cette option pour contrôler la structure générale du texte, qui se compose de trois parties, couvertes par quatre options différentes : <ul><li>**Slogan** – Une expression accrocheuse ou une courte phrase qui identifie l’article ou la marque.</li><li>**Paragraphe** – Un seul paragraphe de texte fluide et détaillé, composé de plusieurs phrases complètes.</li><li>**Slogan + Paragraphe** – Un slogan suivi d’un paragraphe</li><li>**Brève** – Une phrase d’introduction, semblable à un slogan, suivie d’une liste à puces des principaux points d’intérêt.</li></ul> |
