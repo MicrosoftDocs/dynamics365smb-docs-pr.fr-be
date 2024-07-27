@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [État du contrôle de la TVA](LocalFunctionality/Czech/vat-control-report.md)
 ##### [États TVA](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Correction TVA en devise locale](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [TVA non déductible](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Déclaration d’échanges de biens](LocalFunctionality/Czech/intrastat.md)
 ##### [Déclaration d’échanges de biens pour le tchèque (extension)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Immobilisations
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Fonctionnalité locale dans la version américaine](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Taxe
 ##### [Configuration taxe de base](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Génération de déclarations de taxes sur les ventes aux États-Unis](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Taxe de vente aux États-Unis](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduction aux formulaires IRS 1099 et à ses fonctionnalités](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Configuration et utilisation du formulaire IRS 1099 pour la version 24 (1 ère vague de lancement 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Utilisation des formulaires IRS 1099](LocalFunctionality/UnitedStates/how-to-1099-use.md)
