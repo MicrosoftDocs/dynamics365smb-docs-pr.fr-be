@@ -1,36 +1,36 @@
 ---
-title: Utilisation de la fonction Transférer la différence vers un compte pour rapprocher les paiements
-description: 'Décrit comment traiter les paiements qui ne peuvent pas être lettrés dans un document, par exemple lorsqu''un taux de change entraîne un changement de montants.'
+title: Utilisation de la fonction de transfert de différence vers le compte pour rapprocher les paiements
+description: 'Décrit comment traiter les paiements qui ne peuvent pas être appliqués à un document, par exemple, lorsqu’un taux de change entraîne une différence de montants.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, cash receipts'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 04/01/2021
+ms.date: 07/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="reconcile-payments-that-cant-be-applied-automatically"></a>Rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
-Vous serez parfois amené à gérer des paiements sur votre compte bancaire, qui ne peuvent pas être lettrés à un client, un fournisseur ou une écriture comptable compte bancaire ouvertes associées. Les motifs peuvent être qu’il n’existe dans [!INCLUDE[prod_short](includes/prod_short.md)] aucun document auquel le paiement puisse être lettré, ou que le document associé dans [!INCLUDE[prod_short](includes/prod_short.md)] affiche un montant différent du montant de la transaction, par exemple, en raison du taux de change. Sur la page **Feuille rapprochement bancaire**, tous les montants de transaction pour les paiements qui n'ont pas encore été lettrés s'affichent dans le champ **Différence**, y compris les montants qui ne peuvent pas être lettrés pour des motifs tels que celui qui précède.
+# Rapprocher les paiements qui ne peuvent pas être appliqués automatiquement
+Vous devrez peut-être parfois gérer des paiements sur votre compte bancaire qui ne peuvent pas être appliqués à une écriture ouverte de compte client, de fournisseur ou de compte bancaire associée. Les raisons peuvent être qu’aucun document n’existe dans [!INCLUDE[prod_short](includes/prod_short.md)] auquel le paiement peut être appliqué, ou que le document associé dans [!INCLUDE[prod_short](includes/prod_short.md)] a un montant différent du montant de la transaction, par exemple, en raison d’un taux de change. Sur la page **Journal de rapprochement des paiements**, tous les montants de transaction pour les paiements qui ne sont pas encore appliqués apparaissent dans le champ **Différence**, y compris les montants qui ne peuvent pas être appliqués pour des raisons telles que celles mentionnées ci-dessus.
 
 Méthodes de résolution de ces types de paiements non lettrés :
 * Lettrer manuellement
 * Utiliser le mappage de texte à compte
 * Transférez un montant excédentaire vers une ligne feuille pour créer et valider l’écriture requise, comme le remboursement d’un trop-perçu.
 
-Les paiements qui ne peuvent pas être lettrés peuvent apparaître sur les lignes feuille rapprochement bancaire pour les raisons suivantes :
+Les paiements qui ne peuvent pas être appliqués peuvent apparaître sur les lignes du journal de rapprochement des paiements de différentes manières :
 
 * La valeur du champ **Différence** est égale à celle du champ **Montant transaction**, ce qui indique qu'aucune partie du paiement ne peut être lettrée à une écriture comptable client, fournisseur ou compte bancaire ouverte associée.
-* La valeur du champ **Différence** est inférieure à celle du champ **Montant transaction**, ce qui indique qu'une partie du paiement peut être lettrée à une écriture comptable client, fournisseur ou compte bancaire ouverte associée. La partie restante du paiement ne peut pas être lettrée et doit être rapprochée manuellement ou en la validant directement sur un compte.
+* La valeur du champ **Différence** est inférieure à celle du champ **Montant transaction**, ce qui indique qu'une partie du paiement peut être lettrée à une écriture comptable client, fournisseur ou compte bancaire ouverte associée. La partie restante du paiement ne peut pas être appliquée et doit être rapprochée manuellement ou en la publiant directement sur un compte.
 
 Pour rapprocher de tels paiements, vous pouvez choisir l’action **Transférer la différence vers un compte**, puis spécifier sur quel compte le montant du champ **Différence** sera validé lorsque vous validez la feuille rapprochement bancaire. Vous pouvez le faire soit à partir de la page **Feuille rapprochement bancaire** ou à partir de la page **Révision lettrage paiement** que vous ouvrez en choisissant la valeur dans le champ **Fiabilité correspondance** ou en choisissant le champ **Différence**.
 
 > [!TIP]  
 >   Il existe une fonctionnalité similaire permettant de configurer le rapprochement automatique des paiements récurrents qui ne peuvent pas être lettrés aux écritures comptables client, fournisseur ou compte bancaire ouvertes associées. Pour plus d'informations, reportez-vous à [Mapper du texte sur les paiements récurrents aux comptes pour un rapprochement automatique](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cant-be-applied-automatically"></a>Pour rapprocher les paiements qui ne peuvent pas être lettrés automatiquement
-1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
+## Pour rapprocher les paiements qui ne peuvent pas être appliqués automatiquement
+1. Choisissez l’![icône en forme d’ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Feuilles rapprochement bancaire**, puis sélectionnez le lien associé.
 2. Ouvrez une feuille de rapprochement de paiement. Pour plus d'informations, voir [Rapprocher les paiements à l'aide du lettrage automatique](receivables-how-reconcile-payments-auto-application.md).
 3. Sélectionnez l'action **Transférer la différence vers un compte**. La page **Transférer la différence vers un compte** s'ouvre.
 4. Dans le champ **Type compte**, spécifiez le type de compte sur lequel le montant du paiement sera validé.
@@ -42,7 +42,7 @@ Si la valeur du champ **Différence** est égale à la valeur du champ **Montant
 
 Si la valeur du champ **Différence** était inférieure à la valeur du champ **Montant transaction**, une ligne feuille supplémentaire est créée avec le même texte et la même date et avec la différence insérée dans le champ **Montant transaction**. Sur la ligne feuille d'origine, la différence est déduite de la valeur du champ **Montant transaction**, et le paiement demeure lettré à son écriture comptable client, fournisseur ou compte bancaire associée. Lorsque vous validez la feuille rapprochement bancaire, une partie du paiement est validée en tant que paiement lettré. L'autre partie du paiement est validée directement dans le compte spécifié.
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 [Gestion des comptes client](receivables-manage-receivables.md)  
 [Ventes](sales-manage-sales.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
