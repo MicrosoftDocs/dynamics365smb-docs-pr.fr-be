@@ -28,7 +28,7 @@ Les sections suivantes décrivent comment :
 3. Dans le champ **Date fin**, entrez la dernière date que vous voulez définir pour la période inventaire. Une fois la période clôturée, vous ne pouvez plus valider de modifications de stock antérieures à cette date.  
 4. Saisissez un nom descriptif dans le champ **Nom**. Cliquez sur le bouton **OK**.  
 
-## <a name="closing-inventory-periods"></a>Clôture de périodes inventaire
+## <a name="to-close-inventory-periods"></a>Clôture de périodes inventaire
 
 Le champ **Clôturé** indique si la période inventaire est clôturée ou non sur des modifications de valeur de stock. Vous ne pouvez pas modifier ce champ.  
 

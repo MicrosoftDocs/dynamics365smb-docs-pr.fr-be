@@ -11,7 +11,7 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide d’états financiers
+# <a name="walkthrough-make-cash-flow-forecasts-using-financial-reports"></a>Procédure pas-à-pas : créer des prévisions de trésorerie à l’aide d’états financiers
 
 Cette procédure pas-à-pas décrit le mode d’utilisation d’états financiers pour élaborer des prévisions de trésorerie. Les états financiers procèdent aux calculs qui ne peuvent pas être effectués directement dans le plan comptable de trésorerie. Dans les états financiers, vous pouvez configurer des sous-totaux pour les réceptions et les décaissements de trésorerie. Ces sous-totaux peuvent être inclus dans les nouveaux totaux pour élaborer des prévisions de trésorerie.  
 
@@ -42,11 +42,11 @@ Cette procédure pas à pas présente les tâches effectuées par le rôle utili
 
 Ken est un contrôleur chez CRONUS, chargé d'élaborer des prévisions mensuelles de trésorerie. Ken inclut les finances, les ventes, les achats et les immobilisations dans les prévisions, et les présente à CFO Sara dans un souci de visibilité commerciale.  
 
-## <a name="setting-up-a-new-financial-report-name"></a>Configuration d’un nouveau nom de l’état financier
+## <a name="set-up-a-new-financial-report-name"></a>Configuration d’un nouveau nom de l’état financier
 
 Le nom de l’état financier est le nom que vous donnez à la prévision de flux de trésorerie qui comprend une série de lignes définies et une définition de colonne.  
 
-### <a name="set-up-a-new-financial-report-name"></a>Configurer un nouveau nom de l’état financier
+### <a name="set-up-a-new-financial-report-name-1"></a>Configurer un nouveau nom de l’état financier
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **États financiers**, puis choisissez le lien associé.  
 2. Sur la page **États financiers**, choisissez **Nouveau** pour créer un nom d’état financier de flux de trésorerie.  
@@ -54,11 +54,11 @@ Le nom de l’état financier est le nom que vous donnez à la prévision de flu
 4. Dans le champ **Description**, entrez **Prévision de trésorerie**.  
 5. Laissez les champs **Définition de ligne** et **Définition de colonne** vides.
 
-## <a name="setting-up-row-definition-lines"></a>Configuration des lignes de définition de ligne
+## <a name="set-up-row-definition-lines"></a>Configuration des lignes de définition de ligne
 
 Une fois le nom de l’état financier défini, Ken définit chaque ligne de l’état financier sur les flux de trésorerie. Ken définit les lignes qui peuvent être affichées dans les états en plus des lignes destinées uniquement au calcul.  
 
-### <a name="set-up-row-definition-lines"></a>Configuration des lignes de définition de ligne
+### <a name="set-up-row-definition-lines-1"></a>Configuration des lignes de définition de ligne
 
 1. Sur la page **États financiers**, sélectionnez le nouvel état financier **Prévision** que vous avez créé, puis choisissez l’action **Modifier la définition de ligne**.  
 2. Sur la page **Définition de ligne**, entrez chaque ligne comme indiqué dans le tableau suivant.  
@@ -94,7 +94,7 @@ Une fois le nom de l’état financier défini, Ken définit chaque ligne de l�
     > [!NOTE]
     > Le numéro de ligne R10 est utilisé pour capturer les totaux du compte client. Le numéro de ligne R20 est utilisé pour calculer la somme de tous les règlements. Le numéro de ligne R30 est utilisé pour capturer les totaux du compte fournisseur. Le numéro de ligne R40 est utilisé pour calculer la somme de tous les décaissements. Le numéro de ligne R50 est utilisé pour calculer la somme des excédents. Le numéro de ligne R60 est utilisé pour capturer les fonds liquides. Le numéro de ligne R70 est utilisé pour calculer la trésorerie prévue.
 
-## <a name="setting-up-a-new-column-definition"></a>Configuration d’une nouvelle définition de colonne
+## <a name="set-up-a-new-column-definition"></a>Configuration d’une nouvelle définition de colonne
 
 Avant de pouvoir imprimer les prévisions de trésorerie, Ken doit créer la définition de colonne pour les informations numériques. Dans les colonnes, Ken définit les informations qu’il souhaite utiliser dans les lignes.
 
@@ -103,7 +103,7 @@ Avant de pouvoir imprimer les prévisions de trésorerie, Ken doit créer la dé
 - La troisième colonne porte le numéro *C30* avec l’intitulé **Exercice comptable** et indique le solde de la période dans les soldes pour l’exercice comptable.  
 - Pour finir, Ken définit la définition de colonne par défaut pour l’état financier **Prévision**.  
 
-### <a name="set-up-a-new-column-definition"></a>Configurer une nouvelle définition de colonne
+### <a name="set-up-a-new-column-definition-1"></a>Configurer une nouvelle définition de colonne
 
 1. Sur la page **États financiers**, sélectionnez le nom du nouvel état financier **Prévision** que vous venez de créer. Sous l’onglet **Accueil**, dans le groupe **Processus**, choisissez **Modifier la définition de colonne**.
 
@@ -119,7 +119,7 @@ Avant de pouvoir imprimer les prévisions de trésorerie, Ken doit créer la dé
     |C20|Montant jusque date|Solde au|Écritures|Montant net|Toujours|  
     |C30|Exercice comptable complet|Exercice comptable complet|Écritures|Montant net|Toujours|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Affectation d’une définition de colonne à un nom d’état financier
+## <a name="assig-the-column-definition-to-the-financial-report-name"></a>Affectation d’une définition de colonne à un nom d’état financier
 
 Ken est désormais prêt à affecter la définition de colonne au nom d’état financier.  
 

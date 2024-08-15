@@ -24,7 +24,7 @@ Un autre exemple consiste à configurer un axe analytique appelé *Département*
 * Le nom du vendeur.
 * Le nom du client qui l’a acheté.
 
-## <a name="analyzing-by-dimensions"></a>Analyse par axe analytique
+## <a name="analyze-by-dimensions"></a>Analyse par axe analytique
 
 La fonctionnalité Axes analytiques joue un rôle important dans la veille économique, par exemple en définissant des vues d’analyse. Pour plus d’informations, consultez [Analyse des données par axe analytique](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Un ensemble de dimensions est une combinaison unique de sections analytiques. El
 
 Lorsque vous créez une ligne de feuille, un en-tête de document ou une ligne de document, vous pouvez spécifier une combinaison de sections analytiques. Au lieu d'enregistrer explicitement chaque section analytique dans la base de données, un ID d'ensemble de dimensions est affecté à la ligne de feuille, à l'en-tête du document ou à la ligne du document pour spécifier l'ensemble de dimensions.  
 
-## <a name="setting-up-dimensions"></a>Configuration d’axes analytiques
+## <a name="set-up-dimensions"></a>Configuration d’axes analytiques
 
 Vous pouvez définir les axes et les sections analytiques pour classer des feuilles et des documents par catégorie, comme des commandes vente et achat. La page **Axes analytiques** permet de créer une ligne pour chaque axe, par exemple *Projet*, *Département*, *Zone* et *Commercial*.
 

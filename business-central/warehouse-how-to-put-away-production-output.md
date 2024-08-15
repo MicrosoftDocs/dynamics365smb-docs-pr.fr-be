@@ -33,7 +33,7 @@ La première étape du rangement de la production consiste à créer la demande 
 > [!NOTE]  
 > Vous pouvez également créer la demande d’enlogement entrepôt en choisissant le champ **Créer demande d’enlogement** lors de l’actualisation de l’ordre de fabrication. Learn more at [Actualiser ou replanifier des ordres de fabrication](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Pour ranger la production avec un rangement stock
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Pour ranger la production avec un rangement stock
 
 1. Sélectionnez ![l’icône en forme d’Ampoule qui ouvre la fenêtre de recherche](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Rangement stock**, puis choisissez le lien associé.  
 2. Créez un rangement stock. Learn more at [Ranger des articles avec le rangement stock](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ Lorsque vous validez un rangement stock, il est supposé que toutes les opérati
 
 Si vous devez juste valider le temps d’exécution ou de préparation de la dernière opération, définissez la quantité produite de la dernière opération sur 0. Vous pouvez également choisir de ne pas valider la dernière ligne en la supprimant.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Pour ranger l’assemblage et la production dans les configurations de stockage avancées
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Pour ranger l’assemblage et la production dans les configurations de stockage avancées
 
 Lorsque vous validez l’ordre de fabrication ou d’assemblage dans un entrepôt qui utilise le prélèvement et le rangement dirigés, la production est placée dans l’emplacement défini dans l’ordre de fabrication ou d’assemblage. Pour en savoir plus sur les différentes manières de déplacer des articles dans l’entrepôt avec des configurations avancées, consultez [Déplacer des articles dans les configurations de stockage avancées](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

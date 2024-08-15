@@ -28,7 +28,7 @@ Pour chaque cible d'affectation, vous définissez une base de ventilation. La ba
 
 Le tableau suivant décrit une série de tâches et inclut des liens vers les rubriques qui les décrivent.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Configuration de la source et des cibles d'affectation
+## <a name="set-up-allocation-source-and-targets"></a>Configuration de la source et des cibles d'affectation
 
 Chaque affectation comporte une source et au moins une cible. La source d'affectation définit les coûts à affecter. Les cibles d'affectation déterminent où affecter ces coûts.  
 
@@ -50,11 +50,11 @@ Chaque affectation comporte une source et au moins une cible. La source d'affect
 > [!NOTE]  
 > Cochez la case **Bloqué** pour désactiver la configuration de l'affectation.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Définition de filtres pour les bases de ventilation dynamique
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Définition de filtres pour les bases de ventilation dynamique
 
 Le mode de ventilation dynamique dépend des valeurs modifiables. Par exemple, le nombre de salariés dans un centre de coûts ou le nombre d'articles vendus d'un coût associé pour une période donnée. Il existe neuf bases de ventilation prédéfinies et douze plages de dates dynamiques. Vous définissez plusieurs filtres en fonction de la base de ventilation.  
 
-### <a name="setting-filters"></a>Définition des filtres
+### <a name="set-filters"></a>Définition des filtres
 
 Le tableau suivant affiche les filtres applicables aux diverses bases de ventilation et les valeurs valides dans les champs **Filtre n°** et **Filtre groupe**. Sélectionnez <kbd>F1</kbd> dans le champ **Code filtre date** pour lire les descriptions détaillées.  
 

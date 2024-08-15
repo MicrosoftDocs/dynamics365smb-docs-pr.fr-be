@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# Gestion des comptes client
+# <a name="managing-receivables"></a>Gestion des comptes client
 
 Une étape régulière de tout rythme financier consiste à rapprocher les comptes bancaires. Pour clôturer les factures de vente et acheter des avoirs comme payés, vous imputez les paiements entrants aux écritures comptables du client ou du fournisseur.
 
@@ -41,7 +41,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Configurer une valeur de tolérance selon laquelle le système clôt une facture même si le règlement, tenant compte d’éventuelles remises, ne couvre pas intégralement le montant de la facture.|[Utilisation des écarts de règlement et des écarts d’escompte](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Prévoyez quand les paiements seront exécutés en retard pour les documents vente. | [Extension Prédictions de retard de paiement](ui-extensions-late-payment-prediction.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 [Ventes](sales-manage-sales.md)  
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Utiliser [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

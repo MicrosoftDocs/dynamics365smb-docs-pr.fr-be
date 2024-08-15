@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Utilisation des écarts de règlement et des écarts d’escompte
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Utilisation des écarts de règlement et des écarts d’escompte
 
 Vous pouvez configurer l’écart de règlement de manière à fermer une facture lorsque le paiement ne couvre pas entièrement le montant de la facture. Par exemple, les écarts de règlement concernent généralement de petits montants qui coûteraient plus cher à corriger qu’à accepter. Vous pouvez configurer un écart de règlement pour accorder un escompte après la date d’escompte.  
 
@@ -18,7 +18,7 @@ Vous pouvez utiliser les écarts de règlement pour qu’un écart de règlement
 
 Vous pouvez paramétrer des écarts d’escompte au cas où vous accepteriez un escompte après la date d’escompte, alors il est toujours validé dans le escompte ou dans un compte écart de règlement.
 
-## Lettrage de l’écart de règlement sur plusieurs documents
+## <a name="applying-payment-tolerance-to-multiple-documents"></a>Lettrage de l’écart de règlement sur plusieurs documents
 
 Un document unique comporte le même écart de règlement, qu’il soit lettré seul ou avec d’autres documents. L’acceptation d’un escompte tardif, lorsque vous appliquez l’écart de règlement à plusieurs documents, se produit automatiquement pour chaque document où la règle suivante est vraie :  
 
@@ -36,7 +36,7 @@ Vous pouvez afficher une alerte en fonction des situations relatives à l'écart
 
 Pour plus d'informations, voir [Pour activer ou désactiver l'alerte d'écart de règlement](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## Pour configurer les écarts
+## <a name="to-set-up-tolerances"></a>Pour configurer les écarts
 
 L’écart au niveau des jours et des montants vous permet de fermer une facture même si le paiement ne couvre pas entièrement le montant de la facture. Par exemple, parce que la date d’échéance de l’escompte de paiement a dépassée, des marchandises ont été déduites ou à cause d’une erreur mineure. Ce principe est également vrai pour les remboursements et les avoirs.  
 
@@ -70,7 +70,7 @@ Pour configurer l'écart, vous devez configurer plusieurs comptes écart, spéci
 > [!IMPORTANT]  
 > Lorsque vous activez le champ **Ajuster pour escompte** sur la page **Paramètres comptabilisation TVA**, le montant de la TVA est pris en compte puisqu’il est associé aux montants **Écarts de paiement** et **Escomptes**, et la TVA sera déduite pour les deux montants de transaction, s’ils existent. Le système ne peut pas être configuré pour utiliser la réduction de TVA uniquement pour un type de transaction.  
 
-## Pour activer ou désactiver les alertes d'écart de règlement
+## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Pour activer ou désactiver les alertes d'écart de règlement
 
 L'alerte écart règlement apparaît lorsque vous validez un lettrage dont le solde se situe dans l'écart autorisé. Vous pouvez alors choisir comment valider et journaliser le solde.
 
@@ -80,7 +80,7 @@ L'alerte écart règlement apparaît lorsque vous validez un lettrage dont le so
 > [!NOTE]  
 > L'option par défaut de la page **Alerte écart de règlement** est **Laisser le solde ouvert**. L’option par défaut de la page **Alerte écart d’escompte** est **Ne pas accepter d’escompte tardif**.
 
-## Pour bloquer l'écart règlement pour des clients
+## <a name="to-block-payment-tolerance-for-customers"></a>Pour bloquer l'écart règlement pour des clients
 
 Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart règlement à un certain client ou fournisseur, bloquer l’écart sur la fiche fournisseur ou client appropriée. Ce qui suit décrit l’exécuter pour un client. La procédure est identique pour un fournisseur.
 
@@ -90,7 +90,7 @@ Par défaut, un écart règlement est accordé. Pour ne pas accorder un écart r
 > [!NOTE]  
 > Si le client ou le fournisseur possède des écritures ouvertes, vous devez d'abord supprimer l'écart règlement des écritures actuellement ouvertes.
 
-## Exemple 1 – Calculs de l’écart pour un seul document
+## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exemple 1 – Calculs de l’écart pour un seul document
 
 Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d'écart qui sont effectués dans différentes situations.  
 
@@ -125,11 +125,11 @@ Scénarios comportant deux alternatives, A et B :
 |14|1 000|20|5|15/01/03|20/01/03|>20/01/03|980|Aucune|Non, 20 sur la facture|0|0|  
 |15|1 000|20|5|15/01/03|20/01/03|>20/01/03|975|Aucune|Non, 25 sur la facture|0|0|  
 
-### Schémas de chaîne de paiement
+### <a name="payment-range-diagrams"></a>Schémas de chaîne de paiement
 
 Sur la base du scénario, les diagrammes des plages de dates de règlement se présentent sous la forme suivante :  
 
-#### (1) Date de règlement <=15/01/03 (scénarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Date de règlement <=15/01/03 (scénarios 1-3)
 
 Montant ouvert par  
 
@@ -141,7 +141,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### (2) La date de règlement est comprise entre le 16/01/03 et le 20/01/03 (scénarios 4-9).
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) La date de règlement est comprise entre le 16/01/03 et le 20/01/03 (scénarios 4-9).
 
 Montant ouvert par  
 
@@ -153,7 +153,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### (3) La date de règlement est située après le 20/01/03 (scénarios 10-15).
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) La date de règlement est située après le 20/01/03 (scénarios 10-15).
 
 Montant ouvert par  
 
@@ -165,7 +165,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-## Exemple 2 – Calculs de l’écart pour plusieurs documents
+## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Exemple 2 – Calculs de l’écart pour plusieurs documents
 
 Voici quelques exemples de scénarios illustrant les calculs et comptabilisations d'écart qui sont effectués dans différentes situations. Ces exemples se limitent aux scénarios permettant à toutes les écritures du lettrage d’être clôturées.  
 
@@ -213,11 +213,11 @@ Scénarios comportant deux alternatives, A, B, C ou D. En voici la signification
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15/01/03** <br />**17/01/03**|**20/01/03** <br />**22/01/03**|**>22/01/03**|**2000**|**Aucun**|**Oui**|**0**|**0**|  
 |30|1 000 <br />1 000|60 <br />30|5 <br />5|15/01/03 <br />17/01/03|20/01/03 <br />22/01/03|>22/01/03|1990|PaymentTolerance|Oui|0|5|  
 
-### Schémas de chaîne de paiement
+### <a name="payment-range-diagrams-1"></a>Schémas de chaîne de paiement
 
 Sur la base du scénario, les diagrammes des plages de dates de règlement se présentent sous la forme suivante :  
 
-#### (1) Date de règlement <=15/01/03 (scénarios 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Date de règlement <=15/01/03 (scénarios 1-3)
 
 Montant ouvert par  
 
@@ -229,7 +229,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### (2) La date de règlement est comprise entre le 16/01/03 et le 17/01/03 (scénarios 4-9).
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) La date de règlement est comprise entre le 16/01/03 et le 17/01/03 (scénarios 4-9).
 
 Montant ouvert par  
 
@@ -241,7 +241,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### (3) La date de règlement est comprise entre le 18/01/03 et le 20/01/03 (scénarios 10-21).
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) La date de règlement est comprise entre le 18/01/03 et le 20/01/03 (scénarios 10-21).
 
 Montant ouvert par  
 
@@ -253,7 +253,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### (4) La date de règlement est comprise entre le 21/01/03 et le 22/01/03 (scénarios 22-27).
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) La date de règlement est comprise entre le 21/01/03 et le 22/01/03 (scénarios 22-27).
 
 Montant ouvert par  
 
@@ -265,7 +265,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.  
 
-#### (5) La date de règlement est située après le 22/01/03 (scénarios 28-30).
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) La date de règlement est située après le 22/01/03 (scénarios 28-30).
 
 Montant ouvert par  
 
@@ -277,7 +277,7 @@ Règles d'application normales
 
 (2) Si le règlement intervient dans l’une de ces plages, toutes les écritures lettrage ne peuvent pas être clôturées, même avec un écart.
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Finances](finance.md)  
 [Configuration de Finance](finance-setup-finance.md)  

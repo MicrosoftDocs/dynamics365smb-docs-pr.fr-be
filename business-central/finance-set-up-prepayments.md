@@ -11,7 +11,7 @@ ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Configuration des acomptes
+# <a name="set-up-prepayments"></a>Configuration des acomptes
 
 Vous utilisez les paiements anticipés lorsque :
 
@@ -36,7 +36,7 @@ Le montant prépayé appartient à l’acheteur jusqu’à ce qu’il reçoive l
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## Ajouter des comptes acompte aux paramètres comptabilisation  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Ajouter des comptes acompte aux paramètres comptabilisation
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Paramètres comptabilisation**, puis choisissez le lien associé.
 2. Sur la page **Paramètres comptabilisation**, renseignez les champs suivants pour les lignes appropriées :  
@@ -46,7 +46,7 @@ Le montant prépayé appartient à l’acheteur jusqu’à ce qu’il reçoive l
 
 Si vous n’avez pas encore configuré de comptes généraux pour les acomptes, vous pouvez ouvrir la page **Liste des comptes généraux** à partir du champ du compte correspondant.  
 
-## Configurer des souches de numéros pour des documents acompte  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Configurer des souches de numéros pour des documents acompte
 
 1. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Paramètres ventes**, puis choisissez le lien associé.
 2. Sur la page **Paramètres ventes**, sur le raccourci **Souches de numéros**, remplissez les champs suivants :  
@@ -63,7 +63,7 @@ Si vous n’avez pas encore configuré de comptes généraux pour les acomptes, 
 > [!NOTE]  
 > Vous pouvez utiliser les mêmes souches de numéros pour des factures acompte et des factures normales, ou utiliser des souches de numéros différentes. Si vous utilisez des souches différentes, elles ne doivent pas se chevaucher car vous ne pouvez pas avoir des numéros identiques dans les deux souches.  
 
-## Pour configurer des pourcentages d'acompte pour des articles, des clients et des fournisseurs
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Pour configurer des pourcentages d'acompte pour des articles, des clients et des fournisseurs
 
 Pour un article, vous pouvez configurer un pourcentage d'acompte par défaut pour tous les clients, pour un client spécifique ou pour un groupe prix client. Si vous ne souhaitez pas appliquer le même pourcentage d’acompte à tous les clients, vous devez spécifier à quels clients ou à quels groupes de prix client s’applique le pourcentage d’acompte.
 
@@ -81,7 +81,7 @@ Pour un client ou un fournisseur, vous pouvez configurer un pourcentage d'acompt
 > [!TIP]
 > Vous pouvez également accéder à la page **Pourcentages acompte vente** à partir de la carte client ou fournisseur.
 
-### Pour déterminer quel pourcentage d'acompte a la priorité  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Pour déterminer quel pourcentage d'acompte a la priorité
 
 Une commande peut avoir un pourcentage d’acompte dans l’en-tête vente et un autre pourcentage pour les articles figurant dans les lignes. Pour déterminer quel pourcentage d’acompte s’applique à chaque ligne vente, [!INCLUDE [prod_short](includes/prod_short.md)] recherche le pourcentage d’acompte dans l’ordre suivant et applique la première pourcentage par défaut qu’il trouve :  
 
@@ -92,7 +92,7 @@ Une commande peut avoir un pourcentage d’acompte dans l’en-tête vente et un
 
 Autrement dit, le pourcentage d’acompte figurant dans la fiche client ne s’applique que si aucun pourcentage d’acompte n’est configuré pour l’article. Toutefois, si vous modifiez le contenu du champ **% acompte** dans l’en-tête vente ou achat après avoir créé les lignes, le pourcentage d’acompte figurant dans toutes les lignes est mis à jour. La mise à jour facilite la création d’une commande avec un pourcentage d’acompte fixe, quel que soit le pourcentage configuré pour les articles.
 
-## Pour lancer automatiquement les commandes vente lorsque des acomptes sont appliqués
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Pour lancer automatiquement les commandes vente lorsque des acomptes sont appliqués
 
 Vous pouvez gagner du temps en configurant une écriture file d’attente de travaux qui validera automatiquement les commandes vente nécessitant un paiement anticipé une fois les paiements appliqués. L’automatisation du processus vous évite l’étape de validation de la commande vente.
 
@@ -105,7 +105,7 @@ Vous pouvez gagner du temps en configurant une écriture file d’attente de tra
 3. Sélectionnez l’icône ![en forme d’Ampoule qui ouvre la fenêtre de recherche.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") entrez **Écritures file d’attente des travaux**, puis sélectionnez le lien associé.
 4. Configurez l’écriture file d’attente des travaux **Mise à jour En attente Acompte Ventes**, par exemple, en utilisant les paramètres du raccourci **Récurrence** pour programmer la fréquence à laquelle vous souhaitez qu’il s’exécute. Pour plus d'informations, voir [Utiliser des files d'attente des travaux pour planifier des tâches](admin-job-queues-schedule-tasks.md).
 
-## Voir aussi  
+## <a name="see-also"></a>Voir aussi
 
 [Facturation d'acomptes](finance-invoice-prepayments.md)  
 [Procédure pas à pas : configuration et facturation d'acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

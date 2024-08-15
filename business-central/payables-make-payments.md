@@ -11,7 +11,7 @@ ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Exécution des paiements
+# <a name="make-payments"></a>Exécution des paiements
 
 Vous effectuez des paiements aux fournisseurs ou aux clients, ou des remboursements aux salariés, en validez les lignes paiement sur la page **Feuille paiement**. La feuille paiement est une feuille comptabilité qui est optimisée pour effectuer les paiements et offre beaucoup d'actions puissantes. Par exemple, le **Suggérer des paiements au fournisseur** action qui recherche les paiements des fournisseurs qui sont dus, et le **Fournisseur – Récapitulatif de l’ancienneté** rapport qui montre un aperçu des paiements fournisseurs dus.  
 
@@ -35,7 +35,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 | Payez un fournisseur en liquide ou par chèque et validez le paiement lorsque vous validez la facture. |[Établir rapidement des factures achat](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Assurez-vous que la banque efface uniquement les chèques et les montants validés en envoyant un fichier contenant des informations de paiement, du chèque et du fournisseur. |[Exportation du fichier Positive Pay](finance-how-positive-pay.md) |
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Gestion des comptes fournisseur](payables-manage-payables.md)  
 [Achats](purchasing-manage-purchasing.md)  

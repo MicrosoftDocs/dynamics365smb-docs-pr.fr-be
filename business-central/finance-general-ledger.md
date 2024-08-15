@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Comprendre la comptabilité et le plan comptable
 
 La comptabilité (comptes généraux) stocke vos données financières, et le plan comptable (COA) affiche les comptes sur lesquels valider toutes les écritures comptables. [!INCLUDE[prod_short](includes/prod_short.md)] inclut un plan comptable standard prêt à prendre en charge votre société.
 

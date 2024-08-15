@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Facturation des acomptes
+# <a name="invoicing-prepayments"></a>Facturation des acomptes
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -30,7 +30,7 @@ Le tableau suivant décrit une série de tâches et inclut des liens vers les ar
 |Créer une commande, ajuster des montants acompte et émettre une facture pour les montants acompte.|[Créer des factures d'acompte](finance-how-to-create-prepayment-invoices.md)|  
 |Émettre une facture acompte supplémentaire, pour des articles supplémentaires ou pour un acompte supplémentaire dans la commande originale, ou émettre un avoir acompte.|[Correction des acomptes](finance-how-to-correct-prepayments.md)|  
 
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Procédure pas à pas : configuration et facturation d'acomptes](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finances](finance.md)  

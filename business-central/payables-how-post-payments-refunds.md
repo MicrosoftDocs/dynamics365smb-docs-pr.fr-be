@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ---
-# Enregistrer les paiements et remboursements dans la feuille paiement
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Enregistrer les paiements et remboursements dans la feuille paiement
 
 Sur la page **Journaux de paiement**, vous enregistrez les paiements que vous effectuez aux fournisseurs et les remboursements que vous effectuez aux clients. Lorsque vous validez une ligne feuille paiement, le montant payé est enregistré sur le compte bancaire spécifié. Vous devez ensuite effectuer des actions pour procéder au transfert d'argent réel à partir du compte bancaire associé.  
 
@@ -29,7 +29,7 @@ Les feuilles paiement sont une feuille comptabilité optimisée pour effectuer l
 
     Outre l'enregistrement du paiement, vous pouvez également utiliser la page **Feuille paiement** pour générer le paiement à des fins de traitement par votre banque. Pour plus d’informations, allez [Effectuer des paiements par chèque](payables-how-work-checks.md) et [Effectuer des paiements électroniques](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Pour effectuer des paiements dans la feuille paiement
+## <a name="to-make-payments-in-the-payment-journal"></a>Pour effectuer des paiements dans la feuille paiement
 
 1. Sélectionnez l’icône ![Ampoule qui ouvre la fonction Tell Me.](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire") , entrez **Feuilles paiement**, puis choisissez le lien associé.
 2. Ouvrez la feuille utilisée aux paiements.
@@ -40,7 +40,7 @@ Les feuilles paiement sont une feuille comptabilité optimisée pour effectuer l
 5. Sinon, utilisez la action **Proposer paiements fournisseur**. Tous les montants et informations de lettrage sont également saisis sur les lignes feuille. Pour en savoir plus, rendez-vous sur [Suggérer des paiements au fournisseur](payables-how-suggest-vendor-payments.md).
 6. Lorsque toutes les lignes feuille paiement sont renseignées, cliquez sur **Valider**.
 
-## Pour émettre un chèque de remboursement
+## <a name="to-issue-a-refund-check"></a>Pour émettre un chèque de remboursement
 
 1. Choisissez l’icône ![Ampoule qui ouvre la fonction Tell Me](media/ui-search/search_small.png "Dites-moi ce que vous voulez faire"), entrez **Feuilles paiement**, puis sélectionnez le lien associé.
 2. Dans le champ **Type document**, sélectionnez **Remboursement**.  
@@ -53,7 +53,7 @@ Les feuilles paiement sont une feuille comptabilité optimisée pour effectuer l
 9. Dans le champ **N° doc. lettrage**, sélectionnez les documents nécessitant un remboursement.  
 10. Lorsque toutes les lignes du journal des paiements sont remplies, choisissez l’action **Valider/Imprimer**, puis choisissez l’action **Valider et imprimer** puis **Oui**.  
   
-## Voir aussi
+## <a name="see-also"></a>Voir aussi
 
 [Exécution des paiements par chèque](payables-how-work-checks.md)  
 [Désignation des paiements électroniques](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

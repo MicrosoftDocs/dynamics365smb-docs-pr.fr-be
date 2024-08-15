@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Dépannage et correction des axes analytiques
+# <a name="troubleshoot-and-correct-dimensions"></a>Dépannage et correction des axes analytiques
 
 Les rapports financiers et les vues d′analyse reposent souvent sur les données des axes analytiques. Malgré les garanties disponibles, il se produit parfois une erreur pouvant entraîner des imprécisions. Cette article décrit certaines erreurs classiques et explique comment corriger les affectations d′axes analytiques sur les transactions validées afin que les rapports financiers soient précis.
 
@@ -45,14 +45,14 @@ Si vous découvrez qu’une dimension incorrecte sur les écritures comptables c
 > [!IMPORTANT]
 > Les fonctionnalités de correction des axes analytiques visent uniquement à rendre les rapports financiers précis. Les corrections d′axes analytiques s′appliquent uniquement aux entrées comptables. Ils ne modifient pas les axes analytiques affectés aux autres écritures comptables pour la même transaction. Un problème de correspondance existe entre les axes analytiques affectés dans les écritures comptables et dans les grands livres auxiliaires.
 
-### <a name="setting-up-dimension-corrections"></a>Paramétrage des corrections des axes analytiques
+### <a name="set-up-dimension-corrections"></a>Paramétrage des corrections des axes analytiques
 
 Il y a deux choses à prendre en compte lors de la configuration des corrections d’axe analytique :
 
 * Y a-t-il des axes analytiques que vous ne souhaitez pas permettre aux gens de changer ? Sur la page **Paramètres de correction d’axes analytiques**, spécifiez les axes analytiques que vous souhaitez bloquer pour les modifications.
 * Qui peut changer les Axes analytiques ? Pour autoriser les utilisateurs à apporter des modifications, attribuez l’autorisation **CORRECTION AXE D365** aux utilisateurs. Les autorisations leur permettent de créer des corrections d’axes analytiques, de les exécuter et de les annuler si nécessaire. Ils peuvent également spécifier des axes analytiques bloqués. Pour en savoir plus, voir [Attribuer des autorisations aux utilisateurs et aux groupes](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Correction d’un axe analytique
+### <a name="correct-a-dimension"></a>Correction d’un axe analytique
 
 Vous pouvez sélectionner manuellement une ou plusieurs écritures comptables ou utiliser des filtres pour sélectionner des séries d’entrées. Si nécessaire, vous pouvez également ajouter ou supprimer des axes analytiques. 
 
@@ -82,13 +82,13 @@ Vous pouvez sélectionner manuellement une ou plusieurs écritures comptables ou
 5. Pour valider que la correction, choisissez **Valider les changements d’axes analytiques**. Pour plus d′informations, voir [Validation des corrections d′axes analytiques](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Choisir **Exécuter**.
 
-### <a name="validating-dimension-corrections"></a>Validation des corrections d’axes analytiques
+### <a name="validate-dimension-corrections"></a>Validation des corrections d’axes analytiques
 
 Avant d’exécuter une correction, il est conseillé de la valider d’abord. La validation vérifie les restrictions sur la comptabilisation des valeurs pour les comptes généraux, les restrictions pour les axes analytiques et si les valeurs des axes analytiques sont bloquées. Lors de la validation, le statut de la correction est défini sur **Validation en cours**. Après avoir validé une correction, le résultat s’affiche dans le champ **Statut de validation**. Si des erreurs ont été trouvées, vous pouvez utiliser l’action **Afficher les erreurs** pour les enquêter. Après avoir corrigé une erreur, vous devez utiliser l’action **Rouvrir** pour exécuter la correction ou une nouvelle validation.
 
 Vous pouvez soit exécuter une correction immédiatement, soit la planifier pour une exécution ultérieure. Si vous exécutez des corrections sur un jeu de données volumineux, nous vous recommandons de le planifier pour qu’il s’exécute en dehors des heures ouvrables. Pour plus d′informations, voir [Corrections d′axes analytiques sur des jeux de données volumineux](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Annuler une correction
+### <a name="undo-a-correction"></a>Annuler une correction
 
 Après avoir corrigé un axe analytique, si vous n’aimez pas ce que vous voyez, vous pouvez utiliser l’action **Annuler** pour réinitialiser la valeur précédente. Cependant, vous ne pouvez annuler que la correction la plus récente. Avant d’annuler une correction, vous pouvez valider les modifications que l’action d'annulation apporte. Par exemple, la validation est utile si les restrictions d’axes analytiques ont changé après la correction.
 
@@ -102,11 +102,11 @@ Soyez prudent lorsque vous corrigez de grands ensembles d’entrées, par exempl
 
 Si **Mise à jour sur la publication** est activé pour une vue d’analyse, [!INCLUDE[prod_short](includes/prod_short.md)] peut mettre à jour la vue lorsque les documents et les journaux sont publiés. Vous pouvez également mettre à jour les vues avec ce paramètre activé avec les résultats des corrections d’axes analytiques. Pour ce faire, activez le bouton de basculement **Mettre à jour les vues d’analyse**. La mise à jour des vues d’analyse peut affecter sur les performances, en particulier pour les grands jeux de données, c’est pourquoi nous vous recommandons de mettre à jour les vues d’analyse uniquement pour les petits jeux de données.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Affichage des corrections de axes analytiques historiques
+### <a name="view-historical-dimension-corrections"></a>Affichage des corrections de axes analytiques historiques
 
 Si une écriture comptable a été corrigée, vous pouvez étudier la modification en utilisant l’action **Historique des corrections d’axes analytiques**.
 
-### <a name="handling-incomplete-corrections"></a>Traitement des corrections incomplètes
+### <a name="handle-incomplete-corrections"></a>Traitement des corrections incomplètes
 
 Si une correction ne se termine pas, un avertissement s’affiche sur la carte de correction. Si cela se produit, vous pouvez utiliser l’action **Réinitialiser** pour rétablir la correction à un statut de brouillon et annuler les modifications. Vous pouvez ensuite exécuter à nouveau la correction.
 
