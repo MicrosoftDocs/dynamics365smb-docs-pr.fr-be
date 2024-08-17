@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-production-orders"></a>À propos des ordres de fabrication
+# À propos des ordres de fabrication
 
 Les ordres de fabrication permettent de gérer la conversion de matières achetées en articles fabriqués. La gamme des ordres de fabrication utilise divers centres de charge ou postes de charge de l’atelier.  
 
@@ -32,7 +32,7 @@ Les ordres de fabrication sont les points de départ pour :
 - le contrôle de la fabrication en cours ;  
 - la traçabilité de la fabrication terminée.  
 
-## <a name="production-order-creation"></a>Création des ordres de fabrication
+## Création des ordres de fabrication  
 
 Créer des ordres de fabrication un par un manuellement sur la page **Ordre de fabrication** ou de les générer sur les pages **Commande vente Planning** et/ou **Planning commande**. Créez aussi La page **Feuille planning** permet de générer plusieurs ordres.  
 
@@ -44,7 +44,7 @@ Créez ordres de fabrication à l’aide d’informations provenant des élémen
 - postes de charge ;  
 - centres de charge ;  
 
-## <a name="limitations-on-creating-production-orders"></a>Limitations sur la création d’ordres de fabrication
+## Limitations sur la création d’ordres de fabrication  
 
 Les ordres de fabrication sont automatiquement réservés et tracés sur leur source quand ils sont :  
 
@@ -57,18 +57,18 @@ Pour plus d’informations, voir [Suivre les relations entre l’offre et la dem
 
 Les ordres de fabrication créés par d’autres moyens ne sont pas automatiquement réservés et tracés.
 
-## <a name="production-order-status"></a>Statut de l’ordre de fabrication
+## Statut de l’ordre de fabrication  
 
 Le statut de l’ordre de fabrication contrôle la manière dont l’ordre de fabrication se comporte dans l’application. Le statut de l’ordre dictés La forme et le contenu de la production. Les ordres de fabrication sont affichés sur différentes pages en fonction de leur statut. Impossible modifier le statut d’un ordre de fabrication manuellement. Vous devez utiliser la fonction **Modifier statut** dans l’ordre de fabrication individuel ou dans la page **Changer statut O.F.**.  
 
-### <a name="simulated-production-order"></a>O.F. simulé
+### O.F. simulé  
 
 Un ordre de fabrication simulé est unique en raison des caractéristiques suivantes :  
 
 - Comme son nom l’indique, il s’agit d’une simulation que vous pouvez utiliser pour les devis et les coûts. Par exemple, lorsque le service Recherche et Développement souhaite obtenir une estimation du coût d’un article proposé. Un ordre de fabrication simulé fait office d'exemple d'ordre de fabrication.  
 - Ils n’influencent par le planning commande. Le planning (PDP et MRP) ne prend pas en considération et n’est pas affecté par les ordres de fabrication simulés. De même, un ordre de fabrication simulé ne peut pas être utilisé comme modèle parce qu’il disparaît lorsque vous modifiez son statut.  
 
-### <a name="planned-production-order"></a>O.F. planifié
+### O.F. planifié  
 
 Un ordre de fabrication planifié est unique en raison des caractéristiques suivantes :  
 
@@ -78,7 +78,7 @@ Un ordre de fabrication planifié est unique en raison des caractéristiques sui
 - Sa génération dans le planning produit un « lancement prévu » suggéré qui inclut une quantité, une date de lancement et une date d'échéance. La logique du système de planning est basée sur le système de réapprovisionnement, les méthodes de réapprovisionnement et les modificateurs d'ordre qu'il rencontre dans le processus de planning des besoins nets.  
 - Pour afficher leur impact, examinez la charge de chaque centre de charge ou poste de charge sur la gamme de l’ordre de fabrication planifié.  
 
-### <a name="firm-planned-production-order"></a>O.F. planifié ferme
+### O.F. planifié ferme  
 
 Un ordre de fabrication planifié ferme est unique en raison des caractéristiques suivantes :  
 
@@ -88,7 +88,7 @@ Un ordre de fabrication planifié ferme est unique en raison des caractéristiqu
 - Sa génération dans le planning produit un « lancement prévu » suggéré qui inclut une quantité, une date de lancement et une date d'échéance. La logique du système de planning est basée sur le système de réapprovisionnement, les méthodes de réapprovisionnement et les modificateurs d'ordre qu'il rencontre dans le processus de planning des besoins nets.  
 - Pour afficher leur impact, examinez la charge de chaque centre de charge ou poste de charge sur la gamme de l’ordre de fabrication planifié ferme.  
 
-### <a name="released-production-order"></a>O.F. lancé
+### O.F. lancé  
 
 L’ordre de fabrication lancé est unique en raison des caractéristiques suivantes :  
 
@@ -97,7 +97,7 @@ L’ordre de fabrication lancé est unique en raison des caractéristiques suiva
 - Dans un environnement MTO (fabrication à la commande), il n’est pas rare de créer un ordre de fabrication lancé immédiatement après l’entrée de l’ordre de fabrication.  
 - Vous pouvez enregistrer la consommation de matières et la production réelles manuellement avec un ordre de fabrication lancé. En outre, la consommation automatique de matières et de production n'intervient que pour les ordres de fabrication lancés.  
 
-### <a name="finished-production-order"></a>O.F. terminé
+### O.F. terminé  
 
 Un ordre de fabrication terminé est unique en raison des caractéristiques suivantes :  
 
@@ -106,7 +106,7 @@ Un ordre de fabrication terminé est unique en raison des caractéristiques suiv
 - Les ordres de fabrication terminés sont utilisés pour générer des états statistiques et prendre en charge la possibilité de remonter à d'autres ordres (ventes, production et achat, par exemple). La possibilité de remonter à un ordre de fabrication terminé permet d'examiner l'historique détaillé.  
 - Il n'est jamais possible de modifier des ordres de fabrication terminés.  
 
-## <a name="production-order-execution"></a>Exécution d’un ordre de fabrication
+## Exécution d’un ordre de fabrication  
 
 Après un ordre de fabrication a été créé et planifié, il doit être lancé à l’atelier pour exécution. Durant l'exécution de l'ordre, vous enregistrez les éléments suivants :  
 
@@ -116,7 +116,7 @@ Après un ordre de fabrication a été créé et planifié, il doit être lancé
 
 Vous pouvez enregistrer ces informations manuellement ou via une génération d'état automatique. La méthode dépend de la configuration du champ Méthode de rinçage sur l’article et le poste de travail.  
 
-### <a name="material-consumption"></a>Consommation matière
+### Consommation matière  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] propose diverses options pour enregistrer la consommation de matériaux. Par exemple, une consommation matière peut être enregistrée manuellement, ce qui peut être souhaitable en cas de remplacements fréquents de composants ou de rebuts plus importants que prévu.  
 
@@ -133,7 +133,7 @@ En amont, la génération d’états de consommation enregistre la quantité ré
 
 Lors de l'actualisation de l'ordre de fabrication, la méthode consommation est copiée à partir de la fiche article. Comme la méthode consommation de chaque ordre de fabrication contrôle le mode et le moment d’enregistrement de la consommation, il est important de noter que vous pouvez modifier la méthode de consommation d’articles spécifiques directement dans l’ordre de fabrication. Pour plus d’informations, voir [Consommer en aval des composants en fonction de la production réalisée](production-how-to-flush-components-according-to-operation-output.md).
 
-### <a name="production-output"></a>Production
+### Production  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] offre la possibilité de suivre le temps consacré à un ordre de fabrication, en plus de l'enregistrement de la quantité produite. Ces informations permettent de déterminer plus précisément les coûts de production. De même, les fabricants utilisant un système d’évaluation standard peuvent souhaiter enregistrer des informations réelles afin de pouvoir développer de meilleures normes.  
 
@@ -145,13 +145,13 @@ En aval, cette méthode enregistre la production prévue (et le temps), qui est 
 
 En amont, cette méthode enregistre la production prévue (et le temps), qui est automatiquement enregistrée à la fin d’un ordre de fabrication. Les codes lien gamme n’interviennent pas comme facteurs dans la consommation en amont de la production.  
 
-### <a name="posting-consumption-and-output"></a>Validation de la consommation et de la production
+### Validation de la consommation et de la production  
 
 Vous pouvez utiliser toute combinaison d'informations de consommation automatique et enregistrées manuellement tant pour la consommation que pour la production. Par exemple, vous pouvez consommer automatiquement en aval des composants, tout en utilisant la feuille consommation pour enregistrer les rebuts. De même, vous pouvez enregistrer automatiquement la production tout en utilisant la feuille production pour enregistrer les rebuts de l’article parent ou le temps supplémentaire consacré au traitement de l’ordre.  
 
 Enfin, si vous entrez une consommation et une production manuellement, vous devez déterminer l’ordre dans lequel vous allez enregistrer ces informations. Vous pouvez commencer par enregistrer une consommation, puis utiliser une méthode de raccourci pour entrer les informations, basée sur une quantité de production prévue. Vous pouvez également commencer par entrer une production en utilisant la fonction **Éclater gamme**. Vous enregistrez ensuite une consommation sur la base de la quantité de production réelle.  
 
-### <a name="production-journal"></a>Feuille production
+### Feuille production  
 
 La [feuille production](production-how-to-register-consumption-and-output.md) combine les fonctions de la feuille consommation et des feuilles production dans une seule feuille, directement accessible depuis l'ordre de fabrication lancé.  
 
@@ -178,7 +178,7 @@ Toutefois, la feuille production diffère des feuilles production et consommatio
 
 Dans la feuille production, les quantités consommées sont validées comme écritures comptables article négatives, les quantités produites sont validées comme écritures comptables article positives et les heures sont validées comme écritures comptables capacité.  
 
-## <a name="see-also"></a>Voir aussi
+## Voir aussi
 
 [Production](production-manage-manufacturing.md)
 [Paramétrage de la production](production-configure-production-processes.md)  
